@@ -9,19 +9,24 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "test": "node --test --test-isolation=none --test-reporter=spec tests/*.test.ts",
-    "build": "vite build --config apps/web/vite.config.ts",
+    "build": "vite build --config apps/web/vite.config.ts && node scripts/package-inventory.mjs",
     "dev": "vite --config apps/web/vite.config.ts",
     "preview": "vite preview --config apps/web/vite.config.ts --host 127.0.0.1",
     "check": "npm run typecheck && npm test && npm run build",
     "deploy:staging": "npm run check && wrangler deploy --config workers/api/wrangler.jsonc --env staging",
     "deploy:production": "npm run check && wrangler deploy --config workers/api/wrangler.jsonc --env production",
-    "test:e2e": "npm run build && playwright test --reporter=list"
+    "test:e2e": "npm run build && playwright test --reporter=list",
+    "test:db": "node --test --test-isolation=none tests/database.test.ts",
+    "inventory:imports": "node scripts/generate-museum-imports.mjs",
+    "pretest": "node scripts/generate-museum-imports.mjs"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8",
     "@playwright/test": "^1.63.0",
     "@types/node": "^24.0.0",
     "@types/react": "^19.2.0",
