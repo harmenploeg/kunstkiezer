@@ -1,13 +1,13 @@
-# Publicatie via Cloudflare Pages
+# Publiceren naar Loci
 
-Het hoofdproject is `interactief`, gekoppeld aan `harmenploeg/interactief` en `https://www.loci-amsterdam.nl/`. DNS voor dit domein staat niet als zone in het getoonde Cloudflare-account; een Workers-route op projectamsterdam.org is niet bruikbaar voor deze publicatie.
+Het productiedomein is **https://www.loci-amsterdam.nl/kunstkiezer/**. De workflow `preview-pages.yml` publiceert alleen `kunstkiezer.pages.dev`; een succesvolle preview-deployment bevestigt geen productiepublicatie.
 
-De fase-1-integratie staat in https://github.com/harmenploeg/interactief/pull/2. Die bevat de gebouwde frontend onder `kunstkiezer/`, de Pages Function voor routes en health, het uitgebreide publicatiemanifest en een serviceworker-uitzondering voor deze submap.
+Productie gebruikt de bestaande gecontroleerde publicatieketen van `harmenploeg/interactief`:
 
-De bestaande Loci-workflow controleert eerst het volledige publicatiepakket. Na samenvoegen op main publiceert die hetzelfde gecontroleerde artifact naar Pages-project interactief. Deze workflow gebruikt zijn bestaande Loci-publicatiesecrets en database-/Access-controles; de nieuwe Kunstkiezer-secret kan niet rechtstreeks door de andere private repository worden gelezen.
+1. Test Kunstkiezer met `npm run check` en de relevante browsertests, bouw de te publiceren revisie.
+2. Gebruik een schone, actuele checkout van `harmenploeg/interactief` en voer vanuit Kunstkiezer `node scripts/sync-loci.mjs /pad/naar/interactief` uit.
+3. Controleer daar de wijzigingen, `npm run check:release` en `node --test tests/kunstkiezer-pages.test.mjs`.
+4. Commit en push de integratie naar `interactief/main`. Wacht op `Controleer LOCI-publicatiepakket`, inclusief de herbruikbare `deploy-checked.yml`-workflow. Omzeil deze controles niet door het hele Pages-project handmatig met alleen Kunstkiezer te overschrijven.
+5. De productiecontrole vergelijkt `/kunstkiezer/version.json`, pagina’s, alle JS/CSS-assets en de databaseconfiguratie met de gecontroleerde bronrevisie. Pas na een geslaagde productierun is de wijziging live op het echte domein.
 
-In Kunstkiezer zijn `CLOUDFLARE_API_TOKEN` (secret) en `CLOUDFLARE_ACCOUNT_ID` (variable) voorbereid voor toekomstige workflows. De workflow Publicatievoorbereiding bouwt alleen een artifact en voert geen deployment uit.
-
-Volgende versies worden in deze bronrepository ontwikkeld en getest. Vervang daarna de gegenereerde build in de hoofdrepository, werk het publicatiemanifest bij en doorloop opnieuw de bestaande controles. Dit handmatige uitgaveproces kan later worden geautomatiseerd met expliciet geregelde toegang tussen de repositories.
-
-De Worker-config blijft beschikbaar voor lokale ontwikkeltests; gebruik die niet voor deze Pages-productieomgeving. Accounts, Supabase en catalogusgegevens zijn nog niet geïmplementeerd.
+De integratie laat de Loci-hoofdapp, toegangsbescherming en onderhoudsstand intact. De publieke Supabase-browserconfiguratie bevat geen beheersleutel. De serviceworker van Loci slaat Kunstkiezer over. Oude browseropslag op de preview wordt niet automatisch naar het productiedomein overgezet.
