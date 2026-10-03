@@ -1,0 +1,17 @@
+/* Ontleend aan harmenploeg/loci, styles.css: accent, typografie en radius-schaal. */
+:root {
+  color-scheme: light;
+  --accent: #ef3850;
+  --accent-deep: #d92440;
+  --accent-tint: #fff2f4;
+  --ink: #111111;
+  --muted: #6e6e73;
+  --surface: #ffffff;
+  --surface-2: #f0f0f0;
+  --border: #e6e6e6;
+  --radius-s: 12px;
+  --radius-m: 18px;
+  --radius-l: 22px;
+  --radius-pill: 999px;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Arial, sans-serif;
+}
