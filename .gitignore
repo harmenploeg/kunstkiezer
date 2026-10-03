@@ -11,3 +11,5 @@ test-results/
 .dev.vars.*
 supabase/.temp/
 supabase/.branches/
+# Reproduceerbaar uit data/museums/inventory.json
+supabase/imports/
