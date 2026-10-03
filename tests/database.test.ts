@@ -60,3 +60,27 @@ test('Collectietekst maximaal 80 woorden en foto’s blijven bewaard',async()=>{
  await assert.rejects(db.query('select * from public.kk_save_museum($1,null,null,$2)',[{...good,photos:[{url:'javascript:alert(1)'}]},'']));
  }finally{await db.close();}
 });
+
+test('Landelijke kunstuitbreiding is herhaalbaar en beschermt bestaande kunst en redactiewerk',async()=>{
+ const db=await database();try{
+ for(const file of readdirSync('supabase/imports').filter(f=>f.endsWith('.sql')).sort())await db.exec(readFileSync(`supabase/imports/${file}`,'utf8'));
+ const additions=JSON.parse(readFileSync('data/museums/art-expansion-2026-10-03.json','utf8'));
+ const existing=(await db.query<{id:string}>('select id from public.kk_museums where id=any($1::uuid[]) limit 2',[additions.map((r:{id:string})=>r.id)])).rows;
+ assert.equal(existing.length,2);
+ await db.query("update public.kk_museums set is_art_museum=true,summary='Bestaande kunsttekst' where id=$1",[existing[0]!.id]);
+ await role(db,'authenticated',editor);
+ const edited=(await db.query<{updated_at:Date}>('select updated_at from public.kk_museums where id=$1',[existing[1]!.id])).rows[0]!;
+ await db.query('select * from public.kk_save_museum($1,$2,$3,$4)',[{...payload,is_art_museum:false,name:'Bewust bewerkt'},existing[1]!.id,edited.updated_at,'Behoud notitie']);
+ await db.exec('reset role');await db.query("select set_config('request.jwt.claim.sub','',false)");
+ const files=readdirSync('supabase/art-imports').filter(f=>f.endsWith('.sql')).sort();
+ for(const file of files)await db.exec(readFileSync(`supabase/art-imports/${file}`,'utf8'));
+ assert.equal((await db.query<{summary:string}>('select summary from public.kk_museums where id=$1',[existing[0]!.id])).rows[0]!.summary,'Bestaande kunsttekst');
+ assert.equal((await db.query<{name:string}>('select name from public.kk_museums where id=$1',[existing[1]!.id])).rows[0]!.name,'Bewust bewerkt');
+ const snapshot=await db.query('select * from public.kk_museums order by id');
+ const notes=await db.query('select * from public.kk_museum_editorial order by museum_id');
+ for(const file of files)await db.exec(readFileSync(`supabase/art-imports/${file}`,'utf8'));
+ assert.deepEqual((await db.query('select * from public.kk_museums order by id')).rows,snapshot.rows);
+ assert.deepEqual((await db.query('select * from public.kk_museum_editorial order by museum_id')).rows,notes.rows);
+ await role(db,'anon');assert.equal((await db.query('select * from public.kk_museums')).rows.length,0);
+ }finally{await db.close();}
+});

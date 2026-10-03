@@ -1,0 +1,3079 @@
+{
+  "date": "2026-10-03",
+  "scope": "Beeldende kunst, fotografie, design, kunstenaarsmusea, kunsthallen en instellingen met structureel publiek kunstprogramma. Algemene erfgoedlocaties met kunst als bijzaak uitgesloten.",
+  "whichmuseum": [
+    {
+      "name": "Van Gogh Museum",
+      "url": "https://whichmuseum.nl/museum/van-gogh-museum-amsterdam-181",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Rijksmuseum",
+      "url": "https://whichmuseum.nl/museum/rijksmuseum-amsterdam-286",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Mauritshuis",
+      "url": "https://whichmuseum.nl/museum/mauritshuis-den-haag-339",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "H'ART Museum",
+      "url": "https://whichmuseum.nl/museum/h-art-museum-amsterdam-41344",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Panorama Mesdag",
+      "url": "https://whichmuseum.nl/museum/museum-panorama-mesdag-den-haag-242",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Kröller-Müller Museum",
+      "url": "https://whichmuseum.nl/museum/kroller-muller-museum-otterlo-18",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Kunstmuseum Den Haag",
+      "url": "https://whichmuseum.nl/museum/kunstmuseum-den-haag-77",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Boijmans Van Beuningen",
+      "url": "https://whichmuseum.nl/museum/museum-boijmans-van-beuningen-rotterdam-142",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum MORE",
+      "url": "https://whichmuseum.nl/museum/museum-more-gorssel-1119",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Frans Hals Museum (Groot Heiligland 62)",
+      "url": "https://whichmuseum.nl/museum/frans-hals-museum-groot-heiligland-62-haarlem-198",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Teylers Museum",
+      "url": "https://whichmuseum.nl/museum/teylers-museum-haarlem-114",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Zuiderzeemuseum",
+      "url": "https://whichmuseum.nl/museum/zuiderzeemuseum-enkhuizen-337",
+      "decision": "exclude",
+      "reason": "Regionale leefgeschiedenis; kunst is niet de hoofdfunctie"
+    },
+    {
+      "name": "Kasteel De Haar",
+      "url": "https://whichmuseum.nl/museum/kasteel-de-haar-haarzuilens-39",
+      "decision": "exclude",
+      "reason": "Algemeen kasteel en landgoed"
+    },
+    {
+      "name": "Kijk-kubus",
+      "url": "https://whichmuseum.nl/museum/kijk-kubus-rotterdam-587",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Drents Museum",
+      "url": "https://whichmuseum.nl/museum/drents-museum-assen-79",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Rietveld Schröderhuis",
+      "url": "https://whichmuseum.nl/museum/rietveld-schroderhuis-utrecht-1254",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Groninger Museum",
+      "url": "https://whichmuseum.nl/museum/groninger-museum-groningen-82",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Vermeer Centrum Delft",
+      "url": "https://whichmuseum.nl/museum/vermeer-centrum-delft-679",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Kunsthal Rotterdam",
+      "url": "https://whichmuseum.nl/museum/kunsthal-rotterdam-224",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Wereldmuseum Amsterdam",
+      "url": "https://whichmuseum.nl/museum/wereldmuseum-amsterdam-289",
+      "decision": "exclude",
+      "reason": "Cultuurhistorisch/volkenkundig museum"
+    },
+    {
+      "name": "H´ART Museum",
+      "url": "https://whichmuseum.nl/museum/h-art-museum-amsterdam-261",
+      "decision": "exclude",
+      "reason": "Dubbele vermelding van H’ART (index 3)"
+    },
+    {
+      "name": "EYE",
+      "url": "https://whichmuseum.nl/museum/eye-amsterdam-222",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Stedelijk Museum Amsterdam",
+      "url": "https://whichmuseum.nl/museum/stedelijk-museum-amsterdam-341",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Fabrique des Lumières",
+      "url": "https://whichmuseum.nl/museum/fabrique-des-lumieres-amsterdam-10309",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Van Abbemuseum",
+      "url": "https://whichmuseum.nl/museum/van-abbemuseum-eindhoven-191",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum de Fundatie",
+      "url": "https://whichmuseum.nl/museum/museum-de-fundatie-zwolle-218",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Dordrechts Museum",
+      "url": "https://whichmuseum.nl/museum/dordrechts-museum-91",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Prinsenhof Delft",
+      "url": "https://whichmuseum.nl/museum/museum-prinsenhof-delft-175",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum De Lakenhal",
+      "url": "https://whichmuseum.nl/museum/museum-de-lakenhal-leiden-149",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Amsterdam Museum",
+      "url": "https://whichmuseum.nl/museum/amsterdam-museum-258",
+      "decision": "exclude",
+      "reason": "Stadsgeschiedenis als hoofdfunctie"
+    },
+    {
+      "name": "Beelden aan Zee",
+      "url": "https://whichmuseum.nl/museum/beelden-aan-zee-scheveningen-172",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Jheronimus Bosch Art Center",
+      "url": "https://whichmuseum.nl/museum/jheronimus-bosch-art-center-s-hertogenbosch-1010",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Keramiekmuseum Princessehof",
+      "url": "https://whichmuseum.nl/museum/keramiekmuseum-princessehof-leeuwarden-102",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Paleis Het Loo",
+      "url": "https://whichmuseum.nl/museum/paleis-het-loo-apeldoorn-340",
+      "decision": "exclude",
+      "reason": "Koninklijke geschiedenis als hoofdfunctie"
+    },
+    {
+      "name": "Escher in Het  Paleis",
+      "url": "https://whichmuseum.nl/museum/escher-in-het-paleis-den-haag-210",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Huis Willet-Holthuysen",
+      "url": "https://whichmuseum.nl/museum/huis-willet-holthuysen-amsterdam-296",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Koninklijk Paleis Amsterdam",
+      "url": "https://whichmuseum.nl/museum/koninklijk-paleis-amsterdam-687",
+      "decision": "exclude",
+      "reason": "Paleisbezoek als hoofdfunctie"
+    },
+    {
+      "name": "Museum Het Rembrandthuis",
+      "url": "https://whichmuseum.nl/museum/museum-het-rembrandthuis-amsterdam-161",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Het Noordbrabants Museum",
+      "url": "https://whichmuseum.nl/museum/het-noordbrabants-museum-s-hertogenbosch-203",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "De Mesdag Collectie",
+      "url": "https://whichmuseum.nl/museum/de-mesdag-collectie-den-haag-317",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Van Gogh Kerk Etten-Leur",
+      "url": "https://whichmuseum.nl/museum/van-gogh-kerk-etten-leur-40335",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Grachtenmuseum",
+      "url": "https://whichmuseum.nl/museum/grachtenmuseum-amsterdam-937",
+      "decision": "exclude",
+      "reason": "Ontstaansgeschiedenis Amsterdamse grachten"
+    },
+    {
+      "name": "De Pont Museum",
+      "url": "https://whichmuseum.nl/museum/de-pont-museum-tilburg-131",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Huis Van Gijn",
+      "url": "https://whichmuseum.nl/museum/huis-van-gijn-dordrecht-88",
+      "decision": "exclude",
+      "reason": "Historische wooncultuur als hoofdfunctie"
+    },
+    {
+      "name": "Museum Catharijneconvent",
+      "url": "https://whichmuseum.nl/museum/museum-catharijneconvent-utrecht-187",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Nederlands Fotomuseum",
+      "url": "https://whichmuseum.nl/museum/nederlands-fotomuseum-rotterdam-371",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Van Loon",
+      "url": "https://whichmuseum.nl/museum/museum-van-loon-amsterdam-112",
+      "decision": "exclude",
+      "reason": "Historisch familiehuis als hoofdfunctie"
+    },
+    {
+      "name": "Bonnefanten museum",
+      "url": "https://whichmuseum.nl/museum/bonnefanten-museum-maastricht-74",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Stedelijk Museum Alkmaar",
+      "url": "https://whichmuseum.nl/museum/stedelijk-museum-alkmaar-115",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "TextielMuseum",
+      "url": "https://whichmuseum.nl/museum/textielmuseum-tilburg-188",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Nieuwe Instituut",
+      "url": "https://whichmuseum.nl/museum/nieuwe-instituut-rotterdam-545",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Slot Zeist",
+      "url": "https://whichmuseum.nl/museum/slot-zeist-567",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Gouda",
+      "url": "https://whichmuseum.nl/museum/museum-gouda-106",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Singer Laren",
+      "url": "https://whichmuseum.nl/museum/singer-laren-laren-nh-118",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Fries Museum",
+      "url": "https://whichmuseum.nl/museum/fries-museum-leeuwarden-252",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Valkhof Museum",
+      "url": "https://whichmuseum.nl/museum/valkhof-museum-nijmegen-73",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Beeldengalerij Het Depot",
+      "url": "https://whichmuseum.nl/museum/beeldengalerij-het-depot-wageningen-1097",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Nederlands Instituut voor Beeld & Geluid",
+      "url": "https://whichmuseum.nl/museum/nederlands-instituut-voor-beeld-geluid-hilversum-479",
+      "decision": "exclude",
+      "reason": "Mediawijsheid en mediageschiedenis"
+    },
+    {
+      "name": "Museum Amersfoort",
+      "url": "https://whichmuseum.nl/museum/museum-amersfoort-139",
+      "decision": "exclude",
+      "reason": "Stadsgeschiedenis als hoofdfunctie"
+    },
+    {
+      "name": "Stedelijk Museum Kampen",
+      "url": "https://whichmuseum.nl/museum/stedelijk-museum-kampen-85",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Japanmuseum SieboldHuis",
+      "url": "https://whichmuseum.nl/museum/japanmuseum-sieboldhuis-leiden-137",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Electric Ladyland",
+      "url": "https://whichmuseum.nl/museum/electric-ladyland-amsterdam-629",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Bredius",
+      "url": "https://whichmuseum.nl/museum/museum-bredius-den-haag-19",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Zeeuws Museum",
+      "url": "https://whichmuseum.nl/museum/zeeuws-museum-middelburg-204",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Anno",
+      "url": "https://whichmuseum.nl/museum/museum-anno-zwolle-259",
+      "decision": "exclude",
+      "reason": "Stads- en streekgeschiedenis als hoofdfunctie"
+    },
+    {
+      "name": "Museum Belvédère",
+      "url": "https://whichmuseum.nl/museum/museum-belvedere-oranjewoud-343",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Cobra Museum",
+      "url": "https://whichmuseum.nl/museum/cobra-museum-amstelveen-78",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Maelwael Van Lymborch Huis",
+      "url": "https://whichmuseum.nl/museum/maelwael-van-lymborch-huis-nijmegen-8013",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Kranenburgh",
+      "url": "https://whichmuseum.nl/museum/museum-kranenburgh-bergen-nh-304",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum de Fundatie",
+      "url": "https://whichmuseum.nl/museum/museum-de-fundatie-heino-1288",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Het Schip",
+      "url": "https://whichmuseum.nl/museum/museum-het-schip-amsterdam-71",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "museum Voorlinden",
+      "url": "https://whichmuseum.nl/museum/museum-voorlinden-wassenaar-714",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Foam Fotografiemuseum Amsterdam",
+      "url": "https://whichmuseum.nl/museum/foam-fotografiemuseum-amsterdam-276",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Huis Sonneveld",
+      "url": "https://whichmuseum.nl/museum/huis-sonneveld-rotterdam-1298",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "LAM museum",
+      "url": "https://whichmuseum.nl/museum/lam-museum-lisse-740",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Marius van Dokkum Museum",
+      "url": "https://whichmuseum.nl/museum/marius-van-dokkum-museum-harderwijk-7860",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Rijksmuseum Twenthe",
+      "url": "https://whichmuseum.nl/museum/rijksmuseum-twenthe-enschede-111",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Design Museum Den Bosch",
+      "url": "https://whichmuseum.nl/museum/design-museum-den-bosch-s-hertogenbosch-328",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Villa Mondriaan",
+      "url": "https://whichmuseum.nl/museum/villa-mondriaan-winterswijk-1092",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Fotomuseum aan het Vrijthof",
+      "url": "https://whichmuseum.nl/museum/fotomuseum-aan-het-vrijthof-maastricht-76",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Kasteel Groeneveld",
+      "url": "https://whichmuseum.nl/museum/kasteel-groeneveld-baarn-50",
+      "decision": "exclude",
+      "reason": "Landgoed, natuur en erfgoed"
+    },
+    {
+      "name": "Kasteel Huis Bergh",
+      "url": "https://whichmuseum.nl/museum/kasteel-huis-bergh-s-heerenberg-171",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Voerman Museum Hattem",
+      "url": "https://whichmuseum.nl/museum/voerman-museum-hattem-16",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Centraal Museum",
+      "url": "https://whichmuseum.nl/museum/centraal-museum-utrecht-257",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Het Dordts Patriciërshuis",
+      "url": "https://whichmuseum.nl/museum/het-dordts-patriciershuis-dordrecht-579",
+      "decision": "exclude",
+      "reason": "Historische wooncultuur als hoofdfunctie"
+    },
+    {
+      "name": "Cube design museum",
+      "url": "https://whichmuseum.nl/museum/cube-design-museum-kerkrade-1286",
+      "decision": "exclude",
+      "reason": "Sinds 2021 opgegaan in Discovery Museum; geen zelfstandige kunstlocatie"
+    },
+    {
+      "name": "Stedelijk Museum Breda",
+      "url": "https://whichmuseum.nl/museum/stedelijk-museum-breda-1329",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum MORE | Kasteel Ruurlo",
+      "url": "https://whichmuseum.nl/museum/museum-more-kasteel-ruurlo-5164",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "SCHUNCK",
+      "url": "https://whichmuseum.nl/museum/schunck-heerlen-143",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Jopie Huisman Museum",
+      "url": "https://whichmuseum.nl/museum/jopie-huisman-museum-workum-247",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Galerij Prins Willem V",
+      "url": "https://whichmuseum.nl/museum/galerij-prins-willem-v-den-haag-306",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Moco Museum",
+      "url": "https://whichmuseum.nl/museum/moco-museum-amsterdam-1306",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Valse kunst",
+      "url": "https://whichmuseum.nl/museum/museum-valse-kunst-vledder-681",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Fotomuseum Den Haag",
+      "url": "https://whichmuseum.nl/museum/fotomuseum-den-haag-308",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Huis Marseille, Museum voor Fotografie",
+      "url": "https://whichmuseum.nl/museum/huis-marseille-museum-voor-fotografie-amsterdam-135",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum 't Oude Slot",
+      "url": "https://whichmuseum.nl/museum/museum-t-oude-slot-veldhoven-147",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Stedelijk Museum Schiedam",
+      "url": "https://whichmuseum.nl/museum/stedelijk-museum-schiedam-121",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Nationaal Glasmuseum",
+      "url": "https://whichmuseum.nl/museum/nationaal-glasmuseum-leerdam-157",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Krona",
+      "url": "https://whichmuseum.nl/museum/museum-krona-uden-15",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Anton Pieck Museum",
+      "url": "https://whichmuseum.nl/museum/anton-pieck-museum-hattem-183",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum van Bommel van Dam",
+      "url": "https://whichmuseum.nl/museum/museum-van-bommel-van-dam-venlo-104",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Katwijks Museum",
+      "url": "https://whichmuseum.nl/museum/katwijks-museum-119",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "CODA",
+      "url": "https://whichmuseum.nl/museum/coda-apeldoorn-156",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Martena",
+      "url": "https://whichmuseum.nl/museum/museum-martena-franeker-369",
+      "decision": "exclude",
+      "reason": "Stadsgeschiedenis en universiteitshistorie"
+    },
+    {
+      "name": "Het Nieuwe Domein - Erfgoed",
+      "url": "https://whichmuseum.nl/museum/het-nieuwe-domein-erfgoed-sittard-41",
+      "decision": "exclude",
+      "reason": "Erfgoedlocatie; kunstlocatie afzonderlijk opgenomen (281)"
+    },
+    {
+      "name": "De Nollen",
+      "url": "https://whichmuseum.nl/museum/de-nollen-den-helder-446",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Van Gogh Village Museum",
+      "url": "https://whichmuseum.nl/museum/van-gogh-village-museum-nuenen-46",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Hildo Krop Museum",
+      "url": "https://whichmuseum.nl/museum/hildo-krop-museum-steenwijk-5174",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Musiom",
+      "url": "https://whichmuseum.nl/museum/musiom-amersfoort-7889",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "MU Hybrid Art House",
+      "url": "https://whichmuseum.nl/museum/mu-hybrid-art-house-eindhoven-7985",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum EICAS",
+      "url": "https://whichmuseum.nl/museum/museum-eicas-deventer-8049",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Nationaal Grammofoonmuseum",
+      "url": "https://whichmuseum.nl/museum/nationaal-grammofoonmuseum-nieuwleusen-852",
+      "decision": "exclude",
+      "reason": "Geluidsapparatuur en techniek"
+    },
+    {
+      "name": "Museum Slager",
+      "url": "https://whichmuseum.nl/museum/museum-slager-s-hertogenbosch-122",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Joure",
+      "url": "https://whichmuseum.nl/museum/museum-joure-30",
+      "decision": "exclude",
+      "reason": "Ambachten en industrie als hoofdfunctie"
+    },
+    {
+      "name": "Museum Dr8888",
+      "url": "https://whichmuseum.nl/museum/museum-dr8888-drachten-464",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Vincent van GoghHuis",
+      "url": "https://whichmuseum.nl/museum/vincent-van-goghhuis-zundert-354",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Land van Valkenburg",
+      "url": "https://whichmuseum.nl/museum/museum-land-van-valkenburg-valkenburg-lb-94",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Oude Kerk",
+      "url": "https://whichmuseum.nl/museum/oude-kerk-amsterdam-282",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Chabot Museum",
+      "url": "https://whichmuseum.nl/museum/chabot-museum-rotterdam-189",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Het Cuypershuis",
+      "url": "https://whichmuseum.nl/museum/het-cuypershuis-roermond-468",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Noordwijk",
+      "url": "https://whichmuseum.nl/museum/museum-noordwijk-48",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Villa Zebra",
+      "url": "https://whichmuseum.nl/museum/villa-zebra-rotterdam-538",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Jan Cunen Oss",
+      "url": "https://whichmuseum.nl/museum/museum-jan-cunen-oss-12",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Noord-Veluws Museum Nunspeet",
+      "url": "https://whichmuseum.nl/museum/noord-veluws-museum-nunspeet-1261",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Sint Hubertus Kunstcentrum",
+      "url": "https://whichmuseum.nl/museum/sint-hubertus-kunstcentrum-genhout-1295",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "KM21",
+      "url": "https://whichmuseum.nl/museum/km21-den-haag-144",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Keramiekmuseum Tiendschuur",
+      "url": "https://whichmuseum.nl/museum/keramiekmuseum-tiendschuur-tegelen-150",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "FENIX",
+      "url": "https://whichmuseum.nl/museum/fenix-rotterdam-20062",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum IJsselstein",
+      "url": "https://whichmuseum.nl/museum/museum-ijsselstein-325",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Ikonenmuseum Kampen",
+      "url": "https://whichmuseum.nl/museum/ikonenmuseum-kampen-38",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "De Wieger Deurne",
+      "url": "https://whichmuseum.nl/museum/de-wieger-deurne-395",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Honig Breethuis",
+      "url": "https://whichmuseum.nl/museum/honig-breethuis-zaandijk-398",
+      "decision": "exclude",
+      "reason": "Historisch familiehuis als hoofdfunctie"
+    },
+    {
+      "name": "het MAG museum",
+      "url": "https://whichmuseum.nl/museum/het-mag-museum-ruurlo-7837",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Helmond - Kunsthal Helmond",
+      "url": "https://whichmuseum.nl/museum/museum-helmond-kunsthal-helmond-7855",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Cornelis Kruseman Stichting",
+      "url": "https://whichmuseum.nl/museum/cornelis-kruseman-stichting-den-haag-8469",
+      "decision": "research",
+      "reason": "Collectiebeherende stichting; vaste publieke bezoekmogelijkheid nog vaststellen"
+    },
+    {
+      "name": "De Casteelse Poort",
+      "url": "https://whichmuseum.nl/museum/de-casteelse-poort-wageningen-100",
+      "decision": "exclude",
+      "reason": "Stadsgeschiedenis als hoofdfunctie"
+    },
+    {
+      "name": "Museum JAN",
+      "url": "https://whichmuseum.nl/museum/museum-jan-amstelveen-101",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Henriette Polak",
+      "url": "https://whichmuseum.nl/museum/museum-henriette-polak-zutphen-14",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Stadskasteel Zaltbommel",
+      "url": "https://whichmuseum.nl/museum/museum-stadskasteel-zaltbommel-21",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Nederlands Steendrukmuseum",
+      "url": "https://whichmuseum.nl/museum/nederlands-steendrukmuseum-valkenswaard-324",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Nederlands Zilvermuseum Schoonhoven",
+      "url": "https://whichmuseum.nl/museum/nederlands-zilvermuseum-schoonhoven-390",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Stedelijk Museum Zutphen",
+      "url": "https://whichmuseum.nl/museum/stedelijk-museum-zutphen-40",
+      "decision": "exclude",
+      "reason": "Stadsgeschiedenis; kunstmuseum Henriette Polak afzonderlijk opgenomen"
+    },
+    {
+      "name": "Nederlands Tegelmuseum",
+      "url": "https://whichmuseum.nl/museum/nederlands-tegelmuseum-otterlo-453",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Van Gogh Huis Drenthe",
+      "url": "https://whichmuseum.nl/museum/van-gogh-huis-drenthe-veenoord-1199",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Stadhuismuseum Zierikzee",
+      "url": "https://whichmuseum.nl/museum/stadhuismuseum-zierikzee-329",
+      "decision": "exclude",
+      "reason": "Stads- en streekgeschiedenis"
+    },
+    {
+      "name": "Museum Paulina Bisdom van Vliet",
+      "url": "https://whichmuseum.nl/museum/museum-paulina-bisdom-van-vliet-haastrecht-445",
+      "decision": "exclude",
+      "reason": "Historisch woonhuis als hoofdfunctie"
+    },
+    {
+      "name": "Museum Møhlmann",
+      "url": "https://whichmuseum.nl/museum/museum-mohlmann-appingedam-640",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "De Nieuwe Kerk Amsterdam",
+      "url": "https://whichmuseum.nl/museum/de-nieuwe-kerk-amsterdam-342",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum No Hero",
+      "url": "https://whichmuseum.nl/museum/museum-no-hero-delden-7852",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Cultuurhuis Bergeijk",
+      "url": "https://whichmuseum.nl/museum/cultuurhuis-bergeijk-1031",
+      "decision": "include",
+      "reason": "Kunst/designpresentatie bevestigd op eigen website"
+    },
+    {
+      "name": "Museum Vaals",
+      "url": "https://whichmuseum.nl/museum/museum-vaals-1037",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Het Behouden Blik",
+      "url": "https://whichmuseum.nl/museum/het-behouden-blik-uithuizermeeden-1065",
+      "decision": "exclude",
+      "reason": "Verpakkingen en consumptiegeschiedenis"
+    },
+    {
+      "name": "Haags Historisch Museum",
+      "url": "https://whichmuseum.nl/museum/haags-historisch-museum-den-haag-108",
+      "decision": "exclude",
+      "reason": "Stadsgeschiedenis als hoofdfunctie"
+    },
+    {
+      "name": "Museum Helmond - Kasteel Helmond",
+      "url": "https://whichmuseum.nl/museum/museum-helmond-kasteel-helmond-109",
+      "decision": "exclude",
+      "reason": "Kasteelgeschiedenis; Kunsthal Helmond afzonderlijk opgenomen"
+    },
+    {
+      "name": "Kunstinstituut Melly",
+      "url": "https://whichmuseum.nl/museum/kunstinstituut-melly-rotterdam-113",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum De Waag",
+      "url": "https://whichmuseum.nl/museum/museum-de-waag-deventer-1277",
+      "decision": "exclude",
+      "reason": "Stadsgeschiedenis als hoofdfunctie"
+    },
+    {
+      "name": "Kunsthuis Waterland",
+      "url": "https://whichmuseum.nl/museum/kunsthuis-waterland-purmerend-1281",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum of Comic Art",
+      "url": "https://whichmuseum.nl/museum/museum-of-comic-art-noordwijk-12823",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Beurs van Berlage",
+      "url": "https://whichmuseum.nl/museum/beurs-van-berlage-amsterdam-1301",
+      "decision": "exclude",
+      "reason": "Congresgebouw met incidentele exposities"
+    },
+    {
+      "name": "Museum van de geest | Outsider Art",
+      "url": "https://whichmuseum.nl/museum/museum-van-de-geest-outsider-art-amsterdam-1304",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Koppelkerk - vrijplaats voor kunst & cultuur",
+      "url": "https://whichmuseum.nl/museum/koppelkerk-vrijplaats-voor-kunst-cultuur-bredevoort-1308",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Royal Delft",
+      "url": "https://whichmuseum.nl/museum/royal-delft-1322",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "West Den Haag",
+      "url": "https://whichmuseum.nl/museum/west-den-haag-1326",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Huygens Museum: Notarishuis",
+      "url": "https://whichmuseum.nl/museum/huygens-museum-notarishuis-voorburg-159",
+      "decision": "exclude",
+      "reason": "Stadsgeschiedenis als hoofdfunctie"
+    },
+    {
+      "name": "MOW I Museum Westerwolde",
+      "url": "https://whichmuseum.nl/museum/mow-i-museum-westerwolde-bellingwolde-170",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Stadsmuseum Grave",
+      "url": "https://whichmuseum.nl/museum/stadsmuseum-grave-177",
+      "decision": "exclude",
+      "reason": "Stadsgeschiedenis als hoofdfunctie"
+    },
+    {
+      "name": "Zandvoorts Museum",
+      "url": "https://whichmuseum.nl/museum/zandvoorts-museum-182",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Stadsmuseum Woerden",
+      "url": "https://whichmuseum.nl/museum/stadsmuseum-woerden-185",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Het Muizenhuis",
+      "url": "https://whichmuseum.nl/museum/het-muizenhuis-amsterdam-19149",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Zandverhalen",
+      "url": "https://whichmuseum.nl/museum/zandverhalen-elburg-21551",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Kasteel-Museum Sypesteyn",
+      "url": "https://whichmuseum.nl/museum/kasteel-museum-sypesteyn-loosdrecht-22",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Weesp",
+      "url": "https://whichmuseum.nl/museum/museum-weesp-228",
+      "decision": "exclude",
+      "reason": "Stadsgeschiedenis en maakindustrie"
+    },
+    {
+      "name": "TENT Rotterdam",
+      "url": "https://whichmuseum.nl/museum/tent-rotterdam-23",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Jan Heestershuis",
+      "url": "https://whichmuseum.nl/museum/museum-jan-heestershuis-schijndel-231",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Buitenplaats Kasteel Wijlre",
+      "url": "https://whichmuseum.nl/museum/buitenplaats-kasteel-wijlre-2396",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "KathedraalMuseum",
+      "url": "https://whichmuseum.nl/museum/kathedraalmuseum-haarlem-2399",
+      "decision": "exclude",
+      "reason": "Religieus erfgoed in kathedraal; kunstpresentatie niet primaire functie"
+    },
+    {
+      "name": "Drents Museum De Buitenplaats",
+      "url": "https://whichmuseum.nl/museum/drents-museum-de-buitenplaats-eelde-24",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "De Bergkerk",
+      "url": "https://whichmuseum.nl/museum/de-bergkerk-deventer-2401",
+      "decision": "research",
+      "reason": "Tentoonstellingsprogramma en zelfstandige kunstfunctie vaststellen"
+    },
+    {
+      "name": "Museum Nairac",
+      "url": "https://whichmuseum.nl/museum/museum-nairac-barneveld-262",
+      "decision": "exclude",
+      "reason": "Streekgeschiedenis/archeologie met incidentele kunst"
+    },
+    {
+      "name": "Museumgemaal Sudergemaal",
+      "url": "https://whichmuseum.nl/museum/museumgemaal-sudergemaal-nij-beets-292",
+      "decision": "exclude",
+      "reason": "Gemaalerfgoed met incidentele exposities"
+    },
+    {
+      "name": "Mondriaanhuis",
+      "url": "https://whichmuseum.nl/museum/mondriaanhuis-amersfoort-31",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Kunsthal KAdE",
+      "url": "https://whichmuseum.nl/museum/kunsthal-kade-amersfoort-344",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Elleboogkerk",
+      "url": "https://whichmuseum.nl/museum/elleboogkerk-amersfoort-35618",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Flessenscheepjes Museum",
+      "url": "https://whichmuseum.nl/museum/flessenscheepjes-museum-enkhuizen-360",
+      "decision": "exclude",
+      "reason": "Maritieme modelbouw"
+    },
+    {
+      "name": "Museum Oldenzaal",
+      "url": "https://whichmuseum.nl/museum/museum-oldenzaal-370",
+      "decision": "exclude",
+      "reason": "Stadsgeschiedenis als hoofdfunctie"
+    },
+    {
+      "name": "Museum Paul Tetar van Elven",
+      "url": "https://whichmuseum.nl/museum/museum-paul-tetar-van-elven-delft-378",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Marres, Huis voor Hedendaagse Cultuur",
+      "url": "https://whichmuseum.nl/museum/marres-huis-voor-hedendaagse-cultuur-maastricht-392",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "BAK, Basis voor Actuele Kunst",
+      "url": "https://whichmuseum.nl/museum/bak-basis-voor-actuele-kunst-utrecht-405",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum W",
+      "url": "https://whichmuseum.nl/museum/museum-w-weert-412",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Klooster Ter Apel",
+      "url": "https://whichmuseum.nl/museum/klooster-ter-apel-431",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Tongerlohuys",
+      "url": "https://whichmuseum.nl/museum/museum-tongerlohuys-roosendaal-44",
+      "decision": "exclude",
+      "reason": "Stadsgeschiedenis met incidentele kunst"
+    },
+    {
+      "name": "Ateliermuseum Jac Maris",
+      "url": "https://whichmuseum.nl/museum/ateliermuseum-jac-maris-heumen-458",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Ton Smits Huis",
+      "url": "https://whichmuseum.nl/museum/museum-ton-smits-huis-eindhoven-47",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Hannemahuis",
+      "url": "https://whichmuseum.nl/museum/hannemahuis-harlingen-477",
+      "decision": "exclude",
+      "reason": "Streekgeschiedenis als hoofdfunctie"
+    },
+    {
+      "name": "Bureau Europa",
+      "url": "https://whichmuseum.nl/museum/bureau-europa-maastricht-480",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "R.S.O.L. Art Space",
+      "url": "https://whichmuseum.nl/museum/r-s-o-l-art-space-deventer-48229",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Maastricht Museum",
+      "url": "https://whichmuseum.nl/museum/maastricht-museum-48283",
+      "decision": "exclude",
+      "reason": "Stadsgeschiedenis en archeologie"
+    },
+    {
+      "name": "Grote Kerk Vianen",
+      "url": "https://whichmuseum.nl/museum/grote-kerk-vianen-48499",
+      "decision": "exclude",
+      "reason": "Kerk en religieus erfgoed"
+    },
+    {
+      "name": "Museum Kasteel Wijchen",
+      "url": "https://whichmuseum.nl/museum/museum-kasteel-wijchen-485",
+      "decision": "exclude",
+      "reason": "Kasteelgeschiedenis en archeologie met incidentele kunst"
+    },
+    {
+      "name": "Diagoonwoning Delft",
+      "url": "https://whichmuseum.nl/museum/diagoonwoning-delft-48697",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "MUTEK - Museum voor Toegepaste Europese Kunst",
+      "url": "https://whichmuseum.nl/museum/mutek-museum-voor-toegepaste-europese-kunst-haarlem-48706",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Fort bij Asperen - Het Torenfort",
+      "url": "https://whichmuseum.nl/museum/fort-bij-asperen-het-torenfort-acquoy-5161",
+      "decision": "research",
+      "reason": "Oude website is hergebruikt; huidige structurele kunstfunctie nog vaststellen"
+    },
+    {
+      "name": "Kunstlinie",
+      "url": "https://whichmuseum.nl/museum/kunstlinie-almere-5170",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Panorama Walcheren",
+      "url": "https://whichmuseum.nl/museum/museum-panorama-walcheren-vlissingen-5175",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Rien Poortvlietmuseum",
+      "url": "https://whichmuseum.nl/museum/rien-poortvlietmuseum-tiengemeten-531",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum van Papierknipkunst",
+      "url": "https://whichmuseum.nl/museum/museum-van-papierknipkunst-westerbork-543",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "De Kopermolen",
+      "url": "https://whichmuseum.nl/museum/de-kopermolen-vaals-558",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Odapark",
+      "url": "https://whichmuseum.nl/museum/odapark-venray-563",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Garage Rotterdam",
+      "url": "https://whichmuseum.nl/museum/garage-rotterdam-568",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Huize Frankendael",
+      "url": "https://whichmuseum.nl/museum/huize-frankendael-amsterdam-583",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Nagele",
+      "url": "https://whichmuseum.nl/museum/museum-nagele-609",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Gorcums Museum",
+      "url": "https://whichmuseum.nl/museum/gorcums-museum-gorinchem-61",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Hilversum",
+      "url": "https://whichmuseum.nl/museum/museum-hilversum-62",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Purmerends Museum",
+      "url": "https://whichmuseum.nl/museum/purmerends-museum-63",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Beeldenpark Jits Bakker",
+      "url": "https://whichmuseum.nl/museum/beeldenpark-jits-bakker-de-bilt-639",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "De Vleeshal",
+      "url": "https://whichmuseum.nl/museum/de-vleeshal-middelburg-642",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Stedelijk Museum Vianen",
+      "url": "https://whichmuseum.nl/museum/stedelijk-museum-vianen-66",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Pier Pander Museum",
+      "url": "https://whichmuseum.nl/museum/pier-pander-museum-leeuwarden-667",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "KattenKabinet",
+      "url": "https://whichmuseum.nl/museum/kattenkabinet-amsterdam-669",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Veluwezoom",
+      "url": "https://whichmuseum.nl/museum/museum-veluwezoom-doorwerth-685",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum voor Keramiek Pablo Rueda Lara",
+      "url": "https://whichmuseum.nl/museum/museum-voor-keramiek-pablo-rueda-lara-rotterdam-727",
+      "decision": "research",
+      "reason": "Actuele bezoeklocatie/openstelling niet vastgesteld"
+    },
+    {
+      "name": "Atlas van Stolk",
+      "url": "https://whichmuseum.nl/museum/atlas-van-stolk-rotterdam-733",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Hofje van Aerden",
+      "url": "https://whichmuseum.nl/museum/hofje-van-aerden-leerdam-750",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Kunstfort bij Vijfhuizen",
+      "url": "https://whichmuseum.nl/museum/kunstfort-bij-vijfhuizen-7856",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "KunstaanZ",
+      "url": "https://whichmuseum.nl/museum/kunstaanz-deventer-7865",
+      "decision": "exclude",
+      "reason": "Instelling meldt pauze en geen vaste locatie"
+    },
+    {
+      "name": "ABC Architectuurcentrum Haarlem",
+      "url": "https://whichmuseum.nl/museum/abc-architectuurcentrum-haarlem-7872",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Abdijkerk",
+      "url": "https://whichmuseum.nl/museum/museum-abdijkerk-thorn-7873",
+      "decision": "exclude",
+      "reason": "Kerk en religieus erfgoed"
+    },
+    {
+      "name": "Noorderlicht. Studio | Festival | On Tour",
+      "url": "https://whichmuseum.nl/museum/noorderlicht-studio-festival-on-tour-groningen-7880",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "National Gallery The Netherlands",
+      "url": "https://whichmuseum.nl/museum/national-gallery-the-netherlands-amersfoort-7917",
+      "decision": "exclude",
+      "reason": "Commerciële galerie van één kunstenaar; geen museale/presentatie-instelling vastgesteld"
+    },
+    {
+      "name": "P/////AKT",
+      "url": "https://whichmuseum.nl/museum/p-akt-amsterdam-7945",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Koepelkathedraal Haarlem",
+      "url": "https://whichmuseum.nl/museum/koepelkathedraal-haarlem-7962",
+      "decision": "exclude",
+      "reason": "Kathedraal en religieus erfgoed"
+    },
+    {
+      "name": "Nxt Museum",
+      "url": "https://whichmuseum.nl/museum/nxt-museum-amsterdam-7966",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum voor hedendaagse Tibetaanse Kunst",
+      "url": "https://whichmuseum.nl/museum/museum-voor-hedendaagse-tibetaanse-kunst-emmen-7969",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Van Doesburg-Rinsemahuis",
+      "url": "https://whichmuseum.nl/museum/van-doesburg-rinsemahuis-drachten-7973",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "De Groninger Zilverkamer",
+      "url": "https://whichmuseum.nl/museum/de-groninger-zilverkamer-appingedam-7976",
+      "decision": "research",
+      "reason": "Actuele bezoeklocatie/openstelling verifiëren"
+    },
+    {
+      "name": "Kerkschatten Horst - Sint-Lambertus",
+      "url": "https://whichmuseum.nl/museum/kerkschatten-horst-sint-lambertus-horst-lb-7978",
+      "decision": "exclude",
+      "reason": "Religieus erfgoed; geen zelfstandige kunstinstelling"
+    },
+    {
+      "name": "IMPAKT Centre for Mediaculture",
+      "url": "https://whichmuseum.nl/museum/impakt-centre-for-mediaculture-utrecht-7980",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Stedelijk Museum Meppel",
+      "url": "https://whichmuseum.nl/museum/stedelijk-museum-meppel-7986",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum De Dageraad",
+      "url": "https://whichmuseum.nl/museum/museum-de-dageraad-amsterdam-7991",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Voormalige Synagoge",
+      "url": "https://whichmuseum.nl/museum/voormalige-synagoge-kampen-7997",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "De Grote Kerk in Monnickendam",
+      "url": "https://whichmuseum.nl/museum/de-grote-kerk-in-monnickendam-7998",
+      "decision": "exclude",
+      "reason": "Kerk als hoofdfunctie"
+    },
+    {
+      "name": "Museum Tromp's Huys",
+      "url": "https://whichmuseum.nl/museum/museum-tromp-s-huys-vlieland-8",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Project Space On The Inside",
+      "url": "https://whichmuseum.nl/museum/project-space-on-the-inside-amsterdam-8006",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "ACEC",
+      "url": "https://whichmuseum.nl/museum/acec-apeldoorn-8008",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Depot van Museum Boijmans Van Beuningen",
+      "url": "https://whichmuseum.nl/museum/depot-van-museum-boijmans-van-beuningen-rotterdam-8011",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Design Museum Dedel",
+      "url": "https://whichmuseum.nl/museum/design-museum-dedel-den-haag-8025",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Brutus",
+      "url": "https://whichmuseum.nl/museum/brutus-rotterdam-8046",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Rembrandts Amsterdam Experience",
+      "url": "https://whichmuseum.nl/museum/rembrandts-amsterdam-experience-8047",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Ton Schulten",
+      "url": "https://whichmuseum.nl/museum/museum-ton-schulten-ootmarsum-848",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Brinkhuis Laren",
+      "url": "https://whichmuseum.nl/museum/brinkhuis-laren-laren-nh-8637",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Literatuurmuseum",
+      "url": "https://whichmuseum.nl/museum/literatuurmuseum-den-haag-87",
+      "decision": "exclude",
+      "reason": "Literatuur; beeldende kunst is bijzaak"
+    },
+    {
+      "name": "Kinderboekenmuseum",
+      "url": "https://whichmuseum.nl/museum/kinderboekenmuseum-den-haag-9",
+      "decision": "exclude",
+      "reason": "Leesbevordering en literatuur"
+    },
+    {
+      "name": "Van Eesteren Museum",
+      "url": "https://whichmuseum.nl/museum/van-eesteren-museum-amsterdam-920",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Beeldenmuseum Zr. Jesualda Kwanten",
+      "url": "https://whichmuseum.nl/museum/beeldenmuseum-zr-jesualda-kwanten-tilburg-968",
+      "decision": "research",
+      "reason": "Actuele bezoeklocatie/openstelling niet vastgesteld"
+    },
+    {
+      "name": "Ruurd Wiersma Museum",
+      "url": "https://whichmuseum.nl/museum/ruurd-wiersma-museum-birdaard-99",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Andreas Schotel Museum",
+      "url": "https://whichmuseum.nl/museum/andreas-schotel-museum-esbeek-999",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum De Koperen Knop",
+      "url": "https://whichmuseum.nl/museum/museum-de-koperen-knop-hardinxveld-giessendam-56",
+      "decision": "exclude",
+      "reason": "Streekgeschiedenis als hoofdfunctie"
+    },
+    {
+      "name": "Marie Tak van Poortvliet Museum",
+      "url": "https://whichmuseum.nl/museum/marie-tak-van-poortvliet-museum-domburg-3",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "De Appel",
+      "url": "https://whichmuseum.nl/museum/de-appel-amsterdam-5",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Arcam Architectuurcentrum Amsterdam",
+      "url": "https://whichmuseum.nl/museum/arcam-architectuurcentrum-amsterdam-950",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Bijbels Museum @OBA Oosterdok",
+      "url": "https://whichmuseum.nl/museum/bijbels-museum-oba-oosterdok-amsterdam-196",
+      "decision": "exclude",
+      "reason": "Reizend museum zonder vaste bezoeklocatie; geen OBA-museum opvoeren"
+    },
+    {
+      "name": "Museum Arnhem",
+      "url": "https://whichmuseum.nl/museum/museum-arnhem-235",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "MOA | Museum Oud Amelisweerd",
+      "url": "https://whichmuseum.nl/museum/moa-museum-oud-amelisweerd-bunnik-310",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Heiligenbeeldenmuseum",
+      "url": "https://whichmuseum.nl/museum/heiligenbeeldenmuseum-vorden-530",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Lalique Museum Nederland",
+      "url": "https://whichmuseum.nl/museum/lalique-museum-nederland-doesburg-658",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Rijswijk",
+      "url": "https://whichmuseum.nl/museum/museum-rijswijk-58",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "WONDR Experience",
+      "url": "https://whichmuseum.nl/museum/wondr-experience-amsterdam-39978",
+      "decision": "exclude",
+      "reason": "Selfie-attractie"
+    },
+    {
+      "name": "Librije Walburgskerk Zutphen",
+      "url": "https://whichmuseum.nl/museum/librije-walburgskerk-zutphen-492",
+      "decision": "exclude",
+      "reason": "Historische bibliotheek"
+    },
+    {
+      "name": "Historisch-Religieus Museum De Crypte",
+      "url": "https://whichmuseum.nl/museum/historisch-religieus-museum-de-crypte-gennep-1051",
+      "decision": "exclude",
+      "reason": "Religiegeschiedenis als hoofdfunctie"
+    },
+    {
+      "name": "Museum De Weem",
+      "url": "https://whichmuseum.nl/museum/museum-de-weem-westeremden-1064",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Jan van Riebeeckmuseum",
+      "url": "https://whichmuseum.nl/museum/jan-van-riebeeckmuseum-culemborg-1131",
+      "decision": "exclude",
+      "reason": "Biografisch/historisch, geen beeldend kunstenaar"
+    },
+    {
+      "name": "Borduurmuseum",
+      "url": "https://whichmuseum.nl/museum/borduurmuseum-barneveld-1136",
+      "decision": "include",
+      "reason": "Kunst/designpresentatie bevestigd op eigen website"
+    },
+    {
+      "name": "Museumkerk Eben Haezer Wierum",
+      "url": "https://whichmuseum.nl/museum/museumkerk-eben-haezer-wierum-1147",
+      "decision": "include",
+      "reason": "Kunst/designpresentatie bevestigd op eigen website"
+    },
+    {
+      "name": "Keramisch Museum Goedewaagen",
+      "url": "https://whichmuseum.nl/museum/keramisch-museum-goedewaagen-nieuw-buinen-1198",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Stedelijk Museum Assen voor Hedendaagse Kunst",
+      "url": "https://whichmuseum.nl/museum/stedelijk-museum-assen-voor-hedendaagse-kunst-1299",
+      "decision": "research",
+      "reason": "Oude vermelding SMAHK; opvolging/overlap CAMPIS vaststellen"
+    },
+    {
+      "name": "Museum Thijnhof",
+      "url": "https://whichmuseum.nl/museum/museum-thijnhof-coevorden-1319",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Cartoon Art Gallery",
+      "url": "https://whichmuseum.nl/museum/cartoon-art-gallery-eindhoven-1320",
+      "decision": "research",
+      "reason": "Actuele openstelling galerie verifiëren"
+    },
+    {
+      "name": "Kunstvereniging Diepenheim",
+      "url": "https://whichmuseum.nl/museum/kunstvereniging-diepenheim-1325",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Glas-in-loodmuseum Hengelo Bas-in-lood",
+      "url": "https://whichmuseum.nl/museum/glas-in-loodmuseum-hengelo-bas-in-lood-15045",
+      "decision": "include",
+      "reason": "Kunst/designpresentatie bevestigd op eigen website"
+    },
+    {
+      "name": "Kunstcentrum De Kolk",
+      "url": "https://whichmuseum.nl/museum/kunstcentrum-de-kolk-spaarndam-15123",
+      "decision": "research",
+      "reason": "Actuele openstelling kunstcentrum verifiëren"
+    },
+    {
+      "name": "RTXP Amsterdam",
+      "url": "https://whichmuseum.nl/museum/rtxp-amsterdam-19544",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Het Nieuwe Domein - Hedendaagse Kunst",
+      "url": "https://whichmuseum.nl/museum/het-nieuwe-domein-hedendaagse-kunst-sittard-20317",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Jan Kruis Museum",
+      "url": "https://whichmuseum.nl/museum/jan-kruis-museum-westerbork-2383",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Street Art Museum Amsterdam",
+      "url": "https://whichmuseum.nl/museum/street-art-museum-amsterdam-2395",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Maassluis",
+      "url": "https://whichmuseum.nl/museum/museum-maassluis-264",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Peter van den Braken Centrum",
+      "url": "https://whichmuseum.nl/museum/peter-van-den-braken-centrum-sterksel-441",
+      "decision": "exclude",
+      "reason": "Eigen website bevestigt sluiting in 2020"
+    },
+    {
+      "name": "Vincent Hall",
+      "url": "https://whichmuseum.nl/museum/vincent-hall-amsterdam-48698",
+      "decision": "research",
+      "reason": "Identiteit en actuele openstelling niet voldoende vastgesteld"
+    },
+    {
+      "name": "Arti et Amicitiae",
+      "url": "https://whichmuseum.nl/museum/arti-et-amicitiae-amsterdam-48699",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Artphy",
+      "url": "https://whichmuseum.nl/museum/artphy-onstwedde-48804",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Oudheidkamer Beilen",
+      "url": "https://whichmuseum.nl/museum/oudheidkamer-beilen-501",
+      "decision": "exclude",
+      "reason": "Streekgeschiedenis als hoofdfunctie"
+    },
+    {
+      "name": "Museum Bert Coppus",
+      "url": "https://whichmuseum.nl/museum/museum-bert-coppus-horst-lb-517",
+      "decision": "research",
+      "reason": "Actuele openstelling kunstenaarsmuseum verifiëren"
+    },
+    {
+      "name": "Kunstenlab",
+      "url": "https://whichmuseum.nl/museum/kunstenlab-deventer-600",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Bonami SpelComputer Museum",
+      "url": "https://whichmuseum.nl/museum/bonami-spelcomputer-museum-zwolle-617",
+      "decision": "exclude",
+      "reason": "Computer- en speltechniek"
+    },
+    {
+      "name": "Museum Hillesluis",
+      "url": "https://whichmuseum.nl/museum/museum-hillesluis-rotterdam-729",
+      "decision": "research",
+      "reason": "Actuele openstelling kunstinstelling verifiëren"
+    },
+    {
+      "name": "Museum Het Leids Wevershuis",
+      "url": "https://whichmuseum.nl/museum/museum-het-leids-wevershuis-leiden-746",
+      "decision": "exclude",
+      "reason": "Ambachtsgeschiedenis"
+    },
+    {
+      "name": "Museum het Reghthuys",
+      "url": "https://whichmuseum.nl/museum/museum-het-reghthuys-giessenburg-765",
+      "decision": "exclude",
+      "reason": "Streekgeschiedenis"
+    },
+    {
+      "name": "Museum STAAL",
+      "url": "https://whichmuseum.nl/museum/museum-staal-almen-7839",
+      "decision": "exclude",
+      "reason": "Literatuur en streekgeschiedenis"
+    },
+    {
+      "name": "NEST - ruimte voor kunst",
+      "url": "https://whichmuseum.nl/museum/nest-ruimte-voor-kunst-den-haag-7850",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Flower Art Museum",
+      "url": "https://whichmuseum.nl/museum/flower-art-museum-aalsmeer-7869",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum Lunteren",
+      "url": "https://whichmuseum.nl/museum/museum-lunteren-7913",
+      "decision": "include",
+      "reason": "Kunst/designpresentatie bevestigd op eigen website"
+    },
+    {
+      "name": "OSCAM - Open Space Contemporary Art Museum",
+      "url": "https://whichmuseum.nl/museum/oscam-open-space-contemporary-art-museum-amsterdam-7916",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Stichting Nobilis centrum voor prentkunst",
+      "url": "https://whichmuseum.nl/museum/stichting-nobilis-centrum-voor-prentkunst-fochteloo-7925",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Charles Dickens Museum",
+      "url": "https://whichmuseum.nl/museum/charles-dickens-museum-braamt-7955",
+      "decision": "exclude",
+      "reason": "Literatuur, geen beeldend kunstenaar"
+    },
+    {
+      "name": "Storyworld",
+      "url": "https://whichmuseum.nl/museum/storyworld-groningen-7956",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Buitenmuseum",
+      "url": "https://whichmuseum.nl/museum/buitenmuseum-den-haag-7959",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "MAS Museum voor Achterhoekse Schilderkunst",
+      "url": "https://whichmuseum.nl/museum/mas-museum-voor-achterhoekse-schilderkunst-vorden-7961",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Museum van Alle Tijden",
+      "url": "https://whichmuseum.nl/museum/museum-van-alle-tijden-beugen-7963",
+      "decision": "research",
+      "reason": "Kunstfunctie en actuele openstelling niet vastgesteld"
+    },
+    {
+      "name": "Dat Bolwerck - Huis voor kunst en gedachten",
+      "url": "https://whichmuseum.nl/museum/dat-bolwerck-huis-voor-kunst-en-gedachten-zutphen-7994",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "STRAAT Museum",
+      "url": "https://whichmuseum.nl/museum/straat-museum-amsterdam-8018",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "033Fotostad | Rietveldpaviljoen",
+      "url": "https://whichmuseum.nl/museum/033fotostad-rietveldpaviljoen-amersfoort-8026",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    },
+    {
+      "name": "Youseum Amsterdam",
+      "url": "https://whichmuseum.nl/museum/youseum-amsterdam-8997",
+      "decision": "exclude",
+      "reason": "Selfie-attractie"
+    },
+    {
+      "name": "Youseum Westfield Mall of the Netherlands",
+      "url": "https://whichmuseum.nl/museum/youseum-westfield-mall-of-the-netherlands-leidschendam-8999",
+      "decision": "exclude",
+      "reason": "Selfie-attractie"
+    },
+    {
+      "name": "Museum Kruysenhuis",
+      "url": "https://whichmuseum.nl/museum/museum-kruysenhuis-oirschot-978",
+      "decision": "exclude",
+      "reason": "Collectie wordt op termijn onderdeel Erfgoed Museum Oirschot; geen huidige zelfstandige bezoeklocatie bevestigd"
+    },
+    {
+      "name": "Huysmuseum",
+      "url": "https://whichmuseum.nl/museum/huysmuseum-etten-leur-991",
+      "decision": "research",
+      "reason": "Kunstfunctie en actuele openstelling niet vastgesteld"
+    },
+    {
+      "name": "TETEM kunstruimte",
+      "url": "https://whichmuseum.nl/museum/tetem-kunstruimte-enschede-569",
+      "decision": "include",
+      "reason": "Collectie of structureel programma voor beeldende kunst, fotografie, design of architectuur"
+    }
+  ],
+  "dezaaknu": [
+    {
+      "name": "(A)WAKE",
+      "city": "Rotterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "e591e0bb-943d-53bf-a039-8b7c79814421"
+    },
+    {
+      "name": "1646",
+      "city": "Den Haag",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "16ea7349-16f9-5f69-b273-914930a5e2a7"
+    },
+    {
+      "name": "38CC",
+      "city": "Delft",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "25a789aa-77b3-5c6c-9d10-e9dae2d50c95"
+    },
+    {
+      "name": "A Tale of a Tub",
+      "city": "Rotterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "53a4ea87-3364-548c-ae48-56b78a1d3eb5"
+    },
+    {
+      "name": "BAK Basecamp",
+      "city": "Utrecht",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Baltan Labaratories",
+      "city": "Eindhoven",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Baracca",
+      "city": "Dordrecht",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Beautiful Distress House",
+      "city": "Amsterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "b0e3929f-652d-5fa9-83de-36afa06e5636"
+    },
+    {
+      "name": "BRUTUS",
+      "city": "Rotterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "CAMPIS podium voor hedendaagse kunst",
+      "city": "Assen",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "5caab58f-9a36-5b74-b22c-1147054e0037"
+    },
+    {
+      "name": "Casco Art Institute: Working for the Commons",
+      "city": "Utrecht",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "9b52f710-dd7e-5428-bfce-f535533ac528"
+    },
+    {
+      "name": "CBK Centrum Beeldende Kunst Zuidoost",
+      "city": "Amsterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "3530053f-e512-5258-9c49-cb1a82f58d61"
+    },
+    {
+      "name": "CBK Zeeland",
+      "city": "Middelburg",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Concordia",
+      "city": "Enschede",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "7253528b-7a0e-568a-8027-0fffa0e48466"
+    },
+    {
+      "name": "Das Leben am Haverkamp",
+      "city": "Den Haag",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Dat Bolwerck",
+      "city": "Zutphen",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "De Appel arts centre",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "De Ateliers",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "De Cacaofabriek",
+      "city": "Helmond",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "d57b690e-b2d3-538c-835e-c9c97020b2b2"
+    },
+    {
+      "name": "De Fabriek Eindhoven",
+      "city": "Eindhoven",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "ca2c6fde-1b3e-5017-b7db-24bc9d344a20"
+    },
+    {
+      "name": "Drawing Centre Diepenheim‎",
+      "city": "Diepenheim",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Extrapool",
+      "city": "Nijmegen",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "9ca0e59a-1012-5d5c-aa25-9ea718064b17"
+    },
+    {
+      "name": "Factor IJ",
+      "city": "Amsterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "4933b0fd-07e5-5856-a1a3-929f6a4ca999"
+    },
+    {
+      "name": "FOTODOK",
+      "city": "Utrecht",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "a5149a14-e065-56e0-ac24-a33f2fc9b777"
+    },
+    {
+      "name": "Framer Framed",
+      "city": "Amsterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "bf8db4f9-ca97-5715-a46d-7ec2887dec9f"
+    },
+    {
+      "name": "Garage Rotterdam",
+      "city": "Rotterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Greylight Projects",
+      "city": "Heerlen",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "f32c368d-5c0b-5f58-824a-d0bdb203cb9f"
+    },
+    {
+      "name": "Het Resort",
+      "city": "Groningen",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Het Wilde Weten",
+      "city": "Rotterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "HMK { HotelMariaKapel }",
+      "city": "Hoorn",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "9ffd3f46-b10e-57ac-8a4b-192b381ee847"
+    },
+    {
+      "name": "If I Can’t Dance, I Don’t Want To Be Part Of Your Revolution",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Impakt Foundation",
+      "city": "Utrecht",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Instrument Inventors Initiative",
+      "city": "Den Haag",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Into Nature",
+      "city": "Assen",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Jan van Eyck Academie",
+      "city": "MAASTRICHT",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Kunst-Torentje",
+      "city": "Almelo",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Kunstenlab",
+      "city": "Deventer",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Kunstfort bij Vijfhuizen",
+      "city": "Vijfhuizen",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Kunstgarage Franx",
+      "city": "Zoetermeer",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "344dc9e8-b078-5a23-8bcf-9079dc3517bf"
+    },
+    {
+      "name": "Kunsthal KAdE",
+      "city": "Amersfoort",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Kunsthal Kloof",
+      "city": "Utrecht",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "c39bd0c8-1020-5c45-8f31-f2141d6a08fb"
+    },
+    {
+      "name": "Kunsthuis Syb",
+      "city": "Beetsterzwaag",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "b72de5cb-384d-54e4-8e70-d924679a875a"
+    },
+    {
+      "name": "Kunstinstituut Melly",
+      "city": "Rotterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Kunstpodium T",
+      "city": "Tilburg",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "77dcd5d7-e549-53f5-b6cf-9d900113e0fe"
+    },
+    {
+      "name": "Kunstpunt Groningen",
+      "city": "Groningen",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "377e808e-87b2-5a7b-a114-650880916ec3"
+    },
+    {
+      "name": "LIMA",
+      "city": "AMSTERDAM",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "M4gastatelier",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "MAMA",
+      "city": "Rotterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "3eccb19d-2772-5ae1-be07-8d3fb319ac9a"
+    },
+    {
+      "name": "Manifesta",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Marres",
+      "city": "Maastricht",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Media Art Friesland",
+      "city": "Leeuwarden",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Mediamatic",
+      "city": "Amsterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "cf4febc1-45cc-53e6-93c6-37e464ac551f"
+    },
+    {
+      "name": "Mister Motley",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "MU",
+      "city": "Eindhoven",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Murals Inc",
+      "city": "Rotterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "2347e3b4-cc82-55b5-a28e-f1f4d341542e"
+    },
+    {
+      "name": "myvillages.org",
+      "city": "Rotterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "NEST",
+      "city": "Den Haag",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Nieuwe Vide",
+      "city": "Haarlem",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "63d52cc7-0de7-543c-9791-2dfc82048c48"
+    },
+    {
+      "name": "Noorderlicht Platform for photography & lens-based media",
+      "city": "Groningen",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "NP3 | eMMa Rem Koolhaas Videobusstop",
+      "city": "Groningen",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "7e6ef733-4a4e-514a-909c-addda45d4cc3"
+    },
+    {
+      "name": "NP3 | MOBi",
+      "city": "Groningen",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "1b5450c8-f2d7-56e7-a330-8a109b5c0278"
+    },
+    {
+      "name": "NP3 | RE:Search:Gallery",
+      "city": "Groningen",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "b9f3af95-3427-535f-b2de-f293758b2a34"
+    },
+    {
+      "name": "Omstand, presentatieruimte voor actuele kunst",
+      "city": "Arnhem",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "edd974bf-2d7b-5029-a46e-8eda1e106288"
+    },
+    {
+      "name": "Oude Kerk",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Page Not Found",
+      "city": "Den Haag",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "f54193f9-446c-5b4b-82a9-6ec7c93840dd"
+    },
+    {
+      "name": "PARK platform for visual arts",
+      "city": "Tilburg",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "86f0974d-63d5-54fc-b32f-6e4b764c60dc"
+    },
+    {
+      "name": "Pictura",
+      "city": "Groningen",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "f8a0f9b4-b285-5329-b697-0d0f89a9c351"
+    },
+    {
+      "name": "Plaatsmaken",
+      "city": "Arnhem",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "b87046b0-6241-5cb1-8447-b203cdb511a0"
+    },
+    {
+      "name": "Platform Extra Extra",
+      "city": "Rotterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "POST",
+      "city": "Nijmegen",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "32743540-27e7-55b1-9397-bb2f583f8d00"
+    },
+    {
+      "name": "Post Arnhem",
+      "city": "Arnhem",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "be7ae9fc-3ebe-5d1c-beb8-5c4c6fa0ac1c"
+    },
+    {
+      "name": "PrintRoom",
+      "city": "Rotterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "781e5ba8-d9f0-51eb-9b68-c35caad82a57"
+    },
+    {
+      "name": "Project Space On The Inside",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "RADIUS",
+      "city": "Delft",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "3afa43d7-49e0-5a7a-91d2-6c3292c69c02"
+    },
+    {
+      "name": "Rib Art Space",
+      "city": "Rotterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "f38227ea-5f80-5d36-91fe-581042df34e5"
+    },
+    {
+      "name": "Rijksakademie van Beeldende Kunsten",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Roodkapje",
+      "city": "Rotterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "44c1e41f-c797-5adc-bfce-52387d057ac0"
+    },
+    {
+      "name": "ROZENSTRAAT - a rose is a rose is a rose",
+      "city": "Amsterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "28c5d487-ea4b-52f8-ae83-41eebe885b71"
+    },
+    {
+      "name": "Sandberg Institute",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "SEA Foundation",
+      "city": "Tilburg",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "5b300211-4e53-56b6-8406-abbe99f523ab"
+    },
+    {
+      "name": "ShimmerShimmer",
+      "city": "Rotterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "e5545194-a1bd-54f9-9e3e-a711b0475a07"
+    },
+    {
+      "name": "Sign",
+      "city": "Groningen",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "7e50d86e-21f2-5924-b07f-ff78edb41f57"
+    },
+    {
+      "name": "Sonic Acts",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Stg EST art foundation",
+      "city": "Leiden",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "abe68e6d-4b1c-5277-9a09-7a0abec22d74"
+    },
+    {
+      "name": "Stichting Affect Lab",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Stichting Art Projects",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Stichting AVA",
+      "city": "Eindhoven",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "2399fffa-6f31-5919-b340-6153d1689312"
+    },
+    {
+      "name": "Stichting Bewaerschole",
+      "city": "Burgh-Haamstede",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "90ba7d13-5dd3-5202-b72e-2122c5e0ffdc"
+    },
+    {
+      "name": "Stichting NDSM-Werf",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Stichting Nesse",
+      "city": "Terneuzen",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Stichting SONSBEEK",
+      "city": "Arnhem",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Stichting The Grey Space in the Middle",
+      "city": "Den Haag",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "d383cc7e-bc5c-5034-8e3f-26f77cf0dedd"
+    },
+    {
+      "name": "Stroom Den Haag",
+      "city": "Den Haag",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "76bb2424-a1d1-5a57-a968-4999c4b12032"
+    },
+    {
+      "name": "Suns and Stars",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "TENT. Centrum Beeldende Kunst",
+      "city": "Rotterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Tetem kunstruimte",
+      "city": "Enschede",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "The Balcony",
+      "city": "Den Haag",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "c4f26e6f-6dc8-54b7-aa78-0d504149b2ef"
+    },
+    {
+      "name": "The Grey Space in the Middle",
+      "city": "Den Haag",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "The Hmm, platform for internet culture",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "The one minutes foundation",
+      "city": "Amsterdam",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "V2_, Institute for the Unstable Media",
+      "city": "Rotterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "c55697d5-d5dc-55e4-ab51-2868762e5d85"
+    },
+    {
+      "name": "VHDG Kunstinitiatief Voorheen De Gemeente",
+      "city": "Leeuwarden",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "b3bc3658-ee11-5b7a-862a-198b8a60fc0d"
+    },
+    {
+      "name": "Vleeshal",
+      "city": "Middelburg",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "W139",
+      "city": "Amsterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "3dc36ebf-d27d-52db-b49d-b026fc5c6f0f"
+    },
+    {
+      "name": "West",
+      "city": "Den Haag",
+      "decision": "not-added",
+      "reason": "Overlap met WhichMuseum, organisatie zonder vaste tentoonstellingsplek of bezoekfunctie nog te onderzoeken",
+      "source": "https://www.dezaaknu.nl/leden"
+    },
+    {
+      "name": "Witte Rook",
+      "city": "Breda",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "6fc74b6d-e4c5-55e3-aa78-1fe66acb26fc"
+    },
+    {
+      "name": "Zone2Source",
+      "city": "Amsterdam",
+      "decision": "include",
+      "reason": "Publieke ruimte voor hedendaagse kunst of design",
+      "source": "https://www.dezaaknu.nl/leden",
+      "museum_id": "dc985ccf-47c2-58bf-8466-518af0400fcb"
+    }
+  ],
+  "missing_photos": [
+    {
+      "id": "1562a8b0-4700-5d66-ab3d-249ecc026653",
+      "name": "Museum Valse kunst",
+      "website": "https://www.museumvalsekunst.art"
+    },
+    {
+      "id": "fa78ea52-fba1-58c8-be25-bcecbf33cc78",
+      "name": "het MAG museum",
+      "website": "https://www.hetmagmuseum.nl/"
+    },
+    {
+      "id": "69be9209-e151-5ee7-929d-f4c76f560787",
+      "name": "Cultuurhuis Bergeijk",
+      "website": "https://cultuurhuisbergeijk.nl/"
+    },
+    {
+      "id": "6680fea1-fc3d-59b8-8ce7-193a2fbf7d29",
+      "name": "Kunsthuis Waterland",
+      "website": "https://kunsthuiswaterland.nl/"
+    },
+    {
+      "id": "3581b76b-ca42-5922-9a05-808e98a31588",
+      "name": "Museum van de geest | Outsider Art",
+      "website": "https://www.museumvandegeest.nl"
+    },
+    {
+      "id": "aebfd535-8cdb-53f2-b71c-19766784d439",
+      "name": "Zandverhalen",
+      "website": "https://www.zandverhalen.nl"
+    },
+    {
+      "id": "c7ae35cc-92b0-5f4f-925f-d661381ca4c1",
+      "name": "TENT Rotterdam",
+      "website": "https://www.tentrotterdam.nl/"
+    },
+    {
+      "id": "5d25fb1e-5e88-59dd-b988-b570633bbceb",
+      "name": "BAK Basecamp",
+      "website": "https://www.bakonline.org/"
+    },
+    {
+      "id": "832eabc1-48a4-5297-a18c-cec6be605720",
+      "name": "R.S.O.L. Art Space",
+      "website": "https://www.tonkruse.nl/rsol.html"
+    },
+    {
+      "id": "a429aa0c-7446-5b60-b7fe-6561e704365d",
+      "name": "Museum Panorama Walcheren",
+      "website": "https://panoramawalcheren.nl/nl/"
+    },
+    {
+      "id": "0be81822-0a78-5a03-a13c-1c9f8a7ff730",
+      "name": "Museum van Papierknipkunst",
+      "website": "https://www.papierknipmuseum.nl"
+    },
+    {
+      "id": "f409e9dd-0646-565c-8b98-3a23c0ce884f",
+      "name": "Garage Rotterdam",
+      "website": "https://garagerotterdam.nl/"
+    },
+    {
+      "id": "3378c57b-4660-5174-81f0-beccdc0c3723",
+      "name": "Atlas van Stolk",
+      "website": "https://www.atlasvanstolk.nl/"
+    },
+    {
+      "id": "59f8bd2b-62d4-5df4-bb20-49c412d6d1d2",
+      "name": "P/////AKT",
+      "website": "https://www.pakt.nu/"
+    },
+    {
+      "id": "84a06b32-b218-581b-bcff-0e8103cc85fa",
+      "name": "Nxt Museum",
+      "website": "https://nxtmuseum.com/"
+    },
+    {
+      "id": "7219a354-30c7-53b0-ada4-ed6b85393c4f",
+      "name": "Van Doesburg-Rinsemahuis",
+      "website": "https://www.museumdrachten.nl/museumwoning-vdrh/"
+    },
+    {
+      "id": "7d49b6c9-39c9-5bb1-bfcc-666a2c3c3598",
+      "name": "Project Space On The Inside",
+      "website": "https://www.projectspaceontheinside.org/"
+    },
+    {
+      "id": "88058f35-5dd4-5412-8fcb-cf10014c8cbb",
+      "name": "Rembrandts Amsterdam Experience",
+      "website": "https://rembrandtsamsterdam.com/"
+    },
+    {
+      "id": "2c14c69f-214e-5e94-8da5-0af33f9f7a7b",
+      "name": "Van Eesteren Museum",
+      "website": "https://vaneesterenmuseum.nl/nl/home/"
+    },
+    {
+      "id": "e07c6573-a3c2-58c6-b3a5-bdbfa2ac00af",
+      "name": "Ruurd Wiersma Museum",
+      "website": "https://ruurdwiersma.nl/"
+    },
+    {
+      "id": "3bdeae20-fec7-5b7a-921a-03ccbc47a814",
+      "name": "Andreas Schotel Museum",
+      "website": "https://andreasschotel.nl/"
+    },
+    {
+      "id": "ff0e51b5-15d8-59e2-b1b8-ee1906077251",
+      "name": "Borduurmuseum",
+      "website": "https://borduurmuseum.nl/"
+    },
+    {
+      "id": "e44d4ac6-a158-50a7-9ae2-877573cd7c55",
+      "name": "Keramisch Museum Goedewaagen",
+      "website": "https://www.keramischmuseumgoedewaagen.nl/"
+    },
+    {
+      "id": "3fcdc1cc-a4b2-5037-ae37-afb947c59725",
+      "name": "Museum Thijnhof",
+      "website": "https://thijnhof.nl/"
+    },
+    {
+      "id": "e20d2d0b-7888-5625-88c2-ad07c8fb624c",
+      "name": "Glas-in-loodmuseum Hengelo Bas-in-lood",
+      "website": "https://glas-in-loodmuseum-hengelo.nl/"
+    },
+    {
+      "id": "4aa2b82b-11a5-5fae-bb4c-392af6ca1047",
+      "name": "Het Nieuwe Domein - Hedendaagse Kunst",
+      "website": "https://www.hetnieuwedomein.nl/"
+    },
+    {
+      "id": "10e5b685-693f-5cc4-bc69-7e1f1a3a89bb",
+      "name": "Artphy",
+      "website": "https://www.artphy.nl/"
+    },
+    {
+      "id": "37a5e496-176e-56f1-a387-c3ff339bec30",
+      "name": "Kunstenlab",
+      "website": "https://www.kunstenlab.nl//"
+    },
+    {
+      "id": "c0ca1baa-d39b-55b8-9074-bcbb4249b94b",
+      "name": "NEST - ruimte voor kunst",
+      "website": "https://nestruimte.nl/"
+    },
+    {
+      "id": "cb3d8ee5-fbea-5532-a3e9-0beec17e9d32",
+      "name": "Flower Art Museum",
+      "website": "https://www.flowerartmuseum.nl/"
+    },
+    {
+      "id": "a56dbafb-a9a8-5dc6-85e8-0c2198b3f241",
+      "name": "Museum Lunteren",
+      "website": "https://www.museumlunteren.nl/"
+    },
+    {
+      "id": "ba5d88b2-0ac0-5398-aa7f-1a60227a1a14",
+      "name": "MAS Museum voor Achterhoekse Schilderkunst",
+      "website": ""
+    },
+    {
+      "id": "e591e0bb-943d-53bf-a039-8b7c79814421",
+      "name": "(A)WAKE",
+      "website": "https://a-wake.world/about/"
+    },
+    {
+      "id": "16ea7349-16f9-5f69-b273-914930a5e2a7",
+      "name": "1646",
+      "website": "https://1646.nl"
+    },
+    {
+      "id": "b0e3929f-652d-5fa9-83de-36afa06e5636",
+      "name": "Beautiful Distress House",
+      "website": "https://www.beautifuldistress.org/"
+    },
+    {
+      "id": "5caab58f-9a36-5b74-b22c-1147054e0037",
+      "name": "CAMPIS podium voor hedendaagse kunst",
+      "website": "https://www.campis.nl/"
+    },
+    {
+      "id": "9b52f710-dd7e-5428-bfce-f535533ac528",
+      "name": "Casco Art Institute: Working for the Commons",
+      "website": "https://www.casco.art"
+    },
+    {
+      "id": "3530053f-e512-5258-9c49-cb1a82f58d61",
+      "name": "CBK Centrum Beeldende Kunst Zuidoost",
+      "website": "https://www.cbkzuidoost.nl"
+    },
+    {
+      "id": "7253528b-7a0e-568a-8027-0fffa0e48466",
+      "name": "Concordia",
+      "website": "https://www.concordia.nl"
+    },
+    {
+      "id": "d57b690e-b2d3-538c-835e-c9c97020b2b2",
+      "name": "De Cacaofabriek",
+      "website": "https://www.cacaofabriek.nl"
+    },
+    {
+      "id": "9ca0e59a-1012-5d5c-aa25-9ea718064b17",
+      "name": "Extrapool",
+      "website": "https://www.extrapool.nl/"
+    },
+    {
+      "id": "4933b0fd-07e5-5856-a1a3-929f6a4ca999",
+      "name": "Factor IJ",
+      "website": "https://www.factor-ij.amsterdam/over-ons/"
+    },
+    {
+      "id": "a5149a14-e065-56e0-ac24-a33f2fc9b777",
+      "name": "FOTODOK",
+      "website": "https://www.fotodok.org/"
+    },
+    {
+      "id": "bf8db4f9-ca97-5715-a46d-7ec2887dec9f",
+      "name": "Framer Framed",
+      "website": "https://www.framerframed.nl"
+    },
+    {
+      "id": "f32c368d-5c0b-5f58-824a-d0bdb203cb9f",
+      "name": "Greylight Projects",
+      "website": "https://greylightprojects.org/"
+    },
+    {
+      "id": "c39bd0c8-1020-5c45-8f31-f2141d6a08fb",
+      "name": "Kunsthal Kloof",
+      "website": "https://www.kunsthalkloof.nl"
+    },
+    {
+      "id": "b72de5cb-384d-54e4-8e70-d924679a875a",
+      "name": "Kunsthuis Syb",
+      "website": "https://www.kunsthuissyb.nl/"
+    },
+    {
+      "id": "377e808e-87b2-5a7b-a114-650880916ec3",
+      "name": "Kunstpunt Groningen",
+      "website": "https://www.kunstpuntgroningen.nl"
+    },
+    {
+      "id": "3eccb19d-2772-5ae1-be07-8d3fb319ac9a",
+      "name": "MaMA",
+      "website": "https://thisismama.nl/"
+    },
+    {
+      "id": "2347e3b4-cc82-55b5-a28e-f1f4d341542e",
+      "name": "Murals Inc",
+      "website": "https://murals-inc.com"
+    },
+    {
+      "id": "63d52cc7-0de7-543c-9791-2dfc82048c48",
+      "name": "Nieuwe Vide",
+      "website": "https://nieuwevide.nl/"
+    },
+    {
+      "id": "1b5450c8-f2d7-56e7-a330-8a109b5c0278",
+      "name": "NP3 | MOBi",
+      "website": "https://www.np3.nu/"
+    },
+    {
+      "id": "b9f3af95-3427-535f-b2de-f293758b2a34",
+      "name": "NP3 | RE:Search:Gallery",
+      "website": "https://www.np3.nu/"
+    },
+    {
+      "id": "edd974bf-2d7b-5029-a46e-8eda1e106288",
+      "name": "Omstand, presentatieruimte voor actuele kunst",
+      "website": "https://www.omstand.nl"
+    },
+    {
+      "id": "f54193f9-446c-5b4b-82a9-6ec7c93840dd",
+      "name": "Page Not Found",
+      "website": "https://page-not-found.nl/"
+    },
+    {
+      "id": "86f0974d-63d5-54fc-b32f-6e4b764c60dc",
+      "name": "PARK platform for visual arts",
+      "website": "https://www.park013.nl"
+    },
+    {
+      "id": "b87046b0-6241-5cb1-8447-b203cdb511a0",
+      "name": "Plaatsmaken",
+      "website": "https://plaatsmaken.nl/"
+    },
+    {
+      "id": "32743540-27e7-55b1-9397-bb2f583f8d00",
+      "name": "POST",
+      "website": "https://www.platformpost.nl/"
+    },
+    {
+      "id": "be7ae9fc-3ebe-5d1c-beb8-5c4c6fa0ac1c",
+      "name": "Post Arnhem",
+      "website": "https://platformpost.nl"
+    },
+    {
+      "id": "781e5ba8-d9f0-51eb-9b68-c35caad82a57",
+      "name": "PrintRoom",
+      "website": "https://printroom.org/"
+    },
+    {
+      "id": "f38227ea-5f80-5d36-91fe-581042df34e5",
+      "name": "Rib",
+      "website": "https://www.ribrib.nl/"
+    },
+    {
+      "id": "44c1e41f-c797-5adc-bfce-52387d057ac0",
+      "name": "Roodkapje",
+      "website": "https://roodkapje.org"
+    },
+    {
+      "id": "28c5d487-ea4b-52f8-ae83-41eebe885b71",
+      "name": "ROZENSTRAAT - a rose is a rose is a rose",
+      "website": "https://www.rozenstraat.com/nl/"
+    },
+    {
+      "id": "e5545194-a1bd-54f9-9e3e-a711b0475a07",
+      "name": "Shimmer",
+      "website": "https://shimmershimmer.org"
+    },
+    {
+      "id": "7e50d86e-21f2-5924-b07f-ff78edb41f57",
+      "name": "SIGN",
+      "website": "https://sign2.nl/"
+    },
+    {
+      "id": "abe68e6d-4b1c-5277-9a09-7a0abec22d74",
+      "name": "EST art foundation",
+      "website": "https://est-art-foundation.org"
+    },
+    {
+      "id": "d383cc7e-bc5c-5034-8e3f-26f77cf0dedd",
+      "name": "The Grey Space in the Middle",
+      "website": "https://thegreyspace.net"
+    },
+    {
+      "id": "76bb2424-a1d1-5a57-a968-4999c4b12032",
+      "name": "Stroom Den Haag",
+      "website": "https://www.stroom.nl"
+    },
+    {
+      "id": "c4f26e6f-6dc8-54b7-aa78-0d504149b2ef",
+      "name": "The Balcony",
+      "website": "https://thebalconythehague.com/"
+    },
+    {
+      "id": "b3bc3658-ee11-5b7a-862a-198b8a60fc0d",
+      "name": "VHDG",
+      "website": "https://www.voorheendegemeente.nl"
+    },
+    {
+      "id": "6fc74b6d-e4c5-55e3-aa78-1fe66acb26fc",
+      "name": "Witte Rook",
+      "website": "https://www.witterook.nu"
+    },
+    {
+      "id": "dc985ccf-47c2-58bf-8466-518af0400fcb",
+      "name": "Zone2Source",
+      "website": "https://zone2source.net"
+    },
+    {
+      "id": "99e5e11c-b0fb-5509-9407-dae7aacbf5c9",
+      "name": "MOYA – Museum of Young Art",
+      "website": "https://www.moya.museum/"
+    },
+    {
+      "id": "d36bbfc7-4d74-5022-851d-92f2cac85526",
+      "name": "GRID Grafisch Museum Groningen",
+      "website": "https://www.gridgroningen.nl/"
+    },
+    {
+      "id": "8fa74ff1-0c85-53cc-8a02-bd1b25b0ef33",
+      "name": "Beeldentuin De Havixhorst",
+      "website": "https://www.beeldentuindehavixhorst.nl/"
+    }
+  ]
+}

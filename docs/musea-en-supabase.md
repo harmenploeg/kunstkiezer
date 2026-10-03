@@ -51,3 +51,9 @@ PostgreSQL-tests met PGlite voeren de echte SQL-migraties, RLS-regels en alle im
 `is_art_museum` begrenst de redactie en openbare catalogus. De eerste selectie bevat 30 musea; de overige inventaris blijft behouden. `summary` is een collectietekst van maximaal 80 woorden. `photos` is een geordende JSON-lijst met `url`, `caption`, `credit`, `source_url` en `license`; maximaal 20 afbeeldingen. De eerste foto is de omslag. Foto’s worden met dezelfde versiecontrole als de museumgegevens opgeslagen. Het formulier gebruikt externe afbeeldingslinks; het uploadt geen bestanden.
 
 De legacykolommen `verification_status` en `verified_at` blijven voor oude importbestanden bestaan, maar zijn niet meer zichtbaar of een publicatievoorwaarde. Pas na de inventarisimport ook `supabase/art-curation.sql` toe. Bronnen en fotolicenties staan in `data/museums/art-curation-2026-10-03.json`.
+
+## Landelijke uitbreiding 3 oktober 2026
+
+De kunstselectie omvat nu 300 locaties: de eerdere 30 plus 270 nieuwe concepten. Onderzocht zijn 315 WhichMuseum-vermeldingen, 107 leden van De Zaak Nu en aanvullende officiële bronnen. Fotografie, design, kunstenaarsmusea en kunsthallen tellen mee; erfgoed met kunst als bijzaak niet. 14 WhichMuseum-twijfelgevallen blijven buiten de import. Er zijn 225 locaties met een gelicentieerde foto en 75 met een expliciete foto-aanvulnotitie. Niet alle locaties zijn open: gesloten locaties blijven concept.
+
+`art-expansion-2026-10-03.json` bevat de nieuwe teksten, tags, fotoherkomst en bronnen; `art-audit-2026-10-03.json` de selectiebesluiten. `node scripts/generate-art-expansion.mjs` genereert `supabase/art-imports/`. Die batches promoveren alleen onaangeroerde niet-kunstconcepten of voegen nieuwe records toe; bestaande kunstrecords en records met redactionele revisies blijven behouden. Herhalen verandert geen reeds geïmporteerde gegevens.

@@ -33,6 +33,6 @@ test('Collectietekst telt woorden en weigert onveilige foto’s',()=>{
 
 test('Kunstmuseumselectie is gevuld met korte teksten, tags en foto’s met herkomst',()=>{
  const rows=JSON.parse(readFileSync('data/museums/art-inventory.json','utf8')) as InventoryMuseum[];
- assert.equal(rows.length,30);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);
- for(const row of rows){assert.equal(row.is_art_museum,true);assert.ok(row.summary.trim());assert.ok(row.tags.length);assert.ok(row.photos.length);assert.deepEqual(validateMuseum(row),[]);for(const photo of row.photos){assert.ok(photo.credit);assert.ok(photo.license);assert.ok(safeWebUrl(photo.source_url));}}
+ assert.equal(rows.length,300);assert.equal(new Set(rows.map(r=>r.id)).size,rows.length);
+ for(const row of rows){assert.equal(row.is_art_museum,true);assert.ok(row.summary.trim());assert.ok(row.tags.length);if(!row.photos.length)assert.match(row.review_notes,/FOTO ONTBREEKT/);assert.deepEqual(validateMuseum(row),[]);for(const photo of row.photos){assert.ok(photo.credit);assert.ok(photo.license);assert.ok(safeWebUrl(photo.source_url));}}
 });
