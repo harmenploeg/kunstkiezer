@@ -47,3 +47,32 @@ h1 { font-size: clamp(2.3rem, 6vw, 4rem); line-height: 1.12; font-weight: 350; l
   .page-heading { padding-top: 30px; }
   .empty-state { padding: 22px; }
 }
+button, input, select, textarea {font:inherit;}
+button {cursor:pointer;border:1px solid var(--border);border-radius:var(--radius-s);background:white;padding:10px 14px;color:var(--ink);}
+button:disabled {cursor:not-allowed;opacity:.5;}
+label {display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:550;min-width:0;}
+input,select,textarea {min-width:0;width:100%;border:1px solid #ccc;border-radius:8px;padding:10px 12px;background:white;color:var(--ink);font-weight:400;}
+input:focus-visible,select:focus-visible,textarea:focus-visible {outline:3px solid var(--accent-deep);outline-offset:2px;}
+textarea {resize:vertical;}
+.filters {display:flex;flex-wrap:wrap;align-items:end;gap:18px;margin-block:22px;}
+.filters label {flex:1;min-width:180px;}
+.notice {border:1px solid var(--border);background:var(--accent-tint);border-radius:12px;padding:18px;}
+.notice a,.museum-form a {text-decoration:underline;text-underline-offset:3px;}
+.museum-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;}
+.museum-card {border:1px solid var(--border);border-radius:18px;padding:24px;}
+.museum-card h2 {font-size:23px;font-weight:500;}
+.text-button {display:inline-block;margin-top:15px;color:var(--accent-deep);text-decoration:underline;}
+.tag-list {display:flex;gap:6px;flex-wrap:wrap;}
+.tag-list span {padding:3px 9px;border-radius:20px;background:var(--accent-tint);font-size:12px;}
+.admin-layout {display:grid;grid-template-columns:minmax(230px,.8fr) minmax(0,1.6fr);gap:25px;align-items:start;}
+.museum-list {min-width:0;}
+.museum-row {display:flex;flex-direction:column;gap:4px;width:100%;text-align:left;margin-bottom:9px;padding:16px;overflow-wrap:anywhere;}
+.museum-row span,.museum-row small {color:var(--muted);font-size:12px;}
+.museum-form {border:1px solid var(--border);border-radius:18px;padding:24px;display:flex;flex-direction:column;gap:18px;min-width:0;}
+.form-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+.primary-button {background:var(--accent-deep);color:white;border-color:var(--accent-deep);}
+.pagination {display:flex;align-items:center;gap:12px;margin-top:20px;flex-wrap:wrap;}
+.login-form {display:flex;flex-direction:column;gap:20px;max-width:430px;}
+fieldset {border:1px solid var(--border);border-radius:10px;padding:12px;}
+.tag-proposal {margin:4px;font-size:12px;}
+@media(max-width:760px){.admin-layout,.museum-grid {grid-template-columns:1fr;}.museum-list {max-height:440px;overflow:auto;}.form-grid{grid-template-columns:1fr;}.museum-form{padding:18px;}}
