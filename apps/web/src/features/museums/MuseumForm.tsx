@@ -1,0 +1,34 @@
+import { useState, type FormEvent } from 'react';
+import { provinces, safeWebUrl, validateMuseum, type Museum, type MuseumInput, type MuseumSource, type Editorial } from '../../../../../packages/data/src/museums.ts';
+interface Props {museum: MuseumInput; existing: Museum|null; sources: MuseumSource[]; editorial: Editorial; canSave: boolean; onSave:(m:MuseumInput,notes:string)=>Promise<void>}
+export function MuseumForm({museum,existing,sources,editorial,canSave,onSave}:Props) {
+ const [value,setValue]=useState<MuseumInput>(museum),[notes,setNotes]=useState(editorial.review_notes),[message,setMessage]=useState(''),[saving,setSaving]=useState(false),[tagText,setTagText]=useState(museum.tags.join(', '));
+ function field<K extends keyof MuseumInput>(name:K,v:MuseumInput[K]){setValue(old=>({...old,[name]:v}));setMessage('');}
+ async function submit(e:FormEvent){e.preventDefault();const errors=validateMuseum(value);if(errors.length){setMessage(errors.join(' '));return;}
+  setSaving(true);setMessage('');try{await onSave(value,notes);setMessage('Opgeslagen in Supabase.');}catch(e){setMessage(e instanceof Error?e.message:'Opslaan mislukt.');}finally{setSaving(false);}
+ }
+ return <form className="museum-form" onSubmit={e=>void submit(e)}>
+  <h2>{existing?'Museum bewerken':'Museumgegevens'}</h2>
+  {!canSave&&<p className="notice">Inventarisvoorbeeld: je kunt de velden bekijken en uitproberen. Opslaan wordt beschikbaar na aansluiting op Supabase en aanmelden als redacteur.</p>}
+  <div className="form-grid">
+   <label>Naam<input required maxLength={250} value={value.name} onChange={e=>field('name',e.target.value)} /></label>
+   <label>Plaats<input value={value.city} onChange={e=>field('city',e.target.value)} /></label>
+   <label>Provincie<select value={value.province} onChange={e=>field('province',e.target.value)}><option value="">Nog onbekend</option>{provinces.map(p=><option key={p}>{p}</option>)}</select></label>
+   <label>Adres<input value={value.street_address} onChange={e=>field('street_address',e.target.value)} /></label>
+   <label>Postcode<input value={value.postal_code} onChange={e=>field('postal_code',e.target.value)} /></label>
+   <label>Website<input type="url" value={value.website_url} onChange={e=>field('website_url',e.target.value)} placeholder="https://" /></label>
+   <label>Breedtegraad<input type="number" step="any" min={-90} max={90} value={value.latitude??''} onChange={e=>field('latitude',e.target.value===''?null:Number(e.target.value))} /></label>
+   <label>Lengtegraad<input type="number" step="any" min={-180} max={180} value={value.longitude??''} onChange={e=>field('longitude',e.target.value===''?null:Number(e.target.value))} /></label>
+   <label>Bedrijfsstatus<select value={value.operating_status} onChange={e=>field('operating_status',e.target.value as MuseumInput['operating_status'])}><option value="unknown">Nog controleren</option><option value="open">Open</option><option value="temporarily_closed">Tijdelijk gesloten</option><option value="closed">Gesloten</option></select></label>
+   <label>Controle<select value={value.verification_status} onChange={e=>field('verification_status',e.target.value as MuseumInput['verification_status'])}><option value="unreviewed">Nog niet gecontroleerd</option><option value="verified">Gecontroleerd</option><option value="needs_update">Opnieuw controleren</option></select></label>
+   <label>Publicatie<select value={value.publication_status} onChange={e=>field('publication_status',e.target.value as MuseumInput['publication_status'])}><option value="draft">Concept</option><option value="review">Ter beoordeling</option><option value="published">Gepubliceerd</option><option value="archived">Archief</option></select></label>
+  </div>
+  <label>Eigen beschrijving<textarea rows={4} maxLength={5000} value={value.summary} onChange={e=>field('summary',e.target.value)} /></label>
+  <label>Goedgekeurde tags, gescheiden door komma's<input value={tagText} onChange={e=>{setTagText(e.target.value);field('tags',[...new Set(e.target.value.split(',').map(t=>t.trim()).filter(Boolean))]);}} /></label>
+  {editorial.suggested_tags.length>0&&<fieldset><legend>Tagvoorstellen — zelf beoordelen</legend>{editorial.suggested_tags.map(t=><button type="button" className="tag-proposal" key={t.label} disabled={value.tags.includes(t.label)} title={t.evidence} onClick={()=>{field('tags',[...value.tags,t.label]);setTagText([...value.tags,t.label].join(', '));}}>+ {t.label} <small>({t.dimension})</small></button>)}</fieldset>}
+  <label>Interne redactienotities<textarea rows={3} value={notes} onChange={e=>setNotes(e.target.value)} /></label>
+  <section><h3>Bronnen</h3>{sources.length?sources.map((s,i)=><p key={i}>{safeWebUrl(s.url)?<a href={safeWebUrl(s.url)!} target="_blank" rel="noopener noreferrer">{s.provider} ↗</a>:s.provider}<br/><small>Opgehaald {new Date(s.retrieved_at).toLocaleDateString('nl-NL')} · {s.evidence_fields.join(', ')}</small></p>):<p>Nog geen bron gekoppeld. Vul controleerbare gegevens en je eigen notities in.</p>}</section>
+  {message&&<p role="status" className="notice">{message}</p>}
+  <button className="primary-button" disabled={!canSave||saving} type="submit">{saving?'Opslaan…':'Opslaan in Supabase'}</button>
+ </form>;
+}
