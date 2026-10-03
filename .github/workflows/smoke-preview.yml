@@ -17,7 +17,7 @@ jobs:
           def fetch(path):
               for attempt in range(6):
                   try:
-                      with urllib.request.urlopen(base + path, timeout=30) as response:
+                      with urllib.request.urlopen(urllib.request.Request(base + path, headers={'User-Agent': 'Mozilla/5.0 Kunstkiezer-verificatie'}), timeout=30) as response:
                           return response.status, response.read().decode()
                   except urllib.error.HTTPError as error:
                       if attempt == 5: raise SystemExit(f'Live controle mislukt: {path} HTTP {error.code}')
@@ -30,7 +30,7 @@ jobs:
               print('Pagina en assets bereikbaar:', path)
           assert json.loads(fetch('/kunstkiezer/api/health')[1]) == {'status': 'ok', 'service': 'kunstkiezer-api'}
           try:
-              urllib.request.urlopen(base + '/kunstkiezer/onbekend', timeout=30)
+              urllib.request.urlopen(urllib.request.Request(base + '/kunstkiezer/onbekend', headers={'User-Agent': 'Mozilla/5.0 Kunstkiezer-verificatie'}), timeout=30)
               raise SystemExit('Onbekende route geeft geen 404.')
           except urllib.error.HTTPError as error:
               assert error.code == 404
