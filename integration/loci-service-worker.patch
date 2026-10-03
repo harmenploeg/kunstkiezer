@@ -1,0 +1,21 @@
+--- a/service-worker.js
++++ b/service-worker.js
+@@ -2,7 +2,7 @@
+ /* Onder de oude naam staat op bestaande toestellen nog een voorraad; die
+    hoort bij dezelfde app en moet dus mee opgeruimd worden. */
+ const PREVIOUS_CACHE_PREFIX = "wanderdam-dubbele-selectie-shell-";
+-const CACHE_NAME = `${LOCI_CACHE_PREFIX}v281`;
++const CACHE_NAME = `${LOCI_CACHE_PREFIX}v282`;
+ const APP_SHELL = [
+   "./", "./index.html", "./styles.css?v=281", "./app.js?v=281",
+   "./manifest.webmanifest?v=193", "./logo-loci.svg?v=281",
+@@ -25,6 +25,9 @@
+ 
+ self.addEventListener("fetch", (event) => {
+   if (event.request.method !== "GET") return;
++  // Kunstkiezer is een afzonderlijke app; niet cachen als Loci-startpagina.
++  const pathname = new URL(event.request.url).pathname;
++  if (pathname === "/kunstkiezer" || pathname.startsWith("/kunstkiezer/")) return;
+   if (event.request.mode === "navigate") {
+     event.respondWith(fetch(event.request).then((response) => {
+       caches.open(CACHE_NAME).then((cache) => cache.put("./index.html", response.clone()));
