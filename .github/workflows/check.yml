@@ -1,5 +1,8 @@
 name: Controle
 on: [push, pull_request]
+concurrency:
+  group: check-${{ github.ref }}
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:
