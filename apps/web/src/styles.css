@@ -118,7 +118,7 @@ fieldset {border:1px solid var(--border);border-radius:10px;padding:12px;}
 .profile-questions .taste-question {margin-top:28px;}
 
 .location-controls { border: 1px solid var(--line, #deddd9); border-radius: 16px; padding: 1.2rem 1.4rem; margin: 1rem 0 1.8rem; background: #faf9f6; }
-.location-controls .distance-toggle { display: flex; align-items: center; gap: .8rem; cursor: pointer; font-weight: 700; }
+.location-controls .distance-toggle { display: flex; flex-direction: row; align-items: center; gap: .8rem; cursor: pointer; font-weight: 700; }
 .distance-toggle input[type="checkbox"] { width: 1.25rem; height: 1.25rem; flex: 0 0 auto; accent-color: #df173d; margin: 0; }
 .location-controls p { margin: .65rem 0; }
 .location-controls small { display: block; color: #696969; margin-top: .8rem; line-height: 1.6; }
