@@ -1,23 +1,31 @@
 # Kunstkiezer
 
-Modulaire kunstagenda voor Nederland, met Mijn kunstkeuze als startpunt.
+Modulaire kunstagenda voor Nederland. Mijn kunstkeuze is het startpunt.
 
-## Fase 1
+## Bekijk het resultaat
 
-React/TypeScript frontend, gedeelde vormgeving en domeintypen, categorienavigatie, lege persoonlijke agenda en API-healthcheck. Er zijn nog geen accounts, opgeslagen keuzes of echte catalogusgegevens.
+- App: https://kunstkiezer.pages.dev/kunstkiezer/
+- Museuminventaris en bewerkformulier: https://kunstkiezer.pages.dev/kunstkiezer/beheer/musea
+- CSV: https://kunstkiezer.pages.dev/kunstkiezer/inventory.csv
 
-`npm ci` en `npm run check` controleren types, routes en de productiebuild. `npm run test:e2e` controleert navigatie op mobiel en desktop.
+De eerste inventaris bevat 1.496 kandidaten uit Museum.nl, twaalf provinciale Wikipedia-lijsten en de Amsterdam-lijst. Exacte overeenkomsten zijn samengevoegd; 62 mogelijke dubbelparen en 71 onbekende provincies blijven te controleren. Historische en gesloten vermeldingen zijn nog aanwezig. Alle records beginnen als concept, niet als gecontroleerde openbare catalogus.
+
+## Backend en beheer
+
+De museumcatalogus leest uitsluitend uit Supabase. Het redacteurformulier ondersteunt aanmelden, zoeken, provinciefilters, toevoegen, wijzigen, bronnen, tagvoorstellen, privénotities en publicatie. RLS beschermt concepten en notities. Museumgegevens en notities worden in één transactie opgeslagen met controle op gelijktijdige wijzigingen.
+
+Er is nog geen Supabase-accountverbinding in deze sessie en dus nog geen echt cloudproject ingericht. De schema’s, importgenerator en editorbootstrap staan gereed onder `supabase/`. Zonder verbinding toont de beheerpagina een duidelijk gemarkeerde, niet-opslagbare inventarispreview. Zie [inrichting en datamodel](docs/musea-en-supabase.md).
+
+## Ontwikkelen en testen
+
+`npm ci`, `npm run check`, `npm run test:e2e`. De tests voeren de echte PostgreSQL-schema’s en RLS uit met PGlite en controleren de frontend op desktop en mobiel. De login-/opslagbrowsertest gebruikt gemockte Supabase-antwoorden; live databasecontrole volgt na aansluiting.
+
+De code staat modulair in `apps/web/src/features/museums`, `packages/data`, `packages/config` en `functions/kunstkiezer`. Onderzoeksdata en bronnen staan in `data/museums`; de collectie heeft een tagbibliotheek per dimensie.
 
 ## Cloudflare
 
-De bestaande hoofdsite is Cloudflare Pages-project `interactief`, gekoppeld aan `harmenploeg/interactief` en `www.loci-amsterdam.nl`. Kunstkiezer wordt bedoeld voor `/kunstkiezer/` binnen die site.
+De preview is Cloudflare Pages-project `kunstkiezer`. Runtimevariabelen `PUBLIC_SUPABASE_URL` en `PUBLIC_SUPABASE_PUBLISHABLE_KEY` leveren uitsluitend de openbare clientconfiguratie; serverkeys worden geweigerd.
 
-De workflow Publicatievoorbereiding levert een build-artifact. Deze publiceert nog niet. De integratie met de bestaande gecontroleerde Pages-publicatie moet nog worden toegevoegd. De Worker-configuratie is uitsluitend geschikt voor lokale routetests en is niet de huidige productieaanpak.
+De eerdere basisintegratie is gepubliceerd in Pages-project `interactief` onder `www.loci-amsterdam.nl/kunstkiezer/`. De nieuwe museumuitbreiding is momenteel op de afzonderlijke preview gepubliceerd; het Loci-publicatiepakket moet voor deze uitbreiding nog worden bijgewerkt.
 
-GitHub Actions gebruikt later het repository-secret `CLOUDFLARE_API_TOKEN` en de variable `CLOUDFLARE_ACCOUNT_ID`. Sla tokens nooit op in broncode.
-
-## Preview
-
-De gecontroleerde fase-1-preview staat op https://kunstkiezer.pages.dev/kunstkiezer/ . De workflow `preview-pages.yml` bouwt en publiceert het afzonderlijke Cloudflare Pages-project. `smoke-preview.yml` controleert de openbare pagina’s, assets en healthcheck.
-
-De integratie met www.loci-amsterdam.nl staat in https://github.com/harmenploeg/interactief/pull/2 en doorloopt de bestaande Loci-publicatiecontroles.
+Persoonlijke keuzes, bezoekplanning en aanbevelingen zijn nog niet geïmplementeerd.
