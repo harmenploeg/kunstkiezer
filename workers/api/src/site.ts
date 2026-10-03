@@ -28,7 +28,7 @@ export default {
     }
     const normalizedPath = relativePath.replace(/\/$/, "") || "/";
     const isPage = isPagePath(normalizedPath);
-    if (!isPage && !relativePath.startsWith("/assets/") && !["/inventory.json","/inventory.csv","/inventory-report.json"].includes(relativePath)) return error(404, "not_found");
+    if (!isPage && !relativePath.startsWith("/assets/") && !["/inventory.json","/art-inventory.json","/inventory.csv","/inventory-report.json"].includes(relativePath)) return error(404, "not_found");
     // Assets serveert index.html via '/'; '/index.html' geeft een canonieke
     // redirect naar de domeinroot en zou daardoor het app-prefix verliezen.
     url.pathname = isPage ? "/" : relativePath;
@@ -39,7 +39,7 @@ export default {
     headers.set("X-Robots-Tag", "noindex, nofollow");
     if (isPage) {
       headers.set("Cache-Control", "no-store");
-      headers.set("Content-Security-Policy", "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://*.supabase.co; object-src 'none'; base-uri 'self'; frame-ancestors 'none'");
+      headers.set("Content-Security-Policy", "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https: http:; connect-src 'self' https://*.supabase.co; object-src 'none'; base-uri 'self'; frame-ancestors 'none'");
     }
     return new Response(response.body, { status: response.status, headers });
   },

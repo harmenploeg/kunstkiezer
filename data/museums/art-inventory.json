@@ -1,0 +1,2132 @@
+[
+  {
+    "inventory_key": "museum-nl:rijksmuseum-amsterdam",
+    "name": "Rijksmuseum Amsterdam",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Museumstraat 1",
+    "postal_code": "1071 XX",
+    "country": "NL",
+    "website_url": "https://www.rijksmuseum.nl",
+    "latitude": 52.359942,
+    "longitude": 4.885386,
+    "summary": "Laat je verrassen door schilderijen, verfijnd aardewerk en kunst vol verhalen. Van Vermeers verstilde wereld tot het levendige werk van Judith Leyster: het Rijksmuseum nodigt uit om dichtbij te kijken. Ook buiten de beroemde schilderijen valt hier eindeloos veel te ontdekken.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [
+      {
+        "label": "kunst",
+        "dimension": "collectie",
+        "confidence": "low",
+        "evidence": "Naam bevat een trefwoord; redactionele controle vereist."
+      }
+    ],
+    "tags": [
+      "kunst",
+      "schilderkunst",
+      "keramiek"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/rijksmuseum-amsterdam",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "rijksmuseum-amsterdam",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Amsterdam",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Rijksmuseum_Amsterdam#Schiphol",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.rijksmuseum.nl/nl/collectie",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg/1280px-South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg",
+        "caption": "Zuidgevel van het Rijksmuseum",
+        "credit": "Trougnouf (Benoit Brummer)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:South_facade_of_the_Rijksmuseum_Amsterdam_(DSCF0528).jpg",
+        "license": "CC BY 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Rijksmuseum_stoa_7213.jpg/1280px-Rijksmuseum_stoa_7213.jpg",
+        "caption": "Passage van het Rijksmuseum",
+        "credit": "C messier",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_stoa_7213.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:van-gogh-museum",
+    "name": "Van Gogh Museum",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Museumplein 6",
+    "postal_code": "1071 DJ",
+    "country": "NL",
+    "website_url": "https://www.vangoghmuseum.nl",
+    "latitude": 52.357925,
+    "longitude": 4.881323,
+    "summary": "Volg Van Goghs blik op de wereld, van zijn eerste studies tot uitbundige kleuren en krachtige penseelstreken. Schilderijen en tekeningen brengen je dicht bij zijn zoektocht als kunstenaar. Een collectie die vertrouwde beelden opnieuw laat sprankelen en uitnodigt om steeds langer te kijken.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [
+      {
+        "label": "kunst",
+        "dimension": "collectie",
+        "confidence": "low",
+        "evidence": "Naam bevat een trefwoord; redactionele controle vereist."
+      }
+    ],
+    "tags": [
+      "kunst",
+      "schilderkunst",
+      "tekeningen",
+      "19e eeuw"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/van-gogh-museum",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "van-gogh-museum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Amsterdam",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Van_Gogh_Museum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.vangoghmuseum.nl/assets/9fda6c09-4a16-4940-a94f-37f0f8e0193b?c=d0b215154509e6f7bdccff967a14a502b206d8450a47704bd1bbfd3d8ebe58f8",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "8ca65b0c-71eb-5178-bc9d-6e321af6995c",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Van_Gogh_Museum_7206_rt_HDR.jpg/1280px-Van_Gogh_Museum_7206_rt_HDR.jpg",
+        "caption": "Van Gogh Museum",
+        "credit": "C messier",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum_7206_rt_HDR.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:kroller-muller-museum",
+    "name": "Kröller-Müller Museum",
+    "city": "Otterlo",
+    "province": "Gelderland",
+    "street_address": "Houtkampweg 6",
+    "postal_code": "6731 AW",
+    "country": "NL",
+    "website_url": "https://www.krollermuller.nl",
+    "latitude": 52.096224,
+    "longitude": 5.817664,
+    "summary": "Hier krijgt moderne kunst alle ruimte. Ontdek de schilderijen van Van Gogh en wandel daarna tussen sculpturen in de beeldentuin. Binnen en buiten verandert je blik: van kleur en penseelstreek naar vorm, licht en landschap. Een heerlijke plek om kunst en natuur samen te beleven.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [
+      {
+        "label": "kunst",
+        "dimension": "collectie",
+        "confidence": "low",
+        "evidence": "Naam bevat een trefwoord; redactionele controle vereist."
+      }
+    ],
+    "tags": [
+      "kunst",
+      "schilderkunst",
+      "beeldhouwkunst",
+      "moderne kunst",
+      "openlucht"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/kroller-muller-museum",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "kroller-muller-museum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Gelderland",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Kröller-Müller_Museum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://krollermuller.nl/collectie",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "45f722c3-7566-502a-93ee-acda64e7cdb0",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Entrance_Kr%C3%B6ller-M%C3%BCller_Museum.JPG/1280px-Entrance_Kr%C3%B6ller-M%C3%BCller_Museum.JPG",
+        "caption": "Kröller-Müller Museum",
+        "credit": "Gerardus",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Entrance_Kr%C3%B6ller-M%C3%BCller_Museum.JPG",
+        "license": "Public domain"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:stedelijk-museum-amsterdam",
+    "name": "Stedelijk Museum Amsterdam",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Museumplein 10",
+    "postal_code": "1071 DJ",
+    "country": "NL",
+    "website_url": "https://www.stedelijk.nl",
+    "latitude": 52.35791,
+    "longitude": 4.879855,
+    "summary": "Duik in moderne en hedendaagse kunst en design. Het Stedelijk brengt uiteenlopende ideeën, vormen en materialen bij elkaar en laat zien hoe kunstenaars en ontwerpers onze wereld bevragen. Een collectie om je over te verwonderen, over te discussiëren en met nieuwe ogen naar huis te gaan.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [
+      {
+        "label": "moderne kunst",
+        "dimension": "periode",
+        "confidence": "low",
+        "evidence": "Naam bevat een trefwoord; redactionele controle vereist."
+      }
+    ],
+    "tags": [
+      "kunst",
+      "moderne kunst",
+      "hedendaagse kunst",
+      "design"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/stedelijk-museum-amsterdam",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "stedelijk-museum-amsterdam",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.stedelijk.nl/nl/nieuws/small-world-real-world-2",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid. Provincie afgeleid uit plaatsnaam in provinciale lijst; controleren.",
+    "id": "d40cd0e8-52f2-5f2d-b452-4caad4718c94",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Stedelijk_Museum_Amsterdam_7173_HDR.jpg/1280px-Stedelijk_Museum_Amsterdam_7173_HDR.jpg",
+        "caption": "Stedelijk Museum Amsterdam",
+        "credit": "C messier",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Stedelijk_Museum_Amsterdam_7173_HDR.jpg",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/De_nieuwe_vleugel_van_het_Stedelijk_Museum_Amsterdam.jpg/1280px-De_nieuwe_vleugel_van_het_Stedelijk_Museum_Amsterdam.jpg",
+        "caption": "Stedelijk Museum Amsterdam",
+        "credit": "John Lewis Marshall",
+        "source_url": "https://commons.wikimedia.org/wiki/File:De_nieuwe_vleugel_van_het_Stedelijk_Museum_Amsterdam.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:mauritshuis",
+    "name": "Mauritshuis",
+    "city": "Den Haag",
+    "province": "Zuid-Holland",
+    "street_address": "Plein 29",
+    "postal_code": "2511 CS",
+    "country": "NL",
+    "website_url": "https://www.mauritshuis.nl",
+    "latitude": 52.080345,
+    "longitude": 4.314388,
+    "summary": "Kleine zalen, grootse schilderkunst. In het Mauritshuis ontmoet je oude meesters en ontdek je hoeveel een blik, een lichtvlek of een zorgvuldig geschilderd detail kan vertellen. Neem de tijd voor portretten, stillevens en andere schilderijen: juist van dichtbij ontvouwt zich de magie.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "schilderkunst",
+      "oude meesters"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/mauritshuis",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "mauritshuis",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Zuid-Holland",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Mauritshuis",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.mauritshuis.nl/nu-te-doen/vaste-collectie/mauritshuis/geschiedenis-van-de-collectie",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "558d084e-8241-5142-a083-4137b51973a6",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Mauritshuis_-_Den_Haag-1780.jpg/1280px-Mauritshuis_-_Den_Haag-1780.jpg",
+        "caption": "Mauritshuis",
+        "credit": "Hubertl",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mauritshuis_-_Den_Haag-1780.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:kunstmuseum-den-haag",
+    "name": "Kunstmuseum Den Haag",
+    "city": "Den Haag",
+    "province": "Zuid-Holland",
+    "street_address": "Stadhouderslaan 41",
+    "postal_code": "2517 HV",
+    "country": "NL",
+    "website_url": "https://www.kunstmuseum.nl/nl",
+    "latitude": 52.089202,
+    "longitude": 4.279849,
+    "summary": "Van beeldende kunst tot mode en toegepaste kunst: deze veelzijdige collectie verrast met kleur, materiaal en vorm. Kijk hoe kunstenaars, ontwerpers en makers ieder hun eigen wereld bouwen. Een museum om bekende kunst te ontmoeten én nieuwe favorieten te vinden.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [
+      {
+        "label": "kunst",
+        "dimension": "collectie",
+        "confidence": "low",
+        "evidence": "Naam bevat een trefwoord; redactionele controle vereist."
+      }
+    ],
+    "tags": [
+      "kunst",
+      "toegepaste kunst",
+      "mode"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/kunstmuseum-den-haag",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "kunstmuseum-den-haag",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Zuid-Holland",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Kunstmuseum_Den_Haag",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.kunstmuseum.nl/nl/collectie/deelcollecties",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "c3ab1b89-a248-5b8f-bf3e-031df0c33a18",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Den_Haag-Scheveningen%2C_het_Kunstmuseum_%28noordelijke_deel%29_IMG_6089_2024-11-04_14.35.jpg/1280px-Den_Haag-Scheveningen%2C_het_Kunstmuseum_%28noordelijke_deel%29_IMG_6089_2024-11-04_14.35.jpg",
+        "caption": "Kunstmuseum Den Haag",
+        "credit": "Michielverbeek",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Den_Haag-Scheveningen,_het_Kunstmuseum_(noordelijke_deel)_IMG_6089_2024-11-04_14.35.jpg",
+        "license": "CC BY 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:museum-more",
+    "name": "Museum MORE",
+    "city": "Gorssel",
+    "province": "Gelderland",
+    "street_address": "Hoofdstraat 28",
+    "postal_code": "7213 CW",
+    "country": "NL",
+    "website_url": "https://www.museummore.nl",
+    "latitude": 52.199463,
+    "longitude": 6.200584,
+    "summary": "Hoe verrassend kan de zichtbare wereld zijn? Museum MORE laat het zien met Nederlandse figuratieve kunst van 1900 tot nu. Schilderijen, tekeningen en andere werken maken het alledaagse soms herkenbaar, soms vervreemdend. Ontdek hoe rijk en eigenzinnig modern realisme kan zijn.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "realisme",
+      "schilderkunst",
+      "moderne kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/museum-more",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "museum-more",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Gelderland",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Museum_MORE",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.museummore.nl/collectie",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "29dda0c4-dea0-55dd-a9e6-35fe6ddad31b",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Restaurated_traditional_Manor_at_Gorssel%2C_now_Museeum_More%2C_mostly_in_the_new_building_behind_it_-_panoramio.jpg/1280px-Restaurated_traditional_Manor_at_Gorssel%2C_now_Museeum_More%2C_mostly_in_the_new_building_behind_it_-_panoramio.jpg",
+        "caption": "Museum MORE",
+        "credit": "Henk Monster",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Restaurated_traditional_Manor_at_Gorssel,_now_Museeum_More,_mostly_in_the_new_building_behind_it_-_panoramio.jpg",
+        "license": "CC BY 3.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:singer-laren",
+    "name": "Singer Laren",
+    "city": "Laren (NH)",
+    "province": "",
+    "street_address": "Oude Drift 1",
+    "postal_code": "1251 BS",
+    "country": "NL",
+    "website_url": "https://www.singerlaren.nl",
+    "latitude": 52.259383,
+    "longitude": 5.221566,
+    "summary": "Laat je meenemen door Nederlands impressionisme en modernisme. De collectie van Singer Laren laat zien hoe kunstenaars licht, kleur en het dagelijkse leven steeds opnieuw uitvonden. Van herkenbare taferelen tot gedurfde vernieuwing: hier ontdek je schilderkunst die blijft verrassen.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "schilderkunst",
+      "impressionisme",
+      "moderne kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/singer-laren",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "singer-laren",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.singerlaren.nl/cms_files/File/SL_Jaarverslag_2024_LR.pdf",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "98651057-8ba9-5e2c-b97a-56c719fb1227",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Singer_museum_laren.jpg/1280px-Singer_museum_laren.jpg",
+        "caption": "Singer Laren",
+        "credit": "M.Minderhoud",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Singer_museum_laren.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:van-abbemuseum",
+    "name": "Van Abbemuseum",
+    "city": "Eindhoven",
+    "province": "Noord-Brabant",
+    "street_address": "Stratumsedijk 2",
+    "postal_code": "5611 ND",
+    "country": "NL",
+    "website_url": "https://www.vanabbemuseum.nl",
+    "latitude": 51.434193,
+    "longitude": 5.48363,
+    "summary": "Hedendaagse kunst zet hier je blik in beweging. Het Van Abbemuseum verzamelt kunst die uitnodigt tot nieuwsgierigheid en nieuwe vragen. Laat je verrassen door uiteenlopende vormen en ideeën en ontdek hoe kunstenaars zich verhouden tot de wereld om hen heen.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "hedendaagse kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/van-abbemuseum",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "van-abbemuseum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Noord-Brabant",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Van_Abbemuseum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://vanabbemuseum.nl/",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "d88b798d-25af-5e7b-b615-7ed455fdf4cd",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Eindhoven%2C_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg/1280px-Eindhoven%2C_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg",
+        "caption": "Van Abbemuseum",
+        "credit": "Michielverbeek",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Eindhoven,_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:de-pont-museum",
+    "name": "De Pont Museum",
+    "city": "Tilburg",
+    "province": "Noord-Brabant",
+    "street_address": "Wilhelminapark 1",
+    "postal_code": "5041 EA",
+    "country": "NL",
+    "website_url": "https://www.depont.nl",
+    "latitude": 51.567023,
+    "longitude": 5.073473,
+    "summary": "In een voormalige textielfabriek krijgt internationale hedendaagse kunst de ruimte. De Pont nodigt uit om werk van kunstenaars aandachtig te ervaren, van een eerste indruk tot een onverwacht detail. Een collectie voor wie graag ontdekt en zich laat verrassen.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "hedendaagse kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/de-pont-museum",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "de-pont-museum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.depont.nl/",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid. Provincie afgeleid uit plaatsnaam in provinciale lijst; controleren.",
+    "id": "15b07f69-dc30-5410-8b9f-0168a8a647c0",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Ingang_Museum_De_Pont.jpg/1280px-Ingang_Museum_De_Pont.jpg",
+        "caption": "De Pont Museum",
+        "credit": "DaanArt",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ingang_Museum_De_Pont.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "wikipedia:Zuid-Holland:museumvoorlinden:wassenaar",
+    "name": "Museum Voorlinden",
+    "city": "Wassenaar",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "postal_code": "",
+    "country": "NL",
+    "website_url": "",
+    "latitude": null,
+    "longitude": null,
+    "summary": "Kunst die je blik én je gevoel voor ruimte op scherp zet. Voorlinden combineert moderne en hedendaagse kunst met werken die je van dichtbij moet ervaren. De collectie nodigt uit tot verwondering: soms subtiel, soms overweldigend, altijd een aanleiding om opnieuw te kijken.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "moderne kunst",
+      "hedendaagse kunst",
+      "installaties"
+    ],
+    "sources": [
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Zuid-Holland",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Museum_Voorlinden",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.voorlinden.nl/bezoek/tentoonstellingen/",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Provinciale lijst; adres en actuele status nog controleren.",
+    "id": "309b4c56-a9df-5cd7-824d-5e6830fc832e",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Piet_Oudolf_Tuin%2C_Voorlinden%2C_September_2025.jpg/1280px-Piet_Oudolf_Tuin%2C_Voorlinden%2C_September_2025.jpg",
+        "caption": "De tuin van Museum Voorlinden",
+        "credit": "Renate Hano",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Piet_Oudolf_Tuin,_Voorlinden,_September_2025.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:bonnefanten",
+    "name": "Bonnefanten",
+    "city": "Maastricht",
+    "province": "Limburg",
+    "street_address": "Avenue Ceramique 250",
+    "postal_code": "6221 KX",
+    "country": "NL",
+    "website_url": "https://www.bonnefanten.nl",
+    "latitude": 50.842525,
+    "longitude": 5.702028,
+    "summary": "Van middeleeuwse sculpturen en oude schilderijen tot eigenzinnige hedendaagse kunst: Bonnefanten verbindt werelden. De collectie geeft ruimte aan kunstenaars die hun eigen koers varen. Ontdek verrassende overeenkomsten tussen eeuwenoude vormen en de ideeën van nu.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "oude meesters",
+      "beeldhouwkunst",
+      "hedendaagse kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/bonnefanten",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "bonnefanten",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.bonnefanten.nl/nl/organisatie/over/de-collectie",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid. Provincie afgeleid uit plaatsnaam in provinciale lijst; controleren.",
+    "id": "4a9f2f17-8498-5c6d-a676-f3432edcf507",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Maastricht_Bonnefantenmuseum_2.jpg/1280px-Maastricht_Bonnefantenmuseum_2.jpg",
+        "caption": "Bonnefanten",
+        "credit": "Velvet",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Maastricht_Bonnefantenmuseum_2.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:frans-hals-museum",
+    "name": "Frans Hals Museum",
+    "city": "Haarlem",
+    "province": "Noord-Holland",
+    "street_address": "Groot Heiligland 62",
+    "postal_code": "2011 ES",
+    "country": "NL",
+    "website_url": "https://www.franshalsmuseum.nl",
+    "latitude": 52.376606,
+    "longitude": 4.63369,
+    "summary": "Ontmoet de levendige schilderkunst van Frans Hals en ontdek hoe rijk de kunst eromheen is. De collectie loopt van oude meesters naar moderne en hedendaagse kunstenaars. Een heerlijke uitnodiging om gezichten, kleuren en penseelstreken met frisse ogen te bekijken.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "schilderkunst",
+      "oude meesters",
+      "moderne kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/frans-hals-museum",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "frans-hals-museum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Noord-Holland",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Frans_Hals_Museum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://franshalsmuseum.nl/nl",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "c8e2fdc7-208f-52e5-8c63-b0fb0f11152f",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Frans_Hals_Museum_portal_in_Haarlem.jpg/1280px-Frans_Hals_Museum_portal_in_Haarlem.jpg",
+        "caption": "Frans Hals Museum",
+        "credit": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Frans_Hals_Museum_portal_in_Haarlem.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:dordrechts-museum",
+    "name": "Dordrechts Museum",
+    "city": "Dordrecht",
+    "province": "Zuid-Holland",
+    "street_address": "Museumstraat 40",
+    "postal_code": "3311 XP",
+    "country": "NL",
+    "website_url": "https://www.dordrechtsmuseum.nl",
+    "latitude": 51.814499,
+    "longitude": 4.671739,
+    "summary": "Zes eeuwen schilderkunst brengen je van verfijnde oude werken naar de kunst van vandaag. Kijk hoe kunstenaars door de tijd heen mensen, landschappen en hun eigen wereld verbeelden. Een rijke verzameling waarin je steeds nieuwe verbindingen en persoonlijke favorieten ontdekt.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "schilderkunst",
+      "oude meesters",
+      "hedendaagse kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/dordrechts-museum",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "dordrechts-museum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Zuid-Holland",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Dordrechts_Museum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.dordrechtsmuseum.nl/vastecollectie/",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "b2463c1b-ea3f-5ac3-bce4-90dbe8eb067c",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Dordrecht_-_Dordrechts_Museum.jpg/1280px-Dordrecht_-_Dordrechts_Museum.jpg",
+        "caption": "Dordrechts Museum",
+        "credit": "Michiel1972",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dordrecht_-_Dordrechts_Museum.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:rijksmuseum-twenthe",
+    "name": "Rijksmuseum Twenthe",
+    "city": "Enschede",
+    "province": "Overijssel",
+    "street_address": "Lasondersingel 129-131",
+    "postal_code": "7514 BP",
+    "country": "NL",
+    "website_url": "https://www.rijksmuseumtwenthe.nl",
+    "latitude": 52.227699,
+    "longitude": 6.897013,
+    "summary": "Een veelzijdige kunstcollectie die uitnodigt om te blijven kijken. Van Jan Steen tot Jan Sluijters ontmoet je uiteenlopende manieren om de wereld te verbeelden. Laat je leiden door kleur, detail en onverwachte ontmoetingen tussen kunstwerken.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "schilderkunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/rijksmuseum-twenthe",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "rijksmuseum-twenthe",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Overijssel",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Rijksmuseum_Twenthe",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.rijksmuseumtwenthe.nl/",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "7d9a1a4e-ae60-5be5-9fed-aae9fca909b7",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Enschede_Rijksmuseum_Twenthe.jpg/1280px-Enschede_Rijksmuseum_Twenthe.jpg",
+        "caption": "Rijksmuseum Twenthe",
+        "credit": "Berteun Damman (I self)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Enschede_Rijksmuseum_Twenthe.jpg",
+        "license": "Public domain"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:museum-kranenburgh",
+    "name": "Museum Kranenburgh",
+    "city": "Bergen",
+    "province": "Noord-Holland",
+    "street_address": "Hoflaan 26",
+    "postal_code": "1861 CR",
+    "country": "NL",
+    "website_url": "http://www.kranenburgh.nl/",
+    "latitude": 52.668233,
+    "longitude": 4.695258,
+    "summary": "Krachtige kleuren en eigenzinnige vormen brengen het kunstenaarsdorp Bergen tot leven. De Bergense School vormt het hart van een collectie die doorloopt tot de kunst van nu. Ontdek werk van onder anderen Charley Toorop en Leo Gestel, naast latere en hedendaagse makers.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "schilderkunst",
+      "expressionisme",
+      "moderne kunst",
+      "hedendaagse kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/museum-kranenburgh",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "museum-kranenburgh",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Noord-Holland",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Museum_Kranenburgh",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://kranenburgh.nl/museum/collectie/",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "35667f6c-d721-506b-bc05-bfbc92e29eb7",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Museum_Kranenburgh%2C_Bergen.jpg/1280px-Museum_Kranenburgh%2C_Bergen.jpg",
+        "caption": "Museum Kranenburgh",
+        "credit": "Dqfn13",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Museum_Kranenburgh,_Bergen.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "wikipedia:Noord-Holland:cobramuseumvoormodernekunst:amstelveen",
+    "name": "Cobra Museum voor Moderne Kunst",
+    "city": "Amstelveen",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "postal_code": "",
+    "country": "NL",
+    "website_url": "",
+    "latitude": null,
+    "longitude": null,
+    "summary": "Ontdek de vrije verbeelding van Cobra. De collectie brengt je in een wereld van kleur, experiment en uitgesproken vormen. Kunst die uitnodigt om je nieuwsgierigheid te volgen en zonder vaste verwachtingen te kijken.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [
+      {
+        "label": "moderne kunst",
+        "dimension": "periode",
+        "confidence": "low",
+        "evidence": "Naam bevat een trefwoord; redactionele controle vereist."
+      },
+      {
+        "label": "kunst",
+        "dimension": "collectie",
+        "confidence": "low",
+        "evidence": "Naam bevat een trefwoord; redactionele controle vereist."
+      }
+    ],
+    "tags": [
+      "kunst",
+      "moderne kunst",
+      "experiment"
+    ],
+    "sources": [
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Noord-Holland",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Cobra_Museum_voor_Moderne_Kunst_Amstelveen",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://cobra-museum.nl/museum/",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Provinciale lijst; adres en actuele status nog controleren.",
+    "id": "8a9fafc9-45ef-5198-990a-f339b34cf146",
+    "photos": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Cobra-museum.jpg",
+        "caption": "Cobra Museum voor Moderne Kunst",
+        "credit": "Shirley de Jong",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cobra-museum.jpg",
+        "license": "CC BY-SA 2.5"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:museum-beelden-aan-zee",
+    "name": "Museum Beelden aan Zee",
+    "city": "Den Haag",
+    "province": "Zuid-Holland",
+    "street_address": "Harteveltstraat 1",
+    "postal_code": "2586 EL",
+    "country": "NL",
+    "website_url": "https://www.beeldenaanzee.nl",
+    "latitude": 52.110936,
+    "longitude": 4.278401,
+    "summary": "Hier draait alles om moderne en hedendaagse beeldhouwkunst. Van kleine, intieme sculpturen tot monumentale vormen: de collectie laat zien hoeveel een beeld kan oproepen. Wandel, kijk van verschillende kanten en ontdek hoe materiaal, ruimte en de menselijke figuur steeds veranderen.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [
+      {
+        "label": "beeldhouwkunst",
+        "dimension": "medium",
+        "confidence": "low",
+        "evidence": "Naam bevat een trefwoord; redactionele controle vereist."
+      }
+    ],
+    "tags": [
+      "kunst",
+      "beeldhouwkunst",
+      "moderne kunst",
+      "hedendaagse kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/museum-beelden-aan-zee",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "museum-beelden-aan-zee",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.beeldenaanzee.nl/",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid. Provincie afgeleid uit plaatsnaam in provinciale lijst; controleren.",
+    "id": "875f6c88-adca-5a0b-9982-741901899f2f",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Netherlands%2C_The_Hague_%28Scheveningen%29%2C_Museum_Beelden_aan_Zee_%282%29.jpg/1280px-Netherlands%2C_The_Hague_%28Scheveningen%29%2C_Museum_Beelden_aan_Zee_%282%29.jpg",
+        "caption": "Gebouw van Museum Beelden aan Zee",
+        "credit": "Vincent van Zeijst",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Netherlands,_The_Hague_(Scheveningen),_Museum_Beelden_aan_Zee_(2).jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:foam-fotografiemuseum-amsterdam",
+    "name": "Foam Fotografiemuseum Amsterdam",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Keizersgracht 609",
+    "postal_code": "1017 DS",
+    "country": "NL",
+    "website_url": "https://www.foam.org",
+    "latitude": 52.363988,
+    "longitude": 4.893263,
+    "summary": "Fotografie in al haar eigenzinnigheid. Foams internationale collectie brengt uiteenlopende makers en manieren van kijken samen, met onder meer portretten en conceptueel werk. Ontdek hoe een foto tegelijk iets kan vastleggen, verbeelden en aan het wankelen brengen.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [
+      {
+        "label": "fotografie",
+        "dimension": "medium",
+        "confidence": "low",
+        "evidence": "Naam bevat een trefwoord; redactionele controle vereist."
+      }
+    ],
+    "tags": [
+      "kunst",
+      "fotografie",
+      "portret",
+      "conceptuele kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/foam-fotografiemuseum-amsterdam",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "foam-fotografiemuseum-amsterdam",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.foam.org/collection",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid. Provincie afgeleid uit plaatsnaam in provinciale lijst; controleren.",
+    "id": "ddccc10b-3920-548c-a5b1-8a7f1c459879",
+    "photos": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Amsterdam_Keizersgracht_0609_001.JPG",
+        "caption": "Foam Fotografiemuseum Amsterdam",
+        "credit": "Janericloebe",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Keizersgracht_0609_001.JPG",
+        "license": "CC BY 3.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:huis-marseille-museum-voor-fotografie",
+    "name": "Huis Marseille, Museum voor Fotografie",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Keizersgracht 401",
+    "postal_code": "1016 EK",
+    "country": "NL",
+    "website_url": "https://www.huismarseille.nl",
+    "latitude": 52.367638,
+    "longitude": 4.884809,
+    "summary": "Ontdek hedendaagse fotografie die je aandacht vasthoudt. In de collectie van Huis Marseille vind je uiteenlopende persoonlijke blikken, onder meer van Viviane Sassen, Awoiska van der Molen en Deana Lawson. Beelden die uitnodigen om langzaam te kijken en je eigen verhaal te ontdekken.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [
+      {
+        "label": "fotografie",
+        "dimension": "medium",
+        "confidence": "low",
+        "evidence": "Naam bevat een trefwoord; redactionele controle vereist."
+      }
+    ],
+    "tags": [
+      "kunst",
+      "fotografie",
+      "hedendaagse kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/huis-marseille-museum-voor-fotografie",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "huis-marseille-museum-voor-fotografie",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://huismarseille.nl/collectie/",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid. Provincie afgeleid uit plaatsnaam in provinciale lijst; controleren.",
+    "id": "3c606568-23b3-5707-8474-2b2bf7fd49d3",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Huis_Marseille%2C_Museum_voor_Fotografie.jpg/1280px-Huis_Marseille%2C_Museum_voor_Fotografie.jpg",
+        "caption": "Huis Marseille, Museum voor Fotografie",
+        "credit": "Hmamsterdahm",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Huis_Marseille,_Museum_voor_Fotografie.jpg",
+        "license": "CC BY 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:keramiekmuseum-princessehof",
+    "name": "Keramiekmuseum Princessehof",
+    "city": "Leeuwarden",
+    "province": "Friesland",
+    "street_address": "Grote Kerkstraat 11",
+    "postal_code": "8911 DZ",
+    "country": "NL",
+    "website_url": "https://www.princessehof.nl",
+    "latitude": 53.203033,
+    "longitude": 5.792079,
+    "summary": "Reis door de wereld van keramiek, van historische stukken uit Azië, Europa en het Midden-Oosten tot hedendaagse ontwerpen. Ontdek hoe vormen, kleuren en technieken grenzen oversteken. Nederlandse art nouveau en art deco geven de collectie een extra sprankelend accent.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "keramiek",
+      "toegepaste kunst",
+      "design"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/keramiekmuseum-princessehof",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "keramiekmuseum-princessehof",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.princessehof.nl/collectie",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid. Provincie afgeleid uit plaatsnaam in provinciale lijst; controleren.",
+    "id": "d117a62d-9e50-56e1-ab19-feb92d50abba",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Leeuwarden_-_Keramiekmuseum_Princessehof.jpg/1280px-Leeuwarden_-_Keramiekmuseum_Princessehof.jpg",
+        "caption": "Keramiekmuseum Princessehof",
+        "credit": "Bouwe Brouwer",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Leeuwarden_-_Keramiekmuseum_Princessehof.jpg",
+        "license": "CC BY-SA 3.0 nl"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:nationaal-glasmuseum",
+    "name": "Nationaal Glasmuseum",
+    "city": "Leerdam",
+    "province": "Utrecht",
+    "street_address": "Lingedijk 28",
+    "postal_code": "4142 LD",
+    "country": "NL",
+    "website_url": "https://www.nationaalglasmuseum.nl",
+    "latitude": 51.881812,
+    "longitude": 5.085815,
+    "summary": "Ontdek hoe veelzijdig glas kan zijn. In het Transparant Depot komt de verzameling dichtbij: kijk naar vorm, kleur en het spel van licht in dit bijzondere materiaal. Een uitnodiging om glazen objecten met de aandacht van een kunstenaar te bekijken.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "glas",
+      "toegepaste kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/nationaal-glasmuseum",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "nationaal-glasmuseum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Utrecht_(provincie)",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Nationaal_Glasmuseum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.nationaalglasmuseum.nl/home/glasmuseum/",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "8edea6c8-cb58-5a56-a3c4-920252d1fc12",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/The_new_Nationaal_Glasmuseum_-_Leerdam.jpg/1280px-The_new_Nationaal_Glasmuseum_-_Leerdam.jpg",
+        "caption": "Nationaal Glasmuseum",
+        "credit": "Unknown authorUnknown author",
+        "source_url": "https://commons.wikimedia.org/wiki/File:The_new_Nationaal_Glasmuseum_-_Leerdam.jpg",
+        "license": "Public domain"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:museum-rembrandthuis",
+    "name": "Museum Rembrandthuis",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Jodenbreestraat 4",
+    "postal_code": "1011 NK",
+    "country": "NL",
+    "website_url": "https://www.rembrandthuis.nl",
+    "latitude": 52.369369,
+    "longitude": 4.90125,
+    "summary": "Kom dicht bij Rembrandts kunstenaarschap. Het museum verzamelt schilderijen, tekeningen en bijna al zijn etsen. Vooral in het werk op papier zie je hoe vrij hij onderzocht en experimenteerde. Een fascinerende kennismaking met de hand en het oog van een meester.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [
+      {
+        "label": "kunst",
+        "dimension": "collectie",
+        "confidence": "low",
+        "evidence": "Naam bevat een trefwoord; redactionele controle vereist."
+      }
+    ],
+    "tags": [
+      "kunst",
+      "grafiek",
+      "tekeningen",
+      "schilderkunst",
+      "oude meesters"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/museum-rembrandthuis",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "museum-rembrandthuis",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.rembrandthuis.nl/en/collection-and-research/collection/etchings/",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid. Provincie afgeleid uit plaatsnaam in provinciale lijst; controleren.",
+    "id": "9423dcc9-339e-56c1-b694-1cdc14ee95f3",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Rembrandthuis%2C_Amsterdam%2C_2015-04-25a.jpg/1280px-Rembrandthuis%2C_Amsterdam%2C_2015-04-25a.jpg",
+        "caption": "Museum Rembrandthuis",
+        "credit": "Bysmon",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rembrandthuis,_Amsterdam,_2015-04-25a.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:museum-arnhem",
+    "name": "Museum Arnhem",
+    "city": "Arnhem",
+    "province": "Gelderland",
+    "street_address": "Utrechtseweg 87",
+    "postal_code": "6812 AA",
+    "country": "NL",
+    "website_url": "https://www.museumarnhem.nl/",
+    "latitude": 51.985491,
+    "longitude": 5.8922,
+    "summary": "Ontdek hoe kunst de werkelijkheid naar haar hand zet. Museum Arnhem brengt magisch realisme, neorealisme, hedendaagse kunst en vormgeving samen. De collectie verbindt kunst met de samenleving en nodigt je uit om vanuit verschillende perspectieven te kijken.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "realisme",
+      "hedendaagse kunst",
+      "design"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/museum-arnhem",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "museum-arnhem",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Gelderland",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Museum_Arnhem",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.museum.nl/nl/museum-arnhem",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "c3ff4d29-40e4-550b-a61f-480049ff03d0",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Arnhem_-_Utrechtseweg_87_-_3.jpg/1280px-Arnhem_-_Utrechtseweg_87_-_3.jpg",
+        "caption": "Museum Arnhem",
+        "credit": "Basvb",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arnhem_-_Utrechtseweg_87_-_3.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:museum-belvedere",
+    "name": "Museum Belvédère",
+    "city": "Heerenveen",
+    "province": "Friesland",
+    "street_address": "Oranje Nassaulaan 70",
+    "postal_code": "8453 HA",
+    "country": "NL",
+    "website_url": "https://www.museumbelvedere.nl",
+    "latitude": 52.957933,
+    "longitude": 5.961951,
+    "summary": "De schilderkunst van Noord-Nederland krijgt hier alle ruimte. Ontdek werk van Jan Mankes, Gerrit Benner en andere Friese kunstenaars, naast geestverwanten van verder weg. Moderne en hedendaagse schilderijen laten je anders kijken naar kleur, landschap en verstilling.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "schilderkunst",
+      "moderne kunst",
+      "hedendaagse kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/museum-belvedere",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "museum-belvedere",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.museum.nl/nl/museum-belvedere",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid. Provincie afgeleid uit plaatsnaam in provinciale lijst; controleren.",
+    "id": "6e0d3502-bad5-5a03-bf24-009fafc0d493",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Oranjewoud_Museum_Belv%C3%A9d%C3%A8re_seen_from_the_southwest.jpg/1280px-Oranjewoud_Museum_Belv%C3%A9d%C3%A8re_seen_from_the_southwest.jpg",
+        "caption": "Museum Belvédère",
+        "credit": "Ymblanter",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Oranjewoud_Museum_Belv%C3%A9d%C3%A8re_seen_from_the_southwest.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:groninger-museum",
+    "name": "Groninger Museum",
+    "city": "Groningen",
+    "province": "Groningen",
+    "street_address": "Museumeiland 1",
+    "postal_code": "9711 ME",
+    "country": "NL",
+    "website_url": "https://www.groningermuseum.nl",
+    "latitude": 53.212474,
+    "longitude": 6.566075,
+    "summary": "Van de uitgesproken schilderijen van De Ploeg tot mode, design en fotografie: de collectie van het Groninger Museum zit vol verrassingen. Oude meesters, moderne kunst en hedendaagse makers komen samen in een museum dat kleur en eigenzinnigheid omarmt.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "schilderkunst",
+      "mode",
+      "design",
+      "fotografie",
+      "moderne kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/groninger-museum",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "groninger-museum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Groningen",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Groninger_Museum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.museum.nl/nl/groninger-museum",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "5be91cbd-f55e-5e69-b0e1-3ed503678881",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Groninger_Museum_1287.jpg/1280px-Groninger_Museum_1287.jpg",
+        "caption": "Groninger Museum",
+        "credit": "C messier",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Groninger_Museum_1287.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:centraal-museum",
+    "name": "Centraal Museum",
+    "city": "Utrecht",
+    "province": "Utrecht",
+    "street_address": "Agnietenstraat 1",
+    "postal_code": "3512 XA",
+    "country": "NL",
+    "website_url": "https://www.centraalmuseum.nl",
+    "latitude": 52.08381,
+    "longitude": 5.125957,
+    "summary": "Ontmoet Rietveld, Bruna en een schat aan oude, moderne en toegepaste kunst. Het Centraal Museum verbindt schilderkunst, ontwerp en mode met Utrecht. Een veelzijdige collectie waarin een stoel, een schilderij en een kledingstuk ieder een nieuwe wereld kunnen openen.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "moderne kunst",
+      "toegepaste kunst",
+      "design",
+      "mode"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/centraal-museum",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "centraal-museum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Utrecht_(provincie)",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Centraal_Museum",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.museum.nl/nl/centraal-museum",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "c24f1245-7f2c-59db-82b7-d09e0493861e",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Exterieur_Centraal_Museum.jpg/1280px-Exterieur_Centraal_Museum.jpg",
+        "caption": "Centraal Museum",
+        "credit": "Centraal Museum / fotograaf: Vincent Zedelius",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Exterieur_Centraal_Museum.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:museum-de-lakenhal",
+    "name": "Museum De Lakenhal",
+    "city": "Leiden",
+    "province": "Zuid-Holland",
+    "street_address": "Oude Singel 32",
+    "postal_code": "2312 RA",
+    "country": "NL",
+    "website_url": "https://www.lakenhal.nl",
+    "latitude": 52.162951,
+    "longitude": 4.487419,
+    "summary": "Ontdek kunst met Leiden als vertrekpunt. De collectie brengt schilderijen en andere kunstwerken samen met verhalen uit de stad. Laat je verrassen door de wisselwerking tussen kunstenaars, hun omgeving en de tijd waarin ze werkten.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "schilderkunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/museum-de-lakenhal",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "museum-de-lakenhal",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Zuid-Holland",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Museum_De_Lakenhal",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.museum.nl/nl/museum-de-lakenhal",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "a97d768c-f01d-5b2e-8563-7769ab0342ed",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/De_Lakenhal_6864.jpg/1280px-De_Lakenhal_6864.jpg",
+        "caption": "Museum De Lakenhal",
+        "credit": "C messier",
+        "source_url": "https://commons.wikimedia.org/wiki/File:De_Lakenhal_6864.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:stedelijk-museum-schiedam",
+    "name": "Stedelijk Museum Schiedam",
+    "city": "Schiedam",
+    "province": "Zuid-Holland",
+    "street_address": "Hoogstraat 112",
+    "postal_code": "3111 HL",
+    "country": "NL",
+    "website_url": "https://www.stedelijkmuseumschiedam.nl",
+    "latitude": 51.915792,
+    "longitude": 4.397874,
+    "summary": "Moderne en hedendaagse kunst krijgt hier een eigenzinnig podium. Ontdek hoe kunstenaars met kleur, vorm en ideeën nieuwe werelden openen. De collectie nodigt uit tot ontmoetingen met kunst én met de samenleving waaruit die voortkomt.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "moderne kunst",
+      "hedendaagse kunst"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/stedelijk-museum-schiedam",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "stedelijk-museum-schiedam",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Zuid-Holland",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Stedelijk_Museum_Schiedam",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.museum.nl/nl/stedelijk-museum-schiedam",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "623afc94-68b5-5cd2-9a60-f47d71e4a2e8",
+    "photos": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Stedelijk_Museum_Schiedam.jpg",
+        "caption": "Stedelijk Museum Schiedam",
+        "credit": "Advance",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Stedelijk_Museum_Schiedam.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  },
+  {
+    "inventory_key": "museum-nl:museum-henriette-polak",
+    "name": "Museum Henriette Polak",
+    "city": "Zutphen",
+    "province": "Gelderland",
+    "street_address": "s Gravenhof 4",
+    "postal_code": "7201 DN",
+    "country": "NL",
+    "website_url": "https://www.museazutphen.nl/museum-henriette-polak/",
+    "latitude": 52.139721,
+    "longitude": 6.194506,
+    "summary": "Ontdek moderne figuratieve kunst waarin de zichtbare wereld steeds een andere gedaante krijgt. De collectie van Museum Henriette Polak brengt persoonlijke kunstenaarsblikken samen. Een fijne plek om dichtbij te kijken en je te laten verrassen door expressie, kleur en vorm.",
+    "operating_status": "unknown",
+    "publication_status": "draft",
+    "verification_status": "unreviewed",
+    "suggested_tags": [],
+    "tags": [
+      "kunst",
+      "moderne kunst",
+      "realisme"
+    ],
+    "sources": [
+      {
+        "provider": "Museum.nl",
+        "url": "https://www.museum.nl/nl/museum-henriette-polak",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "museum-henriette-polak",
+        "evidence_fields": [
+          "name",
+          "city",
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude"
+        ]
+      },
+      {
+        "provider": "Wikipedia",
+        "url": "https://nl.wikipedia.org/wiki/Lijst_van_musea_in_Gelderland",
+        "retrieved_at": "2026-10-03T14:31:54.023029+00:00",
+        "external_id": "https://nl.wikipedia.org/wiki/Museum_Henriette_Polak",
+        "evidence_fields": [
+          "name",
+          "city",
+          "province"
+        ]
+      },
+      {
+        "provider": "Collectiebron",
+        "url": "https://www.museum.nl/nl/museum-henriette-polak",
+        "retrieved_at": "2026-10-03T16:30:00Z",
+        "evidence_fields": [
+          "summary",
+          "tags",
+          "is_art_museum"
+        ]
+      }
+    ],
+    "review_notes": "Bronvermelding is geen controle van actuele opening of toegankelijkheid.",
+    "id": "87eb4285-c7df-556e-9555-a5c048893ca9",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Entree_witte_huisje.jpg/1280px-Entree_witte_huisje.jpg",
+        "caption": "Entree van Musea Zutphen, waar Museum Henriette Polak is gevestigd",
+        "credit": "HofHeeckeren",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Entree_witte_huisje.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "is_art_museum": true
+  }
+]

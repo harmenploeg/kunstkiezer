@@ -12,8 +12,8 @@ export function getClient(): Promise<SupabaseClient> {
  })().catch(error=>{clientPromise=undefined;throw error;});
 }
 export async function listMuseums(client: SupabaseClient, search: string, province: string, editor=false, page=0): Promise<{ rows: Museum[]; total: number }> {
- let query=client.from('kk_museums').select('*',{count:'exact'}).order('name').range(page*50,page*50+49);
- if(!editor) query=query.eq('publication_status','published').eq('verification_status','verified').eq('operating_status','open');
+ let query=client.from('kk_museums').select('*',{count:'exact'}).eq('is_art_museum',true).order('name').range(page*50,page*50+49);
+ if(!editor) query=query.eq('publication_status','published').eq('operating_status','open');
  if(province) query=query.eq('province',province);
  // Escape wildcards and PostgREST filter delimiters; never interpolate raw OR syntax.
  const needle=search.trim().replace(/[\\%_,().]/g,' ').slice(0,150);

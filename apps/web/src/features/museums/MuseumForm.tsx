@@ -1,6 +1,6 @@
 import { getClient } from '../../../../../packages/data/src/client.ts';
 import { useEffect, useState, type FormEvent } from 'react';
-import { provinces, safeWebUrl, validateMuseum, type Museum, type MuseumInput, type MuseumSource, type Editorial } from '../../../../../packages/data/src/museums.ts';
+import { provinces, wordCount, safeWebUrl, validateMuseum, type Museum, type MuseumInput, type MuseumSource, type Editorial } from '../../../../../packages/data/src/museums.ts';
 interface Props {museum: MuseumInput; existing: Museum|null; sources: MuseumSource[]; editorial: Editorial; canSave: boolean; onSave:(m:MuseumInput,notes:string)=>Promise<void>}
 export function MuseumForm({museum,existing,sources,editorial,canSave,onSave}:Props) {
  const [value,setValue]=useState<MuseumInput>(museum),[notes,setNotes]=useState(editorial.review_notes),[message,setMessage]=useState(''),[saving,setSaving]=useState(false),[tagText,setTagText]=useState(museum.tags.join(', '));
@@ -23,11 +23,20 @@ export function MuseumForm({museum,existing,sources,editorial,canSave,onSave}:Pr
    <label>Breedtegraad<input type="number" step="any" min={-90} max={90} value={value.latitude??''} onChange={e=>field('latitude',e.target.value===''?null:Number(e.target.value))} /></label>
    <label>Lengtegraad<input type="number" step="any" min={-180} max={180} value={value.longitude??''} onChange={e=>field('longitude',e.target.value===''?null:Number(e.target.value))} /></label>
    <label>Bedrijfsstatus<select value={value.operating_status} onChange={e=>field('operating_status',e.target.value as MuseumInput['operating_status'])}><option value="unknown">Nog controleren</option><option value="open">Open</option><option value="temporarily_closed">Tijdelijk gesloten</option><option value="closed">Gesloten</option></select></label>
-   <label>Controle<select value={value.verification_status} onChange={e=>field('verification_status',e.target.value as MuseumInput['verification_status'])}><option value="unreviewed">Nog niet gecontroleerd</option><option value="verified">Gecontroleerd</option><option value="needs_update">Opnieuw controleren</option></select></label>
    <label>Publicatie<select value={value.publication_status} onChange={e=>field('publication_status',e.target.value as MuseumInput['publication_status'])}><option value="draft">Concept</option><option value="review">Ter beoordeling</option><option value="published">Gepubliceerd</option><option value="archived">Archief</option></select></label>
   </div>
-  <label>Eigen beschrijving<textarea rows={4} maxLength={5000} value={value.summary} onChange={e=>field('summary',e.target.value)} /></label>
-  <label>Goedgekeurde tags, gescheiden door komma's<input value={tagText} onChange={e=>{setTagText(e.target.value);field('tags',[...new Set(e.target.value.split(',').map(t=>t.trim()).filter(Boolean))]);}} /></label>
+  <label>Collectie<textarea rows={4} maxLength={5000} value={value.summary} onChange={e=>field('summary',e.target.value)} /></label>
+  <p className={wordCount(value.summary)>80?'notice':''} aria-live="polite">{wordCount(value.summary)} / 80 woorden</p>
+  <fieldset><legend>Foto’s</legend><p>Voeg één of meer afbeeldingslinks toe. De eerste foto is de omslag.</p>
+   {(value.photos??[]).map((photo,index)=><div className="photo-editor" key={index}>
+    {safeWebUrl(photo.url)&&<img src={safeWebUrl(photo.url)!} alt={photo.caption||value.name} loading="lazy" />}
+    {(['url','caption','credit','source_url','license'] as const).map((key)=><label key={key}>{({url:'Afbeeldingslink',caption:'Onderschrift',credit:'Fotograaf / maker',source_url:'Bronlink',license:'Licentie'})[key]} {index+1}<input type={key==='url'||key==='source_url'?'url':'text'} required={key==='url'} value={photo[key]} onChange={e=>field('photos',value.photos.map((p,i)=>i===index?{...p,[key]:e.target.value}:p))}/></label>)}
+    <button type="button" onClick={()=>field('photos',value.photos.filter((_,i)=>i!==index))}>Foto {index+1} verwijderen</button>
+    {index>0&&<button type="button" onClick={()=>field('photos',[photo,...value.photos.filter((_,i)=>i!==index)])}>Als omslag gebruiken</button>}
+   </div>)}
+   <button type="button" disabled={(value.photos??[]).length>=20} onClick={()=>field('photos',[...(value.photos??[]),{url:'',caption:'',credit:'',source_url:'',license:''}])}>Foto toevoegen</button>
+  </fieldset>
+  <label>Tags, gescheiden door komma's<input value={tagText} onChange={e=>{setTagText(e.target.value);field('tags',[...new Set(e.target.value.split(',').map(t=>t.trim()).filter(Boolean))]);}} /></label>
   {library.length>0&&<label>Tag toevoegen uit de bibliotheek<select value="" onChange={e=>{if(e.target.value&&!value.tags.includes(e.target.value)){const next=[...value.tags,e.target.value];field('tags',next);setTagText(next.join(', '));}}}><option value="">Kies een tag…</option>{[...new Set(library.map(t=>t.dimension))].map(d=><optgroup key={d} label={d}>{library.filter(t=>t.dimension===d).map(t=><option key={t.label} disabled={value.tags.includes(t.label)} value={t.label}>{t.label}</option>)}</optgroup>)}</select></label>}
   {editorial.suggested_tags.length>0&&<fieldset><legend>Tagvoorstellen — zelf beoordelen</legend>{editorial.suggested_tags.map(t=><div key={t.label}><button type="button" className="tag-proposal" disabled={value.tags.includes(t.label)} title={t.evidence} onClick={()=>{field('tags',[...value.tags,t.label]);setTagText([...value.tags,t.label].join(', '));}}>+ {t.label} <small>({t.dimension})</small></button><p><small>{t.evidence}</small></p></div>)}</fieldset>}
   <label>Interne redactienotities<textarea rows={3} value={notes} onChange={e=>setNotes(e.target.value)} /></label>
