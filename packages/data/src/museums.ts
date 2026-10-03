@@ -20,16 +20,27 @@ export const blankMuseum: MuseumInput = { name:'',city:'',province:'',street_add
 export function safeWebUrl(value: string): string | null {
  try { const u=new URL(value); return ['https:','http:'].includes(u.protocol) && !u.username && !u.password ? u.href : null; } catch { return null; }
 }
-export function validateMuseum(m: MuseumInput): string[] {
- const errors: string[]=[];
- if (!m.name.trim() || m.name.length>250) errors.push('Vul een museumnaam in van maximaal 250 tekens.');
- if (m.province && !provinces.some(p=>p===m.province)) errors.push('Kies een Nederlandse provincie.');
- if (m.website_url && !safeWebUrl(m.website_url)) errors.push('Gebruik een geldige website met http of https.');
- if ((m.latitude===null)!==(m.longitude===null)) errors.push('Vul beide coördinaten in, of laat beide leeg.');
- if (m.latitude!==null && (!Number.isFinite(m.latitude)||Math.abs(m.latitude)>90)) errors.push('Breedtegraad is ongeldig.');
- if (m.longitude!==null && (!Number.isFinite(m.longitude)||Math.abs(m.longitude)>180)) errors.push('Lengtegraad is ongeldig.');
- if (wordCount(m.summary)>80) errors.push('De collectietekst mag maximaal 80 woorden bevatten.');
- if ((m.photos??[]).length>20 || (m.photos??[]).some(p=>!safeWebUrl(p.url)||(p.source_url&&!safeWebUrl(p.source_url)))) errors.push('Gebruik maximaal 20 foto’s met geldige http- of https-links.');
- if (m.publication_status==='published' && (m.is_art_museum===false||m.operating_status!=='open'||!m.city.trim()||(!m.street_address.trim()&&m.latitude===null))) errors.push('Publiceren vereist een kunstmuseum, status open, plaats en adres of coördinaten.');
+export function museumFieldErrors(m: MuseumInput): Record<string,string> {
+ const errors: Record<string,string>={};
+ if (!m.name.trim() || m.name.length>250) errors.name='Vul een museumnaam in van maximaal 250 tekens.';
+ if (m.province && !provinces.some(p=>p===m.province)) errors.province='Kies een Nederlandse provincie.';
+ if (m.website_url && !safeWebUrl(m.website_url)) errors.website_url='Gebruik een geldige website met http of https.';
+ if ((m.latitude===null)!==(m.longitude===null)) errors[m.latitude===null?'latitude':'longitude']='Vul ook deze coördinaat in, of laat beide coördinaten leeg.';
+ if (m.latitude!==null && (!Number.isFinite(m.latitude)||Math.abs(m.latitude)>90)) errors.latitude='Vul een breedtegraad tussen -90 en 90 in.';
+ if (m.longitude!==null && (!Number.isFinite(m.longitude)||Math.abs(m.longitude)>180)) errors.longitude='Vul een lengtegraad tussen -180 en 180 in.';
+ if (wordCount(m.summary)>80) errors.summary='De collectietekst mag maximaal 80 woorden bevatten.';
+ if (m.summary.length>5000) errors.summary='Kort de collectietekst in tot maximaal 5000 tekens en 80 woorden.';
+ if ((m.photos??[]).length>20) errors.photos='Verwijder foto’s tot er maximaal 20 over zijn.';
+ (m.photos??[]).forEach((p,i)=>{
+  if(!safeWebUrl(p.url)) errors[`photos.${i}.url`]='Vul een geldige afbeeldingslink met http of https in.';
+  if(p.source_url&&!safeWebUrl(p.source_url)) errors[`photos.${i}.source_url`]='Vul een geldige bronlink met http of https in.';
+ });
+ if(m.publication_status==='published'){
+  if(m.is_art_museum===false) errors.publication_status='Dit museum valt buiten de kunstmuseumselectie. Kies Concept om de gegevens op te slaan.';
+  if(m.operating_status!=='open') errors.operating_status='Kies Open om dit museum te publiceren, of sla het op als Concept.';
+  if(!m.city.trim()) errors.city='Vul de plaats in om dit museum te publiceren.';
+  if(!m.street_address.trim()&&m.latitude===null) errors.street_address='Vul een adres of beide coördinaten in om dit museum te publiceren.';
+ }
  return errors;
 }
+export function validateMuseum(m: MuseumInput): string[] { return Object.values(museumFieldErrors(m)); }

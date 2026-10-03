@@ -83,3 +83,9 @@ fieldset {border:1px solid var(--border);border-radius:10px;padding:12px;}
 .museum-photos figcaption { font-size:.75rem; line-height:1.5; margin:.5rem 0 1rem; }
 .photo-editor { border-top:1px solid #ddd; padding:1rem 0; display:grid; gap:.6rem; }
 .photo-editor img { width:100%; max-height:240px; object-fit:contain; background:#f5f3ef; }
+
+.form-field {display:flex;flex-direction:column;gap:6px;min-width:0;scroll-margin-block:24px;}
+.museum-form [aria-invalid="true"] {border:2px solid #b42318;background:#fff5f4;outline-color:#b42318;}
+.field-invalid>label,.field-error {color:#b42318;}
+.field-error {margin:0;font-size:14px;line-height:1.5;}
+.museum-form [aria-invalid="true"]:focus {outline:2px solid #b42318;outline-offset:3px;}
