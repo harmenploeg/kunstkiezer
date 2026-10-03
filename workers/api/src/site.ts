@@ -1,7 +1,8 @@
 import { BASE_PATH, isPagePath } from "../../../packages/domain/src/navigation.ts";
 import api from "./index.ts";
+import { onRequestGet } from "../../../functions/kunstkiezer/api/config.ts";
 
-interface Bindings { ASSETS: { fetch(request: Request): Promise<Response> } }
+interface Bindings { PUBLIC_SUPABASE_URL?: string; PUBLIC_SUPABASE_PUBLISHABLE_KEY?: string; ASSETS: { fetch(request: Request): Promise<Response> } }
 
 function error(status: number, message: string): Response {
   return Response.json({ error: message }, { status });
@@ -17,6 +18,7 @@ export default {
       return Response.redirect(url.toString(), 308);
     }
     const relativePath = url.pathname.slice(BASE_PATH.length);
+    if (relativePath === "/api/config") return onRequestGet({env});
     if (relativePath.startsWith("/api/")) {
       url.pathname = relativePath;
       return api.fetch(new Request(url, request));
@@ -26,7 +28,7 @@ export default {
     }
     const normalizedPath = relativePath.replace(/\/$/, "") || "/";
     const isPage = isPagePath(normalizedPath);
-    if (!isPage && !relativePath.startsWith("/assets/")) return error(404, "not_found");
+    if (!isPage && !relativePath.startsWith("/assets/") && !["/inventory.json","/inventory.csv","/inventory-report.json"].includes(relativePath)) return error(404, "not_found");
     // Assets serveert index.html via '/'; '/index.html' geeft een canonieke
     // redirect naar de domeinroot en zou daardoor het app-prefix verliezen.
     url.pathname = isPage ? "/" : relativePath;
@@ -37,7 +39,7 @@ export default {
     headers.set("X-Robots-Tag", "noindex, nofollow");
     if (isPage) {
       headers.set("Cache-Control", "no-store");
-      headers.set("Content-Security-Policy", "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'");
+      headers.set("Content-Security-Policy", "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://*.supabase.co; object-src 'none'; base-uri 'self'; frame-ancestors 'none'");
     }
     return new Response(response.body, { status: response.status, headers });
   },
