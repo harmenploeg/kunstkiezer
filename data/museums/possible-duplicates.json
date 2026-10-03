@@ -1,0 +1,498 @@
+[
+  {
+    "id_a": "4359f5a5-61dc-5845-9a09-49ea643dc736",
+    "id_b": "a7cef754-6574-5755-8de6-cef2aa3b083c",
+    "name_a": "Allard Pierson",
+    "name_b": "Allard Pierson Museum",
+    "city": "Amsterdam",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "2f4a4bf9-fe12-519c-99cd-e23e2faee5ce",
+    "id_b": "3678d34f-d119-5a52-9e96-b3c5f9c18588",
+    "name_a": "Bakkerijmuseum De Oude Bakkerij",
+    "name_b": "De Oude Bakkerij",
+    "city": "Medemblik",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "14167ae9-9fd6-5e9a-85d2-655065fbe2db",
+    "id_b": "d32ee713-447d-5a0e-970e-43835b1c6990",
+    "name_a": "Brabants Museum Oud Oosterhout",
+    "name_b": "Museum Oud-Oosterhout",
+    "city": "Oosterhout",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "6e87864c-3cbf-5a12-9abf-05f60ffa8071",
+    "id_b": "c596593a-3774-52be-a0b6-d4245aa27ada",
+    "name_a": "Bureau Europa",
+    "name_b": "NAIM/Bureau Europa",
+    "city": "Maastricht",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "231e8097-ec3d-51fa-9514-fb9a7342dd8a",
+    "id_b": "3d0d6cd2-a7fe-50eb-a87b-be2f601f58df",
+    "name_a": "De Fraeylemaborg",
+    "name_b": "Fraeylemaborg",
+    "city": "Slochteren",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "ec347bab-a6e1-5d88-8cb4-ceed68efd8c7",
+    "id_b": "352eb3c4-efe3-5954-b7e3-3a4bc9762c63",
+    "name_a": "De Hollandsche Manege",
+    "name_b": "Hollandsche Manege",
+    "city": "Amsterdam",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "8e469507-0e15-549e-8d39-2bb8c5e0b7be",
+    "id_b": "0f378d65-0e32-53f4-b310-47356ff1b4e7",
+    "name_a": "De Hollandsche Schouwburg",
+    "name_b": "Hollandsche Schouwburg",
+    "city": "Amsterdam",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "a547b1a5-6325-5133-96fd-7b2eef762d3f",
+    "id_b": "8bf98ce5-6c80-5059-8438-2170cfcc6cc8",
+    "name_a": "De Looierij",
+    "name_b": "Museum de Looierij",
+    "city": "Dongen",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "a6452694-a45d-58d8-8628-5de0e30bdc9d",
+    "id_b": "98ccd6d8-e928-5ec3-b15b-32fb696eb3e1",
+    "name_a": "De Nieuwe Kerk",
+    "name_b": "Nieuwe Kerk",
+    "city": "Amsterdam",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "15b07f69-dc30-5410-8b9f-0168a8a647c0",
+    "id_b": "725d4695-1c7d-58d6-968c-b74216fce56b",
+    "name_a": "De Pont Museum",
+    "name_b": "De Pont",
+    "city": "Tilburg",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "9b82032a-67a4-577f-a430-ae21119941f9",
+    "id_b": "69322166-bd04-5322-8e6a-40bd70493c3e",
+    "name_a": "Elisabeth Weeshuis Museum",
+    "name_b": "Elisabeth Weeshuis",
+    "city": "Culemborg",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "ab4966d6-7d00-51d0-893f-cbc99e983c8f",
+    "id_b": "66670698-83b4-5932-8bee-c938fdfee6d8",
+    "name_a": "Fotomuseum aan het Vrijthof",
+    "name_b": "Museum aan het Vrijthof",
+    "city": "Maastricht",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "d36bbfc7-4d74-5022-851d-92f2cac85526",
+    "id_b": "accec0bb-e54e-5a35-826e-73abc0a6aa25",
+    "name_a": "GRID Grafisch Museum Groningen - Tijdelijk gesloten",
+    "name_b": "GRID Grafisch Museum Groningen",
+    "city": "Groningen",
+    "similarity": 0.6
+  },
+  {
+    "id_a": "beeda520-b560-5b4b-890c-5c0b551e09f5",
+    "id_b": "a5298fcb-4884-5694-8a67-55c5151ab895",
+    "name_a": "Het Cuypershuis",
+    "name_b": "Cuypershuis",
+    "city": "Roermond",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "f0c85959-33c5-57b0-a64c-9f15d845317e",
+    "id_b": "08665fdf-c4f3-57c6-9753-5e052156a0ec",
+    "name_a": "Het Depot van Museum Boijmans Van Beuningen",
+    "name_b": "Museum Boijmans Van Beuningen",
+    "city": "Rotterdam",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "7981963a-5774-57e3-a4ae-2e70e754869e",
+    "id_b": "85d976ab-e648-5e66-b12f-35ec81911167",
+    "name_a": "Het Gouverneurshuis",
+    "name_b": "Gouverneurshuis",
+    "city": "Heusden",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "b7271131-8fc3-5b49-a7b3-1e38aee4e37d",
+    "id_b": "67ca9a00-0baf-5fa0-98f7-30b7f3c409c0",
+    "name_a": "Het Hollands Kaasmuseum",
+    "name_b": "Hollands Kaasmuseum",
+    "city": "Alkmaar",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "8fd8e8d8-b0fb-50fc-9310-7bb6c1c7642a",
+    "id_b": "bf36cd41-c190-55ac-ad20-67d97c7b7edd",
+    "name_a": "Het Nederlands Vestingmuseum",
+    "name_b": "Nederlands Vestingmuseum",
+    "city": "Naarden",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "1622ab11-753c-55c2-98f3-6443de7ca2cc",
+    "id_b": "05fd011c-53bb-56d6-9757-4cb7846d1d14",
+    "name_a": "Het Oude Raadhuis Urk",
+    "name_b": "Het Oude Raadhuis",
+    "city": "Urk",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "960f2664-4108-5e1d-ab73-109b023689c5",
+    "id_b": "d710fd30-5ccc-5361-af9c-a687ec959484",
+    "name_a": "Het Scheepvaartmuseum",
+    "name_b": "Scheepvaartmuseum",
+    "city": "Amsterdam",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "53ba7208-5455-55a8-86f8-fb02cf778abd",
+    "id_b": "67b71837-fff2-5b13-8e34-f32fe8ab6f2a",
+    "name_a": "Hortus botanicus Leiden",
+    "name_b": "Hortus botanicus",
+    "city": "Leiden",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "950d4f82-eb8c-5005-a5f7-5478402c32d7",
+    "id_b": "99f1e095-8ffb-5c60-a842-47d10ae1304f",
+    "name_a": "Kijk en Luistermuseum",
+    "name_b": "Kijk & Luistermuseum",
+    "city": "Bennekom",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "186120ae-4217-5e1e-99a4-cfe625fea09c",
+    "id_b": "43220a44-60ef-5285-9a17-d62b4433a062",
+    "name_a": "Landhuis Oud Amelisweerd",
+    "name_b": "Museum Oud Amelisweerd",
+    "city": "Bunnik",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "0f4126c4-c98c-5574-be26-ef6abe57598b",
+    "id_b": "4e2702d8-d1ec-5c93-b6a2-93ed9db3e926",
+    "name_a": "Markiezenhof",
+    "name_b": "Het Markiezenhof",
+    "city": "Bergen op Zoom",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "ae8b491e-3964-5b9f-8909-925c3fc93952",
+    "id_b": "89da5f5e-9d9a-55a5-af0a-555b179a4f39",
+    "name_a": "Marres, Huis voor Hedendaagse Cultuur",
+    "name_b": "Marres, Huis Voor Hedendaagse Kunst",
+    "city": "Maastricht",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "9c2201f0-d107-58b4-8e28-b5e0644dda77",
+    "id_b": "69db5b0a-cf55-54b2-8bbc-c1a78c562f2f",
+    "name_a": "Meierijsche Museumboerderij",
+    "name_b": "De Meierijsche Museumboerderij",
+    "city": "Heeswijk-Dinther",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "6d2f08cc-3058-5741-a6d6-83444a02897a",
+    "id_b": "abac5383-80d1-5efd-bd1b-672a716131b1",
+    "name_a": "Museum 1940-1945 Dordrecht",
+    "name_b": "Museum 1940 - 1945",
+    "city": "Dordrecht",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "875f6c88-adca-5a0b-9982-741901899f2f",
+    "id_b": "4600f741-6071-5de9-ad60-453b6442b88b",
+    "name_a": "Museum Beelden aan Zee",
+    "name_b": "Beelden aan Zee",
+    "city": "Den Haag",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "3dc4845e-6524-55d4-9f8c-12d9db984cb9",
+    "id_b": "23e451e4-403b-5a37-b008-cb17eaad60c6",
+    "name_a": "Museum Collectie Krop",
+    "name_b": "Instituut Collectie Krop",
+    "city": "Steenwijk",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "53c601b2-66a1-522f-ae56-706ea69d4c18",
+    "id_b": "64bc25d4-8231-5939-a527-ce7477c3c319",
+    "name_a": "Museum De Koperen Knop",
+    "name_b": "De Koperen Knop",
+    "city": "Hardinxveld-Giessendam",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "f464bfae-6478-5717-b2c6-b412ef103ba3",
+    "id_b": "59f52d1b-20b6-58f5-a290-70073d4bd8cb",
+    "name_a": "Museum De Wieger",
+    "name_b": "De Wieger",
+    "city": "Deurne",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "d3b20910-af17-5b64-b193-1ad67cf70308",
+    "id_b": "8b6782d9-6ab4-5492-b9bb-7be9dd95a90b",
+    "name_a": "Museum Dokkum",
+    "name_b": "Dokkum",
+    "city": "Dokkum",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "d8323e10-6b74-5eb4-8934-c78370638c29",
+    "id_b": "51ea34bc-0237-54ce-a183-4bcd471d20ce",
+    "name_a": "Museum Drachten",
+    "name_b": "Drachten",
+    "city": "Drachten",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "1a7818d4-4421-5aab-bd24-9f7efb43df64",
+    "id_b": "9d8e7da6-ea6a-5602-b0f9-bf44ccbb6beb",
+    "name_a": "Museum Giethoorn 't Olde Maat Uus",
+    "name_b": "'t Olde Maat Uus",
+    "city": "Giethoorn",
+    "similarity": 0.8
+  },
+  {
+    "id_a": "6435797b-c3be-56d7-bfcb-841435ef0e47",
+    "id_b": "97fdd665-2413-550b-9cd5-91d59c32b3ba",
+    "name_a": "Museum Heerenveen",
+    "name_b": "Heerenveen",
+    "city": "Heerenveen",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "eae8041f-530c-5016-bbe5-c8702126a0a0",
+    "id_b": "768140d0-7527-5233-a59b-6df567c786f9",
+    "name_a": "Museum Het Spinozahuis",
+    "name_b": "Spinozahuis",
+    "city": "Rijnsburg",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "4c3ffe6a-4086-57e5-8d50-159ad07abdcd",
+    "id_b": "278f51d2-9054-5c23-8902-1154cd3bbc78",
+    "name_a": "Museum Hindeloopen",
+    "name_b": "Hindeloopen",
+    "city": "Hindeloopen",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "8e971498-ecb9-5f30-a3eb-88ca36325c96",
+    "id_b": "4f14f2cd-e35e-571c-9a09-32e4b75d4255",
+    "name_a": "Museum Huis Doorn",
+    "name_b": "Huis Doorn",
+    "city": "Doorn",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "20a69bdc-fc03-50c3-b0b9-5b49646185f3",
+    "id_b": "13d77607-50f3-53d2-b09e-cbe6479ab7c3",
+    "name_a": "Museum Joure",
+    "name_b": "Joure",
+    "city": "Joure",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "0e16a3af-dfd6-5076-9d03-5228659f1280",
+    "id_b": "58bade4c-5f25-534f-8bde-8e6d42bcbfa7",
+    "name_a": "Museum Kasteel Wijchen",
+    "name_b": "Kasteel van Wijchen",
+    "city": "Wijchen",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "ebd4b76e-fd97-5fa3-9bbf-1706d111f69a",
+    "id_b": "cd657ec2-ccec-5b92-8bd6-2248f354728d",
+    "name_a": "Museum Klooster Ter Apel",
+    "name_b": "Klooster Ter Apel",
+    "city": "Ter Apel",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "01e23002-48c2-50a3-b82c-5176e17a015a",
+    "id_b": "7e805362-10e9-50a0-b2b8-3377c73130ba",
+    "name_a": "Museum Menkemaborg",
+    "name_b": "Menkemaborg",
+    "city": "Uithuizen",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "61fab26a-2148-56e2-98df-de1f043e68c8",
+    "id_b": "05270d91-8c44-5820-a4b2-a4996c477913",
+    "name_a": "Museum of Contemporary Tibetan Art (MOCTA)",
+    "name_b": "Museum of Contemporary Tibetan Art",
+    "city": "Emmen",
+    "similarity": 0.8
+  },
+  {
+    "id_a": "c6ae93f1-6345-570e-8b4e-3ce63460fa3a",
+    "id_b": "a1f9272f-b0a2-5862-acbe-3acfff9dbd49",
+    "name_a": "Museum Ons' Lieve Heer op Solder",
+    "name_b": "Ons' Lieve Heer op Solder",
+    "city": "Amsterdam",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "51f162b9-5df8-58d9-b7c3-30d0eb7ac3f6",
+    "id_b": "5cb55b67-b4dd-515e-93f6-8da8781007ad",
+    "name_a": "Museum Panorama Mesdag",
+    "name_b": "Panorama Mesdag",
+    "city": "Den Haag",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "aa1a023d-2f7c-548a-8f49-c2b589d688ab",
+    "id_b": "45a1d65d-b9ed-5daf-98c3-3b754701308f",
+    "name_a": "Museum Paulina Bisdom van Vliet",
+    "name_b": "Museum Bisdom van Vliet",
+    "city": "Haastrecht",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "9423dcc9-339e-56c1-b694-1cdc14ee95f3",
+    "id_b": "54e4a5b3-abbe-5d22-ba68-e28a12b99199",
+    "name_a": "Museum Rembrandthuis",
+    "name_b": "Rembrandthuis",
+    "city": "Amsterdam",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "7de16a77-1494-540d-8196-fd5b46d76bbe",
+    "id_b": "525f2cb5-7579-5a8e-b767-cce27a8eb7c8",
+    "name_a": "Museum Sjoel Elburg",
+    "name_b": "Sjoel Elburg",
+    "city": "Elburg",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "25b8ec04-8bb4-515e-9291-d12f951bfb9c",
+    "id_b": "07b103e1-ab7c-5912-8357-363adb2b7081",
+    "name_a": "Museum Techniek met 'n Ziel",
+    "name_b": "Techniek met 'n Ziel",
+    "city": "Neerkant",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "4e757eff-9bd5-5b8b-bb28-c84c3e097a4f",
+    "id_b": "6ae8300a-8ee1-5e6b-bb97-9a644345a8e8",
+    "name_a": "Museum Terra Maris",
+    "name_b": "Terra Maris",
+    "city": "Oostkapelle",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "823e5b86-eb4d-532d-9fd0-190da04564db",
+    "id_b": "9e40bf57-7b08-50a6-a981-7f3d9c42d513",
+    "name_a": "Museum van Bommel van Dam",
+    "name_b": "Van Bommel van Dam",
+    "city": "Venlo",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "8ce08ddd-c497-5d7f-9628-47f8a266dac3",
+    "id_b": "81c07862-4795-5840-8159-ddfbe1632e5b",
+    "name_a": "Museum van Egmond",
+    "name_b": "Museum Egmond",
+    "city": "Egmond aan Zee",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "96aee500-f8c1-5b78-aeef-0dac57adfcbf",
+    "id_b": "f5725549-c083-58cb-a536-e378d64d5218",
+    "name_a": "Natuurhistorisch en Volkenkundig Museum Oudenbosch",
+    "name_b": "Natuurhistorisch en Volkenkundig Museum",
+    "city": "Oudenbosch",
+    "similarity": 0.75
+  },
+  {
+    "id_a": "7754eda6-25ee-5d9e-8359-15dd037f9d5c",
+    "id_b": "123ad4ac-5c2b-5bcb-8cd3-ea1ddffb298f",
+    "name_a": "Nieuwe Instituut",
+    "name_b": "Het Nieuwe Instituut",
+    "city": "Rotterdam",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "94f0f1b2-db24-58ae-a98a-fa93fc307513",
+    "id_b": "a16786e7-4ddc-5690-b768-6debb1004c7e",
+    "name_a": "Openluchtmuseum Eynderhoof",
+    "name_b": "Limburgs Openluchtmuseum Eynderhoof",
+    "city": "Nederweert-Eind",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "98be4ce0-f4b7-5b92-bfe0-f30de1b65b9d",
+    "id_b": "0d079c06-6a40-5e4f-8044-545c5373a80b",
+    "name_a": "Spoorwegmuseum",
+    "name_b": "Het Spoorwegmuseum",
+    "city": "Utrecht",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "d40cd0e8-52f2-5f2d-b452-4caad4718c94",
+    "id_b": "5ecef9c2-28a2-5d25-8e48-92192c4c2aad",
+    "name_a": "Stedelijk Museum Amsterdam",
+    "name_b": "Stedelijk Museum Bureau Amsterdam",
+    "city": "Amsterdam",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "7575b86c-6425-5ccb-9860-680751d8ce52",
+    "id_b": "b197ed5e-b8df-5699-bb70-310a4543a771",
+    "name_a": "Stoomtrein Goes-Borsele",
+    "name_b": "Museum Stoomtrein Goes-Borsele",
+    "city": "Goes",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "065cf5fa-4107-5697-b722-653db574c118",
+    "id_b": "536da8e5-c1c2-5025-a54c-a47fe9e49b87",
+    "name_a": "Tongerlohuys",
+    "name_b": "Museum Tongerlohuys",
+    "city": "Roosendaal",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "937fab00-3fd6-5f24-a386-0f6449de242f",
+    "id_b": "9b20b45d-5cd1-5d83-bb10-d5f86eac07c4",
+    "name_a": "Valkhof Museum",
+    "name_b": "Museum Het Valkhof",
+    "city": "Nijmegen",
+    "similarity": 1.0
+  },
+  {
+    "id_a": "330fc1ea-d238-5718-84e7-8ef53bd10701",
+    "id_b": "555af903-7bed-5d6e-b52e-de3b7909bc55",
+    "name_a": "Voerman Stadsmuseum Hattem",
+    "name_b": "Voerman Museum Hattem",
+    "city": "Hattem",
+    "similarity": 0.67
+  },
+  {
+    "id_a": "45aba645-f44b-5d7c-a1d2-be43bf2e9480",
+    "id_b": "d6e7d361-6d66-5b18-8e98-c1da58821295",
+    "name_a": "Nederlands Mijnmuseum",
+    "name_b": "Nederlands Mijnmuseum GEON",
+    "city": "Heerlen",
+    "similarity": 0.67
+  }
+]
