@@ -1,0 +1,38 @@
+name: Diagnose Pages-preview
+on:
+  push:
+    paths: ['.github/workflows/diagnose-pages.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lees project en openbare HTTP-reacties
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          python3 - <<'PY'
+          import os, json, urllib.request, urllib.error, re
+          api = urllib.request.Request('https://api.cloudflare.com/client/v4/accounts/' + os.environ['CLOUDFLARE_ACCOUNT_ID'] + '/pages/projects/kunstkiezer', headers={'Authorization': 'Bearer ' + os.environ['CLOUDFLARE_API_TOKEN']})
+          with urllib.request.urlopen(api, timeout=30) as response:
+              project = json.load(response)['result']
+          print('Project:', project.get('name'), project.get('subdomain'), project.get('production_branch'))
+          print('Deployment:', (project.get('canonical_deployment') or {}).get('url'))
+          hosts = ['https://kunstkiezer.pages.dev', (project.get('canonical_deployment') or {}).get('url')]
+          for host in hosts:
+              if not host: continue
+              for path in ['/kunstkiezer/', '/kunstkiezer/api/health']:
+                  req = urllib.request.Request(host + path, headers={'User-Agent': 'Mozilla/5.0 Kunstkiezer-verificatie'})
+                  try:
+                      response = urllib.request.urlopen(req, timeout=30)
+                  except urllib.error.HTTPError as error:
+                      response = error
+                  body = response.read().decode(errors='replace')
+                  title = re.search(r'<title[^>]*>(.*?)</title>', body, re.S | re.I)
+                  print(host + path, response.status, 'server=', response.headers.get('server'), 'mitigated=', response.headers.get('cf-mitigated'), 'type=', response.headers.get('content-type'))
+                  print('Title:', title.group(1).strip() if title else '')
+                  print('Body:', re.sub(r'<[^>]+>', ' ', body)[:600])
+          PY
