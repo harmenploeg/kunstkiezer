@@ -22,7 +22,7 @@ jobs:
                   except urllib.error.HTTPError as error:
                       if attempt == 5: raise SystemExit(f'Live controle mislukt: {path} HTTP {error.code}')
                       time.sleep(5)
-          for path in ['/kunstkiezer/', '/kunstkiezer/agenda/musea', '/kunstkiezer/geschiedenis']:
+          for path in ['/kunstkiezer/', '/kunstkiezer/agenda/musea', '/kunstkiezer/geschiedenis', '/kunstkiezer/beheer/musea']:
               status, html = fetch(path)
               assert status == 200 and 'Mijn kunstkeuze' in html and 'id="root"' in html
               for asset in re.findall(r'(?:src|href)="(/kunstkiezer/assets/[^"]+)"', html):
@@ -34,5 +34,10 @@ jobs:
               raise SystemExit('Onbekende route geeft geen 404.')
           except urllib.error.HTTPError as error:
               assert error.code == 404
+          inventory = json.loads(fetch('/kunstkiezer/inventory.json')[1])
+          assert len(inventory) == 1496
+          assert all(m['publication_status'] == 'draft' for m in inventory)
+          assert any(m['name'] == 'Rijksmuseum Amsterdam' and m['street_address'] == 'Museumstraat 1' for m in inventory)
+          print('Inventaris met 1496 conceptvermeldingen en beheerpagina bereikbaar.')
           print('Health en routebegrenzing bevestigd.')
           PY
