@@ -16,7 +16,7 @@ export interface MuseumSource { provider: string; url: string; retrieved_at: str
 export interface TagProposal { label: string; dimension: string; confidence: string; evidence: string }
 export interface Editorial { review_notes: string; suggested_tags: TagProposal[] }
 export interface InventoryMuseum extends MuseumInput { id: string; inventory_key: string; sources: MuseumSource[]; review_notes: string; suggested_tags: TagProposal[] }
-export const blankMuseum: MuseumInput = { name:'',city:'',province:'',street_address:'',postal_code:'',country:'NL',website_url:'',latitude:null,longitude:null,summary:'',operating_status:'unknown',publication_status:'draft',is_art_museum:true,photos:[],tags:[] };
+export const blankMuseum: MuseumInput = { name:'',city:'',province:'',street_address:'',postal_code:'',country:'NL',website_url:'',latitude:null,longitude:null,summary:'',operating_status:'open',publication_status:'draft',is_art_museum:true,photos:[],tags:[] };
 export function safeWebUrl(value: string): string | null {
  try { const u=new URL(value); return ['https:','http:'].includes(u.protocol) && !u.username && !u.password ? u.href : null; } catch { return null; }
 }

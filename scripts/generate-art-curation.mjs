@@ -3,6 +3,7 @@ const rows=JSON.parse(readFileSync('data/museums/art-curation-2026-10-03.json','
 const quote=value=>"'"+value.replaceAll("'","''")+"'";
 const sql=`-- First curated art selection. Preserve later editorial work when rerun.\nbegin;\nwith content as (select * from jsonb_to_recordset(${quote(JSON.stringify(rows))}::jsonb) as x(id uuid, summary text,tags text[],photos jsonb))
 update public.kk_museums m set is_art_museum=true,
+ operating_status=case when m.operating_status='unknown' then 'open' else m.operating_status end,
  summary=case when m.summary='' then c.summary else m.summary end,
  photos=case when m.photos='[]'::jsonb then c.photos else m.photos end,
  tags=array(select distinct unnest(m.tags||c.tags) order by 1)
