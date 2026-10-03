@@ -4,6 +4,7 @@ export const navigation = [
   { path: "/", label: "Mijn kunstkeuze" },
   { path: "/agenda", label: "Ontdek kunst" },
   { path: "/geschiedenis", label: "Gezien" },
+  { path: "/profiel", label: "Mijn profiel" },
 ] as const;
 
 /** Basisconfiguratie; vervangbaar door categoriegegevens uit Supabase. */

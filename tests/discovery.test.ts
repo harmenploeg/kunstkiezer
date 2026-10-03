@@ -23,6 +23,6 @@ test('Vijfde keuze en afzonderlijke beheerroutes zijn echte paginaroutes',()=>{
 });
 test('Publicatievalidatie wijst elk ontbrekend veld aan en status is standaard open',()=>{
  const r=blankDiscovery('evenementen');assert.equal(r.operating_status,'open');r.publication_status='published';
- const errors=validateDiscovery(r);for(const k of ['name','city','summary','tags','sources','selection_reason','starts_on','ends_on'])assert.ok(errors[k],k);
+ const errors=validateDiscovery(r);for(const k of ['name','summary','tags','sources','selection_reason','starts_on','ends_on'])assert.ok(errors[k],k);
  r.starts_on='2026-10-10';r.ends_on='2026-10-09';assert.ok(validateDiscovery(r).ends_on);
 });

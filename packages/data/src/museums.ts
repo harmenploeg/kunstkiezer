@@ -37,9 +37,6 @@ export function museumFieldErrors(m: MuseumInput): Record<string,string> {
  });
  if(m.publication_status==='published'){
   if(m.is_art_museum===false) errors.publication_status='Dit museum valt buiten de kunstmuseumselectie. Kies Concept om de gegevens op te slaan.';
-  if(m.operating_status!=='open') errors.operating_status='Kies Open om dit museum te publiceren, of sla het op als Concept.';
-  if(!m.city.trim()) errors.city='Vul de plaats in om dit museum te publiceren.';
-  if(!m.street_address.trim()&&m.latitude===null) errors.street_address='Vul een adres of beide coördinaten in om dit museum te publiceren.';
  }
  return errors;
 }

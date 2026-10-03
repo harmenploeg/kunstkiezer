@@ -1,3 +1,4 @@
+import {personalizedPage} from './personalized.ts';
 import { createClient, type SupabaseClient } from '@supabase/supabase-js';
 import { readPublicConfiguration } from '../../config/src/index.ts';
 import type { Museum, MuseumInput, MuseumSource, Editorial } from './museums.ts';
@@ -11,14 +12,15 @@ export function getClient(): Promise<SupabaseClient> {
   return createClient(config.supabaseUrl,config.supabasePublishableKey);
  })().catch(error=>{clientPromise=undefined;throw error;});
 }
-export async function listMuseums(client: SupabaseClient, search: string, province: string, editor=false, page=0): Promise<{ rows: Museum[]; total: number }> {
- let query=client.from('kk_museums').select('*',{count:'exact'}).eq('is_art_museum',true).order('name').range(page*50,page*50+49);
- if(!editor) query=query.eq('publication_status','published').eq('operating_status','open');
+export async function listMuseums(client: SupabaseClient, search: string, province: string, editor=false, page=0, preferences:string[]=[]): Promise<{ rows: Museum[]; total: number }> {
+ let query=client.from('kk_museums').select('*',{count:'exact'}).eq('is_art_museum',true).order('name').order('id');
+ if(!editor) query=query.eq('publication_status','published');
  if(province) query=query.eq('province',province);
  // Escape wildcards and PostgREST filter delimiters; never interpolate raw OR syntax.
  const needle=search.trim().replace(/[\\%_,().]/g,' ').slice(0,150);
  if(needle) query=query.ilike('name',`%${needle}%`);
- const {data,error,count}=await query;
+ if(!editor&&preferences.length)return personalizedPage<Museum>((from,to)=>query.range(from,to),preferences,page,50);
+ const {data,error,count}=await query.range(page*50,page*50+49);
  if(error) throw new Error('Museumgegevens konden niet worden geladen.');
  return {rows:(data??[]) as Museum[],total:count??0};
 }

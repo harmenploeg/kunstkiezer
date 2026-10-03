@@ -5,7 +5,7 @@ test("Mijn kunstkeuze, categorieën en bezoekgeschiedenis zijn bereikbaar", asyn
   page.on("pageerror", (error) => errors.push(error.message));
   await page.goto("/kunstkiezer/");
   await expect(page.getByRole("heading", { name: "Mijn kunstkeuze." })).toBeVisible();
-  await expect(page.getByRole("heading", { name: "Laatste kans" })).toBeVisible();
+  await expect(page.getByRole("group", {name:/Welke kunst trekt je aandacht/})).toBeVisible();
   await page.screenshot({ path: `/tmp/kunstkiezer-${testInfo.project.name}.png`, fullPage: true });
   await page.getByRole("link", { name: "Ontdek kunst", exact: true }).click();
   await expect(page.getByRole("heading", { name: "Ontdek kunst." })).toBeVisible();

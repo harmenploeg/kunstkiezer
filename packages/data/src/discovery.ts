@@ -21,11 +21,10 @@ export function validateDiscovery(r:DiscoveryInput):Record<string,string>{
  if(r.starts_on&&r.ends_on&&r.ends_on<r.starts_on)e.ends_on='De einddatum mag niet vóór de begindatum liggen.';
  if(r.category==='evenementen'&&r.publication_status==='published'){if(!r.starts_on)e.starts_on='Vul de bevestigde begindatum in.';if(!r.ends_on)e.ends_on='Vul de bevestigde einddatum in.';}
  if(r.publication_status==='published'){
-  if(!r.city.trim())e.city='Vul de plaats in.';if(!r.summary.trim())e.summary='Vul een korte beschrijving in.';
+  if(!r.summary.trim())e.summary='Vul een korte beschrijving in.';
   if(!r.selection_reason.trim())e.selection_reason='Licht toe waarom deze vermelding is geselecteerd.';
   if(!r.tags.length)e.tags='Voeg ten minste één inhoudelijke tag toe.';
   if(!r.sources.length)e.sources='Voeg ten minste één bron toe.';
-  if(r.operating_status!=='open')e.operating_status='Kies Open, of bewaar als concept.';
  }
  r.sources.forEach((s,i)=>{if(!safeWebUrl(s.url))e[`source-${i}`]='Vul een geldige bronlink in.';});
  r.photos.forEach((p,i)=>{if(!safeWebUrl(p.url)||!safeWebUrl(p.source_url)||!p.credit.trim()||!p.license.trim())e[`photo-${i}`]='Vul een geldige foto- en bronlink, maker en licentie in.';});return e;

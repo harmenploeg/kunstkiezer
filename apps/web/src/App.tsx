@@ -1,4 +1,6 @@
-import { lazy, Suspense } from "react";
+import {Profile} from './features/profile/Profile.tsx';
+import {useProfile} from './features/profile/useProfile.ts';
+import { lazy, Suspense, useEffect } from "react";
 const MuseumCatalog=lazy(()=>import("./features/museums/Catalog.tsx").then(m=>({default:m.MuseumCatalog})));
 const MuseumAdmin=lazy(()=>import("./features/museums/Admin.tsx").then(m=>({default:m.MuseumAdmin})));
 import {CategoryCards,AdminHome} from "./features/discovery/CategoryCards.tsx";
@@ -7,26 +9,6 @@ import {DiscoveryAdmin} from "./features/discovery/Admin.tsx";
 import {discoveryCategories,type DiscoveryCategory} from "../../../packages/data/src/discovery.ts";
 import { appHref, BASE_PATH, categories, navigation } from "../../../packages/domain/src/navigation.ts";
 import { ActionLink, EmptyState, Section } from "../../../packages/ui/src/index.tsx";
-
-function PersonalAgenda() {
-  return <>
-    <header className="page-heading"><p className="eyebrow">Jouw kunstagenda</p><h1>Mijn kunstkeuze<span className="accent">.</span></h1><p>Wat je wilt zien, waar je graag komt en wat je nog kunt ontdekken.</p></header>
-    <div className="dashboard">
-      <Section title="Mijn plannen" description="Een bezoek in gedachten? Hier komen je geplande uitstapjes.">
-        <EmptyState title="Ruimte voor een volgend bezoek">Je hebt nog geen bezoeken gepland.</EmptyState>
-      </Section>
-      <Section title="Nog te zien" description="Bewaar plekken en activiteiten om later op terug te komen.">
-        <EmptyState title="Je eerste keuze begint bij ontdekken" action={<ActionLink href={appHref("/agenda")}>Ontdek kunst in Nederland</ActionLink>}>Hier verschijnen je bewaarde keuzes.</EmptyState>
-      </Section>
-      <Section title="Laatste kans" description="Bewaarde tentoonstellingen en evenementen die binnenkort eindigen.">
-        <EmptyState title="Niets om haast voor te maken">Wanneer je een tijdelijke activiteit bewaart, vind je hier wat bijna afloopt.</EmptyState>
-      </Section>
-      <Section title="Nieuw bij mijn favorieten" description="Nieuwe activiteiten op plekken die je volgt.">
-        <EmptyState title="Blijf dichtbij wat je mooi vindt">Hier verschijnen straks updates van jouw favoriete plekken.</EmptyState>
-      </Section>
-    </div>
-  </>;
-}
 
 function Discovery({ categoryId }: { categoryId?: string }) {
   const category = categories.find((item) => item.id === categoryId);
@@ -39,14 +21,16 @@ function Discovery({ categoryId }: { categoryId?: string }) {
 }
 
 export function App() {
+  const profile=useProfile();
+  useEffect(()=>{if(profile.completed&&(window.location.pathname===BASE_PATH||window.location.pathname===BASE_PATH+'/'))window.location.replace(appHref('/agenda'));},[profile.completed]);
   const relativePath = window.location.pathname.slice(BASE_PATH.length).replace(/\/$/, "") || "/";
   const activePath = relativePath.startsWith("/agenda") ? "/agenda" : relativePath;
   return <>
     <a className="skip-link" href="#inhoud">Ga naar inhoud</a>
-    <header className="site-header"><a className="brand" href={appHref("/")} aria-label="Kunstkiezer, Mijn kunstkeuze"><span className="brand-dot" aria-hidden="true" />kunstkiezer</a><a className="loci-link" href="/">Loci Amsterdam ↗</a></header>
-    <nav className="main-nav" aria-label="Hoofdnavigatie">{navigation.map((item) => <a key={item.path} href={appHref(item.path)} aria-current={activePath === item.path ? "page" : undefined}>{item.label}</a>)}</nav>
+    <header className="site-header"><a className="brand" href={appHref("/")} aria-label="Kunstkiezer, startpagina"><span className="brand-dot" aria-hidden="true" />kunstkiezer</a><a className="loci-link" href="/">Loci Amsterdam ↗</a></header>
+    <nav className="main-nav" aria-label="Hoofdnavigatie">{navigation.filter(item=>item.path!=='/'||!profile.completed).map((item) => <a key={item.path} href={appHref(item.path)} aria-current={activePath === item.path ? "page" : undefined}>{item.label}</a>)}</nav>
     <main id="inhoud" tabIndex={-1}><Suspense fallback={<p role="status">Pagina laden…</p>}>
-      {relativePath === "/beheer" ? <AdminHome/> : relativePath.startsWith("/beheer/") && discoveryCategories.includes(relativePath.split("/")[2] as DiscoveryCategory) ? <DiscoveryAdmin key={relativePath} category={relativePath.split("/")[2] as DiscoveryCategory}/> : relativePath === "/beheer/musea" ? <MuseumAdmin /> : relativePath === "/" ? <PersonalAgenda /> : relativePath === "/agenda" ? <Discovery /> : relativePath.startsWith("/agenda/") ? <Discovery categoryId={relativePath.split("/")[2] ?? ""} /> : relativePath === "/geschiedenis" ? <><header className="page-heading"><p className="eyebrow">Mijn kunstkeuze</p><h1>Gezien<span className="accent">.</span></h1><p>Een persoonlijk geheugen voor je kunstbezoeken.</p></header><EmptyState title="Je geschiedenis begint bij je eerste bezoek">Hier vind je straks wat je hebt gezien, met je eigen waarderingen en notities.</EmptyState></> : <><h1>Pagina niet gevonden</h1><ActionLink href={appHref("/")}>Naar Mijn kunstkeuze</ActionLink></>}
+      {relativePath === "/beheer" ? <AdminHome/> : relativePath.startsWith("/beheer/") && discoveryCategories.includes(relativePath.split("/")[2] as DiscoveryCategory) ? <DiscoveryAdmin key={relativePath} category={relativePath.split("/")[2] as DiscoveryCategory}/> : relativePath === "/beheer/musea" ? <MuseumAdmin /> : relativePath === "/profiel" ? <Profile profile={profile}/> : relativePath === "/" ? (profile.completed?<Discovery/>:<Profile profile={profile} onboarding/>) : relativePath === "/agenda" ? <Discovery /> : relativePath.startsWith("/agenda/") ? <Discovery categoryId={relativePath.split("/")[2] ?? ""} /> : relativePath === "/geschiedenis" ? <><header className="page-heading"><p className="eyebrow">Mijn kunstkeuze</p><h1>Gezien<span className="accent">.</span></h1><p>Een persoonlijk geheugen voor je kunstbezoeken.</p></header><EmptyState title="Je geschiedenis begint bij je eerste bezoek">Hier vind je straks wat je hebt gezien, met je eigen waarderingen en notities.</EmptyState></> : <><h1>Pagina niet gevonden</h1><ActionLink href={appHref("/")}>Naar Mijn kunstkeuze</ActionLink></>}
     </Suspense></main>
     <footer className="site-footer"><span>Kunstkiezer · Nederland</span><span>Bewaren. Bezoeken. Ontdekken.</span><a href={appHref("/beheer")}>Beheer</a></footer>
   </>;

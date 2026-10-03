@@ -3,8 +3,9 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {blankMuseum,validateMuseum,safeWebUrl,type InventoryMuseum} from '../packages/data/src/museums.ts';
 import {onRequestGet} from '../functions/kunstkiezer/api/config.ts';
-test('Publiceren vereist bezoekinformatie en veilige links',()=>{
- assert.ok(validateMuseum({...blankMuseum,name:'Museum',publication_status:'published'}).length>0);
+test('Publicatie staat los van bezoekstatus; kunstselectie en veilige links blijven vereist',()=>{
+ assert.equal(validateMuseum({...blankMuseum,name:'Museum',publication_status:'published',operating_status:'closed'}).length,0);
+ assert.ok(validateMuseum({...blankMuseum,name:'Museum',is_art_museum:false,publication_status:'published'}).length>0);
  assert.equal(validateMuseum({...blankMuseum,name:'Museum',city:'Utrecht',street_address:'Teststraat 1',publication_status:'published',verification_status:'verified',operating_status:'open'}).length,0);
  assert.ok(validateMuseum({...blankMuseum,name:'Museum',latitude:52,longitude:null}).length>0);
  assert.equal(safeWebUrl('javascript:alert(1)'),null);

@@ -49,19 +49,7 @@ test('Editor meldt aan en slaat museum plus notities via één Supabase-transact
  await page.getByRole('button',{name:/Testmuseum Utrecht/}).click();
  await page.getByLabel('Publicatie',{exact:true}).selectOption('published');
  await page.getByLabel('Plaats',{exact:true}).fill('');
- await page.getByRole('button',{name:'Opslaan in Supabase'}).click();
- await expect(page.getByLabel('Plaats',{exact:true})).toBeFocused();
- await expect(page.getByLabel('Plaats',{exact:true})).toBeInViewport();
- await expect(page.getByLabel('Bedrijfsstatus',{exact:true})).toHaveAttribute('aria-invalid','true');
- await page.getByLabel('Plaats',{exact:true}).fill('Utrecht');
- await expect(page.getByLabel('Plaats',{exact:true})).toHaveAttribute('aria-invalid','false');
- await page.getByRole('button',{name:'Opslaan in Supabase'}).click();
- await expect(page.getByLabel('Bedrijfsstatus',{exact:true})).toBeFocused();
- await expect(page.getByLabel('Bedrijfsstatus',{exact:true})).toBeInViewport();
- await expect(page.getByText('Kies Open om dit museum te publiceren, of sla het op als Concept.')).toBeVisible();
- expect(savedPayload).toBeNull();
- await page.getByLabel('Bedrijfsstatus',{exact:true}).selectOption('open');
- await expect(page.getByLabel('Bedrijfsstatus',{exact:true})).toHaveAttribute('aria-invalid','false');
+ await page.getByLabel('Bedrijfsstatus',{exact:true}).selectOption('closed');
  await page.getByLabel('Tag toevoegen uit de bibliotheek').selectOption('kunst');
  await page.getByLabel('Collectie').fill(Array(81).fill('kunst').join(' '));
  await page.getByRole('button',{name:'Opslaan in Supabase'}).click();
@@ -85,6 +73,7 @@ test('Editor meldt aan en slaat museum plus notities via één Supabase-transact
  await expect(page.getByText('Opgeslagen in Supabase.')).toBeVisible();
  expect(savedPayload).not.toBeNull();
  expect(museum.tags).toEqual(['kunst']);
+ expect(museum.operating_status).toBe('closed');expect(museum.city).toBe('');
  expect(((savedPayload as unknown as Record<string,unknown>).payload as {photos:unknown[]}).photos).toHaveLength(2);
  expect((savedPayload as unknown as Record<string,unknown>).editorial_notes).toBe('Adres gecontroleerd.');
 });

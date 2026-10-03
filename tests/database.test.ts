@@ -3,10 +3,10 @@ import assert from 'node:assert/strict';
 import {readFileSync,readdirSync} from 'node:fs';
 import {PGlite} from '@electric-sql/pglite';
 const editor='00000000-0000-4000-8000-000000000001', visitor='00000000-0000-4000-8000-000000000002';
-async function database(){
+async function database(publishMigration=true){
  const db=new PGlite();
  await db.exec(`create role anon;create role authenticated;create schema auth;create table auth.users(id uuid primary key,email text);create function auth.uid() returns uuid language sql stable as $$select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid$$;grant usage on schema public,auth to anon,authenticated;grant execute on function auth.uid() to anon,authenticated;`);
- for(const file of readdirSync('supabase/migrations').filter(f=>f.endsWith('.sql')).sort())await db.exec(readFileSync(`supabase/migrations/${file}`,'utf8'));
+ for(const file of readdirSync('supabase/migrations').filter(f=>f.endsWith('.sql')&&(publishMigration||!f.endsWith('_publish_curated_catalogs.sql'))).sort())await db.exec(readFileSync(`supabase/migrations/${file}`,'utf8'));
  await db.query('insert into auth.users(id,email) values($1,$2),($3,$4)',[editor,'editor@example.test',visitor,'visitor@example.test']);
  await db.query('insert into kunstkiezer_private.editors(user_id) values($1)',[editor]);
  return db;
@@ -113,5 +113,23 @@ test('Nieuwe collecties importeren herhaalbaar zonder museum- of redactiewerk te
  const snapshot=await db.query('select * from public.kk_discoveries order by id');
  for(const file of files)await db.exec(readFileSync(`supabase/discovery-imports/${file}`,'utf8'));
  assert.deepEqual((await db.query('select * from public.kk_discoveries order by id')).rows,snapshot.rows);assert.deepEqual((await db.query('select * from public.kk_museums order by id')).rows,before.rows);
+ }finally{await db.close();}
+});
+
+test('Eenmalige publicatie publiceert uitsluitend concepten in de vijf keuzes en bewaart bezoekstatus en inhoud',async()=>{
+ const db=await database(false);try{
+ await role(db,'authenticated',editor);
+ const art=(await db.query<{id:string}>('select * from public.kk_save_museum($1,null,null,$2)',[{...payload,name:'Gesloten kunstmuseum',city:'',street_address:'',operating_status:'closed'},'Privé behouden'])).rows[0]!;
+ await db.query('select * from public.kk_save_museum($1,null,null,$2)',[{...payload,is_art_museum:false,name:'Geen kunstmuseum'},'Niet publiceren']);
+ await db.query('select * from public.kk_save_museum($1,null,null,$2)',[{...payload,publication_status:'archived',name:'Archief'},'Niet publiceren']);
+ const discovery={category:'openbare-kunst',name:'Historisch werk',city:'',province:'',street_address:'',website_url:'',summary:'Een historisch kunstwerk.',creator:'',year:'',tags:['kunst'],photos:[],sources:[{provider:'Bron',url:'https://example.test'}],selection_reason:'Sleutelwerk.',visit_notes:'Locatie onbekend.',museum_id:null,starts_on:null,ends_on:null,operating_status:'unknown',publication_status:'draft'};
+ await db.query('select * from public.kk_save_discovery($1,null,null,$2)',[discovery,'Interne notitie']);
+ await db.exec('reset role');const before=await db.query("select to_jsonb(m)-'publication_status'-'updated_at' as value from kk_museums m order by id");
+ const migration=readdirSync('supabase/migrations').find(f=>f.endsWith('_publish_curated_catalogs.sql'))!;await db.exec(readFileSync(`supabase/migrations/${migration}`,'utf8'));
+ assert.deepEqual((await db.query("select to_jsonb(m)-'publication_status'-'updated_at' as value from kk_museums m order by id")).rows,before.rows);
+ assert.equal((await db.query<{n:number}>("select count(*)::int n from kk_museums where publication_status='published'")).rows[0]?.n,1);
+ await role(db,'anon');const visible=(await db.query<{id:string;operating_status:string}>('select * from kk_museums')).rows;assert.equal(visible.length,1);assert.equal(visible[0]?.id,art.id);assert.equal(visible[0]?.operating_status,'closed');
+ assert.equal((await db.query<{operating_status:string}>('select * from kk_discoveries')).rows[0]?.operating_status,'unknown');
+ await assert.rejects(db.query('select * from kk_discovery_editorial'));await assert.rejects(db.query('select * from kk_museum_editorial'));
  }finally{await db.close();}
 });
