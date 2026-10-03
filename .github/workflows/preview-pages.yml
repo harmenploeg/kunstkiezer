@@ -43,6 +43,13 @@ jobs:
                   raise SystemExit(f'Pages-projectcontrole mislukt: HTTP {error.code}')
               subprocess.run(['npx', 'wrangler', 'pages', 'project', 'create', 'kunstkiezer', '--production-branch', 'main'], check=True)
           PY
+      - name: Verbind publieke Supabase-configuratie
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          PUBLIC_SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
+          PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ vars.PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
+        run: python3 scripts/configure-pages-supabase.py
       - name: Publiceer afzonderlijke preview
         working-directory: pages-preview
         env:

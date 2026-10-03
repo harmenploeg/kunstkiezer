@@ -14,7 +14,7 @@ De eerste inventaris bevat 1.496 kandidaten uit Museum.nl, twaalf provinciale Wi
 
 De museumcatalogus leest uitsluitend uit Supabase. Het redacteurformulier ondersteunt aanmelden, zoeken, provinciefilters, toevoegen, wijzigen, bronnen, tagvoorstellen, privénotities en publicatie. RLS beschermt concepten en notities. Museumgegevens en notities worden in één transactie opgeslagen met controle op gelijktijdige wijzigingen.
 
-Er is nog geen Supabase-accountverbinding in deze sessie en dus nog geen echt cloudproject ingericht. De schema’s, importgenerator en editorbootstrap staan gereed onder `supabase/`. Zonder verbinding toont de beheerpagina een duidelijk gemarkeerde, niet-opslagbare inventarispreview. Zie [inrichting en datamodel](docs/musea-en-supabase.md).
+Supabase-project `kunstkiezer` (`qrlfywcqkkzmerglmsbj`, Frankfurt) bevat de drie migraties en 1.496 museumconcepten. GitHub is verbonden met productiebranch `main`. De Pages-publicatieworkflow zet de twee publieke Supabase-runtimevariabelen vanuit GitHub Actions-variabelen. Redacteuren kunnen aanmelden met wachtwoord of een e-maillink. Zonder verbinding toont de beheerpagina een duidelijk gemarkeerde, niet-opslagbare inventarispreview. Zie [inrichting en datamodel](docs/musea-en-supabase.md).
 
 ## Ontwikkelen en testen
 
@@ -29,3 +29,7 @@ De preview is Cloudflare Pages-project `kunstkiezer`. Runtimevariabelen `PUBLIC_
 De eerdere basisintegratie is gepubliceerd in Pages-project `interactief` onder `www.loci-amsterdam.nl/kunstkiezer/`. De nieuwe museumuitbreiding is momenteel op de afzonderlijke preview gepubliceerd; het Loci-publicatiepakket moet voor deze uitbreiding nog worden bijgewerkt.
 
 Persoonlijke keuzes, bezoekplanning en aanbevelingen zijn nog niet geïmplementeerd.
+
+## Eerste tagcontrole
+
+Zes musea hebben samen 21 op officiële museumbronnen gebaseerde tags. De onderbouwing staat in `data/museums/tag-review-2026-10-03.json` en in de interne notities en bronvermeldingen in Supabase. Daarnaast bevatten 232 museumrecords samen 249 voorlopige trefwoordvoorstellen die nog beoordeeld moeten worden. Taggen maakt een museum niet automatisch gepubliceerd of volledig gecontroleerd.

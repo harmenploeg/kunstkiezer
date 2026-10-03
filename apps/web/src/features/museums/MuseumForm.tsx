@@ -1,8 +1,11 @@
-import { useState, type FormEvent } from 'react';
+import { getClient } from '../../../../../packages/data/src/client.ts';
+import { useEffect, useState, type FormEvent } from 'react';
 import { provinces, safeWebUrl, validateMuseum, type Museum, type MuseumInput, type MuseumSource, type Editorial } from '../../../../../packages/data/src/museums.ts';
 interface Props {museum: MuseumInput; existing: Museum|null; sources: MuseumSource[]; editorial: Editorial; canSave: boolean; onSave:(m:MuseumInput,notes:string)=>Promise<void>}
 export function MuseumForm({museum,existing,sources,editorial,canSave,onSave}:Props) {
  const [value,setValue]=useState<MuseumInput>(museum),[notes,setNotes]=useState(editorial.review_notes),[message,setMessage]=useState(''),[saving,setSaving]=useState(false),[tagText,setTagText]=useState(museum.tags.join(', '));
+ const [library,setLibrary]=useState<{label:string;dimension:string}[]>([]);
+ useEffect(()=>{if(!canSave)return;let active=true;getClient().then(c=>c.from('kk_tags').select('label,dimension').order('dimension').order('label')).then(({data})=>{if(active)setLibrary(data??[]);}).catch(()=>{});return()=>{active=false;};},[canSave]);
  function field<K extends keyof MuseumInput>(name:K,v:MuseumInput[K]){setValue(old=>({...old,[name]:v}));setMessage('');}
  async function submit(e:FormEvent){e.preventDefault();const errors=validateMuseum(value);if(errors.length){setMessage(errors.join(' '));return;}
   setSaving(true);setMessage('');try{await onSave(value,notes);setMessage('Opgeslagen in Supabase.');}catch(e){setMessage(e instanceof Error?e.message:'Opslaan mislukt.');}finally{setSaving(false);}
@@ -25,7 +28,8 @@ export function MuseumForm({museum,existing,sources,editorial,canSave,onSave}:Pr
   </div>
   <label>Eigen beschrijving<textarea rows={4} maxLength={5000} value={value.summary} onChange={e=>field('summary',e.target.value)} /></label>
   <label>Goedgekeurde tags, gescheiden door komma's<input value={tagText} onChange={e=>{setTagText(e.target.value);field('tags',[...new Set(e.target.value.split(',').map(t=>t.trim()).filter(Boolean))]);}} /></label>
-  {editorial.suggested_tags.length>0&&<fieldset><legend>Tagvoorstellen — zelf beoordelen</legend>{editorial.suggested_tags.map(t=><button type="button" className="tag-proposal" key={t.label} disabled={value.tags.includes(t.label)} title={t.evidence} onClick={()=>{field('tags',[...value.tags,t.label]);setTagText([...value.tags,t.label].join(', '));}}>+ {t.label} <small>({t.dimension})</small></button>)}</fieldset>}
+  {library.length>0&&<label>Tag toevoegen uit de bibliotheek<select value="" onChange={e=>{if(e.target.value&&!value.tags.includes(e.target.value)){const next=[...value.tags,e.target.value];field('tags',next);setTagText(next.join(', '));}}}><option value="">Kies een tag…</option>{[...new Set(library.map(t=>t.dimension))].map(d=><optgroup key={d} label={d}>{library.filter(t=>t.dimension===d).map(t=><option key={t.label} disabled={value.tags.includes(t.label)} value={t.label}>{t.label}</option>)}</optgroup>)}</select></label>}
+  {editorial.suggested_tags.length>0&&<fieldset><legend>Tagvoorstellen — zelf beoordelen</legend>{editorial.suggested_tags.map(t=><div key={t.label}><button type="button" className="tag-proposal" disabled={value.tags.includes(t.label)} title={t.evidence} onClick={()=>{field('tags',[...value.tags,t.label]);setTagText([...value.tags,t.label].join(', '));}}>+ {t.label} <small>({t.dimension})</small></button><p><small>{t.evidence}</small></p></div>)}</fieldset>}
   <label>Interne redactienotities<textarea rows={3} value={notes} onChange={e=>setNotes(e.target.value)} /></label>
   <section><h3>Bronnen</h3>{sources.length?sources.map((s,i)=><p key={i}>{safeWebUrl(s.url)?<a href={safeWebUrl(s.url)!} target="_blank" rel="noopener noreferrer">{s.provider} ↗</a>:s.provider}<br/><small>Opgehaald {new Date(s.retrieved_at).toLocaleDateString('nl-NL')} · {s.evidence_fields.join(', ')}</small></p>):<p>Nog geen bron gekoppeld. Vul controleerbare gegevens en je eigen notities in.</p>}</section>
   {message&&<p role="status" className="notice">{message}</p>}

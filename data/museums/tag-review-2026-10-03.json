@@ -1,0 +1,71 @@
+[
+  {
+    "id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
+    "name": "Rijksmuseum Amsterdam",
+    "tags": [
+      "kunst",
+      "schilderkunst",
+      "keramiek"
+    ],
+    "url": "https://www.rijksmuseum.nl/nl/collectie",
+    "evidence": "Officiële collectiepagina noemt Vermeer, Judith Leyster en Delfts aardewerk."
+  },
+  {
+    "id": "8ca65b0c-71eb-5178-bc9d-6e321af6995c",
+    "name": "Van Gogh Museum",
+    "tags": [
+      "kunst",
+      "schilderkunst",
+      "tekeningen",
+      "19e eeuw"
+    ],
+    "url": "https://www.vangoghmuseum.nl/assets/9fda6c09-4a16-4940-a94f-37f0f8e0193b?c=d0b215154509e6f7bdccff967a14a502b206d8450a47704bd1bbfd3d8ebe58f8",
+    "evidence": "Officiële zaalteksten beschrijven schilderijen en tekeningen van Van Gogh uit 1880–1890."
+  },
+  {
+    "id": "45f722c3-7566-502a-93ee-acda64e7cdb0",
+    "name": "Kröller-Müller Museum",
+    "tags": [
+      "kunst",
+      "beeldhouwkunst",
+      "moderne kunst",
+      "openlucht"
+    ],
+    "url": "https://p-tijdlijn.krollermuller.nl/tijdlijn/de-beeldentuin",
+    "evidence": "Officiële museumtijdlijn beschrijft de beeldentuin en moderne beeldhouwkunst."
+  },
+  {
+    "id": "d40cd0e8-52f2-5f2d-b452-4caad4718c94",
+    "name": "Stedelijk Museum Amsterdam",
+    "tags": [
+      "kunst",
+      "moderne kunst",
+      "hedendaagse kunst",
+      "design"
+    ],
+    "url": "https://www.stedelijk.nl/nl/nieuws/small-world-real-world-2",
+    "evidence": "Museum beschrijft zijn profiel als hedendaagse en moderne kunst en vormgeving."
+  },
+  {
+    "id": "558d084e-8241-5142-a083-4137b51973a6",
+    "name": "Mauritshuis",
+    "tags": [
+      "kunst",
+      "schilderkunst",
+      "oude meesters"
+    ],
+    "url": "https://www.mauritshuis.nl/nu-te-doen/vaste-collectie/mauritshuis/geschiedenis-van-de-collectie",
+    "evidence": "Officiële collectiegeschiedenis beschrijft schilderijen uit de tijd van Rembrandt en Vermeer."
+  },
+  {
+    "id": "c3ab1b89-a248-5b8f-bf3e-031df0c33a18",
+    "name": "Kunstmuseum Den Haag",
+    "tags": [
+      "kunst",
+      "toegepaste kunst",
+      "mode"
+    ],
+    "url": "https://www.kunstmuseum.nl/nl/collectie/deelcollecties",
+    "evidence": "Officiële deelcollecties bevatten beeldende kunst, toegepaste kunst en mode."
+  }
+]

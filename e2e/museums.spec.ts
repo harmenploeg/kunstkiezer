@@ -30,6 +30,7 @@ test('Editor meldt aan en slaat museum plus notities via één Supabase-transact
   if(path==='/auth/v1/token'){await reply({access_token:token,refresh_token:'test-refresh',token_type:'bearer',expires_in:3600,user});return;}
   if(path==='/rest/v1/rpc/kk_is_editor'){await reply(true);return;}
   if(path==='/rest/v1/kk_museums'){await reply([museum],{'content-range':'0-0/1'});return;}
+  if(path==='/rest/v1/kk_tags'){await reply([{label:'kunst',dimension:'collectie'}]);return;}
   if(path==='/rest/v1/kk_museum_sources'){await reply([]);return;}
   if(path==='/rest/v1/kk_museum_editorial'){await reply({review_notes:'',suggested_tags:[]});return;}
   if(path==='/rest/v1/rpc/kk_save_museum'){
@@ -44,12 +45,14 @@ test('Editor meldt aan en slaat museum plus notities via één Supabase-transact
  await page.goto('/kunstkiezer/beheer/musea');
  await page.getByLabel('E-mail',{exact:true}).fill('editor@example.test');
  await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');
- await page.getByRole('button',{name:'Aanmelden',exact:true}).click();
+ await page.getByRole('button',{name:'Aanmelden met wachtwoord',exact:true}).click();
  await page.getByRole('button',{name:/Testmuseum Utrecht/}).click();
+ await page.getByLabel('Tag toevoegen uit de bibliotheek').selectOption('kunst');
  await page.getByLabel('Eigen beschrijving').fill('Eigen gecontroleerde tekst.');
  await page.getByLabel('Interne redactienotities').fill('Adres gecontroleerd.');
  await page.getByRole('button',{name:'Opslaan in Supabase'}).click();
  await expect(page.getByText('Opgeslagen in Supabase.')).toBeVisible();
  expect(savedPayload).not.toBeNull();
+ expect(museum.tags).toEqual(['kunst']);
  expect((savedPayload as unknown as Record<string,unknown>).editorial_notes).toBe('Adres gecontroleerd.');
 });
