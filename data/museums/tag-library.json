@@ -1,0 +1,362 @@
+[
+  {
+    "label": "kunst",
+    "dimension": "collectie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "geschiedenis",
+    "dimension": "collectie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "streekgeschiedenis",
+    "dimension": "collectie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "natuur",
+    "dimension": "collectie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "wetenschap",
+    "dimension": "collectie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "techniek",
+    "dimension": "collectie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "design",
+    "dimension": "collectie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "archeologie",
+    "dimension": "collectie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "wereldculturen",
+    "dimension": "collectie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "religie",
+    "dimension": "collectie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "literatuur",
+    "dimension": "collectie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "muziek",
+    "dimension": "collectie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "toegepaste kunst",
+    "dimension": "collectie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "schilderkunst",
+    "dimension": "medium",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "beeldhouwkunst",
+    "dimension": "medium",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "fotografie",
+    "dimension": "medium",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "tekeningen",
+    "dimension": "medium",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "grafiek",
+    "dimension": "medium",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "textiel",
+    "dimension": "medium",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "keramiek",
+    "dimension": "medium",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "glas",
+    "dimension": "medium",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "sieraden",
+    "dimension": "medium",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "video",
+    "dimension": "medium",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "installaties",
+    "dimension": "medium",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "digitale kunst",
+    "dimension": "medium",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "architectuur",
+    "dimension": "medium",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "oude meesters",
+    "dimension": "periode",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "19e eeuw",
+    "dimension": "periode",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "moderne kunst",
+    "dimension": "periode",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "hedendaagse kunst",
+    "dimension": "periode",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "middeleeuwen",
+    "dimension": "periode",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "renaissance",
+    "dimension": "periode",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "barok",
+    "dimension": "periode",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "20e eeuw",
+    "dimension": "periode",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "realisme",
+    "dimension": "stijl",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "impressionisme",
+    "dimension": "stijl",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "expressionisme",
+    "dimension": "stijl",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "abstractie",
+    "dimension": "stijl",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "surrealisme",
+    "dimension": "stijl",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "minimalisme",
+    "dimension": "stijl",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "conceptuele kunst",
+    "dimension": "stijl",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "De Stijl",
+    "dimension": "stijl",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "landschap",
+    "dimension": "thema",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "portret",
+    "dimension": "thema",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "natuur en milieu",
+    "dimension": "thema",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "maatschappij",
+    "dimension": "thema",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "identiteit",
+    "dimension": "thema",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "migratie",
+    "dimension": "thema",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "oorlog en vrede",
+    "dimension": "thema",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "maritiem",
+    "dimension": "thema",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "vervoer",
+    "dimension": "thema",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "industrie",
+    "dimension": "thema",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "mode",
+    "dimension": "thema",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "ambacht",
+    "dimension": "thema",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "openlucht",
+    "dimension": "beleving",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "kleinschalig",
+    "dimension": "beleving",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "iconisch gebouw",
+    "dimension": "beleving",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "interactief",
+    "dimension": "beleving",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "rustig",
+    "dimension": "beleving",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "met kinderen",
+    "dimension": "beleving",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "verdieping",
+    "dimension": "beleving",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "experiment",
+    "dimension": "beleving",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "Museumkaart",
+    "dimension": "voorziening",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "rolstoeltoegankelijk",
+    "dimension": "voorziening",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "museumcafé",
+    "dimension": "voorziening",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "museumwinkel",
+    "dimension": "voorziening",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "audiotour",
+    "dimension": "voorziening",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "rondleiding",
+    "dimension": "voorziening",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "stedelijk",
+    "dimension": "locatie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "landelijk",
+    "dimension": "locatie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "aan het water",
+    "dimension": "locatie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "in een tuin",
+    "dimension": "locatie",
+    "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  }
+]
