@@ -19,6 +19,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check
+      - run: npx playwright install --with-deps chromium
+      - run: npx playwright test --reporter=list
       - name: Verpak Pages-preview
         run: |
           mkdir -p pages-preview/kunstkiezer pages-preview/functions
