@@ -1,0 +1,20 @@
+# Wekelijkse actualisatie Kunstkiezer
+
+Ingesteld als heartbeat in deze Codex-chat: **kunstkiezer-wekelijks-actualiseren**, maandag **09.00 Europe/Amsterdam**. Een ongewijzigde controle blijft stil; meld een afgeronde wijziging, fout of benodigde actie. Een heartbeat vereist dat de uitvoeromgeving en benodigde verbindingen beschikbaar zijn; de instelling alleen is geen bewijs van een geslaagde toekomstige run.
+
+## Uitvoering
+
+1. Lees `docs/publicatie.md`, dit protocol en `data/curation/latest-report.json`. Controleer de actuele Git-status en database. Bewaar een beginmomentopname met wijzigingstijden. Bekijk de auditgeschiedenis van handmatig bewerkte records; verander die velden niet zonder concrete aanleiding en behoud de oorspronkelijke waarden.
+2. Werk eerst de open punten per record af: juiste bezoeklocatie, actuele bereikbaarheid en bedrijfsstatus, officiële website, foto met maker/bron/licentie en een concrete beschrijving van maximaal 80 woorden. Een stadscentrum, administratieadres, camerastandpunt of adres van een gelijknamige instelling is geen exact objectpunt. Meerdere locaties en historische projecten krijgen duidelijke bezoekinformatie.
+3. Controleer alle vijf categorieën bij officiële instellingen, kunstenaars, terreinbeheerders en gemeenten. Bewaar URL, controledatum en ondersteunde velden. Behoud de 100 officiële Sleutelwerken als bronselectie; voeg alleen gemotiveerde extra werken toe, tot maximaal 1000. Beeldentuinen moeten meerdere kunstwerken omvatten. Vergelijk nieuwe museum- en architectuurkandidaten op duplicaten en feitelijke bezoekbaarheid.
+4. Zoek voor evenementen zowel toegankelijke recensies/tips als de programma's van de kunstinstellingen. Controleer exacte begin- en einddatums bij de organisator. Geen verzonnen einddatum voor een project met onbekende looptijd. Een afzonderlijke openingsactiviteit mag wel met de bevestigde dag worden opgenomen. Scheid afgeschermde of niet geraadpleegde bronnen van werkelijk gebruikte bronnen.
+5. Publiceer geselecteerde, onderbouwde toevoegingen. Verwerk tussentijdse redactiewijzigingen met een conflictcontrole per record op `updated_at`; werk alleen de bedoelde velden bij. Archiveer aantoonbare dubbelen na samenvoegen van bronnen, zonder de auditgeschiedenis te wissen. Onzekerheid niet oplossen door een ongefundeerde status 'open' of een willekeurige foto/coördinaat.
+6. Gebruik herkenbare tags uit de bibliotheek die aansluiten bij de voorkeurvragen. Voeg ontbrekende relevante tags toe met de juiste dimensie. Laat bestaande beheerdersinstellingen voor afstand en smaak intact.
+7. Controleer na elke mutatie de opgeslagen gegevens, aantallen en publieke API. Controleer 80 woorden, complete bron- en fotometadata, coördinatenparen, Nederlandse locatie, dubbele records en agendadatums. De kalenderfilter is dynamisch in Europe/Amsterdam: einddatum ≥ vandaag, begindatum ≤ vandaag plus één kalendermaand.
+8. Vernieuw de vijf versiebeheerbestanden, het wijzigingsverslag en `data/curation/latest-report.json`. Verwijder opgeloste punten uit de lijst en benoem blokkades concreet. Bewaar de eerdere foto-kandidaten voor vervolgonderzoek, maar publiceer ze niet als hun hergebruikvoorwaarden nog onbekend zijn.
+9. Voer `npm run check` uit; bij gewijzigde gebruikersstromen ook relevante browsertests. Publiceer gewijzigde downloadbestanden of applicatiecode via de bestaande gecontroleerde Loci-keten. Gebruik de echte productiecontrole op **https://www.loci-amsterdam.nl/kunstkiezer/**. Alleen een preview-deployment is onvoldoende. Databasewijzigingen zijn zelfstandig live en moeten ook via de publieke API worden geverifieerd.
+10. Rapporteer concrete wijzigingen en resterende onzekerheden, plus de werkelijk gecontroleerde productiestatus. Geen automatische e-mails of berichten aan derden.
+
+## Nog niet volledig toegankelijke bronnen
+
+De volledige NAi250-publicatie, afgeschermde landelijke kranten en sommige Instagramaccounts zijn geen bewezen volledig gecontroleerde bronnen. Gebruik toegankelijke primaire informatie en houd de beperking zichtbaar. Verzin geen volledigheidsclaim om de lijst met open punten leeg te maken.

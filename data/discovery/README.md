@@ -1,39 +1,39 @@
 # Onderzoeksbestanden Kunstkiezer
 
-Momentopname: 3 oktober 2026. De vier JSON-bestanden vormen de eerste redactionele selectie. Supabase is daarna de bron voor de website en voor bewerkingen in de redactietool. De download **Onderzoeksbestand** blijft deze oorspronkelijke momentopname; het is geen export van latere redactiewijzigingen.
+Momentopname: **4 oktober 2026**. Supabase is de actuele bron voor de website en redactietool. De vijf JSON-bestanden zijn gecontroleerde exports; latere redactiewijzigingen worden pas bij een volgende export in downloads opgenomen.
 
-Elke vermelding bevat tags, een korte beschrijving, bronlinks, een selectieargument, bezoekinformatie en een publicatiestatus. Concepten zijn wel te bewerken, maar verschijnen niet in de publieke zoekresultaten. Afbeeldingen kunnen met maker, bron en licentie worden toegevoegd; de nieuwe verzamelingen bevatten nog geen fotoselectie.
+## Selectie en huidige dekking
 
-## Kunst in de openbare ruimte
+- **300 kunstmusea en kunstinstellingen**, inclusief fotografie, design, kunstenaarsmusea en kunsthallen. Algemene erfgoedlocaties met kunst als bijzaak vallen buiten deze categorie.
+- **127 openbare kunstwerken**, waaronder alle 100 officiële Sleutelwerken. De overige 299 inzendingen op Sleutelwerken zijn niet automatisch overgenomen. Aanvullingen komen uit gemeentelijke en institutionele collecties, onder andere Rotterdam, Utrecht, Groningen, Den Haag, Amsterdam, Flevoland en 11fountains. Het maximum van 1000 is een bovengrens, geen vuldoel. Selectieargumenten staan per werk vermeld.
+- **39 beeldentuinen, parken en routes** met meerdere werken. Museumtuinen kunnen ook bij hun museum horen. Losse beelden zijn geen beeldentuin.
+- **188 gepubliceerde architectuurvermeldingen** en vijf gearchiveerde dubbelen. De Architectuurgidsselectie en historische RDMZ Top 100 blijven via samengevoegde bronnen vertegenwoordigd. Een vermelding betekent niet dat het interieur toegankelijk is.
+- **66 tentoonstellingen en evenementen** met begin- en einddatum van de organisator. Op de onderzoeksdatum vallen 65 binnen het agendavenster.
 
-Alle 100 door BK-informatie als Sleutelwerk gemarkeerde werken zijn opgenomen. De officiële bron bevatte daarnaast 299 andere inzendingen: die zijn niet automatisch als Sleutelwerk overgenomen. `sleutelwerken-selectie.json` verantwoordt die afbakening.
+De gebruiker heeft publicatie van de geselecteerde concepten gevraagd. Tijdelijke sluiting, historische uitvoering en onzekerheid over een bezoekplek worden daarom met een aparte bedrijfsstatus en bezoektekst beschreven. Ze worden niet stilzwijgend als open bestempeld. Vijf echte dubbele architectuurrecords zijn gearchiveerd; hun bronnen zijn bij het behouden record opgenomen.
 
-Aanvullingen komen uit de collecties van Sculpture International Rotterdam, Kunst in Utrecht, CBK Groningen, Stroom Den Haag, Amsterdam Museum, Land Art Flevoland en 11fountains. De selectie richt zich op een onderscheidende kunstenaar, beeldtaal, ruimtelijke ervaring of relatie met de plek. Per vermelding staat het argument en de bijbehorende bron. Het maximum van 1000 is een bovengrens, geen vuldoel.
+## Inhoudelijke controle
 
-De Sleutelwerkenlijst bevat ook verdwenen, tijdelijke of verplaatste werken. Zonder voldoende bevestiging van de huidige locatie en bezoekmogelijkheid blijven deze concept. Ook andere nog niet op locatie uitgewerkte Sleutelwerken blijven concept. De lijst is dus vollediger dan de publieke selectie.
+Deze actualisatie verbetert 378 bestaande records en voegt 24 records toe. De wijzigingen, oorspronkelijke veldwaarden en verwachte wijzigingstijd staan in `../curation/2026-10-04-changes.json`. De database-update controleerde iedere wijzigingstijd en heeft geen tussentijdse of handmatige redactiewijzigingen overschreven.
 
-## Beeldentuinen en parken
+91 Sleutelwerken en 187 architectuurvermeldingen kregen specifieke, opnieuw geschreven beschrijvingen. De twee werken met de naam Observatorium zijn uit elkaar gehaald: Krijn de Koning in Deventer en Robert Morris in Flevoland. Het oude adres van het Feestaardvarken geldt niet langer als actuele bezoeklocatie. Foto's uit Commons vermelden maker, bron en licentie. Museumfoto's bij evenementen zijn expliciet als locatiebeeld aangeduid. Historische opnamen zijn waar herkenbaar als zodanig beschreven.
 
-Opgenomen zijn tuinen, parken, ensembles en routes met meerdere kunstwerken. Museumtuinen zijn waar mogelijk gekoppeld aan de bestaande museumvermelding. Losse beelden staan bij openbare kunst. De bronnen omvatten officiële instellingen en routes, aangevuld met onder meer NS Dagje Uit, BNNVARA/3 op Reis en toegankelijkheidsorganisatie KUBES. Buitenlandse delen van grensoverschrijdende routes vallen buiten de Nederlandse selectie.
+Coördinaten uit objectbeschrijvingen en exact passende BAG-adressen vervangen veel plaatsmiddelpunten. Straat- en plaatsnauwkeurigheid blijven herkenbaar; een secretariaatadres of een willekeurig punt op een route wordt niet als exacte kunstlocatie gebruikt.
 
-Seizoenslocaties zonder lopende tentoonstelling blijven concept. Dit geldt op de onderzoeksdatum voor Lustwarande en de beeldentuin van Ruïne Ravesteyn. BIG Art & Garden is de huidige naam van de heropende beeldentuin in Gees.
+## Open punten en wekelijkse actualisatie
 
-## Architectuur
+`../curation/latest-report.json` bevat aantallen en **per record** de resterende foto-, locatie- en bezoekvragen. Genereer het met `node scripts/audit-catalogs.mjs YYYY-MM-DD`, nadat de bestanden opnieuw met de database zijn vergeleken. Foto's zonder bevestigde hergebruikvoorwaarden staan apart in `../curation/2026-10-04-pending-photo-rights.json`; deze kandidaten zijn niet als vrij herbruikbaar gepubliceerd.
 
-De Top 100-rubriek van Architectuurgids leverde 107 projectvermeldingen. Samen met de historische Top 100 van de Rijksdienst voor de Monumentenzorg (1990), na samenvoegen van 14 overlappingen, zijn dit 193 vermeldingen. Historische, gesloopte of niet als actuele bestemming bruikbare projecten blijven concept. Selectie als architectuur betekent niet dat een interieur openbaar toegankelijk is; de bezoektekst maakt dit onderscheid.
+De wekelijkse actualisatie is ingesteld op maandag 09.00 uur, Europe/Amsterdam. Het werkprotocol staat in `../../docs/wekelijkse-actualisatie.md`. De agenda vervalt automatisch op einddatum, maar nieuwe tentoonstellingen worden redactioneel toegevoegd na broncontrole.
 
-De publicatie **Nederlandse architectuur in 250 topstukken** van NAi010 is onderzocht via de uitgeversinformatie en het openbare inkijkexemplaar. Het gaat om archiefstukken en ontwerpen, waaronder onuitgevoerde ontwerpen, en niet om 250 zonder meer bezoekbare gebouwen. Het inkijkexemplaar bevat niet de volledige lijst. Daarom wordt deze eerste versie niet gepresenteerd als volledig getoetst aan alle 250 topstukken; er zijn geen onbevestigde NAi-labels toegevoegd.
+De publieke agenda toont gepubliceerde evenementen die al bezig zijn of uiterlijk één kalendermaand na vandaag beginnen; de einddatum moet vandaag of later zijn. Amsterdamse tijd, inclusieve einddatums en echte kalendermaanden gelden. Binnen deze datumperiode garandeert een vermelding geen dagelijkse opening: raadpleeg de organisator.
 
-## Tentoonstellingen en evenementen
+## Onderzoeksbeperkingen
 
-Programma's van instellingen uit het museumbestand vormen de basis. Tips en recensies van KunstVensters, Museumtijdschrift en De Kunstmeisjes helpen bij de keuze; geselecteerde data zijn gecontroleerd bij de organisator. Dutch Design Week voegt een meerdaags evenement buiten museumzalen toe. De eerste selectie is niet uitputtend. Culty Pleasures/Instagram en afgeschermde landelijke kranten konden niet volledig worden beoordeeld en worden niet als geraadpleegde recensies opgevoerd.
+De NAi010-publicatie **Nederlandse architectuur in 250 topstukken** bevat ook archiefstukken en onuitgevoerde ontwerpen. Het beschikbare inkijkexemplaar bevat niet de hele lijst. Volledige vergelijking met alle 250 is dus nog niet onderbouwd; er zijn geen fictieve NAi-selectielabels toegevoegd.
 
-De publieke agenda toont uitsluitend gepubliceerde, geopende vermeldingen waarvan de einddatum niet verstreken is en de begindatum uiterlijk één kalendermaand na vandaag ligt, gerekend in Europe/Amsterdam. Een evenement begint of eindigt inclusief die datum. Openingstijden binnen die periode worden niet voorspeld. De datumfilter werkt automatisch; nieuw programma-aanbod moet redactioneel worden toegevoegd.
+Toegankelijke tips van KunstVensters, Museumtijdschrift en De Kunstmeisjes en museumprogramma's ondersteunen de evenementenselectie. Afgeschermde kranten en Instagram/Culty Pleasures worden niet opgevoerd alsof ze volledig geraadpleegd zijn. De catalogus is een onderbouwde selectie, geen aantoonbaar volledige inventaris van elk Nederlands kunstaanbod.
 
-## Import en behoud van redactiewerk
+## Herhaalbare import
 
-`npm run inventory:discovery` maakt SQL-batches. De import voegt ontbrekende records toe en overschrijft nooit bestaande records. Museumgegevens worden niet bijgewerkt door deze import. Redactie gaat via een atomaire opslagfunctie met controle op tussentijdse wijzigingen; interne notities zijn afgeschermd. De migratie staat in `supabase/migrations/20261003175631_discovery_collections.sql`.
-
-Bronnen voor de niet volledig beschikbare NAi-selectie:
-- https://www.nai010.com/product/nederlandse-architectuur-in-250-topstukken/
-- https://0f77a1a0-1bb6-4924-b1a2-72921d7eed7e.filesusr.com/ugd/cd116f_6b7802a7d46442adb18b8da6bd1596a7.pdf
+`npm run inventory:discovery` genereert invoegbatches inclusief coördinaten en precisie. Deze voegen alleen ontbrekende records toe. Bestaande records worden nooit vervangen door een oude bestandsversie. Correcties aan bestaande gegevens vereisen controle van de actuele `updated_at`, behoud van redactiewerk en verificatie achteraf. De specifieke correcties van 4 oktober zijn al toegepast; voer ze niet ongecontroleerd opnieuw uit.

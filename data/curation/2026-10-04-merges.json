@@ -1,0 +1,22 @@
+[
+  {
+    "from": "rce100:Huis ter Heide:Villa Van 't Hoff (voor 2024: Villa Henny)",
+    "to": "architectuurgids:602"
+  },
+  {
+    "from": "rce100:'s-Gravenhage:Papaverhof",
+    "to": "architectuurgids:782"
+  },
+  {
+    "from": "rce100:Hoenderloo:Jachthuis Sint-Hubertus",
+    "to": "architectuurgids:585"
+  },
+  {
+    "from": "rce100:Rotterdam:Justus van Effencomplex",
+    "to": "architectuurgids:252"
+  },
+  {
+    "from": "rce100:Rotterdam:Kiefhoek",
+    "to": "architectuurgids:284"
+  }
+]

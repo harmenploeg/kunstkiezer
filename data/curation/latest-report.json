@@ -3,6 +3,15 @@
   "agenda_window_end": "2026-11-04",
   "scope": "Gecontroleerde catalogusmomentopname; geen claim dat elk Nederlands kunstaanbod of alle foto- en locatievragen zijn afgerond.",
   "categories": {
+    "musea": {
+      "total": 300,
+      "published": 300,
+      "archived": 0,
+      "draft": 0,
+      "with_photos": 226,
+      "precise_locations": 293,
+      "visible_on_research_date": 300
+    },
     "openbare-kunst": {
       "total": 127,
       "published": 127,
@@ -40,9 +49,859 @@
       "visible_on_research_date": 65
     }
   },
-  "total": 425,
+  "total": 725,
   "remaining_records": 321,
   "remaining": [
+    {
+      "id": "5402debd-2567-5c85-af4d-31354fd1f113",
+      "inventory_key": "museum-nl:museum-boijmans-van-beuningen",
+      "category": "musea",
+      "name": "Museum Boijmans Van Beuningen",
+      "website_url": "https://www.boijmans.nl/",
+      "issues": [
+        "Bezoekstatus: temporarily_closed; opnieuw bij officiële bron controleren"
+      ]
+    },
+    {
+      "id": "087b3436-17a7-5267-a11c-b5bcc00e8dfc",
+      "inventory_key": "museum-nl:museum-prinsenhof-delft",
+      "category": "musea",
+      "name": "Museum Prinsenhof Delft",
+      "website_url": "https://prinsenhof-delft.nl/",
+      "issues": [
+        "Bezoekstatus: temporarily_closed; opnieuw bij officiële bron controleren"
+      ]
+    },
+    {
+      "id": "555af903-7bed-5d6e-b52e-de3b7909bc55",
+      "inventory_key": "wikipedia:Gelderland:voermanmuseumhattem:hattem",
+      "category": "musea",
+      "name": "Voerman Museum Hattem",
+      "website_url": "https://www.voermanmuseumhattem.nl/",
+      "issues": [
+        "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "1562a8b0-4700-5d66-ab3d-249ecc026653",
+      "inventory_key": "art-audit:92",
+      "category": "musea",
+      "name": "Museum Valse kunst",
+      "website_url": "https://www.museumvalsekunst.art",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "fa78ea52-fba1-58c8-be25-bcecbf33cc78",
+      "inventory_key": "art-audit:132",
+      "category": "musea",
+      "name": "het MAG museum",
+      "website_url": "https://www.hetmagmuseum.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "6f61c002-72c5-5220-8ccf-5108ab3847e4",
+      "inventory_key": "art-audit:148",
+      "category": "musea",
+      "name": "Museum No Hero",
+      "website_url": "https://www.museumnohero.nl/",
+      "issues": [
+        "Bezoekstatus: closed; opnieuw bij officiële bron controleren"
+      ]
+    },
+    {
+      "id": "69be9209-e151-5ee7-929d-f4c76f560787",
+      "inventory_key": "art-audit:149",
+      "category": "musea",
+      "name": "Cultuurhuis Bergeijk",
+      "website_url": "https://cultuurhuisbergeijk.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "878fe3f1-3c25-5be4-9dc7-76ffb629ad0a",
+      "inventory_key": "wikipedia:Limburg:museumvaals:vaals",
+      "category": "musea",
+      "name": "Museum Vaals",
+      "website_url": "https://museumvaals.nl/",
+      "issues": [
+        "Bezoekstatus: temporarily_closed; opnieuw bij officiële bron controleren"
+      ]
+    },
+    {
+      "id": "6680fea1-fc3d-59b8-8ce7-193a2fbf7d29",
+      "inventory_key": "art-audit:156",
+      "category": "musea",
+      "name": "Kunsthuis Waterland",
+      "website_url": "https://kunsthuiswaterland.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "3581b76b-ca42-5922-9a05-808e98a31588",
+      "inventory_key": "museum-nl:museum-van-de-geest-amsterdam",
+      "category": "musea",
+      "name": "Museum van de geest | Outsider Art",
+      "website_url": "https://www.museumvandegeest.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Bezoekstatus: unknown; opnieuw bij officiële bron controleren"
+      ]
+    },
+    {
+      "id": "05fb0dec-a856-583b-8584-ab123e74feba",
+      "inventory_key": "art-audit:168",
+      "category": "musea",
+      "name": "Het Muizenhuis",
+      "website_url": "",
+      "issues": [
+        "Officiële website ontbreekt"
+      ]
+    },
+    {
+      "id": "aebfd535-8cdb-53f2-b71c-19766784d439",
+      "inventory_key": "art-audit:169",
+      "category": "musea",
+      "name": "Zandverhalen",
+      "website_url": "https://www.zandverhalen.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "c7ae35cc-92b0-5f4f-925f-d661381ca4c1",
+      "inventory_key": "museum-nl:tent",
+      "category": "musea",
+      "name": "TENT Rotterdam",
+      "website_url": "https://www.tentrotterdam.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5d25fb1e-5e88-59dd-b988-b570633bbceb",
+      "inventory_key": "art-audit:187",
+      "category": "musea",
+      "name": "BAK Basecamp",
+      "website_url": "https://www.bakonline.org/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "832eabc1-48a4-5297-a18c-cec6be605720",
+      "inventory_key": "art-audit:195",
+      "category": "musea",
+      "name": "R.S.O.L. Art Space",
+      "website_url": "https://www.tonkruse.nl/rsol.html",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "a429aa0c-7446-5b60-b7fe-6561e704365d",
+      "inventory_key": "wikipedia:Zeeland:panoramawalcheren:vlissingen",
+      "category": "musea",
+      "name": "Museum Panorama Walcheren",
+      "website_url": "https://panoramawalcheren.nl/nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "0be81822-0a78-5a03-a13c-1c9f8a7ff730",
+      "inventory_key": "wikipedia:Drenthe:museumvanpapierknipkunst:westerbork",
+      "category": "musea",
+      "name": "Museum van Papierknipkunst",
+      "website_url": "https://www.papierknipmuseum.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "7b8f4db6-e522-5daf-9561-97924ceafc87",
+      "inventory_key": "wikipedia:Limburg:odapark:venray",
+      "category": "musea",
+      "name": "Odapark",
+      "website_url": "https://www.odapark.nl/",
+      "issues": [
+        "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "f409e9dd-0646-565c-8b98-3a23c0ce884f",
+      "inventory_key": "art-audit:208",
+      "category": "musea",
+      "name": "Garage Rotterdam",
+      "website_url": "https://garagerotterdam.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "3378c57b-4660-5174-81f0-beccdc0c3723",
+      "inventory_key": "wikipedia:Zuid-Holland:atlasvanstolk:rotterdam",
+      "category": "musea",
+      "name": "Atlas van Stolk",
+      "website_url": "https://www.atlasvanstolk.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "59f8bd2b-62d4-5df4-bb20-49c412d6d1d2",
+      "inventory_key": "art-audit:229",
+      "category": "musea",
+      "name": "P/////AKT",
+      "website_url": "https://www.pakt.nu/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "84a06b32-b218-581b-bcff-0e8103cc85fa",
+      "inventory_key": "wikipedia:Noord-Holland:nxtmuseum:amsterdam",
+      "category": "musea",
+      "name": "Nxt Museum",
+      "website_url": "https://nxtmuseum.com/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "7219a354-30c7-53b0-ada4-ed6b85393c4f",
+      "inventory_key": "art-audit:233",
+      "category": "musea",
+      "name": "Van Doesburg-Rinsemahuis",
+      "website_url": "https://www.museumdrachten.nl/museumwoning-vdrh/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "7d49b6c9-39c9-5bb1-bfcc-666a2c3c3598",
+      "inventory_key": "art-audit:242",
+      "category": "musea",
+      "name": "Project Space On The Inside",
+      "website_url": "https://www.projectspaceontheinside.org/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "88058f35-5dd4-5412-8fcb-cf10014c8cbb",
+      "inventory_key": "art-audit:247",
+      "category": "musea",
+      "name": "Rembrandts Amsterdam Experience",
+      "website_url": "https://rembrandtsamsterdam.com/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "2c14c69f-214e-5e94-8da5-0af33f9f7a7b",
+      "inventory_key": "museum-nl:van-eesteren-museum",
+      "category": "musea",
+      "name": "Van Eesteren Museum",
+      "website_url": "https://vaneesterenmuseum.nl/nl/home/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e07c6573-a3c2-58c6-b3a5-bdbfa2ac00af",
+      "inventory_key": "art-audit:254",
+      "category": "musea",
+      "name": "Ruurd Wiersma Museum",
+      "website_url": "https://www.museum.frl/musea/ruurd-wiersma/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "3bdeae20-fec7-5b7a-921a-03ccbc47a814",
+      "inventory_key": "wikipedia:Noord-Brabant:andreasschotelmuseum:esbeek",
+      "category": "musea",
+      "name": "Andreas Schotel Museum",
+      "website_url": "https://andreasschotel.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "ff0e51b5-15d8-59e2-b1b8-ee1906077251",
+      "inventory_key": "wikipedia:Gelderland:borduurmuseum:barneveld",
+      "category": "musea",
+      "name": "Borduurmuseum",
+      "website_url": "https://borduurmuseum.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e44d4ac6-a158-50a7-9ae2-877573cd7c55",
+      "inventory_key": "wikipedia:Drenthe:royalgoedewaagen:nieuwbuinen",
+      "category": "musea",
+      "name": "Keramisch Museum Goedewaagen",
+      "website_url": "https://www.keramischmuseumgoedewaagen.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "3fcdc1cc-a4b2-5037-ae37-afb947c59725",
+      "inventory_key": "art-audit:275",
+      "category": "musea",
+      "name": "Museum Thijnhof",
+      "website_url": "https://thijnhof.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e20d2d0b-7888-5625-88c2-ad07c8fb624c",
+      "inventory_key": "art-audit:278",
+      "category": "musea",
+      "name": "Glas-in-loodmuseum Hengelo Bas-in-lood",
+      "website_url": "https://glas-in-loodmuseum-hengelo.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "4cdc0d3d-71f2-5f09-ab80-50459c413e18",
+      "inventory_key": "art-audit:280",
+      "category": "musea",
+      "name": "RTXP Amsterdam",
+      "website_url": "",
+      "issues": [
+        "Officiële website ontbreekt"
+      ]
+    },
+    {
+      "id": "4aa2b82b-11a5-5fae-bb4c-392af6ca1047",
+      "inventory_key": "museum-nl:het-nieuwe-domein",
+      "category": "musea",
+      "name": "Het Nieuwe Domein - Hedendaagse Kunst",
+      "website_url": "https://www.hetnieuwedomein.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Bezoekstatus: temporarily_closed; opnieuw bij officiële bron controleren"
+      ]
+    },
+    {
+      "id": "10e5b685-693f-5cc4-bc69-7e1f1a3a89bb",
+      "inventory_key": "art-audit:288",
+      "category": "musea",
+      "name": "Artphy",
+      "website_url": "https://www.artphy.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "37a5e496-176e-56f1-a387-c3ff339bec30",
+      "inventory_key": "art-audit:291",
+      "category": "musea",
+      "name": "Kunstenlab",
+      "website_url": "https://www.kunstenlab.nl//",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "c0ca1baa-d39b-55b8-9074-bcbb4249b94b",
+      "inventory_key": "art-audit:297",
+      "category": "musea",
+      "name": "NEST - ruimte voor kunst",
+      "website_url": "https://nestruimte.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "cb3d8ee5-fbea-5532-a3e9-0beec17e9d32",
+      "inventory_key": "museum-nl:flower-art-museum",
+      "category": "musea",
+      "name": "Flower Art Museum",
+      "website_url": "https://www.flowerartmuseum.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Bezoekstatus: temporarily_closed; opnieuw bij officiële bron controleren"
+      ]
+    },
+    {
+      "id": "a56dbafb-a9a8-5dc6-85e8-0c2198b3f241",
+      "inventory_key": "museum-nl:museum-lunteren",
+      "category": "musea",
+      "name": "Museum Lunteren",
+      "website_url": "https://www.museumlunteren.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "71ca77ee-da1c-51cc-9692-57364ef7e513",
+      "inventory_key": "art-audit:301",
+      "category": "musea",
+      "name": "Stichting Nobilis centrum voor prentkunst",
+      "website_url": "https://www.stichtingnobilis.nl/",
+      "issues": [
+        "Bezoekstatus: temporarily_closed; opnieuw bij officiële bron controleren"
+      ]
+    },
+    {
+      "id": "ba5d88b2-0ac0-5398-aa7f-1a60227a1a14",
+      "inventory_key": "art-audit:305",
+      "category": "musea",
+      "name": "MAS Museum voor Achterhoekse Schilderkunst",
+      "website_url": "",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Bezoekstatus: closed; opnieuw bij officiële bron controleren",
+        "Officiële website ontbreekt"
+      ]
+    },
+    {
+      "id": "e591e0bb-943d-53bf-a039-8b7c79814421",
+      "inventory_key": "art-audit:z0",
+      "category": "musea",
+      "name": "(A)WAKE",
+      "website_url": "https://a-wake.world/about/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "16ea7349-16f9-5f69-b273-914930a5e2a7",
+      "inventory_key": "museum-nl:1646-experimental-art-space",
+      "category": "musea",
+      "name": "1646",
+      "website_url": "https://1646.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "b0e3929f-652d-5fa9-83de-36afa06e5636",
+      "inventory_key": "art-audit:z7",
+      "category": "musea",
+      "name": "Beautiful Distress House",
+      "website_url": "https://www.beautifuldistress.org/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5caab58f-9a36-5b74-b22c-1147054e0037",
+      "inventory_key": "art-audit:z9",
+      "category": "musea",
+      "name": "CAMPIS podium voor hedendaagse kunst",
+      "website_url": "https://www.campis.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "9b52f710-dd7e-5428-bfce-f535533ac528",
+      "inventory_key": "art-audit:z10",
+      "category": "musea",
+      "name": "Casco Art Institute: Working for the Commons",
+      "website_url": "https://www.casco.art",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "3530053f-e512-5258-9c49-cb1a82f58d61",
+      "inventory_key": "art-audit:z11",
+      "category": "musea",
+      "name": "CBK Centrum Beeldende Kunst Zuidoost",
+      "website_url": "https://www.cbkzuidoost.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "7253528b-7a0e-568a-8027-0fffa0e48466",
+      "inventory_key": "art-audit:z13",
+      "category": "musea",
+      "name": "Concordia",
+      "website_url": "https://www.concordia.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "d57b690e-b2d3-538c-835e-c9c97020b2b2",
+      "inventory_key": "art-audit:z18",
+      "category": "musea",
+      "name": "De Cacaofabriek",
+      "website_url": "https://www.cacaofabriek.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "9ca0e59a-1012-5d5c-aa25-9ea718064b17",
+      "inventory_key": "art-audit:z21",
+      "category": "musea",
+      "name": "Extrapool",
+      "website_url": "https://www.extrapool.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "4933b0fd-07e5-5856-a1a3-929f6a4ca999",
+      "inventory_key": "art-audit:z22",
+      "category": "musea",
+      "name": "Factor IJ",
+      "website_url": "https://www.factor-ij.amsterdam/over-ons/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "a5149a14-e065-56e0-ac24-a33f2fc9b777",
+      "inventory_key": "art-audit:z23",
+      "category": "musea",
+      "name": "FOTODOK",
+      "website_url": "https://www.fotodok.org/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "bf8db4f9-ca97-5715-a46d-7ec2887dec9f",
+      "inventory_key": "wikipedia:Noord-Holland:framerframed:amsterdam",
+      "category": "musea",
+      "name": "Framer Framed",
+      "website_url": "https://www.framerframed.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "f32c368d-5c0b-5f58-824a-d0bdb203cb9f",
+      "inventory_key": "art-audit:z26",
+      "category": "musea",
+      "name": "Greylight Projects",
+      "website_url": "https://greylightprojects.org/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "c39bd0c8-1020-5c45-8f31-f2141d6a08fb",
+      "inventory_key": "art-audit:z40",
+      "category": "musea",
+      "name": "Kunsthal Kloof",
+      "website_url": "https://www.kunsthalkloof.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "b72de5cb-384d-54e4-8e70-d924679a875a",
+      "inventory_key": "art-audit:z41",
+      "category": "musea",
+      "name": "Kunsthuis Syb",
+      "website_url": "https://www.kunsthuissyb.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "377e808e-87b2-5a7b-a114-650880916ec3",
+      "inventory_key": "art-audit:z44",
+      "category": "musea",
+      "name": "Kunstpunt Groningen",
+      "website_url": "https://www.kunstpuntgroningen.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "3eccb19d-2772-5ae1-be07-8d3fb319ac9a",
+      "inventory_key": "art-audit:z47",
+      "category": "musea",
+      "name": "MaMA",
+      "website_url": "https://thisismama.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "2347e3b4-cc82-55b5-a28e-f1f4d341542e",
+      "inventory_key": "art-audit:z54",
+      "category": "musea",
+      "name": "Murals Inc",
+      "website_url": "https://murals-inc.com",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "63d52cc7-0de7-543c-9791-2dfc82048c48",
+      "inventory_key": "art-audit:z57",
+      "category": "musea",
+      "name": "Nieuwe Vide",
+      "website_url": "https://nieuwevide.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "7e6ef733-4a4e-514a-909c-addda45d4cc3",
+      "inventory_key": "art-audit:z59",
+      "category": "musea",
+      "name": "NP3 | eMMa Rem Koolhaas Videobusstop",
+      "website_url": "https://www.np3.nu/",
+      "issues": [
+        "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "1b5450c8-f2d7-56e7-a330-8a109b5c0278",
+      "inventory_key": "art-audit:z60",
+      "category": "musea",
+      "name": "NP3 | MOBi",
+      "website_url": "https://www.np3.nu/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "b9f3af95-3427-535f-b2de-f293758b2a34",
+      "inventory_key": "art-audit:z61",
+      "category": "musea",
+      "name": "NP3 | RE:Search:Gallery",
+      "website_url": "https://www.np3.nu/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "edd974bf-2d7b-5029-a46e-8eda1e106288",
+      "inventory_key": "art-audit:z62",
+      "category": "musea",
+      "name": "Omstand, presentatieruimte voor actuele kunst",
+      "website_url": "https://www.omstand.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "f54193f9-446c-5b4b-82a9-6ec7c93840dd",
+      "inventory_key": "art-audit:z64",
+      "category": "musea",
+      "name": "Page Not Found",
+      "website_url": "https://page-not-found.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "86f0974d-63d5-54fc-b32f-6e4b764c60dc",
+      "inventory_key": "art-audit:z65",
+      "category": "musea",
+      "name": "PARK platform for visual arts",
+      "website_url": "https://www.park013.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "b87046b0-6241-5cb1-8447-b203cdb511a0",
+      "inventory_key": "art-audit:z67",
+      "category": "musea",
+      "name": "Plaatsmaken",
+      "website_url": "https://plaatsmaken.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "32743540-27e7-55b1-9397-bb2f583f8d00",
+      "inventory_key": "art-audit:z69",
+      "category": "musea",
+      "name": "POST",
+      "website_url": "https://www.platformpost.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "be7ae9fc-3ebe-5d1c-beb8-5c4c6fa0ac1c",
+      "inventory_key": "museum-nl:post-arnhem",
+      "category": "musea",
+      "name": "Post Arnhem",
+      "website_url": "https://platformpost.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "781e5ba8-d9f0-51eb-9b68-c35caad82a57",
+      "inventory_key": "art-audit:z71",
+      "category": "musea",
+      "name": "PrintRoom",
+      "website_url": "https://printroom.org/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "f38227ea-5f80-5d36-91fe-581042df34e5",
+      "inventory_key": "art-audit:z74",
+      "category": "musea",
+      "name": "Rib",
+      "website_url": "https://www.ribrib.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "28c5d487-ea4b-52f8-ae83-41eebe885b71",
+      "inventory_key": "art-audit:z77",
+      "category": "musea",
+      "name": "ROZENSTRAAT - a rose is a rose is a rose",
+      "website_url": "https://www.rozenstraat.com/nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e5545194-a1bd-54f9-9e3e-a711b0475a07",
+      "inventory_key": "art-audit:z80",
+      "category": "musea",
+      "name": "Shimmer",
+      "website_url": "https://shimmershimmer.org",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "7e50d86e-21f2-5924-b07f-ff78edb41f57",
+      "inventory_key": "art-audit:z81",
+      "category": "musea",
+      "name": "SIGN",
+      "website_url": "https://sign2.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "abe68e6d-4b1c-5277-9a09-7a0abec22d74",
+      "inventory_key": "art-audit:z83",
+      "category": "musea",
+      "name": "EST art foundation",
+      "website_url": "https://est-art-foundation.org",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "d383cc7e-bc5c-5034-8e3f-26f77cf0dedd",
+      "inventory_key": "art-audit:z91",
+      "category": "musea",
+      "name": "The Grey Space in the Middle",
+      "website_url": "https://thegreyspace.net",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "76bb2424-a1d1-5a57-a968-4999c4b12032",
+      "inventory_key": "art-audit:z92",
+      "category": "musea",
+      "name": "Stroom Den Haag",
+      "website_url": "https://www.stroom.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "c4f26e6f-6dc8-54b7-aa78-0d504149b2ef",
+      "inventory_key": "art-audit:z96",
+      "category": "musea",
+      "name": "The Balcony",
+      "website_url": "https://thebalconythehague.com/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "b3bc3658-ee11-5b7a-862a-198b8a60fc0d",
+      "inventory_key": "art-audit:z101",
+      "category": "musea",
+      "name": "VHDG",
+      "website_url": "https://www.voorheendegemeente.nl",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "6fc74b6d-e4c5-55e3-aa78-1fe66acb26fc",
+      "inventory_key": "art-audit:z105",
+      "category": "musea",
+      "name": "Witte Rook",
+      "website_url": "https://www.witterook.nu",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "dc985ccf-47c2-58bf-8466-518af0400fcb",
+      "inventory_key": "art-audit:z106",
+      "category": "musea",
+      "name": "Zone2Source",
+      "website_url": "https://zone2source.net",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "99e5e11c-b0fb-5509-9407-dae7aacbf5c9",
+      "inventory_key": "wikipedia:Noord-Brabant:museumofyoungart:oosterhout",
+      "category": "musea",
+      "name": "MOYA – Museum of Young Art",
+      "website_url": "https://www.moya.museum/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "d36bbfc7-4d74-5022-851d-92f2cac85526",
+      "inventory_key": "museum-nl:grid-grafisch-museum-groningen-tijdelijk-gesloten",
+      "category": "musea",
+      "name": "GRID Grafisch Museum Groningen",
+      "website_url": "https://www.gridgroningen.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Bezoekstatus: temporarily_closed; opnieuw bij officiële bron controleren"
+      ]
+    },
+    {
+      "id": "8fa74ff1-0c85-53cc-8a02-bd1b25b0ef33",
+      "inventory_key": "art-audit:havixhorst",
+      "category": "musea",
+      "name": "Beeldentuin De Havixhorst",
+      "website_url": "https://www.beeldentuindehavixhorst.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
     {
       "id": "79d8dfc3-da90-57f3-89a0-5c5f03d5cc2f",
       "inventory_key": "sleutelwerk:241",
