@@ -10,7 +10,20 @@
     "erasableSyntaxOnly": true,
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
-    "lib": ["ES2023", "DOM"]
+    "lib": [
+      "ES2023",
+      "DOM"
+    ],
+    "skipLibCheck": true
   },
-  "include": ["apps/**/*.ts", "apps/**/*.tsx", "packages/**/*.ts", "packages/**/*.tsx", "workers/**/*.ts", "tests/**/*.ts", "e2e/**/*.ts", "playwright.config.ts"]
+  "include": [
+    "apps/**/*.ts",
+    "apps/**/*.tsx",
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "workers/**/*.ts",
+    "tests/**/*.ts",
+    "e2e/**/*.ts",
+    "playwright.config.ts"
+  ]
 }
