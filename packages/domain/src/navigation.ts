@@ -19,6 +19,6 @@ export function appHref(path: string): string {
 }
 
 export function isPagePath(path: string): boolean {
-  return navigation.some((entry) => entry.path === path)
+  return path === "/beheer/musea" || navigation.some((entry) => entry.path === path)
     || categories.some((category) => path === `/agenda/${category.id}`);
 }
