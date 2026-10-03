@@ -28,7 +28,7 @@ export default {
     }
     const normalizedPath = relativePath.replace(/\/$/, "") || "/";
     const isPage = isPagePath(normalizedPath);
-    if (!isPage && !relativePath.startsWith("/assets/") && !["/inventory.json","/art-inventory.json","/inventory.csv","/inventory-report.json"].includes(relativePath)) return error(404, "not_found");
+    if (!isPage && !relativePath.startsWith("/assets/") && !["/inventory.json","/art-inventory.json","/inventory.csv","/inventory-report.json","/openbare-kunst.json","/beeldenparken.json","/architectuur.json","/evenementen.json"].includes(relativePath)) return error(404, "not_found");
     // Assets serveert index.html via '/'; '/index.html' geeft een canonieke
     // redirect naar de domeinroot en zou daardoor het app-prefix verliezen.
     url.pathname = isPage ? "/" : relativePath;

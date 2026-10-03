@@ -1,0 +1,1744 @@
+[
+  {
+    "id": "f1d74863-cd61-5c18-9dfc-a54fa1bf8593",
+    "inventory_key": "event:www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/willem-de-kooning-at-work:2026-10-09",
+    "category": "evenementen",
+    "name": "Willem de Kooning at work",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Museumstraat 1",
+    "website_url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/willem-de-kooning-at-work",
+    "summary": "Volg De Koonings onderzoekende hand: van eerste lijnen tot krachtige figuren en landschappen. Tekeningen, schilderijen en sculpturen laten zien hoe hij bleef zoeken, veranderen en verrassen.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "tekenkunst",
+      "abstract expressionisme",
+      "moderne kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Rijksmuseum Amsterdam · programma",
+        "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/willem-de-kooning-at-work",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "KunstVensters · najaarsselectie",
+        "url": "https://kunstvensters.com/2026/10/01/10-tentoonstellingen-die-je-niet-wil-missen-in-oktober-2026/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd naar aanleiding van een bespreking of tip bij KunstVensters · najaarsselectie. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Rijksmuseum Amsterdam. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
+    "starts_on": "2026-10-09",
+    "ends_on": "2027-01-17",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "e5d061b9-6bc9-5d82-8674-70b2023d39c1",
+    "inventory_key": "event:www.vangoghmuseum.nl/en/about/news-and-press/news/20260825-highlights-of-the-upcoming-cultural-season:2026-10-16",
+    "category": "evenementen",
+    "name": "Whistler. Dandy en dwarsdenker",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Museumplein 6",
+    "website_url": "https://www.vangoghmuseum.nl/en/about/news-and-press/news/20260825-highlights-of-the-upcoming-cultural-season",
+    "summary": "Ontmoet Whistler als schilder en prentmaker die stemming boven verhaal stelde. Zijn gevoel voor licht, muziek en kleur maakt deze ontmoeting met de negentiende eeuw verrassend levendig.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "schilderkunst",
+      "prentkunst",
+      "19e eeuw"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Van Gogh Museum · programma",
+        "url": "https://www.vangoghmuseum.nl/en/about/news-and-press/news/20260825-highlights-of-the-upcoming-cultural-season",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "Museumtijdschrift · najaarsselectie",
+        "url": "https://museumtijdschrift.nl/artikelen/tips/tentoonstellingen-om-naar-uit-te-kijken-in-het-najaar-van-2026/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd naar aanleiding van een bespreking of tip bij Museumtijdschrift · najaarsselectie. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Van Gogh Museum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "8ca65b0c-71eb-5178-bc9d-6e321af6995c",
+    "starts_on": "2026-10-16",
+    "ends_on": "2027-01-10",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "fa2e32a7-08c8-5894-9ea3-2826216c63c5",
+    "inventory_key": "event:www.vangoghmuseum.nl/en/about/news-and-press/news/20260825-highlights-of-the-upcoming-cultural-season:2026-10-01",
+    "category": "evenementen",
+    "name": "Yoshitoshi. Meester van de maan",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Museumplein 6",
+    "website_url": "https://www.vangoghmuseum.nl/en/about/news-and-press/news/20260825-highlights-of-the-upcoming-cultural-season",
+    "summary": "Honderd prenten verbinden maanlicht met mythen, strijders en geliefden. Ontdek hoe Yoshitoshi met kleur en compositie telkens een ander verhaal laat oplichten.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "japanse kunst",
+      "prentkunst",
+      "19e eeuw"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Van Gogh Museum · programma",
+        "url": "https://www.vangoghmuseum.nl/en/about/news-and-press/news/20260825-highlights-of-the-upcoming-cultural-season",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Van Gogh Museum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "8ca65b0c-71eb-5178-bc9d-6e321af6995c",
+    "starts_on": "2026-10-01",
+    "ends_on": "2027-01-04",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "49b7b4df-63fe-5344-a82e-ff4dd02ebdca",
+    "inventory_key": "event:www.vangoghmuseum.nl/nl/bezoek/agenda-en-activiteiten:2026-10-23",
+    "category": "evenementen",
+    "name": "ADE x Van Gogh Museum: Coby Sey en Devon Rexi",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Museumplein 6",
+    "website_url": "https://www.vangoghmuseum.nl/nl/bezoek/agenda-en-activiteiten",
+    "summary": "Ervaar hoe muziek en beeld elkaar ontmoeten in een avond geïnspireerd op Whistlers nachtelijke wereld. Coby Sey, Devon Rexi en visuals van uncloud brengen een nieuwe sfeer in het museum.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "evenement",
+      "muziek",
+      "beeldende kunst",
+      "avondprogramma"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Van Gogh Museum · programma",
+        "url": "https://www.vangoghmuseum.nl/nl/bezoek/agenda-en-activiteiten",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Van Gogh Museum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "8ca65b0c-71eb-5178-bc9d-6e321af6995c",
+    "starts_on": "2026-10-23",
+    "ends_on": "2026-10-23",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "1231a6d0-594f-56c7-96da-47a5e5c465f7",
+    "inventory_key": "event:www.hartmuseum.nl/pers/persberichten/matisse-arriveert-in-amsterdam:2026-10-03",
+    "category": "evenementen",
+    "name": "Chez Matisse – Masterpieces from Centre Pompidou",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "51 Amstel",
+    "website_url": "https://www.hartmuseum.nl/pers/persberichten/matisse-arriveert-in-amsterdam/",
+    "summary": "Duik in de kleurenwereld van Matisse. Zijn werk ontmoet kunst van onder anderen Rothko, Newman en Delaunay, waardoor je ontdekt hoe zijn vernieuwende blik bleef doorwerken in volgende generaties.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "moderne kunst",
+      "schilderkunst",
+      "kleur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "H'ART Museum · programma",
+        "url": "https://www.hartmuseum.nl/pers/persberichten/matisse-arriveert-in-amsterdam/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "KunstVensters · najaarsselectie",
+        "url": "https://kunstvensters.com/2026/10/01/10-tentoonstellingen-die-je-niet-wil-missen-in-oktober-2026/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd naar aanleiding van een bespreking of tip bij KunstVensters · najaarsselectie. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "H'ART Museum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "0376541b-4d5f-5b8b-853a-007e6ae3920d",
+    "starts_on": "2026-10-03",
+    "ends_on": "2027-02-14",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "2b1576a4-43b4-5493-9792-9338ee31c448",
+    "inventory_key": "event:www.boijmans.nl/tentoonstellingen/marisol:2026-10-09",
+    "category": "evenementen",
+    "name": "Marisol",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Museumpark 24",
+    "website_url": "https://www.boijmans.nl/tentoonstellingen/marisol",
+    "summary": "Maak kennis met Marisols eigenzinnige sculpturen en de manier waarop zij mensen in beelden verandert. Haar werk krijgt in het Depot de ruimte voor een nieuwe ontmoeting met Rotterdam.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "beeldhouwkunst",
+      "popart",
+      "moderne kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Depot van Museum Boijmans Van Beuningen · programma",
+        "url": "https://www.boijmans.nl/tentoonstellingen/marisol",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "KunstVensters · najaarsselectie",
+        "url": "https://kunstvensters.com/2026/10/01/10-tentoonstellingen-die-je-niet-wil-missen-in-oktober-2026/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd naar aanleiding van een bespreking of tip bij KunstVensters · najaarsselectie. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Depot van Museum Boijmans Van Beuningen. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "f0c85959-33c5-57b0-a64c-9f15d845317e",
+    "starts_on": "2026-10-09",
+    "ends_on": "2027-03-29",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "f4de0272-2702-5754-a6a5-a4e3aa51c623",
+    "inventory_key": "event:www.centraalmuseum.nl/tentoonstellingen/graffiti:2026-10-10",
+    "category": "evenementen",
+    "name": "Graffiti",
+    "city": "Utrecht",
+    "province": "Utrecht",
+    "street_address": "Agnietenstraat 1",
+    "website_url": "https://www.centraalmuseum.nl/tentoonstellingen/graffiti",
+    "summary": "Van de straat naar de museumzaal en weer terug: ontdek hoe graffiti en hedendaagse kunst elkaar beïnvloeden. Letters, beelden en uiteenlopende media tonen de energie van een kunstvorm die grenzen blijft verleggen.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "streetart",
+      "graffiti",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Centraal Museum · programma",
+        "url": "https://www.centraalmuseum.nl/tentoonstellingen/graffiti",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "KunstVensters · najaarsselectie",
+        "url": "https://kunstvensters.com/2026/10/01/10-tentoonstellingen-die-je-niet-wil-missen-in-oktober-2026/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd naar aanleiding van een bespreking of tip bij KunstVensters · najaarsselectie. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Centraal Museum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "c24f1245-7f2c-59db-82b7-d09e0493861e",
+    "starts_on": "2026-10-10",
+    "ends_on": "2027-03-29",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "8ba456b1-37ea-5770-b3f3-8e56006deb79",
+    "inventory_key": "event:www.kunsthal.nl/nl/tentoonstellingen/signac-symphony-of-colours-nl:2026-10-24",
+    "category": "evenementen",
+    "name": "Signac. Symphony of Colours",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Westzeedijk 341",
+    "website_url": "https://www.kunsthal.nl/nl/tentoonstellingen/signac-symphony-of-colours-nl/",
+    "summary": "Zie hoe kleine kleurstippen samen een groot beeld vormen. Signacs havens, landschappen en portretten laten je dichtbij én van een afstand kijken. Een tentoonstelling waarin kleur letterlijk in beweging lijkt te komen.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "schilderkunst",
+      "pointillisme",
+      "landschap"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Kunsthal Rotterdam · programma",
+        "url": "https://www.kunsthal.nl/nl/tentoonstellingen/signac-symphony-of-colours-nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "KunstVensters · najaarsselectie",
+        "url": "https://kunstvensters.com/2026/10/01/10-tentoonstellingen-die-je-niet-wil-missen-in-oktober-2026/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd naar aanleiding van een bespreking of tip bij KunstVensters · najaarsselectie. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Kunsthal Rotterdam. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "cc66ef0a-4e1d-5376-9f63-0d65a78676fd",
+    "starts_on": "2026-10-24",
+    "ends_on": "2027-02-28",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "ead85dac-9b3e-53b3-b095-d418b81e678c",
+    "inventory_key": "event:www.kunsthal.nl/nl/tentoonstellingen/plastic-sea-perfect-storm:2026-10-03",
+    "category": "evenementen",
+    "name": "Plastic Sea, Perfect Storm",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Westzeedijk 341",
+    "website_url": "https://www.kunsthal.nl/nl/tentoonstellingen/plastic-sea-perfect-storm/",
+    "summary": "Rob Hornstra en Arnold van Bruggen richten hun blik op de wereld achter de Spaanse kassen. Foto’s en verhalen verbinden ons dagelijkse eten met arbeidsomstandigheden, migratie en het Europese landschap.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "documentair",
+      "migratie",
+      "maatschappij"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Kunsthal Rotterdam · programma",
+        "url": "https://www.kunsthal.nl/nl/tentoonstellingen/plastic-sea-perfect-storm/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Kunsthal Rotterdam. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "cc66ef0a-4e1d-5376-9f63-0d65a78676fd",
+    "starts_on": "2026-10-03",
+    "ends_on": "2027-03-07",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "0a0aa49c-596d-508b-849f-e71a62077753",
+    "inventory_key": "event:www.kunsthal.nl/nl/tentoonstellingen/helen-levitt:2026-05-30",
+    "category": "evenementen",
+    "name": "Helen Levitt – City at Play",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Westzeedijk 341",
+    "website_url": "https://www.kunsthal.nl/nl/tentoonstellingen/helen-levitt/",
+    "summary": "Wandel met je ogen door het New York van Helen Levitt. Kinderen, buren en toevallige ontmoetingen geven de straat een eigen toneel. Haar foto’s maken het gewone rijk aan humor en aandacht.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "straatfotografie",
+      "20e eeuw"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Kunsthal Rotterdam · programma",
+        "url": "https://www.kunsthal.nl/nl/tentoonstellingen/helen-levitt/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "De Kunstmeisjes · recensie",
+        "url": "https://kunstmeisjes.com/portfolio/go-no-go-465-de-new-yorkse-straten-op-met-helen-levitt/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd naar aanleiding van een bespreking of tip bij De Kunstmeisjes · recensie. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Kunsthal Rotterdam. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "cc66ef0a-4e1d-5376-9f63-0d65a78676fd",
+    "starts_on": "2026-05-30",
+    "ends_on": "2026-10-04",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "a65d8d19-1660-5bbb-8c28-64e6665f3e83",
+    "inventory_key": "event:www.kunsthal.nl/nl/tentoonstellingen/a-chair-and-you:2026-09-25",
+    "category": "evenementen",
+    "name": "A Chair and You",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Westzeedijk 341",
+    "website_url": "https://www.kunsthal.nl/nl/tentoonstellingen/a-chair-and-you/",
+    "summary": "Een stoel is hier veel meer dan een gebruiksvoorwerp. Robert Wilsons enscenering laat bijzondere ontwerpen spreken met licht, geluid en ruimte. Ontdek hoe verrassend en theatraal een alledaags object kan zijn.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "design",
+      "meubelontwerp",
+      "installaties"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Kunsthal Rotterdam · programma",
+        "url": "https://www.kunsthal.nl/nl/tentoonstellingen/a-chair-and-you/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Kunsthal Rotterdam. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "cc66ef0a-4e1d-5376-9f63-0d65a78676fd",
+    "starts_on": "2026-09-25",
+    "ends_on": "2027-01-31",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "e9217a94-b708-5a81-8dc2-df000484c806",
+    "inventory_key": "event:www.kunsthal.nl/nl/tentoonstellingen/theater-rotterdam:2026-10-17",
+    "category": "evenementen",
+    "name": "Theater Rotterdam – (Sur)render",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Westzeedijk 341",
+    "website_url": "https://www.kunsthal.nl/nl/tentoonstellingen/theater-rotterdam/",
+    "summary": "Dans, muziek, poëzie en video worden een ruimtelijke ervaring. Deze vertaling van Alida Dors’ voorstelling nodigt je uit de verhouding tussen mens, natuur en de systemen om ons heen te onderzoeken.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "installaties",
+      "video",
+      "dans",
+      "mens en natuur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Kunsthal Rotterdam · programma",
+        "url": "https://www.kunsthal.nl/nl/tentoonstellingen/theater-rotterdam/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Kunsthal Rotterdam. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "cc66ef0a-4e1d-5376-9f63-0d65a78676fd",
+    "starts_on": "2026-10-17",
+    "ends_on": "2027-01-17",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "8ba6eb50-a749-5403-8ced-6c3c577575c4",
+    "inventory_key": "event:www.kunsthal.nl/nl/tentoonstellingen/getekend-rotterdam-nachtwerk:2026-10-17",
+    "category": "evenementen",
+    "name": "Getekend: Rotterdam! Nachtwerk",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Westzeedijk 341",
+    "website_url": "https://www.kunsthal.nl/nl/tentoonstellingen/getekend-rotterdam-nachtwerk/",
+    "summary": "Ontdek de stad nadat het daglicht verdwijnt. Tessa Biemans, Peyman Fazeli en Steef Offerhaus tekenen ieder een andere Rotterdamse nacht, van stille plekken tot het leven dat juist dan op gang komt.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "tekenkunst",
+      "stad",
+      "nacht"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Kunsthal Rotterdam · programma",
+        "url": "https://www.kunsthal.nl/nl/tentoonstellingen/getekend-rotterdam-nachtwerk/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Kunsthal Rotterdam. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "cc66ef0a-4e1d-5376-9f63-0d65a78676fd",
+    "starts_on": "2026-10-17",
+    "ends_on": "2027-02-07",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "4313e455-b575-5b5f-8356-86692165f42d",
+    "inventory_key": "event:www.kunsthal.nl/nl/tentoonstellingen/kunsthal-insideout-sabine-marcelis:2026-02-17",
+    "category": "evenementen",
+    "name": "Sabine Marcelis – Continuum",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Westzeedijk 341",
+    "website_url": "https://www.kunsthal.nl/nl/tentoonstellingen/kunsthal-insideout-sabine-marcelis/",
+    "summary": "Marmeren volumes veranderen de hellingbaan van de Kunsthal in een ontmoetingsplek. Sabine Marcelis verbindt binnen en buiten, en laat je de architectuur ervaren door er zelf doorheen te bewegen.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "design",
+      "installaties",
+      "architectuur",
+      "marmer"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Kunsthal Rotterdam · programma",
+        "url": "https://www.kunsthal.nl/nl/tentoonstellingen/kunsthal-insideout-sabine-marcelis/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Kunsthal Rotterdam. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "cc66ef0a-4e1d-5376-9f63-0d65a78676fd",
+    "starts_on": "2026-02-17",
+    "ends_on": "2027-01-23",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "1d51fa86-b79d-5d4b-9a82-b14c03c5de93",
+    "inventory_key": "event:www.moregorssel.nl/tentoonstellingen/charley-toorop-en-pyke-koch-alles-of-niets:2026-06-21",
+    "category": "evenementen",
+    "name": "Charley Toorop & Pyke Koch – Alles of niets",
+    "city": "Gorssel",
+    "province": "Gelderland",
+    "street_address": "Hoofdstraat 28",
+    "website_url": "https://www.moregorssel.nl/tentoonstellingen/charley-toorop-en-pyke-koch-alles-of-niets",
+    "summary": "Twee uitgesproken schilders ontmoeten elkaar in één tentoonstelling. Vergelijk de krachtige beelden van Charley Toorop met de wereld van Pyke Koch en ontdek raakvlakken tussen hun kunst en levens.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "schilderkunst",
+      "realisme",
+      "20e eeuw"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Museum MORE · programma",
+        "url": "https://www.moregorssel.nl/tentoonstellingen/charley-toorop-en-pyke-koch-alles-of-niets",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Museum MORE. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "29dda0c4-dea0-55dd-a9e6-35fe6ddad31b",
+    "starts_on": "2026-06-21",
+    "ends_on": "2026-10-25",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "2822cb3d-23fc-53cb-b751-3bcb2a9f9533",
+    "inventory_key": "event:www.moregorssel.nl/tentoonstellingen/robin-wen-en-bobbi-essers:2026-05-14",
+    "category": "evenementen",
+    "name": "Robin Wen & Bobbi Essers",
+    "city": "Gorssel",
+    "province": "Gelderland",
+    "street_address": "Hoofdstraat 28",
+    "website_url": "https://www.moregorssel.nl/tentoonstellingen/robin-wen-en-bobbi-essers",
+    "summary": "Vriendschap, nachten en vrijheid krijgen vorm in schilderijen en balpentekeningen. Robin Wen en Bobbi Essers kiezen hun fragmenten zorgvuldig: juist wat buiten beeld blijft, maakt nieuwsgierig naar het verhaal.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "schilderkunst",
+      "tekenkunst",
+      "hedendaagse kunst",
+      "jongerencultuur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Museum MORE · programma",
+        "url": "https://www.moregorssel.nl/tentoonstellingen/robin-wen-en-bobbi-essers",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Museum MORE. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "29dda0c4-dea0-55dd-a9e6-35fe6ddad31b",
+    "starts_on": "2026-05-14",
+    "ends_on": "2026-11-15",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "19dec422-ffe8-54d2-b98d-3ae3e10d4975",
+    "inventory_key": "event:www.moregorssel.nl/tentoonstellingen/kabinet-maeve-van-klaveren:2026-05-14",
+    "category": "evenementen",
+    "name": "Maeve van Klaveren",
+    "city": "Gorssel",
+    "province": "Gelderland",
+    "street_address": "Hoofdstraat 28",
+    "website_url": "https://www.moregorssel.nl/tentoonstellingen/kabinet-maeve-van-klaveren",
+    "summary": "Stap een stille wereld binnen waarin figuren aanwezig lijken en toch ontsnappen. Maeve van Klaverens beelden laten ruimte voor gedachten, sporen en je eigen interpretatie.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "tekenkunst",
+      "hedendaagse kunst",
+      "figuratief"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Museum MORE · programma",
+        "url": "https://www.moregorssel.nl/tentoonstellingen/kabinet-maeve-van-klaveren",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Museum MORE. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "29dda0c4-dea0-55dd-a9e6-35fe6ddad31b",
+    "starts_on": "2026-05-14",
+    "ends_on": "2026-11-15",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "c4e9ad3d-3d51-52e2-811a-8f9c7cd32f42",
+    "inventory_key": "event:huismarseille.nl/tentoonstellingen/martine-gutierrez:2026-06-27",
+    "category": "evenementen",
+    "name": "Martine Gutierrez – Wunderkind",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Keizersgracht 401",
+    "website_url": "https://huismarseille.nl/tentoonstellingen/martine-gutierrez/",
+    "summary": "Ontdek de fotografische wereld van Martine Gutierrez. Wunderkind nodigt uit aandachtig te kijken naar beeldvorming, identiteit en de rollen die een beeld ons laat aannemen.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "identiteit",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Huis Marseille, Museum voor Fotografie · programma",
+        "url": "https://huismarseille.nl/tentoonstellingen/martine-gutierrez/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Huis Marseille, Museum voor Fotografie. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "3c606568-23b3-5707-8474-2b2bf7fd49d3",
+    "starts_on": "2026-06-27",
+    "ends_on": "2026-10-18",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "72a6293a-c725-5171-a838-5c1d22dc9aa4",
+    "inventory_key": "event:huismarseille.nl/tentoonstellingen/venetiaanse-droom:2026-10-24",
+    "category": "evenementen",
+    "name": "Adolphe de Meyer – De essentie van een Venetiaanse droom",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Keizersgracht 401",
+    "website_url": "https://huismarseille.nl/tentoonstellingen/venetiaanse-droom/",
+    "summary": "Reis met de blik van Adolphe de Meyer naar Venetië. Zijn fotografie nodigt uit om niet alleen de stad te herkennen, maar vooral de sfeer en het licht ervan te ervaren.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "picturalisme",
+      "venetië"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Huis Marseille, Museum voor Fotografie · programma",
+        "url": "https://huismarseille.nl/tentoonstellingen/venetiaanse-droom/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Huis Marseille, Museum voor Fotografie. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "3c606568-23b3-5707-8474-2b2bf7fd49d3",
+    "starts_on": "2026-10-24",
+    "ends_on": "2027-02-07",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "d421e03f-73e1-5a83-8ad2-0bdd8b66f127",
+    "inventory_key": "event:huismarseille.nl/tentoonstellingen/andrzej-steinbach:2026-10-24",
+    "category": "evenementen",
+    "name": "Andrzej Steinbach – Hier",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Keizersgracht 401",
+    "website_url": "https://huismarseille.nl/tentoonstellingen/andrzej-steinbach/",
+    "summary": "Ontmoet de fotografie van Andrzej Steinbach in Hier. Neem de tijd voor de beelden en ontdek hoe fotografie je aandacht verplaatst tussen wat je direct herkent en wat zich pas later laat lezen.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Huis Marseille, Museum voor Fotografie · programma",
+        "url": "https://huismarseille.nl/tentoonstellingen/andrzej-steinbach/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Huis Marseille, Museum voor Fotografie. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "3c606568-23b3-5707-8474-2b2bf7fd49d3",
+    "starts_on": "2026-10-24",
+    "ends_on": "2027-02-07",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "50cf3cd6-b9e1-5b40-b6b3-41c241f83d13",
+    "inventory_key": "event:huismarseille.nl/tentoonstellingen/maya-ines-touam:2026-10-24",
+    "category": "evenementen",
+    "name": "Maya Inès Touam – Belongings",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Keizersgracht 401",
+    "website_url": "https://huismarseille.nl/tentoonstellingen/maya-ines-touam/",
+    "summary": "In de tableaus van Maya Inès Touam ontmoeten tijden, culturen en voorwerpen elkaar. Haar beelden nodigen uit om te onderzoeken wat we bewaren, wat bij ons hoort en hoe dingen verhalen dragen.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "stilleven",
+      "identiteit"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Huis Marseille, Museum voor Fotografie · programma",
+        "url": "https://huismarseille.nl/tentoonstellingen/maya-ines-touam/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Huis Marseille, Museum voor Fotografie. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "3c606568-23b3-5707-8474-2b2bf7fd49d3",
+    "starts_on": "2026-10-24",
+    "ends_on": "2027-02-07",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "14ac55c2-a031-5fa2-b5e4-afa20d4b7ded",
+    "inventory_key": "event:www.museumjan.nl/tentoonstellingen/lita-cabellut-goya:2026-09-23",
+    "category": "evenementen",
+    "name": "Lita Cabellut x Goya – De dwaasheden",
+    "city": "Amstelveen",
+    "province": "Noord-Holland",
+    "street_address": "Dorpsstraat 50",
+    "website_url": "https://www.museumjan.nl/tentoonstellingen/lita-cabellut-goya",
+    "summary": "Twee kunstenaars, twee eeuwen ertussen: Lita Cabellut gaat een beeldend gesprek aan met Goya. Kijk hoe oude en nieuwe beelden elkaar versterken, tegenspreken en opnieuw betekenis krijgen.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "schilderkunst",
+      "prentkunst",
+      "figuratief"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Museum JAN · programma",
+        "url": "https://www.museumjan.nl/tentoonstellingen/lita-cabellut-goya",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Museum JAN. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "dfa224fb-7932-560f-8eb6-b96f8853a880",
+    "starts_on": "2026-09-23",
+    "ends_on": "2027-03-14",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "4802eb1b-e936-5aa0-b660-14809d4b5a04",
+    "inventory_key": "event:www.museumjan.nl/tentoonstellingen/diederik-schneemann:2026-05-08",
+    "category": "evenementen",
+    "name": "Diederik Schneemann – 1 + 1 = 3",
+    "city": "Amstelveen",
+    "province": "Noord-Holland",
+    "street_address": "Dorpsstraat 50",
+    "website_url": "https://www.museumjan.nl/tentoonstellingen/diederik-schneemann",
+    "summary": "Wat maakt een voorwerp waardevol? Diederik Schneemann speelt met materialen, verzamelingen en onverwachte combinaties. Zijn ontwerpen laten je met frisse ogen kijken naar dingen die je dacht te kennen.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "design",
+      "hergebruik",
+      "objecten"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Museum JAN · programma",
+        "url": "https://www.museumjan.nl/tentoonstellingen/diederik-schneemann",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Museum JAN. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "dfa224fb-7932-560f-8eb6-b96f8853a880",
+    "starts_on": "2026-05-08",
+    "ends_on": "2026-11-01",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "bc833d7c-8ba2-54d3-bd71-38fa4d995fde",
+    "inventory_key": "event:www.museumjan.nl/tentoonstellingen/richard-price-vloeibaar-meesterschap:2026-11-06",
+    "category": "evenementen",
+    "name": "Richard Price – Vloeibaar meesterschap",
+    "city": "Amstelveen",
+    "province": "Noord-Holland",
+    "street_address": "Dorpsstraat 50",
+    "website_url": "https://www.museumjan.nl/tentoonstellingen/richard-price-vloeibaar-meesterschap",
+    "summary": "Ontdek hoe Richard Price glas laat balanceren tussen vloeibaarheid en vaste vorm. Vroeg werk en recente sculpturen brengen zijn ontwikkeling als glaskunstenaar samen.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "glaskunst",
+      "beeldhouwkunst",
+      "ambacht"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Museum JAN · programma",
+        "url": "https://www.museumjan.nl/tentoonstellingen/richard-price-vloeibaar-meesterschap",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Museum JAN. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "dfa224fb-7932-560f-8eb6-b96f8853a880",
+    "starts_on": "2026-11-06",
+    "ends_on": "2027-04-18",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "25d40c69-8a84-5853-937a-e40824db0972",
+    "inventory_key": "event:www.nestruimte.nl/exhibitions/creation-myths:2026-09-04",
+    "category": "evenementen",
+    "name": "Creation Myths and Other Beginnings",
+    "city": "Den Haag",
+    "province": "Zuid-Holland",
+    "street_address": "De Constant Rebecqueplein 20-B",
+    "website_url": "https://www.nestruimte.nl/exhibitions/creation-myths",
+    "summary": "Hoe vertellen we waar we vandaan komen, en hoe beginnen we opnieuw? Kunstenaars onderzoeken scheppingsverhalen, herinnering en nieuwe mogelijkheden. Een tentoonstelling die vaste verhalen openbreekt.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "hedendaagse kunst",
+      "installaties",
+      "identiteit",
+      "mythen"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "NEST - ruimte voor kunst · programma",
+        "url": "https://www.nestruimte.nl/exhibitions/creation-myths",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "De Kunstmeisjes · recensie",
+        "url": "https://kunstmeisjes.com/portfolio/go-no-go-467-moeders-dochters-en-mythes/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd naar aanleiding van een bespreking of tip bij De Kunstmeisjes · recensie. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "NEST - ruimte voor kunst. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "c0ca1baa-d39b-55b8-9074-bcbb4249b94b",
+    "starts_on": "2026-09-04",
+    "ends_on": "2026-11-29",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "b8d4aee0-5ef5-5244-8a7f-6dd2dc47cbf8",
+    "inventory_key": "event:stedelijkmuseumschiedam.nl/en/tentoonstelling/yves-klein-and-his-artist-family:2026-03-22",
+    "category": "evenementen",
+    "name": "Yves Klein en zijn kunstenaarsfamilie",
+    "city": "Schiedam",
+    "province": "Zuid-Holland",
+    "street_address": "Hoogstraat 112",
+    "website_url": "https://stedelijkmuseumschiedam.nl/en/tentoonstelling/yves-klein-and-his-artist-family/",
+    "summary": "Duik in het beroemde blauw van Yves Klein en ontdek tegelijk de kunst van zijn ouders en Rotraut. De werken laten zien hoe uiteenlopende artistieke werelden binnen één familie naast elkaar bestaan.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "moderne kunst",
+      "abstract",
+      "schilderkunst",
+      "kleur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Stedelijk Museum Schiedam · programma",
+        "url": "https://stedelijkmuseumschiedam.nl/en/tentoonstelling/yves-klein-and-his-artist-family/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "De Kunstmeisjes · recensie",
+        "url": "https://kunstmeisjes.com/portfolio/go-no-go-466-yves-kleins-talent-kwam-niet-uit-de-blauwe-lucht-vallen/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd naar aanleiding van een bespreking of tip bij De Kunstmeisjes · recensie. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Stedelijk Museum Schiedam. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "623afc94-68b5-5cd2-9a60-f47d71e4a2e8",
+    "starts_on": "2026-03-22",
+    "ends_on": "2026-10-25",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "0c78ab33-9c7c-5f42-aaf2-374e328f67b2",
+    "inventory_key": "event:nederlandsfotomuseum.nl/nu-te-zien/quickscan-3:2026-06-26",
+    "category": "evenementen",
+    "name": "Quickscan 3. Fotografie nu",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Brede Hilledijk 95",
+    "website_url": "https://nederlandsfotomuseum.nl/nu-te-zien/quickscan-3/",
+    "summary": "Hoe ziet fotografie er nu uit? Twintig makers verkennen nieuwe technieken, perspectieven en manieren om beelden te tonen. Quickscan 3 laat je nadenken over wat een foto vandaag kan zijn.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "hedendaagse kunst",
+      "digitale cultuur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Nederlands Fotomuseum · programma",
+        "url": "https://nederlandsfotomuseum.nl/nu-te-zien/quickscan-3/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "De Kunstmeisjes · recensie",
+        "url": "https://kunstmeisjes.com/portfolio/go-no-go-468-scanning-de-nederlandse-fotografie/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd naar aanleiding van een bespreking of tip bij De Kunstmeisjes · recensie. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Nederlands Fotomuseum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "3141bb58-2bee-5b3c-ae96-c7f4a16886e9",
+    "starts_on": "2026-06-26",
+    "ends_on": "2026-11-22",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "c89c2dc7-e50f-54d3-abb5-834c6b053ad7",
+    "inventory_key": "event:www.nationaalglasmuseum.nl/agenda/2026/stilleven:2026-05-12",
+    "category": "evenementen",
+    "name": "Stilleven",
+    "city": "Leerdam",
+    "province": "Utrecht",
+    "street_address": "Lingedijk 28",
+    "website_url": "https://www.nationaalglasmuseum.nl/agenda/2026/stilleven/",
+    "summary": "Vloeibaar glas wordt een stilstaand beeld. Ontdek hoe kleur, vorm en de hand van de maker alledaagse onderwerpen omzetten in glaskunst die blijft verrassen.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "glaskunst",
+      "stilleven",
+      "ambacht"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Nationaal Glasmuseum · programma",
+        "url": "https://www.nationaalglasmuseum.nl/agenda/2026/stilleven/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Nationaal Glasmuseum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "8edea6c8-cb58-5a56-a3c4-920252d1fc12",
+    "starts_on": "2026-05-12",
+    "ends_on": "2026-10-25",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "ef175028-bc28-5ada-badc-aaaac15f8fae",
+    "inventory_key": "event:www.nationaalglasmuseum.nl/agenda/2026/elementen:2026-03-21",
+    "category": "evenementen",
+    "name": "Elementen – Bert Frijns",
+    "city": "Leerdam",
+    "province": "Utrecht",
+    "street_address": "Lingedijk 28",
+    "website_url": "https://www.nationaalglasmuseum.nl/agenda/2026/elementen/",
+    "summary": "Glas, lijnen en licht komen samen in Bert Frijns’ verstilde werk. Loop eromheen en merk hoe een kleine verandering van gezichtspunt een andere vorm zichtbaar maakt.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "glaskunst",
+      "abstract",
+      "licht"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Nationaal Glasmuseum · programma",
+        "url": "https://www.nationaalglasmuseum.nl/agenda/2026/elementen/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Nationaal Glasmuseum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "8edea6c8-cb58-5a56-a3c4-920252d1fc12",
+    "starts_on": "2026-03-21",
+    "ends_on": "2026-11-15",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "afe1ac6d-81ec-5f86-b7b7-22d421b3651a",
+    "inventory_key": "event:www.voorlinden.nl/tentoonstelling/icons:2026-09-12",
+    "category": "evenementen",
+    "name": "Celebrating the Icons of Art",
+    "city": "Wassenaar",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.voorlinden.nl/tentoonstelling/icons/",
+    "summary": "Ontmoet hedendaagse iconen uit de collectie naast hun twintigste-eeuwse voorgangers. De combinaties nodigen uit tot vergelijken: welke ideeën leven voort, en waar slaat een kunstenaar een nieuwe weg in?",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "moderne kunst",
+      "hedendaagse kunst",
+      "collectie"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Museum Voorlinden · programma",
+        "url": "https://www.voorlinden.nl/tentoonstelling/icons/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Museum Voorlinden. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "309b4c56-a9df-5cd7-824d-5e6830fc832e",
+    "starts_on": "2026-09-12",
+    "ends_on": "2027-03-07",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "97e7cf48-dd54-53f3-956b-dccea7dbc03b",
+    "inventory_key": "event:www.museumdefundatie.nl/nl/te-zien/digital-nature:2026-10-03",
+    "category": "evenementen",
+    "name": "Digital by Nature – Miguel Chevalier",
+    "city": "Zwolle",
+    "province": "Overijssel",
+    "street_address": "Blijmarkt 20",
+    "website_url": "https://www.museumdefundatie.nl/nl/te-zien/digital-nature",
+    "summary": "Stap de digitale natuur van Miguel Chevalier binnen. Zijn kunst verbindt technologie met organische vormen en laat je ervaren hoe de grens tussen natuur en verbeelding kan verschuiven.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "digitale kunst",
+      "installaties",
+      "mens en natuur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Museum de Fundatie · programma",
+        "url": "https://www.museumdefundatie.nl/nl/te-zien/digital-nature",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Museum de Fundatie. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "b8aacf17-b869-50b4-a72c-805da2ea4054",
+    "starts_on": "2026-10-03",
+    "ends_on": "2027-04-04",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "3f70f5c0-ab29-5519-ac40-f745a36da8ea",
+    "inventory_key": "event:www.museumdefundatie.nl/nl/te-zien/deep-dive:2026-10-03",
+    "category": "evenementen",
+    "name": "DEEP DIVE – Natalia Domínguez Rangel",
+    "city": "Zwolle",
+    "province": "Overijssel",
+    "street_address": "Blijmarkt 20",
+    "website_url": "https://www.museumdefundatie.nl/nl/te-zien/deep-dive",
+    "summary": "Neem de tijd voor de wereld van Natalia Domínguez Rangel. DEEP DIVE nodigt uit om niet alleen met je ogen, maar ook met je oren en je hele aanwezigheid naar kunst te kijken.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "geluidskunst",
+      "installaties",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Museum de Fundatie · programma",
+        "url": "https://www.museumdefundatie.nl/nl/te-zien/deep-dive",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Museum de Fundatie. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "b8aacf17-b869-50b4-a72c-805da2ea4054",
+    "starts_on": "2026-10-03",
+    "ends_on": "2027-04-04",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "4954270b-1d6a-5e96-b333-5cffa14bb79d",
+    "inventory_key": "event:www.museumdefundatie.nl/nl/te-zien/symbio:2026-10-03",
+    "category": "evenementen",
+    "name": "Symbio – Diana Scherer",
+    "city": "Zwolle",
+    "province": "Overijssel",
+    "street_address": "Blijmarkt 20",
+    "website_url": "https://www.museumdefundatie.nl/nl/te-zien/symbio",
+    "summary": "Wortels worden weefsels in het werk van Diana Scherer. Ontdek hoe ze natuurlijke groei begeleidt tot patronen die tegelijk kwetsbaar en krachtig ogen. Hier ontmoeten kunst, biologie en textiel elkaar.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "textielkunst",
+      "biokunst",
+      "mens en natuur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Museum de Fundatie · programma",
+        "url": "https://www.museumdefundatie.nl/nl/te-zien/symbio",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Museum de Fundatie. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "b8aacf17-b869-50b4-a72c-805da2ea4054",
+    "starts_on": "2026-10-03",
+    "ends_on": "2027-10-03",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "f26ab982-87dd-50f1-9585-39ac7e0c1407",
+    "inventory_key": "event:www.dordrechtsmuseum.nl/nu-te-zien-en-te-doen/from-dusk-till-dawn:2026-09-05",
+    "category": "evenementen",
+    "name": "From Dusk Till Dawn",
+    "city": "Dordrecht",
+    "province": "Zuid-Holland",
+    "street_address": "Museumstraat 40",
+    "website_url": "https://www.dordrechtsmuseum.nl/nu-te-zien-en-te-doen/from-dusk-till-dawn/",
+    "summary": "Ontdek wat de nacht met kunst doet. Van schemering tot ochtendlicht verschuiven kleur, sfeer en waarneming. Deze tentoonstelling nodigt uit om langer te kijken naar wat zich in het donker ontvouwt.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "schilderkunst",
+      "nacht",
+      "landschap"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Dordrechts Museum · programma",
+        "url": "https://www.dordrechtsmuseum.nl/nu-te-zien-en-te-doen/from-dusk-till-dawn/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Dordrechts Museum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "b2463c1b-ea3f-5ac3-bce4-90dbe8eb067c",
+    "starts_on": "2026-09-05",
+    "ends_on": "2027-02-21",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "f16a6d1a-42d6-5aeb-beee-a6ed587b39e7",
+    "inventory_key": "event:www.dordrechtsmuseum.nl/nu-te-zien-en-te-doen/dordtse-cultuurnacht-2026:2026-10-10",
+    "category": "evenementen",
+    "name": "Dordtse Cultuurnacht – Dordrechts Museum",
+    "city": "Dordrecht",
+    "province": "Zuid-Holland",
+    "street_address": "Museumstraat 40",
+    "website_url": "https://www.dordrechtsmuseum.nl/nu-te-zien-en-te-doen/dordtse-cultuurnacht-2026/",
+    "summary": "Beleef het Dordrechts Museum tijdens de Cultuurnacht. Een avondbezoek geeft de kunst en het museum een andere sfeer. Bekijk het programma voor activiteiten, tijden en toegang.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "evenement",
+      "museumnacht",
+      "schilderkunst",
+      "avondprogramma"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Dordrechts Museum · programma",
+        "url": "https://www.dordrechtsmuseum.nl/nu-te-zien-en-te-doen/dordtse-cultuurnacht-2026/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Dordrechts Museum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "b2463c1b-ea3f-5ac3-bce4-90dbe8eb067c",
+    "starts_on": "2026-10-10",
+    "ends_on": "2026-10-10",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "7f69a14c-e12a-5d41-a742-3eae459512c0",
+    "inventory_key": "event:www.dordrechtsmuseum.nl/nu-te-zien-en-te-doen/avondopenstelling-from-dusk-till-dawn:2026-10-24",
+    "category": "evenementen",
+    "name": "Avondopenstelling From Dusk Till Dawn",
+    "city": "Dordrecht",
+    "province": "Zuid-Holland",
+    "street_address": "Museumstraat 40",
+    "website_url": "https://www.dordrechtsmuseum.nl/nu-te-zien-en-te-doen/avondopenstelling-from-dusk-till-dawn/",
+    "summary": "Bekijk kunst over de nacht terwijl het buiten zelf donker wordt. Tijdens deze avondopenstelling krijgt From Dusk Till Dawn een passende omlijsting. Raadpleeg het museum voor het avondprogramma.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "evenement",
+      "schilderkunst",
+      "nacht",
+      "avondprogramma"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Dordrechts Museum · programma",
+        "url": "https://www.dordrechtsmuseum.nl/nu-te-zien-en-te-doen/avondopenstelling-from-dusk-till-dawn/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Dordrechts Museum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "b2463c1b-ea3f-5ac3-bce4-90dbe8eb067c",
+    "starts_on": "2026-10-24",
+    "ends_on": "2026-10-24",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "fa170ae7-ac56-5b5b-8c40-85945571f1fd",
+    "inventory_key": "event:www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie:2026-10-10",
+    "category": "evenementen",
+    "name": "Koffie? Een Nederlandse geschiedenis in keramiek",
+    "city": "Leeuwarden",
+    "province": "Friesland",
+    "street_address": "Grote Kerkstraat 11",
+    "website_url": "https://www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie",
+    "summary": "Van koffiepot tot kopje: keramiek vertelt hoe koffie door de wereld reisde. Ontdek de vormen, decoraties en verhalen achter een dagelijks ritueel dat veel meer omvat dan een drankje.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "keramiek",
+      "design",
+      "toegepaste kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Keramiekmuseum Princessehof · programma",
+        "url": "https://www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "Museumtijdschrift · najaarsselectie",
+        "url": "https://museumtijdschrift.nl/artikelen/tips/tentoonstellingen-om-naar-uit-te-kijken-in-het-najaar-van-2026/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd naar aanleiding van een bespreking of tip bij Museumtijdschrift · najaarsselectie. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Keramiekmuseum Princessehof. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "d117a62d-9e50-56e1-ab19-feb92d50abba",
+    "starts_on": "2026-10-10",
+    "ends_on": "2027-08-29",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "9974e4d8-7965-5ee3-b798-eedae289150c",
+    "inventory_key": "event:www.kunsthalkade.nl/nl/nieuws/binnenkort-te-zien-frankenthaler-judd:2026-09-26",
+    "category": "evenementen",
+    "name": "Frankenthaler / Judd",
+    "city": "Amersfoort",
+    "province": "Utrecht",
+    "street_address": "Eemplein 77",
+    "website_url": "https://www.kunsthalkade.nl/nl/nieuws/binnenkort-te-zien-frankenthaler-judd/",
+    "summary": "Vrije kleurvelden ontmoeten strakke vormen. Het werk van Helen Frankenthaler en Donald Judd laat zien hoe verschillend abstracte kunst kan zijn, en waar kleur, vlak en ruimte elkaar toch raken.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "abstract expressionisme",
+      "minimalisme",
+      "schilderkunst",
+      "beeldhouwkunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Kunsthal KAdE · programma",
+        "url": "https://www.kunsthalkade.nl/nl/nieuws/binnenkort-te-zien-frankenthaler-judd/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "Museumtijdschrift · najaarsselectie",
+        "url": "https://museumtijdschrift.nl/artikelen/tips/tentoonstellingen-om-naar-uit-te-kijken-in-het-najaar-van-2026/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd naar aanleiding van een bespreking of tip bij Museumtijdschrift · najaarsselectie. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Kunsthal KAdE. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "819d6419-6798-5c8f-97ad-d9885053aa3c",
+    "starts_on": "2026-09-26",
+    "ends_on": "2027-01-10",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "61fa9b2f-0732-59c5-9acb-9148421ce56b",
+    "inventory_key": "event:www.kunstmuseum.nl/nl/tentoonstellingen/reflections-fashion:2026-07-04",
+    "category": "evenementen",
+    "name": "Reflections on Fashion",
+    "city": "Den Haag",
+    "province": "Zuid-Holland",
+    "street_address": "Stadhouderslaan 41",
+    "website_url": "https://www.kunstmuseum.nl/nl/tentoonstellingen/reflections-fashion",
+    "summary": "Bekijk mode als kunst om mee te denken. Reflections on Fashion nodigt uit stil te staan bij kleding, vormgeving en de manieren waarop we onszelf met stoffen en silhouetten laten zien.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "mode",
+      "textiel",
+      "design"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Kunstmuseum Den Haag · programma",
+        "url": "https://www.kunstmuseum.nl/nl/tentoonstellingen/reflections-fashion",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Kunstmuseum Den Haag. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "c3ab1b89-a248-5b8f-bf3e-031df0c33a18",
+    "starts_on": "2026-07-04",
+    "ends_on": "2027-01-03",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "0673a405-887c-5c40-b92c-8bbb501f18ac",
+    "inventory_key": "event:www.kunstmuseum.nl/nl/tentoonstellingen/jan-van-der-vaart-voor-jan-en-alleman:2025-11-15",
+    "category": "evenementen",
+    "name": "Jan van der Vaart: voor Jan en alleman",
+    "city": "Den Haag",
+    "province": "Zuid-Holland",
+    "street_address": "Stadhouderslaan 41",
+    "website_url": "https://www.kunstmuseum.nl/nl/tentoonstellingen/jan-van-der-vaart-voor-jan-en-alleman",
+    "summary": "Ontmoet de keramiek van Jan van der Vaart. Kijk naar vorm, ritme en de verhouding tussen gebruiksvoorwerp en kunstobject, en ontdek hoeveel karakter een vaas of schaal kan hebben.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "keramiek",
+      "design",
+      "toegepaste kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Kunstmuseum Den Haag · programma",
+        "url": "https://www.kunstmuseum.nl/nl/tentoonstellingen/jan-van-der-vaart-voor-jan-en-alleman",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Kunstmuseum Den Haag. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "c3ab1b89-a248-5b8f-bf3e-031df0c33a18",
+    "starts_on": "2025-11-15",
+    "ends_on": "2026-10-25",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "a56a44da-05bc-5ea1-a53c-642aa8c930fb",
+    "inventory_key": "event:groningermuseum.nl/the-architect-and-the-housewife:2026-09-19",
+    "category": "evenementen",
+    "name": "The Architect & the Housewife",
+    "city": "Groningen",
+    "province": "Groningen",
+    "street_address": "Museumeiland 1",
+    "website_url": "https://groningermuseum.nl/the-architect-and-the-housewife",
+    "summary": "Wie ontwerpt het huis, en wie zorgt ervoor? Kunstenaars onderzoeken hoe dagelijks werk, zorg en een artistieke praktijk in elkaar grijpen. De tentoonstelling laat vertrouwde rollen en ruimtes opnieuw bekijken.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "hedendaagse kunst",
+      "architectuur",
+      "zorg",
+      "maatschappij"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Groninger Museum · programma",
+        "url": "https://groningermuseum.nl/the-architect-and-the-housewife",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Groninger Museum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "5be91cbd-f55e-5e69-b0e1-3ed503678881",
+    "starts_on": "2026-09-19",
+    "ends_on": "2027-05-09",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "348e146f-5a7c-5322-9ce4-d7bf5252b46c",
+    "inventory_key": "event:groningermuseum.nl/playing-house:2026-09-19",
+    "category": "evenementen",
+    "name": "Playing House",
+    "city": "Groningen",
+    "province": "Groningen",
+    "street_address": "Museumeiland 1",
+    "website_url": "https://groningermuseum.nl/playing-house",
+    "summary": "Dagdromen, experimenteren en regels doorbreken krijgen hier de ruimte. Playing House neemt de verbeelding van kinderen serieus en nodigt ook volwassenen uit die opnieuw te ontdekken.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "hedendaagse kunst",
+      "installaties",
+      "spel",
+      "familie"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Groninger Museum · programma",
+        "url": "https://groningermuseum.nl/playing-house",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Groninger Museum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "5be91cbd-f55e-5e69-b0e1-3ed503678881",
+    "starts_on": "2026-09-19",
+    "ends_on": "2027-01-10",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "c11413aa-07ce-5813-95a2-efde40c34e8b",
+    "inventory_key": "event:groningermuseum.nl/ani-schulze-the-convent-of-pleasure:2026-09-19",
+    "category": "evenementen",
+    "name": "Ani Schulze – The Convent of Pleasure",
+    "city": "Groningen",
+    "province": "Groningen",
+    "street_address": "Museumeiland 1",
+    "website_url": "https://groningermuseum.nl/ani-schulze-the-convent-of-pleasure",
+    "summary": "Ani Schulzes doorlopende soapopera onderzoekt een leven op eigen voorwaarden. Haar filmische wereld ontmoet werk en ideeën uit de kring van De Ploeg, waardoor verleden en heden onverwacht door elkaar lopen.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "video",
+      "hedendaagse kunst",
+      "identiteit"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Groninger Museum · programma",
+        "url": "https://groningermuseum.nl/ani-schulze-the-convent-of-pleasure",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Groninger Museum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "5be91cbd-f55e-5e69-b0e1-3ed503678881",
+    "starts_on": "2026-09-19",
+    "ends_on": "2027-05-09",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "e64c9062-b3f1-52e5-8da6-150e918bdad2",
+    "inventory_key": "event:groningermuseum.nl/keramikos-carrier-bag:2026-09-19",
+    "category": "evenementen",
+    "name": "Keramikos Carrier Bag",
+    "city": "Groningen",
+    "province": "Groningen",
+    "street_address": "Museumeiland 1",
+    "website_url": "https://groningermuseum.nl/keramikos-carrier-bag",
+    "summary": "Serviesstukken en tafelkleden uit gezamenlijke diners krijgen een nieuw leven als kunst. Matthew Lutz-Kinoy en Natsuko Uchino verbinden eten, verzamelen en culturele uitwisseling met objecten uit de museumcollectie.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "keramiek",
+      "textiel",
+      "toegepaste kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Groninger Museum · programma",
+        "url": "https://groningermuseum.nl/keramikos-carrier-bag",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Groninger Museum. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "5be91cbd-f55e-5e69-b0e1-3ed503678881",
+    "starts_on": "2026-09-19",
+    "ends_on": "2027-01-10",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "eb9eb168-d4b3-5122-9bca-ef104fabd5b8",
+    "inventory_key": "event:www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser:2026-06-05",
+    "category": "evenementen",
+    "name": "Carel Visser in de Rijksmuseumtuinen",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Museumstraat 1",
+    "website_url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+    "summary": "Dertien monumentale beelden ontmoeten bomen en groen. Carel Visser stapelt, herhaalt en balanceert vormen die soms aan dieren of takken doen denken. Loop rondom de sculpturen en ontdek je eigen associaties.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "beeldhouwkunst",
+      "staal",
+      "abstract",
+      "museumtuin"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Rijksmuseum Amsterdam · programma",
+        "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Rijksmuseum Amsterdam. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
+    "starts_on": "2026-06-05",
+    "ends_on": "2026-10-25",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "3c699a95-1703-5b19-8b98-12c7b2734ce7",
+    "inventory_key": "event:www.rembrandthuis.nl/nl/over-ons/pers/press/experimenteerdrift-in-museum-rembrandthuis:2026-09-19",
+    "category": "evenementen",
+    "name": "Experimenteerdrift",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Jodenbreestraat 4",
+    "website_url": "https://www.rembrandthuis.nl/nl/over-ons/pers/press/experimenteerdrift-in-museum-rembrandthuis",
+    "summary": "Kijken, proberen, opnieuw beginnen: ontdek hoe Rembrandt en kunstenaars na hem op papier blijven experimenteren. Prenten en tekeningen van onder anderen Goya, Hercules Segers en Glenn Brown laten verrassende verwantschappen zien. Aan de tekentafels kun je zelf met materialen aan de slag.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "grafiek",
+      "tekeningen",
+      "rembrandt",
+      "oude meesters",
+      "zelf maken"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Museum Rembrandthuis · programma",
+        "url": "https://www.rembrandthuis.nl/nl/over-ons/pers/press/experimenteerdrift-in-museum-rembrandthuis",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Museum Rembrandthuis. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "9423dcc9-339e-56c1-b694-1cdc14ee95f3",
+    "starts_on": "2026-09-19",
+    "ends_on": "2027-01-03",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "cfdc737b-31db-5edd-a0a5-931815891ca9",
+    "inventory_key": "event:fotomuseumaanhetvrijthof.nl/tentoonstelling/eve-arnold-all-about-eve-1:2026-09-19",
+    "category": "evenementen",
+    "name": "Eve Arnold — All about Eve",
+    "city": "Maastricht",
+    "province": "Limburg",
+    "street_address": "Vrijthof 18",
+    "website_url": "https://fotomuseumaanhetvrijthof.nl/tentoonstelling/eve-arnold-all-about-eve-1",
+    "summary": "Ontmoet mensen door de nieuwsgierige blik van Eve Arnold. Van filmsterren tot het dagelijks leven: haar foto's brengen beroemdheid, kwetsbaarheid en maatschappelijke verandering dichtbij. Dit overzicht verbindt portretten met reportages en reisbeelden, in kleur én zwart-wit.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "documentaire fotografie",
+      "portretten",
+      "eve arnold"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Fotomuseum aan het Vrijthof · programma",
+        "url": "https://fotomuseumaanhetvrijthof.nl/tentoonstelling/eve-arnold-all-about-eve-1",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Fotomuseum aan het Vrijthof. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "ab4966d6-7d00-51d0-893f-cbc99e983c8f",
+    "starts_on": "2026-09-19",
+    "ends_on": "2027-01-31",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "34b17ad3-2336-5421-a049-1a0011aef843",
+    "inventory_key": "event:museumhelmond.nl/tentoonstelling/deep-rooted:2026-09-19",
+    "category": "evenementen",
+    "name": "Deep Rooted — The Impact of Graffiti on Art",
+    "city": "Helmond",
+    "province": "Noord-Brabant",
+    "street_address": "F.J. van Thielpark 7",
+    "website_url": "https://museumhelmond.nl/tentoonstelling/deep-rooted/",
+    "summary": "Volg graffiti van de New Yorkse straat naar schilderkunst, fotografie en performance. Pioniers en hedendaagse makers laten zien hoe letters, ritme en kleur blijven doorwerken in nieuwe kunstvormen. Een energieke ontmoeting met kunstenaars die de stad als hun vertrekpunt nemen.",
+    "creator": "",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "graffiti",
+      "straatkunst",
+      "hedendaagse kunst",
+      "fotografie",
+      "schilderkunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Museum Helmond - Kunsthal Helmond · programma",
+        "url": "https://museumhelmond.nl/tentoonstelling/deep-rooted/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
+    "visit_notes": "Museum Helmond - Kunsthal Helmond. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "museum_id": "736d4174-2c78-5305-8c58-7fc82b56bad1",
+    "starts_on": "2026-09-19",
+    "ends_on": "2027-02-07",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "5611248d-4c11-54cf-a7b9-7766278130a6",
+    "inventory_key": "event:ddw.nl:2026-10-17",
+    "category": "evenementen",
+    "name": "Dutch Design Week 2026",
+    "city": "Eindhoven",
+    "province": "Noord-Brabant",
+    "street_address": "Diverse locaties, waaronder Strijp-S",
+    "website_url": "https://ddw.nl/",
+    "summary": "Duik in nieuwe ideeën tijdens negen dagen design in Eindhoven. Ontwerpers onderzoeken materialen, technologie en manieren van samenleven. Bezoek presentaties, ontmoet makers en ontdek met routes en rondleidingen wat ontwerpen kan betekenen voor de toekomst.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "evenement",
+      "design",
+      "festival",
+      "materialen",
+      "technologie",
+      "hedendaags ontwerp"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Dutch Design Week · programma en data",
+        "url": "https://ddw.nl/nl/programma/ddw-young-educatie",
+        "retrieved_at": "2026-10-03T19:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd als meerdaags designfestival met presentaties, ontwerponderzoek en ontmoetingen met makers. Verbreedt de agenda met een stedelijk evenement buiten de museumzalen.",
+    "visit_notes": "Meerdere locaties in Eindhoven. Raadpleeg het programma voor tijden, toegankelijkheid en tickets per locatie.",
+    "museum_id": null,
+    "starts_on": "2026-10-17",
+    "ends_on": "2026-10-25",
+    "operating_status": "open",
+    "publication_status": "published"
+  }
+]

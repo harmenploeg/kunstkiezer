@@ -18,7 +18,8 @@
     "test:e2e": "npm run build && playwright test --reporter=list",
     "test:db": "node --test --test-isolation=none tests/database.test.ts",
     "inventory:imports": "node scripts/generate-museum-imports.mjs",
-    "pretest": "node scripts/generate-museum-imports.mjs"
+    "pretest": "node scripts/generate-museum-imports.mjs && node scripts/generate-discovery-imports.mjs",
+    "inventory:discovery": "node scripts/generate-discovery-imports.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",

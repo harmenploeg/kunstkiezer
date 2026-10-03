@@ -13,3 +13,6 @@ supabase/.temp/
 supabase/.branches/
 # Reproduceerbaar uit data/museums/inventory.json
 supabase/imports/
+
+# Generated from the four curated discovery inventories
+supabase/discovery-imports/

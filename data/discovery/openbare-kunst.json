@@ -1,0 +1,4402 @@
+[
+  {
+    "id": "516d449c-0aa6-5230-aac7-bf708a766e16",
+    "inventory_key": "sleutelwerk:243",
+    "category": "openbare-kunst",
+    "name": "Mannes",
+    "city": "Assen",
+    "province": "Drenthe",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/mannes",
+    "summary": "Ontdek Mannes van Serafijn, Q.S. en NIO Architecten, een werk uit 2018. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Serafijn, Q.S. en NIO Architecten",
+    "year": "2018",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/mannes",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Serafijn, Q.S. en NIO Architecten is hier vertegenwoordigd met Mannes (2018); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "79d8dfc3-da90-57f3-89a0-5c5f03d5cc2f",
+    "inventory_key": "sleutelwerk:241",
+    "category": "openbare-kunst",
+    "name": "Love",
+    "city": "Leeuwarden",
+    "province": "Friesland",
+    "street_address": "Stationsgebied",
+    "website_url": "https://11fountains.nl/fonteinen/leeuwarden/",
+    "summary": "Twee grote witte gezichten houden hun ogen gesloten. De nevel rond de sculpturen geeft de drukke stationsomgeving een verstilde tegenwereld. Loop erlangs en ervaar de wisselwerking tussen schaal, mist en menselijke uitdrukking.",
+    "creator": "Jaume Plensa",
+    "year": "2018",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "fontein",
+      "11fountains",
+      "hedendaagse kunst",
+      "figuratief",
+      "sleutelwerk"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/love",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "11fountains · officiële projectinformatie",
+        "url": "https://11fountains.nl/fonteinen/leeuwarden/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
+    "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "a27f565c-eab7-5fde-94c4-68507190110b",
+    "inventory_key": "sleutelwerk:239",
+    "category": "openbare-kunst",
+    "name": "De Walvis",
+    "city": "Harlingen",
+    "province": "Friesland",
+    "street_address": "Nieuwe Willemshaven, bij de Zuiderpier",
+    "website_url": "https://11fountains.nl/fonteinen/harlingen/",
+    "summary": "In de haven duikt een monumentale walvis op. Het werk verbindt de geschiedenis van de walvisvaart met onze veranderde verhouding tot deze dieren. Water en schaal maken de ontmoeting onverwacht tastbaar.",
+    "creator": "Jennifer Allora & Guillermo Calzadilla",
+    "year": "2018",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "fontein",
+      "11fountains",
+      "hedendaagse kunst",
+      "dieren",
+      "sleutelwerk"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/de-walvis",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "11fountains · officiële projectinformatie",
+        "url": "https://11fountains.nl/fonteinen/harlingen/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
+    "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "8f086c84-7670-5085-9531-9c9a3b5655dd",
+    "inventory_key": "sleutelwerk:237",
+    "category": "openbare-kunst",
+    "name": "Deltawerk //",
+    "city": "Marknesse",
+    "province": "Flevoland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/deltawerk",
+    "summary": "Ontdek Deltawerk // van RAAAF en Atelier de Lyon, een werk uit 2018. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "RAAAF en Atelier de Lyon",
+    "year": "2018",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/deltawerk",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. RAAAF en Atelier de Lyon is hier vertegenwoordigd met Deltawerk // (2018); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "90c821ab-ea07-5e2b-b9cf-91d1710dc026",
+    "inventory_key": "sleutelwerk:235",
+    "category": "openbare-kunst",
+    "name": "Rokinfontein",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/rokinfontein",
+    "summary": "Ontdek Rokinfontein van Mark Manders, een werk uit 2017. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Mark Manders",
+    "year": "2017",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/rokinfontein",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Mark Manders is hier vertegenwoordigd met Rokinfontein (2017); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "ac5e7a33-e7b4-5de4-b290-ffee429d345e",
+    "inventory_key": "sleutelwerk:233",
+    "category": "openbare-kunst",
+    "name": "Tulip Palepai, navigating the river of the world",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/tulip-palepai-navigating-the-river-of-the-world",
+    "summary": "Ontdek Tulip Palepai, navigating the river of the world van Jennifer Tee, een werk uit 2017. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Jennifer Tee",
+    "year": "2017",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/tulip-palepai-navigating-the-river-of-the-world",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Jennifer Tee is hier vertegenwoordigd met Tulip Palepai, navigating the river of the world (2017); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "63bc9cc1-9fd9-5a51-91d9-bd78057684c1",
+    "inventory_key": "sleutelwerk:231",
+    "category": "openbare-kunst",
+    "name": "Arrivals / Departures",
+    "city": "Utrecht",
+    "province": "Utrecht",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/arrivals-departures",
+    "summary": "Ontdek Arrivals / Departures van Marcus Coates, een werk uit 2017. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Marcus Coates",
+    "year": "2017",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "tijdelijk",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/arrivals-departures",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Marcus Coates is hier vertegenwoordigd met Arrivals / Departures (2017); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "c8fe94dc-e2a3-5531-b957-3af6dc184c3b",
+    "inventory_key": "sleutelwerk:229",
+    "category": "openbare-kunst",
+    "name": "Deventer raamwerk",
+    "city": "Deventer",
+    "province": "Overijssel",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/deventer-raamwerk",
+    "summary": "Ontdek Deventer raamwerk van Loes ten Anscher, een werk uit 2016. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Loes ten Anscher",
+    "year": "2016",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "gebouwen",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/deventer-raamwerk",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Loes ten Anscher is hier vertegenwoordigd met Deventer raamwerk (2016); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "3cf1e390-f432-5152-a9df-7ab601521ccb",
+    "inventory_key": "sleutelwerk:227",
+    "category": "openbare-kunst",
+    "name": "Re-defining Balance (as a matter of fact)",
+    "city": "Zwolle",
+    "province": "Overijssel",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/re-defining-balance-as-a-matter-of-fact",
+    "summary": "Ontdek Re-defining Balance (as a matter of fact) van Anne Wenzel, een werk uit 2016. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Anne Wenzel",
+    "year": "2016",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/re-defining-balance-as-a-matter-of-fact",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Anne Wenzel is hier vertegenwoordigd met Re-defining Balance (as a matter of fact) (2016); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "a055e4f1-4698-5815-a05f-f44c6cf4c6c2",
+    "inventory_key": "sleutelwerk:225",
+    "category": "openbare-kunst",
+    "name": "Yellow Wings",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/yellow-wings",
+    "summary": "Ontdek Yellow Wings van Loes van der Horst, een werk uit 2015. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Loes van der Horst",
+    "year": "2015",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/yellow-wings",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Loes van der Horst is hier vertegenwoordigd met Yellow Wings (2015); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "f9ce7685-ea38-5a9f-af2a-8be05bfa400d",
+    "inventory_key": "sleutelwerk:223",
+    "category": "openbare-kunst",
+    "name": "De Zandwacht",
+    "city": "Maasvlakte",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/de-zandwacht",
+    "summary": "Ontdek De Zandwacht van Observatorium, een werk uit 2015. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Observatorium",
+    "year": "2015",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/de-zandwacht",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Observatorium is hier vertegenwoordigd met De Zandwacht (2015); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "ec559317-ad1c-58c4-bce2-8118f292d3f2",
+    "inventory_key": "sleutelwerk:221",
+    "category": "openbare-kunst",
+    "name": "Observatorium",
+    "city": "Lelystad",
+    "province": "Flevoland",
+    "street_address": "Swifterringweg",
+    "website_url": "https://landartflevoland.nl/kunstwerken/robert-morris-observatorium/",
+    "summary": "Ronde aardwallen doorbreken de rechte lijnen van de polder. Doorkijkjes richten je blik op de horizon en de zonnestanden. Morris maakt kijken, lopen en het verstrijken van tijd onderdeel van één werk.",
+    "creator": "Robert Morris",
+    "year": "1977",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "land art",
+      "landschap",
+      "zon",
+      "geometrie"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/observatorium-2",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://landartflevoland.nl/kunstwerken/robert-morris-observatorium/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Vroeg en invloedrijk Nederlands land-artproject waarin geometrie, landschap en astronomische oriëntatie samenkomen.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "a9059ffc-8565-519e-81f9-44f4b20c71b7",
+    "inventory_key": "sleutelwerk:219",
+    "category": "openbare-kunst",
+    "name": "Vortex",
+    "city": "Enschede",
+    "province": "Overijssel",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/vortex",
+    "summary": "Ontdek Vortex van Jeroen Doorenweerd, een werk uit 2014. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Jeroen Doorenweerd",
+    "year": "2014",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/vortex",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Jeroen Doorenweerd is hier vertegenwoordigd met Vortex (2014); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "f67ae145-fce2-5a20-a8d8-e5286eaa4eab",
+    "inventory_key": "sleutelwerk:217",
+    "category": "openbare-kunst",
+    "name": "Polder Peil (Like suns setting three meters above true level)",
+    "city": "Wilhelminapolder",
+    "province": "Zeeland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/polder-peil-like-suns-setting-three-meters-above-true-level",
+    "summary": "Ontdek Polder Peil (Like suns setting three meters above true level) van Michael Beutler, een werk uit 2013. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Michael Beutler",
+    "year": "2013",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "land art",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/polder-peil-like-suns-setting-three-meters-above-true-level",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Michael Beutler is hier vertegenwoordigd met Polder Peil (Like suns setting three meters above true level) (2013); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "e038e09f-3a5f-5137-9a99-d43280ee3c2f",
+    "inventory_key": "sleutelwerk:215",
+    "category": "openbare-kunst",
+    "name": "Kapkar/BB-N34",
+    "city": "Borger",
+    "province": "Drenthe",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/kapkar-bb-n34",
+    "summary": "Ontdek Kapkar/BB-N34 van Frank Havermans, een werk uit 2013. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Frank Havermans",
+    "year": "2013",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/kapkar-bb-n34",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Frank Havermans is hier vertegenwoordigd met Kapkar/BB-N34 (2013); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "67b9eea8-cc30-5203-ac9a-0f2a58b7c9cf",
+    "inventory_key": "sleutelwerk:213",
+    "category": "openbare-kunst",
+    "name": "Slavernijmonument Clave",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/slavernijmonument-clave",
+    "summary": "Ontdek Slavernijmonument Clave van Alex da Silva, een werk uit 2013. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Alex da Silva",
+    "year": "2013",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "monumenten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/slavernijmonument-clave",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Alex da Silva is hier vertegenwoordigd met Slavernijmonument Clave (2013); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "40b4f1f0-8c26-5f1b-b44c-1b3472d9e889",
+    "inventory_key": "sleutelwerk:211",
+    "category": "openbare-kunst",
+    "name": "Het gezicht van de A50",
+    "city": "Veghel",
+    "province": "Noord-Brabant",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/het-gezicht-van-de-a50",
+    "summary": "Ontdek Het gezicht van de A50 van Stanislaw Lewkowicz, een werk uit 2013. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Stanislaw Lewkowicz",
+    "year": "2013",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/het-gezicht-van-de-a50",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Stanislaw Lewkowicz is hier vertegenwoordigd met Het gezicht van de A50 (2013); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "d0f8a23e-5cfa-5a4f-847a-b7518efd51dc",
+    "inventory_key": "sleutelwerk:209",
+    "category": "openbare-kunst",
+    "name": "Het Feestaardvarken",
+    "city": "Arnhem",
+    "province": "Gelderland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/het-feestaardvarken",
+    "summary": "Ontdek Het Feestaardvarken van Florentijn Hofman, een werk uit 2013. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Florentijn Hofman",
+    "year": "2013",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/het-feestaardvarken",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Florentijn Hofman is hier vertegenwoordigd met Het Feestaardvarken (2013); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "e97cd673-1362-5554-9c18-45a45c0795c8",
+    "inventory_key": "sleutelwerk:206",
+    "category": "openbare-kunst",
+    "name": "Velden van Nevel",
+    "city": "Hoogeveen",
+    "province": "Drenthe",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/velden-van-nevel",
+    "summary": "Ontdek Velden van Nevel van Rudi van de Wint, een werk uit 2010. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Rudi van de Wint",
+    "year": "2010",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/velden-van-nevel",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Rudi van de Wint is hier vertegenwoordigd met Velden van Nevel (2010); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "aa836ced-ea75-5320-aaf3-654f910bd1b6",
+    "inventory_key": "sleutelwerk:204",
+    "category": "openbare-kunst",
+    "name": "Exposure",
+    "city": "Lelystad",
+    "province": "",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/exposure",
+    "summary": "Ontdek Exposure van Antony Gormley, een werk uit 2010. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Antony Gormley",
+    "year": "2010",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/exposure",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Antony Gormley is hier vertegenwoordigd met Exposure (2010); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "81cb9dd7-e599-55f8-807a-b82e681ce86b",
+    "inventory_key": "sleutelwerk:202",
+    "category": "openbare-kunst",
+    "name": "Under Heaven 02",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/under-heaven-02",
+    "summary": "Ontdek Under Heaven 02 van Leonard van Munster, een werk uit 2009. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Leonard van Munster",
+    "year": "2009",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "tijdelijk",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/under-heaven-02",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Leonard van Munster is hier vertegenwoordigd met Under Heaven 02 (2009); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "934a542b-f0c1-5283-9b85-8806434fc20e",
+    "inventory_key": "sleutelwerk:200",
+    "category": "openbare-kunst",
+    "name": "De Wassende Maan",
+    "city": "Werkendam",
+    "province": "Noord-Brabant",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/de-wassende-maan",
+    "summary": "Ontdek De Wassende Maan van Paul de Kort, een werk uit 2008. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Paul de Kort",
+    "year": "2008",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "land art",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/de-wassende-maan",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Paul de Kort is hier vertegenwoordigd met De Wassende Maan (2008); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "a0ea1329-3f14-5723-9648-57b2ee0f99c5",
+    "inventory_key": "sleutelwerk:198",
+    "category": "openbare-kunst",
+    "name": "De Sluiswachter",
+    "city": "Zandpol",
+    "province": "Drenthe",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/de-sluiswachter",
+    "summary": "Ontdek De Sluiswachter van Hans van Bentem, een werk uit 2008. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Hans van Bentem",
+    "year": "2008",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/de-sluiswachter",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Hans van Bentem is hier vertegenwoordigd met De Sluiswachter (2008); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "0565aefa-0022-58b4-9a5e-4e572e144c7a",
+    "inventory_key": "sleutelwerk:196",
+    "category": "openbare-kunst",
+    "name": "Reizend zand",
+    "city": "Apeldoorn",
+    "province": "Gelderland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/reizend-zand",
+    "summary": "Ontdek Reizend zand van Giny Vos, een werk uit 2008. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Giny Vos",
+    "year": "2008",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "gebouwen",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/reizend-zand",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Giny Vos is hier vertegenwoordigd met Reizend zand (2008); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "fc9b88ed-9ec9-54f7-a5ed-0a3bf35c456c",
+    "inventory_key": "sleutelwerk:194",
+    "category": "openbare-kunst",
+    "name": "Draaiend Huis",
+    "city": "Tilburg",
+    "province": "Noord-Brabant",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/draaiend-huis",
+    "summary": "Ontdek Draaiend Huis van John Körmeling, een werk uit 2008. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "John Körmeling",
+    "year": "2008",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/draaiend-huis",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. John Körmeling is hier vertegenwoordigd met Draaiend Huis (2008); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "d0266d67-df54-530d-976c-604975ff49a6",
+    "inventory_key": "sleutelwerk:192",
+    "category": "openbare-kunst",
+    "name": "Boomsieraad (borstlulkont)",
+    "city": "Apeldoorn",
+    "province": "Gelderland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/boomsieraad-borstlulkont",
+    "summary": "Ontdek Boomsieraad (borstlulkont) van Maria Roosen, een werk uit 2008. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Maria Roosen",
+    "year": "2008",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/boomsieraad-borstlulkont",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Maria Roosen is hier vertegenwoordigd met Boomsieraad (borstlulkont) (2008); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "3c2b350e-3a71-53b3-9a29-2e6c7fdef7b9",
+    "inventory_key": "sleutelwerk:190",
+    "category": "openbare-kunst",
+    "name": "Cage With No Puma In It",
+    "city": "Apeldoorn",
+    "province": "Gelderland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/cage-with-no-puma-in-it",
+    "summary": "Ontdek Cage With No Puma In It van Maarten de Reus, een werk uit 2007. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Maarten de Reus",
+    "year": "2007",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/cage-with-no-puma-in-it",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Maarten de Reus is hier vertegenwoordigd met Cage With No Puma In It (2007); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "e1b50d60-8392-5efb-9b61-967abd4e1da1",
+    "inventory_key": "sleutelwerk:188",
+    "category": "openbare-kunst",
+    "name": "De Wachters",
+    "city": "Venlo",
+    "province": "Limburg",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/de-wachters",
+    "summary": "Ontdek De Wachters van Shinkichi Tajiri, een werk uit 2007. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Shinkichi Tajiri",
+    "year": "2007",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/de-wachters",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Shinkichi Tajiri is hier vertegenwoordigd met De Wachters (2007); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "32a52e24-5cba-59c8-bf15-5dafc8f16958",
+    "inventory_key": "sleutelwerk:186",
+    "category": "openbare-kunst",
+    "name": "Call me",
+    "city": "Zwolle",
+    "province": "Overijssel",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/call-me",
+    "summary": "Ontdek Call me van Arnoud Holleman, een werk uit 2006. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Arnoud Holleman",
+    "year": "2006",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "tijdelijk",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/call-me",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Arnoud Holleman is hier vertegenwoordigd met Call me (2006); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "cb4b4f89-0e8d-5265-b177-754f2f170865",
+    "inventory_key": "sleutelwerk:184",
+    "category": "openbare-kunst",
+    "name": "L Essence de Mastenbroek",
+    "city": "Polder Mastenbroek",
+    "province": "Overijssel",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/lessence-de-mastenbroek",
+    "summary": "Ontdek L Essence de Mastenbroek van Birthe Leemeijer, een werk uit 2005. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Birthe Leemeijer",
+    "year": "2005",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "tijdelijk",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/lessence-de-mastenbroek",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Birthe Leemeijer is hier vertegenwoordigd met L Essence de Mastenbroek (2005); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "5454fbc3-5c7e-55da-b846-f8d14e8a1fd6",
+    "inventory_key": "sleutelwerk:180",
+    "category": "openbare-kunst",
+    "name": "Anton de Kom Monument",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/anton-de-kom-monument",
+    "summary": "Ontdek Anton de Kom Monument van Jikke van Loon, een werk uit 2005. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Jikke van Loon",
+    "year": "2005",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "monumenten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/anton-de-kom-monument",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Jikke van Loon is hier vertegenwoordigd met Anton de Kom Monument (2005); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "82f31801-0fa4-580e-a5c4-ec3624c00704",
+    "inventory_key": "sleutelwerk:178",
+    "category": "openbare-kunst",
+    "name": "Badende Beelden",
+    "city": "",
+    "province": "",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/badende-beelden",
+    "summary": "Ontdek Badende Beelden van David Bade, een werk uit 2004. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "David Bade",
+    "year": "2004",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/badende-beelden",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. David Bade is hier vertegenwoordigd met Badende Beelden (2004); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "431d50f4-8bbc-5ef0-896a-b1bc41449dd1",
+    "inventory_key": "sleutelwerk:176",
+    "category": "openbare-kunst",
+    "name": "Sloophamer Schatkamer",
+    "city": "Zaandam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/sloophamer-schatkamer",
+    "summary": "Ontdek Sloophamer Schatkamer van Ida van der Lee, een werk uit 2003. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Ida van der Lee",
+    "year": "2003",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "tijdelijk",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/sloophamer-schatkamer",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Ida van der Lee is hier vertegenwoordigd met Sloophamer Schatkamer (2003); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "41a3b93a-5262-5676-968c-2d3622841f8c",
+    "inventory_key": "sleutelwerk:174",
+    "category": "openbare-kunst",
+    "name": "Landingsbaan voor Buitenaardse Culturen",
+    "city": "Houten",
+    "province": "Utrecht",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/landingsbaan-voor-buitenaardse-culturen",
+    "summary": "Ontdek Landingsbaan voor Buitenaardse Culturen van Martin Riebeek, een werk uit 2003. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Martin Riebeek",
+    "year": "2003",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/landingsbaan-voor-buitenaardse-culturen",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Martin Riebeek is hier vertegenwoordigd met Landingsbaan voor Buitenaardse Culturen (2003); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "b961186b-a564-57d0-b120-60052cae736a",
+    "inventory_key": "sleutelwerk:172",
+    "category": "openbare-kunst",
+    "name": "IK",
+    "city": "Utrecht",
+    "province": "Utrecht",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/ik",
+    "summary": "Ontdek IK van Jan van Munster, een werk uit 2003. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Jan van Munster",
+    "year": "2003",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "gebouwen",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/ik",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Jan van Munster is hier vertegenwoordigd met IK (2003); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "e84c2030-3cb5-5563-b666-73f4a413f50f",
+    "inventory_key": "sleutelwerk:170",
+    "category": "openbare-kunst",
+    "name": "Nationaal Monument Slavernijverleden",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/nationaal-monument-slavernijverleden",
+    "summary": "Ontdek Nationaal Monument Slavernijverleden van Erwin de Vries, een werk uit 2002. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Erwin de Vries",
+    "year": "2002",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "monumenten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/nationaal-monument-slavernijverleden",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Erwin de Vries is hier vertegenwoordigd met Nationaal Monument Slavernijverleden (2002); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "b06f5a85-96fb-52f9-b418-9021dc7dc011",
+    "inventory_key": "sleutelwerk:168",
+    "category": "openbare-kunst",
+    "name": "De Zuil van Lely",
+    "city": "Lelystad",
+    "province": "",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/de-zuil-van-lely",
+    "summary": "Ontdek De Zuil van Lely van Hans van Houwelingen, een werk uit 2002. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Hans van Houwelingen",
+    "year": "2002",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/de-zuil-van-lely",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Hans van Houwelingen is hier vertegenwoordigd met De Zuil van Lely (2002); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "7c5bdaee-faf9-503e-b196-8dab0ce92d38",
+    "inventory_key": "sleutelwerk:165",
+    "category": "openbare-kunst",
+    "name": "Thinker on rock",
+    "city": "Utrecht",
+    "province": "Utrecht",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/thinker-on-rock",
+    "summary": "Ontdek Thinker on rock van Barry Flanagan, een werk uit 2002. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Barry Flanagan",
+    "year": "2002",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/thinker-on-rock",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Barry Flanagan is hier vertegenwoordigd met Thinker on rock (2002); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "dac5893a-78dc-5850-8d80-540a7c344266",
+    "inventory_key": "sleutelwerk:163",
+    "category": "openbare-kunst",
+    "name": "AVL-Ville",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/avl-ville",
+    "summary": "Ontdek AVL-Ville van Joep van Lieshout, een werk uit 2001. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Joep van Lieshout",
+    "year": "2001",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "tijdelijk",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/avl-ville",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Joep van Lieshout is hier vertegenwoordigd met AVL-Ville (2001); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "4c6cbb09-5b0b-5a5e-ba45-001f319e9cb0",
+    "inventory_key": "sleutelwerk:161",
+    "category": "openbare-kunst",
+    "name": "Santa Claus",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Oude Binnenweg 142–150 / Eendrachtsplein",
+    "website_url": "https://www.sculptureinternationalrotterdam.nl/collectie/santa-claus/",
+    "summary": "Een kerstman met dubbelzinnige attributen zet het vertrouwde feestbeeld op zijn kop. McCarthy mengt humor en ongemak, en laat je kijken naar de verleiding en overdaad van consumptiecultuur.",
+    "creator": "Paul McCarthy",
+    "year": "2001",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "brons",
+      "hedendaagse kunst",
+      "consumptiecultuur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/santa-claus",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.sculptureinternationalrotterdam.nl/collectie/santa-claus/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd vanwege de langdurige publieke discussie over het werk en zijn uitgesproken, satirische beeldtaal.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "2da81db8-de2e-540f-9765-501e72027e22",
+    "inventory_key": "sleutelwerk:159",
+    "category": "openbare-kunst",
+    "name": "Iets over Charlois",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/iets-over-charlois",
+    "summary": "Ontdek Iets over Charlois van Kamiel Verschuren, een werk uit 2001. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Kamiel Verschuren",
+    "year": "2001",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "tijdelijk",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/iets-over-charlois",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Kamiel Verschuren is hier vertegenwoordigd met Iets over Charlois (2001); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "73edd254-5d8f-5966-97d9-3c98ef3100fb",
+    "inventory_key": "sleutelwerk:157",
+    "category": "openbare-kunst",
+    "name": "Project Stolpersteine",
+    "city": "Landelijk",
+    "province": "",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/project-stolpersteine",
+    "summary": "Ontdek Project Stolpersteine van Gunter Demnig, een werk uit 2000. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Gunter Demnig",
+    "year": "2000",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "monumenten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/project-stolpersteine",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Gunter Demnig is hier vertegenwoordigd met Project Stolpersteine (2000); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "e97d3304-41ef-50a8-bcc2-ccc0a6dd0c2c",
+    "inventory_key": "sleutelwerk:155",
+    "category": "openbare-kunst",
+    "name": "Fontein",
+    "city": "Middelburg",
+    "province": "Zeeland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/fontein",
+    "summary": "Ontdek Fontein van Ilya en Emilia Kabakov, een werk uit 2000. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Ilya en Emilia Kabakov",
+    "year": "2000",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/fontein",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Ilya en Emilia Kabakov is hier vertegenwoordigd met Fontein (2000); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "28cbeebd-0bd8-5013-a650-7ac40a9e111a",
+    "inventory_key": "sleutelwerk:153",
+    "category": "openbare-kunst",
+    "name": "Flying Pins",
+    "city": "Eindhoven",
+    "province": "Noord-Brabant",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/flying-pins",
+    "summary": "Ontdek Flying Pins van Claes Oldenburg, een werk uit 2000. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Claes Oldenburg",
+    "year": "2000",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/flying-pins",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Claes Oldenburg is hier vertegenwoordigd met Flying Pins (2000); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "5fef26a0-b915-5432-a2be-1cbe9d29495a",
+    "inventory_key": "sleutelwerk:151",
+    "category": "openbare-kunst",
+    "name": "De Strip",
+    "city": "Vlaardingen",
+    "province": "",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/de-strip",
+    "summary": "Ontdek De Strip van Jeanne van Heeswijk, een werk uit 2000. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Jeanne van Heeswijk",
+    "year": "2000",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "tijdelijk",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/de-strip",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Jeanne van Heeswijk is hier vertegenwoordigd met De Strip (2000); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "3249fe0e-5f90-5908-894e-646d6c3ab354",
+    "inventory_key": "sleutelwerk:149",
+    "category": "openbare-kunst",
+    "name": "Zwevende steen",
+    "city": "Dalfsen",
+    "province": "Overijssel",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/zwevende-steen",
+    "summary": "Ontdek Zwevende steen van Bas Maters, een werk uit 1999. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Bas Maters",
+    "year": "1999",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/zwevende-steen",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Bas Maters is hier vertegenwoordigd met Zwevende steen (1999); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "ede67379-bf84-52e3-83dc-3e1856f14811",
+    "inventory_key": "sleutelwerk:147",
+    "category": "openbare-kunst",
+    "name": "A Filmic View of Ooststellingwerf",
+    "city": "Ooststellingwerf",
+    "province": "Friesland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/a-filmic-view-of-ooststellingwerf",
+    "summary": "Ontdek A Filmic View of Ooststellingwerf van Job Koelewijn, een werk uit 1999. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Job Koelewijn",
+    "year": "1999",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "tijdelijk",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/a-filmic-view-of-ooststellingwerf",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Job Koelewijn is hier vertegenwoordigd met A Filmic View of Ooststellingwerf (1999); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "10f48a60-6de8-58f9-8e5b-beb905c57b1f",
+    "inventory_key": "sleutelwerk:145",
+    "category": "openbare-kunst",
+    "name": "Fallen",
+    "city": "Almere",
+    "province": "Flevoland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/fallen",
+    "summary": "Ontdek Fallen van Thom Puckey, een werk uit 1999. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Thom Puckey",
+    "year": "1999",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/fallen",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Thom Puckey is hier vertegenwoordigd met Fallen (1999); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "732421a3-f05d-5502-b6f1-adebc1e7a596",
+    "inventory_key": "sleutelwerk:143",
+    "category": "openbare-kunst",
+    "name": "Sanctuarium",
+    "city": "Zeewolde",
+    "province": "",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/sanctuarium",
+    "summary": "Ontdek Sanctuarium van herman de vries, een werk uit 1999. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "herman de vries",
+    "year": "1999",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "land art",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/sanctuarium",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. herman de vries is hier vertegenwoordigd met Sanctuarium (1999); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "091ae7a2-e819-5467-a24c-9e3a5ad6d50f",
+    "inventory_key": "sleutelwerk:141",
+    "category": "openbare-kunst",
+    "name": "De Olifanten",
+    "city": "Almere",
+    "province": "Flevoland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/de-olifanten",
+    "summary": "Ontdek De Olifanten van Tom Claassen, een werk uit 1999. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Tom Claassen",
+    "year": "1999",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/de-olifanten",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Tom Claassen is hier vertegenwoordigd met De Olifanten (1999); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "ff72b4ca-3db9-5188-8cd2-06d4225701cd",
+    "inventory_key": "sleutelwerk:137",
+    "category": "openbare-kunst",
+    "name": "UFO Zover",
+    "city": "Utrecht",
+    "province": "Utrecht",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/ufo-zover",
+    "summary": "Ontdek UFO Zover van Marc Ruygrok, een werk uit 1999. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Marc Ruygrok",
+    "year": "1999",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "gebouwen",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/ufo-zover",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Marc Ruygrok is hier vertegenwoordigd met UFO Zover (1999); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "57cdd2bd-deb4-547b-b459-4a18f8190297",
+    "inventory_key": "sleutelwerk:135",
+    "category": "openbare-kunst",
+    "name": "Uithangborden",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/uithangborden",
+    "summary": "Ontdek Uithangborden van Guido Geelen, een werk uit 1998. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Guido Geelen",
+    "year": "1998",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/uithangborden",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Guido Geelen is hier vertegenwoordigd met Uithangborden (1998); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "7f7b2fb2-4df4-528d-b045-bc2e5ee24e21",
+    "inventory_key": "sleutelwerk:133",
+    "category": "openbare-kunst",
+    "name": "Portaal",
+    "city": "Groningen",
+    "province": "Groningen",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/portaal",
+    "summary": "Ontdek Portaal van Gert Sennema, een werk uit 1997. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Gert Sennema",
+    "year": "1997",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "monumenten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/portaal",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Gert Sennema is hier vertegenwoordigd met Portaal (1997); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "5e6c1502-5786-5ba3-9773-a3482888c18c",
+    "inventory_key": "sleutelwerk:131",
+    "category": "openbare-kunst",
+    "name": "De Knoop",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/de-knoop",
+    "summary": "Ontdek De Knoop van André Volten, een werk uit 1996. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "André Volten",
+    "year": "1996",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/de-knoop",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. André Volten is hier vertegenwoordigd met De Knoop (1996); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "99c94e97-ba87-5cba-8a04-a1b818d99c88",
+    "inventory_key": "sleutelwerk:129",
+    "category": "openbare-kunst",
+    "name": "Het Hemels Gewelf",
+    "city": "Den Haag",
+    "province": "Zuid-Holland",
+    "street_address": "Machiel Vrijenhoeklaan, Kijkduin",
+    "website_url": "https://www.stroom.nl/kunst-in-de-stad/kunst-in-de-openbare-ruimte",
+    "summary": "Een komvorm in het duinlandschap verandert hoe je naar de lucht kijkt. Turrell maakt de hemel zelf tot onderdeel van het werk. Neem de tijd en merk hoe je waarneming de ruimte mee vormt.",
+    "creator": "James Turrell",
+    "year": "1996",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "land art",
+      "licht",
+      "waarneming"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/het-hemels-gewelf",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.stroom.nl/kunst-in-de-stad/kunst-in-de-openbare-ruimte",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stroom uitgelicht als iconisch Haags land-artproject, met een uitzonderlijke nadruk op licht en waarneming.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "ae97891a-3a14-5be7-8fc2-918c96aba98d",
+    "inventory_key": "sleutelwerk:127",
+    "category": "openbare-kunst",
+    "name": "De Groene Kathedraal",
+    "city": "Almere",
+    "province": "Flevoland",
+    "street_address": "Kathedralenpad, vanaf Tureluurweg",
+    "website_url": "https://landartflevoland.nl/kunstwerken/marinus-boezem-de-groene-kathedraal/",
+    "summary": "Populieren tekenen de plattegrond van een kathedraal in het landschap. Wandel tussen de bomen en ervaar hoe groei, licht en seizoenen de architectuur voortdurend veranderen.",
+    "creator": "Marinus Boezem",
+    "year": "1996",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "land art",
+      "bomen",
+      "architectuur",
+      "landschap"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/de-groene-kathedraal",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://landartflevoland.nl/kunstwerken/marinus-boezem-de-groene-kathedraal/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Een internationaal herkenbaar land-artwerk waarin gotische architectuur wordt vertaald naar een levend landschap.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "ddbd71b0-2a4d-53b6-a9e5-a4e6355ca6e0",
+    "inventory_key": "sleutelwerk:125",
+    "category": "openbare-kunst",
+    "name": "Douche",
+    "city": "Schiphol",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/douche",
+    "summary": "Ontdek Douche van Marijke van Warmerdam, een werk uit 1995. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Marijke van Warmerdam",
+    "year": "1995",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "tijdelijk",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/douche",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Marijke van Warmerdam is hier vertegenwoordigd met Douche (1995); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "239a2249-04a4-5c86-9715-efc8a48a3141",
+    "inventory_key": "sleutelwerk:123",
+    "category": "openbare-kunst",
+    "name": "Energy",
+    "city": "Lochem",
+    "province": "Gelderland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/energy",
+    "summary": "Ontdek Energy van Shlomo Korèn, een werk uit 1995. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Shlomo Korèn",
+    "year": "1995",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "land art",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/energy",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Shlomo Korèn is hier vertegenwoordigd met Energy (1995); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "1a01925b-df68-586d-9a3a-bee25e0344ae",
+    "inventory_key": "sleutelwerk:121",
+    "category": "openbare-kunst",
+    "name": "Engelenzender",
+    "city": "Enkhuizen-Lelystad",
+    "province": "",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/engelenzender",
+    "summary": "Ontdek Engelenzender van Moniek Toebosch, een werk uit 1994. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Moniek Toebosch",
+    "year": "1994",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "tijdelijk",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/engelenzender",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Moniek Toebosch is hier vertegenwoordigd met Engelenzender (1994); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "61478e1a-623c-58bf-93bb-4edb1682d757",
+    "inventory_key": "sleutelwerk:119",
+    "category": "openbare-kunst",
+    "name": "Monument voor de Benzinepomp",
+    "city": "Lunteren",
+    "province": "Gelderland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/monument-voor-de-benzinepomp",
+    "summary": "Ontdek Monument voor de Benzinepomp van Henk Visch, een werk uit 1993. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Henk Visch",
+    "year": "1993",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/monument-voor-de-benzinepomp",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Henk Visch is hier vertegenwoordigd met Monument voor de Benzinepomp (1993); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "0e62bef2-130d-5b63-81c2-effffbb42c5a",
+    "inventory_key": "sleutelwerk:117",
+    "category": "openbare-kunst",
+    "name": "Basketball Court #6",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/basketball-court-6",
+    "summary": "Ontdek Basketball Court #6 van Harmen de Hoop, een werk uit 1992. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Harmen de Hoop",
+    "year": "1992",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "tijdelijk",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/basketball-court-6",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Harmen de Hoop is hier vertegenwoordigd met Basketball Court #6 (1992); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "138feae3-fe9e-5c62-8d5f-711638c57c38",
+    "inventory_key": "sleutelwerk:115",
+    "category": "openbare-kunst",
+    "name": "Botanische geluidswal",
+    "city": "Rhoon",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/botanische-geluidswal",
+    "summary": "Ontdek Botanische geluidswal van Krijn Giezen, een werk uit 1991. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Krijn Giezen",
+    "year": "1991",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "land art",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/botanische-geluidswal",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Krijn Giezen is hier vertegenwoordigd met Botanische geluidswal (1991); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "788cab45-59d8-5b1e-b36a-bd041b21b133",
+    "inventory_key": "sleutelwerk:113",
+    "category": "openbare-kunst",
+    "name": "Melly Shum hates her job",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/melly-shum-hates-her-job",
+    "summary": "Ontdek Melly Shum hates her job van Ken Lum, een werk uit 1990. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Ken Lum",
+    "year": "1990",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "gebouwen",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/melly-shum-hates-her-job",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Ken Lum is hier vertegenwoordigd met Melly Shum hates her job (1990); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "5f8c90fe-32b5-5263-9e88-1b0d76e5e115",
+    "inventory_key": "sleutelwerk:111",
+    "category": "openbare-kunst",
+    "name": "Strandbeesten",
+    "city": "Landelijk",
+    "province": "",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/strandbeesten",
+    "summary": "Ontdek Strandbeesten van Theo Jansen, een werk uit 1990. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Theo Jansen",
+    "year": "1990",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "tijdelijk",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/strandbeesten",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Theo Jansen is hier vertegenwoordigd met Strandbeesten (1990); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "bde9e5a2-3535-5312-8a14-32d8f201849a",
+    "inventory_key": "sleutelwerk:109",
+    "category": "openbare-kunst",
+    "name": "Boomzagertje",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/boomzagertje",
+    "summary": "Ontdek Boomzagertje van De Onbekende Beeldhouwer, een werk uit 1989. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "De Onbekende Beeldhouwer",
+    "year": "1989",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/boomzagertje",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. De Onbekende Beeldhouwer is hier vertegenwoordigd met Boomzagertje (1989); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "72bc1774-58a4-591a-bdef-d8720c2854ff",
+    "inventory_key": "sleutelwerk:107",
+    "category": "openbare-kunst",
+    "name": "Het Wiel",
+    "city": "Tilburg",
+    "province": "Noord-Brabant",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/het-wiel",
+    "summary": "Ontdek Het Wiel van Gerrit van Bakel, een werk uit 1989. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Gerrit van Bakel",
+    "year": "1989",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/het-wiel",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Gerrit van Bakel is hier vertegenwoordigd met Het Wiel (1989); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "15455641-d315-5e7b-8e37-988158e2353f",
+    "inventory_key": "sleutelwerk:105",
+    "category": "openbare-kunst",
+    "name": "Monument Koningin Wilhelmina",
+    "city": "Den Haag",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/monument-koningin-wilhelmina",
+    "summary": "Ontdek Monument Koningin Wilhelmina van Charlotte van Pallandt, een werk uit 1987. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Charlotte van Pallandt",
+    "year": "1987",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "monumenten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/monument-koningin-wilhelmina",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Charlotte van Pallandt is hier vertegenwoordigd met Monument Koningin Wilhelmina (1987); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "f5bc963b-f68b-519b-81fa-c3103b52bcb2",
+    "inventory_key": "sleutelwerk:103",
+    "category": "openbare-kunst",
+    "name": "Homomonument",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/homomonument",
+    "summary": "Ontdek Homomonument van Karin Daan, een werk uit 1987. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Karin Daan",
+    "year": "1987",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "monumenten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/homomonument",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Karin Daan is hier vertegenwoordigd met Homomonument (1987); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "f7a3fe33-7de2-5ec0-97d5-0bf19f3138a9",
+    "inventory_key": "sleutelwerk:101",
+    "category": "openbare-kunst",
+    "name": "Zonder titel (muurschildering)",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/zonder-titel-muurschildering",
+    "summary": "Ontdek Zonder titel (muurschildering) van Keith Haring, een werk uit 1986. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Keith Haring",
+    "year": "1986",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "gebouwen",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/zonder-titel-muurschildering",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Keith Haring is hier vertegenwoordigd met Zonder titel (muurschildering) (1986); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "92c2492f-f037-5b9a-b3f1-29d981db9c99",
+    "inventory_key": "sleutelwerk:99",
+    "category": "openbare-kunst",
+    "name": "Mama Baranka",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Vondelpark",
+    "website_url": "https://www.amsterdammuseum.nl/nieuws/nelson-carrilho-1953-2026/269649",
+    "summary": "Mama Baranka staat stil bij de racistische moord op Kerwin Duinmeijer. Carrilho geeft herinnering een beschermende, menselijke vorm. Een beeld dat uitnodigt tot aandacht voor verbondenheid en de gevolgen van uitsluiting.",
+    "creator": "Nelson Carrilho",
+    "year": "1984",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "monument",
+      "figuratief",
+      "antiracisme",
+      "herdenken"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/mama-baranka",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.amsterdammuseum.nl/nieuws/nelson-carrilho-1953-2026/269649",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Belangrijk antiracismemonument, opnieuw inhoudelijk bevestigd door het Amsterdam Museum in 2026.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "43f3628f-516c-55c6-b509-8ff3c7ef99ca",
+    "inventory_key": "sleutelwerk:97",
+    "category": "openbare-kunst",
+    "name": "Maasbeeld",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Bolwerk, bij de Willemsbrug",
+    "website_url": "https://www.sculptureinternationalrotterdam.nl/collectie/maasbeeld/",
+    "summary": "Een lijn van kabels en vormen lijkt boven de Maas te balanceren. Het Maasbeeld verbindt brug, rivier en kade tot één compositie. Kijk hoe een groot werk toch licht en beweeglijk kan ogen.",
+    "creator": "Auke de Vries",
+    "year": "1982",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "staal",
+      "abstract",
+      "water",
+      "installaties"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/maasbeeld",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.sculptureinternationalrotterdam.nl/collectie/maasbeeld/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Een uitgesproken plaatsgebonden sculptuur die de schaal van de rivier en de constructie van de brug in haar compositie opneemt.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "77b0b0cc-905a-5e65-a569-d1f664cf2ae2",
+    "inventory_key": "sleutelwerk:95",
+    "category": "openbare-kunst",
+    "name": "Aardzee",
+    "city": "Zeewolde",
+    "province": "",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/aardzee",
+    "summary": "Ontdek Aardzee van Piet Slegers, een werk uit 1982. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Piet Slegers",
+    "year": "1982",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "land art",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/aardzee",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Piet Slegers is hier vertegenwoordigd met Aardzee (1982); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "6719d67e-78a2-5a40-acba-c42fca5ac02a",
+    "inventory_key": "sleutelwerk:93",
+    "category": "openbare-kunst",
+    "name": "Sint Servaas beschut door adelaar",
+    "city": "Maastricht",
+    "province": "Limburg",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/sint-servaas-beschut-door-adelaar",
+    "summary": "Ontdek Sint Servaas beschut door adelaar van Han van Wetering, een werk uit 1981. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Han van Wetering",
+    "year": "1981",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/sint-servaas-beschut-door-adelaar",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Han van Wetering is hier vertegenwoordigd met Sint Servaas beschut door adelaar (1981); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "59fb2af5-54d6-5db9-a047-b35fb7d7d810",
+    "inventory_key": "sleutelwerk:91",
+    "category": "openbare-kunst",
+    "name": "Torentje van Drienerlo",
+    "city": "Enschede",
+    "province": "Overijssel",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/torentje-van-drienerlo",
+    "summary": "Ontdek Torentje van Drienerlo van Wim T. Schippers, een werk uit 1979. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Wim T. Schippers",
+    "year": "1979",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/torentje-van-drienerlo",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Wim T. Schippers is hier vertegenwoordigd met Torentje van Drienerlo (1979); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "23b28698-23b9-5dd4-a4cd-49b4c08b8938",
+    "inventory_key": "sleutelwerk:89",
+    "category": "openbare-kunst",
+    "name": "Blauwe Golven",
+    "city": "Arnhem",
+    "province": "Gelderland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/blauwe-golven",
+    "summary": "Ontdek Blauwe Golven van Peter Struycken, een werk uit 1977. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Peter Struycken",
+    "year": "1977",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/blauwe-golven",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Peter Struycken is hier vertegenwoordigd met Blauwe Golven (1977); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "6ee27eb8-3cec-5d2e-b5cb-ae796ca91532",
+    "inventory_key": "sleutelwerk:87",
+    "category": "openbare-kunst",
+    "name": "Observatorium",
+    "city": "Lelystad",
+    "province": "",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/observatorium",
+    "summary": "Ontdek Observatorium van Robert Morris, een werk uit 1977. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Robert Morris",
+    "year": "1977",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "land art",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/observatorium",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Robert Morris is hier vertegenwoordigd met Observatorium (1977); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "18e601ba-abe4-52fe-bf6a-5fe8dab49ec0",
+    "inventory_key": "sleutelwerk:85",
+    "category": "openbare-kunst",
+    "name": "Swing",
+    "city": "Eindhoven",
+    "province": "Noord-Brabant",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/swing",
+    "summary": "Ontdek Swing van Arie Berkulin, een werk uit 1977. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Arie Berkulin",
+    "year": "1977",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/swing",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Arie Berkulin is hier vertegenwoordigd met Swing (1977); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "d9436192-226d-5725-9d97-b0cb247c2c37",
+    "inventory_key": "sleutelwerk:83",
+    "category": "openbare-kunst",
+    "name": "Ritme van Drie",
+    "city": "Bleiswijk",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/ritme-van-drie",
+    "summary": "Ontdek Ritme van Drie van Lon Pennock, een werk uit 1974. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Lon Pennock",
+    "year": "1974",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/ritme-van-drie",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Lon Pennock is hier vertegenwoordigd met Ritme van Drie (1974); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "f70e8b05-e8ba-5ff7-b6e0-f34da7e1370c",
+    "inventory_key": "sleutelwerk:81",
+    "category": "openbare-kunst",
+    "name": "Koopvaardijmonument",
+    "city": "Vlissingen",
+    "province": "Zeeland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/koopvaardijmonument",
+    "summary": "Ontdek Koopvaardijmonument van Wessel Couzijn, een werk uit 1974. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Wessel Couzijn",
+    "year": "1974",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "monumenten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/koopvaardijmonument",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Wessel Couzijn is hier vertegenwoordigd met Koopvaardijmonument (1974); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "unknown",
+    "publication_status": "draft"
+  },
+  {
+    "id": "d311281f-dca7-5fff-bd8b-3f1e128e5cb1",
+    "inventory_key": "sleutelwerk:79",
+    "category": "openbare-kunst",
+    "name": "Tegelreliëf",
+    "city": "Bergeijk",
+    "province": "Noord-Brabant",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/tegelrelief",
+    "summary": "Ontdek Tegelreliëf van Ad Dekkers, een werk uit 1971. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Ad Dekkers",
+    "year": "1971",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/tegelrelief",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Ad Dekkers is hier vertegenwoordigd met Tegelreliëf (1971); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "4cdcf87b-2b75-5cdf-a9b1-0f01319e97aa",
+    "inventory_key": "sleutelwerk:77",
+    "category": "openbare-kunst",
+    "name": "Broken Circle and Spiral Hill",
+    "city": "Emmen",
+    "province": "Drenthe",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/broken-circle-and-spiral-hill",
+    "summary": "Ontdek Broken Circle and Spiral Hill van Robert Smithson, een werk uit 1971. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Robert Smithson",
+    "year": "1971",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "land art",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/broken-circle-and-spiral-hill",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Robert Smithson is hier vertegenwoordigd met Broken Circle and Spiral Hill (1971); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "20457c75-301e-511e-bc6e-af9401fbc9a1",
+    "inventory_key": "sleutelwerk:75",
+    "category": "openbare-kunst",
+    "name": "Zonder Titel (glas-in-beton reliëf)",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/zonder-titel-glas-in-beton-relief",
+    "summary": "Ontdek Zonder Titel (glas-in-beton reliëf) van Karel Appel, een werk uit 1970. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Karel Appel",
+    "year": "1970",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "gebouwen",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/zonder-titel-glas-in-beton-relief",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Karel Appel is hier vertegenwoordigd met Zonder Titel (glas-in-beton reliëf) (1970); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "13682c49-5988-5d7f-b83b-d02a39e2033c",
+    "inventory_key": "sleutelwerk:73",
+    "category": "openbare-kunst",
+    "name": "Nationaal Monument Westerbork",
+    "city": "Hooghalen",
+    "province": "Drenthe",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/nationaal-monument-westerbork",
+    "summary": "Ontdek Nationaal Monument Westerbork van Ralph Prins, een werk uit 1970. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Ralph Prins",
+    "year": "1970",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "monumenten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/nationaal-monument-westerbork",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Ralph Prins is hier vertegenwoordigd met Nationaal Monument Westerbork (1970); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "d89a7669-7ce0-54cb-b339-4fb57bbb6eda",
+    "inventory_key": "sleutelwerk:71",
+    "category": "openbare-kunst",
+    "name": "Betonreliëf",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/betonrelief",
+    "summary": "Ontdek Betonreliëf van Karla Kaper, een werk uit 1970. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Karla Kaper",
+    "year": "1970",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "gebouwen",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/betonrelief",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Karla Kaper is hier vertegenwoordigd met Betonreliëf (1970); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "cedd2f63-18bf-535f-8640-d34caef0d90a",
+    "inventory_key": "sleutelwerk:69",
+    "category": "openbare-kunst",
+    "name": "Monument Rijkswaterstaat",
+    "city": "Den Haag",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/monument-rijkswaterstaat",
+    "summary": "Ontdek Monument Rijkswaterstaat van Joop Beljon, een werk uit 1969. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Joop Beljon",
+    "year": "1969",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/monument-rijkswaterstaat",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Joop Beljon is hier vertegenwoordigd met Monument Rijkswaterstaat (1969); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "8f920793-8222-56b7-b0e9-d230b7367c49",
+    "inventory_key": "sleutelwerk:67",
+    "category": "openbare-kunst",
+    "name": "Salami",
+    "city": "Delft",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/salami",
+    "summary": "Ontdek Salami van Carel Visser, een werk uit 1969. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Carel Visser",
+    "year": "1969",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/salami",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Carel Visser is hier vertegenwoordigd met Salami (1969); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "525ee5e0-532c-5ac0-8765-2222ca8b4e76",
+    "inventory_key": "sleutelwerk:65",
+    "category": "openbare-kunst",
+    "name": "Zonder titel (betonplastieken)",
+    "city": "Delfzijl",
+    "province": "Groningen",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/zonder-titel-betonplastieken",
+    "summary": "Ontdek Zonder titel (betonplastieken) van Jaap van der Meij, een werk uit 1968. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Jaap van der Meij",
+    "year": "1968",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "gebouwen",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/zonder-titel-betonplastieken",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Jaap van der Meij is hier vertegenwoordigd met Zonder titel (betonplastieken) (1968); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "79ae9a67-1562-5f66-931a-f389f6129679",
+    "inventory_key": "sleutelwerk:63",
+    "category": "openbare-kunst",
+    "name": "Ecokathedraal",
+    "city": "Mildam",
+    "province": "Friesland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/ecokathedraal",
+    "summary": "Ontdek Ecokathedraal van Louis le Roy, een werk uit 1965. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Louis le Roy",
+    "year": "1965",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "land art",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/ecokathedraal",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Louis le Roy is hier vertegenwoordigd met Ecokathedraal (1965); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "5581d7f9-c89f-5384-adb6-71bcb86a4643",
+    "inventory_key": "sleutelwerk:61",
+    "category": "openbare-kunst",
+    "name": "Zonder titel",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/zonder-titel-2",
+    "summary": "Ontdek Zonder titel van Louis van Roode, een werk uit 1958. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Louis van Roode",
+    "year": "1958",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "gebouwen",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/zonder-titel-2",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Louis van Roode is hier vertegenwoordigd met Zonder titel (1958); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "e68044ee-b53e-5241-8519-ba52f32e7b77",
+    "inventory_key": "sleutelwerk:59",
+    "category": "openbare-kunst",
+    "name": "Natuur en techniek",
+    "city": "Den Haag",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/natuur-en-techniek",
+    "summary": "Ontdek Natuur en techniek van Harry op de Laak, een werk uit 1957. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Harry op de Laak",
+    "year": "1957",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "gebouwen",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/natuur-en-techniek",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Harry op de Laak is hier vertegenwoordigd met Natuur en techniek (1957); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "fd4a22df-5d06-57ed-8f01-138c270dd534",
+    "inventory_key": "sleutelwerk:57",
+    "category": "openbare-kunst",
+    "name": "Zonder titel",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/zonder-titel-3",
+    "summary": "Ontdek Zonder titel van Naum Gabo, een werk uit 1957. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Naum Gabo",
+    "year": "1957",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/zonder-titel-3",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Naum Gabo is hier vertegenwoordigd met Zonder titel (1957); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "ec4bbfd5-5e74-5c8b-a0fc-04823afa86d7",
+    "inventory_key": "sleutelwerk:55",
+    "category": "openbare-kunst",
+    "name": "Monsieur Jacques",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Coolsingel 123",
+    "website_url": "https://www.sculptureinternationalrotterdam.nl/collectie/monsieur-jacques/",
+    "summary": "Met de borst vooruit en de hoed op de rug kijkt Monsieur Jacques tevreden om zich heen. Geen portret van één man, maar een karakter in brons. Ontdek hoe weinig details nodig zijn om een houding herkenbaar te maken.",
+    "creator": "Oswald Wenckebach",
+    "year": "1959",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "brons",
+      "figuratief",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/monsieur-jacques",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.sculptureinternationalrotterdam.nl/collectie/monsieur-jacques/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Een geliefd stedelijk personage en een helder voorbeeld van gestileerde figuratieve beeldhouwkunst in de wederopbouwperiode.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "5577e44d-475b-5463-b67b-bd638f59c2d1",
+    "inventory_key": "sleutelwerk:53",
+    "category": "openbare-kunst",
+    "name": "Nationaal Monument op de Dam",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/nationaal-monument-op-de-dam",
+    "summary": "Ontdek Nationaal Monument op de Dam van J.J.P. Oud, een werk uit 1956. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "J.J.P. Oud",
+    "year": "1956",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "monumenten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/nationaal-monument-op-de-dam",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. J.J.P. Oud is hier vertegenwoordigd met Nationaal Monument op de Dam (1956); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "a7588e3e-3b8f-55fb-9990-78cca8443b60",
+    "inventory_key": "sleutelwerk:51",
+    "category": "openbare-kunst",
+    "name": "Wall Relief No.1",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/wall-relief-no-1",
+    "summary": "Ontdek Wall Relief No.1 van Henry Moore, een werk uit 1955. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Henry Moore",
+    "year": "1955",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "gebouwen",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/wall-relief-no-1",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Henry Moore is hier vertegenwoordigd met Wall Relief No.1 (1955); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "b21f4077-1ac8-5e62-b02d-f43d38fe49db",
+    "inventory_key": "sleutelwerk:49",
+    "category": "openbare-kunst",
+    "name": "De verwoeste stad",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Leuvehaven 1A",
+    "website_url": "https://www.sculptureinternationalrotterdam.nl/collectie/de-verwoeste-stad/",
+    "summary": "Opgeheven armen en een open plek in het lichaam verbeelden een stad die haar hart verloor. Zadkines figuur maakt de herinnering aan het bombardement voelbaar, zonder het letterlijk uit te beelden.",
+    "creator": "Ossip Zadkine",
+    "year": "1953",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "brons",
+      "monument",
+      "herdenken",
+      "moderne kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/de-verwoeste-stad",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.sculptureinternationalrotterdam.nl/collectie/de-verwoeste-stad/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Internationaal bekend icoon van de wederopbouwstad en een krachtig voorbeeld van moderne herdenkingskunst.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "accfe7f4-0c7c-5dd3-a442-bdd8aecaa681",
+    "inventory_key": "sleutelwerk:42",
+    "category": "openbare-kunst",
+    "name": "De Dokwerker",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/de-dokwerker",
+    "summary": "Ontdek De Dokwerker van Mari Andriessen, een werk uit 1952. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Mari Andriessen",
+    "year": "1952",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "monumenten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/de-dokwerker",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Mari Andriessen is hier vertegenwoordigd met De Dokwerker (1952); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "6e00d1b5-e7dc-5ca2-a085-14274c61b78c",
+    "inventory_key": "sleutelwerk:39",
+    "category": "openbare-kunst",
+    "name": "Eert de vrouw",
+    "city": "Arnhem",
+    "province": "Gelderland",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/eert-de-vrouw",
+    "summary": "Ontdek Eert de vrouw van Nel Klaassen, een werk uit 1949. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Nel Klaassen",
+    "year": "1949",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/eert-de-vrouw",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Nel Klaassen is hier vertegenwoordigd met Eert de vrouw (1949); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "a628f572-fafe-5103-97f8-1fc05c14e7d4",
+    "inventory_key": "sleutelwerk:36",
+    "category": "openbare-kunst",
+    "name": "Iglo",
+    "city": "Landelijk",
+    "province": "",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/iglo",
+    "summary": "Ontdek Iglo van Aldo van Eyck, een werk uit 1947. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Aldo van Eyck",
+    "year": "1947",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "objecten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/iglo",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Aldo van Eyck is hier vertegenwoordigd met Iglo (1947); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "090695cf-fb67-5713-9c9b-358793fa424c",
+    "inventory_key": "sleutelwerk:44",
+    "category": "openbare-kunst",
+    "name": "Limburgs Bevrijdingsmonument",
+    "city": "Maastricht",
+    "province": "Limburg",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/limburgs-bevrijdingsmonument",
+    "summary": "Ontdek Limburgs Bevrijdingsmonument van Charles Eyck, een werk uit 1952. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Charles Eyck",
+    "year": "1952",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "monumenten",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/limburgs-bevrijdingsmonument",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Charles Eyck is hier vertegenwoordigd met Limburgs Bevrijdingsmonument (1952); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "37620b0f-9981-53b3-996a-28385f7fe83a",
+    "inventory_key": "sleutelwerk:47",
+    "category": "openbare-kunst",
+    "name": "voormalig Rijksluchtvaartschool",
+    "city": "Eelde",
+    "province": "Drenthe",
+    "street_address": "",
+    "website_url": "https://www.sleutelwerken.nl/kunstwerken/voormalig-rijksluchtvaartschool",
+    "summary": "Ontdek voormalig Rijksluchtvaartschool van Bart van der Leck, een werk uit 1953. Deze keuze uit Sleutelwerken nodigt uit om met andere ogen naar de openbare ruimte te kijken. Bekijk hoe kunst en omgeving elkaar ontmoeten.",
+    "creator": "Bart van der Leck",
+    "year": "1953",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "sleutelwerk",
+      "gebouwen",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Sleutelwerken · officiële selectie",
+        "url": "https://www.sleutelwerken.nl/kunstwerken/voormalig-rijksluchtvaartschool",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Bart van der Leck is hier vertegenwoordigd met voormalig Rijksluchtvaartschool (1953); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
+    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "draft"
+  },
+  {
+    "id": "97eaee36-b8f6-5407-8fac-8ebfe21c8d04",
+    "inventory_key": "public:www.sculptureinternationalrotterdam.nl/collectie/a-minute-of-shelter:A Minute of Shelter",
+    "category": "openbare-kunst",
+    "name": "A Minute of Shelter",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Coolsingel",
+    "website_url": "https://www.sculptureinternationalrotterdam.nl/collectie/a-minute-of-shelter/",
+    "summary": "Een bakstenen wand verbeeldt de badkamer als mogelijke schuilplek. Loop langs beide kanten en ontdek hoe alledaagse vormen een aangrijpend verhaal over huiselijk geweld en veiligheid vertellen.",
+    "creator": "Narges Mohammadi",
+    "year": "2025",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "monument",
+      "baksteen",
+      "maatschappij"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.sculptureinternationalrotterdam.nl/collectie/a-minute-of-shelter/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd om de combinatie van een herkenbare huiselijke ruimte, onverwacht materiaal en een actueel maatschappelijk onderwerp.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "b077afae-d9b0-50f4-b0df-cb569faf7ec6",
+    "inventory_key": "public:www.sculptureinternationalrotterdam.nl/collectie/zonder-titel-7:Zonder titel – André Volten",
+    "category": "openbare-kunst",
+    "name": "Zonder titel – André Volten",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Middenberm Dordtselaan",
+    "website_url": "https://www.sculptureinternationalrotterdam.nl/collectie/zonder-titel-7/",
+    "summary": "Stalen profielen worden een hoge, ritmische constructie. Volten laat zware materialen bijna als lijnen in de lucht werken. Sinds de herplaatsing in 2024 krijgt het beeld opnieuw een rol in het straatbeeld.",
+    "creator": "André Volten",
+    "year": "1964",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "abstract",
+      "staal",
+      "naoorlogse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.sculptureinternationalrotterdam.nl/collectie/zonder-titel-7/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Kenmerkend voorbeeld van Voltens constructieve beeldhouwkunst; de recente herplaatsing maakt ook behoud en hergebruik van openbare kunst zichtbaar.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "6e40b6c1-36e4-5ad5-b158-79e43441d39b",
+    "inventory_key": "public:www.sculptureinternationalrotterdam.nl/collectie/monument-voor-alle-gevallenen:Monument voor alle gevallenen 1940–1945",
+    "category": "openbare-kunst",
+    "name": "Monument voor alle gevallenen 1940–1945",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Stadhuisplein 16",
+    "website_url": "https://www.sculptureinternationalrotterdam.nl/collectie/monument-voor-alle-gevallenen/",
+    "summary": "Vier bronzen figuren verbinden verdriet met de wil om verder te leven. Bekijk hun houdingen en onderlinge verhoudingen: in één groep komen herinnering, verzet en wederopbouw samen.",
+    "creator": "Mari Andriessen",
+    "year": "1957",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "monument",
+      "brons",
+      "herdenken",
+      "figuratief"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.sculptureinternationalrotterdam.nl/collectie/monument-voor-alle-gevallenen/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Belangrijk naoorlogs herdenkingsensemble van Mari Andriessen, ruimtelijk verbonden met het historische stadhuis en de wederopbouwstad.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "3fe0901e-4a52-56b4-b8f8-03e87f955703",
+    "inventory_key": "public:www.sculptureinternationalrotterdam.nl/collectie/moments-contained:Moments Contained",
+    "category": "openbare-kunst",
+    "name": "Moments Contained",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Stationsplein",
+    "website_url": "https://www.sculptureinternationalrotterdam.nl/collectie/moments-contained/",
+    "summary": "Een alledaagse jonge vrouw krijgt monumentale schaal. Haar houding lijkt ontspannen, maar details vertellen meer. Het beeld nodigt uit om na te denken over wie we op een voetstuk zetten en wie we herkennen.",
+    "creator": "Thomas J Price",
+    "year": "2023",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "brons",
+      "figuratief",
+      "identiteit",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.sculptureinternationalrotterdam.nl/collectie/moments-contained/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Opmerkelijk door het monumentale formaat van een niet-heroïsche figuur en de vragen die het werk stelt over representatie in de stad.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "6d69ae72-1a37-575c-a47b-9216e7db4e18",
+    "inventory_key": "public:www.sculptureinternationalrotterdam.nl/collectie/lage-dor:L’Âge d’Or",
+    "category": "openbare-kunst",
+    "name": "L’Âge d’Or",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Wilhelminapier",
+    "website_url": "https://www.sculptureinternationalrotterdam.nl/collectie/lage-dor/",
+    "summary": "Een deur in de buitenruimte wordt een uitnodiging om anders te kijken. Gavin Turk geeft een herkenbaar object een onverwachte status en laat de omgeving onderdeel worden van het beeld.",
+    "creator": "Gavin Turk",
+    "year": "2021",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "brons",
+      "conceptuele kunst",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.sculptureinternationalrotterdam.nl/collectie/lage-dor/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd als conceptuele ingreep die een alledaagse doorgang op monumentale schaal naar de publieke ruimte verplaatst.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "c7edf224-ce50-5d81-b9ee-1881fb859bb2",
+    "inventory_key": "public:www.sculptureinternationalrotterdam.nl/collectie/de-vlecht:De vlecht",
+    "category": "openbare-kunst",
+    "name": "De vlecht",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Westersingel",
+    "website_url": "https://www.sculptureinternationalrotterdam.nl/collectie/de-vlecht/",
+    "summary": "Een vlecht groeit uit tot een krachtig stalen beeld. De tegenstelling tussen zacht haar en hard metaal maakt nieuwsgierig. Loop eromheen en kijk hoe het vertrouwde motief telkens een andere vorm krijgt.",
+    "creator": "Kalliopi Lemos",
+    "year": "2020",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "staal",
+      "beeldhouwkunst",
+      "identiteit"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.sculptureinternationalrotterdam.nl/collectie/de-vlecht/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "De transformatie van haar naar monumentaal staal biedt een uitgesproken vrouwelijke tegenstem binnen de stedelijke beeldencollectie.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "8f6c0196-14f4-5b47-85d9-e7bc072783e0",
+    "inventory_key": "public:www.sculptureinternationalrotterdam.nl/collectie/iedereen-is-dood-behalve-wij:Iedereen is dood behalve wij",
+    "category": "openbare-kunst",
+    "name": "Iedereen is dood behalve wij",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Hoogstraat 126",
+    "website_url": "https://www.sculptureinternationalrotterdam.nl/collectie/iedereen-is-dood-behalve-wij/",
+    "summary": "Reusachtige voeten zetten je eigen schaal op losse schroeven. Ben Zegers brengt een vertrouwd lichaamsdeel in een onverwachte verhouding tot de stad. Kijk hoe de sculpturen tussen gebouwen en voorbijgangers hun plek opeisen.",
+    "creator": "Ben Zegers",
+    "year": "2020",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "aluminium",
+      "beeldhouwkunst",
+      "stedelijk"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.sculptureinternationalrotterdam.nl/collectie/iedereen-is-dood-behalve-wij/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Een opvallende schaalvergroting op een historische plek in Rotterdam, die kunst en het dagelijkse lopen door de stad met elkaar verbindt.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "5d31cb9f-2d5f-520c-9890-00da5f75aa68",
+    "inventory_key": "public:www.sculptureinternationalrotterdam.nl/collectie/zonder-titel:Zonder titel – Joel Shapiro",
+    "category": "openbare-kunst",
+    "name": "Zonder titel – Joel Shapiro",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Westersingel 32B",
+    "website_url": "https://www.sculptureinternationalrotterdam.nl/collectie/zonder-titel/",
+    "summary": "Vijf balkachtige vormen suggereren een mens in beweging. De figuur lijkt tegelijk zwaar en licht, stabiel en wankel. Loop rondom het beeld: er is geen enkele kant die het hele verhaal vertelt.",
+    "creator": "Joel Shapiro",
+    "year": "1999",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "brons",
+      "abstract",
+      "figuratief"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.sculptureinternationalrotterdam.nl/collectie/zonder-titel/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Een internationaal belangrijk voorbeeld van beeldhouwkunst op de grens van abstractie en de menselijke figuur, onderdeel van het beeldenterras.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "083ee35e-1b8b-5031-a3e4-bda5e6fb9e20",
+    "inventory_key": "public:www.kunstinopenbareruimte-utrecht.nl/kunstwerken/stone-line:The Stone Line",
+    "category": "openbare-kunst",
+    "name": "The Stone Line",
+    "city": "Utrecht",
+    "province": "Utrecht",
+    "street_address": "Blauwe Vogelweg, bij Ariane de Ranitz-school",
+    "website_url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/stone-line",
+    "summary": "Golvende terrazzo-elementen vormen een landschap om te zitten en te spelen. Schelpen, steen en kleur maken het oppervlak uitnodigend. Het werk verbindt kunst en ontwerp met gezamenlijk gebruik, ook met een rolstoel.",
+    "creator": "Studio Ossidiana",
+    "year": "2026",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "terrazzo",
+      "design",
+      "speelkunst",
+      "inclusief"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/stone-line",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Recente gemeentelijke opdracht met een bijzondere combinatie van materiaalonderzoek, spel en inclusief ruimtelijk ontwerp.",
+    "visit_notes": "Bij een school: respecteer het gebruik door leerlingen. Toegang tot het schoolterrein kan beperkt zijn.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "4b4c8d18-06fb-5ddb-8fe4-81c34a117a97",
+    "inventory_key": "public:www.kunstinopenbareruimte-utrecht.nl/kunstwerken/sentimental-dragon:Sentimental Dragon",
+    "category": "openbare-kunst",
+    "name": "Sentimental Dragon",
+    "city": "Utrecht",
+    "province": "Utrecht",
+    "street_address": "Croeselaan, Wisselplek",
+    "website_url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/sentimental-dragon",
+    "summary": "Een kat en een draak lijken elkaar te ontmoeten in dit wonderlijke beeld. Midden in de dagelijkse drukte roept het werk zachtheid, herinnering en fantasie op. Een uitnodiging om even uit je routine te stappen.",
+    "creator": "Nynke Sansom",
+    "year": "2026",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "beeldhouwkunst",
+      "fantasie",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/sentimental-dragon",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd als recente bijdrage van een jonge kunstenaar aan de Wisselplek van Beeldenpark Croeselaan.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "eec7ce3c-5296-5a49-8de1-6eb6a62464ff",
+    "inventory_key": "public:www.kunstinopenbareruimte-utrecht.nl/kunstwerken/droomtheater:Droomtheater",
+    "category": "openbare-kunst",
+    "name": "Droomtheater",
+    "city": "Utrecht",
+    "province": "Utrecht",
+    "street_address": "Berlijnplein 300, Academie Tien",
+    "website_url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/droomtheater",
+    "summary": "Jongeren vallen, vluchten en ontdekken in situaties die aan dromen doen denken. Stienstra verbindt hun figuren met de school en met ideeën over leren. Kijk hoe afzonderlijke beelden samen een verhaal vormen.",
+    "creator": "Elisabet Stienstra",
+    "year": "2024",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "figuratief",
+      "beeldenensemble",
+      "verbeelding"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/droomtheater",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangend beeldenensemble dat klassiek uitgewerkte mensfiguren verbindt met onderwijs, verbeelding en de architectuur van de school.",
+    "visit_notes": "Ensemble bij Academie Tien. Houd rekening met het gebruik als school en controleer welk deel toegankelijk is.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "15fd4d42-1609-5a94-b752-1135b5c8f182",
+    "inventory_key": "public:www.kunstinopenbareruimte-utrecht.nl/kunstwerken/eerbetoongastarbeiders:Eerbetoon Gastarbeiders",
+    "category": "openbare-kunst",
+    "name": "Eerbetoon Gastarbeiders",
+    "city": "Utrecht",
+    "province": "Utrecht",
+    "street_address": "Vleutenseweg / Majellapark",
+    "website_url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/eerbetoongastarbeiders",
+    "summary": "Koffers, gereedschap en historische beelden vertellen over aankomst, arbeid en toekomst. Het monument maakt de bijdrage van gastarbeiders zichtbaar in de stad en nodigt uit om bij persoonlijke én gezamenlijke geschiedenis stil te staan.",
+    "creator": "Aimée Zito Lema",
+    "year": "2024",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "monument",
+      "migratie",
+      "metaal",
+      "maatschappij"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/eerbetoongastarbeiders",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Een gemeentelijk monument dat migratiegeschiedenis verbindt met lokale industrie, archiefmateriaal en de ervaringen van betrokken gemeenschappen.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "3fd508e4-d611-565b-8000-0cf7e851ad17",
+    "inventory_key": "public:www.kunstinopenbareruimte-utrecht.nl/kunstwerken/monument-van-vlucht-en-verzet:Monument van Vlucht en Verzet",
+    "category": "openbare-kunst",
+    "name": "Monument van Vlucht en Verzet",
+    "city": "Utrecht",
+    "province": "Utrecht",
+    "street_address": "Griftpark",
+    "website_url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/monument-van-vlucht-en-verzet",
+    "summary": "Verhalen over vlucht en verzet krijgen een plek in het Griftpark. Het monument biedt ruimte om te herdenken, te luisteren en met elkaar te spreken. Vorm, symboliek en licht verbinden verleden en heden.",
+    "creator": "patricia kaersenhout",
+    "year": "2023",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "monument",
+      "slavernijverleden",
+      "herdenken",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/monument-van-vlucht-en-verzet",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Geselecteerd om de manier waarop herinnering aan slavernij en verzet wordt verbonden met een publiek podium en gedeeld gebruik.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "7ce56509-83b5-5afe-a19d-8db166d75763",
+    "inventory_key": "public:www.kunstpuntgroningen.nl/kunst/kunst-op-straat/over-kunst-op-straat:Het Peerd van Ome Loeks",
+    "category": "openbare-kunst",
+    "name": "Het Peerd van Ome Loeks",
+    "city": "Groningen",
+    "province": "Groningen",
+    "street_address": "Stationsplein / Stadsbalkon",
+    "website_url": "https://www.kunstpuntgroningen.nl/kunst/kunst-op-straat/over-kunst-op-straat/",
+    "summary": "Een paard en zijn begeleider zijn uitgegroeid tot een vertrouwd welkom in Groningen. Bekijk hoe het beeld een lokaal verhaal tastbaar maakt en een eigen plek inneemt in de drukte rond het station.",
+    "creator": "Jan de Baat",
+    "year": "1957",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "figuratief",
+      "beeldhouwkunst",
+      "stadsicoon"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.kunstpuntgroningen.nl/kunst/kunst-op-straat/over-kunst-op-straat/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door de gemeentelijke kunstbeheerder uitgelicht als stadsicoon met een bijzondere band met de identiteit van Groningen.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "72d23811-8262-58ea-971c-80264da2a3a7",
+    "inventory_key": "public:www.kunstpuntgroningen.nl/kunst/kunst-op-straat/over-kunst-op-straat:Second Thought",
+    "category": "openbare-kunst",
+    "name": "Second Thought",
+    "city": "Groningen",
+    "province": "Groningen",
+    "street_address": "Fietsenstalling onder het Stadsbalkon",
+    "website_url": "https://www.kunstpuntgroningen.nl/kunst/kunst-op-straat/over-kunst-op-straat/",
+    "summary": "Onder het stationsplein krijgt het oude stationsgebouw een nieuwe, bewegende verschijning. Computergestuurde ledverlichting verandert het beeld voortdurend. Een alledaagse doorgangsruimte wordt zo een plek voor verwondering.",
+    "creator": "Giny Vos",
+    "year": "",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "lichtkunst",
+      "digitale kunst",
+      "installaties"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.kunstpuntgroningen.nl/kunst/kunst-op-straat/over-kunst-op-straat/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Opmerkelijk nieuwemediawerk dat oude stationsarchitectuur met de moderne fietsenstalling en veranderend licht verbindt.",
+    "visit_notes": "In de fietsenstalling onder het Stadsbalkon; bezoek afhankelijk van de toegang tot de stalling.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "6af0a2f3-a692-516a-9db1-c5a832304423",
+    "inventory_key": "public:www.amsterdammuseum.nl/nieuws/nelson-carrilho-1953-2026/269649:Dragers van verre",
+    "category": "openbare-kunst",
+    "name": "Dragers van verre",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Westerpark",
+    "website_url": "https://www.amsterdammuseum.nl/nieuws/nelson-carrilho-1953-2026/269649",
+    "summary": "Ontmoet Nelson Carrilho’s Dragers van verre in het Westerpark. Het werk nodigt uit om rond de figuren te lopen en na te denken over wat mensen meenemen, dragen en met elkaar delen.",
+    "creator": "Nelson Carrilho",
+    "year": "",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "beeldhouwkunst",
+      "figuratief",
+      "migratie"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://www.amsterdammuseum.nl/nieuws/nelson-carrilho-1953-2026/269649",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Door het Amsterdam Museum in 2026 uitgelicht als een van Carrilho’s belangrijkste openbare werken; verbreedt de selectie met migratie en menselijke verbondenheid.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "2b3f2109-4373-53dc-9077-fe7d9a72e006",
+    "inventory_key": "public:landartflevoland.nl/kunstwerken/paul-de-kort-pier-horizon:PIER+HORIZON",
+    "category": "openbare-kunst",
+    "name": "PIER+HORIZON",
+    "city": "Kraggenburg",
+    "province": "Flevoland",
+    "street_address": "Zwartemeerdijk, toegang tussen Zwartemeerweg 62 en 64",
+    "website_url": "https://landartflevoland.nl/kunstwerken/paul-de-kort-pier-horizon/",
+    "summary": "Boomstammen draaien met de wind langs een lange pier. Paul de Kort maakt de beweging van het water zichtbaar en verwijst naar een verdwenen strekdam. Kijk hoe geschiedenis en het huidige landschap elkaar raken.",
+    "creator": "Paul de Kort",
+    "year": "2016",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "land art",
+      "water",
+      "landschap",
+      "wind"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://landartflevoland.nl/kunstwerken/paul-de-kort-pier-horizon/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Onderdeel van de Land Art Flevoland-collectie; het herstelontwerp gebruikt lokale boomstammen en verbindt landschapsgeschiedenis met wind en water.",
+    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "a741fc1b-23c3-5c4a-bcc4-be3692d0aec2",
+    "inventory_key": "public:landartflevoland.nl/kunstwerken/bob-gramsma-riff-pd-18245:Riff, PD#18245",
+    "category": "openbare-kunst",
+    "name": "Riff, PD#18245",
+    "city": "Biddinghuizen",
+    "province": "Flevoland",
+    "street_address": "Bremerbergdijk",
+    "website_url": "https://landartflevoland.nl/kunstwerken/bob-gramsma-riff-pd-18245/",
+    "summary": "Een uitgegraven vorm is in beton vastgelegd en boven de grond zichtbaar gemaakt. Riff laat je anders kijken naar wat onder het polderlandschap verborgen zit. Aarde, geschiedenis en sculptuur komen hier samen.",
+    "creator": "Bob Gramsma",
+    "year": "2018",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "land art",
+      "beton",
+      "landschap"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
+        "url": "https://landartflevoland.nl/kunstwerken/bob-gramsma-riff-pd-18245/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Land-artmonument rond honderd jaar Zuiderzeewet, waarbij het maakproces de bodemgeschiedenis letterlijk zichtbaar maakt.",
+    "visit_notes": "Het dak van het kunstwerk mag niet worden betreden. Raadpleeg de locatie-informatie van Land Art Flevoland.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "6a9f8059-9530-5bd7-b3b1-221976cf9699",
+    "inventory_key": "11fountains:ijlst",
+    "category": "openbare-kunst",
+    "name": "Onsterfelijke Bloemen – Rikka",
+    "city": "IJlst",
+    "province": "Friesland",
+    "street_address": "De Dassenboarch",
+    "website_url": "https://11fountains.nl/fonteinen/ijlst/",
+    "summary": "Een kleurrijke stapeling van bloemen verbindt natuur, ambacht en herinnering. Shinji Ohmaki verwijst naar Friese planten en het ontstaan van IJlst. Ontdek hoe oude motieven een nieuwe, levendige vorm krijgen.",
+    "creator": "Shinji Ohmaki",
+    "year": "2018",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "fontein",
+      "11fountains",
+      "hedendaagse kunst",
+      "kleurrijke bloemen"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "11fountains · officiële projectinformatie",
+        "url": "https://11fountains.nl/fonteinen/ijlst/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
+    "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "ad791f4e-cdf7-524d-905a-87c33149d031",
+    "inventory_key": "11fountains:sloten",
+    "category": "openbare-kunst",
+    "name": "Kievit",
+    "city": "Sloten",
+    "province": "Friesland",
+    "street_address": "G.G. van der Walplein / Koestraat",
+    "website_url": "https://11fountains.nl/fonteinen/sloten/",
+    "summary": "Een meisje, een man en een vogel balanceren boven emmers en teilen. Het stromende water verbindt het menselijke verhaal met een kostbare levensbron. Een speels beeld dat ook vragen stelt over kwetsbaarheid en zorg.",
+    "creator": "Lucy & Jorge Orta",
+    "year": "2018",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "fontein",
+      "11fountains",
+      "hedendaagse kunst",
+      "mens en natuur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "11fountains · officiële projectinformatie",
+        "url": "https://11fountains.nl/fonteinen/sloten/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
+    "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "5f059e48-d495-5567-b589-d784305deb65",
+    "inventory_key": "11fountains:workum",
+    "category": "openbare-kunst",
+    "name": "De Woeste Leeuwen van Workum",
+    "city": "Workum",
+    "province": "Friesland",
+    "street_address": "Grasveld bij de passantenhaven",
+    "website_url": "https://11fountains.nl/fonteinen/workum/",
+    "summary": "Twee leeuwen stappen als het ware uit het stadswapen de stad in. Op grote schaal krijgen hun houdingen iets theatraals. Cornelia Parker maakt van een historisch motief een verrassende ontmoeting op straat.",
+    "creator": "Cornelia Parker",
+    "year": "2018",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "fontein",
+      "11fountains",
+      "hedendaagse kunst",
+      "dieren"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "11fountains · officiële projectinformatie",
+        "url": "https://11fountains.nl/fonteinen/workum/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
+    "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "a13f7085-81cb-5016-bc67-4a9656ab6bd8",
+    "inventory_key": "11fountains:hindeloopen",
+    "category": "openbare-kunst",
+    "name": "Flora & Fauna",
+    "city": "Hindeloopen",
+    "province": "Friesland",
+    "street_address": "Nieuweweg 1",
+    "website_url": "https://11fountains.nl/fonteinen/hindeloopen/",
+    "summary": "Een levensboom, vogels en de beeldtaal van Hindeloopen vormen samen een fantasierijke fontein. Kijk hoe Shen Yuan lokale tradities verbindt met haar eigen artistieke wereld.",
+    "creator": "Shen Yuan",
+    "year": "2018",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "fontein",
+      "11fountains",
+      "hedendaagse kunst",
+      "mens en natuur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "11fountains · officiële projectinformatie",
+        "url": "https://11fountains.nl/fonteinen/hindeloopen/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
+    "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "7e2e546b-d5de-55dd-9667-da25104ad7e2",
+    "inventory_key": "11fountains:sneek",
+    "category": "openbare-kunst",
+    "name": "De Fontein van Fortuna",
+    "city": "Sneek",
+    "province": "Friesland",
+    "street_address": "Hoogend",
+    "website_url": "https://11fountains.nl/fonteinen/sneek/",
+    "summary": "Een man op een gouden bol draagt een hoorn van overvloed. Het water verwijst naar geluk en welvaart, maar roept ook vragen op over hun veranderlijkheid. Bekijk hoe de figuur zich in het stadsbeeld staande houdt.",
+    "creator": "Stephan Balkenhol",
+    "year": "2018",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "fontein",
+      "11fountains",
+      "hedendaagse kunst",
+      "figuratief"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "11fountains · officiële projectinformatie",
+        "url": "https://11fountains.nl/fonteinen/sneek/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
+    "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "bad119a8-6a2e-58d0-974e-d1134e2b8a21",
+    "inventory_key": "11fountains:bolsward",
+    "category": "openbare-kunst",
+    "name": "De Vleermuis",
+    "city": "Bolsward",
+    "province": "Friesland",
+    "street_address": "Broereplein 9",
+    "website_url": "https://11fountains.nl/fonteinen/bolsward/",
+    "summary": "Voor de Broerekerk spreidt een monumentale vleermuis zijn vormen uit. Het dier roept tegelijk verwondering en ongemak op. Johan Creten maakt van een vaak verborgen nachtdier een opvallend middelpunt.",
+    "creator": "Johan Creten",
+    "year": "2018",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "fontein",
+      "11fountains",
+      "hedendaagse kunst",
+      "dieren"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "11fountains · officiële projectinformatie",
+        "url": "https://11fountains.nl/fonteinen/bolsward/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
+    "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "0bfeb0bb-b663-5a32-b781-6c6d9230d1d7",
+    "inventory_key": "11fountains:franeker",
+    "category": "openbare-kunst",
+    "name": "De Oortwolk",
+    "city": "Franeker",
+    "province": "Friesland",
+    "street_address": "Breedeplaats, bij de Martinikerk",
+    "website_url": "https://11fountains.nl/fonteinen/franeker/",
+    "summary": "Water en glanzende vormen brengen een ode aan astronoom Jan Hendrik Oort. Ontdek hoe Othoniel een onzichtbaar verschijnsel uit de ruimte vertaalt naar een tastbare fontein in het hart van Franeker.",
+    "creator": "Jean-Michel Othoniel",
+    "year": "2018",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "fontein",
+      "11fountains",
+      "hedendaagse kunst",
+      "astronomie"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "11fountains · officiële projectinformatie",
+        "url": "https://11fountains.nl/fonteinen/franeker/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
+    "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "0b88d7ba-4ce0-59e6-aedc-adc901d938d6",
+    "inventory_key": "11fountains:stavoren",
+    "category": "openbare-kunst",
+    "name": "De Vis voor Stavoren",
+    "city": "Stavoren",
+    "province": "Friesland",
+    "street_address": "Stationsweg",
+    "website_url": "https://11fountains.nl/fonteinen/stavoren/",
+    "summary": "Een enorme vis opent zijn bek in de havenstad. Mark Dion verbindt de maritieme geschiedenis met fantasie en verwondering. Bekijk hoe het beeld de verhouding tussen mens, zee en rijkdom op scherp zet.",
+    "creator": "Mark Dion",
+    "year": "2018",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "fontein",
+      "11fountains",
+      "hedendaagse kunst",
+      "dieren"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "11fountains · officiële projectinformatie",
+        "url": "https://11fountains.nl/fonteinen/stavoren/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
+    "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "5e33755b-9788-5006-8c7d-ae6720fd4ce9",
+    "inventory_key": "11fountains:dokkum",
+    "category": "openbare-kunst",
+    "name": "De IJsfontein",
+    "city": "Dokkum",
+    "province": "Friesland",
+    "street_address": "Markt 28",
+    "website_url": "https://11fountains.nl/fonteinen/dokkum/",
+    "summary": "IJs vormt veranderende patronen op een koperen oppervlak. Zon, wind en temperatuur bepalen mee hoe de fontein eruitziet. Leemeijer maakt van het weer een actieve medemaker van het kunstwerk.",
+    "creator": "Birthe Leemeijer",
+    "year": "2019",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "fontein",
+      "11fountains",
+      "hedendaagse kunst",
+      "klimaat"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "11fountains · officiële projectinformatie",
+        "url": "https://11fountains.nl/fonteinen/dokkum/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
+    "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  }
+]

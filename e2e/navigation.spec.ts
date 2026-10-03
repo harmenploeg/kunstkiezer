@@ -9,7 +9,7 @@ test("Mijn kunstkeuze, categorieën en bezoekgeschiedenis zijn bereikbaar", asyn
   await page.screenshot({ path: `/tmp/kunstkiezer-${testInfo.project.name}.png`, fullPage: true });
   await page.getByRole("link", { name: "Ontdek kunst", exact: true }).click();
   await expect(page.getByRole("heading", { name: "Ontdek kunst." })).toBeVisible();
-  await page.getByRole("link", { name: /^Musea / }).click();
+  await page.getByRole("link", { name: /Musea Collecties/ }).click();
   await expect(page.getByRole("heading", { name: "Musea." })).toBeVisible();
   await page.reload();
   await expect(page.getByRole("heading", { name: "Musea." })).toBeVisible();

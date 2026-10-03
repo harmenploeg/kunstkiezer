@@ -1,0 +1,32 @@
+{
+  "research_date": "2026-10-03",
+  "agenda_window_end": "2026-11-03",
+  "categories": {
+    "openbare-kunst": {
+      "total": 127,
+      "published": 37,
+      "draft": 90,
+      "visible_on_research_date": 37
+    },
+    "beeldenparken": {
+      "total": 32,
+      "published": 30,
+      "draft": 2,
+      "visible_on_research_date": 30
+    },
+    "architectuur": {
+      "total": 193,
+      "published": 187,
+      "draft": 6,
+      "visible_on_research_date": 187
+    },
+    "evenementen": {
+      "total": 49,
+      "published": 49,
+      "draft": 0,
+      "visible_on_research_date": 48
+    }
+  },
+  "scope": "Eerste redactionele selectie; zie README.md voor bronnen, selectiecriteria en resterende controles.",
+  "total": 401
+}

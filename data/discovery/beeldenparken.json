@@ -1,0 +1,1095 @@
+[
+  {
+    "id": "05e0c55c-8e8b-51a3-a294-3347e2809aa6",
+    "inventory_key": "garden:Kröller-Müller Museum",
+    "category": "beeldenparken",
+    "name": "Kröller-Müller Museum – beeldentuin",
+    "city": "Otterlo",
+    "province": "Gelderland",
+    "street_address": "Houtkampweg 6",
+    "website_url": "https://krollermuller.nl/beeldentuin",
+    "summary": "Wandel tussen sculpturen die telkens anders opduiken tussen bomen, gazons en paviljoens. Hier krijgt moderne beeldhouwkunst volop ruimte: loop eromheen, kijk door de vormen heen en ontdek hoe het landschap je blik verandert.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "moderne kunst",
+      "beeldhouwkunst",
+      "bos",
+      "museumtuin"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://krollermuller.nl/beeldentuin",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": "45f722c3-7566-502a-93ee-acda64e7cdb0",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "24cddb4a-f979-5f9b-9ca5-590dd237b574",
+    "inventory_key": "garden:Singer Laren",
+    "category": "beeldenparken",
+    "name": "Singer Laren – beeldentuin",
+    "city": "Laren",
+    "province": "Noord-Holland",
+    "street_address": "Oude Drift 1",
+    "website_url": "https://www.singerlaren.nl/",
+    "summary": "Tussen de beplanting van Piet Oudolf ontmoet je beelden op een menselijke schaal. De museumtuin verbindt kunst met het ritme van de seizoenen en nodigt uit om langzaam te wandelen en steeds opnieuw te kijken.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "museumtuin",
+      "tuinontwerp"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.singerlaren.nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "NS · selectie kunst in de buitenlucht",
+        "url": "https://www.ns.nl/dagje-uit/musea/kunst-in-de-buitenlucht",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": "98651057-8ba9-5e2c-b97a-56c719fb1227",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "5c6f4774-86ac-54e3-91ce-8fc0c4cc446b",
+    "inventory_key": "garden:Museum Arnhem",
+    "category": "beeldenparken",
+    "name": "Museum Arnhem – beeldentuin",
+    "city": "Arnhem",
+    "province": "Gelderland",
+    "street_address": "Utrechtseweg 87",
+    "website_url": "https://www.museumarnhem.nl/nl/tentoonstellingen/beeldentuin",
+    "summary": "Sculpturen en vergezichten komen samen boven de Rijn. Wandel door de museumtuin en bekijk hoe uitgesproken vormen zich aftekenen tegen lucht, groen en stad. Een openluchtverlenging van de kunst binnen.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "moderne kunst",
+      "beeldhouwkunst",
+      "museumtuin"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.museumarnhem.nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "NS · selectie kunst in de buitenlucht",
+        "url": "https://www.ns.nl/dagje-uit/musea/kunst-in-de-buitenlucht",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": "c3ff4d29-40e4-550b-a61f-480049ff03d0",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "1916774f-80d1-5004-aa9a-4c4b0ac27ff2",
+    "inventory_key": "garden:Museum de Fundatie – Kasteel het Nijenhuis",
+    "category": "beeldenparken",
+    "name": "Museum de Fundatie – Kasteel het Nijenhuis – beeldentuin",
+    "city": "Heino",
+    "province": "Overijssel",
+    "street_address": "Het Nijenhuis 10",
+    "website_url": "https://www.museumdefundatie.nl/",
+    "summary": "Tussen het kasteel, de gazons en oude bomen ontvouwt zich een rijke verzameling beelden. Monumentale vormen en kleinere sculpturen wisselen elkaar af. De historische omgeving maakt de ontmoetingen met moderne kunst extra verrassend.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "moderne kunst",
+      "beeldhouwkunst",
+      "museumtuin",
+      "landgoed"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.museumdefundatie.nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": "ec434d6d-013a-5b24-8781-f692f9282f6b",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "7eaf87a5-8518-597f-b5ef-3c7319cdb37b",
+    "inventory_key": "garden:Beeldengalerij Het Depot",
+    "category": "beeldenparken",
+    "name": "Beeldengalerij Het Depot",
+    "city": "Wageningen",
+    "province": "Gelderland",
+    "street_address": "Arboretumlaan 4",
+    "website_url": "https://www.hetdepot.nl/",
+    "summary": "Ontdek hoe het menselijk lichaam in sculptuur telkens een andere vorm krijgt. De beelden van Het Depot staan ook tussen bijzondere bomen en planten. Zo verbindt een wandeling de kunst met het arboretum en het veranderende licht.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "figuratief",
+      "arboretum",
+      "museumtuin"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.hetdepot.nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": "7c25dca7-6154-513e-a8c6-3922f645a55c",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "b59418cb-04e2-58e2-ad43-bc5abb11acc4",
+    "inventory_key": "garden:Beeldenpark Jits Bakker",
+    "category": "beeldenparken",
+    "name": "Beeldenpark Jits Bakker",
+    "city": "De Bilt",
+    "province": "Utrecht",
+    "street_address": "De Holle Bilt 6",
+    "website_url": "https://www.kubes.nl/eropuit/beeldenpark-beerschoten",
+    "summary": "Beweging spat van de beelden van Jits Bakker af. Op landgoed Beerschoten ontmoet je sporters, mensfiguren en krachtige vormen in brons en steen. Wandel tussen de werken en ontdek hoe hun energie contrasteert met het rustige groen.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "figuratief",
+      "landgoed",
+      "kunstenaarsmuseum"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Stichting KUBES · Beeldenpark Beerschoten",
+        "url": "https://www.kubes.nl/eropuit/beeldenpark-beerschoten",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "provider": "Verhaal van Utrecht · landgoed en collectie",
+        "url": "https://verhaalvanutrecht.nl/verhalen/beerschoten",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": "5973c940-48f5-50f6-9e37-f4965f3c5ca3",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "827bf88a-7e59-56a0-8cdc-4445a32fa2cc",
+    "inventory_key": "garden:Odapark",
+    "category": "beeldenparken",
+    "name": "Odapark – beeldentuin",
+    "city": "Venray",
+    "province": "Limburg",
+    "street_address": "Merseloseweg 117",
+    "website_url": "https://www.odapark.nl/",
+    "summary": "In het bos rond Odapark wachten eigenzinnige kunstwerken op aandachtige wandelaars. Niet alleen het beeld, maar ook zijn plek tussen de bomen doet mee. Laat je verrassen door onverwachte vormen en ontmoetingen met hedendaagse kunst.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "hedendaagse kunst",
+      "beeldhouwkunst",
+      "bos",
+      "installaties"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.odapark.nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": "7b8f4db6-e522-5daf-9561-97924ceafc87",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "60b3e61c-bf8f-5276-860b-d1e73b749f79",
+    "inventory_key": "garden:Beeldentuin De Havixhorst",
+    "category": "beeldenparken",
+    "name": "Beeldentuin De Havixhorst",
+    "city": "De Schiphorst",
+    "province": "Drenthe",
+    "street_address": "Schiphorsterweg 34-36",
+    "website_url": "https://www.beeldentuindehavixhorst.nl/",
+    "summary": "Rond De Havixhorst ontdek je Nederlandse figuratieve beeldhouwkunst. Menselijke houdingen, dieren en karaktervolle koppen krijgen tussen hagen en oude bomen een eigen podium. Een wandeling met ruimte voor zowel detail als het grotere gebaar.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "figuratief",
+      "landgoed"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.beeldentuindehavixhorst.nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": "8fa74ff1-0c85-53cc-8a02-bd1b25b0ef33",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "24689773-a498-5a33-9388-8750451ec284",
+    "inventory_key": "garden:Rijksmuseum Amsterdam",
+    "category": "beeldenparken",
+    "name": "Rijksmuseum Amsterdam – beeldentuin",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Museumstraat 1",
+    "website_url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+    "summary": "Rond het Rijksmuseum krijgt beeldhouwkunst een plek tussen hagen, bloemen en architectuur. Tijdelijke sculptuurtentoonstellingen geven de tuin steeds een nieuw accent. Combineer een rondje buiten met kunst binnen, of geniet alleen van de tuin.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "museumtuin",
+      "wisselende tentoonstelling"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Rijksmuseum · beelden in de tuin",
+        "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "In 2026 is Carel Visser te zien van 5 juni tot en met 25 oktober. Signaal 1 en 2 behoren tot de vaste tuincollectie. Controleer de actuele tuinopenstelling.",
+    "museum_id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "1f786716-abbe-5a12-8e38-362a72a68466",
+    "inventory_key": "garden:Museum Kranenburgh",
+    "category": "beeldenparken",
+    "name": "Museum Kranenburgh – beeldentuin",
+    "city": "Bergen",
+    "province": "Noord-Holland",
+    "street_address": "Hoflaan 26",
+    "website_url": "https://www.kranenburgh.nl/",
+    "summary": "Kunst loopt bij Kranenburgh door naar buiten. In de tuin ontmoet je sculpturen in een groene omgeving die bij het kunstenaarsdorp Bergen past. Ontdek de verschillen in materiaal, schaal en de manier waarop ieder beeld ruimte inneemt.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "hedendaagse kunst",
+      "beeldhouwkunst",
+      "museumtuin"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.kranenburgh.nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": "35667f6c-d721-506b-bc05-bfbc92e29eb7",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "e567b57b-525f-5591-8625-2899c3995bc6",
+    "inventory_key": "garden:Museum Voorlinden",
+    "category": "beeldenparken",
+    "name": "Museum Voorlinden – beeldentuin",
+    "city": "Wassenaar",
+    "province": "Zuid-Holland",
+    "street_address": "Buurtweg 90",
+    "website_url": "https://www.voorlinden.nl/",
+    "summary": "Verken het landschap rond Voorlinden en ontdek hoe buitenkunst zich tot de omgeving verhoudt. De combinatie van sculpturen, bos, water en ontworpen beplanting maakt het kijken steeds anders. Controleer welke buitenwerken tijdens je bezoek toegankelijk zijn.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "hedendaagse kunst",
+      "landgoed",
+      "museumtuin",
+      "installaties"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.voorlinden.nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": "309b4c56-a9df-5cd7-824d-5e6830fc832e",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "d9759f96-0521-571f-96d8-7677d9648c48",
+    "inventory_key": "garden:Beelden in Gees",
+    "category": "beeldenparken",
+    "name": "BIG Art & Garden (Beelden in Gees)",
+    "city": "Gees",
+    "province": "Drenthe",
+    "street_address": "Schaapveensweg 16",
+    "website_url": "https://bigartgarden.nl/exhibitions/17-zomerexpositie-2026-beeldenpark-big-art-garden-meer-dan-30-kunstenaars-uit-7-landen-met/overview/",
+    "summary": "Een ruim landschap vormt het decor voor een wisselende selectie beelden. Wandel langs bomen, water en open velden en ontdek hoe materiaal en schaal reageren op hun omgeving. Hier horen de tuin en de kunst bij dezelfde ervaring.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "landschap",
+      "wisselende tentoonstelling"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "BIG Art & Garden · zomerexpositie 2026",
+        "url": "https://bigartgarden.nl/exhibitions/17-zomerexpositie-2026-beeldenpark-big-art-garden-meer-dan-30-kunstenaars-uit-7-landen-met/overview/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Zomerexpositie 2026: 1 april tot en met 29 november. Controleer bezoekdagen en tijden bij BIG Art & Garden.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "2a3e7d95-9fe8-5f7b-b2f3-91802e788631",
+    "inventory_key": "garden:Landgoed Anningahof",
+    "category": "beeldenparken",
+    "name": "Landgoed Anningahof",
+    "city": "Zwolle",
+    "province": "Overijssel",
+    "street_address": "Hessenweg 9",
+    "website_url": "https://www.anningahof.nl/",
+    "summary": "Ontdek hedendaagse Nederlandse beeldhouwkunst tussen vijvers, bomen en open grasvelden. De jaarlijkse selectie brengt uiteenlopende kunstenaars samen. Groot, klein, ingetogen of uitbundig: iedere bocht in het park kan een nieuwe ontmoeting opleveren.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "hedendaagse kunst",
+      "beeldhouwkunst",
+      "landgoed",
+      "wisselende tentoonstelling"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.anningahof.nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "db54dd69-6f50-579e-a1e5-2a8af53c4bc7",
+    "inventory_key": "garden:Beeldentuin Achter de Westduinen",
+    "category": "beeldenparken",
+    "name": "Beeldentuin Achter de Westduinen",
+    "city": "Ouddorp",
+    "province": "Zuid-Holland",
+    "street_address": "Dijkstelweg 58",
+    "website_url": "https://www.achterdewestduinen.nl/",
+    "summary": "In deze beschutte tuin vullen natuur en sculptuur elkaar aan. Ontdek abstracte vormen en herkenbare figuren terwijl je tussen het groen wandelt. Het licht en de beweging van de beplanting geven de beelden telkens een andere omlijsting.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "abstract",
+      "figuratief",
+      "tuin"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.achterdewestduinen.nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "5aa7bd6b-22a7-5ee9-a221-3da2b37884af",
+    "inventory_key": "garden:Beeldentuin De Zanderij",
+    "category": "beeldenparken",
+    "name": "Beeldentuin De Zanderij",
+    "city": "’s-Graveland",
+    "province": "Noord-Holland",
+    "street_address": "Oude Meentweg 2",
+    "website_url": "https://www.beeldentuin-dezanderij.nl/",
+    "summary": "Wandel tussen hedendaagse beelden in een groene buitenomgeving. Verschillende materialen en vormen nodigen uit tot vergelijken: welk werk trekt je van veraf, en welk beeld onthult zich pas van dichtbij? Raadpleeg de actuele tentoonstelling voor bezoek.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst",
+      "tuin"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.beeldentuin-dezanderij.nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "ff544ac0-a6a5-5594-b689-0d5498575a0f",
+    "inventory_key": "garden:Beelden aan Zee – SprookjesBeelden",
+    "category": "beeldenparken",
+    "name": "Beelden aan Zee – SprookjesBeelden",
+    "city": "Den Haag",
+    "province": "Zuid-Holland",
+    "street_address": "Harteveltstraat / boulevard Scheveningen",
+    "website_url": "https://www.beeldenaanzee.nl/",
+    "summary": "Op de boulevard ontmoet je de speelse wereld van Tom Otterness. Grote en kleine bronzen figuren vertellen samen een beeldverhaal. Wandel tussen de personages en ontdek hoe schaal, humor en de nabijheid van zee de ervaring bepalen.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "figuratief",
+      "beeldenensemble",
+      "zeekust"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.beeldenaanzee.nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": "875f6c88-adca-5a0b-9982-741901899f2f",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "f42fce6a-cc00-52c2-b72c-f3451a9ab4a1",
+    "inventory_key": "garden:Beeldenpark Een Zee van Staal",
+    "category": "beeldenparken",
+    "name": "Beeldenpark Een Zee van Staal",
+    "city": "Wijk aan Zee",
+    "province": "Noord-Holland",
+    "street_address": "Reyndersweg",
+    "website_url": "https://www.eenzeevanstaal.nl/",
+    "summary": "Tussen duinlandschap en industrie krijgen stalen sculpturen een krachtig decor. De werken verschillen in vorm en uitstraling, maar voeren allemaal een gesprek met hun omgeving. Een plek waar kunst, wind en de industriële horizon samenkomen.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "staal",
+      "landschap",
+      "beeldenensemble"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.eenzeevanstaal.nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "77f9c032-23b0-5e86-9cb2-0d12ede312be",
+    "inventory_key": "garden:Beeldentuin Ravesteyn",
+    "category": "beeldenparken",
+    "name": "Beeldentuin Ravesteyn",
+    "city": "Heenvliet",
+    "province": "Zuid-Holland",
+    "street_address": "Korte Welleweg 1",
+    "website_url": "https://www.ruine-ravesteyn.nl/activiteiten/beeldentuin/anchor/kunstenaars",
+    "summary": "Bij de ruïne van Ravesteyn vormt een tijdelijke beeldententoonstelling een route door het groen. Verschillende kunstenaars laten hun sculpturen reageren op een historische omgeving. Kijk vooraf naar de openingsperiode: deze tuin is seizoensgebonden.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "landgoed",
+      "wisselende tentoonstelling"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Ruïne Ravesteyn · beeldentuin",
+        "url": "https://www.ruine-ravesteyn.nl/activiteiten/beeldentuin/anchor/kunstenaars",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "De tentoonstelling van 2026 liep van 8 tot en met 31 mei. Wacht op een nieuw bevestigd tentoonstellingsseizoen voordat deze locatie als beeldentuin wordt gepubliceerd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "temporarily_closed",
+    "publication_status": "draft"
+  },
+  {
+    "id": "6f8e712b-2881-58c6-9732-c1d4cb9a9557",
+    "inventory_key": "garden:De Nollen",
+    "category": "beeldenparken",
+    "name": "De Nollen – kunstlandschap",
+    "city": "Den Helder",
+    "province": "Noord-Holland",
+    "street_address": "Burgemeester Ritmeesterweg 10",
+    "website_url": "https://projectdenollen.nl/nu-te-zien/",
+    "summary": "In het landschap van Rudi van de Wint grijpen beelden, gebouwen en schilderingen in elkaar. Een bezoek is een ontdekkingstocht langs vormen en ruimtes die zich stap voor stap openen. Bekijk vooraf de rondleidingen en toegangsvoorwaarden.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "land art",
+      "beeldhouwkunst",
+      "installaties",
+      "kunstenaarsmuseum"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://projectdenollen.nl/nu-te-zien/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": "4f9e04fd-5c63-54d0-bfb2-9acf614c3501",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "1dd8c3d1-baa4-54ee-bf8a-69c2ddfab657",
+    "inventory_key": "garden:Museum en Beeldentuin Nic Jonk",
+    "category": "beeldenparken",
+    "name": "Museum en Beeldentuin Nic Jonk",
+    "city": "Grootschermer",
+    "province": "Noord-Holland",
+    "street_address": "Haviksdijkje 5",
+    "website_url": "https://www.nicjonk.nl/museum/beeldentuin",
+    "summary": "Dertig bronzen sculpturen ontmoeten het open polderlandschap. Ontdek hoe Nic Jonks ronde vormen afsteken tegen wolken, riet en water. Loop om de beelden heen en zie hoe steeds een ander silhouet ontstaat.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "brons",
+      "figuratief",
+      "polderlandschap"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.nicjonk.nl/museum/beeldentuin",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "81088db8-5449-53c1-84b5-9830f1849f52",
+    "inventory_key": "garden:Drents Museum De Buitenplaats",
+    "category": "beeldenparken",
+    "name": "Drents Museum De Buitenplaats – beeldentuin",
+    "city": "Eelde",
+    "province": "Drenthe",
+    "street_address": "Hoofdweg 76",
+    "website_url": "https://dmdebuitenplaats.nl/tentoonstellingen/museumtuin",
+    "summary": "Dwaal door deeltuinen, langs een spiegelvijver en de historische appelhof. Sculpturen en groen horen hier bij dezelfde ervaring. De museumtuin nodigt uit om langzaam te kijken en steeds nieuwe details te ontdekken.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "museumtuin",
+      "tuinontwerp"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://dmdebuitenplaats.nl/tentoonstellingen/museumtuin",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": "432b3e1e-d233-5247-81e2-aba4a8c1d946",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "588e87ed-5ae9-5770-92a7-7cb28c0d303d",
+    "inventory_key": "garden:Buitenplaats Kasteel Wijlre",
+    "category": "beeldenparken",
+    "name": "Buitenplaats Kasteel Wijlre – beeldentuin",
+    "city": "Wijlre",
+    "province": "Limburg",
+    "street_address": "Kerkpad 1",
+    "website_url": "https://kasteelwijlre.nl/nl/",
+    "summary": "Kunst en landschap lopen in elkaar over op deze buitenplaats. Wandel door de tuin, bekijk hoe sculpturen op hun omgeving reageren en ontdek de samenhang tussen hedendaagse kunst, architectuur en groen.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "hedendaagse kunst",
+      "beeldhouwkunst",
+      "landgoed",
+      "museumtuin"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://kasteelwijlre.nl/nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": "305f3814-535b-5426-a371-91dac06e5b1f",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "03f03e6a-26e9-5d24-a855-579a9835b638",
+    "inventory_key": "garden:Park Vijversburg",
+    "category": "beeldenparken",
+    "name": "Park Vijversburg",
+    "city": "Tytsjerk",
+    "province": "Friesland",
+    "street_address": "Swarteweisein 2",
+    "website_url": "https://vijversburg.nl/over-het-park/",
+    "summary": "Historische beelden en hedendaagse installaties staan naast elkaar in dit uitgestrekte park. Ontdek hoe kunstenaars spelen met landschap, materiaal en verwachting. Iedere wandeling biedt andere doorkijkjes en ontmoetingen.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "land art",
+      "park",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://vijversburg.nl/over-het-park/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "adbbb706-a4d1-52ac-b3d8-f8a383cab034",
+    "inventory_key": "garden:Museumbos",
+    "category": "beeldenparken",
+    "name": "Museumbos",
+    "city": "Almere",
+    "province": "Flevoland",
+    "street_address": "Meesweg, Cirkelbos",
+    "website_url": "https://www.museumbos.nl/",
+    "summary": "Zeven landschapskunstwerken geven ieder een eigen karakter aan een deel van het bos. Hier loop je niet alleen langs kunst, maar er ook doorheen. Ontdek hoe ruimte, bomen en hoogteverschillen samen een ervaring vormen.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "land art",
+      "bos",
+      "landschapskunst",
+      "kunstwandeling"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.museumbos.nl/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "9d6557a0-6577-582c-af55-fb1f2cf158d9",
+    "inventory_key": "garden:De Beeldengalerij",
+    "category": "beeldenparken",
+    "name": "De Beeldengalerij",
+    "city": "Den Haag",
+    "province": "Zuid-Holland",
+    "street_address": "Grote Marktstraat, Spui en Kalvermarkt",
+    "website_url": "https://www.stroom.nl/kunst-in-de-stad/de-beeldengalerij",
+    "summary": "Tussen winkels en voorbijgangers ontvouwt zich een beeldengalerij op veertig sokkels. Het ontwerp van Peter Struycken maakt ruimte voor uiteenlopende kunstenaars. Wandel door de stad en vergelijk vormen, materialen en ideeën.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "beeldenroute",
+      "stedelijk",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.stroom.nl/kunst-in-de-stad/de-beeldengalerij",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "7ad7a731-2264-57bb-adc8-8c17a822a46a",
+    "inventory_key": "garden:Beeldenpark Croeselaan",
+    "category": "beeldenparken",
+    "name": "Beeldenpark Croeselaan",
+    "city": "Utrecht",
+    "province": "Utrecht",
+    "street_address": "Croeselaan",
+    "website_url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/sentimental-dragon",
+    "summary": "Op de Croeselaan staan beelden uit verschillende tijden bij elkaar. De Wisselplek voegt telkens een nieuw perspectief toe. Vergelijk de werken en merk hoe kunst een drukke straat in een plek om te kijken kan veranderen.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "beeldenroute",
+      "stedelijk",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/sentimental-dragon",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "9a3db331-2f7a-51ed-8e71-ad6020adc01f",
+    "inventory_key": "garden:Beeldentuin Mariënheem",
+    "category": "beeldenparken",
+    "name": "Beeldentuin Mariënheem",
+    "city": "Mariënheem",
+    "province": "Overijssel",
+    "street_address": "Nijverdalseweg 20",
+    "website_url": "https://www.beeldentuinmarienheem.nl/tijden-contact-route",
+    "summary": "Ontdek beelden in een groene buitenomgeving waar een wandeling het tempo bepaalt. Kijk van dichtbij naar materialen en neem daarna afstand om de vormen in de tuin te zien. Controleer vooraf de seizoensopenstelling.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "tuin",
+      "wisselende tentoonstelling"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.beeldentuinmarienheem.nl/tijden-contact-route",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "2dca3c95-59f4-5630-9903-5f01c65958ee",
+    "inventory_key": "garden:Lustwarande – De Oude Warande",
+    "category": "beeldenparken",
+    "name": "Lustwarande – De Oude Warande",
+    "city": "Tilburg",
+    "province": "Noord-Brabant",
+    "street_address": "Bredaseweg 441",
+    "website_url": "https://www.lustwarande.org/bezoek/openingstijden-en-toegangsprijs",
+    "summary": "In het barokke sterrenbos De Oude Warande krijgt hedendaagse sculptuur een prikkelend decor. Tijdens tentoonstellingen ontdek je hoe kunstwerken op het bos reageren. Buiten het seizoen blijft het paviljoen Grotto, maar niet de hele beeldenselectie.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "hedendaagse kunst",
+      "beeldhouwkunst",
+      "bos",
+      "wisselende tentoonstelling"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.lustwarande.org/bezoek/openingstijden-en-toegangsprijs",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Material Worlds 2026 eindigde op 27 september. Buiten het tentoonstellingsseizoen is alleen Grotto permanent aanwezig; publiceer de beeldenselectie opnieuw wanneer een volgend seizoen is bevestigd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "temporarily_closed",
+    "publication_status": "draft"
+  },
+  {
+    "id": "7f3203da-e3cf-5991-9ad2-ce9d15c4e33c",
+    "inventory_key": "garden:Waterwerken – Ruud Kuijer",
+    "category": "beeldenparken",
+    "name": "Waterwerken – Ruud Kuijer",
+    "city": "Utrecht",
+    "province": "Utrecht",
+    "street_address": "Isotopenweg, langs het Amsterdam-Rijnkanaal",
+    "website_url": "https://ruudkuijer.nl/Pavilion",
+    "summary": "Zeven grote betonsculpturen staan langs het kanaal. Ruud Kuijer laat abstracte vormen reageren op water, transport en industrie. Verplaats je langs de reeks en ontdek hoe de beelden samen én afzonderlijk de omgeving veranderen.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "beton",
+      "beeldenensemble",
+      "water"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://ruudkuijer.nl/Pavilion",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "83413c2d-024f-58de-ad52-4d2b2859e272",
+    "inventory_key": "garden:Máximapark – beeldenroute",
+    "category": "beeldenparken",
+    "name": "Máximapark – beeldenroute",
+    "city": "Utrecht",
+    "province": "Utrecht",
+    "street_address": "Máximapark",
+    "website_url": "https://maximapark.nl/kaart-van-het-park/",
+    "summary": "Combineer een wandeling door het park met kunstwerken die ieder een andere relatie met de plek aangaan. Van een kapelachtige vorm tot een barricade: de beelden nodigen uit om vertrouwde parkruimte anders te bekijken.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "park",
+      "beeldenroute",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://maximapark.nl/kaart-van-het-park/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "61f8f2c8-a799-5e1f-842b-fb768a8bb693",
+    "inventory_key": "garden:Kunstwegen – Nederlandse Vechtdalroute",
+    "category": "beeldenparken",
+    "name": "Kunstwegen – Nederlandse Vechtdalroute",
+    "city": "Zwolle, Dalfsen, Ommen en Hardenberg",
+    "province": "Overijssel",
+    "street_address": "Nederlandse route langs de Vecht",
+    "website_url": "https://www.kunstwegen.nl/nl",
+    "summary": "Volg de Vecht langs kunst die met landschap en geschiedenis verbonden is. De Nederlandse etappes brengen uiteenlopende kunstenaars en plekken samen. Kies een deelroute en ontdek hoe iedere locatie een ander verhaal oproept.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "land art",
+      "beeldenroute",
+      "landschap",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.kunstwegen.nl/nl",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Deze selectie betreft het Nederlandse deel tussen Zwolle, Dalfsen, Ommen, Hardenberg en Gramsbergen. Kies vooraf een etappe; het volledige internationale netwerk loopt door naar Duitsland.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "id": "a278512d-bc85-5c57-aab4-e378d14d8446",
+    "inventory_key": "garden:Beeldenterras Westersingel",
+    "category": "beeldenparken",
+    "name": "Beeldenterras Westersingel",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Westersingel",
+    "website_url": "https://www.sculptureinternationalrotterdam.nl/collectie/zonder-titel/",
+    "summary": "Langs het water ontmoet je verschillende verbeeldingen van de mens. Het beeldenterras brengt sculpturen bijeen die uitnodigen tot vergelijken: lopend, balancerend, herkenbaar of sterk vereenvoudigd. Een kunstwandeling midden in de stad.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "beeldenensemble",
+      "stedelijk",
+      "moderne kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "provider": "Beheerder / instelling",
+        "url": "https://www.sculptureinternationalrotterdam.nl/collectie/zonder-titel/",
+        "retrieved_at": "2026-10-03T18:00:00Z"
+      }
+    ],
+    "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
+    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published"
+  }
+]

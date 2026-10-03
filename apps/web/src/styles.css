@@ -89,3 +89,7 @@ fieldset {border:1px solid var(--border);border-radius:10px;padding:12px;}
 .field-invalid>label,.field-error {color:#b42318;}
 .field-error {margin:0;font-size:14px;line-height:1.5;}
 .museum-form [aria-invalid="true"]:focus {outline:2px solid #b42318;outline-offset:3px;}
+
+.source-fields {display:flex;flex-direction:column;gap:12px;border-bottom:1px solid var(--border);padding:16px 0;margin-bottom:16px;}
+.editor-photo {width:100%;max-height:280px;object-fit:contain;}
+.museum-form fieldset {min-width:0;border:1px solid var(--border);border-radius:12px;padding:16px;}

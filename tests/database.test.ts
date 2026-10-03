@@ -84,3 +84,34 @@ test('Landelijke kunstuitbreiding is herhaalbaar en beschermt bestaande kunst en
  await role(db,'anon');assert.equal((await db.query('select * from public.kk_museums')).rows.length,0);
  }finally{await db.close();}
 });
+
+test('Nieuwe collecties: RLS, agenda-venster, notities en optimistische vergrendeling',async()=>{
+ const db=await database();try{
+ await role(db,'authenticated',editor);
+ const base={category:'evenementen',name:'Testtentoonstelling',city:'Utrecht',province:'Utrecht',street_address:'Teststraat',website_url:'https://example.test',summary:'Kunst om te ontdekken.',creator:'',year:'',tags:['fotografie'],photos:[],sources:[{provider:'Museum',url:'https://example.test'}],selection_reason:'Een specifieke fotografische blik.',visit_notes:'',museum_id:null,starts_on:'2000-01-01',ends_on:'2100-01-01',operating_status:'open',publication_status:'published'};
+ const saved=(await db.query<{id:string;updated_at:Date}>('select * from public.kk_save_discovery($1,null,null,$2)',[base,'Privé'])).rows[0]!;
+ for(const variation of [{publication_status:'draft'},{starts_on:'2000-01-01',ends_on:'2000-12-31'},{starts_on:'2100-01-01',ends_on:'2100-12-31'}])await db.query('select * from public.kk_save_discovery($1,null,null,$2)',[{...base,...variation},'Niet publiek']);
+ await assert.rejects(db.query('select * from public.kk_save_discovery($1,null,null,$2)',[{...base,ends_on:null},'Ongeldig']));
+ await db.query('select * from public.kk_save_discovery($1,$2,$3,$4)',[{...base,name:'Bewerkt'},saved.id,saved.updated_at,'Bewaard']);
+ await assert.rejects(db.query('select * from public.kk_save_discovery($1,$2,$3,$4)',[base,saved.id,saved.updated_at,'Overschrijven']));
+ assert.equal((await db.query<{review_notes:string}>('select review_notes from public.kk_discovery_editorial where discovery_id=$1',[saved.id])).rows[0]?.review_notes,'Bewaard');
+ await role(db,'anon');assert.equal((await db.query('select * from public.kk_discoveries')).rows.length,1);await assert.rejects(db.query('select * from public.kk_discovery_editorial'));
+ await role(db,'authenticated',visitor);assert.equal((await db.query('select * from public.kk_discoveries')).rows.length,1);await assert.rejects(db.query('select * from public.kk_save_discovery($1,null,null,$2)',[base,'Onbevoegd']));
+ assert.equal((await db.query('select * from public.kk_discovery_editorial')).rows.length,0);
+ await db.query("update public.kk_discoveries set name='Onbevoegd' where id=$1",[saved.id]);
+ assert.equal((await db.query<{name:string}>('select name from public.kk_discoveries where id=$1',[saved.id])).rows[0]?.name,'Bewerkt');
+ }finally{await db.close();}
+});
+test('Nieuwe collecties importeren herhaalbaar zonder museum- of redactiewerk te overschrijven',async()=>{
+ const db=await database();try{
+ for(const file of readdirSync('supabase/imports').filter(f=>f.endsWith('.sql')).sort())await db.exec(readFileSync(`supabase/imports/${file}`,'utf8'));
+ for(const file of readdirSync('supabase/art-imports').filter(f=>f.endsWith('.sql')).sort())await db.exec(readFileSync(`supabase/art-imports/${file}`,'utf8'));
+ const before=await db.query('select * from public.kk_museums order by id');
+ const files=readdirSync('supabase/discovery-imports').filter(f=>f.endsWith('.sql')).sort();assert.ok(files.length);
+ for(const file of files)await db.exec(readFileSync(`supabase/discovery-imports/${file}`,'utf8'));
+ const row=(await db.query<{id:string}>('select id from public.kk_discoveries limit 1')).rows[0]!;await db.query("update public.kk_discoveries set name='Redactioneel bewerkt' where id=$1",[row.id]);
+ const snapshot=await db.query('select * from public.kk_discoveries order by id');
+ for(const file of files)await db.exec(readFileSync(`supabase/discovery-imports/${file}`,'utf8'));
+ assert.deepEqual((await db.query('select * from public.kk_discoveries order by id')).rows,snapshot.rows);assert.deepEqual((await db.query('select * from public.kk_museums order by id')).rows,before.rows);
+ }finally{await db.close();}
+});
