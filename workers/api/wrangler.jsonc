@@ -1,0 +1,27 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "kunstkiezer-dev",
+  "main": "src/site.ts",
+  "compatibility_date": "2026-10-03",
+  "workers_dev": true,
+  "assets": {
+    "directory": "../../apps/web/dist",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "env": {
+    "staging": {
+      "name": "kunstkiezer-staging",
+      "workers_dev": true,
+      "routes": []
+    },
+    "production": {
+      "name": "kunstkiezer",
+      "workers_dev": false,
+      "routes": [
+        { "pattern": "loci-amsterdam.nl/kunstkiezer", "zone_name": "loci-amsterdam.nl" },
+        { "pattern": "loci-amsterdam.nl/kunstkiezer/*", "zone_name": "loci-amsterdam.nl" }
+      ]
+    }
+  }
+}
