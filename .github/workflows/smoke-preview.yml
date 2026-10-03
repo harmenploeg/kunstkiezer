@@ -1,0 +1,38 @@
+name: Controleer live Kunstkiezer-preview
+on:
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/smoke-preview.yml']
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Controleer pagina, categorie, assets en health
+        run: |
+          python3 - <<'PY'
+          import urllib.request, urllib.error, json, re, time
+          base = 'https://kunstkiezer.pages.dev'
+          def fetch(path):
+              for attempt in range(6):
+                  try:
+                      with urllib.request.urlopen(base + path, timeout=30) as response:
+                          return response.status, response.read().decode()
+                  except urllib.error.HTTPError as error:
+                      if attempt == 5: raise SystemExit(f'Live controle mislukt: {path} HTTP {error.code}')
+                      time.sleep(5)
+          for path in ['/kunstkiezer/', '/kunstkiezer/agenda/musea', '/kunstkiezer/geschiedenis']:
+              status, html = fetch(path)
+              assert status == 200 and 'Mijn kunstkeuze' in html and 'id="root"' in html
+              for asset in re.findall(r'(?:src|href)="(/kunstkiezer/assets/[^"]+)"', html):
+                  assert fetch(asset)[0] == 200
+              print('Pagina en assets bereikbaar:', path)
+          assert json.loads(fetch('/kunstkiezer/api/health')[1]) == {'status': 'ok', 'service': 'kunstkiezer-api'}
+          try:
+              urllib.request.urlopen(base + '/kunstkiezer/onbekend', timeout=30)
+              raise SystemExit('Onbekende route geeft geen 404.')
+          except urllib.error.HTTPError as error:
+              assert error.code == 404
+          print('Health en routebegrenzing bevestigd.')
+          PY
