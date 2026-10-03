@@ -12,8 +12,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/%27Oosterscheldekering%27_Zeeland_%2816793117187%29.jpg/1280px-%27Oosterscheldekering%27_Zeeland_%2816793117187%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Deltawerken — 'Oosterscheldekering' Zeeland (16793117187)",
         "credit": "FaceMePLS from The Hague, The Netherlands",
+        "caption": "Deltawerken — 'Oosterscheldekering' Zeeland (16793117187)",
         "license": "CC BY 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:%27Oosterscheldekering%27_Zeeland_(16793117187).jpg"
       }
@@ -57,8 +57,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Kunsthal_%40_Rotterdam_%2830282900450%29.jpg/1280px-Kunsthal_%40_Rotterdam_%2830282900450%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kunsthal — Kunsthal @ Rotterdam (30282900450)",
         "credit": "Guilhem Vellut from Annecy, France",
+        "caption": "Kunsthal — Kunsthal @ Rotterdam (30282900450)",
         "license": "CC BY 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Kunsthal_@_Rotterdam_(30282900450).jpg"
       }
@@ -102,8 +102,8 @@
     "photos": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/ING_Hoofdkantoor%2C_Amsterdam_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Hoofdkantoor NMB — ING Hoofdkantoor, Amsterdam (1)",
         "credit": "Jan Derwig",
+        "caption": "Hoofdkantoor NMB — ING Hoofdkantoor, Amsterdam (1)",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:ING_Hoofdkantoor,_Amsterdam_(1).jpg"
       }
@@ -185,8 +185,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Sail_Amsterdam_-_IJplein_-_View_South_II.jpg/1280px-Sail_Amsterdam_-_IJplein_-_View_South_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Stedenbouwkundig plan IJ-Plein — Sail Amsterdam - IJplein - View South II",
         "credit": "Txllxt TxllxT",
+        "caption": "Stedenbouwkundig plan IJ-Plein — Sail Amsterdam - IJplein - View South II",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Sail_Amsterdam_-_IJplein_-_View_South_II.jpg"
       }
@@ -267,8 +267,8 @@
     "photos": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Zonnestraal_Hilversum_%286877657308%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Sanatorium Zonnestraal — Zonnestraal Hilversum (6877657308)",
         "credit": "Het Nieuwe Instituut - Architecture Collection",
+        "caption": "Sanatorium Zonnestraal — Zonnestraal Hilversum (6877657308)",
         "license": "No restrictions",
         "source_url": "https://commons.wikimedia.org/wiki/File:Zonnestraal_Hilversum_(6877657308).jpg"
       }
@@ -350,8 +350,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Palacio_Real%2C_%C3%81msterdam%2C_Pa%C3%ADses_Bajos%2C_2016-05-30%2C_DD_07-09_HDR.jpg/1280px-Palacio_Real%2C_%C3%81msterdam%2C_Pa%C3%ADses_Bajos%2C_2016-05-30%2C_DD_07-09_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Paleis op de Dam — Palacio Real, Ámsterdam, Países Bajos, 2016-05-30, DD 07-09 HDR",
         "credit": "Diego Delso",
+        "caption": "Paleis op de Dam — Palacio Real, Ámsterdam, Países Bajos, 2016-05-30, DD 07-09 HDR",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Palacio_Real,_%C3%81msterdam,_Pa%C3%ADses_Bajos,_2016-05-30,_DD_07-09_HDR.jpg"
       }
@@ -372,9 +372,9 @@
     ],
     "summary": "Dit monumentale gebouw begon als stadhuis van Amsterdam. Jacob van Campen gaf de stedelijke macht een klassieke vorm. Later werd het een paleis; de schaal en symmetrie blijven indrukwekkend.",
     "category": "architectuur",
-    "latitude": 52.37305555555555,
+    "latitude": 52.3730555555556,
     "province": "Noord-Holland",
-    "longitude": 4.891388888888889,
+    "longitude": 4.89138888888889,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -458,9 +458,9 @@
     ],
     "summary": "Andreaskruizen in het vakwerk verraden de bijzondere constructie van deze Limburgse boerderij. Het zestiende-eeuwse woongedeelte en de jongere bedrijfsruimte laten verschillende bouwfasen naast elkaar zien.",
     "category": "architectuur",
-    "latitude": 50.76094444444445,
+    "latitude": 50.7609444444444,
     "province": "Limburg",
-    "longitude": 5.945261111111111,
+    "longitude": 5.94526111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -487,8 +487,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/2013_07_04_Kasteel_Twickel1.jpg/1280px-2013_07_04_Kasteel_Twickel1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kasteel Twickel — 2013 07 04 Kasteel Twickel1",
         "credit": "Gouwenaar",
+        "caption": "Kasteel Twickel — 2013 07 04 Kasteel Twickel1",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:2013_07_04_Kasteel_Twickel1.jpg"
       }
@@ -509,7 +509,7 @@
     ],
     "summary": "Een omgracht kasteel vormt het hart van de historische buitenplaats Twickel. Opeenvolgende bouwfasen maken de lange bewoningsgeschiedenis zichtbaar. Bekijk het samenspel van huis, water en landschap.",
     "category": "architectuur",
-    "latitude": 52.26638888888889,
+    "latitude": 52.2663888888889,
     "province": "Overijssel",
     "longitude": 6.715,
     "museum_id": null,
@@ -538,8 +538,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Houthem-Sint-Gerlachuskerk.JPG/1280px-Houthem-Sint-Gerlachuskerk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Sint-Gerlachuskerk — Houthem-Sint-Gerlachuskerk",
         "credit": "Romaine",
+        "caption": "Sint-Gerlachuskerk — Houthem-Sint-Gerlachuskerk",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Houthem-Sint-Gerlachuskerk.JPG"
       }
@@ -560,7 +560,7 @@
     ],
     "summary": "De voormalige kloosterkerk verrast met barokke ruimte en frescoschilderingen. Hier versterken architectuur en geschilderde decoratie elkaar. Het gebouw hoorde bij het adellijke stift van Sint Gerlach.",
     "category": "architectuur",
-    "latitude": 50.870269444444446,
+    "latitude": 50.8702694444444,
     "province": "Limburg",
     "longitude": 5.798025,
     "museum_id": null,
@@ -603,9 +603,9 @@
     ],
     "summary": "Robert van 't Hoff ontwierp deze villa in 1914. De groepering van de volumes en de verwantschap met Frank Lloyd Wright maken het huis een vroeg modern experiment in de Nederlandse woningbouw.",
     "category": "architectuur",
-    "latitude": 52.10946388888889,
+    "latitude": 52.1094638888889,
     "province": "Utrecht",
-    "longitude": 5.240905555555556,
+    "longitude": 5.24090555555556,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Samengevoegd met Woonhuis Henny (Huis ter Heide) (architectuurgids:602). Bronnen en selectie blijven bij dat gepubliceerde record beschikbaar.",
@@ -646,7 +646,7 @@
     ],
     "summary": "Gotische kerk, renaissancetoren en een latere spits vormen een opvallende combinatie. De Oude Sint-Nicolaaskerk van IJsselstein laat zien hoe verschillende eeuwen aan één monument blijven bouwen.",
     "category": "architectuur",
-    "latitude": 52.021030555555555,
+    "latitude": 52.0210305555556,
     "province": "Utrecht",
     "longitude": 5.044925,
     "museum_id": null,
@@ -675,8 +675,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Meester_Kok_boerderij.jpg/1280px-Meester_Kok_boerderij.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Meester Kok — Meester Kok boerderij",
         "credit": "Ciell",
+        "caption": "Meester Kok — Meester Kok boerderij",
         "license": "CC BY-SA 3.0 nl",
         "source_url": "https://commons.wikimedia.org/wiki/File:Meester_Kok_boerderij.jpg"
       }
@@ -697,9 +697,9 @@
     ],
     "summary": "Vakwerk, een houten schuur en een weefhuisje vormen samen een historisch boerenerf. Bij Meester Kok zie je hoe wonen en werken op het Achterhoekse platteland ruimtelijk samenhingen.",
     "category": "architectuur",
-    "latitude": 51.98136111111111,
+    "latitude": 51.9813611111111,
     "province": "Gelderland",
-    "longitude": 6.793972222222222,
+    "longitude": 6.79397222222222,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -726,8 +726,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Front_side_of_Soestdijk_Palace.jpg/1280px-Front_side_of_Soestdijk_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Paleis Soestdijk — Front side of Soestdijk Palace",
         "credit": "Michael A. Echteld",
+        "caption": "Paleis Soestdijk — Front side of Soestdijk Palace",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Front_side_of_Soestdijk_Palace.jpg"
       }
@@ -748,9 +748,9 @@
     ],
     "summary": "Een zeventiende-eeuws buitenhuis groeide uit tot koninklijke residentie. Paleis Soestdijk verbindt representatieve architectuur met een lange bewoningsgeschiedenis. Bekijk voor binnenbezoek het actuele programma van de beheerder.",
     "category": "architectuur",
-    "latitude": 52.193333333333335,
+    "latitude": 52.1933333333333,
     "province": "Utrecht",
-    "longitude": 5.279444444444445,
+    "longitude": 5.27944444444444,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -815,8 +815,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Markthal_covert_market_%28Rotterdam%2C_Netherlands_2014%29_%2815565455040%29.jpg/1280px-Markthal_covert_market_%28Rotterdam%2C_Netherlands_2014%29_%2815565455040%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Markthal — Markthal covert market (Rotterdam, Netherlands 2014) (15565455040)",
         "credit": "Paul Arps from The Netherlands",
+        "caption": "Markthal — Markthal covert market (Rotterdam, Netherlands 2014) (15565455040)",
         "license": "CC BY 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Markthal_covert_market_(Rotterdam,_Netherlands_2014)_(15565455040).jpg"
       }
@@ -886,7 +886,7 @@
   },
   {
     "id": "caf15ff4-de0f-594a-a83d-697168b9e5b6",
-    "city": "Soest",
+    "city": "Soesterberg",
     "name": "Nationaal Militair Museum",
     "tags": [
       "architectuur",
@@ -895,20 +895,33 @@
     ],
     "year": "2011-2014",
     "photos": [],
-    "creator": "FELIX CLAUS DICK VAN WAGENINGEN ARCHITECTEN",
+    "creator": "Felix Claus en Dick van Wageningen",
     "ends_on": null,
     "sources": [
       {
         "url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/4541",
         "provider": "Architectuurgids · Top 100",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.architectuur.org/bouwwerk/696/Nationaal_Militair_Museum.html",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "city",
+          "creator",
+          "summary",
+          "latitude",
+          "longitude",
+          "coordinate_precision"
+        ]
       }
     ],
-    "summary": "Bekijk Nationaal Militair Museum in Soest: architectuur van FELIX CLAUS DICK VAN WAGENINGEN ARCHITECTEN uit 2011-2014. Let op het samenspel van vorm, materiaal en omgeving. Dit project staat in de Top 100-selectie van Architectuurgids.",
+    "summary": "Een enorm plat dak zweeft boven glazen gevels op de voormalige vliegbasis Soesterberg. Binnen staan twee gesloten bouwvolumes in de open hal. De entreebrug en uitkijktoren geven steeds een ander perspectief op het gebouw en het omliggende landschap.",
     "category": "architectuur",
-    "latitude": 52.13167911,
+    "latitude": 52.1318833333333,
     "province": "Utrecht",
-    "longitude": 5.28057265,
+    "longitude": 5.275725,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Selectie betreft de architectuur. Binnenbezoek is niet vanzelfsprekend; respecteer woningen en werkplekken en controleer toegang vooraf.",
@@ -917,9 +930,9 @@
     "street_address": "Verlengde Paltzerweg 1",
     "operating_status": "open",
     "selection_reason": "Opgenomen in de Top 100 van Architectuurgids; gekozen als representatief architectuurproject, met een herkenbaar gebouwtype en een vastgelegde architect en ontstaansperiode.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-c0dfe15353b87f81b7004ed80ddf00c5",
+    "coordinate_source": "https://www.architectuur.org/bouwwerk/696/Nationaal_Militair_Museum.html",
     "publication_status": "published",
-    "coordinate_precision": "address"
+    "coordinate_precision": "exact"
   },
   {
     "id": "87151d89-c72e-5173-bfe7-f88285cddc0e",
@@ -936,8 +949,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/De_Rotterdam_building_2018.jpg/1280px-De_Rotterdam_building_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Gebouw De Rotterdam — De Rotterdam building 2018",
         "credit": "Steven Lek",
+        "caption": "Gebouw De Rotterdam — De Rotterdam building 2018",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:De_Rotterdam_building_2018.jpg"
       }
@@ -981,8 +994,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Zaandam_-_Poeskinstraat_-_View_NNW_towards_Inntel_Hotel_2010_by_Wilfried_van_Winden.jpg/1280px-Zaandam_-_Poeskinstraat_-_View_NNW_towards_Inntel_Hotel_2010_by_Wilfried_van_Winden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Hotel Inntel Zaandam — Zaandam - Poeskinstraat - View NNW towards Inntel Hotel 2010 by Wilfried van Winden",
         "credit": "Txllxt TxllxT",
+        "caption": "Hotel Inntel Zaandam — Zaandam - Poeskinstraat - View NNW towards Inntel Hotel 2010 by Wilfried van Winden",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Zaandam_-_Poeskinstraat_-_View_NNW_towards_Inntel_Hotel_2010_by_Wilfried_van_Winden.jpg"
       }
@@ -1214,8 +1227,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Amsterdam_-_IJplein_-_View_SE_towards_Muziekgebouw_aan_%27t_IJ_%26_M%C3%B6venpick_Hotel_Amsterdam_City_Centre.jpg/1280px-Amsterdam_-_IJplein_-_View_SE_towards_Muziekgebouw_aan_%27t_IJ_%26_M%C3%B6venpick_Hotel_Amsterdam_City_Centre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Muziekgebouw aan 't IJ — Amsterdam - IJplein - View SE towards Muziekgebouw aan 't IJ & Mövenpick Hotel Amsterdam City Centre",
         "credit": "Txllxt TxllxT",
+        "caption": "Muziekgebouw aan 't IJ — Amsterdam - IJplein - View SE towards Muziekgebouw aan 't IJ & Mövenpick Hotel Amsterdam City Centre",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_IJplein_-_View_SE_towards_Muziekgebouw_aan_%27t_IJ_%26_M%C3%B6venpick_Hotel_Amsterdam_City_Centre.jpg"
       }
@@ -1296,8 +1309,8 @@
     "photos": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/ING-House_-_Amsterdam_20060903_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "ING House — ING-House - Amsterdam 20060903 01",
         "credit": "Pudding4brains",
+        "caption": "ING House — ING-House - Amsterdam 20060903 01",
         "license": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:ING-House_-_Amsterdam_20060903_01.jpg"
       }
@@ -1491,8 +1504,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Het_Minnaertgebouw.jpg/1280px-Het_Minnaertgebouw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Minnaertgebouw — Het Minnaertgebouw",
         "credit": "Choinowski",
+        "caption": "Minnaertgebouw — Het Minnaertgebouw",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Het_Minnaertgebouw.jpg"
       }
@@ -1573,8 +1586,8 @@
     "photos": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Mediapark%2C_Net3%2C_VPRO_%28211893339%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Villa VPRO — Mediapark, Net3, VPRO (211893339)",
         "credit": "Marco Raaphorst from The Hague, The Netherlands",
+        "caption": "Villa VPRO — Mediapark, Net3, VPRO (211893339)",
         "license": "CC BY 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Mediapark,_Net3,_VPRO_(211893339).jpg"
       }
@@ -1618,8 +1631,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/MVRDV_Building_WoZoCo.jpg/1280px-MVRDV_Building_WoZoCo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Woonzorgcomplex Oklahoma — MVRDV Building WoZoCo",
         "credit": "laurenatclemson",
+        "caption": "Woonzorgcomplex Oklahoma — MVRDV Building WoZoCo",
         "license": "CC BY 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:MVRDV_Building_WoZoCo.jpg"
       }
@@ -1700,8 +1713,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Erasmusbrug_and_De_Rotterdam%2C_from_along_Nieuwe_Maas.jpg/1280px-Erasmusbrug_and_De_Rotterdam%2C_from_along_Nieuwe_Maas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Erasmusbrug — Erasmusbrug and De Rotterdam, from along Nieuwe Maas",
         "credit": "ChristofferItzakah",
+        "caption": "Erasmusbrug — Erasmusbrug and De Rotterdam, from along Nieuwe Maas",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Erasmusbrug_and_De_Rotterdam,_from_along_Nieuwe_Maas.jpg"
       }
@@ -1745,8 +1758,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Chasse-theater-2016.jpg/1280px-Chasse-theater-2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Chassé Theater — Chasse-theater-2016",
         "credit": "Choinowski",
+        "caption": "Chassé Theater — Chasse-theater-2016",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Chasse-theater-2016.jpg"
       }
@@ -1867,8 +1880,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/2023_Amsterdam%2C_KNSM-eiland%2C_Levantkade_%2811%29.jpg/1280px-2023_Amsterdam%2C_KNSM-eiland%2C_Levantkade_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Woongebouw Piraeus — 2023 Amsterdam, KNSM-eiland, Levantkade (11)",
         "credit": "Kleon3",
+        "caption": "Woongebouw Piraeus — 2023 Amsterdam, KNSM-eiland, Levantkade (11)",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:2023_Amsterdam,_KNSM-eiland,_Levantkade_(11).jpg"
       }
@@ -1912,8 +1925,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/2019_Maastricht%2C_Herdenkingsplein_%2802%29.jpg/1280px-2019_Maastricht%2C_Herdenkingsplein_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Academie Beeldende Kunsten Maastricht — 2019 Maastricht, Herdenkingsplein (02)",
         "credit": "Kleon3",
+        "caption": "Academie Beeldende Kunsten Maastricht — 2019 Maastricht, Herdenkingsplein (02)",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:2019_Maastricht,_Herdenkingsplein_(02).jpg"
       }
@@ -2069,8 +2082,8 @@
     "photos": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/NL-Utrecht-muziekcentrum-Vr.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Muziekcentrum Vredenburg — NL-Utrecht-muziekcentrum-Vr",
         "credit": "No machine-readable author provided. Vincedevries assumed (based on copyright claims).",
+        "caption": "Muziekcentrum Vredenburg — NL-Utrecht-muziekcentrum-Vr",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:NL-Utrecht-muziekcentrum-Vr.png"
       }
@@ -2226,8 +2239,8 @@
     "photos": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Kantoorgebouw_%27Centraal_Beheer%27_-_%27Centraal_Beheer%27_Insurance_Company_%289771682195%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Kantoorgebouw Centraal Beheer — Kantoorgebouw 'Centraal Beheer' - 'Centraal Beheer' Insurance Company (9771682195)",
         "credit": "Het Nieuwe Instituut - Architecture Collection",
+        "caption": "Kantoorgebouw Centraal Beheer — Kantoorgebouw 'Centraal Beheer' - 'Centraal Beheer' Insurance Company (9771682195)",
         "license": "No restrictions",
         "source_url": "https://commons.wikimedia.org/wiki/File:Kantoorgebouw_%27Centraal_Beheer%27_-_%27Centraal_Beheer%27_Insurance_Company_(9771682195).jpg"
       }
@@ -2271,8 +2284,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/1604_Erasmus_MC%2C_Rotterdam_002.jpg/1280px-1604_Erasmus_MC%2C_Rotterdam_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Medische Faculteit Rotterdam — 1604 Erasmus MC, Rotterdam 002",
         "credit": "Jan Geerling",
+        "caption": "Medische Faculteit Rotterdam — 1604 Erasmus MC, Rotterdam 002",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:1604_Erasmus_MC,_Rotterdam_002.jpg"
       }
@@ -2353,8 +2366,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Aula_TU_Delft_2017.jpg/1280px-Aula_TU_Delft_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Aula TU Delft — Aula TU Delft 2017",
         "credit": "Choinowski",
+        "caption": "Aula TU Delft — Aula TU Delft 2017",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Aula_TU_Delft_2017.jpg"
       }
@@ -2472,8 +2485,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Rotterdam%2C_de_Lijnbaan_in_de_rust_van_Excelsior-Feyenoord_IMG_6497_2017-05-07_15.34.jpg/1280px-Rotterdam%2C_de_Lijnbaan_in_de_rust_van_Excelsior-Feyenoord_IMG_6497_2017-05-07_15.34.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Winkelcentrum De Lijnbaan — Rotterdam, de Lijnbaan in de rust van Excelsior-Feyenoord IMG 6497 2017-05-07 15.34",
         "credit": "Michielverbeek",
+        "caption": "Winkelcentrum De Lijnbaan — Rotterdam, de Lijnbaan in de rust van Excelsior-Feyenoord IMG 6497 2017-05-07 15.34",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Rotterdam,_de_Lijnbaan_in_de_rust_van_Excelsior-Feyenoord_IMG_6497_2017-05-07_15.34.jpg"
       }
@@ -2517,8 +2530,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Rotterdam%2C_het_Groothandelsgebouw_RM530940_foto10_2016-02-28_09.13.jpg/1280px-Rotterdam%2C_het_Groothandelsgebouw_RM530940_foto10_2016-02-28_09.13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Groothandelsgebouw — Rotterdam, het Groothandelsgebouw RM530940 foto10 2016-02-28 09.13",
         "credit": "Michielverbeek",
+        "caption": "Groothandelsgebouw — Rotterdam, het Groothandelsgebouw RM530940 foto10 2016-02-28 09.13",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Rotterdam,_het_Groothandelsgebouw_RM530940_foto10_2016-02-28_09.13.jpg"
       }
@@ -2562,8 +2575,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Est%C3%A1dio_De_Kuip.jpg/1280px-Est%C3%A1dio_De_Kuip.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Stadion Feijenoord — Estádio De Kuip",
         "credit": "Boaventuravinicius",
+        "caption": "Stadion Feijenoord — Estádio De Kuip",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_De_Kuip.jpg"
       }
@@ -2681,9 +2694,9 @@
     "year": "1928-1933",
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Gang_Raadhuis_-_Corridor_City_Hall_Enschede_%284441097384%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Raadhuis Enschede — Gang Raadhuis - Corridor City Hall Enschede (4441097384)",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Gang_Raadhuis_-_Corridor_City_Hall_Enschede_%284441097384%29.jpg/330px-Gang_Raadhuis_-_Corridor_City_Hall_Enschede_%284441097384%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "credit": "Het Nieuwe Instituut - Architecture Collection",
+        "caption": "Raadhuis Enschede — Gang Raadhuis - Corridor City Hall Enschede (4441097384)",
         "license": "No restrictions",
         "source_url": "https://commons.wikimedia.org/wiki/File:Gang_Raadhuis_-_Corridor_City_Hall_Enschede_(4441097384).jpg"
       }
@@ -2765,8 +2778,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Raadhuis_Hilversum2022.jpg/1280px-Raadhuis_Hilversum2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Raadhuis Hilversum — Raadhuis Hilversum2022",
         "credit": "Choinowski",
+        "caption": "Raadhuis Hilversum — Raadhuis Hilversum2022",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Raadhuis_Hilversum2022.jpg"
       }
@@ -2810,8 +2823,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Overzicht_op_verdiepingen_-_Amsterdam_-_20531712_-_RCE.jpg/1280px-Overzicht_op_verdiepingen_-_Amsterdam_-_20531712_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Eerste Openluchtschool voor het Gezonde Kind — historische opname — Overzicht op verdiepingen - Amsterdam - 20531712 - RCE",
         "credit": "Chris Booms",
+        "caption": "Eerste Openluchtschool voor het Gezonde Kind — historische opname — Overzicht op verdiepingen - Amsterdam - 20531712 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_op_verdiepingen_-_Amsterdam_-_20531712_-_RCE.jpg"
       }
@@ -2895,8 +2908,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Ingang_Kantoorgebouw_Nederlandsche_Handel_Maatschappij%2C_Bestanddeelnr_813_04.jpg/1280px-Ingang_Kantoorgebouw_Nederlandsche_Handel_Maatschappij%2C_Bestanddeelnr_813_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kantoorgebouw Nederlandsche Handel-Maatschappij — Ingang Kantoorgebouw Nederlandsche Handel Maatschappij, Bestanddeelnr 813 04",
         "credit": "Nationaal Archief",
+        "caption": "Kantoorgebouw Nederlandsche Handel-Maatschappij — Ingang Kantoorgebouw Nederlandsche Handel Maatschappij, Bestanddeelnr 813 04",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Ingang_Kantoorgebouw_Nederlandsche_Handel_Maatschappij,_Bestanddeelnr_813_04.jpg"
       }
@@ -2941,8 +2954,8 @@
     "photos": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Den_Haag_De_Bijenkorf_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Warenhuis De Bijenkorf Den Haag — Den Haag De Bijenkorf 001",
         "credit": "anonymous",
+        "caption": "Warenhuis De Bijenkorf Den Haag — Den Haag De Bijenkorf 001",
         "license": "CC BY-SA 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Den_Haag_De_Bijenkorf_001.JPG"
       }
@@ -2989,8 +3002,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Rotterdam_mauritsweg_de_unie2011.jpg/1280px-Rotterdam_mauritsweg_de_unie2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Café De Unie (Reconstructie) — Rotterdam mauritsweg de unie2011",
         "credit": "F. Eveleens",
+        "caption": "Café De Unie (Reconstructie) — Rotterdam mauritsweg de unie2011",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Rotterdam_mauritsweg_de_unie2011.jpg"
       }
@@ -3115,8 +3128,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Rotterdam_spangen_vaneffenstraat.jpg/1280px-Rotterdam_spangen_vaneffenstraat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Justus van Effencomplex — Rotterdam spangen vaneffenstraat",
         "credit": "Wikifrits",
+        "caption": "Justus van Effencomplex — Rotterdam spangen vaneffenstraat",
         "license": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:Rotterdam_spangen_vaneffenstraat.jpg"
       }
@@ -3142,9 +3155,9 @@
     ],
     "summary": "Een groot woonblok omsluit kleinere gebouwen en gedeelde voorzieningen. Michiel Brinkman onderzocht hoe collectief wonen een eigen straatleven kan krijgen. Het Justus van Effencomplex werd een belangrijk volkshuisvestingsvoorbeeld.",
     "category": "architectuur",
-    "latitude": 51.91555555555556,
+    "latitude": 51.9155555555556,
     "province": "Zuid-Holland",
-    "longitude": 4.430833333333333,
+    "longitude": 4.43083333333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Selectie betreft de architectuur. Binnenbezoek is niet vanzelfsprekend; respecteer woningen en werkplekken en controleer toegang vooraf.",
@@ -3174,8 +3187,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Papaverhof_Den_Haag_001.jpg/1280px-Papaverhof_Den_Haag_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Papaverhof — Papaverhof Den Haag 001",
         "credit": "M.Minderhoud",
+        "caption": "Papaverhof — Papaverhof Den Haag 001",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Papaverhof_Den_Haag_001.jpg"
       }
@@ -3201,9 +3214,9 @@
     ],
     "summary": "Jan Wils groepeerde compacte woningen rond een groen plein. De schakeling van de huizen maakt ruimte voor een gemeenschappelijke hof. Heldere volumes verbinden Papaverhof met de vernieuwing van De Stijl.",
     "category": "architectuur",
-    "latitude": 52.07527777777778,
+    "latitude": 52.0752777777778,
     "province": "Zuid-Holland",
-    "longitude": 4.260833333333333,
+    "longitude": 4.26083333333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Selectie betreft de architectuur. Binnenbezoek is niet vanzelfsprekend; respecteer woningen en werkplekken en controleer toegang vooraf.",
@@ -3229,9 +3242,9 @@
     "year": "1920-1922",
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Woningbouw_-_Housing_Haarlem_%286828949061%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Woningbouw Tuinwijk-Zuid — Woningbouw - Housing Haarlem (6828949061)",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Woningbouw_-_Housing_Haarlem_%286828949061%29.jpg/330px-Woningbouw_-_Housing_Haarlem_%286828949061%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "credit": "Het Nieuwe Instituut - Architecture Collection",
+        "caption": "Woningbouw Tuinwijk-Zuid — Woningbouw - Housing Haarlem (6828949061)",
         "license": "No restrictions",
         "source_url": "https://commons.wikimedia.org/wiki/File:Woningbouw_-_Housing_Haarlem_(6828949061).jpg"
       }
@@ -3275,8 +3288,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Amsterdam_-_Koninklijk_Theater_Tuschinski.jpg/1280px-Amsterdam_-_Koninklijk_Theater_Tuschinski.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Theater Tuschinski — Amsterdam - Koninklijk Theater Tuschinski",
         "credit": "Jorge Franganillo",
+        "caption": "Theater Tuschinski — Amsterdam - Koninklijk Theater Tuschinski",
         "license": "CC BY 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Koninklijk_Theater_Tuschinski.jpg"
       }
@@ -3342,9 +3355,9 @@
     ],
     "summary": "Robert van 't Hoff onderzocht een moderne villa met kubische volumes. Het ontwerp verwijst naar Frank Lloyd Wright en werd in De Stijl besproken. Het huis heet tegenwoordig Villa Van 't Hoff.",
     "category": "architectuur",
-    "latitude": 52.10946388888889,
+    "latitude": 52.1094638888889,
     "province": "Utrecht",
-    "longitude": 5.240905555555556,
+    "longitude": 5.24090555555556,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Selectie betreft de architectuur. Binnenbezoek is niet vanzelfsprekend; respecteer woningen en werkplekken en controleer toegang vooraf.",
@@ -3372,8 +3385,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Overzicht_-_Otterlo_-_20349692_-_RCE.jpg/1280px-Overzicht_-_Otterlo_-_20349692_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Jachtslot St.-Hubertus — historische opname — Overzicht - Otterlo - 20349692 - RCE",
         "credit": "Thea van den Heuvel",
+        "caption": "Jachtslot St.-Hubertus — historische opname — Overzicht - Otterlo - 20349692 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_-_Otterlo_-_20349692_-_RCE.jpg"
       }
@@ -3399,9 +3412,9 @@
     ],
     "summary": "Berlage ontwierp een jachthuis met een gewei-achtige plattegrond en een markante toren. De legende van Sint-Hubertus klinkt door in de vorm. Architectuur en luxueuze inrichting werden als één geheel opgevat.",
     "category": "architectuur",
-    "latitude": 52.12153611111111,
+    "latitude": 52.1215361111111,
     "province": "Gelderland",
-    "longitude": 5.832836111111111,
+    "longitude": 5.83283611111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Selectie betreft de architectuur. Binnenbezoek is niet vanzelfsprekend; respecteer woningen en werkplekken en controleer toegang vooraf.",
@@ -3468,8 +3481,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Amsterdam_-_Dam_Square_-_View_on_Damrak%2C_Beurs_van_Berlage_%26_Bijenkorf.jpg/1280px-Amsterdam_-_Dam_Square_-_View_on_Damrak%2C_Beurs_van_Berlage_%26_Bijenkorf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Beurs van Berlage — Amsterdam - Dam Square - View on Damrak, Beurs van Berlage & Bijenkorf",
         "credit": "Txllxt TxllxT",
+        "caption": "Beurs van Berlage — Amsterdam - Dam Square - View on Damrak, Beurs van Berlage & Bijenkorf",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Dam_Square_-_View_on_Damrak,_Beurs_van_Berlage_%26_Bijenkorf.jpg"
       }
@@ -3490,7 +3503,7 @@
     ],
     "summary": "Berlage gaf de Amsterdamse handelsbeurs een krachtige bakstenen vorm. Het gebouw markeert een omslag naar moderne architectuur. De grote hallen dienen nu als plekken voor tentoonstellingen en bijeenkomsten.",
     "category": "architectuur",
-    "latitude": 52.374786998092326,
+    "latitude": 52.3747869980923,
     "province": "Noord-Holland",
     "longitude": 4.89614725112915,
     "museum_id": null,
@@ -3520,8 +3533,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Amsterdam_-_Prins_Hendrikkade_-_Scheepvaarthuis_1913-16_by_Jo_van_der_Mey_%28enlarged_1926-28%29-_View_SE_along_Art_Nouveau_fence_%26_Amsterdam_School_brick_architecture.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Scheepvaarthuis — historische opname — Amsterdam - Prins Hendrikkade - Scheepvaarthuis 1913-16 by Jo van der Mey (enlarged 1926-28)- View SE along Art Nouveau fence & Amsterdam School brick architecture",
         "credit": "Txllxt TxllxT",
+        "caption": "Scheepvaarthuis — historische opname — Amsterdam - Prins Hendrikkade - Scheepvaarthuis 1913-16 by Jo van der Mey (enlarged 1926-28)- View SE along Art Nouveau fence & Amsterdam School brick architecture",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Prins_Hendrikkade_-_Scheepvaarthuis_1913-16_by_Jo_van_der_Mey_(enlarged_1926-28)-_View_SE_along_Art_Nouveau_fence_%26_Amsterdam_School_brick_architecture.jpg"
       }
@@ -3570,8 +3583,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Friedenspalast_Den_Haag.jpg/1280px-Friedenspalast_Den_Haag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Vredespaleis — Friedenspalast Den Haag",
         "credit": "Thomas Wolf, www.foto-tw.de",
+        "caption": "Vredespaleis — Friedenspalast Den Haag",
         "license": "CC BY-SA 3.0 de",
         "source_url": "https://commons.wikimedia.org/wiki/File:Friedenspalast_Den_Haag.jpg"
       }
@@ -3616,8 +3629,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Overzicht_-_Amsterdam_-_20018068_-_RCE.jpg/1280px-Overzicht_-_Amsterdam_-_20018068_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Huis met de Hoofden — historische opname — Overzicht - Amsterdam - 20018068 - RCE",
         "credit": "Gerard Dukker",
+        "caption": "Huis met de Hoofden — historische opname — Overzicht - Amsterdam - 20018068 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_-_Amsterdam_-_20018068_-_RCE.jpg"
       }
@@ -3638,9 +3651,9 @@
     ],
     "summary": "Zes gebeeldhouwde hoofden geven dit brede grachtenhuis zijn naam. De renaissancegevel toont de ambitie van een zeventiende-eeuwse koopman. Binnen is tegenwoordig de Embassy of the Free Mind gevestigd.",
     "category": "architectuur",
-    "latitude": 52.37643055555556,
+    "latitude": 52.3764305555556,
     "province": "Noord-Holland",
-    "longitude": 4.887405555555556,
+    "longitude": 4.88740555555556,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -3712,8 +3725,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Aardenburg_-_Sint-Baafskerk_4.jpg/1280px-Aardenburg_-_Sint-Baafskerk_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Sint-Bavokerk — Aardenburg - Sint-Baafskerk 4",
         "credit": "LimoWreck",
+        "caption": "Sint-Bavokerk — Aardenburg - Sint-Baafskerk 4",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Aardenburg_-_Sint-Baafskerk_4.jpg"
       }
@@ -3734,9 +3747,9 @@
     ],
     "summary": "De Sint-Bavokerk combineert oude bouwsporen met Scheldegotiek. Kijk naar het verschil tussen materialen en bouwdelen: dit gebouw vertelt meer dan één periode uit de geschiedenis van Aardenburg.",
     "category": "architectuur",
-    "latitude": 51.272777777777776,
+    "latitude": 51.2727777777778,
     "province": "Zeeland",
-    "longitude": 3.4483333333333333,
+    "longitude": 3.44833333333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -3763,8 +3776,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/AmerongenCastle.jpg/1280px-AmerongenCastle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kasteel Amerongen — AmerongenCastle",
         "credit": "GVR",
+        "caption": "Kasteel Amerongen — AmerongenCastle",
         "license": "CC BY-SA 3.0 nl",
         "source_url": "https://commons.wikimedia.org/wiki/File:AmerongenCastle.jpg"
       }
@@ -3785,9 +3798,9 @@
     ],
     "summary": "Een omgracht huis in Hollands-classicistische stijl domineert de buitenplaats. Kasteel Amerongen werd na verwoesting in de zeventiende eeuw herbouwd. Huis, brug en tuin vormen een zorgvuldig geordend geheel.",
     "category": "architectuur",
-    "latitude": 51.99527777777778,
+    "latitude": 51.9952777777778,
     "province": "Utrecht",
-    "longitude": 5.458333333333333,
+    "longitude": 5.45833333333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -3814,8 +3827,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Amsterdam_-_Leidseplein_-_Hotel_Am%C3%A9ricain_1902_by_Willem_Kromhout_%26_H.G._Jansen_-_Art_Nouveau.jpg/1280px-Amsterdam_-_Leidseplein_-_Hotel_Am%C3%A9ricain_1902_by_Willem_Kromhout_%26_H.G._Jansen_-_Art_Nouveau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "American Hotel — historische opname — Amsterdam - Leidseplein - Hotel Américain 1902 by Willem Kromhout & H.G. Jansen - Art Nouveau",
         "credit": "Txllxt TxllxT",
+        "caption": "American Hotel — historische opname — Amsterdam - Leidseplein - Hotel Américain 1902 by Willem Kromhout & H.G. Jansen - Art Nouveau",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Leidseplein_-_Hotel_Am%C3%A9ricain_1902_by_Willem_Kromhout_%26_H.G._Jansen_-_Art_Nouveau.jpg"
       }
@@ -3836,9 +3849,9 @@
     ],
     "summary": "Het American Hotel brengt art nouveau naar het Leidseplein. Willem Kromhout en H.G. Jansen ontwierpen het gebouw dat in 1902 het eerdere hotel verving. De levendige gevel past bij het theatrale plein.",
     "category": "architectuur",
-    "latitude": 52.36361111111111,
+    "latitude": 52.3636111111111,
     "province": "Noord-Holland",
-    "longitude": 4.881111111111111,
+    "longitude": 4.88111111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -3865,8 +3878,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Interieur_regentenkamer%2C_overzicht_-_Amsterdam_-_20429002_-_RCE.jpg/1280px-Interieur_regentenkamer%2C_overzicht_-_Amsterdam_-_20429002_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Deutzenhofje — historische opname — Interieur regentenkamer, overzicht - Amsterdam - 20429002 - RCE",
         "credit": "Kris Roderburg",
+        "caption": "Deutzenhofje — historische opname — Interieur regentenkamer, overzicht - Amsterdam - 20429002 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Interieur_regentenkamer,_overzicht_-_Amsterdam_-_20429002_-_RCE.jpg"
       }
@@ -3889,7 +3902,7 @@
     "category": "architectuur",
     "latitude": 52.362775,
     "province": "Noord-Holland",
-    "longitude": 4.890194444444444,
+    "longitude": 4.89019444444444,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -3916,8 +3929,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Interieur%2C_hoofdaltaar_met_preekstoel_-_Amsterdam_-_20013745_-_RCE.jpg/1280px-Interieur%2C_hoofdaltaar_met_preekstoel_-_Amsterdam_-_20013745_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Ons' Lieve Heer op Solder — historische opname — Interieur, hoofdaltaar met preekstoel - Amsterdam - 20013745 - RCE",
         "credit": "Gerard Dukker",
+        "caption": "Ons' Lieve Heer op Solder — historische opname — Interieur, hoofdaltaar met preekstoel - Amsterdam - 20013745 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Interieur,_hoofdaltaar_met_preekstoel_-_Amsterdam_-_20013745_-_RCE.jpg"
       }
@@ -3938,9 +3951,9 @@
     ],
     "summary": "Achter een gewoon grachtenpand gaat een kerk op zolder schuil. Ons' Lieve Heer op Solder laat zien hoe religieuze ruimte in woonarchitectuur werd ingepast. Een onverwachte wereld boven de stad.",
     "category": "architectuur",
-    "latitude": 52.37510277777778,
+    "latitude": 52.3751027777778,
     "province": "Noord-Holland",
-    "longitude": 4.899330555555555,
+    "longitude": 4.89933055555556,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -3967,8 +3980,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Canal_houses_and_Oude_Kerk_at_blue_hour_with_water_reflection_in_Damrak_Amsterdam_Netherlands.jpg/1280px-Canal_houses_and_Oude_Kerk_at_blue_hour_with_water_reflection_in_Damrak_Amsterdam_Netherlands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Oude Kerk — Canal houses and Oude Kerk at blue hour with water reflection in Damrak Amsterdam Netherlands",
         "credit": "Basile Morin",
+        "caption": "Oude Kerk — Canal houses and Oude Kerk at blue hour with water reflection in Damrak Amsterdam Netherlands",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Canal_houses_and_Oude_Kerk_at_blue_hour_with_water_reflection_in_Damrak_Amsterdam_Netherlands.jpg"
       }
@@ -3989,9 +4002,9 @@
     ],
     "summary": "De gotische Oude Kerk groeide eeuwenlang mee met Amsterdam. Het gebouw is nu ook een plek voor hedendaagse kunst. Oude ruimte en nieuwe ingrepen maken telkens andere details zichtbaar.",
     "category": "architectuur",
-    "latitude": 52.37416666666667,
+    "latitude": 52.3741666666667,
     "province": "Noord-Holland",
-    "longitude": 4.898055555555556,
+    "longitude": 4.89805555555556,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4018,8 +4031,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg/1280px-Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Rijksmuseumgebouw — Amsterdam - Stadhouderskade - North facade of the Rijksmuseum Amsterdam - Fisheye Image",
         "credit": "Txllxt TxllxT",
+        "caption": "Rijksmuseumgebouw — Amsterdam - Stadhouderskade - North facade of the Rijksmuseum Amsterdam - Fisheye Image",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg"
       }
@@ -4069,8 +4082,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Ingang_-_Amsterdam_-_20320137_-_RCE.jpg/1280px-Ingang_-_Amsterdam_-_20320137_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Spaarndammerplantsoen — historische opname — Ingang - Amsterdam - 20320137 - RCE",
         "credit": "A. J. van der Wal",
+        "caption": "Spaarndammerplantsoen — historische opname — Ingang - Amsterdam - 20320137 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Ingang_-_Amsterdam_-_20320137_-_RCE.jpg"
       }
@@ -4093,7 +4106,7 @@
     "category": "architectuur",
     "latitude": 52.3898,
     "province": "Noord-Holland",
-    "longitude": 4.875461111111111,
+    "longitude": 4.87546111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4120,8 +4133,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Trippenhuis_sunset_in_Amsterdam.jpg/1280px-Trippenhuis_sunset_in_Amsterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Trippenhuis — Trippenhuis sunset in Amsterdam",
         "credit": "Patrick Nouhailler's…",
+        "caption": "Trippenhuis — Trippenhuis sunset in Amsterdam",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Trippenhuis_sunset_in_Amsterdam.jpg"
       }
@@ -4142,9 +4155,9 @@
     ],
     "summary": "Justus Vingboons ontwierp een paleisachtig dubbelhuis voor de gebroeders Trip. De klassieke gevel aan de Kloveniersburgwal drukt hun rijkdom uit. Het gebouw kreeg later een functie voor wetenschap en cultuur.",
     "category": "architectuur",
-    "latitude": 52.37122222222222,
+    "latitude": 52.3712222222222,
     "province": "Noord-Holland",
-    "longitude": 4.899397222222222,
+    "longitude": 4.89939722222222,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4171,8 +4184,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/HetLoo3.JPG/1280px-HetLoo3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Paleis Het Loo — HetLoo3",
         "credit": "nl:Gebruiker:GerardM",
+        "caption": "Paleis Het Loo — HetLoo3",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:HetLoo3.JPG"
       }
@@ -4193,9 +4206,9 @@
     ],
     "summary": "Paleis Het Loo groeide uit tot een koninklijk ensemble van gebouwen en tuinen. De aanleg verbindt representatie met wonen en landschap. Het voormalige paleis is tegenwoordig een museum.",
     "category": "architectuur",
-    "latitude": 52.23416666666667,
+    "latitude": 52.2341666666667,
     "province": "Gelderland",
-    "longitude": 5.945833333333334,
+    "longitude": 5.94583333333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4222,8 +4235,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Appingedam%2C_de_Stadshaven_met_op_de_achtergrond_de_Nicola%C3%AFkerk_RM8247_IMG_0045_2018-01-07_11.32.jpg/1280px-Appingedam%2C_de_Stadshaven_met_op_de_achtergrond_de_Nicola%C3%AFkerk_RM8247_IMG_0045_2018-01-07_11.32.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Nicolaïkerk — Appingedam, de Stadshaven met op de achtergrond de Nicolaïkerk RM8247 IMG 0045 2018-01-07 11.32",
         "credit": "Michielverbeek",
+        "caption": "Nicolaïkerk — Appingedam, de Stadshaven met op de achtergrond de Nicolaïkerk RM8247 IMG 0045 2018-01-07 11.32",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Appingedam,_de_Stadshaven_met_op_de_achtergrond_de_Nicola%C3%AFkerk_RM8247_IMG_0045_2018-01-07_11.32.jpg"
       }
@@ -4273,8 +4286,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Barneveld%2C_kasteel_de_Schaffelaar_RM513548_IMG_4324_2020-04-08_15.18.jpg/1280px-Barneveld%2C_kasteel_de_Schaffelaar_RM513548_IMG_4324_2020-04-08_15.18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Landgoed Schaffelaar — Barneveld, kasteel de Schaffelaar RM513548 IMG 4324 2020-04-08 15.18",
         "credit": "Michielverbeek",
+        "caption": "Landgoed Schaffelaar — Barneveld, kasteel de Schaffelaar RM513548 IMG 4324 2020-04-08 15.18",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Barneveld,_kasteel_de_Schaffelaar_RM513548_IMG_4324_2020-04-08_15.18.jpg"
       }
@@ -4297,7 +4310,7 @@
     "category": "architectuur",
     "latitude": 52.1425,
     "province": "Gelderland",
-    "longitude": 5.591111111111111,
+    "longitude": 5.59111111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4324,8 +4337,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Aanzicht_-_Bergambacht_-_20031138_-_RCE.jpg/1280px-Aanzicht_-_Bergambacht_-_20031138_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Tusschenlanen — historische opname — Aanzicht - Bergambacht - 20031138 - RCE",
         "credit": "G.Th. Delemarre",
+        "caption": "Tusschenlanen — historische opname — Aanzicht - Bergambacht - 20031138 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Aanzicht_-_Bergambacht_-_20031138_-_RCE.jpg"
       }
@@ -4346,9 +4359,9 @@
     ],
     "summary": "Gele ijsselsteen, een T-vormige plattegrond en strodaken kenmerken deze herenboerderij. Tusschenlanen ligt op een natuurlijke verhoging. Het gebouw maakt de samenhang tussen boerenbedrijf, landschap en representatie zichtbaar.",
     "category": "architectuur",
-    "latitude": 51.938069444444444,
+    "latitude": 51.9380694444444,
     "province": "Zuid-Holland",
-    "longitude": 4.7886138888888885,
+    "longitude": 4.78861388888889,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4389,9 +4402,9 @@
     ],
     "summary": "Het Markiezenhof brengt de allure van een laatgotisch paleis naar de stad. De voormalige residentie van de heren en markiezen van Bergen op Zoom heeft nu een culturele functie.",
     "category": "architectuur",
-    "latitude": 51.495555555555555,
+    "latitude": 51.4955555555556,
     "province": "Noord-Brabant",
-    "longitude": 4.284722222222222,
+    "longitude": 4.28472222222222,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4418,8 +4431,8 @@
     "photos": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Breda_-_Grote_of_Onze-Lieve-Vrouwekerk_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Grote of Onze-Lieve-Vrouwekerk — Breda - Grote of Onze-Lieve-Vrouwekerk 2",
         "credit": "Fnorp at Dutch Wikipedia",
+        "caption": "Grote of Onze-Lieve-Vrouwekerk — Breda - Grote of Onze-Lieve-Vrouwekerk 2",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Breda_-_Grote_of_Onze-Lieve-Vrouwekerk_2.jpg"
       }
@@ -4440,9 +4453,9 @@
     ],
     "summary": "De hoge toren maakt deze Brabantse gotische kerk tot een herkenningspunt van Breda. In de Prinsenkapel ligt de geschiedenis van de Nassaus besloten. Architectuur en dynastieke herinnering komen hier samen.",
     "category": "architectuur",
-    "latitude": 51.58888888888889,
+    "latitude": 51.5888888888889,
     "province": "Noord-Brabant",
-    "longitude": 4.775277777777778,
+    "longitude": 4.77527777777778,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4469,8 +4482,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Breda_kasteel.jpg/1280px-Breda_kasteel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kasteel van Breda — Breda kasteel",
         "credit": "M.Minderhoud",
+        "caption": "Kasteel van Breda — Breda kasteel",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Breda_kasteel.jpg"
       }
@@ -4491,9 +4504,9 @@
     ],
     "summary": "Een middeleeuwse burcht groeide uit tot een complex met een militaire onderwijsfunctie. Het Kasteel van Breda laat meerdere bouwfasen zien. Binnenbezoek is niet vanzelfsprekend: controleer de mogelijkheden vooraf.",
     "category": "architectuur",
-    "latitude": 51.591388888888886,
+    "latitude": 51.5913888888889,
     "province": "Noord-Brabant",
-    "longitude": 4.775277777777778,
+    "longitude": 4.77527777777778,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4534,9 +4547,9 @@
     ],
     "summary": "Een omgracht kasteel en zijn buitenplaats vormen samen Middachten. De huidige verschijning draagt sterk het stempel van een zeventiende-eeuwse herbouw. Huis en landschap geven elkaar hier betekenis.",
     "category": "architectuur",
-    "latitude": 52.01916666666666,
+    "latitude": 52.0191666666667,
     "province": "Gelderland",
-    "longitude": 6.0697222222222225,
+    "longitude": 6.06972222222222,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4563,8 +4576,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Grafmonument_Willem_van_Oranje_-_Delft_-_20049841_-_RCE.jpg/1280px-Grafmonument_Willem_van_Oranje_-_Delft_-_20049841_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Praalgraf van Willem van Oranje — historische opname — Grafmonument Willem van Oranje - Delft - 20049841 - RCE",
         "credit": "Gerard Dukker",
+        "caption": "Praalgraf van Willem van Oranje — historische opname — Grafmonument Willem van Oranje - Delft - 20049841 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Grafmonument_Willem_van_Oranje_-_Delft_-_20049841_-_RCE.jpg"
       }
@@ -4585,9 +4598,9 @@
     ],
     "summary": "In de Nieuwe Kerk van Delft staat een monument binnen een monument. Het praalgraf van Willem van Oranje combineert architectonische opbouw en beeldhouwkunst als openbare herinnering aan de prins.",
     "category": "architectuur",
-    "latitude": 52.01213888888889,
+    "latitude": 52.0121388888889,
     "province": "Zuid-Holland",
-    "longitude": 4.360194444444445,
+    "longitude": 4.36019444444444,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4614,8 +4627,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/0804_Delft%2C_Prinsenhof_Delft_377.jpg/1280px-0804_Delft%2C_Prinsenhof_Delft_377.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Sint-Agathaklooster — 0804 Delft, Prinsenhof Delft 377",
         "credit": "Jan Geerling",
+        "caption": "Sint-Agathaklooster — 0804 Delft, Prinsenhof Delft 377",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:0804_Delft,_Prinsenhof_Delft_377.jpg"
       }
@@ -4636,9 +4649,9 @@
     ],
     "summary": "Het voormalige vrouwenklooster Sint-Agatha kreeg later een museale functie als Prinsenhof. De historische ruimten laten verschillende gebruiksfasen zien. Controleer vanwege werkzaamheden en programma de actuele toegankelijkheid.",
     "category": "architectuur",
-    "latitude": 52.01166666666666,
+    "latitude": 52.0116666666667,
     "province": "Zuid-Holland",
-    "longitude": 4.354444444444445,
+    "longitude": 4.35444444444444,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4665,8 +4678,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/0804_Delft%2C_Agnetapark_137.jpg/1280px-0804_Delft%2C_Agnetapark_137.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Agnetapark — 0804 Delft, Agnetapark 137",
         "credit": "Jan Geerling",
+        "caption": "Agnetapark — 0804 Delft, Agnetapark 137",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:0804_Delft,_Agnetapark_137.jpg"
       }
@@ -4687,9 +4700,9 @@
     ],
     "summary": "Kleine groepen arbeiderswoningen liggen in een groene parkaanleg. Het Agnetapark verbindt industriegeschiedenis met een vroeg ideaal van gezond wonen. Tuinen en gezamenlijke ruimte zijn wezenlijk voor het ontwerp.",
     "category": "architectuur",
-    "latitude": 52.016083333333334,
+    "latitude": 52.0160833333333,
     "province": "Zuid-Holland",
-    "longitude": 4.345777777777778,
+    "longitude": 4.34577777777778,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4716,8 +4729,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Deventer%2C_stadszicht_foto7_RM12572_2012-02-05_12.07.jpg/1280px-Deventer%2C_stadszicht_foto7_RM12572_2012-02-05_12.07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Grote of Lebuinuskerk — Deventer, stadszicht foto7 RM12572 2012-02-05 12.07",
         "credit": "Michielverbeek",
+        "caption": "Grote of Lebuinuskerk — Deventer, stadszicht foto7 RM12572 2012-02-05 12.07",
         "license": "CC BY-SA 3.0 nl",
         "source_url": "https://commons.wikimedia.org/wiki/File:Deventer,_stadszicht_foto7_RM12572_2012-02-05_12.07.jpg"
       }
@@ -4738,9 +4751,9 @@
     ],
     "summary": "Een brede gotische hallenkerk staat aan het Grote Kerkhof. De Lebuinuskerk bepaalde eeuwenlang het religieuze en stedelijke leven van Deventer. De toren en grote ruimte blijven krachtige oriëntatiepunten.",
     "category": "architectuur",
-    "latitude": 52.251666666666665,
+    "latitude": 52.2516666666667,
     "province": "Overijssel",
-    "longitude": 6.154722222222222,
+    "longitude": 6.15472222222222,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4767,8 +4780,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Stadhuis_Deventer_voorgevel.jpg/1280px-Stadhuis_Deventer_voorgevel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Stadhuis van Deventer — Stadhuis Deventer voorgevel",
         "credit": "Martie Ressing User:Ressing",
+        "caption": "Stadhuis van Deventer — Stadhuis Deventer voorgevel",
         "license": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:Stadhuis_Deventer_voorgevel.jpg"
       }
@@ -4791,7 +4804,7 @@
     "category": "architectuur",
     "latitude": 52.25155,
     "province": "Overijssel",
-    "longitude": 6.155686111111111,
+    "longitude": 6.15568611111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4818,8 +4831,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Doetinchem%2C_kasteel_Slangenburg_RM527492_positie3_foto4_2012-07-22_13.02.jpg/1280px-Doetinchem%2C_kasteel_Slangenburg_RM527492_positie3_foto4_2012-07-22_13.02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kasteel Slangenburg — Doetinchem, kasteel Slangenburg RM527492 positie3 foto4 2012-07-22 13.02",
         "credit": "Michielverbeek",
+        "caption": "Kasteel Slangenburg — Doetinchem, kasteel Slangenburg RM527492 positie3 foto4 2012-07-22 13.02",
         "license": "CC BY-SA 3.0 nl",
         "source_url": "https://commons.wikimedia.org/wiki/File:Doetinchem,_kasteel_Slangenburg_RM527492_positie3_foto4_2012-07-22_13.02.jpg"
       }
@@ -4840,9 +4853,9 @@
     ],
     "summary": "Kasteel Slangenburg vormt het centrum van een uitgestrekt landgoed bij Doetinchem. Verwoesting en herbouw tekenden zijn geschiedenis. De relatie tussen huis, lanen en landschap geeft het complex zijn samenhang.",
     "category": "architectuur",
-    "latitude": 51.96055555555556,
+    "latitude": 51.9605555555556,
     "province": "Gelderland",
-    "longitude": 6.360833333333333,
+    "longitude": 6.36083333333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4869,8 +4882,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Dordrecht%2C_Grote_Kerk_foto2_2010-06-27_17.48.JPG/1280px-Dordrecht%2C_Grote_Kerk_foto2_2010-06-27_17.48.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Grote of Onze-Lieve-Vrouwekerk — Dordrecht, Grote Kerk foto2 2010-06-27 17.48",
         "credit": "Michiel Verbeek",
+        "caption": "Grote of Onze-Lieve-Vrouwekerk — Dordrecht, Grote Kerk foto2 2010-06-27 17.48",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Dordrecht,_Grote_Kerk_foto2_2010-06-27_17.48.JPG"
       }
@@ -4891,7 +4904,7 @@
     ],
     "summary": "Een onvoltooide toren en Brabantse gotiek bepalen het silhouet van de Dordtse Grote Kerk. De kruisbasiliek draagt sporen van verschillende bouwfasen en de overgang naar protestants gebruik.",
     "category": "architectuur",
-    "latitude": 51.814166666666665,
+    "latitude": 51.8141666666667,
     "province": "Zuid-Holland",
     "longitude": 4.66,
     "museum_id": null,
@@ -4920,8 +4933,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Eijsden-Kasteel_Eijsden_%2859%29_straighten.jpg/1280px-Eijsden-Kasteel_Eijsden_%2859%29_straighten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kasteel Eijsden — Eijsden-Kasteel Eijsden (59) straighten",
         "credit": "Romaine",
+        "caption": "Kasteel Eijsden — Eijsden-Kasteel Eijsden (59) straighten",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Eijsden-Kasteel_Eijsden_(59)_straighten.jpg"
       }
@@ -4942,9 +4955,9 @@
     ],
     "summary": "Kasteel Eijsden ligt bij de Maas en de monding van de Voer. Water, oprijlaan en gebouw vormen een statig geheel. De ligging maakt de band tussen de buitenplaats en het rivierlandschap direct zichtbaar.",
     "category": "architectuur",
-    "latitude": 50.77361111111111,
+    "latitude": 50.7736111111111,
     "province": "Limburg",
-    "longitude": 5.699722222222222,
+    "longitude": 5.69972222222222,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -4985,9 +4998,9 @@
     ],
     "summary": "De vijftiende-eeuwse Westerkerk herinnert aan het rijke religieuze leven van Enkhuizen. Oorspronkelijk was zij gewijd aan Sint Gummarus. Latere veranderingen voegden nieuwe lagen toe aan de kerkruimte.",
     "category": "architectuur",
-    "latitude": 52.703356666666664,
+    "latitude": 52.7033566666667,
     "province": "Noord-Holland",
-    "longitude": 5.286781388888889,
+    "longitude": 5.28678138888889,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5028,7 +5041,7 @@
     ],
     "summary": "Steven Vennekool ontwierp het stadhuis van Enkhuizen aan het einde van de zeventiende eeuw. De representatieve architectuur toont stedelijke ambitie, ook nadat de grootste economische bloei voorbij was.",
     "category": "architectuur",
-    "latitude": 52.70388888888889,
+    "latitude": 52.7038888888889,
     "province": "Noord-Holland",
     "longitude": 5.295,
     "museum_id": null,
@@ -5057,8 +5070,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/20140530_Eise_Eisingastraat_1-2-3_%28Eise_Eisinga_Planetarium%29_Franeker_Fr_NL.jpg/1280px-20140530_Eise_Eisingastraat_1-2-3_%28Eise_Eisinga_Planetarium%29_Franeker_Fr_NL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Planetarium Eise Eisinga — 20140530 Eise Eisingastraat 1-2-3 (Eise Eisinga Planetarium) Franeker Fr NL",
         "credit": "Wutsje / Wikimedia Commons / CC-BY-SA 3.0",
+        "caption": "Planetarium Eise Eisinga — 20140530 Eise Eisingastraat 1-2-3 (Eise Eisinga Planetarium) Franeker Fr NL",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:20140530_Eise_Eisingastraat_1-2-3_(Eise_Eisinga_Planetarium)_Franeker_Fr_NL.jpg"
       }
@@ -5079,9 +5092,9 @@
     ],
     "summary": "Een woonhuis herbergt een werkend model van het zonnestelsel. Eise Eisinga bouwde het mechaniek boven zijn woonkamer. Architectuur, interieur en instrument vormen een uitzonderlijk samenhangend geheel.",
     "category": "architectuur",
-    "latitude": 53.187222222222225,
+    "latitude": 53.1872222222222,
     "province": "Friesland",
-    "longitude": 5.543611111111111,
+    "longitude": 5.54361111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5108,8 +5121,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Franeker._Stadhuis._03-08-2021._%28actm%29_08.jpg/1280px-Franeker._Stadhuis._03-08-2021._%28actm%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Stadhuis van Franeker — Franeker. Stadhuis. 03-08-2021. (actm) 08",
         "credit": "Agnes Monkelbaan",
+        "caption": "Stadhuis van Franeker — Franeker. Stadhuis. 03-08-2021. (actm) 08",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Franeker._Stadhuis._03-08-2021._(actm)_08.jpg"
       }
@@ -5130,9 +5143,9 @@
     ],
     "summary": "Een rijk versierd renaissancegebouw bepaalt het Franeker straatbeeld. Wapens en glas-in-lood vertellen over bestuur en identiteit. Het stadhuis ontstond aan het einde van de zestiende eeuw.",
     "category": "architectuur",
-    "latitude": 53.18694444444444,
+    "latitude": 53.1869444444444,
     "province": "Friesland",
-    "longitude": 5.543333333333333,
+    "longitude": 5.54333333333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5159,8 +5172,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Genemuiden%2C_Stoomgemaal_Mastenbroek.JPG/1280px-Genemuiden%2C_Stoomgemaal_Mastenbroek.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Stoomgemaal Mastenbroek — Genemuiden, Stoomgemaal Mastenbroek",
         "credit": "Baykedevries",
+        "caption": "Stoomgemaal Mastenbroek — Genemuiden, Stoomgemaal Mastenbroek",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Genemuiden,_Stoomgemaal_Mastenbroek.JPG"
       }
@@ -5181,7 +5194,7 @@
     ],
     "summary": "Dit stoomgemaal maakte de bemaling van de Mastenbroekerpolder mogelijk. Gebouw, machine en watergang horen bij elkaar. Het complex laat zien hoe techniek het laaggelegen landschap veranderde.",
     "category": "architectuur",
-    "latitude": 52.60088888888889,
+    "latitude": 52.6008888888889,
     "province": "Overijssel",
     "longitude": 6.019475,
     "museum_id": null,
@@ -5210,8 +5223,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Gouda%2C_Gro%C3%9Fer_Markt_mit_Rathaus_und_Sint_Janskerk.jpg/1280px-Gouda%2C_Gro%C3%9Fer_Markt_mit_Rathaus_und_Sint_Janskerk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Sint-Janskerk — Gouda, Großer Markt mit Rathaus und Sint Janskerk",
         "credit": "Rolf Kranz",
+        "caption": "Sint-Janskerk — Gouda, Großer Markt mit Rathaus und Sint Janskerk",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Gouda,_Gro%C3%9Fer_Markt_mit_Rathaus_und_Sint_Janskerk.jpg"
       }
@@ -5232,9 +5245,9 @@
     ],
     "summary": "De lange gotische kerk van Gouda is beroemd om haar gebrandschilderde ramen. Licht maakt de verhalen in het glas onderdeel van de architectuur. De schaal van het gebouw blijft indrukwekkend.",
     "category": "architectuur",
-    "latitude": 52.01083333333333,
+    "latitude": 52.0108333333333,
     "province": "Zuid-Holland",
-    "longitude": 4.711388888888889,
+    "longitude": 4.71138888888889,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5261,8 +5274,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Overzicht_voorgevels_-_Gouda_-_20358911_-_RCE.jpg/1280px-Overzicht_voorgevels_-_Gouda_-_20358911_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "De Vier Gekroonden — historische opname — Overzicht voorgevels - Gouda - 20358911 - RCE",
         "credit": "Gerard Dukker",
+        "caption": "De Vier Gekroonden — historische opname — Overzicht voorgevels - Gouda - 20358911 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_voorgevels_-_Gouda_-_20358911_-_RCE.jpg"
       }
@@ -5283,9 +5296,9 @@
     ],
     "summary": "Een verhalend fries geeft dit laatgotische huis zijn naam. De Vier Gekroonden verwijst naar vier martelaren die weigerden een afgodsbeeld te maken. Kijk omhoog voor het bijzondere geveldetail.",
     "category": "architectuur",
-    "latitude": 52.01166666666666,
+    "latitude": 52.0116666666667,
     "province": "Zuid-Holland",
-    "longitude": 4.7091666666666665,
+    "longitude": 4.70916666666667,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5312,8 +5325,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/De_Hampoort_stadspoort_1688_Grave_Noord-Brabant.jpg/1280px-De_Hampoort_stadspoort_1688_Grave_Noord-Brabant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Hampoort — De Hampoort stadspoort 1688 Grave Noord-Brabant",
         "credit": "Roger Veringmeier",
+        "caption": "Hampoort — De Hampoort stadspoort 1688 Grave Noord-Brabant",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:De_Hampoort_stadspoort_1688_Grave_Noord-Brabant.jpg"
       }
@@ -5334,9 +5347,9 @@
     ],
     "summary": "De Hampoort maakt de vroegere vestingfunctie van Grave tastbaar. De huidige poort dateert uit 1688. Het gebouw verbindt doorgang, verdediging en tegenwoordig ook een museale functie.",
     "category": "architectuur",
-    "latitude": 51.757222222222225,
+    "latitude": 51.7572222222222,
     "province": "Noord-Brabant",
-    "longitude": 5.738611111111111,
+    "longitude": 5.73861111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5363,8 +5376,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Trompenburgh.jpg/1280px-Trompenburgh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Huis De Trompenburgh — Trompenburgh",
         "credit": "Hans Schouten",
+        "caption": "Huis De Trompenburgh — Trompenburgh",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Trompenburgh.jpg"
       }
@@ -5385,9 +5398,9 @@
     ],
     "summary": "Water omsluit een buitenhuis dat aan een schip doet denken. De Trompenburgh werd gebouwd voor Cornelis Tromp. Zelfs het dak roept het dek van een schip op: een maritiem verhaal in architectuur.",
     "category": "architectuur",
-    "latitude": 52.231944444444444,
+    "latitude": 52.2319444444444,
     "province": "Noord-Holland",
-    "longitude": 5.123055555555555,
+    "longitude": 5.12305555555556,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5428,7 +5441,7 @@
     ],
     "summary": "Rond Binnenhof, Buitenhof en Gevangenpoort ligt de politieke geschiedenis van Nederland in gebouwen opgeslagen. Het ensemble groeide gedurende vele eeuwen. Renovatie kan de toegang beperken; controleer de actuele looproutes.",
     "category": "architectuur",
-    "latitude": 52.07963888888889,
+    "latitude": 52.0796388888889,
     "province": "Zuid-Holland",
     "longitude": 4.313375,
     "museum_id": null,
@@ -5473,7 +5486,7 @@
     "category": "architectuur",
     "latitude": 52.077975,
     "province": "Zuid-Holland",
-    "longitude": 4.310908333333333,
+    "longitude": 4.31090833333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5500,8 +5513,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Huis_ten_Bosch%2C_2594_Den_Haag%2C_Netherlands_-_panoramio.jpg/1280px-Huis_ten_Bosch%2C_2594_Den_Haag%2C_Netherlands_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Paleis Huis ten Bosch — Huis ten Bosch, 2594 Den Haag, Netherlands - panoramio",
         "credit": "Ben Bender",
+        "caption": "Paleis Huis ten Bosch — Huis ten Bosch, 2594 Den Haag, Netherlands - panoramio",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Huis_ten_Bosch,_2594_Den_Haag,_Netherlands_-_panoramio.jpg"
       }
@@ -5522,9 +5535,9 @@
     ],
     "summary": "Huis ten Bosch begon als zeventiende-eeuws zomerverblijf en groeide uit tot paleis. Het is een koninklijke woonlocatie. De architectuurselectie betekent daarom geen vrije toegang tot het gebouw of terrein.",
     "category": "architectuur",
-    "latitude": 52.09316666666667,
+    "latitude": 52.0931666666667,
     "province": "Zuid-Holland",
-    "longitude": 4.343838888888889,
+    "longitude": 4.34383888888889,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5551,8 +5564,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Panorama_Mesdag%2C_Den_Haag_03.jpg/1280px-Panorama_Mesdag%2C_Den_Haag_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Panorama Mesdag — Panorama Mesdag, Den Haag 03",
         "credit": "Donarreiskoffer",
+        "caption": "Panorama Mesdag — Panorama Mesdag, Den Haag 03",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Panorama_Mesdag,_Den_Haag_03.jpg"
       }
@@ -5616,9 +5629,9 @@
     ],
     "summary": "De Nieuwe Kerk werd in de zeventiende eeuw gebouwd toen Den Haag meer kerkruimte nodig had. De ligging tussen voormalige grachten geeft het gebouw een eigen positie. Tegenwoordig wordt het ook als concertzaal gebruikt.",
     "category": "architectuur",
-    "latitude": 52.07626183817971,
+    "latitude": 52.0762618381797,
     "province": "Zuid-Holland",
-    "longitude": 4.315094947814941,
+    "longitude": 4.31509494781494,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5645,8 +5658,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/De_Korenbeurs_Groningen_20150929.jpg/1280px-De_Korenbeurs_Groningen_20150929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Korenbeurs — De Korenbeurs Groningen 20150929",
         "credit": "JoachimKohler-HB",
+        "caption": "Korenbeurs — De Korenbeurs Groningen 20150929",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:De_Korenbeurs_Groningen_20150929.jpg"
       }
@@ -5667,9 +5680,9 @@
     ],
     "summary": "Een neoclassicistische gevel geeft de Groningse graanhandel een monumentaal gezicht. De Korenbeurs verving kleinere voorgangers. De architectuur herinnert aan de economische betekenis van de Vismarkt.",
     "category": "architectuur",
-    "latitude": 53.21666666666667,
+    "latitude": 53.2166666666667,
     "province": "Groningen",
-    "longitude": 6.5633333333333335,
+    "longitude": 6.56333333333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5696,8 +5709,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Oud-Katholieke_Kerk_Den_Haag%2C_overzicht_kerk%2C_doc_nr_14393-64616.jpg/1280px-Oud-Katholieke_Kerk_Den_Haag%2C_overzicht_kerk%2C_doc_nr_14393-64616.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "H.H. Jacobus- en Augustinuskerk — Oud-Katholieke Kerk Den Haag, overzicht kerk, doc nr 14393-64616",
         "credit": "Tilleman, Ronald - Fotograaf",
+        "caption": "H.H. Jacobus- en Augustinuskerk — Oud-Katholieke Kerk Den Haag, overzicht kerk, doc nr 14393-64616",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Oud-Katholieke_Kerk_Den_Haag,_overzicht_kerk,_doc_nr_14393-64616.jpg"
       }
@@ -5718,9 +5731,9 @@
     ],
     "summary": "Een barokke kerk gaat schuil achter de straatbebouwing. Deze Haagse schuilkerk mocht bij de bouw niet zichtbaar zijn vanaf de openbare weg. Het contrast tussen buitenkant en binnenruimte hoort bij haar geschiedenis.",
     "category": "architectuur",
-    "latitude": 52.079388888888886,
+    "latitude": 52.0793888888889,
     "province": "Zuid-Holland",
-    "longitude": 4.306180555555556,
+    "longitude": 4.30618055555556,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5747,8 +5760,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Exterieur_-_%27s-Gravenhage_-_20085496_-_RCE.jpg/1280px-Exterieur_-_%27s-Gravenhage_-_20085496_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Teresia van Avilakerk — historische opname — Exterieur - 's-Gravenhage - 20085496 - RCE",
         "credit": "Gerard Dukker",
+        "caption": "Teresia van Avilakerk — historische opname — Exterieur - 's-Gravenhage - 20085496 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Exterieur_-_%27s-Gravenhage_-_20085496_-_RCE.jpg"
       }
@@ -5769,9 +5782,9 @@
     ],
     "summary": "Een voormalige stadspaleislocatie kreeg in de negentiende eeuw een kerk. De Teresia van Avilakerk verbindt de geschiedenis van het Spaansche Hof met een nieuwe religieuze functie aan het Westeinde.",
     "category": "architectuur",
-    "latitude": 52.07611388888889,
+    "latitude": 52.0761138888889,
     "province": "Zuid-Holland",
-    "longitude": 4.305791944444445,
+    "longitude": 4.30579194444444,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5798,8 +5811,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Voorgevel_-_%27s-Gravenhage_-_20087864_-_RCE.jpg/1280px-Voorgevel_-_%27s-Gravenhage_-_20087864_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Huis Schuylenburch — historische opname — Voorgevel - 's-Gravenhage - 20087864 - RCE",
         "credit": "Gerard Dukker",
+        "caption": "Huis Schuylenburch — historische opname — Voorgevel - 's-Gravenhage - 20087864 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Voorgevel_-_%27s-Gravenhage_-_20087864_-_RCE.jpg"
       }
@@ -5820,9 +5833,9 @@
     ],
     "summary": "Daniël Marot ontwierp een barok huis aan de Hofvijver. Bij Huis Schuylenburch verdient vooral de bekroning van de gevel aandacht. De architectuur maakt van de stadwand een representatief decor.",
     "category": "architectuur",
-    "latitude": 52.08083333333333,
+    "latitude": 52.0808333333333,
     "province": "Zuid-Holland",
-    "longitude": 4.311388888888889,
+    "longitude": 4.31138888888889,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5849,8 +5862,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/NIrwana_Den_Haag_2022.jpg/1280px-NIrwana_Den_Haag_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Nirwana-flat — NIrwana Den Haag 2022",
         "credit": "Choinowski",
+        "caption": "Nirwana-flat — NIrwana Den Haag 2022",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:NIrwana_Den_Haag_2022.jpg"
       }
@@ -5871,9 +5884,9 @@
     ],
     "summary": "Duiker en Wiebenga onderzochten met de Nirwana-flat een moderne manier van wonen. Functionaliteit en rationele bouw bepalen het ontwerp. De Haagse flat is een vroeg voorbeeld van Nederlandse hoogbouw voor bewoning.",
     "category": "architectuur",
-    "latitude": 52.09222222222222,
+    "latitude": 52.0922222222222,
     "province": "Zuid-Holland",
-    "longitude": 4.329444444444444,
+    "longitude": 4.32944444444444,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5914,9 +5927,9 @@
     ],
     "summary": "Jan Wils groepeerde woningen rond een hof met een heldere ruimtelijke ordening. Papaverhof verbindt het wonen met de vernieuwing van De Stijl. Loop langs de randen en let op de verspringende volumes.",
     "category": "architectuur",
-    "latitude": 52.07527777777778,
+    "latitude": 52.0752777777778,
     "province": "Zuid-Holland",
-    "longitude": 4.260833333333333,
+    "longitude": 4.26083333333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Samengevoegd met Papaverhof (architectuurgids:782). Bronnen en selectie blijven bij dat gepubliceerde record beschikbaar.",
@@ -5943,8 +5956,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Den_Haag_-_Mauritshuis_-_Room_12.jpg/1280px-Den_Haag_-_Mauritshuis_-_Room_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Mauritshuis — Den Haag - Mauritshuis - Room 12",
         "credit": "Txllxt TxllxT",
+        "caption": "Mauritshuis — Den Haag - Mauritshuis - Room 12",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Den_Haag_-_Mauritshuis_-_Room_12.jpg"
       }
@@ -5965,9 +5978,9 @@
     ],
     "summary": "Het Mauritshuis verenigt de schaal van een stadspaleis met die van een schilderijenmuseum. De representatieve architectuur aan de Hofvijver vormt het historische kader voor de collectie oude meesters.",
     "category": "architectuur",
-    "latitude": 52.08027777777778,
+    "latitude": 52.0802777777778,
     "province": "Zuid-Holland",
-    "longitude": 4.314166666666667,
+    "longitude": 4.31416666666667,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -5994,8 +6007,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Zijingang_-_Haarlem_-_20096281_-_RCE.jpg/1280px-Zijingang_-_Haarlem_-_20096281_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Paviljoen Welgelegen — historische opname — Zijingang - Haarlem - 20096281 - RCE",
         "credit": "Gerard Dukker",
+        "caption": "Paviljoen Welgelegen — historische opname — Zijingang - Haarlem - 20096281 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Zijingang_-_Haarlem_-_20096281_-_RCE.jpg"
       }
@@ -6016,9 +6029,9 @@
     ],
     "summary": "Neoclassicistische vormen geven Paviljoen Welgelegen een monumentale uitstraling tegenover de Haarlemmerhout. Het landhuis kreeg door de tijd verschillende functies. Sinds 1930 is het onderdeel van het Noord-Hollandse provinciehuis.",
     "category": "architectuur",
-    "latitude": 52.37166666666667,
+    "latitude": 52.3716666666667,
     "province": "Noord-Holland",
-    "longitude": 4.631111111111111,
+    "longitude": 4.63111111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6045,8 +6058,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Haarlem%2C_het_Teylermuseum_RM315441_en_de_Sint_Bavokerk_RM19264_vanaf_de_Korte_Spaarne_foto4_2015-01-04_10.05.jpg/1280px-Haarlem%2C_het_Teylermuseum_RM315441_en_de_Sint_Bavokerk_RM19264_vanaf_de_Korte_Spaarne_foto4_2015-01-04_10.05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Teylers Museum — Haarlem, het Teylermuseum RM315441 en de Sint Bavokerk RM19264 vanaf de Korte Spaarne foto4 2015-01-04 10.05",
         "credit": "Michielverbeek",
+        "caption": "Teylers Museum — Haarlem, het Teylermuseum RM315441 en de Sint Bavokerk RM19264 vanaf de Korte Spaarne foto4 2015-01-04 10.05",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Haarlem,_het_Teylermuseum_RM315441_en_de_Sint_Bavokerk_RM19264_vanaf_de_Korte_Spaarne_foto4_2015-01-04_10.05.jpg"
       }
@@ -6067,9 +6080,9 @@
     ],
     "summary": "Teylers bewaart een vroege museumruimte vrijwel in haar oorspronkelijke samenhang. Gebouw en interieur tonen hoe kunst en wetenschap samen werden gepresenteerd. De architectuur is hier zelf een belangrijk collectieonderdeel.",
     "category": "architectuur",
-    "latitude": 52.38055555555555,
+    "latitude": 52.3805555555556,
     "province": "Noord-Holland",
-    "longitude": 4.6402777777777775,
+    "longitude": 4.64027777777778,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6096,8 +6109,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/HaarlemGroteMarkt1.JPG/1280px-HaarlemGroteMarkt1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Grote of Sint-Bavokerk — HaarlemGroteMarkt1",
         "credit": "Fryslan0109 at English Wikipedia",
+        "caption": "Grote of Sint-Bavokerk — HaarlemGroteMarkt1",
         "license": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:HaarlemGroteMarkt1.JPG"
       }
@@ -6118,9 +6131,9 @@
     ],
     "summary": "De Grote of Sint-Bavokerk beheerst de Haarlemse Markt. Brabantse gotiek en een hoge houten vieringtoren bepalen het silhouet. Let op hoe het grote dak en de stedelijke bebouwing elkaar versterken.",
     "category": "architectuur",
-    "latitude": 52.381055555555555,
+    "latitude": 52.3810555555556,
     "province": "Noord-Holland",
-    "longitude": 4.637277777777777,
+    "longitude": 4.63727777777778,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6147,8 +6160,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Pumping_engine_Cruquius.jpg/1280px-Pumping_engine_Cruquius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Gemaal De Cruquius — Pumping engine Cruquius",
         "credit": "Caspar",
+        "caption": "Gemaal De Cruquius — Pumping engine Cruquius",
         "license": "CC BY-SA 2.5",
         "source_url": "https://commons.wikimedia.org/wiki/File:Pumping_engine_Cruquius.jpg"
       }
@@ -6169,9 +6182,9 @@
     ],
     "summary": "Een monumentale stoommachine en een karakteristiek gemaal herinneren aan de droogmaking van de Haarlemmermeer. De Cruquius verbindt industriële techniek met uitgesproken architectuur. Het complex werd niet later gemoderniseerd.",
     "category": "architectuur",
-    "latitude": 52.33801388888889,
+    "latitude": 52.3380138888889,
     "province": "Noord-Holland",
-    "longitude": 4.638208333333333,
+    "longitude": 4.63820833333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6198,8 +6211,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Museum_Bisdom_van_Vliet_in_Haastrecht..jpg/1280px-Museum_Bisdom_van_Vliet_in_Haastrecht..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Museum Paulina Bisdom van Vliet — Museum Bisdom van Vliet in Haastrecht.",
         "credit": "Jan dijkstra",
+        "caption": "Museum Paulina Bisdom van Vliet — Museum Bisdom van Vliet in Haastrecht.",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Museum_Bisdom_van_Vliet_in_Haastrecht..jpg"
       }
@@ -6220,9 +6233,9 @@
     ],
     "summary": "Dit voormalige woonhuis bewaart een bijzondere huishoudelijke wereld. Bij Museum Paulina Bisdom van Vliet vormen kamers en inrichting één geheel. De architectuur helpt je de sociale geschiedenis van het huis te lezen.",
     "category": "architectuur",
-    "latitude": 52.00138888888889,
+    "latitude": 52.0013888888889,
     "province": "Zuid-Holland",
-    "longitude": 4.7716666666666665,
+    "longitude": 4.77166666666667,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6306,9 +6319,9 @@
     ],
     "summary": "Rijke decoratie en Brabantse gotiek maken de Sint-Jan tot een monumentaal geheel. De luchtbogen en sculpturen geven ook de buitenzijde veel te ontdekken. Binnen werkt de samenhang van de ruimte sterk door.",
     "category": "architectuur",
-    "latitude": 51.68805555555556,
+    "latitude": 51.6880555555556,
     "province": "Noord-Brabant",
-    "longitude": 5.308333333333334,
+    "longitude": 5.30833333333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6335,8 +6348,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Jachtslot_St._Hubertus.jpg/1280px-Jachtslot_St._Hubertus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Jachthuis Sint-Hubertus — Jachtslot St. Hubertus",
         "credit": "P.J.L Laurens",
+        "caption": "Jachthuis Sint-Hubertus — Jachtslot St. Hubertus",
         "license": "CC BY 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Jachtslot_St._Hubertus.jpg"
       }
@@ -6357,9 +6370,9 @@
     ],
     "summary": "Berlage ontwierp voor de Kröller-Müllers een buitenhuis waarin architectuur en inrichting samenhangen. Jachthuis Sint-Hubertus ligt in het Veluwse landschap. De herkenbare toren geeft het ensemble een uitgesproken silhouet.",
     "category": "architectuur",
-    "latitude": 52.12153611111111,
+    "latitude": 52.1215361111111,
     "province": "Gelderland",
-    "longitude": 5.832836111111111,
+    "longitude": 5.83283611111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Samengevoegd met Jachtslot St.-Hubertus (architectuurgids:585). Bronnen en selectie blijven bij dat gepubliceerde record beschikbaar.",
@@ -6386,8 +6399,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Kampen_-_Oudestraat_-_View_North_on_Town_Hall.jpg/1280px-Kampen_-_Oudestraat_-_View_North_on_Town_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Stadhuis van Kampen — Kampen - Oudestraat - View North on Town Hall",
         "credit": "Txllxt TxllxT",
+        "caption": "Stadhuis van Kampen — Kampen - Oudestraat - View North on Town Hall",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Kampen_-_Oudestraat_-_View_North_on_Town_Hall.jpg"
       }
@@ -6408,9 +6421,9 @@
     ],
     "summary": "Arkeltorentjes en pinakels geven het Kamper stadhuis een levendige gevel. Na een brand werden renaissancedetails toegevoegd aan de oudere opzet. Zo blijven verschillende perioden naast elkaar zichtbaar.",
     "category": "architectuur",
-    "latitude": 52.55956388888889,
+    "latitude": 52.5595638888889,
     "province": "Overijssel",
-    "longitude": 5.9159138888888885,
+    "longitude": 5.91591388888889,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6437,8 +6450,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Overzicht_voorzijde_-_Kerkrade_-_20337037_-_RCE.jpg/1280px-Overzicht_voorzijde_-_Kerkrade_-_20337037_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Abdij Rolduc — historische opname — Overzicht voorzijde - Kerkrade - 20337037 - RCE",
         "credit": "Kris Roderburg",
+        "caption": "Abdij Rolduc — historische opname — Overzicht voorzijde - Kerkrade - 20337037 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_voorzijde_-_Kerkrade_-_20337037_-_RCE.jpg"
       }
@@ -6459,9 +6472,9 @@
     ],
     "summary": "Rolduc verbindt kloosterarchitectuur met de geschiedenis van ontginning en mijnbouw. Het voormalige abdijcomplex ligt bij de Duitse grens. De opeenvolgende gebouwen vertellen over eeuwen van religieus en maatschappelijk gebruik.",
     "category": "architectuur",
-    "latitude": 50.867777777777775,
+    "latitude": 50.8677777777778,
     "province": "Limburg",
-    "longitude": 6.081666666666667,
+    "longitude": 6.08166666666667,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6488,8 +6501,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Interieur_-_Leiden_-_20327940_-_RCE.jpg/1280px-Interieur_-_Leiden_-_20327940_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Sint Annahofje — historische opname — Interieur - Leiden - 20327940 - RCE",
         "credit": "Oerle, H. van (Fotograaf)",
+        "caption": "Sint Annahofje — historische opname — Interieur - Leiden - 20327940 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Interieur_-_Leiden_-_20327940_-_RCE.jpg"
       }
@@ -6510,9 +6523,9 @@
     ],
     "summary": "Achter de Leidse straat ligt een laatmiddeleeuws hofje. Het Sint Anna Aalmoeshuis ontstond als vorm van armenzorg. De kleine schaal en omsloten ruimte maken de historische woonopzet tastbaar.",
     "category": "architectuur",
-    "latitude": 52.156666666666666,
+    "latitude": 52.1566666666667,
     "province": "Zuid-Holland",
-    "longitude": 4.496111111111111,
+    "longitude": 4.49611111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6539,8 +6552,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Voorgevel_-_Leiden_-_20135937_-_RCE.jpg/1280px-Voorgevel_-_Leiden_-_20135937_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "d'Heesterboom — historische opname — Voorgevel - Leiden - 20135937 - RCE",
         "credit": "Gerard Dukker",
+        "caption": "d'Heesterboom — historische opname — Voorgevel - Leiden - 20135937 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Voorgevel_-_Leiden_-_20135937_-_RCE.jpg"
       }
@@ -6561,7 +6574,7 @@
     ],
     "summary": "Windkracht dreef hier de zagen van een houtbedrijf aan. Molen d'Heesterboom staat aan het water in Leiden. Werktuig, gebouw en transport over de rivier vormen één industrieel verhaal.",
     "category": "architectuur",
-    "latitude": 52.156666666666666,
+    "latitude": 52.1566666666667,
     "province": "Zuid-Holland",
     "longitude": 4.4725,
     "museum_id": null,
@@ -6590,8 +6603,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Leiden_-_Rapenburg_25_-_winter_-_20100131.jpg/1280px-Leiden_-_Rapenburg_25_-_winter_-_20100131.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Bibliotheca Thysiana — Leiden - Rapenburg 25 - winter - 20100131",
         "credit": "Rudolphous",
+        "caption": "Bibliotheca Thysiana — Leiden - Rapenburg 25 - winter - 20100131",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Leiden_-_Rapenburg_25_-_winter_-_20100131.jpg"
       }
@@ -6612,9 +6625,9 @@
     ],
     "summary": "Een speciaal bibliotheekgebouw bewaart de nalatenschap van Johannes Thysius. Aan het Rapenburg komen zeventiende-eeuwse kennis, boekencultuur en architectuur samen. Binnenbezoek vraagt voorbereiding: raadpleeg de beheerder.",
     "category": "architectuur",
-    "latitude": 52.159166666666664,
+    "latitude": 52.1591666666667,
     "province": "Zuid-Holland",
-    "longitude": 4.484444444444445,
+    "longitude": 4.48444444444444,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6641,8 +6654,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/The_Wouda_Pumping_Station_at_Lemmer_%288%29_%2830671962268%29.jpg/1280px-The_Wouda_Pumping_Station_at_Lemmer_%288%29_%2830671962268%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Ir. D.F. Woudagemaal — The Wouda Pumping Station at Lemmer (8) (30671962268)",
         "credit": "bertknot from scarborough, australia",
+        "caption": "Ir. D.F. Woudagemaal — The Wouda Pumping Station at Lemmer (8) (30671962268)",
         "license": "CC BY-SA 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:The_Wouda_Pumping_Station_at_Lemmer_(8)_(30671962268).jpg"
       }
@@ -6663,7 +6676,7 @@
     ],
     "summary": "Het Woudagemaal verbindt monumentale baksteenarchitectuur met grote stoommachines. Het Friese complex kan nog altijd water verplaatsen. Gebouw en techniek vormen samen UNESCO-werelderfgoed.",
     "category": "architectuur",
-    "latitude": 52.84638888888889,
+    "latitude": 52.8463888888889,
     "province": "Friesland",
     "longitude": 5.68,
     "museum_id": null,
@@ -6706,9 +6719,9 @@
     ],
     "summary": "Dit kleine kerkje bij kasteel Limbricht bevat zeer oude bouwsporen. De voormalige parochiekerk maakt de lange ontwikkeling van een dorpsgemeenschap zichtbaar. Het contrast met latere, grotere kerken is opvallend.",
     "category": "architectuur",
-    "latitude": 51.015705555555556,
+    "latitude": 51.0157055555556,
     "province": "Limburg",
-    "longitude": 5.8387722222222225,
+    "longitude": 5.83877222222222,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6749,9 +6762,9 @@
     ],
     "summary": "Op de wierde van Loppersum groeide een romaanse kerk uit tot een groter geheel. De bewaarde bouwfragmenten laten opeenvolgende veranderingen zien. Kerk en verhoogde dorpskern horen ruimtelijk bij elkaar.",
     "category": "architectuur",
-    "latitude": 53.33186111111111,
+    "latitude": 53.3318611111111,
     "province": "Groningen",
-    "longitude": 6.747622222222222,
+    "longitude": 6.74762222222222,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6778,8 +6791,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Maastricht_Helpoort_BW_2017-08-19_13-58-28.jpg/1280px-Maastricht_Helpoort_BW_2017-08-19_13-58-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Helpoort — Maastricht Helpoort BW 2017-08-19 13-58-28",
         "credit": "Berthold Werner",
+        "caption": "Helpoort — Maastricht Helpoort BW 2017-08-19 13-58-28",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Maastricht_Helpoort_BW_2017-08-19_13-58-28.jpg"
       }
@@ -6800,9 +6813,9 @@
     ],
     "summary": "De Helpoort bewaart een doorgang door de middeleeuwse stadsmuur van Maastricht. Twee torens markeren de grens tussen binnen en buiten. Het gebouw maakt de vroegere verdediging van de stad direct voorstelbaar.",
     "category": "architectuur",
-    "latitude": 50.84527777777778,
+    "latitude": 50.8452777777778,
     "province": "Limburg",
-    "longitude": 5.694166666666667,
+    "longitude": 5.69416666666667,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6829,8 +6842,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Liebfrauenbasilika.jpg/1280px-Liebfrauenbasilika.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Onze-Lieve-Vrouwebasiliek — Liebfrauenbasilika",
         "credit": "Jörg Fuhrmann (Intermerker)",
+        "caption": "Onze-Lieve-Vrouwebasiliek — Liebfrauenbasilika",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Liebfrauenbasilika.jpg"
       }
@@ -6851,9 +6864,9 @@
     ],
     "summary": "Een zware romaanse westbouw geeft de Onze-Lieve-Vrouwebasiliek haar herkenbare vorm. Binnen verdienen de gebeeldhouwde kapitelen aandacht. De architectuur maakt de overgang van druk plein naar besloten kerkruimte voelbaar.",
     "category": "architectuur",
-    "latitude": 50.84737222222222,
+    "latitude": 50.8473722222222,
     "province": "Limburg",
-    "longitude": 5.6936527777777775,
+    "longitude": 5.69365277777778,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6880,8 +6893,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Basiliek_van_Sint_Servaas_in_Maastricht%2C_provincie_Limburg_in_Nederland_01.jpg/1280px-Basiliek_van_Sint_Servaas_in_Maastricht%2C_provincie_Limburg_in_Nederland_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Sint-Servaasbasiliek — Basiliek van Sint Servaas in Maastricht, provincie Limburg in Nederland 01",
         "credit": "Agnes Monkelbaan",
+        "caption": "Sint-Servaasbasiliek — Basiliek van Sint Servaas in Maastricht, provincie Limburg in Nederland 01",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Basiliek_van_Sint_Servaas_in_Maastricht,_provincie_Limburg_in_Nederland_01.jpg"
       }
@@ -6902,7 +6915,7 @@
     ],
     "summary": "De Sint-Servaasbasiliek is verbonden met de oudste religieuze geschiedenis van Maastricht. Het complex ligt tussen drie pleinen. Loop eromheen om de verschillende bouwdelen en hun stedelijke inpassing te ontdekken.",
     "category": "architectuur",
-    "latitude": 50.848816666666664,
+    "latitude": 50.8488166666667,
     "province": "Limburg",
     "longitude": 5.6872,
     "museum_id": null,
@@ -6931,8 +6944,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Maastricht%2C_Spaans_Gouvernement%2C_GAM_37258.jpg/1280px-Maastricht%2C_Spaans_Gouvernement%2C_GAM_37258.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Spaans Gouvernement — Maastricht, Spaans Gouvernement, GAM 37258",
         "credit": "Unknown photographer (Fotografische Dienst Gemeente Maastricht)",
+        "caption": "Spaans Gouvernement — Maastricht, Spaans Gouvernement, GAM 37258",
         "license": "CC BY 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Maastricht,_Spaans_Gouvernement,_GAM_37258.jpg"
       }
@@ -6953,9 +6966,9 @@
     ],
     "summary": "Een oud woonhuis aan het Vrijthof kreeg een museale bestemming. Het Spaans Gouvernement laat de lagen van Maastrichtse bewoning en representatie zien. Tegenwoordig is hier het Fotomuseum aan het Vrijthof gevestigd.",
     "category": "architectuur",
-    "latitude": 50.848333333333336,
+    "latitude": 50.8483333333333,
     "province": "Limburg",
-    "longitude": 5.688611111111111,
+    "longitude": 5.68861111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -6982,8 +6995,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Stadhuis_Maastricht.JPG/1280px-Stadhuis_Maastricht.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Stadhuis van Maastricht — Stadhuis Maastricht",
         "credit": "Phernambucq",
+        "caption": "Stadhuis van Maastricht — Stadhuis Maastricht",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Stadhuis_Maastricht.JPG"
       }
@@ -7004,9 +7017,9 @@
     ],
     "summary": "Pieter Post plaatste een vrijstaand stadhuis midden op de Markt. Natuursteen en klassieke ordening geven het gebouw een sterke eenheid. De achttiende-eeuwse inrichting voegt een volgende historische laag toe.",
     "category": "architectuur",
-    "latitude": 50.85138888888889,
+    "latitude": 50.8513888888889,
     "province": "Limburg",
-    "longitude": 5.691111111111111,
+    "longitude": 5.69111111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7033,8 +7046,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Maastricht%2C_de_Torenmolen_van_Gronsveld%2C_RM28086_foto8_2017-03-11_10.43.jpg/1280px-Maastricht%2C_de_Torenmolen_van_Gronsveld%2C_RM28086_foto8_2017-03-11_10.43.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Torenmolen van Gronsveld — Maastricht, de Torenmolen van Gronsveld, RM28086 foto8 2017-03-11 10.43",
         "credit": "Michielverbeek",
+        "caption": "Torenmolen van Gronsveld — Maastricht, de Torenmolen van Gronsveld, RM28086 foto8 2017-03-11 10.43",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Maastricht,_de_Torenmolen_van_Gronsveld,_RM28086_foto8_2017-03-11_10.43.jpg"
       }
@@ -7055,9 +7068,9 @@
     ],
     "summary": "Een zware ronde stenen toren vormt het hart van deze korenmolen. De molen van Gronsveld hoort bij een zeldzaam bewaard type. Hij maakt de vroegere combinatie van techniek, macht en voedselvoorziening zichtbaar.",
     "category": "architectuur",
-    "latitude": 50.82416666666666,
+    "latitude": 50.8241666666667,
     "province": "Limburg",
-    "longitude": 5.729444444444445,
+    "longitude": 5.72944444444444,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7084,8 +7097,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Middelburg_%28NL%29%2C_Oostkerk_--_2022_--_4884.jpg/1280px-Middelburg_%28NL%29%2C_Oostkerk_--_2022_--_4884.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Oostkerk — Middelburg (NL), Oostkerk -- 2022 -- 4884",
         "credit": "Dietmar Rabich",
+        "caption": "Oostkerk — Middelburg (NL), Oostkerk -- 2022 -- 4884",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Middelburg_(NL),_Oostkerk_--_2022_--_4884.jpg"
       }
@@ -7106,9 +7119,9 @@
     ],
     "summary": "Een achtkantige koepel maakt de Oostkerk tot een opvallend Middelburgs monument. De barokke kerk werd speciaal voor protestants gebruik gebouwd. De centrale vorm geeft de binnenruimte een eigen karakter.",
     "category": "architectuur",
-    "latitude": 51.50277777777778,
+    "latitude": 51.5027777777778,
     "province": "Zeeland",
-    "longitude": 3.6205555555555557,
+    "longitude": 3.62055555555556,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7135,8 +7148,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/De_Eenhoorn%22_-_Middenbeemster_-_20029322_-_RCE.jpg/1280px-De_Eenhoorn%22_-_Middenbeemster_-_20029322_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "De Eenhoorn — historische opname — De Eenhoorn\" - Middenbeemster - 20029322 - RCE",
         "credit": "Unknown authorUnknown author",
+        "caption": "De Eenhoorn — historische opname — De Eenhoorn\" - Middenbeemster - 20029322 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:De_Eenhoorn%22_-_Middenbeemster_-_20029322_-_RCE.jpg"
       }
@@ -7157,9 +7170,9 @@
     ],
     "summary": "Een boerderij krijgt de deftigheid van een Amsterdams huis. De Eenhoorn combineert een representatieve bakstenen voorzijde met agrarische bedrijfsruimte. Juist die mengvorm maakt de Beemster stolp bijzonder.",
     "category": "architectuur",
-    "latitude": 52.53326666666667,
+    "latitude": 52.5332666666667,
     "province": "Noord-Holland",
-    "longitude": 4.902963888888889,
+    "longitude": 4.90296388888889,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7202,7 +7215,7 @@
     "category": "architectuur",
     "latitude": 51.553175,
     "province": "Noord-Brabant",
-    "longitude": 5.212666666666666,
+    "longitude": 5.21266666666667,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7243,9 +7256,9 @@
     ],
     "summary": "Gele baksteen met rode metselwerkfiguren geeft deze Zeeuwse hoeve karakter. Binnendijk 3 ontstond na de inpoldering van het gebied. Het gebouw laat zien hoe een nieuw landschap werd bewoond en gebruikt.",
     "category": "architectuur",
-    "latitude": 51.470908333333334,
+    "latitude": 51.4709083333333,
     "province": "Zeeland",
-    "longitude": 3.667936111111111,
+    "longitude": 3.66793611111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7272,8 +7285,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Oudenbosch_Basilica%2C_September_2015_01.jpg/1280px-Oudenbosch_Basilica%2C_September_2015_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Basiliek van de H.H. Agatha en Barbara — Oudenbosch Basilica, September 2015 01",
         "credit": "Prolete",
+        "caption": "Basiliek van de H.H. Agatha en Barbara — Oudenbosch Basilica, September 2015 01",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Oudenbosch_Basilica,_September_2015_01.jpg"
       }
@@ -7294,9 +7307,9 @@
     ],
     "summary": "Een stukje Rome in Oudenbosch: de basiliek combineert een op de Sint-Pieter geïnspireerde opzet met een andere Romeinse kerkgevel. Cuypers en Van Swaay vertaalden die voorbeelden naar Brabantse schaal.",
     "category": "architectuur",
-    "latitude": 51.589444444444446,
+    "latitude": 51.5894444444444,
     "province": "Noord-Brabant",
-    "longitude": 4.528611111111111,
+    "longitude": 4.52861111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7323,8 +7336,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Toegangspoort_met_kop_en_jaartal_1547_in_de_sluitsteen_van_de_boog_-_Ritthem_-_20188675_-_RCE.jpg/1280px-Toegangspoort_met_kop_en_jaartal_1547_in_de_sluitsteen_van_de_boog_-_Ritthem_-_20188675_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Fort Rammekens -toegangspoort — historische opname — Toegangspoort met kop en jaartal 1547 in de sluitsteen van de boog - Ritthem - 20188675 - RCE",
         "credit": "Cornelis Johannes Steenbergh",
+        "caption": "Fort Rammekens -toegangspoort — historische opname — Toegangspoort met kop en jaartal 1547 in de sluitsteen van de boog - Ritthem - 20188675 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Toegangspoort_met_kop_en_jaartal_1547_in_de_sluitsteen_van_de_boog_-_Ritthem_-_20188675_-_RCE.jpg"
       }
@@ -7347,7 +7360,7 @@
     "category": "architectuur",
     "latitude": 51.4525,
     "province": "Zeeland",
-    "longitude": 3.653888888888889,
+    "longitude": 3.65388888888889,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7374,8 +7387,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Munsterkerk_Roermond_2014.jpg/1280px-Munsterkerk_Roermond_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Munsterkerk — Munsterkerk Roermond 2014",
         "credit": "Tuxyso",
+        "caption": "Munsterkerk — Munsterkerk Roermond 2014",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Munsterkerk_Roermond_2014.jpg"
       }
@@ -7396,9 +7409,9 @@
     ],
     "summary": "De Munsterkerk toont de rijkdom van de romaanse bouwtraditie en latere restauraties. Het gebouw hoorde bij een klooster. Zijn torens en volumes bepalen nog steeds de ruimte van het Roermondse Munsterplein.",
     "category": "architectuur",
-    "latitude": 51.19361111111111,
+    "latitude": 51.1936111111111,
     "province": "Limburg",
-    "longitude": 5.988611111111111,
+    "longitude": 5.98861111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7425,8 +7438,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Overzicht_-_Rotterdam_-_20349702_-_RCE.jpg/1280px-Overzicht_-_Rotterdam_-_20349702_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Van Nellefabriek — historische opname — Overzicht - Rotterdam - 20349702 - RCE",
         "credit": "Hoogewoud, R. (Fotograaf)",
+        "caption": "Van Nellefabriek — historische opname — Overzicht - Rotterdam - 20349702 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_-_Rotterdam_-_20349702_-_RCE.jpg"
       }
@@ -7447,9 +7460,9 @@
     ],
     "summary": "Glas, licht en een heldere constructie maakten de Van Nellefabriek een voorbeeld van moderne industriearchitectuur. Het Rotterdamse complex is UNESCO-werelderfgoed. Let op de luchtbruggen en de relatie tussen productiegebouwen.",
     "category": "architectuur",
-    "latitude": 51.922777777777775,
+    "latitude": 51.9227777777778,
     "province": "Zuid-Holland",
-    "longitude": 4.433611111111111,
+    "longitude": 4.43361111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7476,8 +7489,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Rotterdam_spangen_vaneffenstraat.jpg/1280px-Rotterdam_spangen_vaneffenstraat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Justus van Effencomplex — Rotterdam spangen vaneffenstraat",
         "credit": "Wikifrits",
+        "caption": "Justus van Effencomplex — Rotterdam spangen vaneffenstraat",
         "license": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:Rotterdam_spangen_vaneffenstraat.jpg"
       }
@@ -7498,9 +7511,9 @@
     ],
     "summary": "Michiel Brinkman onderzocht in Spangen een nieuwe manier van collectief wonen. Het Justus van Effencomplex groepeert woningen rond gedeelde ruimte. Het ontwerp werd een belangrijk voorbeeld voor de Nederlandse volkshuisvesting.",
     "category": "architectuur",
-    "latitude": 51.91555555555556,
+    "latitude": 51.9155555555556,
     "province": "Zuid-Holland",
-    "longitude": 4.430833333333333,
+    "longitude": 4.43083333333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Samengevoegd met Woningbouw Justus van Effenblok (architectuurgids:252). Bronnen en selectie blijven bij dat gepubliceerde record beschikbaar.",
@@ -7527,8 +7540,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/0_8605_Rotterdam_-_Het_Witte_Huis.jpg/1280px-0_8605_Rotterdam_-_Het_Witte_Huis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Witte Huis — 0 8605 Rotterdam - Het Witte Huis",
         "credit": "W. Bulach",
+        "caption": "Witte Huis — 0 8605 Rotterdam - Het Witte Huis",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:0_8605_Rotterdam_-_Het_Witte_Huis.jpg"
       }
@@ -7549,9 +7562,9 @@
     ],
     "summary": "Het Witte Huis bracht de ambitie van de Amerikaanse hoogbouw naar Rotterdam. Het kantoorgebouw overleefde het bombardement van 1940. Tussen de latere bebouwing blijft het een herkenbare historische toren.",
     "category": "architectuur",
-    "latitude": 51.91861111111111,
+    "latitude": 51.9186111111111,
     "province": "Zuid-Holland",
-    "longitude": 4.491666666666666,
+    "longitude": 4.49166666666667,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7578,8 +7591,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Achtergevels_-_Rotterdam_-_20192220_-_RCE.jpg/1280px-Achtergevels_-_Rotterdam_-_20192220_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kiefhoek — historische opname — Achtergevels - Rotterdam - 20192220 - RCE",
         "credit": "Gerard Dukker",
+        "caption": "Kiefhoek — historische opname — Achtergevels - Rotterdam - 20192220 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Achtergevels_-_Rotterdam_-_20192220_-_RCE.jpg"
       }
@@ -7600,9 +7613,9 @@
     ],
     "summary": "J.J.P. Oud gaf een Rotterdamse woonwijk een heldere moderne ordening. De Kiefhoek verbindt eenvoudige woningen met zorgvuldig ontworpen hoeken, gevels en voorzieningen. Het dagelijkse wonen staat centraal in het ontwerp.",
     "category": "architectuur",
-    "latitude": 51.89333333333333,
+    "latitude": 51.8933333333333,
     "province": "Zuid-Holland",
-    "longitude": 4.506111111111111,
+    "longitude": 4.50611111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Samengevoegd met Woningbouw Kiefhoek (architectuurgids:284). Bronnen en selectie blijven bij dat gepubliceerde record beschikbaar.",
@@ -7629,8 +7642,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Achterzijde_kasteel%2C_donjon_-_Rozendaal_-_20363889_-_RCE.jpg/1280px-Achterzijde_kasteel%2C_donjon_-_Rozendaal_-_20363889_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kasteel Rosendael — historische opname — Achterzijde kasteel, donjon - Rozendaal - 20363889 - RCE",
         "credit": "A. J. van der Wal",
+        "caption": "Kasteel Rosendael — historische opname — Achterzijde kasteel, donjon - Rozendaal - 20363889 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Achterzijde_kasteel,_donjon_-_Rozendaal_-_20363889_-_RCE.jpg"
       }
@@ -7651,9 +7664,9 @@
     ],
     "summary": "Een enorme donjon vormt het oudste opvallende onderdeel van Rosendael. Latere bouwfasen veranderden het kasteel en de buitenplaats. Het ensemble vertelt over de macht en het wonen van de Gelderse adel.",
     "category": "architectuur",
-    "latitude": 52.00944444444445,
+    "latitude": 52.0094444444444,
     "province": "Gelderland",
-    "longitude": 5.964444444444444,
+    "longitude": 5.96444444444444,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7680,8 +7693,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Vinkenbaan_14_.JPG/1280px-Vinkenbaan_14_.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Vinkenbaan 14 (woonhuis) — Vinkenbaan 14 ",
         "credit": "MaryDijkzeul",
+        "caption": "Vinkenbaan 14 (woonhuis) — Vinkenbaan 14 ",
         "license": "CC BY-SA 3.0 nl",
         "source_url": "https://commons.wikimedia.org/wiki/File:Vinkenbaan_14_.JPG"
       }
@@ -7702,9 +7715,9 @@
     ],
     "summary": "Dit vroege betonnen woonhuis onderzoekt een nieuw bouwmateriaal. Herman Hana en H.J. Harms ontwierpen de eenvoudige volumes met Berlage als adviseur. De voegloze constructie was in 1911 bijzonder vernieuwend.",
     "category": "architectuur",
-    "latitude": 52.41934722222222,
+    "latitude": 52.4193472222222,
     "province": "Noord-Holland",
-    "longitude": 4.628813888888889,
+    "longitude": 4.62881388888889,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7747,7 +7760,7 @@
     "category": "architectuur",
     "latitude": 52.785,
     "province": "Overijssel",
-    "longitude": 6.112222222222222,
+    "longitude": 6.11222222222222,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7774,8 +7787,8 @@
     "photos": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Klooster_Ter_Apel%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Klooster Ter Apel — Klooster Ter Apel(4)",
         "credit": "Gouwenaar at Dutch Wikipedia",
+        "caption": "Klooster Ter Apel — Klooster Ter Apel(4)",
         "license": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:Klooster_Ter_Apel(4).jpg"
       }
@@ -7796,9 +7809,9 @@
     ],
     "summary": "Het voormalige klooster van Ter Apel bewaart ruimten uit een laatmiddeleeuws convent. De gebouwen kregen een museale functie. Architectuur en religieuze kunst vertellen hier samen over het kloosterleven.",
     "category": "architectuur",
-    "latitude": 52.87611111111111,
+    "latitude": 52.8761111111111,
     "province": "Groningen",
-    "longitude": 7.0744444444444445,
+    "longitude": 7.07444444444444,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -7825,8 +7838,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Sint-Micha%C3%ABlskerk_in_Thorn_%28cropped%29.jpg/1280px-Sint-Micha%C3%ABlskerk_in_Thorn_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Sint-Michaëlskerk — Sint-Michaëlskerk in Thorn (cropped)",
         "credit": "Choinowski",
+        "caption": "Sint-Michaëlskerk — Sint-Michaëlskerk in Thorn (cropped)",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Sint-Micha%C3%ABlskerk_in_Thorn_(cropped).jpg"
       }
@@ -7876,8 +7889,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Utrecht%2C_de_Domtoren_%28RM36075%29_vanaf_de_Oudegracht_230_ongeveer_foto5_2015-11-01_08.56.jpg/1280px-Utrecht%2C_de_Domtoren_%28RM36075%29_vanaf_de_Oudegracht_230_ongeveer_foto5_2015-11-01_08.56.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Domtoren — Utrecht, de Domtoren (RM36075) vanaf de Oudegracht 230 ongeveer foto5 2015-11-01 08.56",
         "credit": "Michielverbeek",
+        "caption": "Domtoren — Utrecht, de Domtoren (RM36075) vanaf de Oudegracht 230 ongeveer foto5 2015-11-01 08.56",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Utrecht,_de_Domtoren_(RM36075)_vanaf_de_Oudegracht_230_ongeveer_foto5_2015-11-01_08.56.jpg"
       }
@@ -7927,8 +7940,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Utrecht_PrinsHendriklaan50_018_2312.jpg/1280px-Utrecht_PrinsHendriklaan50_018_2312.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Rietveld Schröderhuis — Utrecht PrinsHendriklaan50 018 2312",
         "credit": "Ludvig14",
+        "caption": "Rietveld Schröderhuis — Utrecht PrinsHendriklaan50 018 2312",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Utrecht_PrinsHendriklaan50_018_2312.jpg"
       }
@@ -8021,8 +8034,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Valkenburg-Kruitmolen.JPG/1280px-Valkenburg-Kruitmolen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kruitmolen — Valkenburg-Kruitmolen",
         "credit": "Romaine",
+        "caption": "Kruitmolen — Valkenburg-Kruitmolen",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Valkenburg-Kruitmolen.JPG"
       }
@@ -8043,9 +8056,9 @@
     ],
     "summary": "Waterkracht gaf de Valkenburgse Kruitmolen verschillende functies: van buskruit tot papier en elektriciteit. Het gebouw aan de Geul maakt de verbinding tussen landschap en productie zichtbaar.",
     "category": "architectuur",
-    "latitude": 50.86588611111111,
+    "latitude": 50.8658861111111,
     "province": "Limburg",
-    "longitude": 5.822633333333333,
+    "longitude": 5.82263333333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -8072,8 +8085,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Station_Valkenburg_%282025%29-5.jpg/1280px-Station_Valkenburg_%282025%29-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Station Valkenburg — Station Valkenburg (2025)-5",
         "credit": "Sneeuwvlakte",
+        "caption": "Station Valkenburg — Station Valkenburg (2025)-5",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Station_Valkenburg_(2025)-5.jpg"
       }
@@ -8094,9 +8107,9 @@
     ],
     "summary": "Het stationsgebouw van Valkenburg dateert uit 1853. De uitgesproken vorm geeft de spoorwegentree een monumentaal karakter. Het gebouw laat de vroege geschiedenis van het Nederlandse spoor zien.",
     "category": "architectuur",
-    "latitude": 50.869166666666665,
+    "latitude": 50.8691666666667,
     "province": "Limburg",
-    "longitude": 5.832777777777777,
+    "longitude": 5.83277777777778,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -8123,8 +8136,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Kasteel_Valkenburg_en_Wilhelminatoren%2C_Valkenburg_aan_de_Geul%2C_Limburg.jpg/1280px-Kasteel_Valkenburg_en_Wilhelminatoren%2C_Valkenburg_aan_de_Geul%2C_Limburg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kasteel Valkenburg — Kasteel Valkenburg en Wilhelminatoren, Valkenburg aan de Geul, Limburg",
         "credit": "Jiří Komárek",
+        "caption": "Kasteel Valkenburg — Kasteel Valkenburg en Wilhelminatoren, Valkenburg aan de Geul, Limburg",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Kasteel_Valkenburg_en_Wilhelminatoren,_Valkenburg_aan_de_Geul,_Limburg.jpg"
       }
@@ -8145,9 +8158,9 @@
     ],
     "summary": "Een ruïne op de Heunsberg markeert de vroegere macht van de heren van Valkenburg. De hoogteburcht werd in 1672 verwoest. De resterende muren en gangen maken de verdedigbare ligging nog goed leesbaar.",
     "category": "architectuur",
-    "latitude": 50.86194444444445,
+    "latitude": 50.8619444444444,
     "province": "Limburg",
-    "longitude": 5.8308333333333335,
+    "longitude": 5.83083333333333,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -8188,9 +8201,9 @@
     ],
     "summary": "Beelden van heren en vrouwen van Veere versieren de laatgotische stadhuisgevel. De toren en voormalige rechtsruimte vertellen over stedelijk bestuur. Het gebouw maakt tegenwoordig deel uit van Museum Veere.",
     "category": "architectuur",
-    "latitude": 51.54833333333333,
+    "latitude": 51.5483333333333,
     "province": "Zeeland",
-    "longitude": 3.6680555555555556,
+    "longitude": 3.66805555555556,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -8217,8 +8230,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Westgevel_-_Voorschoten_-_20245877_-_RCE.jpg/1280px-Westgevel_-_Voorschoten_-_20245877_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kasteel Duivenvoorde — historische opname — Westgevel - Voorschoten - 20245877 - RCE",
         "credit": "G.Th. Delemarre",
+        "caption": "Kasteel Duivenvoorde — historische opname — Westgevel - Voorschoten - 20245877 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Westgevel_-_Voorschoten_-_20245877_-_RCE.jpg"
       }
@@ -8239,7 +8252,7 @@
     ],
     "summary": "Een omgracht edelmanshuis vormt het middelpunt van Duivenvoorde. De zeventiende-eeuwse buitenplaats verbindt representatief wonen met het omringende landschap. De datum boven de ingang verwijst naar een belangrijke bouwfase.",
     "category": "architectuur",
-    "latitude": 52.11138888888889,
+    "latitude": 52.1113888888889,
     "province": "Zuid-Holland",
     "longitude": 4.4175,
     "museum_id": null,
@@ -8268,8 +8281,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Sint_Martinuskerk_Weert_%28linker_zijbeuk%29.jpg/1280px-Sint_Martinuskerk_Weert_%28linker_zijbeuk%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Sint-Martinuskerk — Sint Martinuskerk Weert (linker zijbeuk)",
         "credit": "Mark de Nijs",
+        "caption": "Sint-Martinuskerk — Sint Martinuskerk Weert (linker zijbeuk)",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Sint_Martinuskerk_Weert_(linker_zijbeuk).jpg"
       }
@@ -8290,9 +8303,9 @@
     ],
     "summary": "De Sint-Martinuskerk is een laatgotische hallenkerk. De vergelijkbare hoogte van de beuken maakt de ruimte bijzonder. Het gebouw laat een ander ruimtelijk principe zien dan een basiliek met hoog middenschip.",
     "category": "architectuur",
-    "latitude": 51.25361111111111,
+    "latitude": 51.2536111111111,
     "province": "Limburg",
-    "longitude": 5.706944444444445,
+    "longitude": 5.70694444444444,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -8319,8 +8332,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Trappenhuis_-_Weesp_-_20252181_-_RCE.jpg/1280px-Trappenhuis_-_Weesp_-_20252181_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Stadhuis van Weesp — historische opname — Trappenhuis - Weesp - 20252181 - RCE",
         "credit": "Gerard Dukker",
+        "caption": "Stadhuis van Weesp — historische opname — Trappenhuis - Weesp - 20252181 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Trappenhuis_-_Weesp_-_20252181_-_RCE.jpg"
       }
@@ -8341,9 +8354,9 @@
     ],
     "summary": "Jacob Otten Husly gaf Weesp een neoclassicistisch stadhuis. Het ontwerp zoekt aansluiting bij grote stedelijke voorbeelden, maar op een eigen schaal. De bouw vond plaats in de achttiende eeuw.",
     "category": "architectuur",
-    "latitude": 52.30676388888889,
+    "latitude": 52.3067638888889,
     "province": "Noord-Holland",
-    "longitude": 5.042766666666667,
+    "longitude": 5.04276666666667,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -8370,8 +8383,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Westzaan_-_Kerkbuurt_-_View_North_on_%27t_Reghthuys%27_%28Courthouse_-_Town_Hall%29_1781-1783_by_Johan_Samuel_Creutz_01.jpg/1280px-Westzaan_-_Kerkbuurt_-_View_North_on_%27t_Reghthuys%27_%28Courthouse_-_Town_Hall%29_1781-1783_by_Johan_Samuel_Creutz_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Raadhuis van Westzaan — Westzaan - Kerkbuurt - View North on 't Reghthuys' (Courthouse - Town Hall) 1781-1783 by Johan Samuel Creutz 01",
         "credit": "Txllxt TxllxT",
+        "caption": "Raadhuis van Westzaan — Westzaan - Kerkbuurt - View North on 't Reghthuys' (Courthouse - Town Hall) 1781-1783 by Johan Samuel Creutz 01",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Westzaan_-_Kerkbuurt_-_View_North_on_%27t_Reghthuys%27_(Courthouse_-_Town_Hall)_1781-1783_by_Johan_Samuel_Creutz_01.jpg"
       }
@@ -8421,8 +8434,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/De_Grafelijke_Korenmolen_te_Zeddam_van_opzij_gefotografeerd_-_Zeddam_-_20221022_-_RCE.jpg/1280px-De_Grafelijke_Korenmolen_te_Zeddam_van_opzij_gefotografeerd_-_Zeddam_-_20221022_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Grafelijke Korenmolen — historische opname — De Grafelijke Korenmolen te Zeddam van opzij gefotografeerd - Zeddam - 20221022 - RCE",
         "credit": "Gerard Dukker",
+        "caption": "Grafelijke Korenmolen — historische opname — De Grafelijke Korenmolen te Zeddam van opzij gefotografeerd - Zeddam - 20221022 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:De_Grafelijke_Korenmolen_te_Zeddam_van_opzij_gefotografeerd_-_Zeddam_-_20221022_-_RCE.jpg"
       }
@@ -8443,9 +8456,9 @@
     ],
     "summary": "De dikke stenen toren van de Grafelijke Korenmolen bewaart middeleeuwse techniek. Het bouwwerk in Zeddam geldt als de oudste nog bestaande Nederlandse windmolen. De molen verbindt macht, landschap en graanverwerking.",
     "category": "architectuur",
-    "latitude": 51.903055555555554,
+    "latitude": 51.9030555555556,
     "province": "Gelderland",
-    "longitude": 6.252777777777778,
+    "longitude": 6.25277777777778,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -8472,8 +8485,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Trapgevel_-_Zierikzee_-_20222662_-_RCE.jpg/1280px-Trapgevel_-_Zierikzee_-_20222662_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Huis De Haan — historische opname — Trapgevel - Zierikzee - 20222662 - RCE",
         "credit": "Gerard Dukker",
+        "caption": "Huis De Haan — historische opname — Trapgevel - Zierikzee - 20222662 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Trapgevel_-_Zierikzee_-_20222662_-_RCE.jpg"
       }
@@ -8494,9 +8507,9 @@
     ],
     "summary": "Dit vroege koopmanshuis combineerde wonen en opslag. Huis De Haan bewaart bouwsporen uit de veertiende eeuw. De gevel maakt de lange handelsgeschiedenis van Zierikzee zichtbaar.",
     "category": "architectuur",
-    "latitude": 51.650133333333336,
+    "latitude": 51.6501333333333,
     "province": "Zeeland",
-    "longitude": 3.919188888888889,
+    "longitude": 3.91918888888889,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -8537,9 +8550,9 @@
     ],
     "summary": "Twee havenpoorten bewaken de historische toegang tot Zierikzee. Verdediging en handel komen samen bij het water. Opeenvolgende verbouwingen gaven de middeleeuwse poorten hun huidige verschijning.",
     "category": "architectuur",
-    "latitude": 51.647777777777776,
+    "latitude": 51.6477777777778,
     "province": "Zeeland",
-    "longitude": 3.926111111111111,
+    "longitude": 3.92611111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -8566,8 +8579,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Zierikzee_-_Stadhuis_2.jpg/1280px-Zierikzee_-_Stadhuis_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Stadhuis van Zierikzee — Zierikzee - Stadhuis 2",
         "credit": "LimoWreck",
+        "caption": "Stadhuis van Zierikzee — Zierikzee - Stadhuis 2",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Zierikzee_-_Stadhuis_2.jpg"
       }
@@ -8588,9 +8601,9 @@
     ],
     "summary": "Een achthoekige toren bekroont het zestiende-eeuwse stadhuis van Zierikzee. Gevel, carillon en stadsbestuur vormden samen een publiek middelpunt. Het gebouw wordt nu gebruikt door het Stadhuismuseum.",
     "category": "architectuur",
-    "latitude": 51.65036666666666,
+    "latitude": 51.6503666666667,
     "province": "Zeeland",
-    "longitude": 3.9187944444444445,
+    "longitude": 3.91879444444444,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -8631,7 +8644,7 @@
     ],
     "summary": "Eeuwen van uitbreidingen geven de Walburgiskerk een gelaagd karakter. De combinatie met de historische Librije maakt het complex bijzonder. Kerkruimte en boekencultuur vertellen samen over het verleden van Zutphen.",
     "category": "architectuur",
-    "latitude": 52.139586111111115,
+    "latitude": 52.1395861111111,
     "province": "Gelderland",
     "longitude": 6.1957,
     "museum_id": null,
@@ -8660,8 +8673,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Zwolle_Sassenpoort.jpg/1280px-Zwolle_Sassenpoort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Sassenpoort — Zwolle Sassenpoort",
         "credit": "Marcel Schmeier at nl.wikipedia",
+        "caption": "Sassenpoort — Zwolle Sassenpoort",
         "license": "CC BY-SA 2.5 nl",
         "source_url": "https://commons.wikimedia.org/wiki/File:Zwolle_Sassenpoort.jpg"
       }
@@ -8682,9 +8695,9 @@
     ],
     "summary": "Natuurstenen gevels en hoektorens maken de Sassenpoort tot een indrukwekkende entree. De poort hoorde bij de middeleeuwse verdediging van Zwolle. Het gebouw toont de welvaart en ambitie van de Hanzestad.",
     "category": "architectuur",
-    "latitude": 52.50972222222222,
+    "latitude": 52.5097222222222,
     "province": "Overijssel",
-    "longitude": 6.095277777777778,
+    "longitude": 6.09527777777778,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
@@ -8710,8 +8723,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Den_Haag_-_De_Resident_%2828056663929%29.jpg/1280px-Den_Haag_-_De_Resident_%2828056663929%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "De Resident — Den Haag - De Resident (28056663929)",
         "credit": "Fred Romero from Paris, France",
+        "caption": "De Resident — Den Haag - De Resident (28056663929)",
         "license": "CC BY 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Den_Haag_-_De_Resident_(28056663929).jpg"
       }
@@ -8757,8 +8770,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Peperklip%2C_Rotterdam%2C_in_2008_04.jpg/1280px-Peperklip%2C_Rotterdam%2C_in_2008_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Woongebouw De Peperklip — Peperklip, Rotterdam, in 2008 04",
         "credit": "Jan Geerling",
+        "caption": "Woongebouw De Peperklip — Peperklip, Rotterdam, in 2008 04",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Peperklip,_Rotterdam,_in_2008_04.jpg"
       }
@@ -8842,8 +8855,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Achtergevels_-_Rotterdam_-_20192220_-_RCE.jpg/1280px-Achtergevels_-_Rotterdam_-_20192220_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kiefhoek — historische opname — Achtergevels - Rotterdam - 20192220 - RCE",
         "credit": "Gerard Dukker",
+        "caption": "Kiefhoek — historische opname — Achtergevels - Rotterdam - 20192220 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Achtergevels_-_Rotterdam_-_20192220_-_RCE.jpg"
       }
@@ -8869,9 +8882,9 @@
     ],
     "summary": "Oud combineerde gestandaardiseerde woningen met zorgvuldig ontworpen hoeken en voorzieningen. De Kiefhoek maakte moderne architectuur beschikbaar voor arbeidersgezinnen. De samenhang van straat, woning en buurt staat centraal.",
     "category": "architectuur",
-    "latitude": 51.89333333333333,
+    "latitude": 51.8933333333333,
     "province": "Zuid-Holland",
-    "longitude": 4.506111111111111,
+    "longitude": 4.50611111111111,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "Selectie betreft de architectuur. Binnenbezoek is niet vanzelfsprekend; respecteer woningen en werkplekken en controleer toegang vooraf.",
@@ -8898,8 +8911,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Grote_Markt_DH4.JPG/1280px-Grote_Markt_DH4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Coöperatie De Volharding — Grote Markt DH4",
         "credit": "Joris",
+        "caption": "Coöperatie De Volharding — Grote Markt DH4",
         "license": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:Grote_Markt_DH4.JPG"
       }
@@ -8944,8 +8957,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Bergen_Park_Meerwijk_001.jpg/1280px-Bergen_Park_Meerwijk_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Park Meerwijk — Bergen Park Meerwijk 001",
         "credit": "Unknown authorUnknown author",
+        "caption": "Park Meerwijk — Bergen Park Meerwijk 001",
         "license": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:Bergen_Park_Meerwijk_001.jpg"
       }

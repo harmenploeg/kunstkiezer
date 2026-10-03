@@ -15,8 +15,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Leeuwarden%2C_sculptuur_Love_Fountain_van_Jaume_Plensa_op_het_Stationsplein_IMG_3716_2018-05-21_12.39.jpg/1280px-Leeuwarden%2C_sculptuur_Love_Fountain_van_Jaume_Plensa_op_het_Stationsplein_IMG_3716_2018-05-21_12.39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Love — Leeuwarden, sculptuur Love Fountain van Jaume Plensa op het Stationsplein IMG 3716 2018-05-21 12.39",
         "credit": "Michielverbeek",
+        "caption": "Love — Leeuwarden, sculptuur Love Fountain van Jaume Plensa op het Stationsplein IMG 3716 2018-05-21 12.39",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Leeuwarden,_sculptuur_Love_Fountain_van_Jaume_Plensa_op_het_Stationsplein_IMG_3716_2018-05-21_12.39.jpg"
       }
@@ -33,13 +33,23 @@
         "url": "https://11fountains.nl/fonteinen/leeuwarden/",
         "provider": "11fountains · officiële projectinformatie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://11fountains.nl/fonteinen/leeuwarden/",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "latitude",
+          "longitude",
+          "coordinate_precision"
+        ]
       }
     ],
     "summary": "Twee grote witte gezichten houden hun ogen gesloten. De nevel rond de sculpturen geeft de drukke stationsomgeving een verstilde tegenwereld. Loop erlangs en ervaar de wisselwerking tussen schaal, mist en menselijke uitdrukking.",
     "category": "openbare-kunst",
-    "latitude": 53.2006597,
+    "latitude": 53.196991933145,
     "province": "Friesland",
-    "longitude": 5.80308902,
+    "longitude": 5.7924073934555,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
@@ -48,9 +58,9 @@
     "street_address": "Stationsgebied",
     "operating_status": "open",
     "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-b36c893c6c9ca7ffca7005e03408aacc",
+    "coordinate_source": "https://11fountains.nl/fonteinen/leeuwarden/",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "exact"
   },
   {
     "id": "a27f565c-eab7-5fde-94c4-68507190110b",
@@ -68,8 +78,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/20190903_potvisfontein_in_Harlingen.jpg/1280px-20190903_potvisfontein_in_Harlingen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "De Walvis — 20190903 potvisfontein in Harlingen",
         "credit": "Gouwenaar",
+        "caption": "De Walvis — 20190903 potvisfontein in Harlingen",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:20190903_potvisfontein_in_Harlingen.jpg"
       }
@@ -86,13 +96,23 @@
         "url": "https://11fountains.nl/fonteinen/harlingen/",
         "provider": "11fountains · officiële projectinformatie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://11fountains.nl/fonteinen/harlingen/",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "latitude",
+          "longitude",
+          "coordinate_precision"
+        ]
       }
     ],
     "summary": "In de haven duikt een monumentale walvis op. Het werk verbindt de geschiedenis van de walvisvaart met onze veranderde verhouding tot deze dieren. Water en schaal maken de ontmoeting onverwacht tastbaar.",
     "category": "openbare-kunst",
-    "latitude": 53.1420655,
+    "latitude": 53.1728676,
     "province": "Friesland",
-    "longitude": 5.26367403,
+    "longitude": 5.4081785,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
@@ -101,9 +121,9 @@
     "street_address": "Nieuwe Willemshaven, bij de Zuiderpier",
     "operating_status": "open",
     "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-90228e88a50e0f3927c8ef1b9c3ce80d",
+    "coordinate_source": "https://11fountains.nl/fonteinen/harlingen/",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "exact"
   },
   {
     "id": "ec559317-ad1c-58c4-bce2-8118f292d3f2",
@@ -167,8 +187,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/13-06-27-rotterdam-by-RalfR-40.jpg/1280px-13-06-27-rotterdam-by-RalfR-40.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Santa Claus — 13-06-27-rotterdam-by-RalfR-40",
         "credit": "Ralf Roletschek",
+        "caption": "Santa Claus — 13-06-27-rotterdam-by-RalfR-40",
         "license": "CC BY 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:13-06-27-rotterdam-by-RalfR-40.jpg"
       }
@@ -219,8 +239,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Man_lying_on_the_bench_observing_rounded_inverted_sky_forming_planet-like_feeling_in_Hemels_Gewelf%2C_Den_Haag.jpg/1280px-Man_lying_on_the_bench_observing_rounded_inverted_sky_forming_planet-like_feeling_in_Hemels_Gewelf%2C_Den_Haag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Het Hemels Gewelf — Man lying on the bench observing rounded inverted sky forming planet-like feeling in Hemels Gewelf, Den Haag",
         "credit": "Jiří Komárek",
+        "caption": "Het Hemels Gewelf — Man lying on the bench observing rounded inverted sky forming planet-like feeling in Hemels Gewelf, Den Haag",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Man_lying_on_the_bench_observing_rounded_inverted_sky_forming_planet-like_feeling_in_Hemels_Gewelf,_Den_Haag.jpg"
       }
@@ -272,8 +292,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Groene_Kathedraal_Almere_2019_1.jpg/1280px-Groene_Kathedraal_Almere_2019_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "De Groene Kathedraal — Groene Kathedraal Almere 2019 1",
         "credit": "Hay Kranen",
+        "caption": "De Groene Kathedraal — Groene Kathedraal Almere 2019 1",
         "license": "CC BY 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Groene_Kathedraal_Almere_2019_1.jpg"
       }
@@ -325,8 +345,8 @@
     "photos": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Amsterdam_Nelson_Carrilho_Mama_Baranka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Mama Baranka — Amsterdam Nelson Carrilho Mama Baranka",
         "credit": "FaceMePLS from The Hague, The Netherlands",
+        "caption": "Mama Baranka — Amsterdam Nelson Carrilho Mama Baranka",
         "license": "CC BY 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Nelson_Carrilho_Mama_Baranka.jpg"
       }
@@ -378,8 +398,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Maasbeeld_-_Stadsdriehoek_-_Centrum_-_Rotterdam_-_With_Willemsbrug_in_the_background.jpg/1280px-Maasbeeld_-_Stadsdriehoek_-_Centrum_-_Rotterdam_-_With_Willemsbrug_in_the_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Maasbeeld — Maasbeeld - Stadsdriehoek - Centrum - Rotterdam - With Willemsbrug in the background",
         "credit": "AgainErick",
+        "caption": "Maasbeeld — Maasbeeld - Stadsdriehoek - Centrum - Rotterdam - With Willemsbrug in the background",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Maasbeeld_-_Stadsdriehoek_-_Centrum_-_Rotterdam_-_With_Willemsbrug_in_the_background.jpg"
       }
@@ -430,8 +450,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Rotterdam_kunstwerk_monsieur_jacques.jpg/1280px-Rotterdam_kunstwerk_monsieur_jacques.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Monsieur Jacques — Rotterdam kunstwerk monsieur jacques",
         "credit": "Wikifrits",
+        "caption": "Monsieur Jacques — Rotterdam kunstwerk monsieur jacques",
         "license": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:Rotterdam_kunstwerk_monsieur_jacques.jpg"
       }
@@ -483,8 +503,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/De_Verwoeste_Stad_-_Rotterdam_Wiki.jpg/1280px-De_Verwoeste_Stad_-_Rotterdam_Wiki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "De verwoeste stad — De Verwoeste Stad - Rotterdam Wiki",
         "credit": "Icarus S",
+        "caption": "De verwoeste stad — De Verwoeste Stad - Rotterdam Wiki",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:De_Verwoeste_Stad_-_Rotterdam_Wiki.jpg"
       }
@@ -534,8 +554,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Rotterdam_kunstwerk_a_minute_of_shelter1.jpg/1280px-Rotterdam_kunstwerk_a_minute_of_shelter1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "A Minute of Shelter — Rotterdam kunstwerk a minute of shelter1",
         "credit": "Wikifrits",
+        "caption": "A Minute of Shelter — Rotterdam kunstwerk a minute of shelter1",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Rotterdam_kunstwerk_a_minute_of_shelter1.jpg"
       }
@@ -619,8 +639,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Dokkum%2C_de_IJsfontein_van_Birthe_Leemeijer_IMG_7703_2020-09-20_14.46.jpg/1280px-Dokkum%2C_de_IJsfontein_van_Birthe_Leemeijer_IMG_7703_2020-09-20_14.46.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "De IJsfontein — Dokkum, de IJsfontein van Birthe Leemeijer IMG 7703 2020-09-20 14.46",
         "credit": "Michielverbeek",
+        "caption": "De IJsfontein — Dokkum, de IJsfontein van Birthe Leemeijer IMG 7703 2020-09-20 14.46",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Dokkum,_de_IJsfontein_van_Birthe_Leemeijer_IMG_7703_2020-09-20_14.46.jpg"
       }
@@ -632,13 +652,23 @@
         "url": "https://11fountains.nl/fonteinen/dokkum/",
         "provider": "11fountains · officiële projectinformatie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://11fountains.nl/fonteinen/dokkum/",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "latitude",
+          "longitude",
+          "coordinate_precision"
+        ]
       }
     ],
     "summary": "IJs vormt veranderende patronen op een koperen oppervlak. Zon, wind en temperatuur bepalen mee hoe de fontein eruitziet. Leemeijer maakt van het weer een actieve medemaker van het kunstwerk.",
     "category": "openbare-kunst",
-    "latitude": 53.32713338,
+    "latitude": 53.3271294,
     "province": "Friesland",
-    "longitude": 5.99751175,
+    "longitude": 5.998099,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
@@ -647,9 +677,9 @@
     "street_address": "Markt 28",
     "operating_status": "open",
     "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-50bdefe0be1bf5defccaeb00e14834e0",
+    "coordinate_source": "https://11fountains.nl/fonteinen/dokkum/",
     "publication_status": "published",
-    "coordinate_precision": "address"
+    "coordinate_precision": "exact"
   },
   {
     "id": "516d449c-0aa6-5230-aac7-bf708a766e16",
@@ -669,8 +699,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Mannes_2021.jpg/1280px-Mannes_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Mannes — Mannes 2021",
         "credit": "Richard Broekhuijzen",
+        "caption": "Mannes — Mannes 2021",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Mannes_2021.jpg"
       }
@@ -841,8 +871,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Vlissingen_kunstwerk_badende_beelden.jpg/1280px-Vlissingen_kunstwerk_badende_beelden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Badende Beelden — Vlissingen kunstwerk badende beelden",
         "credit": "Wikifrits",
+        "caption": "Badende Beelden — Vlissingen kunstwerk badende beelden",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Vlissingen_kunstwerk_badende_beelden.jpg"
       }
@@ -1096,8 +1126,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/WilhelminaTheHague.jpg/1280px-WilhelminaTheHague.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Monument Koningin Wilhelmina — WilhelminaTheHague",
         "credit": "Vysotsky",
+        "caption": "Monument Koningin Wilhelmina — WilhelminaTheHague",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:WilhelminaTheHague.jpg"
       }
@@ -1183,8 +1213,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Rotterdam_kunstwerk_de_vlecht.jpg/1280px-Rotterdam_kunstwerk_de_vlecht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "De vlecht — Rotterdam kunstwerk de vlecht",
         "credit": "Wikifrits",
+        "caption": "De vlecht — Rotterdam kunstwerk de vlecht",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Rotterdam_kunstwerk_de_vlecht.jpg"
       }
@@ -1230,8 +1260,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/20190529_Rikka-fontein1_door_Shinji_Ohmaki_IJlst.jpg/1280px-20190529_Rikka-fontein1_door_Shinji_Ohmaki_IJlst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Onsterfelijke Bloemen – Rikka — 20190529 Rikka-fontein1 door Shinji Ohmaki IJlst",
         "credit": "Gouwenaar",
+        "caption": "Onsterfelijke Bloemen – Rikka — 20190529 Rikka-fontein1 door Shinji Ohmaki IJlst",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:20190529_Rikka-fontein1_door_Shinji_Ohmaki_IJlst.jpg"
       }
@@ -1243,13 +1273,23 @@
         "url": "https://11fountains.nl/fonteinen/ijlst/",
         "provider": "11fountains · officiële projectinformatie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://11fountains.nl/fonteinen/ijlst/",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "latitude",
+          "longitude",
+          "coordinate_precision"
+        ]
       }
     ],
     "summary": "Een kleurrijke stapeling van bloemen verbindt natuur, ambacht en herinnering. Shinji Ohmaki verwijst naar Friese planten en het ontstaan van IJlst. Ontdek hoe oude motieven een nieuwe, levendige vorm krijgen.",
     "category": "openbare-kunst",
-    "latitude": 53.01081306,
+    "latitude": 53.0121985,
     "province": "Friesland",
-    "longitude": 5.62615205,
+    "longitude": 5.6265632,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
@@ -1258,9 +1298,9 @@
     "street_address": "De Dassenboarch",
     "operating_status": "open",
     "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=weg-080395c57ae998dfac73976f28d6d4f0",
+    "coordinate_source": "https://11fountains.nl/fonteinen/ijlst/",
     "publication_status": "published",
-    "coordinate_precision": "street"
+    "coordinate_precision": "exact"
   },
   {
     "id": "6e40b6c1-36e4-5ad5-b158-79e43441d39b",
@@ -1277,8 +1317,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Herrijzend_Rotterdam_by_Mari_Andriessen_%28Rotterdam%29.jpg/1280px-Herrijzend_Rotterdam_by_Mari_Andriessen_%28Rotterdam%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Monument voor alle gevallenen 1940–1945 — Herrijzend Rotterdam by Mari Andriessen (Rotterdam)",
         "credit": "Thomas Dahlstrøm Nielsen",
+        "caption": "Monument voor alle gevallenen 1940–1945 — Herrijzend Rotterdam by Mari Andriessen (Rotterdam)",
         "license": "CC BY 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Herrijzend_Rotterdam_by_Mari_Andriessen_(Rotterdam).jpg"
       }
@@ -1324,8 +1364,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Moments_Contained_-_Thomas_J._Price_1_%28cropped%29.jpg/1280px-Moments_Contained_-_Thomas_J._Price_1_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Moments Contained — Moments Contained - Thomas J. Price 1 (cropped)",
         "credit": "Renée Kools",
+        "caption": "Moments Contained — Moments Contained - Thomas J. Price 1 (cropped)",
         "license": "CC BY 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Moments_Contained_-_Thomas_J._Price_1_(cropped).jpg"
       }
@@ -1408,8 +1448,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Iedereen_is_dood_behalve_wij_%282020%29_by_Ben_Zegers_%2850978609723%29.jpg/1280px-Iedereen_is_dood_behalve_wij_%282020%29_by_Ben_Zegers_%2850978609723%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Iedereen is dood behalve wij — Iedereen is dood behalve wij (2020) by Ben Zegers (50978609723)",
         "credit": "Sandra Fauconnier from Rotterdam, Netherlands",
+        "caption": "Iedereen is dood behalve wij — Iedereen is dood behalve wij (2020) by Ben Zegers (50978609723)",
         "license": "CC BY 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Iedereen_is_dood_behalve_wij_(2020)_by_Ben_Zegers_(50978609723).jpg"
       }
@@ -1608,8 +1648,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Aim%C3%A9e_Zito_Lema_-_Eerbetoon_gastarbeiders%2C_Majellapark%2C_Utrecht%2C_2024_-_1.jpg/1280px-Aim%C3%A9e_Zito_Lema_-_Eerbetoon_gastarbeiders%2C_Majellapark%2C_Utrecht%2C_2024_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Eerbetoon Gastarbeiders — Aimée Zito Lema - Eerbetoon gastarbeiders, Majellapark, Utrecht, 2024 - 1",
         "credit": "Hansmuller",
+        "caption": "Eerbetoon Gastarbeiders — Aimée Zito Lema - Eerbetoon gastarbeiders, Majellapark, Utrecht, 2024 - 1",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Aim%C3%A9e_Zito_Lema_-_Eerbetoon_gastarbeiders,_Majellapark,_Utrecht,_2024_-_1.jpg"
       }
@@ -1693,8 +1733,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Groningen_%28stad%29%2C_Peerd_van_Ome_Loeks._13-06-2022._%28actm.%29_01.jpg/1280px-Groningen_%28stad%29%2C_Peerd_van_Ome_Loeks._13-06-2022._%28actm.%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Het Peerd van Ome Loeks — Groningen (stad), Peerd van Ome Loeks. 13-06-2022. (actm.) 01",
         "credit": "Agnes Monkelbaan",
+        "caption": "Het Peerd van Ome Loeks — Groningen (stad), Peerd van Ome Loeks. 13-06-2022. (actm.) 01",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Groningen_(stad),_Peerd_van_Ome_Loeks._13-06-2022._(actm.)_01.jpg"
       }
@@ -1739,8 +1779,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Groningen_Giny_Vos_01.JPG/1280px-Groningen_Giny_Vos_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Second Thought — Groningen Giny Vos 01",
         "credit": "Gerardus",
+        "caption": "Second Thought — Groningen Giny Vos 01",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Groningen_Giny_Vos_01.JPG"
       }
@@ -1785,8 +1825,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Dragers_van_verre_%281%29.jpg/1280px-Dragers_van_verre_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Dragers van verre — Dragers van verre (1)",
         "credit": "Ceescamel",
+        "caption": "Dragers van verre — Dragers van verre (1)",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Dragers_van_verre_(1).jpg"
       }
@@ -1870,8 +1910,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Riff%2C_PD-18245.jpg/1280px-Riff%2C_PD-18245.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Riff, PD#18245 — Riff, PD-18245",
         "credit": "Idisto",
+        "caption": "Riff, PD#18245 — Riff, PD-18245",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Riff,_PD-18245.jpg"
       }
@@ -1917,8 +1957,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/20190627_Fontein_Kievit_Sloten_Lucy_en_Jorge_Orta.jpg/1280px-20190627_Fontein_Kievit_Sloten_Lucy_en_Jorge_Orta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kievit — 20190627 Fontein Kievit Sloten Lucy en Jorge Orta",
         "credit": "Gouwenaar",
+        "caption": "Kievit — 20190627 Fontein Kievit Sloten Lucy en Jorge Orta",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:20190627_Fontein_Kievit_Sloten_Lucy_en_Jorge_Orta.jpg"
       }
@@ -1930,13 +1970,23 @@
         "url": "https://11fountains.nl/fonteinen/sloten/",
         "provider": "11fountains · officiële projectinformatie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://11fountains.nl/fonteinen/sloten/",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "latitude",
+          "longitude",
+          "coordinate_precision"
+        ]
       }
     ],
     "summary": "Een meisje, een man en een vogel balanceren boven emmers en teilen. Het stromende water verbindt het menselijke verhaal met een kostbare levensbron. Een speels beeld dat ook vragen stelt over kwetsbaarheid en zorg.",
     "category": "openbare-kunst",
-    "latitude": 52.90421296,
+    "latitude": 52.8952486,
     "province": "Friesland",
-    "longitude": 5.64223465,
+    "longitude": 5.6463618,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
@@ -1945,9 +1995,9 @@
     "street_address": "G.G. van der Walplein / Koestraat",
     "operating_status": "open",
     "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-c8eae9a6e40c5dc43b0a607ec34290b7",
+    "coordinate_source": "https://11fountains.nl/fonteinen/sloten/",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "exact"
   },
   {
     "id": "5f059e48-d495-5567-b589-d784305deb65",
@@ -1964,8 +2014,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/20190806_de_woeste_leeuwen_van_Workum1_door_Cornelia_Parker_Workum.jpg/1280px-20190806_de_woeste_leeuwen_van_Workum1_door_Cornelia_Parker_Workum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "De Woeste Leeuwen van Workum — 20190806 de woeste leeuwen van Workum1 door Cornelia Parker Workum",
         "credit": "Gouwenaar",
+        "caption": "De Woeste Leeuwen van Workum — 20190806 de woeste leeuwen van Workum1 door Cornelia Parker Workum",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:20190806_de_woeste_leeuwen_van_Workum1_door_Cornelia_Parker_Workum.jpg"
       }
@@ -1977,13 +2027,23 @@
         "url": "https://11fountains.nl/fonteinen/workum/",
         "provider": "11fountains · officiële projectinformatie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://11fountains.nl/fonteinen/workum/",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "latitude",
+          "longitude",
+          "coordinate_precision"
+        ]
       }
     ],
     "summary": "Twee leeuwen stappen als het ware uit het stadswapen de stad in. Op grote schaal krijgen hun houdingen iets theatraals. Cornelia Parker maakt van een historisch motief een verrassende ontmoeting op straat.",
     "category": "openbare-kunst",
-    "latitude": 52.97476196,
+    "latitude": 52.9784475,
     "province": "Friesland",
-    "longitude": 5.40091456,
+    "longitude": 5.4446187,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
@@ -1992,9 +2052,9 @@
     "street_address": "Grasveld bij de passantenhaven",
     "operating_status": "open",
     "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-a901211b6e8f9fbf691a52125a016ef9",
+    "coordinate_source": "https://11fountains.nl/fonteinen/workum/",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "exact"
   },
   {
     "id": "a13f7085-81cb-5016-bc67-4a9656ab6bd8",
@@ -2011,8 +2071,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/20190717_Fontein3_Flora_en_Fauna_door_Shen_Yuan_in_Hindeloopen.jpg/1280px-20190717_Fontein3_Flora_en_Fauna_door_Shen_Yuan_in_Hindeloopen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Flora & Fauna — 20190717 Fontein3 Flora en Fauna door Shen Yuan in Hindeloopen",
         "credit": "Gouwenaar",
+        "caption": "Flora & Fauna — 20190717 Fontein3 Flora en Fauna door Shen Yuan in Hindeloopen",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:20190717_Fontein3_Flora_en_Fauna_door_Shen_Yuan_in_Hindeloopen.jpg"
       }
@@ -2024,13 +2084,23 @@
         "url": "https://11fountains.nl/fonteinen/hindeloopen/",
         "provider": "11fountains · officiële projectinformatie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://11fountains.nl/fonteinen/hindeloopen/",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "latitude",
+          "longitude",
+          "coordinate_precision"
+        ]
       }
     ],
     "summary": "Een levensboom, vogels en de beeldtaal van Hindeloopen vormen samen een fantasierijke fontein. Kijk hoe Shen Yuan lokale tradities verbindt met haar eigen artistieke wereld.",
     "category": "openbare-kunst",
-    "latitude": 52.94260996,
+    "latitude": 52.9429181,
     "province": "Friesland",
-    "longitude": 5.39954527,
+    "longitude": 5.3994071,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
@@ -2039,9 +2109,9 @@
     "street_address": "Nieuweweg 1",
     "operating_status": "open",
     "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-55bb1b8b029c729a410cd2b406de4107",
+    "coordinate_source": "https://11fountains.nl/fonteinen/hindeloopen/",
     "publication_status": "published",
-    "coordinate_precision": "address"
+    "coordinate_precision": "exact"
   },
   {
     "id": "7e2e546b-d5de-55dd-9667-da25104ad7e2",
@@ -2058,8 +2128,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/20180828_De_fontein_van_Fortuna3_door_Stephan_Balkenhol_Sneek.jpg/1280px-20180828_De_fontein_van_Fortuna3_door_Stephan_Balkenhol_Sneek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "De Fontein van Fortuna — 20180828 De fontein van Fortuna3 door Stephan Balkenhol Sneek",
         "credit": "Gouwenaar",
+        "caption": "De Fontein van Fortuna — 20180828 De fontein van Fortuna3 door Stephan Balkenhol Sneek",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:20180828_De_fontein_van_Fortuna3_door_Stephan_Balkenhol_Sneek.jpg"
       }
@@ -2071,13 +2141,23 @@
         "url": "https://11fountains.nl/fonteinen/sneek/",
         "provider": "11fountains · officiële projectinformatie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://11fountains.nl/fonteinen/sneek/",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "latitude",
+          "longitude",
+          "coordinate_precision"
+        ]
       }
     ],
     "summary": "Een man op een gouden bol draagt een hoorn van overvloed. Het water verwijst naar geluk en welvaart, maar roept ook vragen op over hun veranderlijkheid. Bekijk hoe de figuur zich in het stadsbeeld staande houdt.",
     "category": "openbare-kunst",
-    "latitude": 53.02942636,
+    "latitude": 53.02955,
     "province": "Friesland",
-    "longitude": 5.66022201,
+    "longitude": 5.660317,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
@@ -2086,9 +2166,9 @@
     "street_address": "Hoogend",
     "operating_status": "open",
     "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=weg-24e98ba26b0be6c2b5efaac4f1855278",
+    "coordinate_source": "https://11fountains.nl/fonteinen/sneek/",
     "publication_status": "published",
-    "coordinate_precision": "street"
+    "coordinate_precision": "exact"
   },
   {
     "id": "bad119a8-6a2e-58d0-974e-d1134e2b8a21",
@@ -2110,13 +2190,23 @@
         "url": "https://11fountains.nl/fonteinen/bolsward/",
         "provider": "11fountains · officiële projectinformatie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://11fountains.nl/fonteinen/bolsward/",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "latitude",
+          "longitude",
+          "coordinate_precision"
+        ]
       }
     ],
     "summary": "Voor de Broerekerk spreidt een monumentale vleermuis zijn vormen uit. Het dier roept tegelijk verwondering en ongemak op. Johan Creten maakt van een vaak verborgen nachtdier een opvallend middelpunt.",
     "category": "openbare-kunst",
-    "latitude": 53.06189258,
+    "latitude": 53.0620112,
     "province": "Friesland",
-    "longitude": 5.52531046,
+    "longitude": 5.5250337,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
@@ -2125,9 +2215,9 @@
     "street_address": "Broereplein 9",
     "operating_status": "open",
     "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-e10354ff594ba316080dde409f960fb8",
+    "coordinate_source": "https://11fountains.nl/fonteinen/bolsward/",
     "publication_status": "published",
-    "coordinate_precision": "address"
+    "coordinate_precision": "exact"
   },
   {
     "id": "0bfeb0bb-b663-5a32-b781-6c6d9230d1d7",
@@ -2144,8 +2234,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Franeker._De_Oortwolk_fontein._03-08-2021._%28actm%29_01.jpg/1280px-Franeker._De_Oortwolk_fontein._03-08-2021._%28actm%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "De Oortwolk — Franeker. De Oortwolk fontein. 03-08-2021. (actm) 01",
         "credit": "Agnes Monkelbaan",
+        "caption": "De Oortwolk — Franeker. De Oortwolk fontein. 03-08-2021. (actm) 01",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Franeker._De_Oortwolk_fontein._03-08-2021._(actm)_01.jpg"
       }
@@ -2157,13 +2247,23 @@
         "url": "https://11fountains.nl/fonteinen/franeker/",
         "provider": "11fountains · officiële projectinformatie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://11fountains.nl/fonteinen/franeker/",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "latitude",
+          "longitude",
+          "coordinate_precision"
+        ]
       }
     ],
     "summary": "Water en glanzende vormen brengen een ode aan astronoom Jan Hendrik Oort. Ontdek hoe Othoniel een onzichtbaar verschijnsel uit de ruimte vertaalt naar een tastbare fontein in het hart van Franeker.",
     "category": "openbare-kunst",
-    "latitude": 53.18340776,
+    "latitude": 53.1864413,
     "province": "Friesland",
-    "longitude": 5.54660593,
+    "longitude": 5.5444114,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
@@ -2172,9 +2272,9 @@
     "street_address": "Breedeplaats, bij de Martinikerk",
     "operating_status": "open",
     "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-ea808304e50fb96d3bf893db1255cf4e",
+    "coordinate_source": "https://11fountains.nl/fonteinen/franeker/",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "exact"
   },
   {
     "id": "0b88d7ba-4ce0-59e6-aedc-adc901d938d6",
@@ -2196,13 +2296,23 @@
         "url": "https://11fountains.nl/fonteinen/stavoren/",
         "provider": "11fountains · officiële projectinformatie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://11fountains.nl/fonteinen/stavoren/",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "latitude",
+          "longitude",
+          "coordinate_precision"
+        ]
       }
     ],
     "summary": "Een enorme vis opent zijn bek in de havenstad. Mark Dion verbindt de maritieme geschiedenis met fantasie en verwondering. Bekijk hoe het beeld de verhouding tussen mens, zee en rijkdom op scherp zet.",
     "category": "openbare-kunst",
-    "latitude": 52.88721813,
+    "latitude": 52.886306408156,
     "province": "Friesland",
-    "longitude": 5.36751905,
+    "longitude": 5.3581523895264,
     "museum_id": null,
     "starts_on": null,
     "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
@@ -2211,9 +2321,9 @@
     "street_address": "Stationsweg",
     "operating_status": "open",
     "selection_reason": "Onderdeel van het door Anna Tilroe samengestelde internationale kunstproject 11fountains voor Leeuwarden-Fryslân 2018. Geselecteerd als samenhangende reeks waarin een internationale kunstenaar een plaatselijk verhaal in een publieke fontein vertaalt.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=weg-fcee5cc6300527e5b16ada2dc0bef8a9",
+    "coordinate_source": "https://11fountains.nl/fonteinen/stavoren/",
     "publication_status": "published",
-    "coordinate_precision": "street"
+    "coordinate_precision": "exact"
   },
   {
     "id": "e1b50d60-8392-5efb-9b61-967abd4e1da1",
@@ -2232,8 +2342,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Venlo%2C_Twee_Wachters_%28ontworpen_door_Shinkichi_Tajiri%29_bij_de_Maasbrug_naar_Blerick_IMG_0118_2018-02-18_10.13.jpg/1280px-Venlo%2C_Twee_Wachters_%28ontworpen_door_Shinkichi_Tajiri%29_bij_de_Maasbrug_naar_Blerick_IMG_0118_2018-02-18_10.13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "De Wachters — Venlo, Twee Wachters (ontworpen door Shinkichi Tajiri) bij de Maasbrug naar Blerick IMG 0118 2018-02-18 10.13",
         "credit": "Michielverbeek",
+        "caption": "De Wachters — Venlo, Twee Wachters (ontworpen door Shinkichi Tajiri) bij de Maasbrug naar Blerick IMG 0118 2018-02-18 10.13",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Venlo,_Twee_Wachters_(ontworpen_door_Shinkichi_Tajiri)_bij_de_Maasbrug_naar_Blerick_IMG_0118_2018-02-18_10.13.jpg"
       }
@@ -2280,8 +2390,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Feestaardvark.JPG/1280px-Feestaardvark.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Het Feestaardvarken — Feestaardvark",
         "credit": "Pimvantend",
+        "caption": "Het Feestaardvarken — Feestaardvark",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Feestaardvark.JPG"
       }
@@ -2375,8 +2485,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Amsterdam_Rokin_Fontein_hnapel_01.jpg/1280px-Amsterdam_Rokin_Fontein_hnapel_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Rokinfontein — Amsterdam Rokin Fontein hnapel 01",
         "credit": "Hnapel",
+        "caption": "Rokinfontein — Amsterdam Rokin Fontein hnapel 01",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Rokin_Fontein_hnapel_01.jpg"
       }
@@ -2424,8 +2534,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/2020_Tulpen_palepai_I_%281%29.jpg/1280px-2020_Tulpen_palepai_I_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Tulip Palepai, navigating the river of the world — 2020 Tulpen palepai I (1)",
         "credit": "Ceescamel",
+        "caption": "Tulip Palepai, navigating the river of the world — 2020 Tulpen palepai I (1)",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:2020_Tulpen_palepai_I_(1).jpg"
       }
@@ -2473,8 +2583,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Arrivals-departures-_Marcus_Coates.jpeg/1280px-Arrivals-departures-_Marcus_Coates.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Arrivals / Departures — Arrivals-departures- Marcus Coates",
         "credit": "Ymnes (talk)",
+        "caption": "Arrivals / Departures — Arrivals-departures- Marcus Coates",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Arrivals-departures-_Marcus_Coates.jpeg"
       }
@@ -2522,8 +2632,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Stadhuis_Deventer_nieuw.jpg/1280px-Stadhuis_Deventer_nieuw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Deventer raamwerk — Stadhuis Deventer nieuw",
         "credit": "Marion Golsteijn",
+        "caption": "Deventer raamwerk — Stadhuis Deventer nieuw",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Stadhuis_Deventer_nieuw.jpg"
       }
@@ -2612,8 +2722,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/2023_Yellow_wings-Loes_van_der_Horst%2C_Asd-ZO_%28A%29.jpg/1280px-2023_Yellow_wings-Loes_van_der_Horst%2C_Asd-ZO_%28A%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Yellow Wings — 2023 Yellow wings-Loes van der Horst, Asd-ZO (A)",
         "credit": "Ceescamel",
+        "caption": "Yellow Wings — 2023 Yellow wings-Loes van der Horst, Asd-ZO (A)",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:2023_Yellow_wings-Loes_van_der_Horst,_Asd-ZO_(A).jpg"
       }
@@ -2702,8 +2812,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Kapkar-BB-N24_Beacon1_Fire_Department_Frank_Havermans_Borger.jpg/1280px-Kapkar-BB-N24_Beacon1_Fire_Department_Frank_Havermans_Borger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Kapkar/BB-N34 — Kapkar-BB-N24 Beacon1 Fire Department Frank Havermans Borger",
         "credit": "Gouwenaar",
+        "caption": "Kapkar/BB-N34 — Kapkar-BB-N24 Beacon1 Fire Department Frank Havermans Borger",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Kapkar-BB-N24_Beacon1_Fire_Department_Frank_Havermans_Borger.jpg"
       }
@@ -2751,8 +2861,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Rotterdam_kunstwerk_slavernij_monument.jpg/1280px-Rotterdam_kunstwerk_slavernij_monument.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Slavernijmonument Clave — Rotterdam kunstwerk slavernij monument",
         "credit": "Wikifrits",
+        "caption": "Slavernijmonument Clave — Rotterdam kunstwerk slavernij monument",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Rotterdam_kunstwerk_slavernij_monument.jpg"
       }
@@ -2841,8 +2951,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Velden_van_nevel_Hoogeveen_beeld1a.jpg/1280px-Velden_van_nevel_Hoogeveen_beeld1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Velden van Nevel — Velden van nevel Hoogeveen beeld1a",
         "credit": "Gouwenaar",
+        "caption": "Velden van Nevel — Velden van nevel Hoogeveen beeld1a",
         "license": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:Velden_van_nevel_Hoogeveen_beeld1a.jpg"
       }
@@ -2890,8 +3000,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Exposure_%28%27De_hurkende_man%27%29_Lelystad._07-03-2022._%28actm.%29_01.jpg/1280px-Exposure_%28%27De_hurkende_man%27%29_Lelystad._07-03-2022._%28actm.%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Exposure — Exposure ('De hurkende man') Lelystad. 07-03-2022. (actm.) 01",
         "credit": "Agnes Monkelbaan",
+        "caption": "Exposure — Exposure ('De hurkende man') Lelystad. 07-03-2022. (actm.) 01",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Exposure_(%27De_hurkende_man%27)_Lelystad._07-03-2022._(actm.)_01.jpg"
       }
@@ -2939,8 +3049,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Under_Heaven_02_%281%29.jpg/1280px-Under_Heaven_02_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Under Heaven 02 — Under Heaven 02 (1)",
         "credit": "Ceescamel",
+        "caption": "Under Heaven 02 — Under Heaven 02 (1)",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Under_Heaven_02_(1).jpg"
       }
@@ -3070,8 +3180,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Reizend_Zand_in_Apeldoorn_v1.jpg/1280px-Reizend_Zand_in_Apeldoorn_v1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Reizend zand — Reizend Zand in Apeldoorn v1",
         "credit": "Rudolphous",
+        "caption": "Reizend zand — Reizend Zand in Apeldoorn v1",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Reizend_Zand_in_Apeldoorn_v1.jpg"
       }
@@ -3119,8 +3229,8 @@
     "photos": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/John_K%C3%B6rmeling_-_Draaiend_huis_-_Tilburg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Draaiend Huis — John Körmeling - Draaiend huis - Tilburg",
         "credit": "Universiteitskrant Univers",
+        "caption": "Draaiend Huis — John Körmeling - Draaiend huis - Tilburg",
         "license": "CC BY 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:John_K%C3%B6rmeling_-_Draaiend_huis_-_Tilburg.jpg"
       }
@@ -3167,8 +3277,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Boomsieraad_-_Maria_Roosen_%28Apeldoorn%29.jpg/1280px-Boomsieraad_-_Maria_Roosen_%28Apeldoorn%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Boomsieraad (borstlulkont) — Boomsieraad - Maria Roosen (Apeldoorn)",
         "credit": "Erik Wannee",
+        "caption": "Boomsieraad (borstlulkont) — Boomsieraad - Maria Roosen (Apeldoorn)",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Boomsieraad_-_Maria_Roosen_(Apeldoorn).jpg"
       }
@@ -3216,8 +3326,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Cage-With-No-Puma-In-It.jpg/1280px-Cage-With-No-Puma-In-It.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Cage With No Puma In It — Cage-With-No-Puma-In-It",
         "credit": "Maarten de Reus (artist) / Apdency (photographer) - revisie Erik Wannee",
+        "caption": "Cage With No Puma In It — Cage-With-No-Puma-In-It",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Cage-With-No-Puma-In-It.jpg"
       }
@@ -3265,8 +3375,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Adam_Rodin_Zwolle_Call-Me_Arnoud_Holleman.jpg/1280px-Adam_Rodin_Zwolle_Call-Me_Arnoud_Holleman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Call me — Adam Rodin Zwolle Call-Me Arnoud Holleman",
         "credit": "Brbbl",
+        "caption": "Call me — Adam Rodin Zwolle Call-Me Arnoud Holleman",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Adam_Rodin_Zwolle_Call-Me_Arnoud_Holleman.jpg"
       }
@@ -3314,8 +3424,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Beeld_voor_Anton_de_Kom%28plein%29_Amsterdam_Zuidoost.jpg/1280px-Beeld_voor_Anton_de_Kom%28plein%29_Amsterdam_Zuidoost.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Anton de Kom Monument — Beeld voor Anton de Kom(plein) Amsterdam Zuidoost",
         "credit": "Richardkiwi",
+        "caption": "Anton de Kom Monument — Beeld voor Anton de Kom(plein) Amsterdam Zuidoost",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Beeld_voor_Anton_de_Kom(plein)_Amsterdam_Zuidoost.jpg"
       }
@@ -3404,8 +3514,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/UFO_air_strip_%2829646824180%29.jpg/1280px-UFO_air_strip_%2829646824180%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Landingsbaan voor Buitenaardse Culturen — UFO air strip (29646824180)",
         "credit": "Jeroen Komen from Utrecht, Netherlands",
+        "caption": "Landingsbaan voor Buitenaardse Culturen — UFO air strip (29646824180)",
         "license": "CC BY-SA 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:UFO_air_strip_(29646824180).jpg"
       }
@@ -3494,8 +3604,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Slavernij_monument_oosterpark.jpg/1280px-Slavernij_monument_oosterpark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Nationaal Monument Slavernijverleden — Slavernij monument oosterpark",
         "credit": "Arthena",
+        "caption": "Nationaal Monument Slavernijverleden — Slavernij monument oosterpark",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Slavernij_monument_oosterpark.jpg"
       }
@@ -3543,8 +3653,8 @@
     "photos": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Zuil_van_Lely%2C_top.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "De Zuil van Lely — Zuil van Lely, top",
         "credit": "Apdency",
+        "caption": "De Zuil van Lely — Zuil van Lely, top",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Zuil_van_Lely,_top.jpg"
       }
@@ -3591,9 +3701,9 @@
     "year": "2002",
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Utrecht_Thinker_On_A_Rock_%282002%29%2C_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Thinker on rock — Utrecht Thinker On A Rock (2002), 2",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Utrecht_Thinker_On_A_Rock_%282002%29%2C_2.jpg/330px-Utrecht_Thinker_On_A_Rock_%282002%29%2C_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "credit": "FaceMePLS from The Hague, the Netherlands; cropped by Jan Kameníček (talk)",
+        "caption": "Thinker on rock — Utrecht Thinker On A Rock (2002), 2",
         "license": "CC BY 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Utrecht_Thinker_On_A_Rock_(2002),_2.jpg"
       }
@@ -3764,8 +3874,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Eindhoven_-_Flying_Pins.jpg/1280px-Eindhoven_-_Flying_Pins.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Flying Pins — Eindhoven - Flying Pins",
         "credit": "Ana Rey",
+        "caption": "Flying Pins — Eindhoven - Flying Pins",
         "license": "CC BY-SA 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Eindhoven_-_Flying_Pins.jpg"
       }
@@ -3854,8 +3964,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/20131007_Zwevende_kei1_door_Bas_Maters_Dalfsen.jpg/1280px-20131007_Zwevende_kei1_door_Bas_Maters_Dalfsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Zwevende steen — 20131007 Zwevende kei1 door Bas Maters Dalfsen",
         "credit": "Gouwenaar",
+        "caption": "Zwevende steen — 20131007 Zwevende kei1 door Bas Maters Dalfsen",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:20131007_Zwevende_kei1_door_Bas_Maters_Dalfsen.jpg"
       }
@@ -3903,8 +4013,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Fallen_20220205_115923b.jpg/1280px-Fallen_20220205_115923b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Fallen — Fallen 20220205 115923b",
         "credit": "GeeJee",
+        "caption": "Fallen — Fallen 20220205 115923b",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Fallen_20220205_115923b.jpg"
       }
@@ -3992,8 +4102,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Olifanten_-_Knooppunt_Almere.jpg/1280px-Olifanten_-_Knooppunt_Almere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "De Olifanten — Olifanten - Knooppunt Almere",
         "credit": "Michiel1972",
+        "caption": "De Olifanten — Olifanten - Knooppunt Almere",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Olifanten_-_Knooppunt_Almere.jpg"
       }
@@ -4041,8 +4151,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Voorzijde_met_kunstwerk_%27De_UFO%27_-_Utrecht_-_20350262_-_RCE.jpg/1280px-Voorzijde_met_kunstwerk_%27De_UFO%27_-_Utrecht_-_20350262_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "UFO Zover — historische opname — Voorzijde met kunstwerk 'De UFO' - Utrecht - 20350262 - RCE",
         "credit": "A. J. van der Wal",
+        "caption": "UFO Zover — historische opname — Voorzijde met kunstwerk 'De UFO' - Utrecht - 20350262 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Voorzijde_met_kunstwerk_%27De_UFO%27_-_Utrecht_-_20350262_-_RCE.jpg"
       }
@@ -4253,8 +4363,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Lochem%2C_kunstwerk_het_Labyrinth_van_Shlomo_Koren_IMG_5632_2020-05-31_07.53.jpg/1280px-Lochem%2C_kunstwerk_het_Labyrinth_van_Shlomo_Koren_IMG_5632_2020-05-31_07.53.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Energy — Lochem, kunstwerk het Labyrinth van Shlomo Koren IMG 5632 2020-05-31 07.53",
         "credit": "Michielverbeek",
+        "caption": "Energy — Lochem, kunstwerk het Labyrinth van Shlomo Koren IMG 5632 2020-05-31 07.53",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Lochem,_kunstwerk_het_Labyrinth_van_Shlomo_Koren_IMG_5632_2020-05-31_07.53.jpg"
       }
@@ -4302,8 +4412,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Overzicht_kiosk_met_lantaarn_en_pompeiland._Dit_kunstwerk_ligt_tussen_Lunteren_en_Barneveld_langs_de_A30_-_Lunteren_-_20332908_-_RCE.jpg/1280px-Overzicht_kiosk_met_lantaarn_en_pompeiland._Dit_kunstwerk_ligt_tussen_Lunteren_en_Barneveld_langs_de_A30_-_Lunteren_-_20332908_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Monument voor de Benzinepomp — historische opname — Overzicht kiosk met lantaarn en pompeiland. Dit kunstwerk ligt tussen Lunteren en Barneveld langs de A30 - Lunteren - 20332908 - RCE",
         "credit": "IJsbrand Heins",
+        "caption": "Monument voor de Benzinepomp — historische opname — Overzicht kiosk met lantaarn en pompeiland. Dit kunstwerk ligt tussen Lunteren en Barneveld langs de A30 - Lunteren - 20332908 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_kiosk_met_lantaarn_en_pompeiland._Dit_kunstwerk_ligt_tussen_Lunteren_en_Barneveld_langs_de_A30_-_Lunteren_-_20332908_-_RCE.jpg"
       }
@@ -4391,8 +4501,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Botanische_geluidswal.jpg/1280px-Botanische_geluidswal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Botanische geluidswal — Botanische geluidswal",
         "credit": "Spinster",
+        "caption": "Botanische geluidswal — Botanische geluidswal",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Botanische_geluidswal.jpg"
       }
@@ -4440,8 +4550,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Rotterdam_kunstwerk_Melly_Shum_hates_her_job.jpg/1280px-Rotterdam_kunstwerk_Melly_Shum_hates_her_job.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Melly Shum hates her job — Rotterdam kunstwerk Melly Shum hates her job",
         "credit": "Wikifrits",
+        "caption": "Melly Shum hates her job — Rotterdam kunstwerk Melly Shum hates her job",
         "license": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:Rotterdam_kunstwerk_Melly_Shum_hates_her_job.jpg"
       }
@@ -4489,8 +4599,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/2020_Boomzagertje_%281%29.jpg/1280px-2020_Boomzagertje_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Boomzagertje — 2020 Boomzagertje (1)",
         "credit": "Ceescamel",
+        "caption": "Boomzagertje — 2020 Boomzagertje (1)",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:2020_Boomzagertje_(1).jpg"
       }
@@ -4538,8 +4648,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Amsterdam_Homomonument_01.jpg/1280px-Amsterdam_Homomonument_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Homomonument — Amsterdam Homomonument 01",
         "credit": "Hnapel",
+        "caption": "Homomonument — Amsterdam Homomonument 01",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Homomonument_01.jpg"
       }
@@ -4668,8 +4778,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Maastricht-Sint_Servaas_beschut_door_adelaar_%283%29.jpg/1280px-Maastricht-Sint_Servaas_beschut_door_adelaar_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Sint Servaas beschut door adelaar — Maastricht-Sint Servaas beschut door adelaar (3)",
         "credit": "Romaine",
+        "caption": "Sint Servaas beschut door adelaar — Maastricht-Sint Servaas beschut door adelaar (3)",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Maastricht-Sint_Servaas_beschut_door_adelaar_(3).jpg"
       }
@@ -4717,8 +4827,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Torentje_Drienerlo_Wim_T_Schippers_Enschede.jpg/1280px-Torentje_Drienerlo_Wim_T_Schippers_Enschede.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Torentje van Drienerlo — Torentje Drienerlo Wim T Schippers Enschede",
         "credit": "Gouwenaar",
+        "caption": "Torentje van Drienerlo — Torentje Drienerlo Wim T Schippers Enschede",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Torentje_Drienerlo_Wim_T_Schippers_Enschede.jpg"
       }
@@ -4848,8 +4958,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Swing01.jpg/1280px-Swing01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Swing — Swing01",
         "credit": "Lempkesfabriek",
+        "caption": "Swing — Swing01",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Swing01.jpg"
       }
@@ -4938,8 +5048,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Koopvaardijmonument_in_Vlissingen.JPG/1280px-Koopvaardijmonument_in_Vlissingen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Koopvaardijmonument — Koopvaardijmonument in Vlissingen",
         "credit": "WikiJoep",
+        "caption": "Koopvaardijmonument — Koopvaardijmonument in Vlissingen",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Koopvaardijmonument_in_Vlissingen.JPG"
       }
@@ -4986,9 +5096,9 @@
     "year": "1971",
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Tegelrelief_Ad_Dekkers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "Tegelreliëf — Tegelrelief Ad Dekkers 1",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Tegelrelief_Ad_Dekkers_1.jpg/330px-Tegelrelief_Ad_Dekkers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "credit": "Henk Zeedijk",
+        "caption": "Tegelreliëf — Tegelrelief Ad Dekkers 1",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Tegelrelief_Ad_Dekkers_1.jpg"
       }
@@ -5035,8 +5145,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Emmen_Smithson.JPG/1280px-Emmen_Smithson.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Broken Circle and Spiral Hill — Emmen Smithson",
         "credit": "Gerardus",
+        "caption": "Broken Circle and Spiral Hill — Emmen Smithson",
         "license": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:Emmen_Smithson.JPG"
       }
@@ -5125,8 +5235,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Overzicht_nationaal_herdenkings_monument_van_Kamp_Westerbork_-_Hooghalen_-_20420140_-_RCE.jpg/1280px-Overzicht_nationaal_herdenkings_monument_van_Kamp_Westerbork_-_Hooghalen_-_20420140_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Nationaal Monument Westerbork — historische opname — Overzicht nationaal herdenkings monument van Kamp Westerbork - Hooghalen - 20420140 - RCE",
         "credit": "Kris Roderburg",
+        "caption": "Nationaal Monument Westerbork — historische opname — Overzicht nationaal herdenkings monument van Kamp Westerbork - Hooghalen - 20420140 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_nationaal_herdenkings_monument_van_Kamp_Westerbork_-_Hooghalen_-_20420140_-_RCE.jpg"
       }
@@ -5174,8 +5284,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Karla_Kaper_-_Betonreli%C3%ABf_-_1970_-_Metrostation_Slinge_in_Rotterdam.jpg/1280px-Karla_Kaper_-_Betonreli%C3%ABf_-_1970_-_Metrostation_Slinge_in_Rotterdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Betonreliëf — historische opname — Karla Kaper - Betonreliëf - 1970 - Metrostation Slinge in Rotterdam",
         "credit": "Sandra Fauconnier",
+        "caption": "Betonreliëf — historische opname — Karla Kaper - Betonreliëf - 1970 - Metrostation Slinge in Rotterdam",
         "license": "CC BY 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Karla_Kaper_-_Betonreli%C3%ABf_-_1970_-_Metrostation_Slinge_in_Rotterdam.jpg"
       }
@@ -5223,8 +5333,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Sculpture_Joop_Beljon_The_Hague_Koningskade.jpg/1280px-Sculpture_Joop_Beljon_The_Hague_Koningskade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Monument Rijkswaterstaat — Sculpture Joop Beljon The Hague Koningskade",
         "credit": "Steven Lek",
+        "caption": "Monument Rijkswaterstaat — Sculpture Joop Beljon The Hague Koningskade",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Sculpture_Joop_Beljon_The_Hague_Koningskade.jpg"
       }
@@ -5272,8 +5382,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Salami_by_Carel_Visser_01.jpg/1280px-Salami_by_Carel_Visser_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Salami — Salami by Carel Visser 01",
         "credit": "Sandra Fauconnier",
+        "caption": "Salami — Salami by Carel Visser 01",
         "license": "CC BY 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Salami_by_Carel_Visser_01.jpg"
       }
@@ -5321,8 +5431,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Beeld_Eemsmondgebouw_door_Jaap_van_der_Meij.jpg/1280px-Beeld_Eemsmondgebouw_door_Jaap_van_der_Meij.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Zonder titel (betonplastieken) — Beeld Eemsmondgebouw door Jaap van der Meij",
         "credit": "Gouwenaar",
+        "caption": "Zonder titel (betonplastieken) — Beeld Eemsmondgebouw door Jaap van der Meij",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Beeld_Eemsmondgebouw_door_Jaap_van_der_Meij.jpg"
       }
@@ -5369,8 +5479,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/20120726_Ecokathedraal_Mildam_Fr_NL_%281%29.jpg/1280px-20120726_Ecokathedraal_Mildam_Fr_NL_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Ecokathedraal — 20120726 Ecokathedraal Mildam Fr NL (1)",
         "credit": "Wutsje / Wikimedia Commons / CC-BY-SA 3.0",
+        "caption": "Ecokathedraal — 20120726 Ecokathedraal Mildam Fr NL (1)",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:20120726_Ecokathedraal_Mildam_Fr_NL_(1).jpg"
       }
@@ -5541,8 +5651,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Amsterdam_-_Dam_-_View_on_Nationaal_Monument_1956_John_R%C3%A4decker_%28Sculptor%29.jpg/1280px-Amsterdam_-_Dam_-_View_on_Nationaal_Monument_1956_John_R%C3%A4decker_%28Sculptor%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Nationaal Monument op de Dam — historische opname — Amsterdam - Dam - View on Nationaal Monument 1956 John Rädecker (Sculptor)",
         "credit": "Txllxt TxllxT",
+        "caption": "Nationaal Monument op de Dam — historische opname — Amsterdam - Dam - View on Nationaal Monument 1956 John Rädecker (Sculptor)",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Dam_-_View_on_Nationaal_Monument_1956_John_R%C3%A4decker_(Sculptor).jpg"
       }
@@ -5590,8 +5700,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Rotterdam_weena760.jpg/1280px-Rotterdam_weena760.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Wall Relief No.1 — Rotterdam weena760",
         "credit": "Wikifrits",
+        "caption": "Wall Relief No.1 — Rotterdam weena760",
         "license": "Public domain",
         "source_url": "https://commons.wikimedia.org/wiki/File:Rotterdam_weena760.jpg"
       }
@@ -5638,9 +5748,9 @@
     "year": "1952",
     "photos": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Exterieur_BEELD_%27DE_DOKWERKER%27_%28MARI_ANDRIESSEN%2C_1950-%2752%29_OVERZICHT_-_Amsterdam_-_20372897_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "caption": "De Dokwerker — historische opname — Exterieur BEELD 'DE DOKWERKER' (MARI ANDRIESSEN, 1950-'52) OVERZICHT - Amsterdam - 20372897 - RCE",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Exterieur_BEELD_%27DE_DOKWERKER%27_%28MARI_ANDRIESSEN%2C_1950-%2752%29_OVERZICHT_-_Amsterdam_-_20372897_-_RCE.jpg/330px-Exterieur_BEELD_%27DE_DOKWERKER%27_%28MARI_ANDRIESSEN%2C_1950-%2752%29_OVERZICHT_-_Amsterdam_-_20372897_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "credit": "Gerard Dukker",
+        "caption": "De Dokwerker — historische opname — Exterieur BEELD 'DE DOKWERKER' (MARI ANDRIESSEN, 1950-'52) OVERZICHT - Amsterdam - 20372897 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Exterieur_BEELD_%27DE_DOKWERKER%27_(MARI_ANDRIESSEN,_1950-%2752)_OVERZICHT_-_Amsterdam_-_20372897_-_RCE.jpg"
       }
@@ -5688,8 +5798,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Sculptuur-oorlogsmonument_%27De_vrouw_in_oorlogstijd%27-%27Eert_de_vrouw%27_door_Nel_Klaassen%2C_Utrechtsestraat%2C_Arnhem_%281%29.jpg/1280px-Sculptuur-oorlogsmonument_%27De_vrouw_in_oorlogstijd%27-%27Eert_de_vrouw%27_door_Nel_Klaassen%2C_Utrechtsestraat%2C_Arnhem_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Eert de vrouw — Sculptuur-oorlogsmonument 'De vrouw in oorlogstijd'-'Eert de vrouw' door Nel Klaassen, Utrechtsestraat, Arnhem (1)",
         "credit": "FakirNL",
+        "caption": "Eert de vrouw — Sculptuur-oorlogsmonument 'De vrouw in oorlogstijd'-'Eert de vrouw' door Nel Klaassen, Utrechtsestraat, Arnhem (1)",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Sculptuur-oorlogsmonument_%27De_vrouw_in_oorlogstijd%27-%27Eert_de_vrouw%27_door_Nel_Klaassen,_Utrechtsestraat,_Arnhem_(1).jpg"
       }
@@ -5737,8 +5847,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/2019-Maastricht%2C_Bevrijdingspark%2C_Limburgs_Bevrijdingsmonument.jpg/1280px-2019-Maastricht%2C_Bevrijdingspark%2C_Limburgs_Bevrijdingsmonument.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Limburgs Bevrijdingsmonument — 2019-Maastricht, Bevrijdingspark, Limburgs Bevrijdingsmonument",
         "credit": "Kleon3",
+        "caption": "Limburgs Bevrijdingsmonument — 2019-Maastricht, Bevrijdingspark, Limburgs Bevrijdingsmonument",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:2019-Maastricht,_Bevrijdingspark,_Limburgs_Bevrijdingsmonument.jpg"
       }

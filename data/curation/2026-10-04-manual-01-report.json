@@ -1,0 +1,102 @@
+{
+  "run_id": "2026-10-04-manual-01",
+  "completed_research_at": "2026-10-03T23:14:17.034456+00:00",
+  "scope": "Handmatig uitgevoerde eerste onderhoudsronde, direct aansluitend op de eerdere aanvulling. Geen claim van een verstreken week of een volledige hercontrole van alle Nederlandse kunstlocaties.",
+  "sources_policy": "Gedeelde bronnenpool voor alle huidige en toekomstige categorieën; primaire broncontrole en gemotiveerde selectie per vondst.",
+  "changes": {
+    "existing_records_updated": 20,
+    "events_added": [
+      {
+        "name": "Vivian Suter – Stone in the Pond",
+        "url": "https://www.kunsthalkade.nl/nl/tentoonstellingen/vivian-suter-in-de-elleboogkerk/",
+        "starts_on": "2026-09-26",
+        "ends_on": "2027-05-02"
+      },
+      {
+        "name": "Museum als Zonnewijzer",
+        "url": "https://www.vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/museum-als-zonnewijzer",
+        "starts_on": "2026-10-17",
+        "ends_on": "2027-02-21"
+      },
+      {
+        "name": "SANDBAG CASTLE – The future of concrete is now",
+        "url": "https://www.vanabbemuseum.nl/nl/zien-en-doen/activiteiten/sandbag-castle--the-future-of-concrete-is-now",
+        "starts_on": "2026-10-17",
+        "ends_on": "2026-10-25"
+      },
+      {
+        "name": "Eva Besnyö – De bevrijde camera",
+        "url": "https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen/de-bevrijde-camera",
+        "starts_on": "2026-09-05",
+        "ends_on": "2027-01-31"
+      },
+      {
+        "name": "Yayoi Kusama",
+        "url": "https://www.stedelijk.nl/nl/tentoonstellingen/yayoi-kusama",
+        "starts_on": "2026-09-11",
+        "ends_on": "2027-01-17"
+      },
+      {
+        "name": "Naturocene – Ways to Fall in Love with the Earth",
+        "url": "https://www.projectspaceontheinside.org/more-naturocene",
+        "starts_on": "2026-10-01",
+        "ends_on": "2027-02-14"
+      },
+      {
+        "name": "Avercamp terug in Kampen",
+        "url": "https://stedelijkmuseumkampen.nl/tentoonstellingen/avercamp/",
+        "starts_on": "2026-10-03",
+        "ends_on": "2027-01-10"
+      }
+    ],
+    "fountain_visit_points": 11,
+    "museums_improved": [
+      "Odapark",
+      "Voerman Stadsmuseum Hattem"
+    ],
+    "parks_improved": [
+      "Odapark – beeldentuin"
+    ],
+    "architecture_improved": [
+      "Nationaal Militair Museum"
+    ],
+    "photo_links_repaired": 5
+  },
+  "verification": {
+    "date": "2026-10-04",
+    "database_matches_proposal": true,
+    "public_api_matches_database": true,
+    "public_records": 726,
+    "public_events": 72,
+    "updates": 20,
+    "additions": 7,
+    "source_registry_entries": 15
+  },
+  "source_retrieval_checks": {
+    "attempted": 86,
+    "retrieved": 84,
+    "note": "Deze telling betreft opgehaalde bestaande bronpagina’s; dit is niet hetzelfde als een volledige inhoudelijke herbeoordeling. Aanvullende gerichte bronnen zijn per gewijzigde vermelding vastgelegd.",
+    "failures": [
+      {
+        "name": "Elementen – Bert Frijns",
+        "url": "https://www.nationaalglasmuseum.nl/agenda/2026/elementen/",
+        "error": "The read operation timed out"
+      },
+      {
+        "name": "Witte Rook",
+        "url": "https://www.witterook.nu",
+        "error": "HTTP Error 500: Internal Server Error"
+      }
+    ]
+  },
+  "remaining": {
+    "records_with_open_issues": 312,
+    "photos_missing": 215,
+    "note": "Naturocene heeft nog geen vrij herbruikbare foto en gebruikt voorlopig een locatie op straatniveau. Afgeschermde kranten/sociale berichten en de volledige NAi250-publicatie zijn niet als volledig gecontroleerd opgevoerd."
+  },
+  "schedule": {
+    "weekly": "maandag 09.00 Europe/Amsterdam",
+    "shared_source_registry": "data/curation/source-registry.json",
+    "automation_updated": true
+  }
+}

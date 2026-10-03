@@ -3095,5 +3095,428 @@
     "longitude": 5.961951,
     "coordinate_precision": "exact",
     "coordinate_source": "Bestaande museumcoördinaten"
+  },
+  {
+    "id": "2301a527-f7f2-501c-b11e-6fdf9cc5afb1",
+    "city": "Amersfoort",
+    "name": "Vivian Suter – Stone in the Pond",
+    "tags": [
+      "schilderkunst",
+      "installaties",
+      "abstract",
+      "kleur",
+      "natuur",
+      "hedendaagse kunst"
+    ],
+    "year": "",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Amersfoort_Elleboogkerk_1.JPG/1280px-Amersfoort_Elleboogkerk_1.JPG",
+        "credit": "Torsade de Pointes",
+        "caption": "Locatie: Elleboogkerk (geen foto van de tentoonstelling)",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Amersfoort_Elleboogkerk_1.JPG"
+      }
+    ],
+    "creator": "",
+    "ends_on": "2027-05-02",
+    "sources": [
+      {
+        "url": "https://www.kunsthalkade.nl/nl/tentoonstellingen/vivian-suter-in-de-elleboogkerk/",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "name",
+          "summary",
+          "tags",
+          "starts_on",
+          "ends_on",
+          "visit_notes"
+        ]
+      }
+    ],
+    "summary": "Dwaal tussen vrijhangende schilderijen van Vivian Suter. Kleur, licht en sporen van het tropische buitenleven komen samen in een ruimtelijke installatie. De hoge Elleboogkerk maakt van het kijken een wandeling tussen de doeken.",
+    "category": "evenementen",
+    "latitude": 52.157331,
+    "province": "Utrecht",
+    "longitude": 5.387037,
+    "museum_id": "4b4a010e-6083-5758-b0d6-4f3f2e30d155",
+    "starts_on": "2026-09-26",
+    "visit_notes": "Deze tentoonstelling is in de Elleboogkerk, Langegracht 36, en niet in het hoofdgebouw van Kunsthal KAdE aan het Eemplein. Controleer tickets en openingstijden bij KAdE.",
+    "website_url": "https://www.kunsthalkade.nl/nl/tentoonstellingen/vivian-suter-in-de-elleboogkerk/",
+    "inventory_key": "event:2026-vivian-suter-elleboogkerk",
+    "street_address": "Langegracht 36",
+    "operating_status": "open",
+    "selection_reason": "Tijdelijk kunstprogramma met inhoudelijke aansluiting op de kunstselectie, bevestigde looptijd bij de organisator en een concrete bezoeklocatie.",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "c3e46db3-c870-5438-b3de-1e8b3f1c7cc4",
+    "city": "Eindhoven",
+    "name": "Museum als Zonnewijzer",
+    "tags": [
+      "hedendaagse kunst",
+      "design",
+      "architectuur",
+      "installaties"
+    ],
+    "year": "",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Eindhoven%2C_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg/1280px-Eindhoven%2C_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg",
+        "credit": "Michielverbeek",
+        "caption": "Locatie: Van Abbemuseum (geen foto van de tentoonstelling)",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Eindhoven,_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg"
+      }
+    ],
+    "creator": "",
+    "ends_on": "2027-02-21",
+    "sources": [
+      {
+        "url": "https://www.vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/museum-als-zonnewijzer",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "name",
+          "summary",
+          "tags",
+          "starts_on",
+          "ends_on",
+          "visit_notes"
+        ]
+      },
+      {
+        "url": "https://www.vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen",
+        "provider": "Aanvullende bron / selectieaanleiding",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "starts_on",
+          "ends_on"
+        ]
+      }
+    ],
+    "summary": "Kijk hoe kunst en ontwerp je gevoel voor tijd en plaats veranderen. Het Van Abbemuseum gebruikt de zon als richtinggever en verbindt kunstenaars, archeologie en samen leren. Ook de lichtval en oorspronkelijke architectuur van het gebouw doen mee.",
+    "category": "evenementen",
+    "latitude": 51.434193,
+    "province": "Noord-Brabant",
+    "longitude": 5.48363,
+    "museum_id": "d88b798d-25af-5e7b-b615-7ed455fdf4cd",
+    "starts_on": "2026-10-17",
+    "visit_notes": "Controleer openingstijden en tickets bij de organisator.",
+    "website_url": "https://www.vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/museum-als-zonnewijzer",
+    "inventory_key": "event:2026-museum-als-zonnewijzer",
+    "street_address": "Stratumsedijk 2",
+    "operating_status": "open",
+    "selection_reason": "Tijdelijk kunstprogramma met inhoudelijke aansluiting op de kunstselectie, bevestigde looptijd bij de organisator en een concrete bezoeklocatie.",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "79d099c2-8b2f-5968-a2c9-387663e41aa1",
+    "city": "Eindhoven",
+    "name": "SANDBAG CASTLE – The future of concrete is now",
+    "tags": [
+      "hedendaagse kunst",
+      "design",
+      "installaties",
+      "architectuur",
+      "duurzaamheid"
+    ],
+    "year": "",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Eindhoven%2C_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg/1280px-Eindhoven%2C_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg",
+        "credit": "Michielverbeek",
+        "caption": "Locatie: Van Abbemuseum (geen foto van de tentoonstelling)",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Eindhoven,_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg"
+      }
+    ],
+    "creator": "",
+    "ends_on": "2026-10-25",
+    "sources": [
+      {
+        "url": "https://www.vanabbemuseum.nl/nl/zien-en-doen/activiteiten/sandbag-castle--the-future-of-concrete-is-now",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "name",
+          "summary",
+          "tags",
+          "starts_on",
+          "ends_on",
+          "visit_notes"
+        ]
+      },
+      {
+        "url": "https://www.vanabbemuseum.nl/",
+        "provider": "Aanvullende bron / selectieaanleiding",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "starts_on",
+          "ends_on"
+        ]
+      }
+    ],
+    "summary": "Wat op een kasteel van zandzakken lijkt, blijkt beton. Yvonne Mak bouwt een installatie rond bescherming tegen water en de klimaatimpact van bouwmaterialen. De ogenschijnlijk vertrouwde vorm laat je opnieuw kijken naar de materialen van de toekomst.",
+    "category": "evenementen",
+    "latitude": 51.434193,
+    "province": "Noord-Brabant",
+    "longitude": 5.48363,
+    "museum_id": "d88b798d-25af-5e7b-b615-7ed455fdf4cd",
+    "starts_on": "2026-10-17",
+    "visit_notes": "Controleer openingstijden en tickets bij de organisator.",
+    "website_url": "https://www.vanabbemuseum.nl/nl/zien-en-doen/activiteiten/sandbag-castle--the-future-of-concrete-is-now",
+    "inventory_key": "event:2026-sandbag-castle",
+    "street_address": "Stratumsedijk 2",
+    "operating_status": "open",
+    "selection_reason": "Tijdelijk kunstprogramma met inhoudelijke aansluiting op de kunstselectie, bevestigde looptijd bij de organisator en een concrete bezoeklocatie.",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "2cdc1f0f-1108-54b5-93ea-de7490270bfd",
+    "city": "Den Haag",
+    "name": "Eva Besnyö – De bevrijde camera",
+    "tags": [
+      "fotografie",
+      "moderne kunst",
+      "zwart-wit",
+      "stedelijk leven"
+    ],
+    "year": "",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Photo_Museum_The_Hague%2C_Main_entrance.jpg/1280px-Photo_Museum_The_Hague%2C_Main_entrance.jpg",
+        "credit": "OSeveno",
+        "caption": "Locatie: Fotomuseum Den Haag (geen foto van de tentoonstelling)",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Photo_Museum_The_Hague,_Main_entrance.jpg"
+      }
+    ],
+    "creator": "",
+    "ends_on": "2027-01-31",
+    "sources": [
+      {
+        "url": "https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen/de-bevrijde-camera",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "name",
+          "summary",
+          "tags",
+          "starts_on",
+          "ends_on",
+          "visit_notes"
+        ]
+      }
+    ],
+    "summary": "Ontdek de scherpe blik van Eva Besnyö. Haar fotografie verrast met diagonalen, licht en onverwachte standpunten. De tentoonstelling volgt haar ontwikkeling tussen Boedapest, Berlijn en Amsterdam en toont hoe beeldexperiment en maatschappelijke betrokkenheid elkaar versterken.",
+    "category": "evenementen",
+    "latitude": 52.089202,
+    "province": "Zuid-Holland",
+    "longitude": 4.279849,
+    "museum_id": "4e9c7be8-3423-5969-9bbe-2fa087de7dea",
+    "starts_on": "2026-09-05",
+    "visit_notes": "Controleer openingstijden en tickets bij de organisator.",
+    "website_url": "https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen/de-bevrijde-camera",
+    "inventory_key": "event:2026-eva-besnyo",
+    "street_address": "Stadhouderslaan 43",
+    "operating_status": "open",
+    "selection_reason": "Tijdelijk kunstprogramma met inhoudelijke aansluiting op de kunstselectie, bevestigde looptijd bij de organisator en een concrete bezoeklocatie.",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "1444555c-6230-5aff-bf64-bd36170198e3",
+    "city": "Amsterdam",
+    "name": "Yayoi Kusama",
+    "tags": [
+      "hedendaagse kunst",
+      "moderne kunst",
+      "installaties",
+      "schilderkunst",
+      "beeldhouwkunst",
+      "kleur"
+    ],
+    "year": "",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Stedelijk_Museum_Amsterdam_7173_HDR.jpg/1280px-Stedelijk_Museum_Amsterdam_7173_HDR.jpg",
+        "credit": "C messier",
+        "caption": "Locatie: Stedelijk Museum Amsterdam (geen foto van de tentoonstelling)",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Stedelijk_Museum_Amsterdam_7173_HDR.jpg"
+      }
+    ],
+    "creator": "",
+    "ends_on": "2027-01-17",
+    "sources": [
+      {
+        "url": "https://www.stedelijk.nl/nl/tentoonstellingen/yayoi-kusama",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "name",
+          "summary",
+          "tags",
+          "starts_on",
+          "ends_on",
+          "visit_notes"
+        ]
+      },
+      {
+        "url": "https://kunstvensters.com/2026/10/01/10-tentoonstellingen-die-je-niet-wil-missen-in-oktober-2026/",
+        "provider": "Aanvullende bron / selectieaanleiding",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "starts_on",
+          "ends_on"
+        ]
+      }
+    ],
+    "summary": "Verdwaal in stippen, spiegelingen en eindeloze patronen. Dit overzicht volgt Yayoi Kusama van haar vroege werk in Japan via New York tot recente installaties. Schilderijen, sculpturen en ruimtelijke experimenten laten zien hoe veelzijdig haar eigen beeldwereld is.",
+    "category": "evenementen",
+    "latitude": 52.35791,
+    "province": "Noord-Holland",
+    "longitude": 4.879855,
+    "museum_id": "d40cd0e8-52f2-5f2d-b452-4caad4718c94",
+    "starts_on": "2026-09-11",
+    "visit_notes": "Voor de Kusama-tentoonstelling is een ticket met starttijd en toeslag nodig; een gewoon museumticket geeft geen toegang tot deze tentoonstelling.",
+    "website_url": "https://www.stedelijk.nl/nl/tentoonstellingen/yayoi-kusama",
+    "inventory_key": "event:2026-yayoi-kusama",
+    "street_address": "Museumplein 10",
+    "operating_status": "open",
+    "selection_reason": "Tijdelijk kunstprogramma met inhoudelijke aansluiting op de kunstselectie, bevestigde looptijd bij de organisator en een concrete bezoeklocatie.",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "98f9e090-d4ba-5d5b-b71d-1099f4005c85",
+    "city": "Amsterdam",
+    "name": "Naturocene – Ways to Fall in Love with the Earth",
+    "tags": [
+      "hedendaagse kunst",
+      "videokunst",
+      "beeldhouwkunst",
+      "installaties",
+      "natuur",
+      "duurzaamheid"
+    ],
+    "year": "",
+    "photos": [],
+    "creator": "",
+    "ends_on": "2027-02-14",
+    "sources": [
+      {
+        "url": "https://www.projectspaceontheinside.org/more-naturocene",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "name",
+          "summary",
+          "tags",
+          "starts_on",
+          "ends_on",
+          "visit_notes"
+        ]
+      },
+      {
+        "url": "https://www.projectspaceontheinside.org/",
+        "provider": "Aanvullende bron / selectieaanleiding",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "starts_on",
+          "ends_on"
+        ]
+      }
+    ],
+    "summary": "Bekijk de aarde eens vanuit een ander perspectief. Meer dan vijfentwintig kunstenaars onderzoeken het samenspel tussen mens en natuur met film, sculptuur en installaties. Hun werk maakt ruimte voor andere levensvormen en voor nieuwe manieren om onze omgeving te ervaren.",
+    "category": "evenementen",
+    "latitude": 52.40381185,
+    "province": "Noord-Holland",
+    "longitude": 4.89256596,
+    "museum_id": "7d49b6c9-39c9-5bb1-bfcc-666a2c3c3598",
+    "starts_on": "2026-10-01",
+    "visit_notes": "Bezoekersingang: Tt. Melaniaweg 1, Amsterdam. Het postadres is een ander adres. Woensdag–vrijdag 10.00–17.00 uur, zaterdag–zondag 11.00–17.00 uur; controleer tickets en eventuele wijzigingen bij de instelling.",
+    "website_url": "https://www.projectspaceontheinside.org/more-naturocene",
+    "inventory_key": "event:2026-naturocene",
+    "street_address": "Tt. Melaniaweg 1",
+    "operating_status": "open",
+    "selection_reason": "Tijdelijk kunstprogramma met inhoudelijke aansluiting op de kunstselectie, bevestigde looptijd bij de organisator en een concrete bezoeklocatie.",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=weg-8ec77cbe875fec96b4e0bc84847a4eff",
+    "publication_status": "published",
+    "coordinate_precision": "street"
+  },
+  {
+    "id": "267f337c-8b40-5a58-bc2a-694d0b27f823",
+    "city": "Kampen",
+    "name": "Avercamp terug in Kampen",
+    "tags": [
+      "schilderkunst",
+      "tekenkunst",
+      "oude meesters",
+      "landschap",
+      "winter"
+    ],
+    "year": "",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Interieur_Stedelijk_Museum_Kampen_DSCF5238.JPG/1280px-Interieur_Stedelijk_Museum_Kampen_DSCF5238.JPG",
+        "credit": "G.Lanting",
+        "caption": "Locatie: Stedelijk Museum Kampen (geen foto van de tentoonstelling)",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Interieur_Stedelijk_Museum_Kampen_DSCF5238.JPG"
+      }
+    ],
+    "creator": "",
+    "ends_on": "2027-01-10",
+    "sources": [
+      {
+        "url": "https://stedelijkmuseumkampen.nl/tentoonstellingen/avercamp/",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "name",
+          "summary",
+          "tags",
+          "starts_on",
+          "ends_on",
+          "visit_notes"
+        ]
+      },
+      {
+        "url": "https://kunstvensters.com/2026/10/01/10-tentoonstellingen-die-je-niet-wil-missen-in-oktober-2026/",
+        "provider": "Aanvullende bron / selectieaanleiding",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "starts_on",
+          "ends_on"
+        ]
+      }
+    ],
+    "summary": "Schaatsers, vissers en kooplieden brengen de wereld van Hendrick en Barent Avercamp dichtbij. Hun schilderijen en tekeningen keren terug naar Kampen, naast de IJssel die hun werk mede vormde. Kijk hoe winterpret en dagelijks leven samen een stad portretteren.",
+    "category": "evenementen",
+    "latitude": 52.558867,
+    "province": "Overijssel",
+    "longitude": 5.91659,
+    "museum_id": "d11204f0-0880-5d01-b334-a3a1cb0eea58",
+    "starts_on": "2026-10-03",
+    "visit_notes": "In het Historisch Raadhuis, Oudestraat 133 in Kampen. Het museum is vanaf 3 oktober 2026 weer geopend na verbouwing.",
+    "website_url": "https://stedelijkmuseumkampen.nl/tentoonstellingen/avercamp/",
+    "inventory_key": "event:2026-avercamp-kampen",
+    "street_address": "Oudestraat 133",
+    "operating_status": "open",
+    "selection_reason": "Tijdelijk kunstprogramma met inhoudelijke aansluiting op de kunstselectie, bevestigde looptijd bij de organisator en een concrete bezoeklocatie.",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
   }
 ]

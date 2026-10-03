@@ -13,8 +13,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Martin_Borchert%2C_Dooi_-_Kasteel_het_Nijenhuis_-_Wijhe.jpg/1280px-Martin_Borchert%2C_Dooi_-_Kasteel_het_Nijenhuis_-_Wijhe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Museum de Fundatie – Kasteel het Nijenhuis – beeldentuin — Martin Borchert, Dooi - Kasteel het Nijenhuis - Wijhe",
         "credit": "Esther Westerveld",
+        "caption": "Museum de Fundatie – Kasteel het Nijenhuis – beeldentuin — Martin Borchert, Dooi - Kasteel het Nijenhuis - Wijhe",
         "license": "CC BY 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Martin_Borchert,_Dooi_-_Kasteel_het_Nijenhuis_-_Wijhe.jpg"
       }
@@ -134,8 +134,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Landgoed_Anningahof_Zwolle_NL_2023-05-20_%282%29.jpg/1280px-Landgoed_Anningahof_Zwolle_NL_2023-05-20_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Landgoed Anningahof — Landgoed Anningahof Zwolle NL 2023-05-20 (2)",
         "credit": "Eoe gian",
+        "caption": "Landgoed Anningahof — Landgoed Anningahof Zwolle NL 2023-05-20 (2)",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Landgoed_Anningahof_Zwolle_NL_2023-05-20_(2).jpg"
       }
@@ -407,8 +407,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Laren_NH_Singerzwanen_43.jpg/1280px-Laren_NH_Singerzwanen_43.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Singer Laren – beeldentuin — Laren NH Singerzwanen 43",
         "credit": "Tulp8",
+        "caption": "Singer Laren – beeldentuin — Laren NH Singerzwanen 43",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Laren_NH_Singerzwanen_43.jpg"
       }
@@ -500,8 +500,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Beeldengalerij_Het_Depot.jpg/1280px-Beeldengalerij_Het_Depot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Beeldengalerij Het Depot — Beeldengalerij Het Depot",
         "credit": "Hay Kranen",
+        "caption": "Beeldengalerij Het Depot — Beeldengalerij Het Depot",
         "license": "CC BY 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Beeldengalerij_Het_Depot.jpg"
       }
@@ -546,8 +546,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Overzicht_van_de_tuin%2C_thans_de_beeldentuin_van_Jits_Bakker%2C_koetshuis_op_de_achtergrond_-_De_Bilt_-_20413835_-_RCE.jpg/1280px-Overzicht_van_de_tuin%2C_thans_de_beeldentuin_van_Jits_Bakker%2C_koetshuis_op_de_achtergrond_-_De_Bilt_-_20413835_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Beeldenpark Jits Bakker — historische opname — Overzicht van de tuin, thans de beeldentuin van Jits Bakker, koetshuis op de achtergrond - De Bilt - 20413835 - RCE",
         "credit": "Paul van Galen",
+        "caption": "Beeldenpark Jits Bakker — historische opname — Overzicht van de tuin, thans de beeldentuin van Jits Bakker, koetshuis op de achtergrond - De Bilt - 20413835 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_van_de_tuin,_thans_de_beeldentuin_van_Jits_Bakker,_koetshuis_op_de_achtergrond_-_De_Bilt_-_20413835_-_RCE.jpg"
       }
@@ -597,8 +597,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Odapark_Venray_%2816944985101%29.jpg/1280px-Odapark_Venray_%2816944985101%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Odapark – beeldentuin — Odapark Venray (16944985101)",
         "credit": "FaceMePLS from The Hague, The Netherlands",
+        "caption": "Odapark – beeldentuin — Odapark Venray (16944985101)",
         "license": "CC BY 2.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Odapark_Venray_(16944985101).jpg"
       }
@@ -610,24 +610,43 @@
         "url": "https://www.odapark.nl/",
         "provider": "Beheerder / instelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://nl.wikipedia.org/wiki/Odapark",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "latitude",
+          "longitude",
+          "coordinate_precision"
+        ]
+      },
+      {
+        "url": "https://www.odapark.nl/contact/",
+        "provider": "Wekelijkse broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+        "evidence_fields": [
+          "street_address",
+          "visit_notes"
+        ]
       }
     ],
     "summary": "In het bos rond Odapark wachten eigenzinnige kunstwerken op aandachtige wandelaars. Niet alleen het beeld, maar ook zijn plek tussen de bomen doet mee. Laat je verrassen door onverwachte vormen en ontmoetingen met hedendaagse kunst.",
     "category": "beeldenparken",
-    "latitude": 51.52676919,
+    "latitude": 51.5239583333333,
     "province": "Limburg",
-    "longitude": 5.9589892,
+    "longitude": 5.96189444444444,
     "museum_id": "7b8f4db6-e522-5daf-9561-97924ceafc87",
     "starts_on": null,
-    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "visit_notes": "Het beeldenbos is dagelijks vrij toegankelijk van zonsopgang tot zonsondergang. Voor de tentoonstellingsruimte gelden aparte openingstijden: dinsdag–zondag 13.30–17.00 uur (februari–november), 13.00–16.00 uur (december–januari). Een vrijwillige bijdrage is welkom.",
     "website_url": "https://www.odapark.nl/",
     "inventory_key": "garden:Odapark",
     "street_address": "Merseloseweg 117",
     "operating_status": "open",
     "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=weg-0a78bbbfda5f3cb16efbeb1e2176cbbd",
+    "coordinate_source": "https://nl.wikipedia.org/wiki/Odapark",
     "publication_status": "published",
-    "coordinate_precision": "street"
+    "coordinate_precision": "exact"
   },
   {
     "id": "60b3e61c-bf8f-5276-860b-d1e73b749f79",
@@ -716,8 +735,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Bergen_NH_Museum_Kranenburgh_seen_from_the_east.jpg/1280px-Bergen_NH_Museum_Kranenburgh_seen_from_the_east.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Museum Kranenburgh – beeldentuin — Bergen NH Museum Kranenburgh seen from the east",
         "credit": "Ymblanter",
+        "caption": "Museum Kranenburgh – beeldentuin — Bergen NH Museum Kranenburgh seen from the east",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Bergen_NH_Museum_Kranenburgh_seen_from_the_east.jpg"
       }
@@ -799,8 +818,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Overzicht_van_de_voorburcht_met_bijgebouwen%2C_vijver_en_kunstwerken%2C_voorgevel_van_het_kasteel_met_dakruiter_op_de_achtergrond_-_Wijlre_-_20408870_-_RCE.jpg/1280px-Overzicht_van_de_voorburcht_met_bijgebouwen%2C_vijver_en_kunstwerken%2C_voorgevel_van_het_kasteel_met_dakruiter_op_de_achtergrond_-_Wijlre_-_20408870_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Buitenplaats Kasteel Wijlre – beeldentuin — historische opname — Overzicht van de voorburcht met bijgebouwen, vijver en kunstwerken, voorgevel van het kasteel met dakruiter op de achtergrond - Wijlre - 20408870 - RCE",
         "credit": "Loek Tangel",
+        "caption": "Buitenplaats Kasteel Wijlre – beeldentuin — historische opname — Overzicht van de voorburcht met bijgebouwen, vijver en kunstwerken, voorgevel van het kasteel met dakruiter op de achtergrond - Wijlre - 20408870 - RCE",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_van_de_voorburcht_met_bijgebouwen,_vijver_en_kunstwerken,_voorgevel_van_het_kasteel_met_dakruiter_op_de_achtergrond_-_Wijlre_-_20408870_-_RCE.jpg"
       }
@@ -996,8 +1015,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Wijk_aan_zee_kunstwerk_esperanza.jpg/1280px-Wijk_aan_zee_kunstwerk_esperanza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Beeldenpark Een Zee van Staal — Wijk aan zee kunstwerk esperanza",
         "credit": "Wikifrits",
+        "caption": "Beeldenpark Een Zee van Staal — Wijk aan zee kunstwerk esperanza",
         "license": "CC BY-SA 3.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Wijk_aan_zee_kunstwerk_esperanza.jpg"
       }
@@ -1042,8 +1061,8 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Museum_en_Beeldentuin_Nic_Jonk_Dhr._K._Davidse_heeft_in_het_jaar_2009_in_opdracht_van_het_Regionaal_-_RAA003024779_-_RAA_Davidse.jpg/1280px-Museum_en_Beeldentuin_Nic_Jonk_Dhr._K._Davidse_heeft_in_het_jaar_2009_in_opdracht_van_het_Regionaal_-_RAA003024779_-_RAA_Davidse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Museum en Beeldentuin Nic Jonk — Museum en Beeldentuin Nic Jonk Dhr. K. Davidse heeft in het jaar 2009 in opdracht van het Regionaal - RAA003024779 - RAA Davidse",
         "credit": "Dhr. K. Davidse",
+        "caption": "Museum en Beeldentuin Nic Jonk — Museum en Beeldentuin Nic Jonk Dhr. K. Davidse heeft in het jaar 2009 in opdracht van het Regionaal - RAA003024779 - RAA Davidse",
         "license": "CC0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Museum_en_Beeldentuin_Nic_Jonk_Dhr._K._Davidse_heeft_in_het_jaar_2009_in_opdracht_van_het_Regionaal_-_RAA003024779_-_RAA_Davidse.jpg"
       }

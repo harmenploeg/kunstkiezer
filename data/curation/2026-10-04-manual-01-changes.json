@@ -1,0 +1,1196 @@
+{
+  "date": "2026-10-04",
+  "updates": [
+    {
+      "table": "kk_museums",
+      "id": "7b8f4db6-e522-5daf-9561-97924ceafc87",
+      "inventory_key": "wikipedia:Limburg:odapark:venray",
+      "expected_updated_at": "2026-10-03T20:39:16.059546+00:00",
+      "before": {
+        "latitude": 51.52676919,
+        "longitude": 5.9589892,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=weg-0a78bbbfda5f3cb16efbeb1e2176cbbd",
+        "coordinate_precision": "street"
+      },
+      "changes": {
+        "latitude": 51.52395833333333,
+        "longitude": 5.961894444444445,
+        "coordinate_source": "https://nl.wikipedia.org/wiki/Odapark",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_museums",
+      "id": "555af903-7bed-5d6e-b52e-de3b7909bc55",
+      "inventory_key": "wikipedia:Gelderland:voermanmuseumhattem:hattem",
+      "expected_updated_at": "2026-10-03T20:39:16.064497+00:00",
+      "before": {
+        "name": "Voerman Museum Hattem",
+        "latitude": 52.47515049,
+        "longitude": 6.06824853,
+        "website_url": "https://www.voermanmuseumhattem.nl/",
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=weg-58c6ecd0160277b401eb83a1b2bfbe60",
+        "coordinate_precision": "street"
+      },
+      "changes": {
+        "name": "Voerman Stadsmuseum Hattem",
+        "latitude": 52.475125,
+        "longitude": 6.067111111111111,
+        "website_url": "https://voermanstadsmuseumhattem.nl/",
+        "coordinate_source": "https://nl.wikipedia.org/wiki/Voerman_Stadsmuseum_Hattem",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "79d8dfc3-da90-57f3-89a0-5c5f03d5cc2f",
+      "inventory_key": "sleutelwerk:241",
+      "expected_updated_at": "2026-10-03T22:30:48.901819+00:00",
+      "before": {
+        "sources": [
+          {
+            "url": "https://www.sleutelwerken.nl/kunstwerken/love",
+            "provider": "Sleutelwerken · officiële selectie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/leeuwarden/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "latitude": 53.2006597,
+        "longitude": 5.80308902,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-b36c893c6c9ca7ffca7005e03408aacc",
+        "coordinate_precision": "city"
+      },
+      "changes": {
+        "sources": [
+          {
+            "url": "https://www.sleutelwerken.nl/kunstwerken/love",
+            "provider": "Sleutelwerken · officiële selectie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/leeuwarden/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/leeuwarden/",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "latitude",
+              "longitude",
+              "coordinate_precision"
+            ]
+          }
+        ],
+        "latitude": 53.196991933145,
+        "longitude": 5.7924073934555,
+        "coordinate_source": "https://11fountains.nl/fonteinen/leeuwarden/",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "a27f565c-eab7-5fde-94c4-68507190110b",
+      "inventory_key": "sleutelwerk:239",
+      "expected_updated_at": "2026-10-03T22:30:48.912271+00:00",
+      "before": {
+        "sources": [
+          {
+            "url": "https://www.sleutelwerken.nl/kunstwerken/de-walvis",
+            "provider": "Sleutelwerken · officiële selectie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/harlingen/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "latitude": 53.1420655,
+        "longitude": 5.26367403,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-90228e88a50e0f3927c8ef1b9c3ce80d",
+        "coordinate_precision": "city"
+      },
+      "changes": {
+        "sources": [
+          {
+            "url": "https://www.sleutelwerken.nl/kunstwerken/de-walvis",
+            "provider": "Sleutelwerken · officiële selectie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/harlingen/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/harlingen/",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "latitude",
+              "longitude",
+              "coordinate_precision"
+            ]
+          }
+        ],
+        "latitude": 53.1728676,
+        "longitude": 5.4081785,
+        "coordinate_source": "https://11fountains.nl/fonteinen/harlingen/",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "827bf88a-7e59-56a0-8cdc-4445a32fa2cc",
+      "inventory_key": "garden:Odapark",
+      "expected_updated_at": "2026-10-03T22:30:55.636676+00:00",
+      "before": {
+        "sources": [
+          {
+            "url": "https://www.odapark.nl/",
+            "provider": "Beheerder / instelling",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "latitude": 51.52676919,
+        "longitude": 5.9589892,
+        "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=weg-0a78bbbfda5f3cb16efbeb1e2176cbbd",
+        "coordinate_precision": "street"
+      },
+      "changes": {
+        "sources": [
+          {
+            "url": "https://www.odapark.nl/",
+            "provider": "Beheerder / instelling",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://nl.wikipedia.org/wiki/Odapark",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "latitude",
+              "longitude",
+              "coordinate_precision"
+            ]
+          },
+          {
+            "url": "https://www.odapark.nl/contact/",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "street_address",
+              "visit_notes"
+            ]
+          }
+        ],
+        "latitude": 51.52395833333333,
+        "longitude": 5.961894444444445,
+        "visit_notes": "Het beeldenbos is dagelijks vrij toegankelijk van zonsopgang tot zonsondergang. Voor de tentoonstellingsruimte gelden aparte openingstijden: dinsdag–zondag 13.30–17.00 uur (februari–november), 13.00–16.00 uur (december–januari). Een vrijwillige bijdrage is welkom.",
+        "coordinate_source": "https://nl.wikipedia.org/wiki/Odapark",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "6a9f8059-9530-5bd7-b3b1-221976cf9699",
+      "inventory_key": "11fountains:ijlst",
+      "expected_updated_at": "2026-10-03T22:31:00.08694+00:00",
+      "before": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/ijlst/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "latitude": 53.01081306,
+        "longitude": 5.62615205,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=weg-080395c57ae998dfac73976f28d6d4f0",
+        "coordinate_precision": "street"
+      },
+      "changes": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/ijlst/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/ijlst/",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "latitude",
+              "longitude",
+              "coordinate_precision"
+            ]
+          }
+        ],
+        "latitude": 53.0121985,
+        "longitude": 5.6265632,
+        "coordinate_source": "https://11fountains.nl/fonteinen/ijlst/",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "5e33755b-9788-5006-8c7d-ae6720fd4ce9",
+      "inventory_key": "11fountains:dokkum",
+      "expected_updated_at": "2026-10-03T22:30:54.480963+00:00",
+      "before": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/dokkum/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "latitude": 53.32713338,
+        "longitude": 5.99751175,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-50bdefe0be1bf5defccaeb00e14834e0",
+        "coordinate_precision": "address"
+      },
+      "changes": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/dokkum/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/dokkum/",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "latitude",
+              "longitude",
+              "coordinate_precision"
+            ]
+          }
+        ],
+        "latitude": 53.3271294,
+        "longitude": 5.998099,
+        "coordinate_source": "https://11fountains.nl/fonteinen/dokkum/",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "ad791f4e-cdf7-524d-905a-87c33149d031",
+      "inventory_key": "11fountains:sloten",
+      "expected_updated_at": "2026-10-03T22:31:00.104455+00:00",
+      "before": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/sloten/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "latitude": 52.90421296,
+        "longitude": 5.64223465,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-c8eae9a6e40c5dc43b0a607ec34290b7",
+        "coordinate_precision": "city"
+      },
+      "changes": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/sloten/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/sloten/",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "latitude",
+              "longitude",
+              "coordinate_precision"
+            ]
+          }
+        ],
+        "latitude": 52.8952486,
+        "longitude": 5.6463618,
+        "coordinate_source": "https://11fountains.nl/fonteinen/sloten/",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "5f059e48-d495-5567-b589-d784305deb65",
+      "inventory_key": "11fountains:workum",
+      "expected_updated_at": "2026-10-03T22:31:00.105421+00:00",
+      "before": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/workum/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "latitude": 52.97476196,
+        "longitude": 5.40091456,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-a901211b6e8f9fbf691a52125a016ef9",
+        "coordinate_precision": "city"
+      },
+      "changes": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/workum/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/workum/",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "latitude",
+              "longitude",
+              "coordinate_precision"
+            ]
+          }
+        ],
+        "latitude": 52.9784475,
+        "longitude": 5.4446187,
+        "coordinate_source": "https://11fountains.nl/fonteinen/workum/",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "a13f7085-81cb-5016-bc67-4a9656ab6bd8",
+      "inventory_key": "11fountains:hindeloopen",
+      "expected_updated_at": "2026-10-03T22:31:00.106362+00:00",
+      "before": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/hindeloopen/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "latitude": 52.94260996,
+        "longitude": 5.39954527,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-55bb1b8b029c729a410cd2b406de4107",
+        "coordinate_precision": "address"
+      },
+      "changes": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/hindeloopen/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/hindeloopen/",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "latitude",
+              "longitude",
+              "coordinate_precision"
+            ]
+          }
+        ],
+        "latitude": 52.9429181,
+        "longitude": 5.3994071,
+        "coordinate_source": "https://11fountains.nl/fonteinen/hindeloopen/",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "7e2e546b-d5de-55dd-9667-da25104ad7e2",
+      "inventory_key": "11fountains:sneek",
+      "expected_updated_at": "2026-10-03T22:31:00.107519+00:00",
+      "before": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/sneek/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "latitude": 53.02942636,
+        "longitude": 5.66022201,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=weg-24e98ba26b0be6c2b5efaac4f1855278",
+        "coordinate_precision": "street"
+      },
+      "changes": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/sneek/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/sneek/",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "latitude",
+              "longitude",
+              "coordinate_precision"
+            ]
+          }
+        ],
+        "latitude": 53.02955,
+        "longitude": 5.660317,
+        "coordinate_source": "https://11fountains.nl/fonteinen/sneek/",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "0bfeb0bb-b663-5a32-b781-6c6d9230d1d7",
+      "inventory_key": "11fountains:franeker",
+      "expected_updated_at": "2026-10-03T22:31:00.108551+00:00",
+      "before": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/franeker/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "latitude": 53.18340776,
+        "longitude": 5.54660593,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-ea808304e50fb96d3bf893db1255cf4e",
+        "coordinate_precision": "city"
+      },
+      "changes": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/franeker/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/franeker/",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "latitude",
+              "longitude",
+              "coordinate_precision"
+            ]
+          }
+        ],
+        "latitude": 53.1864413,
+        "longitude": 5.5444114,
+        "coordinate_source": "https://11fountains.nl/fonteinen/franeker/",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "b47e5668-14f7-5139-8226-89fc090f5d8a",
+      "inventory_key": "architectuurgids:569",
+      "expected_updated_at": "2026-10-03T22:31:01.772855+00:00",
+      "before": {
+        "photos": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Gang_Raadhuis_-_Corridor_City_Hall_Enschede_%284441097384%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "Het Nieuwe Instituut - Architecture Collection",
+            "caption": "Raadhuis Enschede — Gang Raadhuis - Corridor City Hall Enschede (4441097384)",
+            "license": "No restrictions",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Gang_Raadhuis_-_Corridor_City_Hall_Enschede_(4441097384).jpg"
+          }
+        ]
+      },
+      "changes": {
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Gang_Raadhuis_-_Corridor_City_Hall_Enschede_%284441097384%29.jpg/330px-Gang_Raadhuis_-_Corridor_City_Hall_Enschede_%284441097384%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "Het Nieuwe Instituut - Architecture Collection",
+            "caption": "Raadhuis Enschede — Gang Raadhuis - Corridor City Hall Enschede (4441097384)",
+            "license": "No restrictions",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Gang_Raadhuis_-_Corridor_City_Hall_Enschede_(4441097384).jpg"
+          }
+        ]
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "e9920712-cec4-52c2-8772-644c280ba5ac",
+      "inventory_key": "architectuurgids:698",
+      "expected_updated_at": "2026-10-03T22:31:02.54715+00:00",
+      "before": {
+        "photos": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Woningbouw_-_Housing_Haarlem_%286828949061%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "Het Nieuwe Instituut - Architecture Collection",
+            "caption": "Woningbouw Tuinwijk-Zuid — Woningbouw - Housing Haarlem (6828949061)",
+            "license": "No restrictions",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Woningbouw_-_Housing_Haarlem_(6828949061).jpg"
+          }
+        ]
+      },
+      "changes": {
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Woningbouw_-_Housing_Haarlem_%286828949061%29.jpg/330px-Woningbouw_-_Housing_Haarlem_%286828949061%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "Het Nieuwe Instituut - Architecture Collection",
+            "caption": "Woningbouw Tuinwijk-Zuid — Woningbouw - Housing Haarlem (6828949061)",
+            "license": "No restrictions",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Woningbouw_-_Housing_Haarlem_(6828949061).jpg"
+          }
+        ]
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "bad119a8-6a2e-58d0-974e-d1134e2b8a21",
+      "inventory_key": "11fountains:bolsward",
+      "expected_updated_at": "2026-10-03T20:39:19.632829+00:00",
+      "before": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/bolsward/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "latitude": 53.06189258,
+        "longitude": 5.52531046,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-e10354ff594ba316080dde409f960fb8",
+        "coordinate_precision": "address"
+      },
+      "changes": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/bolsward/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/bolsward/",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "latitude",
+              "longitude",
+              "coordinate_precision"
+            ]
+          }
+        ],
+        "latitude": 53.0620112,
+        "longitude": 5.5250337,
+        "coordinate_source": "https://11fountains.nl/fonteinen/bolsward/",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "0b88d7ba-4ce0-59e6-aedc-adc901d938d6",
+      "inventory_key": "11fountains:stavoren",
+      "expected_updated_at": "2026-10-03T20:39:19.633059+00:00",
+      "before": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/stavoren/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "latitude": 52.88721813,
+        "longitude": 5.36751905,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=weg-fcee5cc6300527e5b16ada2dc0bef8a9",
+        "coordinate_precision": "street"
+      },
+      "changes": {
+        "sources": [
+          {
+            "url": "https://11fountains.nl/fonteinen/stavoren/",
+            "provider": "11fountains · officiële projectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://11fountains.nl/fonteinen/stavoren/",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "latitude",
+              "longitude",
+              "coordinate_precision"
+            ]
+          }
+        ],
+        "latitude": 52.886306408156,
+        "longitude": 5.3581523895264,
+        "coordinate_source": "https://11fountains.nl/fonteinen/stavoren/",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "caf15ff4-de0f-594a-a83d-697168b9e5b6",
+      "inventory_key": "architectuurgids:4541",
+      "expected_updated_at": "2026-10-03T20:39:20.446592+00:00",
+      "before": {
+        "city": "Soest",
+        "creator": "FELIX CLAUS DICK VAN WAGENINGEN ARCHITECTEN",
+        "sources": [
+          {
+            "url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/4541",
+            "provider": "Architectuurgids · Top 100",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "summary": "Bekijk Nationaal Militair Museum in Soest: architectuur van FELIX CLAUS DICK VAN WAGENINGEN ARCHITECTEN uit 2011-2014. Let op het samenspel van vorm, materiaal en omgeving. Dit project staat in de Top 100-selectie van Architectuurgids.",
+        "latitude": 52.13167911,
+        "longitude": 5.28057265,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-c0dfe15353b87f81b7004ed80ddf00c5",
+        "coordinate_precision": "address"
+      },
+      "changes": {
+        "city": "Soesterberg",
+        "creator": "Felix Claus en Dick van Wageningen",
+        "sources": [
+          {
+            "url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/4541",
+            "provider": "Architectuurgids · Top 100",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://www.architectuur.org/bouwwerk/696/Nationaal_Militair_Museum.html",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "city",
+              "creator",
+              "summary",
+              "latitude",
+              "longitude",
+              "coordinate_precision"
+            ]
+          }
+        ],
+        "summary": "Een enorm plat dak zweeft boven glazen gevels op de voormalige vliegbasis Soesterberg. Binnen staan twee gesloten bouwvolumes in de open hal. De entreebrug en uitkijktoren geven steeds een ander perspectief op het gebouw en het omliggende landschap.",
+        "latitude": 52.131883333333334,
+        "longitude": 5.2757249999999996,
+        "coordinate_source": "https://www.architectuur.org/bouwwerk/696/Nationaal_Militair_Museum.html",
+        "coordinate_precision": "exact"
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "7c5bdaee-faf9-503e-b196-8dab0ce92d38",
+      "inventory_key": "sleutelwerk:165",
+      "expected_updated_at": "2026-10-03T22:31:07.541018+00:00",
+      "before": {
+        "photos": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Utrecht_Thinker_On_A_Rock_%282002%29%2C_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "FaceMePLS from The Hague, the Netherlands; cropped by Jan Kameníček (talk)",
+            "caption": "Thinker on rock — Utrecht Thinker On A Rock (2002), 2",
+            "license": "CC BY 2.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Utrecht_Thinker_On_A_Rock_(2002),_2.jpg"
+          }
+        ]
+      },
+      "changes": {
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Utrecht_Thinker_On_A_Rock_%282002%29%2C_2.jpg/330px-Utrecht_Thinker_On_A_Rock_%282002%29%2C_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "FaceMePLS from The Hague, the Netherlands; cropped by Jan Kameníček (talk)",
+            "caption": "Thinker on rock — Utrecht Thinker On A Rock (2002), 2",
+            "license": "CC BY 2.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Utrecht_Thinker_On_A_Rock_(2002),_2.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "d311281f-dca7-5fff-bd8b-3f1e128e5cb1",
+      "inventory_key": "sleutelwerk:79",
+      "expected_updated_at": "2026-10-03T22:31:09.03745+00:00",
+      "before": {
+        "photos": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Tegelrelief_Ad_Dekkers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "Henk Zeedijk",
+            "caption": "Tegelreliëf — Tegelrelief Ad Dekkers 1",
+            "license": "CC0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Tegelrelief_Ad_Dekkers_1.jpg"
+          }
+        ]
+      },
+      "changes": {
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Tegelrelief_Ad_Dekkers_1.jpg/330px-Tegelrelief_Ad_Dekkers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "Henk Zeedijk",
+            "caption": "Tegelreliëf — Tegelrelief Ad Dekkers 1",
+            "license": "CC0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Tegelrelief_Ad_Dekkers_1.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "table": "kk_discoveries",
+      "id": "accfe7f4-0c7c-5dd3-a442-bdd8aecaa681",
+      "inventory_key": "sleutelwerk:42",
+      "expected_updated_at": "2026-10-03T22:31:09.051084+00:00",
+      "before": {
+        "photos": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Exterieur_BEELD_%27DE_DOKWERKER%27_%28MARI_ANDRIESSEN%2C_1950-%2752%29_OVERZICHT_-_Amsterdam_-_20372897_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "credit": "Gerard Dukker",
+            "caption": "De Dokwerker — historische opname — Exterieur BEELD 'DE DOKWERKER' (MARI ANDRIESSEN, 1950-'52) OVERZICHT - Amsterdam - 20372897 - RCE",
+            "license": "CC BY-SA 4.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Exterieur_BEELD_%27DE_DOKWERKER%27_(MARI_ANDRIESSEN,_1950-%2752)_OVERZICHT_-_Amsterdam_-_20372897_-_RCE.jpg"
+          }
+        ]
+      },
+      "changes": {
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Exterieur_BEELD_%27DE_DOKWERKER%27_%28MARI_ANDRIESSEN%2C_1950-%2752%29_OVERZICHT_-_Amsterdam_-_20372897_-_RCE.jpg/330px-Exterieur_BEELD_%27DE_DOKWERKER%27_%28MARI_ANDRIESSEN%2C_1950-%2752%29_OVERZICHT_-_Amsterdam_-_20372897_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "Gerard Dukker",
+            "caption": "De Dokwerker — historische opname — Exterieur BEELD 'DE DOKWERKER' (MARI ANDRIESSEN, 1950-'52) OVERZICHT - Amsterdam - 20372897 - RCE",
+            "license": "CC BY-SA 4.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Exterieur_BEELD_%27DE_DOKWERKER%27_(MARI_ANDRIESSEN,_1950-%2752)_OVERZICHT_-_Amsterdam_-_20372897_-_RCE.jpg"
+          }
+        ]
+      }
+    }
+  ],
+  "additions": [
+    {
+      "city": "Amersfoort",
+      "province": "Utrecht",
+      "street_address": "Langegracht 36",
+      "latitude": 52.157331,
+      "longitude": 5.387037,
+      "coordinate_precision": "exact",
+      "coordinate_source": "Bestaande museumcoördinaten",
+      "id": "2301a527-f7f2-501c-b11e-6fdf9cc5afb1",
+      "inventory_key": "event:2026-vivian-suter-elleboogkerk",
+      "name": "Vivian Suter – Stone in the Pond",
+      "category": "evenementen",
+      "museum_id": "4b4a010e-6083-5758-b0d6-4f3f2e30d155",
+      "creator": "",
+      "year": "",
+      "starts_on": "2026-09-26",
+      "ends_on": "2027-05-02",
+      "summary": "Dwaal tussen vrijhangende schilderijen van Vivian Suter. Kleur, licht en sporen van het tropische buitenleven komen samen in een ruimtelijke installatie. De hoge Elleboogkerk maakt van het kijken een wandeling tussen de doeken.",
+      "tags": [
+        "schilderkunst",
+        "installaties",
+        "abstract",
+        "kleur",
+        "natuur",
+        "hedendaagse kunst"
+      ],
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Amersfoort_Elleboogkerk_1.JPG/1280px-Amersfoort_Elleboogkerk_1.JPG",
+          "credit": "Torsade de Pointes",
+          "caption": "Locatie: Elleboogkerk (geen foto van de tentoonstelling)",
+          "license": "CC0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Amersfoort_Elleboogkerk_1.JPG"
+        }
+      ],
+      "website_url": "https://www.kunsthalkade.nl/nl/tentoonstellingen/vivian-suter-in-de-elleboogkerk/",
+      "operating_status": "open",
+      "publication_status": "published",
+      "visit_notes": "Deze tentoonstelling is in de Elleboogkerk, Langegracht 36, en niet in het hoofdgebouw van Kunsthal KAdE aan het Eemplein. Controleer tickets en openingstijden bij KAdE.",
+      "selection_reason": "Tijdelijk kunstprogramma met inhoudelijke aansluiting op de kunstselectie, bevestigde looptijd bij de organisator en een concrete bezoeklocatie.",
+      "sources": [
+        {
+          "url": "https://www.kunsthalkade.nl/nl/tentoonstellingen/vivian-suter-in-de-elleboogkerk/",
+          "provider": "Wekelijkse broncontrole 4 oktober 2026",
+          "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+          "evidence_fields": [
+            "name",
+            "summary",
+            "tags",
+            "starts_on",
+            "ends_on",
+            "visit_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Eindhoven",
+      "province": "Noord-Brabant",
+      "street_address": "Stratumsedijk 2",
+      "latitude": 51.434193,
+      "longitude": 5.48363,
+      "coordinate_precision": "exact",
+      "coordinate_source": "Bestaande museumcoördinaten",
+      "id": "c3e46db3-c870-5438-b3de-1e8b3f1c7cc4",
+      "inventory_key": "event:2026-museum-als-zonnewijzer",
+      "name": "Museum als Zonnewijzer",
+      "category": "evenementen",
+      "museum_id": "d88b798d-25af-5e7b-b615-7ed455fdf4cd",
+      "creator": "",
+      "year": "",
+      "starts_on": "2026-10-17",
+      "ends_on": "2027-02-21",
+      "summary": "Kijk hoe kunst en ontwerp je gevoel voor tijd en plaats veranderen. Het Van Abbemuseum gebruikt de zon als richtinggever en verbindt kunstenaars, archeologie en samen leren. Ook de lichtval en oorspronkelijke architectuur van het gebouw doen mee.",
+      "tags": [
+        "hedendaagse kunst",
+        "design",
+        "architectuur",
+        "installaties"
+      ],
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Eindhoven%2C_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg/1280px-Eindhoven%2C_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg",
+          "credit": "Michielverbeek",
+          "caption": "Locatie: Van Abbemuseum (geen foto van de tentoonstelling)",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Eindhoven,_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg"
+        }
+      ],
+      "website_url": "https://www.vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/museum-als-zonnewijzer",
+      "operating_status": "open",
+      "publication_status": "published",
+      "visit_notes": "Controleer openingstijden en tickets bij de organisator.",
+      "selection_reason": "Tijdelijk kunstprogramma met inhoudelijke aansluiting op de kunstselectie, bevestigde looptijd bij de organisator en een concrete bezoeklocatie.",
+      "sources": [
+        {
+          "url": "https://www.vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/museum-als-zonnewijzer",
+          "provider": "Wekelijkse broncontrole 4 oktober 2026",
+          "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+          "evidence_fields": [
+            "name",
+            "summary",
+            "tags",
+            "starts_on",
+            "ends_on",
+            "visit_notes"
+          ]
+        },
+        {
+          "url": "https://www.vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen",
+          "provider": "Aanvullende bron / selectieaanleiding",
+          "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+          "evidence_fields": [
+            "starts_on",
+            "ends_on"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Eindhoven",
+      "province": "Noord-Brabant",
+      "street_address": "Stratumsedijk 2",
+      "latitude": 51.434193,
+      "longitude": 5.48363,
+      "coordinate_precision": "exact",
+      "coordinate_source": "Bestaande museumcoördinaten",
+      "id": "79d099c2-8b2f-5968-a2c9-387663e41aa1",
+      "inventory_key": "event:2026-sandbag-castle",
+      "name": "SANDBAG CASTLE – The future of concrete is now",
+      "category": "evenementen",
+      "museum_id": "d88b798d-25af-5e7b-b615-7ed455fdf4cd",
+      "creator": "",
+      "year": "",
+      "starts_on": "2026-10-17",
+      "ends_on": "2026-10-25",
+      "summary": "Wat op een kasteel van zandzakken lijkt, blijkt beton. Yvonne Mak bouwt een installatie rond bescherming tegen water en de klimaatimpact van bouwmaterialen. De ogenschijnlijk vertrouwde vorm laat je opnieuw kijken naar de materialen van de toekomst.",
+      "tags": [
+        "hedendaagse kunst",
+        "design",
+        "installaties",
+        "architectuur",
+        "duurzaamheid"
+      ],
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Eindhoven%2C_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg/1280px-Eindhoven%2C_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg",
+          "credit": "Michielverbeek",
+          "caption": "Locatie: Van Abbemuseum (geen foto van de tentoonstelling)",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Eindhoven,_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg"
+        }
+      ],
+      "website_url": "https://www.vanabbemuseum.nl/nl/zien-en-doen/activiteiten/sandbag-castle--the-future-of-concrete-is-now",
+      "operating_status": "open",
+      "publication_status": "published",
+      "visit_notes": "Controleer openingstijden en tickets bij de organisator.",
+      "selection_reason": "Tijdelijk kunstprogramma met inhoudelijke aansluiting op de kunstselectie, bevestigde looptijd bij de organisator en een concrete bezoeklocatie.",
+      "sources": [
+        {
+          "url": "https://www.vanabbemuseum.nl/nl/zien-en-doen/activiteiten/sandbag-castle--the-future-of-concrete-is-now",
+          "provider": "Wekelijkse broncontrole 4 oktober 2026",
+          "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+          "evidence_fields": [
+            "name",
+            "summary",
+            "tags",
+            "starts_on",
+            "ends_on",
+            "visit_notes"
+          ]
+        },
+        {
+          "url": "https://www.vanabbemuseum.nl/",
+          "provider": "Aanvullende bron / selectieaanleiding",
+          "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+          "evidence_fields": [
+            "starts_on",
+            "ends_on"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Den Haag",
+      "province": "Zuid-Holland",
+      "street_address": "Stadhouderslaan 43",
+      "latitude": 52.089202,
+      "longitude": 4.279849,
+      "coordinate_precision": "exact",
+      "coordinate_source": "Bestaande museumcoördinaten",
+      "id": "2cdc1f0f-1108-54b5-93ea-de7490270bfd",
+      "inventory_key": "event:2026-eva-besnyo",
+      "name": "Eva Besnyö – De bevrijde camera",
+      "category": "evenementen",
+      "museum_id": "4e9c7be8-3423-5969-9bbe-2fa087de7dea",
+      "creator": "",
+      "year": "",
+      "starts_on": "2026-09-05",
+      "ends_on": "2027-01-31",
+      "summary": "Ontdek de scherpe blik van Eva Besnyö. Haar fotografie verrast met diagonalen, licht en onverwachte standpunten. De tentoonstelling volgt haar ontwikkeling tussen Boedapest, Berlijn en Amsterdam en toont hoe beeldexperiment en maatschappelijke betrokkenheid elkaar versterken.",
+      "tags": [
+        "fotografie",
+        "moderne kunst",
+        "zwart-wit",
+        "stedelijk leven"
+      ],
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Photo_Museum_The_Hague%2C_Main_entrance.jpg/1280px-Photo_Museum_The_Hague%2C_Main_entrance.jpg",
+          "credit": "OSeveno",
+          "caption": "Locatie: Fotomuseum Den Haag (geen foto van de tentoonstelling)",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Photo_Museum_The_Hague,_Main_entrance.jpg"
+        }
+      ],
+      "website_url": "https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen/de-bevrijde-camera",
+      "operating_status": "open",
+      "publication_status": "published",
+      "visit_notes": "Controleer openingstijden en tickets bij de organisator.",
+      "selection_reason": "Tijdelijk kunstprogramma met inhoudelijke aansluiting op de kunstselectie, bevestigde looptijd bij de organisator en een concrete bezoeklocatie.",
+      "sources": [
+        {
+          "url": "https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen/de-bevrijde-camera",
+          "provider": "Wekelijkse broncontrole 4 oktober 2026",
+          "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+          "evidence_fields": [
+            "name",
+            "summary",
+            "tags",
+            "starts_on",
+            "ends_on",
+            "visit_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Amsterdam",
+      "province": "Noord-Holland",
+      "street_address": "Museumplein 10",
+      "latitude": 52.35791,
+      "longitude": 4.879855,
+      "coordinate_precision": "exact",
+      "coordinate_source": "Bestaande museumcoördinaten",
+      "id": "1444555c-6230-5aff-bf64-bd36170198e3",
+      "inventory_key": "event:2026-yayoi-kusama",
+      "name": "Yayoi Kusama",
+      "category": "evenementen",
+      "museum_id": "d40cd0e8-52f2-5f2d-b452-4caad4718c94",
+      "creator": "",
+      "year": "",
+      "starts_on": "2026-09-11",
+      "ends_on": "2027-01-17",
+      "summary": "Verdwaal in stippen, spiegelingen en eindeloze patronen. Dit overzicht volgt Yayoi Kusama van haar vroege werk in Japan via New York tot recente installaties. Schilderijen, sculpturen en ruimtelijke experimenten laten zien hoe veelzijdig haar eigen beeldwereld is.",
+      "tags": [
+        "hedendaagse kunst",
+        "moderne kunst",
+        "installaties",
+        "schilderkunst",
+        "beeldhouwkunst",
+        "kleur"
+      ],
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Stedelijk_Museum_Amsterdam_7173_HDR.jpg/1280px-Stedelijk_Museum_Amsterdam_7173_HDR.jpg",
+          "credit": "C messier",
+          "caption": "Locatie: Stedelijk Museum Amsterdam (geen foto van de tentoonstelling)",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Stedelijk_Museum_Amsterdam_7173_HDR.jpg"
+        }
+      ],
+      "website_url": "https://www.stedelijk.nl/nl/tentoonstellingen/yayoi-kusama",
+      "operating_status": "open",
+      "publication_status": "published",
+      "visit_notes": "Voor de Kusama-tentoonstelling is een ticket met starttijd en toeslag nodig; een gewoon museumticket geeft geen toegang tot deze tentoonstelling.",
+      "selection_reason": "Tijdelijk kunstprogramma met inhoudelijke aansluiting op de kunstselectie, bevestigde looptijd bij de organisator en een concrete bezoeklocatie.",
+      "sources": [
+        {
+          "url": "https://www.stedelijk.nl/nl/tentoonstellingen/yayoi-kusama",
+          "provider": "Wekelijkse broncontrole 4 oktober 2026",
+          "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+          "evidence_fields": [
+            "name",
+            "summary",
+            "tags",
+            "starts_on",
+            "ends_on",
+            "visit_notes"
+          ]
+        },
+        {
+          "url": "https://kunstvensters.com/2026/10/01/10-tentoonstellingen-die-je-niet-wil-missen-in-oktober-2026/",
+          "provider": "Aanvullende bron / selectieaanleiding",
+          "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+          "evidence_fields": [
+            "starts_on",
+            "ends_on"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Amsterdam",
+      "province": "Noord-Holland",
+      "street_address": "Tt. Melaniaweg 1",
+      "latitude": 52.40381185,
+      "longitude": 4.89256596,
+      "coordinate_precision": "street",
+      "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=weg-8ec77cbe875fec96b4e0bc84847a4eff",
+      "id": "98f9e090-d4ba-5d5b-b71d-1099f4005c85",
+      "inventory_key": "event:2026-naturocene",
+      "name": "Naturocene – Ways to Fall in Love with the Earth",
+      "category": "evenementen",
+      "museum_id": "7d49b6c9-39c9-5bb1-bfcc-666a2c3c3598",
+      "creator": "",
+      "year": "",
+      "starts_on": "2026-10-01",
+      "ends_on": "2027-02-14",
+      "summary": "Bekijk de aarde eens vanuit een ander perspectief. Meer dan vijfentwintig kunstenaars onderzoeken het samenspel tussen mens en natuur met film, sculptuur en installaties. Hun werk maakt ruimte voor andere levensvormen en voor nieuwe manieren om onze omgeving te ervaren.",
+      "tags": [
+        "hedendaagse kunst",
+        "videokunst",
+        "beeldhouwkunst",
+        "installaties",
+        "natuur",
+        "duurzaamheid"
+      ],
+      "photos": [],
+      "website_url": "https://www.projectspaceontheinside.org/more-naturocene",
+      "operating_status": "open",
+      "publication_status": "published",
+      "visit_notes": "Bezoekersingang: Tt. Melaniaweg 1, Amsterdam. Het postadres is een ander adres. Woensdag–vrijdag 10.00–17.00 uur, zaterdag–zondag 11.00–17.00 uur; controleer tickets en eventuele wijzigingen bij de instelling.",
+      "selection_reason": "Tijdelijk kunstprogramma met inhoudelijke aansluiting op de kunstselectie, bevestigde looptijd bij de organisator en een concrete bezoeklocatie.",
+      "sources": [
+        {
+          "url": "https://www.projectspaceontheinside.org/more-naturocene",
+          "provider": "Wekelijkse broncontrole 4 oktober 2026",
+          "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+          "evidence_fields": [
+            "name",
+            "summary",
+            "tags",
+            "starts_on",
+            "ends_on",
+            "visit_notes"
+          ]
+        },
+        {
+          "url": "https://www.projectspaceontheinside.org/",
+          "provider": "Aanvullende bron / selectieaanleiding",
+          "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+          "evidence_fields": [
+            "starts_on",
+            "ends_on"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Kampen",
+      "province": "Overijssel",
+      "street_address": "Oudestraat 133",
+      "latitude": 52.558867,
+      "longitude": 5.91659,
+      "coordinate_precision": "exact",
+      "coordinate_source": "Bestaande museumcoördinaten",
+      "id": "267f337c-8b40-5a58-bc2a-694d0b27f823",
+      "inventory_key": "event:2026-avercamp-kampen",
+      "name": "Avercamp terug in Kampen",
+      "category": "evenementen",
+      "museum_id": "d11204f0-0880-5d01-b334-a3a1cb0eea58",
+      "creator": "",
+      "year": "",
+      "starts_on": "2026-10-03",
+      "ends_on": "2027-01-10",
+      "summary": "Schaatsers, vissers en kooplieden brengen de wereld van Hendrick en Barent Avercamp dichtbij. Hun schilderijen en tekeningen keren terug naar Kampen, naast de IJssel die hun werk mede vormde. Kijk hoe winterpret en dagelijks leven samen een stad portretteren.",
+      "tags": [
+        "schilderkunst",
+        "tekenkunst",
+        "oude meesters",
+        "landschap",
+        "winter"
+      ],
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Interieur_Stedelijk_Museum_Kampen_DSCF5238.JPG/1280px-Interieur_Stedelijk_Museum_Kampen_DSCF5238.JPG",
+          "credit": "G.Lanting",
+          "caption": "Locatie: Stedelijk Museum Kampen (geen foto van de tentoonstelling)",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Interieur_Stedelijk_Museum_Kampen_DSCF5238.JPG"
+        }
+      ],
+      "website_url": "https://stedelijkmuseumkampen.nl/tentoonstellingen/avercamp/",
+      "operating_status": "open",
+      "publication_status": "published",
+      "visit_notes": "In het Historisch Raadhuis, Oudestraat 133 in Kampen. Het museum is vanaf 3 oktober 2026 weer geopend na verbouwing.",
+      "selection_reason": "Tijdelijk kunstprogramma met inhoudelijke aansluiting op de kunstselectie, bevestigde looptijd bij de organisator en een concrete bezoeklocatie.",
+      "sources": [
+        {
+          "url": "https://stedelijkmuseumkampen.nl/tentoonstellingen/avercamp/",
+          "provider": "Wekelijkse broncontrole 4 oktober 2026",
+          "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+          "evidence_fields": [
+            "name",
+            "summary",
+            "tags",
+            "starts_on",
+            "ends_on",
+            "visit_notes"
+          ]
+        },
+        {
+          "url": "https://kunstvensters.com/2026/10/01/10-tentoonstellingen-die-je-niet-wil-missen-in-oktober-2026/",
+          "provider": "Aanvullende bron / selectieaanleiding",
+          "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+          "evidence_fields": [
+            "starts_on",
+            "ends_on"
+          ]
+        }
+      ]
+    }
+  ]
+}

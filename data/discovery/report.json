@@ -9,7 +9,7 @@
       "archived": 0,
       "draft": 0,
       "with_photos": 79,
-      "precise_locations": 9,
+      "precise_locations": 17,
       "visible_on_research_date": 127
     },
     "beeldenparken": {
@@ -18,7 +18,7 @@
       "archived": 0,
       "draft": 0,
       "with_photos": 10,
-      "precise_locations": 27,
+      "precise_locations": 28,
       "visible_on_research_date": 39
     },
     "architectuur": {
@@ -31,38 +31,18 @@
       "visible_on_research_date": 188
     },
     "evenementen": {
-      "total": 66,
-      "published": 66,
+      "total": 73,
+      "published": 73,
       "archived": 0,
       "draft": 0,
-      "with_photos": 63,
-      "precise_locations": 64,
-      "visible_on_research_date": 65
+      "with_photos": 69,
+      "precise_locations": 70,
+      "visible_on_research_date": 72
     }
   },
-  "total": 425,
-  "remaining_records": 321,
+  "total": 432,
+  "remaining_records": 312,
   "remaining": [
-    {
-      "id": "79d8dfc3-da90-57f3-89a0-5c5f03d5cc2f",
-      "inventory_key": "sleutelwerk:241",
-      "category": "openbare-kunst",
-      "name": "Love",
-      "website_url": "https://11fountains.nl/fonteinen/leeuwarden/",
-      "issues": [
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
-      ]
-    },
-    {
-      "id": "a27f565c-eab7-5fde-94c4-68507190110b",
-      "inventory_key": "sleutelwerk:239",
-      "category": "openbare-kunst",
-      "name": "De Walvis",
-      "website_url": "https://11fountains.nl/fonteinen/harlingen/",
-      "issues": [
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
-      ]
-    },
     {
       "id": "ec559317-ad1c-58c4-bce2-8118f292d3f2",
       "inventory_key": "sleutelwerk:221",
@@ -280,16 +260,6 @@
       ]
     },
     {
-      "id": "6a9f8059-9530-5bd7-b3b1-221976cf9699",
-      "inventory_key": "11fountains:ijlst",
-      "category": "openbare-kunst",
-      "name": "Onsterfelijke Bloemen – Rikka",
-      "website_url": "https://11fountains.nl/fonteinen/ijlst/",
-      "issues": [
-        "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
-      ]
-    },
-    {
       "id": "3fe0901e-4a52-56b4-b8f8-03e87f955703",
       "inventory_key": "public:www.sculptureinternationalrotterdam.nl/collectie/moments-contained:Moments Contained",
       "category": "openbare-kunst",
@@ -435,36 +405,6 @@
       ]
     },
     {
-      "id": "ad791f4e-cdf7-524d-905a-87c33149d031",
-      "inventory_key": "11fountains:sloten",
-      "category": "openbare-kunst",
-      "name": "Kievit",
-      "website_url": "https://11fountains.nl/fonteinen/sloten/",
-      "issues": [
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
-      ]
-    },
-    {
-      "id": "5f059e48-d495-5567-b589-d784305deb65",
-      "inventory_key": "11fountains:workum",
-      "category": "openbare-kunst",
-      "name": "De Woeste Leeuwen van Workum",
-      "website_url": "https://11fountains.nl/fonteinen/workum/",
-      "issues": [
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
-      ]
-    },
-    {
-      "id": "7e2e546b-d5de-55dd-9667-da25104ad7e2",
-      "inventory_key": "11fountains:sneek",
-      "category": "openbare-kunst",
-      "name": "De Fontein van Fortuna",
-      "website_url": "https://11fountains.nl/fonteinen/sneek/",
-      "issues": [
-        "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
-      ]
-    },
-    {
       "id": "bad119a8-6a2e-58d0-974e-d1134e2b8a21",
       "inventory_key": "11fountains:bolsward",
       "category": "openbare-kunst",
@@ -475,24 +415,13 @@
       ]
     },
     {
-      "id": "0bfeb0bb-b663-5a32-b781-6c6d9230d1d7",
-      "inventory_key": "11fountains:franeker",
-      "category": "openbare-kunst",
-      "name": "De Oortwolk",
-      "website_url": "https://11fountains.nl/fonteinen/franeker/",
-      "issues": [
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
-      ]
-    },
-    {
       "id": "0b88d7ba-4ce0-59e6-aedc-adc901d938d6",
       "inventory_key": "11fountains:stavoren",
       "category": "openbare-kunst",
       "name": "De Vis voor Stavoren",
       "website_url": "https://11fountains.nl/fonteinen/stavoren/",
       "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
-        "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]
     },
     {
@@ -1408,16 +1337,6 @@
       "website_url": "https://www.museumarnhem.nl/nl/tentoonstellingen/beeldentuin",
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
-      ]
-    },
-    {
-      "id": "827bf88a-7e59-56a0-8cdc-4445a32fa2cc",
-      "inventory_key": "garden:Odapark",
-      "category": "beeldenparken",
-      "name": "Odapark – beeldentuin",
-      "website_url": "https://www.odapark.nl/",
-      "issues": [
-        "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
       ]
     },
     {
@@ -2516,6 +2435,17 @@
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
         "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "98f9e090-d4ba-5d5b-b71d-1099f4005c85",
+      "inventory_key": "event:2026-naturocene",
+      "category": "evenementen",
+      "name": "Naturocene – Ways to Fall in Love with the Earth",
+      "website_url": "https://www.projectspaceontheinside.org/more-naturocene",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
       ]
     }
   ]

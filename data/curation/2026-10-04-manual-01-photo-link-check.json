@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-10-03T23:12:46.333104+00:00",
+  "method": "Eenmalige hercontrole met door Wikimedia aangeboden 330px-thumbnails; HEAD, serieel met pauze.",
+  "results": [
+    {
+      "old_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Gang_Raadhuis_-_Corridor_City_Hall_Enschede_%284441097384%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Gang_Raadhuis_-_Corridor_City_Hall_Enschede_%284441097384%29.jpg/330px-Gang_Raadhuis_-_Corridor_City_Hall_Enschede_%284441097384%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "File:Gang_Raadhuis_-_Corridor_City_Hall_Enschede_(4441097384).jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "old_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Woningbouw_-_Housing_Haarlem_%286828949061%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Woningbouw_-_Housing_Haarlem_%286828949061%29.jpg/330px-Woningbouw_-_Housing_Haarlem_%286828949061%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "File:Woningbouw_-_Housing_Haarlem_(6828949061).jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "old_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Utrecht_Thinker_On_A_Rock_%282002%29%2C_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Utrecht_Thinker_On_A_Rock_%282002%29%2C_2.jpg/330px-Utrecht_Thinker_On_A_Rock_%282002%29%2C_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "File:Utrecht_Thinker_On_A_Rock_(2002),_2.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "old_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Tegelrelief_Ad_Dekkers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Tegelrelief_Ad_Dekkers_1.jpg/330px-Tegelrelief_Ad_Dekkers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "File:Tegelrelief_Ad_Dekkers_1.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "old_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Exterieur_BEELD_%27DE_DOKWERKER%27_%28MARI_ANDRIESSEN%2C_1950-%2752%29_OVERZICHT_-_Amsterdam_-_20372897_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Exterieur_BEELD_%27DE_DOKWERKER%27_%28MARI_ANDRIESSEN%2C_1950-%2752%29_OVERZICHT_-_Amsterdam_-_20372897_-_RCE.jpg/330px-Exterieur_BEELD_%27DE_DOKWERKER%27_%28MARI_ANDRIESSEN%2C_1950-%2752%29_OVERZICHT_-_Amsterdam_-_20372897_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "File:Exterieur_BEELD_'DE_DOKWERKER'_(MARI_ANDRIESSEN,_1950-'52)_OVERZICHT_-_Amsterdam_-_20372897_-_RCE.jpg",
+      "status": 200,
+      "content_type": "image/jpeg"
+    }
+  ],
+  "retry": []
+}
