@@ -1,3 +1,4 @@
+import {CoordinateFields} from '../ranking/CoordinateFields.tsx';
 import { getClient } from '../../../../../packages/data/src/client.ts';
 import { useEffect, useState, useRef, type ReactNode, type FormEvent } from 'react';
 import { provinces, wordCount, safeWebUrl, museumFieldErrors, type Museum, type MuseumInput, type MuseumSource, type Editorial } from '../../../../../packages/data/src/museums.ts';
@@ -36,7 +37,7 @@ export function MuseumForm({museum,existing,sources,editorial,canSave,onSave}:Pr
    <Field name="operating_status" label="Bedrijfsstatus" errors={errors}><select {...attrs('operating_status')} value={value.operating_status} onChange={e=>field('operating_status',e.target.value as MuseumInput['operating_status'])}><option value="unknown">Nog controleren</option><option value="open">Open</option><option value="temporarily_closed">Tijdelijk gesloten</option><option value="closed">Gesloten</option></select></Field>
    <Field name="publication_status" label="Publicatie" errors={errors}><select {...attrs('publication_status')} value={value.publication_status} onChange={e=>field('publication_status',e.target.value as MuseumInput['publication_status'])}><option value="draft">Concept</option><option value="review">Ter beoordeling</option><option value="published">Gepubliceerd</option><option value="archived">Archief</option></select></Field>
   </div>
-  <Field name="summary" label="Collectie" errors={errors}><textarea {...attrs('summary')} rows={4} maxLength={5000} value={value.summary} onChange={e=>field('summary',e.target.value)} /></Field>
+  <CoordinateFields value={value} includeNumbers={false} onChange={change=>{setValue(old=>({...old,...change}));setMessage('');}}/><Field name="summary" label="Collectie" errors={errors}><textarea {...attrs('summary')} rows={4} maxLength={5000} value={value.summary} onChange={e=>field('summary',e.target.value)} /></Field>
   <p className={wordCount(value.summary)>80?'notice':''} aria-live="polite">{wordCount(value.summary)} / 80 woorden</p>
   <fieldset id="museum-photos" tabIndex={-1} aria-invalid={Boolean(errors.photos)} aria-describedby={errors.photos?'error-photos':undefined}><legend>Foto’s</legend>{errors.photos&&<p className="field-error" id="error-photos">{errors.photos}</p>}<p>Voeg één of meer afbeeldingslinks toe. De eerste foto is de omslag.</p>
    {(value.photos??[]).map((photo,index)=><div className="photo-editor" key={index}>

@@ -1,3 +1,4 @@
+import {defaultRanking,type Coordinates,type RankingSettings} from '../../domain/src/ranking.ts';
 import {personalizedPage} from './personalized.ts';
 import { createClient, type SupabaseClient } from '@supabase/supabase-js';
 import { readPublicConfiguration } from '../../config/src/index.ts';
@@ -12,14 +13,14 @@ export function getClient(): Promise<SupabaseClient> {
   return createClient(config.supabaseUrl,config.supabasePublishableKey);
  })().catch(error=>{clientPromise=undefined;throw error;});
 }
-export async function listMuseums(client: SupabaseClient, search: string, province: string, editor=false, page=0, preferences:string[]=[]): Promise<{ rows: Museum[]; total: number }> {
+export async function listMuseums(client: SupabaseClient, search: string, province: string, editor=false, page=0, preferences:string[]=[],origin:Coordinates|null=null,settings:RankingSettings=defaultRanking): Promise<{ rows: Museum[]; total: number }> {
  let query=client.from('kk_museums').select('*',{count:'exact'}).eq('is_art_museum',true).order('name').order('id');
  if(!editor) query=query.eq('publication_status','published');
  if(province) query=query.eq('province',province);
  // Escape wildcards and PostgREST filter delimiters; never interpolate raw OR syntax.
  const needle=search.trim().replace(/[\\%_,().]/g,' ').slice(0,150);
  if(needle) query=query.ilike('name',`%${needle}%`);
- if(!editor&&preferences.length)return personalizedPage<Museum>((from,to)=>query.range(from,to),preferences,page,50);
+ if(!editor&&(preferences.length||origin))return personalizedPage<Museum>((from,to)=>query.range(from,to),preferences,page,50,origin,settings);
  const {data,error,count}=await query.range(page*50,page*50+49);
  if(error) throw new Error('Museumgegevens konden niet worden geladen.');
  return {rows:(data??[]) as Museum[],total:count??0};

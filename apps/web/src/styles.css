@@ -116,3 +116,16 @@ fieldset {border:1px solid var(--border);border-radius:10px;padding:12px;}
 @media(max-width:640px){.taste-options{grid-template-columns:1fr;}.taste-question{padding:14px;}.taste-question legend{font-size:20px;}}
 .profile-questions summary {cursor:pointer;text-decoration:underline;text-underline-offset:3px;}
 .profile-questions .taste-question {margin-top:28px;}
+
+.location-controls { border: 1px solid var(--line, #deddd9); border-radius: 16px; padding: 1.2rem 1.4rem; margin: 1rem 0 1.8rem; background: #faf9f6; }
+.location-controls .distance-toggle { display: flex; align-items: center; gap: .8rem; cursor: pointer; font-weight: 700; }
+.distance-toggle input[type="checkbox"] { width: 1.25rem; height: 1.25rem; flex: 0 0 auto; accent-color: #df173d; margin: 0; }
+.location-controls p { margin: .65rem 0; }
+.location-controls small { display: block; color: #696969; margin-top: .8rem; line-height: 1.6; }
+.location-status, .distance-label { color: #62482f; font-weight: 600; }
+.ranking-admin-link { display: block; padding: 1.5rem; border: 1px solid #ddd; border-radius: 16px; margin: 1.5rem 0; text-decoration: none; color: inherit; }
+.ranking-admin-link:hover { border-color: #df173d; }
+.ranking-admin-link span { text-decoration: underline; }
+.ranking-form { max-width: 760px; display: grid; gap: 1rem; }
+.ranking-preview { padding: 1.4rem; border-radius: 16px; background: #faf5ed; }
+.ranking-preview h3 { margin-top: 0; }

@@ -1,7 +1,8 @@
+import {type LocatedItem} from '../../domain/src/ranking.ts';
 export const provinces = ['Drenthe','Flevoland','Friesland','Gelderland','Groningen','Limburg','Noord-Brabant','Noord-Holland','Overijssel','Utrecht','Zeeland','Zuid-Holland'] as const;
 export interface MuseumPhoto { url: string; caption: string; credit: string; source_url: string; license: string }
 export const wordCount = (text:string) => text.trim() ? text.trim().split(/\s+/u).length : 0;
-export interface Museum {
+export interface Museum extends LocatedItem {
  id: string; inventory_key: string | null; name: string; city: string; province: string;
  street_address: string; postal_code: string; country: string; website_url: string;
  latitude: number | null; longitude: number | null; summary: string;

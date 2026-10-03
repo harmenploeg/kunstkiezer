@@ -133,3 +133,28 @@ test('Eenmalige publicatie publiceert uitsluitend concepten in de vijf keuzes en
  await assert.rejects(db.query('select * from kk_discovery_editorial'));await assert.rejects(db.query('select * from kk_museum_editorial'));
  }finally{await db.close();}
 });
+
+test('Rangschikking is publiek leesbaar, alleen redacteur schrijft, bewaart balans en voorkomt overschrijven',async()=>{
+ const db=await database();try{
+ await role(db,'anon');const original=(await db.query<{updated_at:Date;distance_weight:number}>('select * from public.kk_ranking_settings')).rows[0]!;assert.equal(original.distance_weight,70);
+ await assert.rejects(db.query('update public.kk_ranking_settings set distance_weight=50,tag_weight=50'));
+ await role(db,'authenticated',visitor);assert.equal((await db.query('update public.kk_ranking_settings set distance_weight=50,tag_weight=50 returning *')).rows.length,0);
+ await assert.rejects(db.query('select * from public.kk_save_ranking_settings(50,50,30,$1)',[original.updated_at]));
+ await role(db,'authenticated',editor);
+ await assert.rejects(db.query('select * from public.kk_save_ranking_settings(80,50,30,$1)',[original.updated_at]));
+ await assert.rejects(db.query('select * from public.kk_save_ranking_settings(50,50,0,$1)',[original.updated_at]));
+ const changed=(await db.query<{distance_weight:number}>('select * from public.kk_save_ranking_settings(60,40,40,$1)',[original.updated_at])).rows[0]!;assert.equal(changed.distance_weight,60);
+ await assert.rejects(db.query('select * from public.kk_save_ranking_settings(50,50,30,$1)',[original.updated_at]));
+ await role(db,'anon');assert.equal((await db.query<{tag_weight:number}>('select tag_weight from public.kk_ranking_settings')).rows[0]!.tag_weight,40);
+ }finally{await db.close();}
+});
+test('Coördinaten en nauwkeurigheid worden bewaard, ook bij opslaan door een oudere redactietool',async()=>{
+ const db=await database();try{await role(db,'authenticated',editor);
+ const input={category:'architectuur',name:'Gebouw',city:'Utrecht',province:'Utrecht',street_address:'',website_url:'',summary:'',creator:'',year:'',tags:['kunst'],photos:[],sources:[],selection_reason:'',visit_notes:'',museum_id:null,starts_on:null,ends_on:null,operating_status:'open',publication_status:'draft'};
+ const row=(await db.query<{id:string;updated_at:Date;latitude:number}>('select * from public.kk_save_discovery($1)',[{...input,latitude:52,longitude:5,coordinate_precision:'city',coordinate_source:'PDOK'}])).rows[0]!;assert.equal(row.latitude,52);
+ const changed=(await db.query<{id:string;updated_at:Date;latitude:number;coordinate_precision:string}>('select * from public.kk_save_discovery($1,$2,$3,$4)',[input,row.id,row.updated_at,'privé'])).rows[0]!;assert.equal(changed.latitude,52);assert.equal(changed.coordinate_precision,'city');
+ await assert.rejects(db.query('select * from public.kk_save_discovery($1,$2,$3,$4)',[{...input,latitude:52,longitude:null},row.id,changed.updated_at,'']));
+ const cleared=(await db.query<{latitude:null}>('select * from public.kk_save_discovery($1,$2,$3,$4)',[{...input,latitude:null,longitude:null},row.id,changed.updated_at,''])).rows[0]!;assert.equal(cleared.latitude,null);
+ const museum=(await db.query<{coordinate_precision:string}>('select * from public.kk_save_museum($1)',[{...payload,latitude:52,longitude:5,coordinate_precision:'address',coordinate_source:'PDOK'}])).rows[0]!;assert.equal(museum.coordinate_precision,'address');
+ }finally{await db.close();}
+});

@@ -1,3 +1,4 @@
+import {LocationControls} from '../ranking/LocationControls.tsx';
 import {useState,useEffect,type FormEvent} from 'react';
 import {preferenceQuestions,uniqueTags,type TasteProfile} from '../../../../../packages/domain/src/profile.ts';
 import {catalogueTags} from '../../../../../packages/domain/src/catalogue-tags.ts';
@@ -23,6 +24,6 @@ export function Profile({profile,onboarding=false}:{profile:TasteProfile;onboard
  <p>{onboarding?'Je mag meerdere antwoorden kiezen. Ze worden vertaald naar tags: meer overeenkomsten betekent een hogere plek in de resultaten. Het overige aanbod blijft beschikbaar.':'Meer overeenkomende tags geeft een hogere plek bij Ontdek kunst. Je kunt hieronder je voorkeuren aanpassen.'}</p>
  {onboarding?<>{questions}{tagEditor}</>:<>{tagEditor}<details className="profile-questions"><summary>Voorkeuren kiezen met de vragen</summary>{questions}</details></>}
 
- <p className="storage-note">Je profiel wordt op dit apparaat in deze browser bewaard. Je hebt geen account nodig. Na het invullen verdwijnt ‘Mijn kunstkeuze’; aanpassen kan altijd via ‘Mijn profiel’.</p>
+ <LocationControls/><p className="storage-note">Je profiel wordt op dit apparaat in deze browser bewaard. Je hebt geen account nodig. Na het invullen verdwijnt ‘Mijn kunstkeuze’; aanpassen kan altijd via ‘Mijn profiel’.</p>
  {message&&<p className="notice" role="status">{message}</p>}<div className="profile-actions"><button className="primary-button" type="submit">{onboarding?'Bewaar mijn smaak en ontdek kunst':'Profiel opslaan'}</button>{onboarding?<button type="button" onClick={()=>save(undefined,true)}>Ik sta overal voor open</button>:<a className="text-button" href={appHref('/agenda')}>Ontdek kunst →</a>}</div></form></>;
 }
