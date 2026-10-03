@@ -1,0 +1,8 @@
+project_id = "kunstkiezer"
+[api]
+enabled = true
+schemas = ["public"]
+[auth]
+enabled = true
+site_url = "https://kunstkiezer.pages.dev/kunstkiezer/"
+enable_signup = false
