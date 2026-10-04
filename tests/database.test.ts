@@ -182,3 +182,48 @@ test('Maandagbronnen zijn uitsluitend bewerkbaar door redacteurs; wijzigingen en
  assert.equal((await db.query('select * from public.kk_update_sources where id=$1',[row.id])).rows.length,0);
  }finally{await db.close();}
 });
+
+test('Accounts: eigen profiel en bezoeken, conflicten en geen inzage door beheerders',async()=>{
+ const db=await database();try{
+ await role(db,'authenticated',visitor);
+ const row=(await db.query<{updated_at:Date}>('select * from public.kk_save_profile($1,true,null)',[['fotografie']])).rows[0]!;
+ await db.query('insert into public.kk_seen(user_id,item_id,category,name,rating) values($1,$2,$3,$4,5)',[visitor,editor,'musea','Eigen bezoek']);
+ await assert.rejects(db.query('insert into public.kk_seen(user_id,item_id,category,name,rating) values($1,$2,$3,$4,6)',[visitor,visitor,'musea','Ongeldige score']));
+ await assert.rejects(db.query('insert into public.kk_profiles(user_id,tags) values($1,$2)',[editor,['ongewenst']]));
+ await db.query('select * from public.kk_save_profile($1,true,$2)',[['design'],row.updated_at]);
+ await assert.rejects(db.query('select * from public.kk_save_profile($1,true,$2)',[['oude gegevens'],row.updated_at]));
+ await role(db,'authenticated',editor);
+ assert.equal((await db.query('select * from public.kk_profiles')).rows.length,0);
+ assert.equal((await db.query('select * from public.kk_seen')).rows.length,0);
+ await role(db,'anon');await assert.rejects(db.query('select * from public.kk_profiles'));await assert.rejects(db.query('select * from public.kk_seen'));
+ }finally{await db.close();}
+});
+test('Beheerrechten: alleen beheerders mogen rollen wijzigen; laatste beheerder beschermd',async()=>{
+ const db=await database();try{
+ await role(db,'authenticated',visitor);await assert.rejects(db.query('select * from public.kk_list_members()'));await assert.rejects(db.query('select public.kk_set_admin($1,true)',[visitor]));
+ await role(db,'authenticated',editor);assert.equal((await db.query('select * from public.kk_list_members()')).rows.length,2);
+ await assert.rejects(db.query('select public.kk_set_admin($1,false)',[editor]));
+ await db.query('select public.kk_set_admin($1,true)',[visitor]);
+ await role(db,'authenticated',visitor);assert.equal((await db.query<{allowed:boolean}>('select public.kk_is_editor() allowed')).rows[0]?.allowed,true);
+ await db.query('select public.kk_set_admin($1,false)',[editor]);
+ await role(db,'authenticated',editor);await assert.rejects(db.query('select * from public.kk_list_members()'));
+ await db.exec('reset role');await assert.rejects(db.query('delete from auth.users where id=$1',[visitor]));
+ await db.query('delete from auth.users where id=$1',[editor]);
+ }finally{await db.close();}
+});
+test('Updates: alleen beheer kan aanvragen, deduplicatie, alleen vertrouwde runner, schema en zomertijd',async()=>{
+ const db=await database();try{
+ await role(db,'anon');await assert.rejects(db.query('select public.kk_request_update()'));
+ await role(db,'authenticated',visitor);await assert.rejects(db.query('select public.kk_request_update()'));assert.equal((await db.query('select * from public.kk_update_schedule')).rows.length,0);
+ await role(db,'authenticated',editor);
+ const first=(await db.query<{id:string}>('select public.kk_request_update() id')).rows[0]!.id;
+ assert.equal((await db.query<{id:string}>('select public.kk_request_update() id')).rows[0]!.id,first);
+ await assert.rejects(db.query('select * from kunstkiezer_private.claim_update()'));
+ await assert.rejects(db.query("update public.kk_update_runs set status='completed'"));
+ await db.query("update public.kk_update_schedule set weekday=2,local_time='11:30' where id");
+ await db.exec('reset role');assert.equal((await db.query('select * from kunstkiezer_private.claim_update()')).rows.length,1);assert.equal((await db.query('select * from kunstkiezer_private.claim_update()')).rows.length,0);
+ await db.query("update public.kk_update_runs set status='completed',finished_at=now() where id=$1",[first]);
+ const next=(await db.query<{due:Date}>("select kunstkiezer_private.next_update(1,'09:00','2026-10-24T12:00:00Z') due")).rows[0]!.due;
+ assert.equal(next.toISOString(),'2026-10-26T08:00:00.000Z');
+ }finally{await db.close();}
+});

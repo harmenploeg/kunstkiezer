@@ -1,18 +1,7 @@
 import {test,expect} from '@playwright/test';
 
-test('Inventaris en formulier zijn te bekijken; zonder database kan niets worden opgeslagen',async({page})=>{
- await page.goto('/kunstkiezer/beheer/musea');
- await expect(page.getByRole('heading',{name:'Musea beheren.'})).toBeVisible();
- await expect(page.getByText('Museuminventaris — nog niet verbonden met Supabase')).toBeVisible();
- await page.getByLabel('Zoek museum of plaats').fill('Rijksmuseum Amsterdam');
- await page.getByRole('button',{name:/Rijksmuseum Amsterdam/}).click();
- await expect(page.getByLabel('Naam',{exact:true})).toHaveValue('Rijksmuseum Amsterdam');
- await expect(page.getByLabel('Adres',{exact:true})).toHaveValue('Museumstraat 1');
- await expect(page.getByRole('link',{name:'Museum.nl ↗'})).toBeVisible();
- await page.getByLabel("Tags, gescheiden door komma's").fill('kunst, fotografie');
- await expect(page.getByLabel("Tags, gescheiden door komma's")).toHaveValue('kunst, fotografie');
- await expect(page.getByRole('button',{name:'Opslaan in Supabase'})).toBeDisabled();
- expect(await page.evaluate(()=>document.body.scrollWidth<=document.documentElement.clientWidth)).toBe(true);
+test('Gast ziet geen redactiefuncties, ook niet via een directe link',async({page})=>{
+ await page.goto('/kunstkiezer/beheer/musea');await expect(page.getByRole('link',{name:'Inloggen',exact:true})).toHaveCount(2);await expect(page.getByRole('heading',{name:'Musea beheren.'})).toHaveCount(0);await expect(page.getByRole('button',{name:'Opslaan in Supabase'})).toHaveCount(0);
 });
 
 test('Editor meldt aan en slaat museum plus notities via één Supabase-transactie op',async({page})=>{
@@ -27,6 +16,9 @@ test('Editor meldt aan en slaat museum plus notities via één Supabase-transact
   const cors={'access-control-allow-origin':'*','access-control-allow-headers':'*','access-control-allow-methods':'GET,POST,PATCH,OPTIONS'};
   if(route.request().method()==='OPTIONS'){await route.fulfill({status:204,headers:cors});return;}
   async function reply(json:unknown,extra:Record<string,string>={}){await route.fulfill({json,headers:{...cors,...extra}});}
+  if(path==='/auth/v1/user'){await reply(user);return;}
+  if(path.endsWith('/kk_profiles')){await reply(null);return;}
+  if(path.endsWith('/kk_seen')){await reply([]);return;}
   if(path==='/auth/v1/token'){await reply({access_token:token,refresh_token:'test-refresh',token_type:'bearer',expires_in:3600,user});return;}
   if(path==='/rest/v1/rpc/kk_is_editor'){await reply(true);return;}
   if(path==='/rest/v1/kk_museums'){await reply([museum],{'content-range':'0-0/1'});return;}
@@ -42,10 +34,10 @@ test('Editor meldt aan en slaat museum plus notities via één Supabase-transact
   }
   await reply({});
  });
- await page.goto('/kunstkiezer/beheer/musea');
+ await page.goto('/kunstkiezer/account');
  await page.getByLabel('E-mail',{exact:true}).fill('editor@example.test');
  await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');
- await page.getByRole('button',{name:'Aanmelden met wachtwoord',exact:true}).click();
+ await page.locator('form').getByRole('button',{name:'Inloggen',exact:true}).click();await expect(page.getByText('Ingelogd als')).toBeVisible();await page.goto('/kunstkiezer/beheer/musea');
  await page.getByRole('button',{name:/Testmuseum Utrecht/}).click();
  await page.getByLabel('Publicatie',{exact:true}).selectOption('published');
  await page.getByLabel('Plaats',{exact:true}).fill('');

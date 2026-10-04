@@ -1,21 +1,188 @@
-import {SourceAdmin} from '../management/SourceAdmin.tsx';
-import {useEffect,useState,type FormEvent} from 'react';
-import type {SupabaseClient} from '@supabase/supabase-js';
-import {getClient} from '../../../../../packages/data/src/client.ts';
-import {readRankingSettings,saveRankingSettings} from '../../../../../packages/data/src/ranking.ts';
-import {defaultRanking,recommendationScore,type RankingSettings} from '../../../../../packages/domain/src/ranking.ts';
-import {useRecommendations} from './RecommendationContext.tsx';
-export function RankingAdmin(){
- const [client,setClient]=useState<SupabaseClient|null>(null),[mode,setMode]=useState('loading'),[value,setValue]=useState<RankingSettings>(defaultRanking),[email,setEmail]=useState(''),[password,setPassword]=useState(''),[message,setMessage]=useState(''),[saving,setSaving]=useState(false);
- const {refreshSettings}=useRecommendations();
- useEffect(()=>{let active=true;let off:(()=>void)|undefined;async function inspect(c:SupabaseClient){try{const {data}=await c.auth.getSession();if(!data.session){if(active)setMode('login');return;}const role=await c.rpc('kk_is_editor');if(role.data!==true){if(active)setMode('denied');return;}const settings=await readRankingSettings(c);if(active){setValue(settings);setMode('editor');}}catch{if(active){setMode('error');setMessage('De instellingen konden niet worden geladen. Herlaad de pagina om opnieuw te proberen.');}}}getClient().then(async c=>{if(!active)return;setClient(c);await inspect(c);const {data}=c.auth.onAuthStateChange(()=>{setTimeout(()=>{if(active)void inspect(c);},0);});off=()=>data.subscription.unsubscribe();}).catch(()=>{if(active){setMode('error');setMessage('Geen databaseverbinding.');}});return()=>{active=false;off?.();};},[]);
- async function login(e:FormEvent){e.preventDefault();if(!client)return;const {error}=await client.auth.signInWithPassword({email,password});setPassword('');setMessage(error?'Aanmelden is niet gelukt. Controleer je gegevens.':'');}
- async function save(e:FormEvent){e.preventDefault();if(!client||!value.updated_at)return;setSaving(true);setMessage('');try{setValue(await saveRankingSettings(client,value,value.updated_at));await refreshSettings();setMessage('Opgeslagen. Deze instellingen gelden voor alle vijf categorieën.');}catch(e){setMessage(e instanceof Error?e.message:'Opslaan mislukt.');}finally{setSaving(false);}}
- const near=recommendationScore(1,6,10,value),far=recommendationScore(6,6,250,value);
- return <><a className="back-link" href="/kunstkiezer/beheer">← Alle verzamelingen</a><header className="page-heading"><p className="eyebrow">Redactie</p><h1>Beheer<span className="accent">.</span></h1><p>Beheer de weging van afstand en tags en de bronnen voor de maandagupdate.</p></header>
- {mode==='loading'&&<p role="status">Instellingen laden…</p>}
- {mode==='login'&&<form className="login-form" onSubmit={e=>void login(e)}><h2>Aanmelden als redacteur</h2><label>E-mail<input type="email" required autoComplete="username" value={email} onChange={e=>setEmail(e.target.value)}/></label><label>Wachtwoord<input type="password" required autoComplete="current-password" value={password} onChange={e=>setPassword(e.target.value)}/></label><button className="primary-button">Aanmelden met wachtwoord</button><button type="button" onClick={async()=>{if(!email.trim()||!client){setMessage('Vul je e-mailadres in.');return;}const {error}=await client.auth.signInWithOtp({email,options:{shouldCreateUser:false,emailRedirectTo:window.location.origin+'/kunstkiezer/beheer/instellingen'}});setMessage(error?'De aanmeldlink kon niet worden verstuurd.':'Aanmeldlink aangevraagd. Bekijk je e-mail.');}}>Stuur mij een aanmeldlink</button></form>}
- {mode==='denied'&&<p>Dit account heeft geen redactierechten.</p>}
- {mode==='editor'&&<form className="ranking-form" onSubmit={e=>void save(e)}><h2>Afstand en smaak</h2><p>Afstand en smaak vormen samen 100%. De bezoeker kan afstand altijd uitzetten. Dan tellen alleen passende tags mee.</p><div className="form-grid"><label>Gewicht afstand (%)<input type="number" min="0" max="100" step="1" required value={value.distance_weight} onChange={e=>{const n=e.target.valueAsNumber;setValue(v=>({...v,distance_weight:n,tag_weight:100-n}));setMessage('');}}/></label><label>Gewicht smaak (%)<input type="number" min="0" max="100" step="1" required value={value.tag_weight} onChange={e=>{const n=e.target.valueAsNumber;setValue(v=>({...v,tag_weight:n,distance_weight:100-n}));setMessage('');}}/></label></div><label>Afstandsbereik (km)<input type="number" min="1" max="500" step="1" required value={value.distance_scale_km} onChange={e=>{setValue(v=>({...v,distance_scale_km:e.target.valueAsNumber}));setMessage('');}}/></label><p className="muted">Op deze afstand is de afstandsscore gehalveerd. Een kleiner bereik geeft meer voorrang aan plekken dichtbij. Afstanden zijn hemelsbreed; adressen en plaatsen kunnen een schatting opleveren.</p><div className="ranking-preview" aria-live="polite"><h3>Voorbeeld bij zes voorkeurstags</h3><p>10 km · 1 passende tag: <strong>{near.toFixed(1)} punten</strong></p><p>250 km · 6 passende tags: <strong>{far.toFixed(1)} punten</strong></p><p><strong>{near===far?'Beide krijgen dezelfde score.':near>far?'De plek op 10 km komt bovenaan.':'De plek op 250 km komt bovenaan.'}</strong></p></div><button className="primary-button" disabled={saving}>{saving?'Opslaan…':'Instellingen opslaan'}</button></form>}
- {message&&<p className="notice" role="status">{message}</p>}{mode==='editor'&&client&&<SourceAdmin client={client}/>}</>;
+import { useAuth } from "../account/AuthContext.tsx";
+import { UpdateAdmin, UserAdmin } from "../management/UpdateAdmin.tsx";
+import { SourceAdmin } from "../management/SourceAdmin.tsx";
+import { useEffect, useState, type FormEvent } from "react";
+import {
+  readRankingSettings,
+  saveRankingSettings,
+} from "../../../../../packages/data/src/ranking.ts";
+import {
+  defaultRanking,
+  recommendationScore,
+  type RankingSettings,
+} from "../../../../../packages/domain/src/ranking.ts";
+import { useRecommendations } from "./RecommendationContext.tsx";
+export function RankingAdmin() {
+  const { client } = useAuth();
+  const [value, setValue] = useState<RankingSettings>(defaultRanking),
+    [message, setMessage] = useState(""),
+    [saving, setSaving] = useState(false),
+    [mode, setMode] = useState("loading");
+  const { refreshSettings } = useRecommendations();
+  useEffect(() => {
+    let active = true;
+    if (client)
+      readRankingSettings(client)
+        .then((v) => {
+          if (active) {
+            setValue(v);
+            setMode("editor");
+          }
+        })
+        .catch(() => {
+          if (active) {
+            setMode("error");
+            setMessage(
+              "Instellingen konden niet worden geladen. Herlaad de pagina.",
+            );
+          }
+        });
+    return () => {
+      active = false;
+    };
+  }, [client]);
+  async function save(e: FormEvent) {
+    e.preventDefault();
+    if (!client || !value.updated_at) return;
+    setSaving(true);
+    setMessage("");
+    try {
+      setValue(await saveRankingSettings(client, value, value.updated_at));
+      await refreshSettings();
+      setMessage(
+        "Opgeslagen. Deze instellingen gelden voor alle vijf categorieën.",
+      );
+    } catch (e) {
+      setMessage(e instanceof Error ? e.message : "Opslaan mislukt.");
+    } finally {
+      setSaving(false);
+    }
+  }
+  const near = recommendationScore(1, 6, 10, value),
+    far = recommendationScore(6, 6, 250, value);
+  return (
+    <>
+      <a className="back-link" href="/kunstkiezer/beheer">
+        ← Alle verzamelingen
+      </a>
+      <header className="page-heading">
+        <p className="eyebrow">Redactie</p>
+        <h1>
+          Beheer<span className="accent">.</span>
+        </h1>
+        <p>
+          Beheer de weging van afstand en tags en de updatebronnen, het schema
+          en de gebruikers.
+        </p>
+      </header>
+      {mode === "loading" && <p role="status">Instellingen laden…</p>}
+      {mode === "editor" && (
+        <form className="ranking-form" onSubmit={(e) => void save(e)}>
+          <h2>Afstand en smaak</h2>
+          <p>
+            Afstand en smaak vormen samen 100%. De bezoeker kan afstand altijd
+            uitzetten. Dan tellen alleen passende tags mee.
+          </p>
+          <div className="form-grid">
+            <label>
+              Gewicht afstand (%)
+              <input
+                type="number"
+                min="0"
+                max="100"
+                step="1"
+                required
+                value={value.distance_weight}
+                onChange={(e) => {
+                  const n = e.target.valueAsNumber;
+                  setValue((v) => ({
+                    ...v,
+                    distance_weight: n,
+                    tag_weight: 100 - n,
+                  }));
+                  setMessage("");
+                }}
+              />
+            </label>
+            <label>
+              Gewicht smaak (%)
+              <input
+                type="number"
+                min="0"
+                max="100"
+                step="1"
+                required
+                value={value.tag_weight}
+                onChange={(e) => {
+                  const n = e.target.valueAsNumber;
+                  setValue((v) => ({
+                    ...v,
+                    tag_weight: n,
+                    distance_weight: 100 - n,
+                  }));
+                  setMessage("");
+                }}
+              />
+            </label>
+          </div>
+          <label>
+            Afstandsbereik (km)
+            <input
+              type="number"
+              min="1"
+              max="500"
+              step="1"
+              required
+              value={value.distance_scale_km}
+              onChange={(e) => {
+                setValue((v) => ({
+                  ...v,
+                  distance_scale_km: e.target.valueAsNumber,
+                }));
+                setMessage("");
+              }}
+            />
+          </label>
+          <p className="muted">
+            Op deze afstand is de afstandsscore gehalveerd. Een kleiner bereik
+            geeft meer voorrang aan plekken dichtbij. Afstanden zijn
+            hemelsbreed; adressen en plaatsen kunnen een schatting opleveren.
+          </p>
+          <div className="ranking-preview" aria-live="polite">
+            <h3>Voorbeeld bij zes voorkeurstags</h3>
+            <p>
+              10 km · 1 passende tag: <strong>{near.toFixed(1)} punten</strong>
+            </p>
+            <p>
+              250 km · 6 passende tags: <strong>{far.toFixed(1)} punten</strong>
+            </p>
+            <p>
+              <strong>
+                {near === far
+                  ? "Beide krijgen dezelfde score."
+                  : near > far
+                    ? "De plek op 10 km komt bovenaan."
+                    : "De plek op 250 km komt bovenaan."}
+              </strong>
+            </p>
+          </div>
+          <button className="primary-button" disabled={saving}>
+            {saving ? "Opslaan…" : "Instellingen opslaan"}
+          </button>
+        </form>
+      )}
+      {message && (
+        <p className="notice" role="status">
+          {message}
+        </p>
+      )}
+      {mode === "editor" && client && (
+        <>
+          <SourceAdmin client={client} />
+          <UpdateAdmin />
+          <UserAdmin />
+        </>
+      )}
+    </>
+  );
 }

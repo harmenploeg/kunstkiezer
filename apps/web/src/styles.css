@@ -139,3 +139,22 @@ fieldset {border:1px solid var(--border);border-radius:10px;padding:12px;}
 .source-checkbox {display:flex;align-items:center;gap:10px;}
 .source-checkbox input {width:auto;}
 @media(max-width:760px){.source-list{grid-template-columns:1fr;}}
+/* Account, history and management reuse the catalogue's typography and controls. */
+.account-panel {margin-block:2.5rem;padding-block:1.5rem;border-top:1px solid var(--border,#ddd)}
+.account-modes,.catalog-actions,.share-options {display:flex;flex-wrap:wrap;gap:.75rem;align-items:center}
+.account-modes {margin-block:1.5rem}
+.account-modes [aria-pressed="true"] {border-color:var(--accent,#df1940);box-shadow:inset 0 -3px var(--accent,#df1940)}
+.catalog-actions {margin-top:1.5rem;padding-top:1rem;border-top:1px solid #ddd}
+.catalog-actions small {flex-basis:100%;color:#646464}
+.catalog-actions dialog {text-align:left}
+.catalog-actions dialog input {width:100%;box-sizing:border-box}
+.dialog,dialog {border:1px solid #ddd;border-radius:1rem;padding:clamp(1rem,4vw,2rem);max-width:min(90vw,38rem);max-height:85dvh;overflow:auto;color:inherit;background:#fff}
+dialog::backdrop {background:rgb(0 0 0 / .45)}
+.stars {display:flex;gap:.25rem;margin-block:1.5rem}
+.stars button {font-size:2.1rem;min-width:44px;padding:.35rem;color:#b31636}
+.stars [aria-pressed="true"] {outline:2px solid #b31636;outline-offset:2px}
+.share-options {margin-bottom:1rem}
+.member-list,.update-runs {padding:0;list-style:none}
+.member-list li {display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1rem;padding:1rem 0;border-bottom:1px solid #ddd;overflow-wrap:anywhere}
+.update-runs li {border-bottom:1px solid #ddd;padding-block:1rem}
+@media(max-width:600px){.main-nav{flex-wrap:wrap}.stars button{font-size:1.7rem}.catalog-actions{align-items:stretch}.catalog-actions>button{flex:1}}

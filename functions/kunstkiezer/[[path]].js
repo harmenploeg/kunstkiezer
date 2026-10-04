@@ -1,5 +1,5 @@
 const PAGES = new Set([
- "/", "/agenda", "/geschiedenis", "/profiel", "/agenda/musea", "/beheer/musea",
+ "/account", "/account-verwijderen", "/bekijk", "/", "/agenda", "/geschiedenis", "/profiel", "/agenda/musea", "/beheer/musea",
  "/beheer/instellingen", "/beheer/volgorde", "/beheer", "/beheer/openbare-kunst", "/beheer/beeldenparken", "/beheer/architectuur", "/beheer/evenementen", "/agenda/evenementen",
  "/agenda/openbare-kunst", "/agenda/beeldenparken", "/agenda/architectuur"
 ]);
@@ -12,7 +12,7 @@ export async function onRequest({request,env}) {
  if(!page&&!relative.startsWith('/assets/')&&!['/inventory.json','/art-inventory.json','/inventory.csv','/inventory-report.json','/openbare-kunst.json','/beeldenparken.json','/architectuur.json','/evenementen.json'].includes(relative))return new Response('Niet gevonden',{status:404});
  if(page)url.pathname='/kunstkiezer/';
  const asset=await env.ASSETS.fetch(new Request(url,request));
- const headers=new Headers(asset.headers);headers.set('X-Robots-Tag','noindex, nofollow');headers.set('X-Content-Type-Options','nosniff');
+ const headers=new Headers(asset.headers);headers.set('Referrer-Policy','strict-origin-when-cross-origin');headers.set('X-Robots-Tag','noindex, nofollow');headers.set('X-Content-Type-Options','nosniff');
  if(page){headers.set('Cache-Control','no-store');headers.set('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https: http:; connect-src 'self' https://*.supabase.co; object-src 'none'; base-uri 'self'; frame-ancestors 'none'");}
  return new Response(request.method==='HEAD'?null:asset.body,{status:asset.status,headers});
 }

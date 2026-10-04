@@ -43,6 +43,10 @@ test('Redacteur kan gewichten opslaan en het voorbeeld verandert direct',async({
  const path=new URL(route.request().url()).pathname;const headers={'access-control-allow-origin':'*','access-control-allow-headers':'*','access-control-allow-methods':'GET,POST,OPTIONS'};
  if(route.request().method()==='OPTIONS'){await route.fulfill({status:204,headers});return;}
  const reply=(json:unknown)=>route.fulfill({headers,json});
+ if(path==='/auth/v1/user')return reply(user);
+ if(path.endsWith('/kk_profiles'))return reply(null);
+ if(path.endsWith('/kk_seen')||path.endsWith('/kk_list_members')||path.endsWith('/kk_update_runs'))return reply([]);
+ if(path.endsWith('/kk_update_schedule'))return reply({enabled:true,weekday:1,local_time:'09:00',next_due:'2026-10-05T07:00:00Z',updated_at:'v1'});
  if(path==='/auth/v1/token')return reply({access_token:token,refresh_token:'test',token_type:'bearer',expires_in:3600,user});
  if(path.endsWith('/kk_is_editor'))return reply(true);
  if(path.endsWith('/kk_update_sources'))return reply([]);
@@ -50,7 +54,7 @@ test('Redacteur kan gewichten opslaan en het voorbeeld verandert direct',async({
  if(path.endsWith('/kk_save_ranking_settings')){const input=route.request().postDataJSON();expect(input.expected_updated_at).toBe(settings.updated_at);settings={distance_weight:input.distance_weight,tag_weight:input.tag_weight,distance_scale_km:input.distance_scale_km,updated_at:'2026-10-03T01:00:00Z'};saves++;return reply(settings);}
  return reply({});
  });
- await page.goto('/kunstkiezer/beheer');await page.getByRole('link',{name:/Open beheer/}).click();await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');await page.getByRole('button',{name:'Aanmelden met wachtwoord'}).click();await expect(page.getByText('De plek op 10 km komt bovenaan.')).toBeVisible();
+ await page.goto('/kunstkiezer/account');await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');await page.locator('form').getByRole('button',{name:'Inloggen'}).click();await expect(page.getByText('Ingelogd als')).toBeVisible();await page.goto('/kunstkiezer/beheer/instellingen');await expect(page.getByText('De plek op 10 km komt bovenaan.')).toBeVisible();
  await page.getByLabel('Gewicht smaak (%)',{exact:true}).fill('90');await expect(page.getByLabel('Gewicht afstand (%)',{exact:true})).toHaveValue('10');await expect(page.getByText('De plek op 250 km komt bovenaan.')).toBeVisible();await page.getByRole('button',{name:'Instellingen opslaan'}).click();await expect(page.getByText('Opgeslagen. Deze instellingen gelden voor alle vijf categorieën.')).toBeVisible();expect(saves).toBe(1);expect(settings.tag_weight).toBe(90);
  expect(await page.evaluate(()=>document.body.scrollWidth<=document.documentElement.clientWidth)).toBe(true);
  await page.screenshot({path:`work/distance/admin-${test.info().project.name}.png`,fullPage:true});
