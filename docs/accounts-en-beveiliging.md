@@ -37,7 +37,7 @@ Aanbevolen volgende beveiligingsstap: MFA voor beheerders en gecontroleerde back
 
 ## Terugkerende controle
 
-De beveiligingscontrole wordt dagelijks uitgevoerd via een afzonderlijke lokale Codex-achtergrondtaak. Controleer wijzigingen en afhankelijkheden, Supabase security advisors, anonieme toegang, rechtenregels, Auth-instellingen en productiecontroles. Meld nieuwe of verslechterde bevindingen en blokkades; herhaal ongewijzigde bevindingen niet dagelijks. De computer, Codex en benodigde verbindingen moeten beschikbaar zijn. Dit is periodieke controle, geen continu intrusion-detectionsysteem. Bewaar alleen technische bevindingen zonder credentials of bezoekersgegevens.
+De beveiligingscontrole wordt wekelijks op maandag om 08.00 uur uitgevoerd via een afzonderlijke lokale Codex-achtergrondtaak. Controleer wijzigingen en afhankelijkheden, Supabase security advisors, anonieme toegang, rechtenregels, Auth-instellingen en productiecontroles. Meld nieuwe of verslechterde bevindingen en blokkades; herhaal ongewijzigde bevindingen niet iedere week. De computer, Codex en benodigde verbindingen moeten beschikbaar zijn. Dit is periodieke controle, geen continu intrusion-detectionsysteem. Bewaar alleen technische bevindingen zonder credentials of bezoekersgegevens.
 
 ## Kaart, rangschikking en tagbeheer (4 oktober 2026)
 
@@ -53,4 +53,4 @@ Kaartstippen vereisen voldoende nauwkeurige objectcoördinaten. Plaatscentra wor
 
 `disappeared` is de redactiestatus Verdwenen. Alleen gepubliceerd en open aanbod is publiek leesbaar (en kunstmusea binnen musea); evenementen hebben daarnaast een datumvenster. Verdwenen, gesloten, tijdelijk gesloten en nog onbekende bezoekstatus komen niet in overzichten of anonieme detailaanvragen. Een onbereikbare URL is geen bewijs dat een onderwerp verdwenen is. Broncontrole en wijzigingen worden per record vastgelegd.
 
-Automatische inhouds- en beveiligingscontroles zijn met toestemming verplaatst van deze chat naar afzonderlijke achtergrondtaken. Het bestaande wachtrijprotocol blijft gelden; fouten kunnen een melding geven. SMTP is op verzoek voorlopig niet aangepakt.
+Automatische inhouds- en beveiligingscontroles zijn met toestemming verplaatst van deze chat naar afzonderlijke achtergrondtaken. Het bestaande wachtrijprotocol blijft gelden; fouten kunnen een melding geven. Uitvoeringen verplaatsen zichzelf bij de start naar de aparte zijbalksectie Achtergrondtaken en archiveren zichzelf na afloop. Hierdoor blijven afgeronde uitvoeringen niet in Recent staan; tijdens het starten kan een taak kort zichtbaar zijn. SMTP is op verzoek voorlopig niet aangepakt.
