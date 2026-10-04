@@ -1,0 +1,1353 @@
+{
+  "run_id": "bba51f0f-447d-4419-9b07-8fdcf72bfb6a",
+  "sources_snapshot": [
+    {
+      "id": "11fountains",
+      "name": "11fountains",
+      "url": "https://11fountains.nl/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047284+00"
+    },
+    {
+      "id": "krant-ad",
+      "name": "AD (landelijke editie)",
+      "url": "https://www.ad.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.432535+00"
+    },
+    {
+      "id": "architectuur-org",
+      "name": "Architectuur.ORG",
+      "url": "https://www.architectuur.org/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047313+00"
+    },
+    {
+      "id": "architectuurgids",
+      "name": "Architectuurgids Top 100",
+      "url": "https://www.architectuurgids.nl/project/list_projects_of_tag/tag_id/15",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.0473+00"
+    },
+    {
+      "id": "beeldentuinen-inventarisatie",
+      "name": "Beeldentuinen · provinciale inventarisatie",
+      "url": "",
+      "notes": "Wekelijks ontbrekende locaties zoeken volgens docs/selectie-beeldentuinen.md en data/curation/garden-coverage.json. Per provincie zoeken op beeldentuin, beeldenpark, sculpturentuin, beeldenbos, galerie/atelier met tuin, museumtuin en beeldenroute. Minimaal twee bronsoorten: regionale VVV/gemeente en eigenaar/kunstenaars-/tuinenroute. Ook kleine tuinen en bezoek op afspraak. Controleer seizoen, ticketbeschikbaarheid en definitieve sluiting apart; bronnen en uitsluitingen per kandidaat bewaren. Alle categorieën beoordelen.",
+      "enabled": true,
+      "updated_at": "2026-10-04 20:03:13.702773+00"
+    },
+    {
+      "id": "bezoekmijntuin",
+      "name": "Bezoekmijntuin · tuinen en open dagen",
+      "url": "https://www.bezoekmijntuin.nl/",
+      "notes": "Wekelijks nieuwe beeldentuinen en open-tuinenroutes zoeken, per provincie en gemeente. Ook atelier- en galerietuinen. Huidig jaar en bezoek op afspraak bij eigenaar verifiëren. Geen gewone siertuin zonder meerdere kunstwerken opnemen. Alle relevante categorieën beoordelen.",
+      "enabled": true,
+      "updated_at": "2026-10-04 20:03:13.703621+00"
+    },
+    {
+      "id": "krant-telegraaf",
+      "name": "De Telegraaf",
+      "url": "https://www.telegraaf.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.432518+00"
+    },
+    {
+      "id": "krant-volkskrant",
+      "name": "de Volkskrant",
+      "url": "https://www.volkskrant.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.432386+00"
+    },
+    {
+      "id": "municipal-collections",
+      "name": "Gemeentelijke kunstcollecties en monumenteninformatie",
+      "url": "",
+      "notes": "Gemeentelijke inventarissen en locatiespecifieke projectpagina’s",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.046458+00"
+    },
+    {
+      "id": "krant-fd",
+      "name": "Het Financieele Dagblad",
+      "url": "https://fd.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.432613+00"
+    },
+    {
+      "id": "krant-parool",
+      "name": "Het Parool (aanvullend: Amsterdam)",
+      "url": "https://www.parool.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.43438+00"
+    },
+    {
+      "id": "rdmz100",
+      "name": "Historische RDMZ Top 100",
+      "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
+      "notes": "Een historisch geselecteerd gebouw is niet vanzelf openbaar toegankelijk of een kunstmuseum.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047923+00"
+    },
+    {
+      "id": "instagram-cathelijneblok",
+      "name": "Instagram · cathelijneblok",
+      "url": "https://www.instagram.com/cathelijneblok/",
+      "notes": "Wekelijks nieuwe posts en reels sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle: laatste 28 dagen. Bewaar bericht-URL en publicatiedatum, beoordeel alle categorieën, verifieer bij primaire bron. Stories alleen indien nog toegankelijk. Eerdere poging 4 oktober 2026 betrof alleen de tekst-ophaaltool; dit was geen browsercontrole. Een mislukte toegang of zoekfragment is geen volledige accountcontrole. Leg per volgende run bereikbare periode en beperkingen vast.\n\nWerkwijze: bezoek dit account in de gewone browser (JavaScript en beschikbare browsersessie), sluit wegklikbare aanmeldpopups en kies zo nodig alleen noodzakelijke cookies. Open afzonderlijke posts/reels; lees bijschrift en datum (ook bij vastgezette posts) en bewaar de permalink. Een fout van de tekst-ophaaltool bewijst geen ontoegankelijkheid. Meld alleen concreet waargenomen browserbeperkingen; vraag om inloggen als dat werkelijk nodig is. Geen sessietokens of wachtwoorden bewaren.",
+      "enabled": true,
+      "updated_at": "2026-10-04 19:13:00.803254+00"
+    },
+    {
+      "id": "instagram-dutchgirlsinmuseums",
+      "name": "Instagram · dutchgirlsinmuseums",
+      "url": "https://www.instagram.com/dutchgirlsinmuseums/",
+      "notes": "Wekelijks nieuwe posts en reels sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle: laatste 28 dagen. Bewaar bericht-URL en publicatiedatum, beoordeel alle categorieën, verifieer bij primaire bron. Stories alleen indien nog toegankelijk. Eerdere poging 4 oktober 2026 betrof alleen de tekst-ophaaltool; dit was geen browsercontrole. Een mislukte toegang of zoekfragment is geen volledige accountcontrole. Leg per volgende run bereikbare periode en beperkingen vast.\n\nWerkwijze: bezoek dit account in de gewone browser (JavaScript en beschikbare browsersessie), sluit wegklikbare aanmeldpopups en kies zo nodig alleen noodzakelijke cookies. Open afzonderlijke posts/reels; lees bijschrift en datum (ook bij vastgezette posts) en bewaar de permalink. Een fout van de tekst-ophaaltool bewijst geen ontoegankelijkheid. Meld alleen concreet waargenomen browserbeperkingen; vraag om inloggen als dat werkelijk nodig is. Geen sessietokens of wachtwoorden bewaren.",
+      "enabled": true,
+      "updated_at": "2026-10-04 19:13:00.805815+00"
+    },
+    {
+      "id": "instagram-kunstmaartje",
+      "name": "Instagram · kunstmaartje",
+      "url": "https://www.instagram.com/kunstmaartje/",
+      "notes": "Wekelijks nieuwe posts en reels sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle: laatste 28 dagen. Bewaar bericht-URL en publicatiedatum, beoordeel alle categorieën, verifieer bij primaire bron. Stories alleen indien nog toegankelijk. Eerdere poging 4 oktober 2026 betrof alleen de tekst-ophaaltool; dit was geen browsercontrole. Een mislukte toegang of zoekfragment is geen volledige accountcontrole. Leg per volgende run bereikbare periode en beperkingen vast.\n\nWerkwijze: bezoek dit account in de gewone browser (JavaScript en beschikbare browsersessie), sluit wegklikbare aanmeldpopups en kies zo nodig alleen noodzakelijke cookies. Open afzonderlijke posts/reels; lees bijschrift en datum (ook bij vastgezette posts) en bewaar de permalink. Een fout van de tekst-ophaaltool bewijst geen ontoegankelijkheid. Meld alleen concreet waargenomen browserbeperkingen; vraag om inloggen als dat werkelijk nodig is. Geen sessietokens of wachtwoorden bewaren.",
+      "enabled": true,
+      "updated_at": "2026-10-04 19:13:00.805545+00"
+    },
+    {
+      "id": "instagram-kunstmeisjes",
+      "name": "Instagram · kunstmeisjes",
+      "url": "https://www.instagram.com/kunstmeisjes/",
+      "notes": "Wekelijks nieuwe posts en reels sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle: laatste 28 dagen. Bewaar bericht-URL en publicatiedatum, beoordeel alle categorieën, verifieer bij primaire bron. Stories alleen indien nog toegankelijk. Eerdere poging 4 oktober 2026 betrof alleen de tekst-ophaaltool; dit was geen browsercontrole. Een mislukte toegang of zoekfragment is geen volledige accountcontrole. Leg per volgende run bereikbare periode en beperkingen vast.\n\nWerkwijze: bezoek dit account in de gewone browser (JavaScript en beschikbare browsersessie), sluit wegklikbare aanmeldpopups en kies zo nodig alleen noodzakelijke cookies. Open afzonderlijke posts/reels; lees bijschrift en datum (ook bij vastgezette posts) en bewaar de permalink. Een fout van de tekst-ophaaltool bewijst geen ontoegankelijkheid. Meld alleen concreet waargenomen browserbeperkingen; vraag om inloggen als dat werkelijk nodig is. Geen sessietokens of wachtwoorden bewaren. Browserproef 4 oktober 2026: profiel, recente berichtlinks met datums en individueel bericht met begin van bijschrift zichtbaar zonder inloggen. Geen volledige 28-dagencontrole uitgevoerd.",
+      "enabled": true,
+      "updated_at": "2026-10-04 19:13:00.805329+00"
+    },
+    {
+      "id": "instagram-lets_talk_about_art",
+      "name": "Instagram · lets_talk_about_art",
+      "url": "https://www.instagram.com/lets_talk_about_art/",
+      "notes": "Wekelijks nieuwe posts en reels sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle: laatste 28 dagen. Bewaar bericht-URL en publicatiedatum, beoordeel alle categorieën, verifieer bij primaire bron. Stories alleen indien nog toegankelijk. Eerdere poging 4 oktober 2026 betrof alleen de tekst-ophaaltool; dit was geen browsercontrole. Een mislukte toegang of zoekfragment is geen volledige accountcontrole. Leg per volgende run bereikbare periode en beperkingen vast.\n\nWerkwijze: bezoek dit account in de gewone browser (JavaScript en beschikbare browsersessie), sluit wegklikbare aanmeldpopups en kies zo nodig alleen noodzakelijke cookies. Open afzonderlijke posts/reels; lees bijschrift en datum (ook bij vastgezette posts) en bewaar de permalink. Een fout van de tekst-ophaaltool bewijst geen ontoegankelijkheid. Meld alleen concreet waargenomen browserbeperkingen; vraag om inloggen als dat werkelijk nodig is. Geen sessietokens of wachtwoorden bewaren.",
+      "enabled": true,
+      "updated_at": "2026-10-04 19:13:00.801454+00"
+    },
+    {
+      "id": "instagram-thetittymag",
+      "name": "Instagram · thetittymag",
+      "url": "https://www.instagram.com/thetittymag/",
+      "notes": "Wekelijks nieuwe posts en reels sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle: laatste 28 dagen. Bewaar bericht-URL en publicatiedatum, beoordeel alle categorieën, verifieer bij primaire bron. Stories alleen indien nog toegankelijk. Eerdere poging 4 oktober 2026 betrof alleen de tekst-ophaaltool; dit was geen browsercontrole. Een mislukte toegang of zoekfragment is geen volledige accountcontrole. Leg per volgende run bereikbare periode en beperkingen vast.\n\nWerkwijze: bezoek dit account in de gewone browser (JavaScript en beschikbare browsersessie), sluit wegklikbare aanmeldpopups en kies zo nodig alleen noodzakelijke cookies. Open afzonderlijke posts/reels; lees bijschrift en datum (ook bij vastgezette posts) en bewaar de permalink. Een fout van de tekst-ophaaltool bewijst geen ontoegankelijkheid. Meld alleen concreet waargenomen browserbeperkingen; vraag om inloggen als dat werkelijk nodig is. Geen sessietokens of wachtwoorden bewaren.",
+      "enabled": true,
+      "updated_at": "2026-10-04 19:13:00.805129+00"
+    },
+    {
+      "id": "kunst-nijmegen",
+      "name": "Kunst op Straat · Gemeente Nijmegen",
+      "url": "https://kos.nijmegen.nl/",
+      "notes": "Wekelijks nieuwe inhoud sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle laatste 28 dagen. Alle categorieën beoordelen. Ook bestaande monumentale werken inventariseren volgens docs/selectie-openbare-kunst.md. Bewaar gelezen URL’s, datums, kandidaten en toegangsbeperkingen per run.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.43648+00"
+    },
+    {
+      "id": "kunstvensters",
+      "name": "KunstVensters",
+      "url": "https://kunstvensters.com/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047971+00"
+    },
+    {
+      "id": "landart-nederland",
+      "name": "Landart Nederland",
+      "url": "https://landartnederland.com/",
+      "notes": "Wekelijks nieuwe inhoud sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle laatste 28 dagen. Alle categorieën beoordelen. Ook bestaande monumentale werken inventariseren volgens docs/selectie-openbare-kunst.md. Bewaar gelezen URL’s, datums, kandidaten en toegangsbeperkingen per run. Toegang 4 oktober 2026: homepage toont browsercontrole; geen volledige inhoudscontrole.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.436396+00"
+    },
+    {
+      "id": "newspapers",
+      "name": "Landelijke kranten · werkwijze",
+      "url": "",
+      "notes": "Vervangen op verzoek van de beheerder op 4 oktober 2026 door afzonderlijke bronnen: NRC, de Volkskrant, Trouw, De Telegraaf, AD, FD, Nederlands Dagblad en Reformatorisch Dagblad. Het Parool aanvullend voor Amsterdam. Elke week alle relevante recensies van de afgelopen 28 dagen. De afzonderlijke bronnen kunnen worden bewerkt of uitgezet. Alleen geraadpleegde volledige artikelen gelden als gelezen; beperkingen apart vastleggen.",
+      "enabled": false,
+      "updated_at": "2026-10-04 18:26:45.452226+00"
+    },
+    {
+      "id": "official-institutions",
+      "name": "Musea, kunstinstellingen, kunstenaars en terreinbeheerders",
+      "url": "",
+      "notes": "Officiële websites en bronlinks van bestaande en nieuwe vermeldingen",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.045553+00"
+    },
+    {
+      "id": "museumkijker",
+      "name": "Museumkijker",
+      "url": "https://www.museumkijker.nl/",
+      "notes": "Wekelijks nieuwe inhoud sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle laatste 28 dagen. Alle categorieën beoordelen. Ook bestaande monumentale werken inventariseren volgens docs/selectie-openbare-kunst.md. Bewaar gelezen URL’s, datums, kandidaten en toegangsbeperkingen per run.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.436409+00"
+    },
+    {
+      "id": "museumtijdschrift",
+      "name": "Museumtijdschrift",
+      "url": "https://museumtijdschrift.nl/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047982+00"
+    },
+    {
+      "id": "krant-nd",
+      "name": "Nederlands Dagblad",
+      "url": "https://www.nd.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.432633+00"
+    },
+    {
+      "id": "nai250",
+      "name": "Nederlandse architectuur in 250 topstukken",
+      "url": "https://www.nai010.com/product/nederlandse-architectuur-in-250-topstukken/",
+      "notes": "Alleen uitgeversinformatie en gedeeltelijk inkijkexemplaar beoordeeld; volledige lijst niet beschikbaar. Archiefontwerpen zijn niet automatisch bezoekbare locaties.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047941+00"
+    },
+    {
+      "id": "krant-nrc",
+      "name": "NRC",
+      "url": "https://www.nrc.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.426238+00"
+    },
+    {
+      "id": "krant-rd",
+      "name": "Reformatorisch Dagblad",
+      "url": "https://www.rd.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.43436+00"
+    },
+    {
+      "id": "sense-of-place",
+      "name": "Sense of Place",
+      "url": "https://sense-of-place.eu/",
+      "notes": "Wekelijks nieuwe inhoud sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle laatste 28 dagen. Alle categorieën beoordelen. Ook bestaande monumentale werken inventariseren volgens docs/selectie-openbare-kunst.md. Bewaar gelezen URL’s, datums, kandidaten en toegangsbeperkingen per run.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.436421+00"
+    },
+    {
+      "id": "sleutelwerken",
+      "name": "Sleutelwerken",
+      "url": "https://www.sleutelwerken.nl/",
+      "notes": "Onderscheid de officiële honderd Sleutelwerken van overige inzendingen; controleer tijdelijke en verplaatste werken.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.046479+00"
+    },
+    {
+      "id": "stadscuratorium",
+      "name": "Stadscuratorium Amsterdam",
+      "url": "https://stadscuratorium.nl/",
+      "notes": "Wekelijks nieuwe inhoud sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle laatste 28 dagen. Alle categorieën beoordelen. Ook bestaande monumentale werken inventariseren volgens docs/selectie-openbare-kunst.md. Bewaar gelezen URL’s, datums, kandidaten en toegangsbeperkingen per run.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.436434+00"
+    },
+    {
+      "id": "krant-trouw",
+      "name": "Trouw",
+      "url": "https://www.trouw.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.432422+00"
+    },
+    {
+      "id": "whichmuseum",
+      "name": "WhichMuseum Kunst & Design",
+      "url": "https://whichmuseum.nl/plaats/nederland-1?category%5B%5D=art-design",
+      "notes": "Toets aan de afgesproken kunstselectie; een brede categorie op deze site is geen bewijs dat kunst de hoofdzaak is.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047959+00"
+    },
+    {
+      "id": "commons",
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/",
+      "notes": "Controleer beeldidentiteit, maker en licentie. Bestandsnaam of cameracoördinaten bewijzen niet de actuele bezoeklocatie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.048035+00"
+    },
+    {
+      "id": "wilma",
+      "name": "Wilma Takes a Break",
+      "url": "https://wilmatakesabreak.nl/",
+      "notes": "Wekelijks nieuwe inhoud sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle laatste 28 dagen. Alle categorieën beoordelen. Ook bestaande monumentale werken inventariseren volgens docs/selectie-openbare-kunst.md. Bewaar gelezen URL’s, datums, kandidaten en toegangsbeperkingen per run.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.436382+00"
+    }
+  ],
+  "checked_at": "2026-10-04T20:09:41.800192+00:00",
+  "scope": "Gedeeltelijke partij; alle actieve bronnen verantwoord. Geen laatste volledige controledatum vervroegd.",
+  "sources": [
+    {
+      "source_id": "11fountains",
+      "name": "11fountains",
+      "url": "https://11fountains.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Homepage geopend; individuele fonteinen en actuele bereikbaarheid niet volledig onderzocht."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "krant-ad",
+      "name": "AD (landelijke editie)",
+      "url": "https://www.ad.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Cultuursectie en zoekfunctie in echte browser gelezen; acht gemengde resultaten, geen volledige chronologische landelijke dekking. Regionale tips onderscheiden."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "architectuur-org",
+      "name": "Architectuur.ORG",
+      "url": "https://www.architectuur.org/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 1,
+      "limitations": [
+        "Homepage gelezen; The Cubehouse Amsterdam als nieuwe architectuurkandidaat. Primaire gebouwcontrole nog nodig."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "architectuurgids",
+      "name": "Architectuurgids Top 100",
+      "url": "https://www.architectuurgids.nl/project/list_projects_of_tag/tag_id/15",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Top 100 geopend; individuele vergelijking en bezoekbaarheid nog niet volledig onderzocht."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "beeldentuinen-inventarisatie",
+      "name": "Beeldentuinen · provinciale inventarisatie",
+      "url": "",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "not_checked",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Tijdens deze run toegevoegd door beheerder/hoofdtaak. Afzonderlijke uitbreiding 31 dossiers is vastgelegd in 2026-10-04-beeldentuinen-uitbreiding.json; niet opnieuw als eigen onderzoek geteld."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "bezoekmijntuin",
+      "name": "Bezoekmijntuin · tuinen en open dagen",
+      "url": "https://www.bezoekmijntuin.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "not_checked",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Tijdens deze run toegevoegd. Nog geen eigen inhoudscontrole; afzonderlijke beeldentuinuitbreiding behouden."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "krant-telegraaf",
+      "name": "De Telegraaf",
+      "url": "https://www.telegraaf.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Cookievenster afgewezen; zoekfunctie tentoonstelling werkt. Resultaten tot 18 september gezien, geen volledige artikelen/28-dagenvenster gelezen."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "krant-volkskrant",
+      "name": "de Volkskrant",
+      "url": "https://www.volkskrant.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://www.volkskrant.nl/cultuur-media/helen-frankenthaler-leren-kennen-is-een-feestje-het-werk-van-donald-judd-is-daarbij-een-blok-aan-het-been~be04dc77/",
+          "published_at": "2026-09-29",
+          "result": "Begin/einde gelezen; bestaande tentoonstelling"
+        },
+        {
+          "url": "https://www.volkskrant.nl/cultuur-media/met-prikkelende-stellingen-over-surrealisme-zet-het-wereldmuseum-aan-tot-nadenken-maar-soms-begint-het-te-duizelen~b227980a/",
+          "published_at": "2026-09-24",
+          "result": "Volledig gelezen; nieuwe kandidaat"
+        },
+        {
+          "url": "https://www.volkskrant.nl/cultuur-media/met-88-van-goghs-maakt-het-kroller-muller-de-totale-toewijding-van-de-kunstenaar-voelbaar~be69e12e/",
+          "published_at": "2026-09-22",
+          "result": "Begin/einde gelezen; bestaande tentoonstelling"
+        },
+        {
+          "url": "https://www.volkskrant.nl/tentoonstellingen/wat-valt-er-nog-te-ontdekken-aan-de-alomtegenwoordige-kunst-van-yayoi-kusama-veel-zo-blijkt~be3ce196/",
+          "published_at": "2026-09-10",
+          "result": "Begin/einde gelezen; bestaande tentoonstelling"
+        }
+      ],
+      "candidate_count": 1,
+      "limitations": [
+        "Tentoonstellingsindex en vier relevante recensies benaderd; Leef! Surrealisme volledig gelezen, drie andere slechts begin/einde. Geen volledige venstercontrole."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "municipal-collections",
+      "name": "Gemeentelijke kunstcollecties en monumenteninformatie",
+      "url": "",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "not_checked",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Geen volledige gemeentelijke inventarisatie. Drentse projectaanwijzingen leveren nog geen exact actueel objectpunt op."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "krant-fd",
+      "name": "Het Financieele Dagblad",
+      "url": "https://fd.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://fd.nl/samenleving/1613537/een-10-meter-hoge-sculptuur-van-plantenwortels",
+          "published_at": "2026-10-02",
+          "result": "Intro gelezen; betaalmuur; Diana Scherer reeds aanwezig"
+        }
+      ],
+      "candidate_count": 0,
+      "limitations": [
+        "Echte browser: introductie Diana Scherer gelezen, daarna abonnement vereist. Geen volledige recensie gelezen."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "krant-parool",
+      "name": "Het Parool (aanvullend: Amsterdam)",
+      "url": "https://www.parool.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://www.parool.nl/de-kunstredactie-tipt/museum-galerie-tentoonstelling-expositie-tips-amsterdam~b1768eaca/",
+          "published_at": "2026-09-15",
+          "result": "Twaalf tips gelezen; bijgewerkt 30 september"
+        }
+      ],
+      "candidate_count": 9,
+      "limitations": [
+        "Kunstindex en twaalf tentoonstellingstips inhoudelijk gelezen. Geen volledige 28-dagenrecensiecontrole."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "rdmz100",
+      "name": "Historische RDMZ Top 100",
+      "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Historische lijst geopend; geen individuele actuele bezoekcontrole van alle honderd gebouwen."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "instagram-cathelijneblok",
+      "name": "Instagram · cathelijneblok",
+      "url": "https://www.instagram.com/cathelijneblok/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://www.instagram.com/cathelijneblok/p/DeCg8AtiEQt/",
+          "published_at": "2026-10-03",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/amsterdammuseum/p/Dd4Dzb5ANYN/",
+          "published_at": "2026-09-29",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/cathelijneblok/reel/Dd31HyVow-K/",
+          "published_at": "2026-09-29",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/haagse.media.awards/reel/DdqrRgfgmFG/",
+          "published_at": "2026-09-24",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/cathelijneblok/p/Ddi7cViCIfd/",
+          "published_at": "2026-09-21",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/melkwegexpo/p/DdRd-o1th7-/",
+          "published_at": "2026-09-14",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/haagse.media.awards/p/DdRWYQMFMI9/",
+          "published_at": "2026-09-14",
+          "result": "Bericht en datum geopend"
+        }
+      ],
+      "candidate_count": 2,
+      "limitations": [
+        "Zeven posts/reels uit publieke grid geopend. Betzy Akersloot-Berg toegevoegd; No Need To Pretend blijft kandidaat. Stories niet gecontroleerd; volledige accountdekking niet geclaimd."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "instagram-dutchgirlsinmuseums",
+      "name": "Instagram · dutchgirlsinmuseums",
+      "url": "https://www.instagram.com/dutchgirlsinmuseums/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://www.instagram.com/dutchgirlsinmuseums/p/DciLcSgMAzS/",
+          "published_at": "2026-08-27",
+          "result": "Bericht en datum geopend"
+        }
+      ],
+      "candidate_count": 0,
+      "limitations": [
+        "Publieke grid en laatste niet-vastgezette post (27 augustus) gelezen; geen nieuwe gridpost in venster gevonden. Stories niet gecontroleerd."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "instagram-kunstmaartje",
+      "name": "Instagram · kunstmaartje",
+      "url": "https://www.instagram.com/kunstmaartje/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://www.instagram.com/erfgoedalkmaar/p/DeAGz2kAGvI/",
+          "published_at": "2026-10-02",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmaartje/reel/DdEKZD3sA7s/",
+          "published_at": "2026-09-09",
+          "result": "Bericht en datum geopend"
+        }
+      ],
+      "candidate_count": 0,
+      "limitations": [
+        "Twee publieke berichten geopend: depotobject en inmiddels afgelopen Open Monumentendag. Stories niet gecontroleerd."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "instagram-kunstmeisjes",
+      "name": "Instagram · kunstmeisjes",
+      "url": "https://www.instagram.com/kunstmeisjes/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/DeEOjbyjiTL/",
+          "published_at": "2026-10-04",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/reel/DeBeQ9GAJzy/",
+          "published_at": "2026-10-03",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/Dd8Uqk3jcEI/",
+          "published_at": "2026-10-01",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/Dd5pAmbiYRX/",
+          "published_at": "2026-09-30",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/Dd3LJKyjUjT/",
+          "published_at": "2026-09-29",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/DdyVC-YORLn/",
+          "published_at": "2026-09-27",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/reel/DdvqDm_OBJu/",
+          "published_at": "2026-09-26",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/DdqTGjricI6/",
+          "published_at": "2026-09-24",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/DdlJi10D_vw/",
+          "published_at": "2026-09-22",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/Ddf5HjzAelZ/",
+          "published_at": "2026-09-20",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/DdYOGy4DJyb/",
+          "published_at": "2026-09-17",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/DdTEgmjDRuK/",
+          "published_at": "2026-09-15",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/reel/DdPBiqDtovs/",
+          "published_at": "2026-09-13",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/DdIxVrcjBh9/",
+          "published_at": "2026-09-11",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/DdGMiigDBgs/",
+          "published_at": "2026-09-10",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/DdDkXTBDTYF/",
+          "published_at": "2026-09-09",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/DdBC8eDDevN/",
+          "published_at": "2026-09-08",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/Dc8B3w5DrOQ/",
+          "published_at": "2026-09-06",
+          "result": "Bericht en datum geopend; selectie beoordeeld"
+        }
+      ],
+      "candidate_count": 3,
+      "limitations": [
+        "Achttien posts/reels geopend. Gossip en Daisychain primair geverifieerd en toegevoegd; Pierluigi Pompei in Schiedam blijft kandidaat. Stories niet gecontroleerd."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "instagram-lets_talk_about_art",
+      "name": "Instagram · lets_talk_about_art",
+      "url": "https://www.instagram.com/lets_talk_about_art/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DeFGAMsDB8g/",
+          "published_at": "2026-10-04",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DeCjIvaDJmc/",
+          "published_at": "2026-10-03",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/Dd_9DXjjO4w/",
+          "published_at": "2026-10-02",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/Dd9YBDKjP3S/",
+          "published_at": "2026-10-01",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/Dd6zsgujJlP/",
+          "published_at": "2026-09-30",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/Dd4P_qgjBJ4/",
+          "published_at": "2026-09-29",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/Dd1pRMKjPq6/",
+          "published_at": "2026-09-28",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdzFy9NDH6Q/",
+          "published_at": "2026-09-27",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdwfbAVjEqN/",
+          "published_at": "2026-09-26",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/Ddt9Y8zjIYD/",
+          "published_at": "2026-09-25",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdrYKcGDP-_/",
+          "published_at": "2026-09-24",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/Ddoz5SljLwT/",
+          "published_at": "2026-09-23",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdmOXVljLvq/",
+          "published_at": "2026-09-22",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdjnosEjOek/",
+          "published_at": "2026-09-21",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdhBJbhDFc9/",
+          "published_at": "2026-09-20",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdefnKVjKxB/",
+          "published_at": "2026-09-19",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/Ddb6OMcjPI_/",
+          "published_at": "2026-09-18",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdZVZKxjCEY/",
+          "published_at": "2026-09-17",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdWwZLDjMZi/",
+          "published_at": "2026-09-16",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdUL9lBjD3N/",
+          "published_at": "2026-09-15",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdRmT1sjFrV/",
+          "published_at": "2026-09-14",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdPCbU4DBcw/",
+          "published_at": "2026-09-13",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdMe5OlDIeX/",
+          "published_at": "2026-09-12",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdJ5qrKDGbi/",
+          "published_at": "2026-09-11",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdHWkF3DPta/",
+          "published_at": "2026-09-10",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdEvsGijEdl/",
+          "published_at": "2026-09-09",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/DdCJY8OjL-1/",
+          "published_at": "2026-09-08",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/Dc_klD-jK5n/",
+          "published_at": "2026-09-07",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/p/Dc8_yHpDKeB/",
+          "published_at": "2026-09-06",
+          "result": "Bericht en datum geopend"
+        }
+      ],
+      "candidate_count": 0,
+      "limitations": [
+        "29 dagelijkse posts 6 september–4 oktober geopend. Veel buitenlandse collecties; genoemde Nederlandse musea bestaan al. Stories niet gecontroleerd."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "instagram-thetittymag",
+      "name": "Instagram · thetittymag",
+      "url": "https://www.instagram.com/thetittymag/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://www.instagram.com/thetittymag/p/DdrLeh9tK0I/",
+          "published_at": "2026-09-24",
+          "result": "Bericht en datum geopend"
+        },
+        {
+          "url": "https://www.instagram.com/thetittymag/p/DdTVWcrN2ot/",
+          "published_at": "2026-09-15",
+          "result": "Bericht en datum geopend"
+        }
+      ],
+      "candidate_count": 0,
+      "limitations": [
+        "Twee posts gelezen: makers/werk, geen bevestigd nieuw Nederlands bezoekaanbod. Stories niet gecontroleerd."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "kunst-nijmegen",
+      "name": "Kunst op Straat · Gemeente Nijmegen",
+      "url": "https://kos.nijmegen.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Homepage geopend; nog geen volledige object- en nieuwscontrole."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "kunstvensters",
+      "name": "KunstVensters",
+      "url": "https://kunstvensters.com/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Recente homepage-artikelen gezien; geen volledige inhoudelijke venstercontrole in deze partij."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "landart-nederland",
+      "name": "Landart Nederland",
+      "url": "https://landartnederland.com/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://landartnederland.com/drenthe/",
+          "published_at": null,
+          "result": "Drie projectdossiers gelezen; actuele locatie/toegang nog niet volledig bevestigd"
+        }
+      ],
+      "candidate_count": 2,
+      "limitations": [
+        "Echte browser gaf toegang tot homepage en Drenthe. Gebroken Cirkel Yde: kunstenaarswebsite weigert verbinding; exacte locatie/toegang onbevestigd. 77 Verses: primaire controle open. Broken Circle/Spiral Hill: primaire projectpagina beschrijft historische presentatie uit 2011, geen bewijs actuele toegang."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "official-institutions",
+      "name": "Musea, kunstinstellingen, kunstenaars en terreinbeheerders",
+      "url": "",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://panorama-mesdag.nl/bezoek/",
+          "published_at": null,
+          "result": "Zeestraat 65, dinsdag–zondag 10–17 uur en museumticket bevestigd. Bestaande beschrijving en objectpunt behouden. Nieuwe expositie afzonderlijk toegevoegd; Commons-gevelbeeld uit 2007 geverifieerd."
+        },
+        {
+          "url": "https://www.museumgouda.nl/tentoonstelling/wonder-walls-wandtapijten/",
+          "published_at": null,
+          "result": "Actuele organisatorpagina bevestigt hoofdingang Oosthaven 9 en dinsdag–zondag 11–17 uur. Achter de Kerk 14 is groeps-/postadres. Bestaande bezoekadres klopt. Commons-gevelbeeld uit 2022 geverifieerd."
+        },
+        {
+          "url": "https://www.eyefilm.nl/plan-je-bezoek",
+          "published_at": null,
+          "result": "Bezoekadres IJpromenade 1 bevestigd; collectiecentrum Asterweg 26 is andere functie. Tentoonstelling dinsdag–zondag 10–19 uur, maandag buiten schoolvakanties gesloten. Bestaande open-status klopt; gebouwfoto uit 2012 geverifieerd."
+        },
+        {
+          "url": "https://www.moretwickel.nl/plan-je-bezoek/openingstijden",
+          "published_at": null,
+          "result": "Nieuwe locatie in Oude Rentmeesterij al aanwezig, dus niet dubbel toegevoegd. Hengelosestraat 2/4 en dinsdag–zondag 11–17 uur bevestigd. Foto uit 2010 toont gebouw vóór museumopening; zo gelabeld bij nieuw evenement."
+        },
+        {
+          "url": "https://www.moretwickel.nl/tentoonstellingen/into-the-woods",
+          "published_at": null,
+          "result": "Nieuwe locatie in Oude Rentmeesterij al aanwezig, dus niet dubbel toegevoegd. Hengelosestraat 2/4 en dinsdag–zondag 11–17 uur bevestigd. Foto uit 2010 toont gebouw vóór museumopening; zo gelabeld bij nieuw evenement."
+        },
+        {
+          "url": "https://catharijneconvent.nl/bezoekersvragen/",
+          "published_at": null,
+          "result": "Bezoek aan Lange Nieuwstraat 38 en toegang met kaartje aan kassa of online bevestigd. Alleen festivaldag 3 oktober had aparte toegang; die is voorbij. Gebouwfoto en licentie geverifieerd."
+        },
+        {
+          "url": "https://catharijneconvent.nl/tentoonstellingen/henk-helmantel/",
+          "published_at": null,
+          "result": "Bezoek aan Lange Nieuwstraat 38 en toegang met kaartje aan kassa of online bevestigd. Alleen festivaldag 3 oktober had aparte toegang; die is voorbij. Gebouwfoto en licentie geverifieerd."
+        },
+        {
+          "url": "https://impakt.nl/nl/visit/",
+          "published_at": null,
+          "result": "Actueel programma en Lange Nieuwstraat 4 bevestigd. Tentoonstellingen woensdag–zondag 12–18 uur. Entree en zaal alleen via trap; toiletten boven, geen lift. Bestaande foto is van het festival 2023 en wordt niet als nieuwe tentoonstelling hergebruikt."
+        },
+        {
+          "url": "https://impakt.nl/nl/events/2026/tentoonstelling/data-never-dies/",
+          "published_at": null,
+          "result": "Actueel programma en Lange Nieuwstraat 4 bevestigd. Tentoonstellingen woensdag–zondag 12–18 uur. Entree en zaal alleen via trap; toiletten boven, geen lift. Bestaande foto is van het festival 2023 en wordt niet als nieuwe tentoonstelling hergebruikt."
+        },
+        {
+          "url": "https://www.huisbergh.nl/",
+          "published_at": null,
+          "result": "Heropening september 2026 en september–oktober-rooster dinsdag–zondag 11–16 uur bevestigd. Hof van Bergh 8 en open-status kloppen. Geen onterechte sluiting uit oudere verbouwingsinformatie overgenomen."
+        },
+        {
+          "url": "https://www.huisbergh.nl/openingstijden-en-tickets",
+          "published_at": null,
+          "result": "Heropening september 2026 en september–oktober-rooster dinsdag–zondag 11–16 uur bevestigd. Hof van Bergh 8 en open-status kloppen. Geen onterechte sluiting uit oudere verbouwingsinformatie overgenomen."
+        },
+        {
+          "url": "https://museumvaals.nl/",
+          "published_at": null,
+          "result": "Prominente actuele melding: tijdelijk gesloten, weer open zaterdag 10 oktober. Vandaag 4 oktober dus gesloten behouden. Eschberg 5–7 bevestigd. Geen voortijdige heropening doorgevoerd."
+        },
+        {
+          "url": "https://kasteelwijlre.nl/nl/tentoonstellingen/gossip/",
+          "published_at": null,
+          "result": "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto."
+        },
+        {
+          "url": "https://kasteelwijlre.nl/nl/tentoonstellingen/vibeke-mascini/",
+          "published_at": null,
+          "result": "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto."
+        },
+        {
+          "url": "https://panorama-mesdag.nl/zien-en-doen/tentoonstellingen/betzy-akersloot-berg/",
+          "published_at": null,
+          "result": "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto."
+        },
+        {
+          "url": "https://www.eyefilm.nl/programma/ulrich-seidl/1633828",
+          "published_at": null,
+          "result": "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto."
+        }
+      ],
+      "candidate_count": 8,
+      "limitations": [
+        "Gerichte primaire controle van acht bestaande musea en acht nieuwe tentoonstellingen. Geen volledige nationale programma-inventarisatie."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "museumkijker",
+      "name": "Museumkijker",
+      "url": "https://www.museumkijker.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://www.museumkijker.nl/ballonnen-en-confetti-tien-jaar-museum-voorlinden/",
+          "published_at": "2026-09-21",
+          "result": "Gedeeltelijk; Icons bestaat; Penone buitenwerk kandidaat"
+        },
+        {
+          "url": "https://www.museumkijker.nl/lou-loeber-kunstenaar-en-idealist/",
+          "published_at": "2026-09-07",
+          "result": "Gedeeltelijk; tentoonstelling afgelopen"
+        }
+      ],
+      "candidate_count": 1,
+      "limitations": [
+        "Twee vensterartikelen gedeeltelijk gelezen. Icons reeds aanwezig; Lou Loeber officieel afgelopen 27 september. Penone buitenwerk blijft kandidaat."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "museumtijdschrift",
+      "name": "Museumtijdschrift",
+      "url": "https://museumtijdschrift.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Homepage benaderd; geen volledige artikelcontrole. Helmantel rechtstreeks bij organisator geverifieerd."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "krant-nd",
+      "name": "Nederlands Dagblad",
+      "url": "https://www.nd.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://www.nd.nl/cultuur/cultuur/1331986/werk-van-schilder-jan-mankes-en-tien-van-zijn-collegas-te-zie",
+          "published_at": "2026-09-25",
+          "result": "Intro gelezen; nieuwsbriefregistratie vereist; museum al aanwezig"
+        }
+      ],
+      "candidate_count": 0,
+      "limitations": [
+        "MORE Twickel-intro gelezen; volledige tekst vereist nieuwsbriefregistratie. Niet geregistreerd. Overige cultuurindex niet volledig onderzocht."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "nai250",
+      "name": "Nederlandse architectuur in 250 topstukken",
+      "url": "https://www.nai010.com/product/nederlandse-architectuur-in-250-topstukken/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Uitgeversproductpagina gelezen; volledige 250-delige boekinhoud niet beschikbaar in geraadpleegde bron."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "krant-nrc",
+      "name": "NRC",
+      "url": "https://www.nrc.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://www.nrc.nl/nieuws/2026/10/01/op-zoek-naar-de-grens-waar-gevaar-en-schoonheid-angst-en-extase-samenkomen-a4937784",
+          "published_at": "2026-10-01",
+          "result": "Volledig gelezen; Sigmar Polke: reeds aanwezig"
+        },
+        {
+          "url": "https://www.nrc.nl/nieuws/2026/09/26/nu-te-zien-in-rotterdam-stoelen-waar-je-niet-op-kunt-zitten-a4935178",
+          "published_at": "2026-09-26",
+          "result": "Volledig gelezen; A Chair and You: reeds aanwezig"
+        },
+        {
+          "url": "https://www.nrc.nl/nieuws/2026/09/23/hoe-wist-gouda-het-in-de-17de-eeuw-te-schoppen-tot-knooppunt-van-de-wandtapijtenproductie-a4937193",
+          "published_at": "2026-09-23",
+          "result": "Volledig gelezen; Wonder Walls: toegevoegd"
+        },
+        {
+          "url": "https://www.nrc.nl/nieuws/2026/09/22/de-genadeloze-tedere-en-gulle-blik-van-ulrich-seidl-in-tijden-van-vertrutting-a4937169",
+          "published_at": "2026-09-22",
+          "result": "Volledig gelezen; Ulrich Seidl: toegevoegd"
+        },
+        {
+          "url": "https://www.nrc.nl/nieuws/2026/09/21/museum-voorlinden-viert-het-tienjarig-jubileum-niet-met-greatest-hits-maar-met-spannende-contrasten-a4936263",
+          "published_at": "2026-09-21",
+          "result": "Volledig gelezen; Icons: reeds aanwezig"
+        },
+        {
+          "url": "https://www.nrc.nl/nieuws/2026/09/14/stedelijk-laat-zien-hoe-rijk-en-veelzijdig-het-oeuvre-van-yayoi-kusama-is-maar-de-tijd-heeft-de-betekenis-van-haar-latere-werk-drastisch-veranderd-a4936562",
+          "published_at": "2026-09-14",
+          "result": "Volledig gelezen; Kusama: reeds aanwezig"
+        },
+        {
+          "url": "https://www.nrc.nl/nieuws/2026/09/14/bredaphoto-festival-wil-de-troost-en-veerkracht-bieden-waar-nu-behoefte-aan-is-a4936173",
+          "published_at": "2026-09-14",
+          "result": "Volledig gelezen; BredaPhoto: kandidaat"
+        },
+        {
+          "url": "https://www.nrc.nl/nieuws/2026/09/13/wat-gebeurt-er-met-je-digitale-sporen-na-je-dood-a4936413",
+          "published_at": "2026-09-13",
+          "result": "Volledig gelezen; Data Never Dies: toegevoegd"
+        },
+        {
+          "url": "https://www.nrc.nl/nieuws/2026/09/11/expositie-topfotograaf-eva-besnyo-toont-haar-onberispelijke-instinct-voor-compositie-en-hoe-maatschappelijk-betrokken-ze-was-a4936059",
+          "published_at": "2026-09-11",
+          "result": "Volledig gelezen; Eva Besnyö: reeds aanwezig"
+        }
+      ],
+      "candidate_count": 4,
+      "limitations": [
+        "Kunstindex pagina 1 en 2 en architectuurzoekresultaten doorlopen; negen recensies volledig gelezen. Resterende relevante artikelen niet allemaal gelezen; geen volledige vensterclaim."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "krant-rd",
+      "name": "Reformatorisch Dagblad",
+      "url": "https://www.rd.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "blocked",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Echte browser toont zondagssluiting op /zondag; artikelen niet beschikbaar tijdens controle."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "sense-of-place",
+      "name": "Sense of Place",
+      "url": "https://sense-of-place.eu/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 3,
+      "limitations": [
+        "Homepage inhoudelijk gelezen; Soundings, Surroundings en Dijk van een Wijf geven vervolgaanwijzingen. Projectdatums en bezoekbaarheid nog niet individueel geverifieerd."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "sleutelwerken",
+      "name": "Sleutelwerken",
+      "url": "https://www.sleutelwerken.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Tekstophaal gaf geen bruikbare inhoud; gewone browsercontrole in deze partij niet uitgevoerd. Geen bewezen toegangsblokkade."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "stadscuratorium",
+      "name": "Stadscuratorium Amsterdam",
+      "url": "https://stadscuratorium.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 3,
+      "limitations": [
+        "Homepage gelezen: Jan Schaefer-monument, (Zoals) Ze is en Halsbandparkiet als kandidaten. Projectdetails nog niet geverifieerd."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "krant-trouw",
+      "name": "Trouw",
+      "url": "https://www.trouw.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Recensiesectie en zoekfunctie in echte browser geprobeerd. Zoekopdracht tentoonstelling leverde na klik/Enter geen resultatenweergave; geen volledige controle en geen betaalmuur vastgesteld."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "whichmuseum",
+      "name": "WhichMuseum Kunst & Design",
+      "url": "https://whichmuseum.nl/plaats/nederland-1?category%5B%5D=art-design",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [],
+      "candidate_count": 0,
+      "limitations": [
+        "Kunst & Design-overzicht geopend; niet alle gepagineerde vermeldingen inhoudelijk vergeleken."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "commons",
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_van_de_voorburcht_met_bijgebouwen,_vijver_en_kunstwerken,_voorgevel_van_het_kasteel_met_dakruiter_op_de_achtergrond_-_Wijlre_-_20408870_-_RCE.jpg",
+          "published_at": null,
+          "result": "Maker/licentie en beeldidentiteit gecontroleerd; historisch locatiebeeld gedateerd"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Overzicht_voorgevel_in_straatbeeld_20411247_RCE.jpg",
+          "published_at": null,
+          "result": "Maker/licentie en beeldidentiteit gecontroleerd; historisch locatiebeeld gedateerd"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_Gouda,_Gouda_750_jaar.jpg",
+          "published_at": null,
+          "result": "Maker/licentie en beeldidentiteit gecontroleerd; historisch locatiebeeld gedateerd"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:EYE_Filmmuseum.jpg",
+          "published_at": null,
+          "result": "Maker/licentie en beeldidentiteit gecontroleerd; historisch locatiebeeld gedateerd"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Delden_hengelosestraat_2_4_rentmeesterij.jpg",
+          "published_at": null,
+          "result": "Maker/licentie en beeldidentiteit gecontroleerd; historisch locatiebeeld gedateerd"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Catharijneconvent.JPG",
+          "published_at": null,
+          "result": "Maker/licentie en beeldidentiteit gecontroleerd; historisch locatiebeeld gedateerd"
+        }
+      ],
+      "candidate_count": 0,
+      "limitations": [
+        "Zeven locatiefoto-dossiers op metadata gecontroleerd; zes passende gebouw/locatiebeelden visueel gecontroleerd en voor zeven evenementen gebruikt. IMPAKT-festivalfoto uit 2023 niet hergebruikt. Geen volledige fotocataloguscontrole."
+      ],
+      "last_successful_content_check": null
+    },
+    {
+      "source_id": "wilma",
+      "name": "Wilma Takes a Break",
+      "url": "https://wilmatakesabreak.nl/",
+      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "window_from": "2026-09-06",
+      "window_to": "2026-10-04",
+      "status": "partial",
+      "articles": [
+        {
+          "url": "https://wilmatakesabreak.nl/nu-te-zien-now/asta-norregaard-in-oslo/",
+          "published_at": "2026-10-03",
+          "result": "Gedeeltelijk; buiten Nederland"
+        },
+        {
+          "url": "https://wilmatakesabreak.nl/nu-te-zien-now/kroller-muller-van-goch-al-onze-schilderijen/",
+          "published_at": "2026-09-25",
+          "result": "Gedeeltelijk; evenement reeds aanwezig"
+        },
+        {
+          "url": "https://wilmatakesabreak.nl/musea/de-derde-more-opent-en-heet-more-twickel/",
+          "published_at": "2026-09-12",
+          "result": "Gedeeltelijk; Into the Woods toegevoegd na primaire controle"
+        }
+      ],
+      "candidate_count": 1,
+      "limitations": [
+        "Drie vensterartikelen benaderd: Noorse kunstenaar buiten Nederlandse selectie, Van Gogh 88 reeds aanwezig, MORE Twickel reeds aanwezig en Into the Woods toegevoegd. Niet alle artikelstaarten gelezen."
+      ],
+      "last_successful_content_check": null
+    }
+  ]
+}

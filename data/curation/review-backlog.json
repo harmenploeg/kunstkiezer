@@ -3,10 +3,10 @@
   "campaign": "individuele-controle-2026-10-04",
   "requested_at": "2026-10-04",
   "active": true,
-  "updated_at": "2026-10-04T17:10:37.372693+00:00",
+  "updated_at": "2026-10-04T20:01:37.975725+00:00",
   "policy": "Alle overgebleven punten inhoudelijk onderzoeken; onoplosbare punten krijgen een concrete externe blokkade met bron en uitgevoerde pogingen. Geen status afronden op basis van HTTP 200.",
   "last_completed_batch": "c2c576a9-e278-4fa1-a141-d977d28c9950",
-  "pending_count": 567,
+  "pending_count": 590,
   "blocked_count": 1,
   "records": [
     {
@@ -1512,11 +1512,29 @@
       "id": "2ad664ac-fdb1-5a39-a587-feea9ed9608e",
       "name": "Museum MORE Twickel",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T20:01:37.975725+00:00",
+      "evidence": [
+        {
+          "id": "2ad664ac-fdb1-5a39-a587-feea9ed9608e",
+          "name": "Museum MORE Twickel",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://www.moretwickel.nl/plan-je-bezoek/openingstijden",
+            "https://www.moretwickel.nl/tentoonstellingen/into-the-woods"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Nieuwe locatie in Oude Rentmeesterij al aanwezig, dus niet dubbel toegevoegd. Hengelosestraat 2/4 en dinsdag–zondag 11–17 uur bevestigd. Foto uit 2010 toont gebouw vóór museumopening; zo gelabeld bij nieuw evenement.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
     },
     {
       "id": "2b3f2109-4373-53dc-9077-fe7d9a72e006",
@@ -2512,11 +2530,28 @@
       "id": "51f162b9-5df8-58d9-b7c3-30d0eb7ac3f6",
       "name": "Museum Panorama Mesdag",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T20:01:37.975725+00:00",
+      "evidence": [
+        {
+          "id": "51f162b9-5df8-58d9-b7c3-30d0eb7ac3f6",
+          "name": "Museum Panorama Mesdag",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://panorama-mesdag.nl/bezoek/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Zeestraat 65, dinsdag–zondag 10–17 uur en museumticket bevestigd. Bestaande beschrijving en objectpunt behouden. Nieuwe expositie afzonderlijk toegevoegd; Commons-gevelbeeld uit 2007 geverifieerd.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
     },
     {
       "id": "520c8eaa-79b9-5dc1-8a22-0b6e97b96a74",
@@ -3587,11 +3622,29 @@
       "id": "760fa7b6-2d12-5a3c-8e26-f1ddb9053704",
       "name": "Kasteel Huis Bergh",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T20:01:37.975725+00:00",
+      "evidence": [
+        {
+          "id": "760fa7b6-2d12-5a3c-8e26-f1ddb9053704",
+          "name": "Kasteel Huis Bergh",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://www.huisbergh.nl/",
+            "https://www.huisbergh.nl/openingstijden-en-tickets"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Heropening september 2026 en september–oktober-rooster dinsdag–zondag 11–16 uur bevestigd. Hof van Bergh 8 en open-status kloppen. Geen onterechte sluiting uit oudere verbouwingsinformatie overgenomen.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
     },
     {
       "id": "76bb2424-a1d1-5a57-a968-4999c4b12032",
@@ -4181,9 +4234,30 @@
       "category": "musea",
       "status": "pending",
       "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Op of na 10 oktober heropening daadwerkelijk bevestigen voordat operating_status wordt gewijzigd."
       ],
-      "last_reviewed_at": null
+      "last_reviewed_at": "2026-10-04T20:01:37.975725+00:00",
+      "evidence": [
+        {
+          "id": "878fe3f1-3c25-5be4-9dc7-76ffb629ad0a",
+          "name": "Museum Vaals",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://museumvaals.nl/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Prominente actuele melding: tijdelijk gesloten, weer open zaterdag 10 oktober. Vandaag 4 oktober dus gesloten behouden. Eschberg 5–7 bevestigd. Geen voortijdige heropening doorgevoerd.",
+          "remaining": [
+            "Op of na 10 oktober heropening daadwerkelijk bevestigen voordat operating_status wordt gewijzigd."
+          ],
+          "resolves_availability": false
+        }
+      ]
     },
     {
       "id": "87eb4285-c7df-556e-9555-a5c048893ca9",
@@ -5108,11 +5182,29 @@
       "id": "abe177c0-7a81-528f-84af-ceca3adf4275",
       "name": "Museum Catharijneconvent",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T20:01:37.975725+00:00",
+      "evidence": [
+        {
+          "id": "abe177c0-7a81-528f-84af-ceca3adf4275",
+          "name": "Museum Catharijneconvent",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://catharijneconvent.nl/bezoekersvragen/",
+            "https://catharijneconvent.nl/tentoonstellingen/henk-helmantel/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Bezoek aan Lange Nieuwstraat 38 en toegang met kaartje aan kassa of online bevestigd. Alleen festivaldag 3 oktober had aparte toegang; die is voorbij. Gebouwfoto en licentie geverifieerd.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
     },
     {
       "id": "abe68e6d-4b1c-5277-9a09-7a0abec22d74",
@@ -6942,11 +7034,28 @@
       "id": "edcef0f9-0aa9-5898-9e0c-dae509612b17",
       "name": "Museum Gouda",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T20:01:37.975725+00:00",
+      "evidence": [
+        {
+          "id": "edcef0f9-0aa9-5898-9e0c-dae509612b17",
+          "name": "Museum Gouda",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://www.museumgouda.nl/tentoonstelling/wonder-walls-wandtapijten/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Actuele organisatorpagina bevestigt hoofdingang Oosthaven 9 en dinsdag–zondag 11–17 uur. Achter de Kerk 14 is groeps-/postadres. Bestaande bezoekadres klopt. Commons-gevelbeeld uit 2022 geverifieerd.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
     },
     {
       "id": "edd974bf-2d7b-5029-a46e-8eda1e106288",
@@ -7038,9 +7147,32 @@
       "category": "musea",
       "status": "pending",
       "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Passend gebouw- of tentoonstellingsbeeld met hergebruiklicentie zoeken; Commons-zoekactie leverde vooral festivalbeelden uit 2023 op."
       ],
-      "last_reviewed_at": null
+      "last_reviewed_at": "2026-10-04T20:01:37.975725+00:00",
+      "evidence": [
+        {
+          "id": "f127c110-8115-5ece-a3ff-cba0d2d0afcd",
+          "name": "IMPAKT Centre for Mediaculture",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://impakt.nl/nl/visit/",
+            "https://impakt.nl/nl/events/2026/tentoonstelling/data-never-dies/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url",
+            "summary"
+          ],
+          "conclusion": "Actueel programma en Lange Nieuwstraat 4 bevestigd. Tentoonstellingen woensdag–zondag 12–18 uur. Entree en zaal alleen via trap; toiletten boven, geen lift. Bestaande foto is van het festival 2023 en wordt niet als nieuwe tentoonstelling hergebruikt.",
+          "remaining": [
+            "Passend gebouw- of tentoonstellingsbeeld met hergebruiklicentie zoeken; Commons-zoekactie leverde vooral festivalbeelden uit 2023 op."
+          ],
+          "resolves_availability": false
+        }
+      ]
     },
     {
       "id": "f138ec54-d381-53ff-9f41-d0166c596093",
@@ -7180,11 +7312,29 @@
       "id": "f5b4eb15-d3db-506b-8356-724de9e15d1b",
       "name": "EYE",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T20:01:37.975725+00:00",
+      "evidence": [
+        {
+          "id": "f5b4eb15-d3db-506b-8356-724de9e15d1b",
+          "name": "EYE",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://www.eyefilm.nl/plan-je-bezoek"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url",
+            "summary"
+          ],
+          "conclusion": "Bezoekadres IJpromenade 1 bevestigd; collectiecentrum Asterweg 26 is andere functie. Tentoonstelling dinsdag–zondag 10–19 uur, maandag buiten schoolvakanties gesloten. Bestaande open-status klopt; gebouwfoto uit 2012 geverifieerd.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
     },
     {
       "id": "f5bc963b-f68b-519b-81fa-c3103b52bcb2",
@@ -7637,8 +7787,354 @@
       "status": "resolved",
       "remaining": [],
       "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "efdae812-95ef-52b9-8b82-8a784b7d3604",
+      "name": "Data Never Dies — Digital traces and AI afterlives",
+      "category": "evenementen",
+      "remaining": [
+        "Passende foto met maker, bron en hergebruikvoorwaarden ontbreekt."
+      ],
+      "last_reviewed_at": "2026-10-04T20:01:37.975725+00:00",
+      "status": "pending",
+      "evidence": [
+        {
+          "id": "efdae812-95ef-52b9-8b82-8a784b7d3604",
+          "name": "Data Never Dies — Digital traces and AI afterlives",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://impakt.nl/nl/events/2026/tentoonstelling/data-never-dies/"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address"
+          ],
+          "conclusion": "Organisator bevestigt inhoud, locatie en looptijd. Zonder foto gepubliceerd: geen passende vrij herbruikbare afbeelding bevestigd.",
+          "remaining": [
+            "Passende foto met maker, bron en hergebruikvoorwaarden ontbreekt."
+          ],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "6f61c002-72c5-5220-8ccf-5108ab3847e4",
+      "name": "Museum No Hero",
+      "category": "musea",
+      "status": "pending",
+      "remaining": [
+        "Bezoekstatus: disappeared; opnieuw bij officiële bron controleren"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/latest-report.json"
+    },
+    {
+      "id": "0723660f-c74d-5c79-8492-49f738c8f341",
+      "name": "Borg Verhildersum – beeldentuin",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "5f68e866-bbfb-52ba-8b84-ad57d412099f",
+      "name": "Beeldentuin Cilia de la Court",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "b9a87e8e-4542-5aa7-83c3-d3f072c870c3",
+      "name": "Beeldentuin Fransje Versloot",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "968ee944-3092-5823-bc04-9e688c0d7414",
+      "name": "Galerie Wildevuur – beeldentuin",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "14a75e84-dcd4-5c67-a769-ae0a238cb9b4",
+      "name": "Beeldentuin Harwi",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "63a3371c-0db5-5da9-a306-b9e5c50772ff",
+      "name": "Pluck Elke Dag – beeldentuin Witharen",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "e095668a-3a3f-5914-a7b4-5233c2fb0e6c",
+      "name": "Klein Afrika – beeldentuin",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "38eb9a1c-a9db-5ca0-9ca9-ce76dd868b21",
+      "name": "HazArt – Beeldenpark Klein Engendaal",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "5345e87c-a5a6-5485-a62f-fce08a62dc5e",
+      "name": "Het SculptuurDuin – Beelden aan Zee",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "c0f402a8-b8be-52fc-9e4e-82a41ce3e858",
+      "name": "Galerie T – beeldentuin",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "d856d821-7b1c-578f-921e-3ecd93f2966e",
+      "name": "SEE – Sculpture Expo Esbeek",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "c42ad5a7-de3b-5dbc-ab78-294e2876ba63",
+      "name": "De Buffel – beeldentuin Vinkel",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "78bb3323-0f9f-5fb4-9f40-ab1775ca3131",
+      "name": "De Buffel – beeldentuin Veghel",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "1addc8ce-9115-54fb-ad4b-400721e5757f",
+      "name": "Sous-Terre – beeldenpark Lithoijen",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "d0964d61-3536-5b25-b3c1-4d232f1862fa",
+      "name": "Gallery van Dun – beeldentuin",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "15fdc855-f077-5f24-8188-4aafa2e0c416",
+      "name": "Galerie DNK – beeldentuin",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "22da8276-14a3-5e9f-87a0-f39004a55b95",
+      "name": "Beeldentuin Paula Withagen",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "a89b2aeb-86f5-5fa6-b0a2-a71af4c30371",
+      "name": "Willem Merkxtuin",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "ea01cf40-a24c-5116-85e3-1d3d3ada9e12",
+      "name": "Noordbrabants Museum – Paleistuin",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "24c11a2e-5177-5dc8-a474-52966ef79719",
+      "name": "Giardino – galerie en beeldentuin",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "1a592565-87cd-5e82-9f55-37cc08f2bccb",
+      "name": "De Grote Beer – beeldentuin",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "f78d86a4-8307-515b-99e3-88596fac08e0",
+      "name": "De Aalbekerhoeve – beeldentuin",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "4b741184-0dd2-5911-a3fd-ce88bc74771d",
+      "name": "Vera de Haas – atelier en beeldentuin",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "b55a4bbc-c0b0-5e45-84d2-1f16828ac6b9",
+      "name": "Yaka – beeldentuin",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "0cfbb766-dfa6-5592-ab24-1fec3baa7234",
+      "name": "Beeldentuin Suëstra",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "66f236cd-f46e-5a23-923a-4d445a5de153",
+      "name": "Daniëlle Orelio – beeldentuin",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "23103c24-889b-53c8-a814-4f61dea9df64",
+      "name": "Beeldentuin Anja Ysermans",
+      "category": "beeldenparken",
+      "status": "pending",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ],
+      "last_reviewed_at": null,
+      "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
     }
   ],
-  "resolved_count": 92,
-  "initial_count": 660
+  "resolved_count": 98,
+  "initial_count": 660,
+  "last_prepared_batch": "bba51f0f-447d-4419-9b07-8fdcf72bfb6a"
 }

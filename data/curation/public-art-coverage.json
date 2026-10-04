@@ -4,9 +4,36 @@
   "provinces": [
     {
       "province": "Drenthe",
-      "status": "pending",
-      "last_reviewed": null,
-      "municipalities_reviewed": []
+      "status": "partial",
+      "last_reviewed": "2026-10-04",
+      "municipalities_reviewed": [],
+      "run_id": "bba51f0f-447d-4419-9b07-8fdcf72bfb6a",
+      "evidence": [
+        {
+          "name": "Gebroken Cirkel, Derk den Boer, Yde",
+          "category": "openbare-kunst",
+          "source_url": "https://landartnederland.com/drenthe/",
+          "status": "pending",
+          "remaining": "Kunstenaarswebsite weigert browserverbinding; exact objectpunt en actuele toegang nog onbevestigd."
+        },
+        {
+          "name": "77 Verses",
+          "category": "openbare-kunst",
+          "source_url": "https://landartnederland.com/drenthe/",
+          "status": "pending",
+          "remaining": "Primaire Into Nature-pagina niet gelezen; spelling makers, jaar, exact punt en actuele aanwezigheid bevestigen."
+        },
+        {
+          "name": "Broken Circle / Spiral Hill",
+          "category": "openbare-kunst",
+          "source_url": "https://landartcontemporary.nl/project/brokencircle",
+          "status": "pending",
+          "remaining": "Bestaand record; gevonden primaire pagina beschrijft 2011, bevestigt huidige bezoekstatus niet."
+        }
+      ],
+      "limitations": [
+        "Geen volledige gemeentelijke dekking; geen nieuwe werken ingevoerd zonder exacte actuele bezoekinformatie."
+      ]
     },
     {
       "province": "Flevoland",

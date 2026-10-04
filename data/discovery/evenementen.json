@@ -4779,5 +4779,389 @@
     "coordinate_source": "https://nl.wikipedia.org/wiki/Odapark",
     "publication_status": "published",
     "coordinate_precision": "exact"
+  },
+  {
+    "id": "26e3bf7e-3221-59e8-9c95-9e4a194f9a3d",
+    "city": "Wijlre",
+    "name": "Gossip: Magie en Marginalisering",
+    "tags": [
+      "tentoonstelling",
+      "hedendaagse kunst",
+      "installaties",
+      "identiteit",
+      "maker: melanie bonajo; natasja kensmil; lara schnitger; herman de vries; diverse kunstenaars"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Overzicht_van_de_voorburcht_met_bijgebouwen%2C_vijver_en_kunstwerken%2C_voorgevel_van_het_kasteel_met_dakruiter_op_de_achtergrond_-_Wijlre_-_20408870_-_RCE.jpg/330px-Overzicht_van_de_voorburcht_met_bijgebouwen%2C_vijver_en_kunstwerken%2C_voorgevel_van_het_kasteel_met_dakruiter_op_de_achtergrond_-_Wijlre_-_20408870_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Loek Tangel",
+        "caption": "Locatiebeeld uit 2004, geen opname van deze tentoonstelling: Buitenplaats Kasteel Wijlre.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_van_de_voorburcht_met_bijgebouwen,_vijver_en_kunstwerken,_voorgevel_van_het_kasteel_met_dakruiter_op_de_achtergrond_-_Wijlre_-_20408870_-_RCE.jpg"
+      }
+    ],
+    "creator": "melanie bonajo; Natasja Kensmil; Lara Schnitger; herman de vries; diverse kunstenaars",
+    "ends_on": "2027-02-28",
+    "sources": [
+      {
+        "url": "https://kasteelwijlre.nl/nl/tentoonstellingen/gossip/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:01:37.975725+00:00"
+      }
+    ],
+    "summary": "Hedendaagse kunstenaars onderzoeken uitsluiting, zorg en gedeelde kennis. De geschiedenis van heksenvervolgingen in Zuid-Limburg vormt een vertrekpunt. Kunst in het Hedge House en de tuin verbindt regionale verhalen met vragen over solidariteit en verbeelding.",
+    "category": "evenementen",
+    "latitude": 50.830165,
+    "province": "Limburg",
+    "longitude": 5.891797,
+    "museum_id": "305f3814-535b-5426-a371-91dac06e5b1f",
+    "starts_on": "2026-08-30",
+    "created_at": "2026-10-04T20:05:51.947874+00:00",
+    "updated_at": "2026-10-04T20:05:52.020785+00:00",
+    "visit_notes": "Buitenplaats Kasteel Wijlre, ingang Kerkpad / In de Beemden 1. Woensdag–zondag 11.00–17.00 uur; toegang met entreebewijs. Controleer afwijkende dagen bij de organisator.",
+    "website_url": "https://kasteelwijlre.nl/nl/tentoonstellingen/gossip/",
+    "inventory_key": "event:kasteelwijlre.nl/nl/tentoonstellingen/gossip:2026-08-30",
+    "street_address": "Kerkpad 1",
+    "operating_status": "open",
+    "selection_reason": "Kunstinhoud, bezoeklocatie en volledige looptijd bij de organisator bevestigd na selectie uit de actieve bronnenpool. Loopt op de controledatum of begint binnen één kalendermaand.",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "21153ebd-6b72-54e5-a742-da5522035f87",
+    "city": "Wijlre",
+    "name": "Vibeke Mascini — Daisychain",
+    "tags": [
+      "tentoonstelling",
+      "installaties",
+      "natuur en milieu",
+      "technologie",
+      "maker: vibeke mascini"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Overzicht_van_de_voorburcht_met_bijgebouwen%2C_vijver_en_kunstwerken%2C_voorgevel_van_het_kasteel_met_dakruiter_op_de_achtergrond_-_Wijlre_-_20408870_-_RCE.jpg/330px-Overzicht_van_de_voorburcht_met_bijgebouwen%2C_vijver_en_kunstwerken%2C_voorgevel_van_het_kasteel_met_dakruiter_op_de_achtergrond_-_Wijlre_-_20408870_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Loek Tangel",
+        "caption": "Locatiebeeld uit 2004, geen opname van deze tentoonstelling: Buitenplaats Kasteel Wijlre.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_van_de_voorburcht_met_bijgebouwen,_vijver_en_kunstwerken,_voorgevel_van_het_kasteel_met_dakruiter_op_de_achtergrond_-_Wijlre_-_20408870_-_RCE.jpg"
+      }
+    ],
+    "creator": "Vibeke Mascini",
+    "ends_on": "2027-02-28",
+    "sources": [
+      {
+        "url": "https://kasteelwijlre.nl/nl/tentoonstellingen/vibeke-mascini/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:01:37.975725+00:00"
+      }
+    ],
+    "summary": "Vibeke Mascini maakt in het Koetshuis een netwerk van installaties over energie en geheugen. Natuurlijke processen en technologie raken verweven. De werken laten ervaren hoe herinneringen en levende systemen afhankelijk zijn van voortdurende energiestromen.",
+    "category": "evenementen",
+    "latitude": 50.830165,
+    "province": "Limburg",
+    "longitude": 5.891797,
+    "museum_id": "305f3814-535b-5426-a371-91dac06e5b1f",
+    "starts_on": "2026-08-30",
+    "created_at": "2026-10-04T20:05:51.947874+00:00",
+    "updated_at": "2026-10-04T20:05:52.028073+00:00",
+    "visit_notes": "Buitenplaats Kasteel Wijlre, ingang Kerkpad / In de Beemden 1. Woensdag–zondag 11.00–17.00 uur; toegang met entreebewijs. Controleer afwijkende dagen bij de organisator.",
+    "website_url": "https://kasteelwijlre.nl/nl/tentoonstellingen/vibeke-mascini/",
+    "inventory_key": "event:kasteelwijlre.nl/nl/tentoonstellingen/vibeke-mascini:2026-08-30",
+    "street_address": "Kerkpad 1",
+    "operating_status": "open",
+    "selection_reason": "Kunstinhoud, bezoeklocatie en volledige looptijd bij de organisator bevestigd na selectie uit de actieve bronnenpool. Loopt op de controledatum of begint binnen één kalendermaand.",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "95a0280a-32bc-5af0-aaeb-ea9a95ad6fa9",
+    "city": "Den Haag",
+    "name": "Betzy Akersloot-Berg. One of a kind",
+    "tags": [
+      "tentoonstelling",
+      "schilderkunst",
+      "landschap",
+      "19e eeuw",
+      "maker: betzy akersloot-berg"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Overzicht_voorgevel_in_straatbeeld_20411247_RCE.jpg/330px-Overzicht_voorgevel_in_straatbeeld_20411247_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Sergé Technau",
+        "caption": "Locatiebeeld uit 2007, geen opname van deze tentoonstelling: Museum Panorama Mesdag.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_voorgevel_in_straatbeeld_20411247_RCE.jpg"
+      }
+    ],
+    "creator": "Betzy Akersloot-Berg",
+    "ends_on": "2027-02-28",
+    "sources": [
+      {
+        "url": "https://panorama-mesdag.nl/zien-en-doen/tentoonstellingen/betzy-akersloot-berg/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:01:37.975725+00:00"
+      }
+    ],
+    "summary": "Ontdek de zee- en kustgezichten van Betzy Akersloot-Berg. Schilderijen en tekeningen uit Nederlandse en internationale collecties tonen haar reizen, zelfstandige kunstenaarschap en vriendschap met Hendrik Willem Mesdag en Sientje Mesdag-van Houten.",
+    "category": "evenementen",
+    "latitude": 52.084794,
+    "province": "Zuid-Holland",
+    "longitude": 4.303302,
+    "museum_id": "51f162b9-5df8-58d9-b7c3-30d0eb7ac3f6",
+    "starts_on": "2026-10-03",
+    "created_at": "2026-10-04T20:05:51.947874+00:00",
+    "updated_at": "2026-10-04T20:05:52.029397+00:00",
+    "visit_notes": "Zeestraat 65, dinsdag–zondag 10.00–17.00 uur. Museumticket vereist; controleer afwijkende dagen bij de organisator.",
+    "website_url": "https://panorama-mesdag.nl/zien-en-doen/tentoonstellingen/betzy-akersloot-berg/",
+    "inventory_key": "event:panorama-mesdag.nl/zien-en-doen/tentoonstellingen/betzy-akersloot-berg:2026-10-03",
+    "street_address": "Zeestraat 65",
+    "operating_status": "open",
+    "selection_reason": "Kunstinhoud, bezoeklocatie en volledige looptijd bij de organisator bevestigd na selectie uit de actieve bronnenpool. Loopt op de controledatum of begint binnen één kalendermaand.",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "a8e7aaa6-6178-5914-8502-3e1dcf659892",
+    "city": "Gouda",
+    "name": "Wonder Walls — Geweven meesterwerken",
+    "tags": [
+      "tentoonstelling",
+      "textiel",
+      "toegepaste kunst",
+      "oude kunst",
+      "maker: jannetje wouters; pieter de cracht; mina abouzahra; diverse makers"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Museum_Gouda%2C_Gouda_750_jaar.jpg/330px-Museum_Gouda%2C_Gouda_750_jaar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Agaath",
+        "caption": "Locatiebeeld uit 2022, geen opname van deze tentoonstelling: Museum Gouda.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Museum_Gouda,_Gouda_750_jaar.jpg"
+      }
+    ],
+    "creator": "Jannetje Wouters; Pieter de Cracht; Mina Abouzahra; diverse makers",
+    "ends_on": "2027-03-29",
+    "sources": [
+      {
+        "url": "https://www.museumgouda.nl/tentoonstelling/wonder-walls-wandtapijten/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:01:37.975725+00:00"
+      }
+    ],
+    "summary": "Monumentale wandtapijten vertellen hoe Gouda uitgroeide tot een centrum van weefkunst. Bruiklenen uit binnen- en buitenland verbinden vakmanschap met migratie, handel en vrouwelijke ondernemers. Ook hedendaags textielontwerp krijgt een plek.",
+    "category": "evenementen",
+    "latitude": 52.010027,
+    "province": "Zuid-Holland",
+    "longitude": 4.711067,
+    "museum_id": "edcef0f9-0aa9-5898-9e0c-dae509612b17",
+    "starts_on": "2026-09-26",
+    "created_at": "2026-10-04T20:05:51.947874+00:00",
+    "updated_at": "2026-10-04T20:05:52.031905+00:00",
+    "visit_notes": "Hoofdingang Oosthaven 9. Dinsdag–zondag 11.00–17.00 uur. De actuele organisatorpagina noemt 29 maart 2027 als einddatum; afwijkende feestdaguren controleren.",
+    "website_url": "https://www.museumgouda.nl/tentoonstelling/wonder-walls-wandtapijten/",
+    "inventory_key": "event:www.museumgouda.nl/tentoonstelling/wonder-walls-wandtapijten:2026-09-26",
+    "street_address": "Oosthaven 9",
+    "operating_status": "open",
+    "selection_reason": "Kunstinhoud, bezoeklocatie en volledige looptijd bij de organisator bevestigd na selectie uit de actieve bronnenpool. Loopt op de controledatum of begint binnen één kalendermaand.",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "ebd0c8de-10d8-5532-a902-bf2e5d937f16",
+    "city": "Amsterdam",
+    "name": "Ulrich Seidl — Über das Leben, die Liebe und den Tod",
+    "tags": [
+      "tentoonstelling",
+      "videokunst",
+      "installaties",
+      "identiteit",
+      "maker: ulrich seidl"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/EYE_Filmmuseum.jpg/330px-EYE_Filmmuseum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Jvhertum",
+        "caption": "Locatiebeeld uit 2012, geen opname van deze tentoonstelling: EYE.",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:EYE_Filmmuseum.jpg"
+      }
+    ],
+    "creator": "Ulrich Seidl",
+    "ends_on": "2027-01-31",
+    "sources": [
+      {
+        "url": "https://www.eyefilm.nl/programma/ulrich-seidl/1633828",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:01:37.975725+00:00"
+      }
+    ],
+    "summary": "Ulrich Seidl onderzoekt hoe mensen liefde, geluk en geborgenheid zoeken. De tentoonstelling brengt vroeg, onbekend en nieuw filmwerk samen. Geënsceneerde situaties en documentaire beelden laten grenzen tussen werkelijkheid en fictie vervagen.",
+    "category": "evenementen",
+    "latitude": 52.384136,
+    "province": "Noord-Holland",
+    "longitude": 4.901294,
+    "museum_id": "f5b4eb15-d3db-506b-8356-724de9e15d1b",
+    "starts_on": "2026-09-19",
+    "created_at": "2026-10-04T20:05:51.947874+00:00",
+    "updated_at": "2026-10-04T20:05:52.033072+00:00",
+    "visit_notes": "Eye, IJpromenade 1. Tentoonstelling dinsdag–zondag 10.00–19.00 uur; op maandag buiten schoolvakanties gesloten. Eye waarschuwt voor enkele aanstootgevende beelden. Filmvertoningen hebben afzonderlijke tickets.",
+    "website_url": "https://www.eyefilm.nl/programma/ulrich-seidl/1633828",
+    "inventory_key": "event:www.eyefilm.nl/programma/ulrich-seidl/1633828:2026-09-19",
+    "street_address": "IJpromenade 1",
+    "operating_status": "open",
+    "selection_reason": "Kunstinhoud, bezoeklocatie en volledige looptijd bij de organisator bevestigd na selectie uit de actieve bronnenpool. Loopt op de controledatum of begint binnen één kalendermaand.",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "9811f150-aefd-5cae-9cfb-3d5eb64a67c5",
+    "city": "Delden",
+    "name": "Into the Woods",
+    "tags": [
+      "tentoonstelling",
+      "schilderkunst",
+      "tekeningen",
+      "fotografie",
+      "landschap"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Delden_hengelosestraat_2_4_rentmeesterij.jpg/330px-Delden_hengelosestraat_2_4_rentmeesterij.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Notum-sit",
+        "caption": "Locatiebeeld uit 2010, geen opname van deze tentoonstelling: Museum MORE Twickel.",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Delden_hengelosestraat_2_4_rentmeesterij.jpg"
+      }
+    ],
+    "creator": "Persijn Broersen; Margit Lukács; Siemen Dijkstra; Ruud van Empel; Martin Fenne; Erik Odijk; Lise Lou Sore; Renie Spoelstra; Sophie Steengracht; Isabella Werkhoven",
+    "ends_on": "2027-03-21",
+    "sources": [
+      {
+        "url": "https://www.moretwickel.nl/tentoonstellingen/into-the-woods",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:01:37.975725+00:00"
+      }
+    ],
+    "summary": "Tien hedendaagse Nederlandse kunstenaars en schrijver Thomas Olde Heuvelt verkennen het bos als plek van schoonheid, rust en dreiging. Schilderijen, tekeningen, prenten, fotocollages en video laten vertrouwde landschappen veranderen in een wereld vol herinneringen en verbeelding.",
+    "category": "evenementen",
+    "latitude": 52.26277776,
+    "province": "Overijssel",
+    "longitude": 6.71692028,
+    "museum_id": "2ad664ac-fdb1-5a39-a587-feea9ed9608e",
+    "starts_on": "2026-09-12",
+    "created_at": "2026-10-04T20:05:51.947874+00:00",
+    "updated_at": "2026-10-04T20:05:52.035012+00:00",
+    "visit_notes": "Hengelosestraat 2/4, Delden. Dinsdag–zondag 11.00–17.00 uur; enkele vakantiemaandagen extra open. Het bijbehorende griezelverhaal is volgens het museum niet geschikt voor jonge kinderen.",
+    "website_url": "https://www.moretwickel.nl/tentoonstellingen/into-the-woods",
+    "inventory_key": "event:www.moretwickel.nl/tentoonstellingen/into-the-woods:2026-09-12",
+    "street_address": "Hengelosestraat 2/4",
+    "operating_status": "open",
+    "selection_reason": "Kunstinhoud, bezoeklocatie en volledige looptijd bij de organisator bevestigd na selectie uit de actieve bronnenpool. Loopt op de controledatum of begint binnen één kalendermaand.",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-c3850345cdc2cc8a214b6645cfb58bbc",
+    "publication_status": "published",
+    "coordinate_precision": "address"
+  },
+  {
+    "id": "7d3ee52d-c2fb-59b3-a9e1-b660a1a56afc",
+    "city": "Utrecht",
+    "name": "Henk Helmantel. In een nieuw licht",
+    "tags": [
+      "tentoonstelling",
+      "schilderkunst",
+      "stilleven",
+      "religie",
+      "maker: henk helmantel"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Catharijneconvent.JPG/330px-Catharijneconvent.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Luctor IV",
+        "caption": "Locatiebeeld uit 2006, geen opname van deze tentoonstelling: Museum Catharijneconvent.",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Catharijneconvent.JPG"
+      }
+    ],
+    "creator": "Henk Helmantel",
+    "ends_on": "2027-01-17",
+    "sources": [
+      {
+        "url": "https://catharijneconvent.nl/tentoonstellingen/henk-helmantel/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:01:37.975725+00:00"
+      }
+    ],
+    "summary": "Henk Helmantels stillevens en kerkinterieurs ontmoeten middeleeuwse beelden uit zijn eigen verzameling en die van het museum. Licht, compositie en alledaagse voorwerpen krijgen aandacht in de historische kloosteromgeving.",
+    "category": "evenementen",
+    "latitude": 52.087289,
+    "province": "Utrecht",
+    "longitude": 5.123924,
+    "museum_id": "abe177c0-7a81-528f-84af-ceca3adf4275",
+    "starts_on": "2026-09-25",
+    "created_at": "2026-10-04T20:05:51.947874+00:00",
+    "updated_at": "2026-10-04T20:05:52.03648+00:00",
+    "visit_notes": "Museum Catharijneconvent, Lange Nieuwstraat 38, Utrecht. Museumticket vereist; reserveren kan online of aan de kassa. Controleer actuele openingstijden en eventuele toeslag.",
+    "website_url": "https://catharijneconvent.nl/tentoonstellingen/henk-helmantel/",
+    "inventory_key": "event:catharijneconvent.nl/tentoonstellingen/henk-helmantel:2026-09-25",
+    "street_address": "Lange Nieuwstraat 38",
+    "operating_status": "open",
+    "selection_reason": "Kunstinhoud, bezoeklocatie en volledige looptijd bij de organisator bevestigd na selectie uit de actieve bronnenpool. Loopt op de controledatum of begint binnen één kalendermaand.",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "efdae812-95ef-52b9-8b82-8a784b7d3604",
+    "city": "Utrecht",
+    "name": "Data Never Dies — Digital traces and AI afterlives",
+    "tags": [
+      "tentoonstelling",
+      "digitale kunst",
+      "videokunst",
+      "installaties",
+      "identiteit"
+    ],
+    "year": "2026",
+    "photos": [],
+    "creator": "Amélie McKee; Melle Nieling; Charmaine Poh; Esther Hovers; Ginevra Petrozzi; Gjorgji Despodov; Janilda Bartolomeu; Joeri Boelhouwer; Kyriaki Goni; playField; Ruben Mols",
+    "ends_on": "2026-11-15",
+    "sources": [
+      {
+        "url": "https://impakt.nl/nl/events/2026/tentoonstelling/data-never-dies/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:01:37.975725+00:00"
+      }
+    ],
+    "summary": "Video, fotografie en interactieve installaties onderzoeken wat er online van ons achterblijft. Kunstenaars stellen vragen over digitale herinneringen, kunstmatige intelligentie, verlies en het recht om te worden vergeten.",
+    "category": "evenementen",
+    "latitude": 52.08847905,
+    "province": "Utrecht",
+    "longitude": 5.12289039,
+    "museum_id": "f127c110-8115-5ece-a3ff-cba0d2d0afcd",
+    "starts_on": "2026-08-28",
+    "created_at": "2026-10-04T20:05:51.947874+00:00",
+    "updated_at": "2026-10-04T20:05:52.037271+00:00",
+    "visit_notes": "IMPAKT, Lange Nieuwstraat 4, Utrecht. Woensdag–zondag 12.00–18.00 uur. Entree en zaal alleen via trap; geen lift. Museumkaart geeft korting, geen gratis toegang.",
+    "website_url": "https://impakt.nl/nl/events/2026/tentoonstelling/data-never-dies/",
+    "inventory_key": "event:impakt.nl/nl/events/2026/tentoonstelling/data-never-dies:2026-08-28",
+    "street_address": "Lange Nieuwstraat 4",
+    "operating_status": "open",
+    "selection_reason": "Kunstinhoud, bezoeklocatie en volledige looptijd bij de organisator bevestigd na selectie uit de actieve bronnenpool. Loopt op de controledatum of begint binnen één kalendermaand.",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-ea4108a09f03bea8b5032ba25f0abc5c",
+    "publication_status": "published",
+    "coordinate_precision": "address"
   }
 ]

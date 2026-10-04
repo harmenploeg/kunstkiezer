@@ -3086,7 +3086,7 @@
     "website_url": "https://www.eyefilm.nl/",
     "latitude": 52.384136,
     "longitude": 4.901294,
-    "summary": "Kijk verder dan het bioscoopscherm. Eye verkent film als kunstvorm, met tentoonstellingen waarin bewegend beeld, makers en experiment centraal staan. De omvangrijke filmverzameling vormt de achtergrond van een veelzijdig programma.",
+    "summary": "Eye verkent film als kunstvorm met tentoonstellingen rond bewegend beeld, makers en experiment. De tentoonstelling aan de IJpromenade is dinsdag tot en met zondag van 10.00 tot 19.00 uur te bezoeken. Buiten schoolvakanties is zij op maandag gesloten; filmzalen en restaurant hebben andere openingstijden. Controleer het actuele programma voor je bezoek.",
     "operating_status": "open",
     "publication_status": "published",
     "verification_status": "unreviewed",
@@ -3147,6 +3147,14 @@
           "name",
           "city",
           "province"
+        ]
+      },
+      {
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "url": "https://www.eyefilm.nl/plan-je-bezoek",
+        "retrieved_at": "2026-10-04T20:01:37.975725+00:00",
+        "evidence_fields": [
+          "summary"
         ]
       }
     ],
@@ -14543,7 +14551,7 @@
     "operating_status": "open",
     "publication_status": "published",
     "verification_status": "unreviewed",
-    "summary": "Onderzoek hoe media en technologie ons leven vormen. IMPAKT brengt kunstenaars, filmmakers en denkers samen in tentoonstellingen en programma's. De kunst laat je vertrouwde schermen en digitale gewoonten met andere ogen bekijken.",
+    "summary": "IMPAKT onderzoekt met beeldende kunst hoe media en technologie ons leven vormen. Tentoonstellingen aan de Lange Nieuwstraat zijn woensdag tot en met zondag van 12.00 tot 18.00 uur open. Entree en expositieruimte zijn alleen via een trap bereikbaar; er is geen lift. Andere programmaonderdelen kunnen op andere locaties plaatsvinden.",
     "tags": [
       "mediakunst",
       "digitale cultuur",
@@ -14572,6 +14580,14 @@
           "summary",
           "tags",
           "is_art_museum"
+        ]
+      },
+      {
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "url": "https://impakt.nl/nl/visit/",
+        "retrieved_at": "2026-10-04T20:01:37.975725+00:00",
+        "evidence_fields": [
+          "summary"
         ]
       }
     ],

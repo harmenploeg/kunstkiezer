@@ -40,17 +40,17 @@
       "visible_on_research_date": 184
     },
     "evenementen": {
-      "total": 87,
-      "published": 87,
+      "total": 95,
+      "published": 95,
       "archived": 0,
       "draft": 0,
-      "with_photos": 84,
-      "precise_locations": 85,
-      "visible_on_research_date": 86
+      "with_photos": 91,
+      "precise_locations": 93,
+      "visible_on_research_date": 94
     }
   },
-  "total": 781,
-  "remaining_records": 335,
+  "total": 789,
+  "remaining_records": 336,
   "remaining": [
     {
       "id": "5402debd-2567-5c85-af4d-31354fd1f113",
@@ -3514,6 +3514,16 @@
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
         "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "efdae812-95ef-52b9-8b82-8a784b7d3604",
+      "inventory_key": "event:impakt.nl/nl/events/2026/tentoonstelling/data-never-dies:2026-08-28",
+      "category": "evenementen",
+      "name": "Data Never Dies — Digital traces and AI afterlives",
+      "website_url": "https://impakt.nl/nl/events/2026/tentoonstelling/data-never-dies/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]
     }
   ]

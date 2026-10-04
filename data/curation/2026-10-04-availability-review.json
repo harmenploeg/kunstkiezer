@@ -124,7 +124,7 @@
     }
   ],
   "baseline_records": 732,
-  "current_records": 747,
+  "current_records": 789,
   "maker_updates": 54,
   "disappeared_updates": 6,
   "records": [
@@ -4196,10 +4196,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Nieuwe locatie in Oude Rentmeesterij al aanwezig, dus niet dubbel toegevoegd. Hengelosestraat 2/4 en dinsdag–zondag 11–17 uur bevestigd. Foto uit 2010 toont gebouw vóór museumopening; zo gelabeld bij nieuw evenement."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "2ad664ac-fdb1-5a39-a587-feea9ed9608e",
+          "name": "Museum MORE Twickel",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://www.moretwickel.nl/plan-je-bezoek/openingstijden",
+            "https://www.moretwickel.nl/tentoonstellingen/into-the-woods"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Nieuwe locatie in Oude Rentmeesterij al aanwezig, dus niet dubbel toegevoegd. Hengelosestraat 2/4 en dinsdag–zondag 11–17 uur bevestigd. Foto uit 2010 toont gebouw vóór museumopening; zo gelabeld bij nieuw evenement.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -7432,10 +7456,33 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Zeestraat 65, dinsdag–zondag 10–17 uur en museumticket bevestigd. Bestaande beschrijving en objectpunt behouden. Nieuwe expositie afzonderlijk toegevoegd; Commons-gevelbeeld uit 2007 geverifieerd."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "51f162b9-5df8-58d9-b7c3-30d0eb7ac3f6",
+          "name": "Museum Panorama Mesdag",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://panorama-mesdag.nl/bezoek/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Zeestraat 65, dinsdag–zondag 10–17 uur en museumticket bevestigd. Bestaande beschrijving en objectpunt behouden. Nieuwe expositie afzonderlijk toegevoegd; Commons-gevelbeeld uit 2007 geverifieerd.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -10535,10 +10582,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Heropening september 2026 en september–oktober-rooster dinsdag–zondag 11–16 uur bevestigd. Hof van Bergh 8 en open-status kloppen. Geen onterechte sluiting uit oudere verbouwingsinformatie overgenomen."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "760fa7b6-2d12-5a3c-8e26-f1ddb9053704",
+          "name": "Kasteel Huis Bergh",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://www.huisbergh.nl/",
+            "https://www.huisbergh.nl/openingstijden-en-tickets"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Heropening september 2026 en september–oktober-rooster dinsdag–zondag 11–16 uur bevestigd. Hof van Bergh 8 en open-status kloppen. Geen onterechte sluiting uit oudere verbouwingsinformatie overgenomen.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -12396,13 +12467,17 @@
         }
       ],
       "manually_verified_fields": [
-        "summary"
+        "operating_status",
+        "street_address",
+        "summary",
+        "website_url"
       ],
       "decisions": [
-        "Status blijft tijdelijk gesloten op 4 oktober; heropening niet voortijdig als open verwerkt. Beeldentuin als mogelijke afzonderlijke kandidaat genoteerd."
+        "Status blijft tijdelijk gesloten op 4 oktober; heropening niet voortijdig als open verwerkt. Beeldentuin als mogelijke afzonderlijke kandidaat genoteerd.",
+        "Prominente actuele melding: tijdelijk gesloten, weer open zaterdag 10 oktober. Vandaag 4 oktober dus gesloten behouden. Eschberg 5–7 bevestigd. Geen voortijdige heropening doorgevoerd."
       ],
       "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Op of na 10 oktober heropening daadwerkelijk bevestigen voordat operating_status wordt gewijzigd."
       ],
       "followup_reviews": [
         {
@@ -12415,6 +12490,25 @@
             "summary"
           ],
           "conclusion": "Status blijft tijdelijk gesloten op 4 oktober; heropening niet voortijdig als open verwerkt. Beeldentuin als mogelijke afzonderlijke kandidaat genoteerd."
+        },
+        {
+          "id": "878fe3f1-3c25-5be4-9dc7-76ffb629ad0a",
+          "name": "Museum Vaals",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://museumvaals.nl/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Prominente actuele melding: tijdelijk gesloten, weer open zaterdag 10 oktober. Vandaag 4 oktober dus gesloten behouden. Eschberg 5–7 bevestigd. Geen voortijdige heropening doorgevoerd.",
+          "remaining": [
+            "Op of na 10 oktober heropening daadwerkelijk bevestigen voordat operating_status wordt gewijzigd."
+          ],
+          "resolves_availability": false
         }
       ]
     },
@@ -15553,10 +15647,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Bezoek aan Lange Nieuwstraat 38 en toegang met kaartje aan kassa of online bevestigd. Alleen festivaldag 3 oktober had aparte toegang; die is voorbij. Gebouwfoto en licentie geverifieerd."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "abe177c0-7a81-528f-84af-ceca3adf4275",
+          "name": "Museum Catharijneconvent",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://catharijneconvent.nl/bezoekersvragen/",
+            "https://catharijneconvent.nl/tentoonstellingen/henk-helmantel/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Bezoek aan Lange Nieuwstraat 38 en toegang met kaartje aan kassa of online bevestigd. Alleen festivaldag 3 oktober had aparte toegang; die is voorbij. Gebouwfoto en licentie geverifieerd.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -21812,10 +21930,33 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Actuele organisatorpagina bevestigt hoofdingang Oosthaven 9 en dinsdag–zondag 11–17 uur. Achter de Kerk 14 is groeps-/postadres. Bestaande bezoekadres klopt. Commons-gevelbeeld uit 2022 geverifieerd."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "edcef0f9-0aa9-5898-9e0c-dae509612b17",
+          "name": "Museum Gouda",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://www.museumgouda.nl/tentoonstelling/wonder-walls-wandtapijten/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Actuele organisatorpagina bevestigt hoofdingang Oosthaven 9 en dinsdag–zondag 11–17 uur. Achter de Kerk 14 is groeps-/postadres. Bestaande bezoekadres klopt. Commons-gevelbeeld uit 2022 geverifieerd.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -22129,10 +22270,40 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "summary",
+        "website_url"
+      ],
+      "decisions": [
+        "Actueel programma en Lange Nieuwstraat 4 bevestigd. Tentoonstellingen woensdag–zondag 12–18 uur. Entree en zaal alleen via trap; toiletten boven, geen lift. Bestaande foto is van het festival 2023 en wordt niet als nieuwe tentoonstelling hergebruikt."
+      ],
       "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Passend gebouw- of tentoonstellingsbeeld met hergebruiklicentie zoeken; Commons-zoekactie leverde vooral festivalbeelden uit 2023 op."
+      ],
+      "followup_reviews": [
+        {
+          "id": "f127c110-8115-5ece-a3ff-cba0d2d0afcd",
+          "name": "IMPAKT Centre for Mediaculture",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://impakt.nl/nl/visit/",
+            "https://impakt.nl/nl/events/2026/tentoonstelling/data-never-dies/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url",
+            "summary"
+          ],
+          "conclusion": "Actueel programma en Lange Nieuwstraat 4 bevestigd. Tentoonstellingen woensdag–zondag 12–18 uur. Entree en zaal alleen via trap; toiletten boven, geen lift. Bestaande foto is van het festival 2023 en wordt niet als nieuwe tentoonstelling hergebruikt.",
+          "remaining": [
+            "Passend gebouw- of tentoonstellingsbeeld met hergebruiklicentie zoeken; Commons-zoekactie leverde vooral festivalbeelden uit 2023 op."
+          ],
+          "resolves_availability": false
+        }
       ]
     },
     {
@@ -22759,10 +22930,35 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "summary",
+        "website_url"
+      ],
+      "decisions": [
+        "Bezoekadres IJpromenade 1 bevestigd; collectiecentrum Asterweg 26 is andere functie. Tentoonstelling dinsdag–zondag 10–19 uur, maandag buiten schoolvakanties gesloten. Bestaande open-status klopt; gebouwfoto uit 2012 geverifieerd."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "f5b4eb15-d3db-506b-8356-724de9e15d1b",
+          "name": "EYE",
+          "category": "musea",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://www.eyefilm.nl/plan-je-bezoek"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url",
+            "summary"
+          ],
+          "conclusion": "Bezoekadres IJpromenade 1 bevestigd; collectiecentrum Asterweg 26 is andere functie. Tentoonstelling dinsdag–zondag 10–19 uur, maandag buiten schoolvakanties gesloten. Bestaande open-status klopt; gebouwfoto uit 2012 geverifieerd.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -24213,9 +24409,371 @@
           "remaining": []
         }
       ]
+    },
+    {
+      "id": "26e3bf7e-3221-59e8-9c95-9e4a194f9a3d",
+      "name": "Gossip: Magie en Marginalisering",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "26e3bf7e-3221-59e8-9c95-9e4a194f9a3d",
+          "name": "Gossip: Magie en Marginalisering",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://kasteelwijlre.nl/nl/tentoonstellingen/gossip/"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "photos"
+          ],
+          "conclusion": "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "21153ebd-6b72-54e5-a742-da5522035f87",
+      "name": "Vibeke Mascini — Daisychain",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "21153ebd-6b72-54e5-a742-da5522035f87",
+          "name": "Vibeke Mascini — Daisychain",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://kasteelwijlre.nl/nl/tentoonstellingen/vibeke-mascini/"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "photos"
+          ],
+          "conclusion": "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "95a0280a-32bc-5af0-aaeb-ea9a95ad6fa9",
+      "name": "Betzy Akersloot-Berg. One of a kind",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "95a0280a-32bc-5af0-aaeb-ea9a95ad6fa9",
+          "name": "Betzy Akersloot-Berg. One of a kind",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://panorama-mesdag.nl/zien-en-doen/tentoonstellingen/betzy-akersloot-berg/"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "photos"
+          ],
+          "conclusion": "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "a8e7aaa6-6178-5914-8502-3e1dcf659892",
+      "name": "Wonder Walls — Geweven meesterwerken",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "a8e7aaa6-6178-5914-8502-3e1dcf659892",
+          "name": "Wonder Walls — Geweven meesterwerken",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://www.museumgouda.nl/tentoonstelling/wonder-walls-wandtapijten/"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "photos"
+          ],
+          "conclusion": "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "ebd0c8de-10d8-5532-a902-bf2e5d937f16",
+      "name": "Ulrich Seidl — Über das Leben, die Liebe und den Tod",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "ebd0c8de-10d8-5532-a902-bf2e5d937f16",
+          "name": "Ulrich Seidl — Über das Leben, die Liebe und den Tod",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://www.eyefilm.nl/programma/ulrich-seidl/1633828"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "photos"
+          ],
+          "conclusion": "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "9811f150-aefd-5cae-9cfb-3d5eb64a67c5",
+      "name": "Into the Woods",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "9811f150-aefd-5cae-9cfb-3d5eb64a67c5",
+          "name": "Into the Woods",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://www.moretwickel.nl/tentoonstellingen/into-the-woods"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "photos"
+          ],
+          "conclusion": "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "7d3ee52d-c2fb-59b3-a9e1-b660a1a56afc",
+      "name": "Henk Helmantel. In een nieuw licht",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "7d3ee52d-c2fb-59b3-a9e1-b660a1a56afc",
+          "name": "Henk Helmantel. In een nieuw licht",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://catharijneconvent.nl/tentoonstellingen/henk-helmantel/"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "photos"
+          ],
+          "conclusion": "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "efdae812-95ef-52b9-8b82-8a784b7d3604",
+      "name": "Data Never Dies — Digital traces and AI afterlives",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Organisator bevestigt inhoud, locatie en looptijd. Zonder foto gepubliceerd: geen passende vrij herbruikbare afbeelding bevestigd."
+      ],
+      "remaining": [
+        "Passende foto met maker, bron en hergebruikvoorwaarden ontbreekt."
+      ],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "efdae812-95ef-52b9-8b82-8a784b7d3604",
+          "name": "Data Never Dies — Digital traces and AI afterlives",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:01:37.975725+00:00",
+          "primary_sources": [
+            "https://impakt.nl/nl/events/2026/tentoonstelling/data-never-dies/"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address"
+          ],
+          "conclusion": "Organisator bevestigt inhoud, locatie en looptijd. Zonder foto gepubliceerd: geen passende vrij herbruikbare afbeelding bevestigd.",
+          "remaining": [
+            "Passende foto met maker, bron en hergebruikvoorwaarden ontbreekt."
+          ],
+          "resolves_availability": true
+        }
+      ]
     }
   ],
   "sleutelwerken_api_records_checked": 100,
-  "latest_followup_report": "2026-10-04-review-c2c576a9.json",
-  "updated_at": "2026-10-04T16:40:10.554095+00:00"
+  "latest_followup_report": "2026-10-04-review-bba51f0f.json",
+  "updated_at": "2026-10-04T20:01:37.975725+00:00"
 }
