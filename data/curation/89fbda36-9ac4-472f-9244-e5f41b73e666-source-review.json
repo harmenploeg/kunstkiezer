@@ -290,7 +290,7 @@
       "updated_at": "2026-10-04 18:26:45.436382+00"
     }
   ],
-  "checked_at": "2026-10-04T22:05:47Z",
+  "checked_at": "2026-10-04T22:28:07.625624+00:00",
   "scope": "Gedeeltelijke bronnenronde met gerichte publicatie; niet volledig gelezen bronnen expliciet benoemd. Eerdere mislukte controles schuiven geen succesvolle controledatum op.",
   "sources": [
     {
@@ -569,7 +569,7 @@
       "source_id": "instagram-cathelijneblok",
       "name": "Instagram · cathelijneblok",
       "url": "https://www.instagram.com/cathelijneblok/",
-      "checked_at": "2026-10-04T22:05:47Z",
+      "checked_at": "2026-10-04T22:28:07.625624+00:00",
       "window_from": "2026-09-06",
       "window_to": "2026-10-05",
       "status": "partial",
@@ -578,11 +578,21 @@
           "url": "https://www.instagram.com/melkwegexpo/p/DdRd-o1th7-/",
           "published_at": "2026-09-14",
           "result": "Bijschrift en datum gelezen; No Need To Pretend bij Melkweg geverifieerd en toegevoegd."
+        },
+        {
+          "url": "https://www.instagram.com/cathelijneblok/reel/DcRYJkIoxy6/",
+          "published_at": "2026-08-20",
+          "result": "Volledig bijschrift en DOM-datum gelezen: Bitches Brew bij Bonnefanten liep t/m 6 september. Buiten onderzoeksvenster. Wegklikbare aanmeldpromotie verhinderde lezen niet."
+        },
+        {
+          "url": "https://www.instagram.com/cathelijneblok/p/DeCg8AtiEQt/",
+          "published_at": "2026-10-03",
+          "result": "Volledig bijschrift en DOM-datum gelezen. Betzy Akersloot-Berg bij Museum Panorama Mesdag daarna bij organisator en in actuele database bevestigd; bestaande correcte vermelding, geen duplicaat toegevoegd."
         }
       ],
-      "candidate_count": 1,
+      "candidate_count": 2,
       "limitations": [
-        "Profiel in Safari geopend met werkende sessie. Vastgezette oudere posts onderscheiden. Niet alle posts/reels van het venster individueel gelezen."
+        "Profiel in Safari geopend in de beschikbare browsersessie (ingelogde status niet bevestigd). Vastgezette oudere posts onderscheiden. Niet alle posts/reels van het venster individueel gelezen."
       ],
       "last_successful_content_check": null
     },
@@ -679,7 +689,7 @@
       "source_id": "instagram-thetittymag",
       "name": "Instagram · thetittymag",
       "url": "https://www.instagram.com/thetittymag/",
-      "checked_at": "2026-10-04T22:05:47Z",
+      "checked_at": "2026-10-04T22:25:08Z",
       "window_from": "2026-09-06",
       "window_to": "2026-10-05",
       "status": "partial",
@@ -698,11 +708,17 @@
           "url": "https://www.instagram.com/thetittymag/p/Dctk3EVtnjo/",
           "published_at": "2026-08-31",
           "result": "Bijschrift en datum gelezen, vóór venster."
+        },
+        {
+          "url": "https://www.instagram.com/cathelijneblok/reel/DcRYJkIoxy6/",
+          "published_at": "2026-08-20",
+          "result": "Volledig bijschrift en DOM-datum gelezen: Bitches Brew bij Bonnefanten liep t/m 6 september. Buiten onderzoeksvenster. Wegklikbare aanmeldpromotie verhinderde lezen niet."
         }
       ],
       "candidate_count": 0,
       "limitations": [
-        "Profiel en drie individuele posts gelezen via browser. Aparte reels/stories niet volledig onderzocht. Wegklikbare aanmeldpromotie is geen loginblokkade."
+        "Profiel en drie individuele posts gelezen via browser. Aparte reels/stories niet volledig onderzocht. Wegklikbare aanmeldpromotie is geen loginblokkade.",
+        "Reels-tab op profiel opende aanmeldpromotie; die gesloten. Directe permalink van zichtbare collaboratieve reel was wel leesbaar. Dit bewijst geen blokkade van alle reels; volledig overzicht niet vastgesteld."
       ],
       "last_successful_content_check": null
     },
@@ -775,7 +791,7 @@
       "source_id": "official-institutions",
       "name": "Musea, kunstinstellingen, kunstenaars en terreinbeheerders",
       "url": "",
-      "checked_at": "2026-10-04T22:05:47Z",
+      "checked_at": "2026-10-04T22:28:07.625624+00:00",
       "window_from": "2026-09-06",
       "window_to": "2026-10-05",
       "status": "partial",
@@ -839,9 +855,49 @@
           "url": "https://www.landartflevoland.nl/locaties/",
           "published_at": null,
           "result": "Primaire identiteit, presentatie en bezoekinformatie gelezen; zie afzonderlijke recordevidence."
+        },
+        {
+          "url": "https://www.landartflevoland.nl/kunstwerken/bob-gramsma-riff-pd-18245/",
+          "published_at": null,
+          "result": "Primaire locatie- of bezoekcontrole; zie individuele recordevidence."
+        },
+        {
+          "url": "https://www.landartflevoland.nl/kunstwerken/paul-de-kort-pier-horizon/",
+          "published_at": null,
+          "result": "Primaire locatie- of bezoekcontrole; zie individuele recordevidence."
+        },
+        {
+          "url": "https://landartflevoland.nl/kunstwerken/marinus-boezem-de-groene-kathedraal/",
+          "published_at": null,
+          "result": "Primaire locatie- of bezoekcontrole; zie individuele recordevidence."
+        },
+        {
+          "url": "https://www.landartflevoland.nl/kunstwerken/raaaf-atelier-de-lyon-deltawerk/",
+          "published_at": null,
+          "result": "Primaire locatie- of bezoekcontrole; zie individuele recordevidence."
+        },
+        {
+          "url": "https://www.landartflevoland.nl/kunstwerken/engelen-angels-fm-98.0-1994/",
+          "published_at": null,
+          "result": "Primaire locatie- of bezoekcontrole; zie individuele recordevidence."
+        },
+        {
+          "url": "https://www.singerlaren.nl/nl/agenda/carlijn-kingma-de-machinerie-van-de-volkshuisvesting-mdyw",
+          "published_at": null,
+          "result": "Volledige detailtekst gelezen; einddatumconflict 4/10 januari 2027."
+        },
+        {
+          "url": "https://landartflevoland.nl/kunstwerken/richard-serra-sea-level-1996/",
+          "published_at": null,
+          "result": "Identiteit, opdracht en restauratie gelezen; kandidaat wacht op foto."
+        },
+        {
+          "url": "https://panorama-mesdag.nl/zien-en-doen/tentoonstellingen/betzy-akersloot-berg/",
+          "published_at": null,
+          "result": "Volledige organisatorpagina gelezen; 3 oktober 2026 t/m 28 februari 2027 komt overeen met bestaande databasevermelding."
         }
       ],
-      "candidate_count": 9,
+      "candidate_count": 10,
       "limitations": [
         "Gericht programma Singer Laren, Melkweg, Sense of Place en Land Art Flevoland onderzocht; geen volledige landelijke instellingsdekking. Singer Kingma: tegenstrijdige einddatum 4/10 januari 2027, opname uitgesteld."
       ],
@@ -1130,5 +1186,7 @@
       "limitations": [],
       "last_successful_content_check": "2026-10-04T22:05:47Z"
     }
-  ]
+  ],
+  "source_snapshot_rechecked_at": "2026-10-04T22:28:07.625624+00:00",
+  "source_snapshot_recheck_result": "Alle 36 bronrijen opnieuw uit Supabase gelezen: 35 actief; geen wijziging in bronkeuzes."
 }

@@ -3,9 +3,9 @@
   "campaign": "individuele-controle-2026-10-04",
   "requested_at": "2026-10-04",
   "active": true,
-  "updated_at": "2026-10-04T22:09:47.586614+00:00",
+  "updated_at": "2026-10-04T22:31:57.662653+00:00",
   "policy": "Alle overgebleven punten inhoudelijk onderzoeken; onoplosbare punten krijgen een concrete externe blokkade met bron en uitgevoerde pogingen. Geen status afronden op basis van HTTP 200.",
-  "last_completed_batch": "89fbda36-9ac4-472f-9244-e5f41b73e666",
+  "last_completed_batch": "bba51f0f-447d-4419-9b07-8fdcf72bfb6a",
   "pending_count": 594,
   "blocked_count": 1,
   "records": [
@@ -8868,7 +8868,9 @@
       ]
     }
   ],
-  "resolved_count": 98,
+  "resolved_count": 107,
   "initial_count": 660,
-  "last_prepared_batch": "bba51f0f-447d-4419-9b07-8fdcf72bfb6a"
+  "last_prepared_batch": "89fbda36-9ac4-472f-9244-e5f41b73e666",
+  "last_failed_batch": "89fbda36-9ac4-472f-9244-e5f41b73e666",
+  "last_failure": "Productiepublicatie geblokkeerd door WebKit-zoektest in Loci kwaliteitsrun 37239128629. Databasewijzigingen geverifieerd; statische downloads nog niet gepubliceerd. Geen automatische vervolgaanvraag."
 }

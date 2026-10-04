@@ -699,7 +699,14 @@
     }
   ],
   "publication": {
-    "status": "pending"
+    "status": "blocked",
+    "checked_at": "2026-10-04T22:31:57.662653+00:00",
+    "source_commit": "b35f1dd56d1580c5c380da792d2fcf4f5cf03ddf",
+    "integration_commit": "853ebdbae5fe057b90a4f9090bd16ca3e1998009",
+    "workflow_url": "https://github.com/harmenploeg/interactief/actions/runs/37239128629",
+    "reason": "167 van 168 mobiele browsertests geslaagd; WebKit tests/browser/zoeken-v492.spec.mjs:9 verwacht zichtbaar #walkDetailScreen na openen zoekresultaat Westelijke Eilanden, maar dit blijft verborgen. Deployment overgeslagen. Echte productie van deze nieuwe revisie niet geverifieerd.",
+    "database_changes": "8 toevoegingen en 10 updates wel geverifieerd en publiek beschikbaar volgens API; Engelenzender blijft verborgen.",
+    "followup_enqueued": false
   },
   "uncertain_candidates": [
     {
@@ -730,12 +737,68 @@
     "blocked": 1,
     "resolved": 107,
     "previous_pending": 595,
-    "previous_resolved": 98
+    "previous_resolved": 98,
+    "last_completed_batch": "bba51f0f-447d-4419-9b07-8fdcf72bfb6a",
+    "last_prepared_batch": "89fbda36-9ac4-472f-9244-e5f41b73e666"
   },
   "preservation": "Alle niet in kk_museums opgeslagen bronverwijzingen, suggesties en redactionele notities zijn behouden. Twaalf nieuwere maker-tags in beeldentuinrecords en bestaande live-coördinaten van Love or Generosity overgenomen in downloads; geen terugschrijven hiervan naar database.",
   "checks": {
     "npm_run_check": "passed: TypeScript, 51 tests and production build",
     "public_database": "17 open records matched anonymous API; Engelenzender appropriately hidden",
-    "production_pending": "Local request redirected to existing Cloudflare Access. Production validation uses the established authorized CI smoke workflow."
+    "loci_quality_gate": "passed",
+    "mobile_browsers": "failed: 167 passed, 1 WebKit search-flow failure",
+    "production": "not deployed: quality gate prevented publication; previous verified static downloads remain live"
+  },
+  "additional_candidate_checks": [
+    {
+      "name": "Betzy Akersloot-Berg. One of a kind",
+      "id": "95a0280a-32bc-5af0-aaeb-ea9a95ad6fa9",
+      "checked_at": "2026-10-04T22:28:07.625624+00:00",
+      "status": "already_present",
+      "primary_source": "https://panorama-mesdag.nl/zien-en-doen/tentoonstellingen/betzy-akersloot-berg/",
+      "conclusion": "Organisatorpagina volledig gelezen; 3 oktober 2026 t/m 28 februari 2027 klopt met actuele database. Geen wijziging of duplicaat nodig."
+    }
+  ],
+  "status": "failed",
+  "finished_at": "2026-10-04T22:31:57.662653+00:00",
+  "source_coverage": {
+    "enabled": 35,
+    "fully_read": 2,
+    "not_fully_read": [
+      "11fountains",
+      "AD (landelijke editie)",
+      "Architectuur.ORG",
+      "Architectuurgids Top 100",
+      "Beeldentuinen · provinciale inventarisatie",
+      "Bezoekmijntuin · tuinen en open dagen",
+      "De Telegraaf",
+      "de Volkskrant",
+      "Gemeentelijke kunstcollecties en monumenteninformatie",
+      "Het Financieele Dagblad",
+      "Het Parool (aanvullend: Amsterdam)",
+      "Historische RDMZ Top 100",
+      "Instagram · cathelijneblok",
+      "Instagram · dutchgirlsinmuseums",
+      "Instagram · kunstmaartje",
+      "Instagram · kunstmeisjes",
+      "Instagram · lets_talk_about_art",
+      "Instagram · thetittymag",
+      "Kunst op Straat · Gemeente Nijmegen",
+      "KunstVensters",
+      "Landart Nederland",
+      "Musea, kunstinstellingen, kunstenaars en terreinbeheerders",
+      "Museumtijdschrift",
+      "Nederlands Dagblad",
+      "Nederlandse architectuur in 250 topstukken",
+      "NRC",
+      "Reformatorisch Dagblad",
+      "Sense of Place",
+      "Sleutelwerken",
+      "Stadscuratorium Amsterdam",
+      "Trouw",
+      "WhichMuseum Kunst & Design",
+      "Wikimedia Commons"
+    ],
+    "complete_weekly_review": false
   }
 }
