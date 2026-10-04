@@ -220,7 +220,7 @@ test('Toegestane locatie centreert Voyager met circa 25 km tot de dichtstbijzijn
  await setup(page);
  await context.setGeolocation({latitude:52.37,longitude:4.9});
  await context.grantPermissions(['geolocation']);
- await page.addInitScript(()=>localStorage.setItem('kunstkiezer.distance.enabled','true'));
+ await page.addInitScript(()=>localStorage.setItem('kunstkiezer.distance.enabled','false'));
  await page.goto('/kunstkiezer/agenda/musea');
  await page.getByRole('button',{name:'Kaart',exact:true}).click();
  const map=page.getByRole('region',{name:'Kaart met kunstlocaties'});
@@ -236,4 +236,5 @@ test('Toegestane locatie centreert Voyager met circa 25 km tot de dichtstbijzijn
  const width=(await scale.boundingBox())!.width;
  const edgeKm=Math.min(m.width,m.height)/2/width*km;
  expect(edgeKm).toBeGreaterThan(23);expect(edgeKm).toBeLessThan(27);
+ expect(await page.evaluate(()=>localStorage.getItem('kunstkiezer.distance.enabled'))).toBe('false');
 });

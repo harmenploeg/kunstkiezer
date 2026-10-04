@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import L from "leaflet";
 import { voyagerUrl } from "./basemap.ts";
-import { useRecommendations } from "../ranking/RecommendationContext.tsx";
+import { useMapLocation } from "./useMapLocation.ts";
 import "leaflet/dist/leaflet.css";
 import type { CatalogItem } from "../../../../../packages/data/src/catalog.ts";
 import {
@@ -17,7 +17,7 @@ export function CatalogMap({
   compact?: boolean;
   focusOnOpen?: boolean;
 }) {
-  const { location } = useRecommendations();
+  const location = useMapLocation(!compact);
   const latitude = compact ? undefined : location?.latitude;
   const longitude = compact ? undefined : location?.longitude;
   const root = useRef<HTMLDivElement>(null);
