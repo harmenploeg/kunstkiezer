@@ -1,5 +1,5 @@
 import { LocationControls } from "../ranking/LocationControls.tsx";
-import { useState, useEffect, type FormEvent } from "react";
+import { Fragment, useState, useEffect, type FormEvent } from "react";
 import {
   uniqueTags,
   type TasteProfile,
@@ -69,7 +69,7 @@ export function Profile({
   const questions = (
     <>
       {preferenceQuestions.map((q, i) => (
-        <fieldset className="taste-question" key={q.title}>
+        <Fragment key={q.title}><fieldset className="taste-question">
           <legend>
             <span className="eyebrow">Vraag {i + 1}</span>
             <br />
@@ -104,6 +104,8 @@ export function Profile({
             })}
           </div>
         </fieldset>
+        {onboarding && <div className={`question-ribbon ribbon-${i % 3}`} aria-hidden="true" />}
+        </Fragment>
       ))}
     </>
   );
@@ -181,11 +183,7 @@ export function Profile({
       </header>
       {state.error && <p role="alert">{state.error}</p>}
       <form className="taste-form" onSubmit={(e) => save(e)}>
-        <p>
-          {onboarding
-            ? "Je mag meerdere antwoorden kiezen. Dat zorgt voor een lijst met tags, als het goed is komt dat overeen met jouw voorkeuren. Je kunt die lijst nog aanpassen."
-            : "Meer overeenkomende tags geeft een hogere plek bij Ontdek kunst. Je kunt hieronder je voorkeuren aanpassen."}
-        </p>
+        {!onboarding && <p>Meer overeenkomende tags geeft een hogere plek bij Ontdek kunst. Je kunt hieronder je voorkeuren aanpassen.</p>}
         {onboarding ? (
           <>
             {questions}

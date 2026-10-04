@@ -24,10 +24,10 @@ body {background:var(--surface);}
 .art-heading .heading-copy > p:last-child {color:var(--ink);margin-bottom:0;}
 .taste-form {max-width:none;gap:30px;}
 .taste-form > p:first-child {max-width:720px;font-size:17px;}
-.taste-question {position:relative;background:white;border:1px solid var(--border);border-left:12px solid var(--boogie-yellow);border-radius:0;padding:24px 24px 32px;}
-.taste-question::after {content:'';position:absolute;bottom:0;left:-12px;right:0;height:12px;background:var(--boogie-ribbon);pointer-events:none;}
-.taste-question:nth-of-type(2)::after {background-position:84px 0;}
-.taste-question:nth-of-type(3)::after {background-position:192px 0;}
+.taste-question {position:relative;background:white;border:1px solid var(--border);border-radius:0;padding:24px;}
+.question-ribbon {height:12px;flex:none;background:var(--boogie-ribbon);}
+.question-ribbon.ribbon-1 {background-position:108px 0;}
+.question-ribbon.ribbon-2 {background-position:204px 0;}
 .taste-question legend {background:var(--surface);font-weight:650;}
 .taste-question legend .eyebrow {color:var(--boogie-blue);}
 .taste-option {background:var(--surface);border-color:var(--border);border-radius:4px;}
@@ -45,12 +45,14 @@ body {background:var(--surface);}
 .category-card:nth-child(2n)::after {background-position:108px 0;}
 .category-card:nth-child(3n)::after {background-position:204px 0;}
 .category-card:first-child {background:var(--boogie-yellow);border-color:var(--boogie-yellow);}
-.category-card:nth-child(2) {background:var(--boogie-blue);border-color:var(--boogie-blue);color:white;}
-.category-card:nth-child(2) p {color:white;}
+.category-card:nth-child(3) {background:var(--boogie-blue);border-color:var(--boogie-blue);color:white;}
+.category-card:nth-child(3) p {color:white;}
 .category-card:nth-child(5) {background:var(--boogie-red);border-color:var(--boogie-red);color:white;}
 .category-card:nth-child(5) p {color:white;}
 .category-card:hover {outline:3px solid var(--boogie-blue);outline-offset:3px;}
-.category-card h2 {font-weight:700;font-size:26px;letter-spacing:-.025em;}
+.category-title {display:flex;align-items:center;gap:14px;}
+.category-title .category-dot {flex:0 0 40px;}
+.category-card h2 {margin:0;min-width:0;font-weight:700;font-size:26px;letter-spacing:-.025em;}
 .category-card:first-child p {color:var(--ink);}
 .category-dot {border-radius:0;background:var(--surface);color:var(--boogie-blue);}
 .category-card:nth-child(3) .category-dot {background:var(--boogie-red);color:white;}
@@ -71,7 +73,7 @@ body {background:var(--surface);}
   .art-heading {min-height:360px;margin-block:20px;padding:24px 20px 96px;align-items:flex-start;background-size:auto 100%;}
   .art-heading .heading-copy {width:100%;padding:20px 16px;border-left-width:8px;box-shadow:8px 8px 0 var(--boogie-yellow);}
   .art-heading h1 {font-size:2.3rem;}
-  .taste-question {padding:18px 14px 30px;}
+  .taste-question {padding:18px 14px;}
   .taste-question legend {font-size:20px;}
   .profile-tags {padding:18px;}
 }
