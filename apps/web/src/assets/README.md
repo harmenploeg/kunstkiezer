@@ -1,10 +1,10 @@
 # Achtergrondkunst
 
-Vincent van Gogh, **Green Wheat Fields, Auvers**, 1890. Collection of Mr. and Mrs. Paul Mellon, National Gallery of Art, Washington (2013.122.1).
+Piet Mondriaan, **Broadway Boogie Woogie**, 1942–1943. Collectie Museum of Modern Art, New York.
 
-- Werk en expliciete publiek-domeinvermelding: https://www.nga.gov/artworks/163323-green-wheat-fields-auvers
-- CC0/Open Access-beleid: https://www.nga.gov/terms-and-notices
-- Afbeelding: https://api.nga.gov/iiif/b479275a-4f8a-4702-83c2-9dcc4cbe60ce/full/!1600,1600/0/default.jpg
+- Afbeelding en publiek-domeinverklaring: https://commons.wikimedia.org/wiki/File:Piet_Mondrian,_1942_-_Broadway_Boogie_Woogie.jpg
+- Lokale afbeelding (1280 px): https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Piet_Mondrian%2C_1942_-_Broadway_Boogie_Woogie.jpg/1280px-Piet_Mondrian%2C_1942_-_Broadway_Boogie_Woogie.jpg
+- Commons identificeert het schilderij en de getrouwe reproductie als publiek domein (Public Domain Mark).
 - Gecontroleerd: 4 oktober 2026.
 
-Lokale webversie van 1600 pixels. CSS toont een uitsnede met een lichte laag voor leesbaarheid; het bronbestand is ongewijzigd. Bronvermelding staat in de appfooter. Geen externe afbeeldingverzoeken bij bezoekers.
+Het bronbestand is ongewijzigd; CSS toont een uitsnede achter een dekkend tekstvlak. Bronvermelding staat in de appfooter. Geen externe afbeeldingverzoeken bij bezoekers. De gele linten met gekleurde vierkantjes zijn een eigen CSS-vormgevingselement, geïnspireerd op het schilderij, gedeeld via één stijldefinitie in art-theme.css.

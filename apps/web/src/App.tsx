@@ -65,12 +65,12 @@ function Discovery({ categoryId }: { categoryId?: string }) {
   return (
     <>
       <header className={!category && !tag ? "page-heading art-heading" : "page-heading"}>
-        <p className="eyebrow">Kunst in Nederland</p>
+        <div className="heading-copy"><p className="eyebrow">Kunst in Nederland</p>
         <h1>
           {tag ? `Kunst met ${tag.replace(/^maker: /, "")}` : category?.name ?? "Ontdek kunst"}
           <span className="accent">.</span>
         </h1>
-        {category && <p>{category.description}</p>}
+        {category && <p>{category.description}</p>}</div>
       </header>
       {tag ? <Catalog tag={tag}/> : category ? (
         <>
@@ -204,7 +204,7 @@ export function App() {
       </main>
       <footer className="site-footer">
         <span>Kunstkiezer · Nederland</span>
-        <a className="art-credit" href="https://www.nga.gov/artworks/163323-green-wheat-fields-auvers" target="_blank" rel="noreferrer">Achtergrond: Vincent van Gogh · Green Wheat Fields, Auvers (1890) · National Gallery of Art, Washington · CC0</a>
+        <a className="art-credit" href="https://commons.wikimedia.org/wiki/File:Piet_Mondrian,_1942_-_Broadway_Boogie_Woogie.jpg" target="_blank" rel="noreferrer">Achtergrond: Piet Mondriaan · Broadway Boogie Woogie (1942–1943) · MoMA · publiek domein</a>
         {auth.admin && <a href={appHref("/beheer")}>Beheer</a>}
       </footer>
     </>

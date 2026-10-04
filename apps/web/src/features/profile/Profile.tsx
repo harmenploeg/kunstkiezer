@@ -167,7 +167,7 @@ export function Profile({
   return (
     <>
       <header className={onboarding ? "page-heading art-heading" : "page-heading"}>
-
+        <div className="heading-copy">
         <h1>
           {onboarding ? "Mijn kunstkeuze" : "Mijn profiel"}
           <span className="accent">.</span>
@@ -177,6 +177,7 @@ export function Profile({
             ? "Wat zie je graag? Vertel ons wat je aanspreekt en wij zoeken kunst die bij je past."
             : "Dit zijn je voorkeuren. Pas ze aan wanneer je smaak verandert of je iets nieuws wilt ontdekken."}
         </p>
+        </div>
       </header>
       {state.error && <p role="alert">{state.error}</p>}
       <form className="taste-form" onSubmit={(e) => save(e)}>
