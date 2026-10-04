@@ -22,7 +22,7 @@ const Detail = lazy(() =>
 import { Catalog } from "./features/catalog/Catalog.tsx";
 import { Profile } from "./features/profile/Profile.tsx";
 import { useProfile } from "./features/profile/useProfile.ts";
-import { lazy, Suspense, useEffect } from "react";
+import { lazy, Suspense, useEffect, useRef } from "react";
 const MuseumCatalog = lazy(() =>
   import("./features/museums/Catalog.tsx").then((m) => ({
     default: m.MuseumCatalog,
@@ -60,10 +60,21 @@ import {
 } from "../../../packages/ui/src/index.tsx";
 
 function Discovery({ categoryId }: { categoryId?: string }) {
+  const landing = useRef<HTMLDivElement>(null);
   const category = categories.find((item) => item.id === categoryId);
   const tag = new URLSearchParams(window.location.search).get("tag") ?? "";
+  useEffect(() => {
+    const root = landing.current;
+    const card = root?.querySelector('.category-card');
+    if (!root || !card || category || tag) return;
+    const resize = () => root.style.setProperty('--discovery-card-height', `${card.getBoundingClientRect().height}px`);
+    const observer = new ResizeObserver(resize);
+    observer.observe(card);
+    resize();
+    return () => observer.disconnect();
+  }, [category, tag]);
   return (
-    <>
+    <div ref={landing} className={!category && !tag ? "discovery-landing" : undefined}>
       <header className={!category && !tag ? "page-heading art-heading" : "page-heading"}>
         <div className="heading-copy"><p className="eyebrow">Kunst in Nederland</p>
         <h1>
@@ -97,7 +108,7 @@ function Discovery({ categoryId }: { categoryId?: string }) {
           <CategoryCards />
         </>
       )}
-    </>
+    </div>
   );
 }
 

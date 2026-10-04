@@ -134,6 +134,8 @@ export function SourceAdmin({ client }: { client: SupabaseClient }) {
         Uitschakelen bewaart een bron voor later. Wijzigingen gelden vanaf de
         volgende update.
       </p>
+      <p>Wekelijkse controle: krantenrecensies uit de laatste 28 dagen; websites en Instagram op nieuwe inhoud sinds de vorige geslaagde controle, met minimaal 7 dagen overlap. Een onleesbare bron wordt als beperkt of geblokkeerd gemeld, nooit als volledig gecontroleerd.</p>
+      <details><summary>Selectie van monumentale openbare kunst</summary><p>We zoeken per provincie in gemeentelijke collecties, landschapskunst, kunstenaarsarchieven en opdrachten voor publieke gebouwen. Grootte alleen is niet voldoende: ook artistieke betekenis, relatie met de plek en herkenbaarheid tellen mee. Elke toevoeging krijgt een onderbouwde selectie en actuele locatiecontrole. Maximaal 1000 werken; ook kleinere gemeenten en het buitengebied worden meegenomen.</p></details>
       <div className="source-actions">
         <button disabled={busy || loading} onClick={() => choose(null)}>
           Bron toevoegen
@@ -161,6 +163,7 @@ export function SourceAdmin({ client }: { client: SupabaseClient }) {
               >
                 <strong>{r.name}</strong>
                 <span>{r.url || "Zoekinstructie"}</span>
+                {r.notes && <span className="source-instructions">{r.notes}</span>}
                 <small>
                   {r.enabled ? "Actief voor alle opties" : "Uitgeschakeld"}
                 </small>

@@ -1,0 +1,157 @@
+{
+  "method": "docs/selectie-openbare-kunst.md",
+  "maximum": 1000,
+  "provinces": [
+    {
+      "province": "Drenthe",
+      "status": "pending",
+      "last_reviewed": null,
+      "municipalities_reviewed": []
+    },
+    {
+      "province": "Flevoland",
+      "status": "pending",
+      "last_reviewed": null,
+      "municipalities_reviewed": []
+    },
+    {
+      "province": "Friesland",
+      "status": "pending",
+      "last_reviewed": null,
+      "municipalities_reviewed": []
+    },
+    {
+      "province": "Gelderland",
+      "status": "pending",
+      "last_reviewed": null,
+      "municipalities_reviewed": []
+    },
+    {
+      "province": "Groningen",
+      "status": "pending",
+      "last_reviewed": null,
+      "municipalities_reviewed": []
+    },
+    {
+      "province": "Limburg",
+      "status": "pending",
+      "last_reviewed": null,
+      "municipalities_reviewed": []
+    },
+    {
+      "province": "Noord-Brabant",
+      "status": "pending",
+      "last_reviewed": null,
+      "municipalities_reviewed": []
+    },
+    {
+      "province": "Noord-Holland",
+      "status": "pending",
+      "last_reviewed": null,
+      "municipalities_reviewed": []
+    },
+    {
+      "province": "Overijssel",
+      "status": "pending",
+      "last_reviewed": null,
+      "municipalities_reviewed": []
+    },
+    {
+      "province": "Utrecht",
+      "status": "pending",
+      "last_reviewed": null,
+      "municipalities_reviewed": []
+    },
+    {
+      "province": "Zeeland",
+      "status": "pending",
+      "last_reviewed": null,
+      "municipalities_reviewed": []
+    },
+    {
+      "province": "Zuid-Holland",
+      "status": "pending",
+      "last_reviewed": null,
+      "municipalities_reviewed": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "e0f5b8d4-ac65-518a-a82b-aef84826032e",
+      "name": "Blokken",
+      "status": "published",
+      "scores": [
+        3,
+        3,
+        3
+      ],
+      "evidence": [
+        {
+          "provider": "Gemeentelijke open data",
+          "url": "https://thestorybehind.it/collections/2/works/1639-peter-struycken-blokken",
+          "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+        },
+        {
+          "provider": "Gemeente Nijmegen · open collectiegegevens via TheStoryBehind.it",
+          "url": "https://thestorybehind.it/collections/2/works/1639-peter-struycken-blokken",
+          "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+        },
+        {
+          "provider": "Croes · project aan het Palkerplein",
+          "url": "https://www.croes.nl/projecten/commercieel/palkerplein-bijsterhuizen/",
+          "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9034cfaf-a43b-57d2-a5f7-336d1fe08085",
+      "name": "Wachten op hoog water",
+      "status": "published",
+      "scores": [
+        2,
+        3,
+        3
+      ],
+      "evidence": [
+        {
+          "provider": "Sense of Place · organisator",
+          "url": "https://sense-of-place.eu/experience/wachten-op-hoog-water/",
+          "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+        },
+        {
+          "provider": "Regionale toeristische organisatie · locatiegegevens",
+          "url": "https://www.eropuitinfriesland.nl/nl/locaties-overzicht/4033429289/sense-of-place-wachten-op-hoog-water",
+          "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b56bae7e-7c40-5800-9e19-dcb75467a12a",
+      "name": "Love or Generosity",
+      "status": "published",
+      "scores": [
+        3,
+        3,
+        3
+      ],
+      "evidence": [
+        {
+          "provider": "Stadscuratorium Amsterdam",
+          "url": "https://stadscuratorium.nl/collectie/love-or-generosity/",
+          "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+        },
+        {
+          "provider": "Rechtspraak · opdrachtgever",
+          "url": "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-amsterdam/nieuws/2020/11/eerste-kunstwerk-voor-de-nieuwe-amsterdamse-rechtbank",
+          "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+        },
+        {
+          "provider": "Wikimedia Commons · objectcoördinaten (niet camerastandpunt)",
+          "url": "https://commons.wikimedia.org/wiki/Category:Love_or_generosity",
+          "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+        }
+      ]
+    }
+  ],
+  "note": "Drie gerichte toevoegingen; provinciebrede inventarisatie nog open. Gebruik alleen de actuele ingeschakelde bronnen."
+}

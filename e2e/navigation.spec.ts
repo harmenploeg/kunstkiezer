@@ -54,3 +54,19 @@ test('Categorieknoppen geven directe toegang en markeren de huidige optie zonder
   await page.getByRole('banner').getByRole('link',{name:'Inloggen',exact:true}).click();
   await expect(page).toHaveURL(/\/account$/);
  });
+
+test('Ontdek-kop volgt de hoogte van Musea en onboarding heeft geen lege beeldruimte', async ({page}) => {
+ await page.goto('/kunstkiezer/');
+ const intro=page.locator('.art-heading');
+ await expect(intro).toBeVisible();
+ expect((await intro.boundingBox())!.height).toBeLessThan(350);
+ await page.getByRole('link',{name:'Ontdek kunst',exact:true}).click();
+ const banner=page.locator('.discovery-landing .art-heading');
+ const museum=page.locator('.category-card').first();
+ await expect(banner).toBeVisible();
+ await expect(museum).toBeVisible();
+ await expect.poll(async()=>Math.abs((await banner.boundingBox())!.height-(await museum.boundingBox())!.height)).toBeLessThan(2);
+ await page.setViewportSize({width:360,height:780});
+ await expect.poll(async()=>Math.abs((await banner.boundingBox())!.height-(await museum.boundingBox())!.height)).toBeLessThan(2);
+ expect(await page.evaluate(()=>document.body.scrollWidth<=innerWidth)).toBe(true);
+});

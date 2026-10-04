@@ -6145,5 +6145,176 @@
     "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-cf3aa0d5f9759b61c0485d3826f00774",
     "publication_status": "published",
     "coordinate_precision": "city"
+  },
+  {
+    "name": "Blokken",
+    "creator": "Peter Struycken",
+    "city": "Wijchen",
+    "province": "Gelderland",
+    "street_address": "Palkerplein (rotonde Bijsterhuizen)",
+    "year": "1978; geplaatst 1983, herplaatst 1995",
+    "website_url": "https://thestorybehind.it/collections/2/works/1639-peter-struycken-blokken",
+    "latitude": 51.8243449,
+    "longitude": 5.75744155,
+    "coordinate_precision": "exact",
+    "summary": "Drie reusachtige kubussen lijken in het landschap weg te zakken. Peter Struycken speelt met kanteling, kleur en onderlinge verhoudingen: een geometrisch spektakel dat telkens anders oogt wanneer je erlangs beweegt. Op het Palkerplein vormen de blokken een markant baken tussen Wijchen en Nijmegen.",
+    "selection_reason": "Monumentaal ensemble van 14 meter hoog en 68 meter breed; vroege computergestuurde omgevingskunst van Peter Struycken. Gemeentelijke collectie Nijmegen, geplaatst op de grens met Wijchen. Artistieke betekenis, schaal en relatie met de verkeersruimte rechtvaardigen opname buiten de Sleutelwerken-selectie.",
+    "visit_notes": "Te zien vanaf de omgeving van de rotonde. De rotonde zelf is geen wandelterrein.",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "beeldhouwkunst",
+      "abstract",
+      "geometrisch",
+      "moderne kunst",
+      "monumentale kunst",
+      "maker: peter struycken"
+    ],
+    "id": "e0f5b8d4-ac65-518a-a82b-aef84826032e",
+    "inventory_key": "monumentaal:blokken-struycken",
+    "category": "openbare-kunst",
+    "publication_status": "published",
+    "operating_status": "open",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Peter_Struycken_-_Blocks_-_Palkerplein_01.jpg/1280px-Peter_Struycken_-_Blocks_-_Palkerplein_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "caption": "Blokken",
+        "credit": "Sandra Fauconnier",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Peter_Struycken_-_Blocks_-_Palkerplein_01.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "provider": "Gemeentelijke open data",
+        "url": "https://thestorybehind.it/collections/2/works/1639-peter-struycken-blokken",
+        "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+      },
+      {
+        "provider": "Gemeente Nijmegen · open collectiegegevens via TheStoryBehind.it",
+        "url": "https://thestorybehind.it/collections/2/works/1639-peter-struycken-blokken",
+        "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+      },
+      {
+        "provider": "Croes · project aan het Palkerplein",
+        "url": "https://www.croes.nl/projecten/commercieel/palkerplein-bijsterhuizen/",
+        "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+      }
+    ],
+    "coordinate_source": "https://thestorybehind.it/collections/2/works/1639-peter-struycken-blokken"
+  },
+  {
+    "name": "Wachten op hoog water",
+    "creator": "Jan Ketelaar",
+    "city": "Holwert",
+    "province": "Friesland",
+    "street_address": "Nieuwe Zeedijk",
+    "year": "2018–2019",
+    "website_url": "https://sense-of-place.eu/experience/wachten-op-hoog-water/",
+    "latitude": 53.380666,
+    "longitude": 5.89541,
+    "coordinate_precision": "exact",
+    "summary": "Twee vijf meter hoge vrouwen kijken vanaf de dijk uit over het Wad. De gelaste figuren van Jan Ketelaar verschillen in omvang, maar horen onmiskenbaar bij elkaar. Wind, water en de weidse horizon maken deze ontmoeting extra krachtig. Een uitnodiging om even stil te staan bij evenwicht en verbondenheid.",
+    "selection_reason": "Monumentaal figuratief ensemble, onderdeel van Sense of Place. De directe relatie met Waddenlandschap, getij en menselijke verhoudingen maakt dit een onderscheidend publiek kunstwerk buiten de grote steden.",
+    "visit_notes": "Op de zeedijk bij Holwert (Holwerd). Vanaf de parkeerplek aan Grândyk 9 loop je naar de beelden.",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "beeldhouwkunst",
+      "figuratief",
+      "landschapskunst",
+      "hedendaagse kunst",
+      "monumentale kunst",
+      "maker: jan ketelaar"
+    ],
+    "id": "9034cfaf-a43b-57d2-a5f7-336d1fe08085",
+    "inventory_key": "monumentaal:wachten-op-hoog-water",
+    "category": "openbare-kunst",
+    "publication_status": "published",
+    "operating_status": "open",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Wachten_op_hoog_water_%28beeld_van_Jan_Ketelaar%29_14-08-2023._%28actm.%29_04.jpg/1280px-Wachten_op_hoog_water_%28beeld_van_Jan_Ketelaar%29_14-08-2023._%28actm.%29_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "caption": "Wachten op hoog water",
+        "credit": "Agnes Monkelbaan",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Wachten_op_hoog_water_(beeld_van_Jan_Ketelaar)_14-08-2023._(actm.)_04.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "provider": "Sense of Place · organisator",
+        "url": "https://sense-of-place.eu/experience/wachten-op-hoog-water/",
+        "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+      },
+      {
+        "provider": "Regionale toeristische organisatie · locatiegegevens",
+        "url": "https://www.eropuitinfriesland.nl/nl/locaties-overzicht/4033429289/sense-of-place-wachten-op-hoog-water",
+        "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+      }
+    ],
+    "coordinate_source": "https://www.eropuitinfriesland.nl/nl/locaties-overzicht/4033429289/sense-of-place-wachten-op-hoog-water"
+  },
+  {
+    "name": "Love or Generosity",
+    "creator": "Nicole Eisenman",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Parnassusweg 280, plein voor de rechtbank",
+    "year": "2020",
+    "website_url": "https://stadscuratorium.nl/collectie/love-or-generosity/",
+    "latitude": 52.33970555555556,
+    "longitude": 4.867886111111112,
+    "coordinate_precision": "exact",
+    "summary": "Een reus buigt zich voorover op het plein van de Amsterdamse rechtbank. Nicole Eisenman geeft deze poortwachter een ontwapenende zachtheid. In de hand liggen kleine gelukssymbolen, die het monumentale beeld iets intiems geven. Loop eromheen en ontdek hoe kwetsbaarheid en kracht hier naast elkaar bestaan.",
+    "selection_reason": "Publieke kunstopdracht bij de Amsterdamse rechtbank; vijf meter hoge sculptuur van internationaal toonaangevend kunstenaar Nicole Eisenman. De combinatie van monumentaliteit, menselijkheid en de betekenis van de rechtbank maakt het een belangrijke openbare kunstbestemming.",
+    "visit_notes": "Op het openbare plein voor de rechtbank.",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "beeldhouwkunst",
+      "figuratief",
+      "hedendaagse kunst",
+      "monumentale kunst",
+      "maker: nicole eisenman"
+    ],
+    "id": "b56bae7e-7c40-5800-9e19-dcb75467a12a",
+    "inventory_key": "monumentaal:love-or-generosity",
+    "category": "openbare-kunst",
+    "publication_status": "published",
+    "operating_status": "open",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/2021_Love_or_generosity_%281%29.jpg/1280px-2021_Love_or_generosity_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "caption": "Love or Generosity",
+        "credit": "Ceescamel",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:2021_Love_or_generosity_(1).jpg"
+      }
+    ],
+    "sources": [
+      {
+        "provider": "Stadscuratorium Amsterdam",
+        "url": "https://stadscuratorium.nl/collectie/love-or-generosity/",
+        "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+      },
+      {
+        "provider": "Rechtspraak · opdrachtgever",
+        "url": "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-amsterdam/nieuws/2020/11/eerste-kunstwerk-voor-de-nieuwe-amsterdamse-rechtbank",
+        "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+      },
+      {
+        "provider": "Wikimedia Commons · objectcoördinaten (niet camerastandpunt)",
+        "url": "https://commons.wikimedia.org/wiki/Category:Love_or_generosity",
+        "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
+      }
+    ],
+    "coordinate_source": "https://commons.wikimedia.org/wiki/Category:Love_or_generosity"
   }
 ]

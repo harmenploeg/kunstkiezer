@@ -13,13 +13,13 @@
       "visible_on_research_date": 290
     },
     "openbare-kunst": {
-      "total": 127,
-      "published": 127,
+      "total": 130,
+      "published": 130,
       "archived": 0,
       "draft": 0,
-      "with_photos": 79,
-      "precise_locations": 20,
-      "visible_on_research_date": 108
+      "with_photos": 82,
+      "precise_locations": 23,
+      "visible_on_research_date": 111
     },
     "beeldenparken": {
       "total": 39,
@@ -49,7 +49,7 @@
       "visible_on_research_date": 86
     }
   },
-  "total": 747,
+  "total": 750,
   "remaining_records": 308,
   "remaining": [
     {
