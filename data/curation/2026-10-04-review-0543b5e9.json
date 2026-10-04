@@ -1,0 +1,1507 @@
+{
+  "run_id": "0543b5e9-8105-4b9d-88be-6a690da0365d",
+  "research_date": "2026-10-04",
+  "updated_at": "2026-10-04T11:23:18.616684+00:00",
+  "scope": "Eerste inhoudelijke vervolgpartij: 22 evenementen, 18 beeldentuinen/routes en 3 instellingen. Geen volledige hercontrole van alle 735 onderwerpen.",
+  "sources_snapshot": [
+    {
+      "id": "11fountains",
+      "name": "11fountains",
+      "url": "https://11fountains.nl/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047284+00"
+    },
+    {
+      "id": "architectuur-org",
+      "name": "Architectuur.ORG",
+      "url": "https://www.architectuur.org/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047313+00"
+    },
+    {
+      "id": "architectuurgids",
+      "name": "Architectuurgids Top 100",
+      "url": "https://www.architectuurgids.nl/project/list_projects_of_tag/tag_id/15",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.0473+00"
+    },
+    {
+      "id": "culty-pleasures",
+      "name": "Culty Pleasures",
+      "url": "",
+      "notes": "Toegankelijke artikelen en sociale berichten; leg de werkelijk geraadpleegde URL vast.\n\nAfgeschermde berichten niet als geraadpleegd opvoeren.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.048003+00"
+    },
+    {
+      "id": "kunstmeisjes",
+      "name": "De Kunstmeisjes",
+      "url": "",
+      "notes": "Toegankelijke artikelen en sociale berichten; leg de werkelijk geraadpleegde URL vast.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047993+00"
+    },
+    {
+      "id": "municipal-collections",
+      "name": "Gemeentelijke kunstcollecties en monumenteninformatie",
+      "url": "",
+      "notes": "Gemeentelijke inventarissen en locatiespecifieke projectpagina’s",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.046458+00"
+    },
+    {
+      "id": "rdmz100",
+      "name": "Historische RDMZ Top 100",
+      "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
+      "notes": "Een historisch geselecteerd gebouw is niet vanzelf openbaar toegankelijk of een kunstmuseum.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047923+00"
+    },
+    {
+      "id": "kunstvensters",
+      "name": "KunstVensters",
+      "url": "https://kunstvensters.com/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047971+00"
+    },
+    {
+      "id": "newspapers",
+      "name": "Landelijke kranten",
+      "url": "",
+      "notes": "Toegankelijke recensies, architectuurartikelen, interviews en culturele reportages. Bewaar de specifieke krant en artikel-URL.\n\nGeen claim van inhoudelijke controle achter een niet toegankelijke betaalmuur.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.048018+00"
+    },
+    {
+      "id": "official-institutions",
+      "name": "Musea, kunstinstellingen, kunstenaars en terreinbeheerders",
+      "url": "",
+      "notes": "Officiële websites en bronlinks van bestaande en nieuwe vermeldingen",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.045553+00"
+    },
+    {
+      "id": "museumtijdschrift",
+      "name": "Museumtijdschrift",
+      "url": "https://museumtijdschrift.nl/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047982+00"
+    },
+    {
+      "id": "nai250",
+      "name": "Nederlandse architectuur in 250 topstukken",
+      "url": "https://www.nai010.com/product/nederlandse-architectuur-in-250-topstukken/",
+      "notes": "Alleen uitgeversinformatie en gedeeltelijk inkijkexemplaar beoordeeld; volledige lijst niet beschikbaar. Archiefontwerpen zijn niet automatisch bezoekbare locaties.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047941+00"
+    },
+    {
+      "id": "sleutelwerken",
+      "name": "Sleutelwerken",
+      "url": "https://www.sleutelwerken.nl/",
+      "notes": "Onderscheid de officiële honderd Sleutelwerken van overige inzendingen; controleer tijdelijke en verplaatste werken.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.046479+00"
+    },
+    {
+      "id": "whichmuseum",
+      "name": "WhichMuseum Kunst & Design",
+      "url": "https://whichmuseum.nl/plaats/nederland-1?category%5B%5D=art-design",
+      "notes": "Toets aan de afgesproken kunstselectie; een brede categorie op deze site is geen bewijs dat kunst de hoofdzaak is.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047959+00"
+    },
+    {
+      "id": "commons",
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/",
+      "notes": "Controleer beeldidentiteit, maker en licentie. Bestandsnaam of cameracoördinaten bewijzen niet de actuele bezoeklocatie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.048035+00"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "fa170ae7-ac56-5b5b-8c40-85945571f1fd",
+      "name": "Koffie? Een Nederlandse geschiedenis in keramiek",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-10-10 t/m 2027-08-29; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:34:20Z"
+    },
+    {
+      "id": "c3e46db3-c870-5438-b3de-1e8b3f1c7cc4",
+      "name": "Museum als Zonnewijzer",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/museum-als-zonnewijzer"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-10-17 t/m 2027-02-21; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:34:10Z"
+    },
+    {
+      "id": "5611248d-4c11-54cf-a7b9-7766278130a6",
+      "name": "Dutch Design Week 2026",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://ddw.nl/"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-10-17 t/m 2026-10-25; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:33:44Z"
+    },
+    {
+      "id": "98f9e090-d4ba-5d5b-b71d-1099f4005c85",
+      "name": "Naturocene – Ways to Fall in Love with the Earth",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.projectspaceontheinside.org/more-naturocene"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-10-01 t/m 2027-02-14; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:34:03Z"
+    },
+    {
+      "id": "afe1ac6d-81ec-5f86-b7b7-22d421b3651a",
+      "name": "Celebrating the Icons of Art",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.voorlinden.nl/tentoonstelling/icons/"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-09-12 t/m 2027-03-07; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:34:07Z"
+    },
+    {
+      "id": "0c78ab33-9c7c-5f42-aaf2-374e328f67b2",
+      "name": "Quickscan 3. Fotografie nu",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://nederlandsfotomuseum.nl/nu-te-zien/quickscan-3/"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-06-26 t/m 2026-11-22; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:33:28Z"
+    },
+    {
+      "id": "f26ab982-87dd-50f1-9585-39ac7e0c1407",
+      "name": "From Dusk Till Dawn",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.dordrechtsmuseum.nl/nu-te-zien-en-te-doen/from-dusk-till-dawn/"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-09-05 t/m 2027-02-21; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:34:19Z"
+    },
+    {
+      "id": "f16a6d1a-42d6-5aeb-beee-a6ed587b39e7",
+      "name": "Dordtse Cultuurnacht – Dordrechts Museum",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.dordrechtsmuseum.nl/nu-te-zien-en-te-doen/dordtse-cultuurnacht-2026/"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-10-10 t/m 2026-10-10; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:34:18Z"
+    },
+    {
+      "id": "7f69a14c-e12a-5d41-a742-3eae459512c0",
+      "name": "Avondopenstelling From Dusk Till Dawn",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.dordrechtsmuseum.nl/nu-te-zien-en-te-doen/avondopenstelling-from-dusk-till-dawn/"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-10-24 t/m 2026-10-24; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:33:54Z"
+    },
+    {
+      "id": "a56a44da-05bc-5ea1-a53c-642aa8c930fb",
+      "name": "The Architect & the Housewife",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://groningermuseum.nl/the-architect-and-the-housewife"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-09-19 t/m 2027-05-09; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:34:06Z"
+    },
+    {
+      "id": "348e146f-5a7c-5322-9ce4-d7bf5252b46c",
+      "name": "Playing House",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://groningermuseum.nl/playing-house"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-09-19 t/m 2027-01-10; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:33:35Z"
+    },
+    {
+      "id": "3c699a95-1703-5b19-8b98-12c7b2734ce7",
+      "name": "Experimenteerdrift",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.rembrandthuis.nl/nl/over-ons/pers/press/experimenteerdrift-in-museum-rembrandthuis"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-09-19 t/m 2027-01-03; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:33:35Z"
+    },
+    {
+      "id": "34b17ad3-2336-5421-a049-1a0011aef843",
+      "name": "Deep Rooted — The Impact of Graffiti on Art",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://museumhelmond.nl/tentoonstelling/deep-rooted/"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-09-19 t/m 2027-02-07; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:33:35Z"
+    },
+    {
+      "id": "a65d8d19-1660-5bbb-8c28-64e6665f3e83",
+      "name": "A Chair and You",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.kunsthal.nl/nl/tentoonstellingen/a-chair-and-you/"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-09-25 t/m 2027-01-31; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:34:06Z"
+    },
+    {
+      "id": "25d40c69-8a84-5853-937a-e40824db0972",
+      "name": "Creation Myths and Other Beginnings",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.nestruimte.nl/exhibitions/creation-myths"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-09-04 t/m 2026-11-29; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:33:33Z"
+    },
+    {
+      "id": "61fa9b2f-0732-59c5-9acb-9148421ce56b",
+      "name": "Reflections on Fashion",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.kunstmuseum.nl/nl/tentoonstellingen/reflections-fashion"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-07-04 t/m 2027-01-03; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:33:48Z"
+    },
+    {
+      "id": "f4de0272-2702-5754-a6a5-a4e3aa51c623",
+      "name": "Graffiti",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.centraalmuseum.nl/tentoonstellingen/graffiti"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-10-10 t/m 2027-03-29; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:34:19Z"
+    },
+    {
+      "id": "2902ac1d-a0f0-54c2-b169-47bc5c154e4e",
+      "name": "Base Line – Music Meets Art",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.kunstmuseum.nl/nl/tentoonstellingen/base-line"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-04-25 t/m 2027-02-14; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:33:34Z"
+    },
+    {
+      "id": "c6dfdaa2-98c3-5cb7-ab1b-708a993c9d9e",
+      "name": "Mix & Match – Kamalia Talhaoui",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.kunstmuseum.nl/nl/tentoonstellingen/mix-match-kamalia-talhaoui"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-03-07 t/m 2026-10-25; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:34:11Z"
+    },
+    {
+      "id": "1932719c-2f68-5526-841c-c11d2f4fb4c6",
+      "name": "Tuin der lusten – De zeventiende eeuw in bloei",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.lakenhal.nl/nl/verhaal/tuin-der-lusten"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-09-26 t/m 2027-03-29; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:33:30Z"
+    },
+    {
+      "id": "29ebe4e5-6251-53c4-9541-81aa91cd6cba",
+      "name": "Opening Museum als Zonnewijzer",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.vanabbemuseum.nl/nl/zien-en-doen/activiteiten/opening-museum-als-zonnewijzer"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-10-17 t/m 2026-10-17; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:33:34Z"
+    },
+    {
+      "id": "c37d97a3-fda1-5879-9091-4ea0122d09c0",
+      "name": "Art Noord VIII",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.museumbelvedere.nl/nl/nu_te_zien/grote-zaal/"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "operating_status"
+      ],
+      "conclusion": "Organisator bevestigt het actuele programma en de looptijd 2026-10-01 t/m 2026-10-04; bestaande datums behouden. Alleen bestaan en programmadata herbevestigd; ontbrekende foto- en locatiegegevens afzonderlijk bijgehouden.",
+      "resolves_availability": true,
+      "retrieved_at": "2026-10-04T08:34:09Z"
+    },
+    {
+      "id": "77f9c032-23b0-5e86-9cb2-0d12ede312be",
+      "name": "Beeldentuin Ravesteyn",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.ruine-ravesteyn.nl/activiteiten/beeldentuin/anchor/kunstenaars"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "De organisator noemt uitsluitend 8–31 mei 2026; buiten dit seizoen. Bestaande tijdelijke sluiting bevestigd.",
+      "resolves_availability": true
+    },
+    {
+      "id": "7ad7a731-2264-57bb-adc8-8c17a822a46a",
+      "name": "Beeldenpark Croeselaan",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/sentimental-dragon"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Gemeentelijke collectiepagina beschrijft het bestaande beeldenpark en de actuele Wisselplek met Sentimental Dragon (2026).",
+      "resolves_availability": true
+    },
+    {
+      "id": "db54dd69-6f50-579e-a1e5-2a8af53c4bc7",
+      "name": "Beeldentuin Achter de Westduinen",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.achterdewestduinen.nl/"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Officiële seizoenperiode liep van 16 juli tot en met 22 augustus 2026. Op controledatum buiten het seizoen; tijdelijk gesloten.",
+      "resolves_availability": true
+    },
+    {
+      "id": "5aa7bd6b-22a7-5ee9-a221-3da2b37884af",
+      "name": "Beeldentuin De Zanderij",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.beeldentuin-dezanderij.nl/",
+        "https://www.beeldentuin-dezanderij.nl/de-omgeving/openingstijden/"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Officiële tuinpagina beschrijft meer dan honderd beelden; openingspagina bevestigt weekendopenstelling in oktober en november.",
+      "resolves_availability": true
+    },
+    {
+      "id": "2dca3c95-59f4-5630-9903-5f01c65958ee",
+      "name": "Lustwarande – De Oude Warande",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.lustwarande.org/bezoek/openingstijden-en-toegangsprijs"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Organisator meldt dat seizoen 2026 is afgelopen; volgende editie 20 juni–19 september 2027. Tijdelijke sluiting behouden.",
+      "resolves_availability": true
+    },
+    {
+      "id": "040bff16-8c77-5643-b1d3-12599730dcee",
+      "name": "Land Art Delft",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.landartdelft.nl/"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Terreinbeheerder bevestigt gratis toegang tussen zonsopgang en zonsondergang, meerdere kunstvelden en actueel programma in oktober/november 2026.",
+      "resolves_availability": true
+    },
+    {
+      "id": "022ad5a3-f476-5bae-ba03-74c1d1bede36",
+      "name": "Beeldentuin Cuijk",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.beeldentuincuijk.nl/"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Officiële pagina bevestigt gratis jaaropenstelling dinsdag–zondag 10–17 uur en expositie 2026–2027.",
+      "resolves_availability": true
+    },
+    {
+      "id": "e6aff4f5-cf44-5873-ba4f-8cfc8acaef52",
+      "name": "Beeldentuin AJ & LW Bier",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://beeldentuin-gelderland-exposities.nl/"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Kunstenaars bevestigen bezoek op afspraak tot 25 oktober 2026 en eigen sculpturen van Dolf en Louise Bier. De foutieve weekdag bij de seizoensstart niet overgenomen.",
+      "resolves_availability": true
+    },
+    {
+      "id": "2a3e7d95-9fe8-5f7b-b2f3-91802e788631",
+      "name": "Landgoed Anningahof",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.anningahof.nl/"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Beheerder meldt expliciet sluiting wegens omstandigheden en geen tentoonstelling in 2026; voornemen voor 2027 is nog geen bevestigde heropening.",
+      "resolves_availability": true
+    },
+    {
+      "id": "24689773-a498-5a33-9388-8750451ec284",
+      "name": "Rijksmuseum Amsterdam – beeldentuin",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Museum bevestigt dertien beelden van Carel Visser 5 juni–25 oktober 2026 en twee blijvende Visser-werken. Tijdelijke expositie niet verward met verdwijnen van de tuin.",
+      "resolves_availability": true
+    },
+    {
+      "id": "81088db8-5449-53c1-84b5-9830f1849f52",
+      "name": "Drents Museum De Buitenplaats – beeldentuin",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://dmdebuitenplaats.nl/tentoonstellingen/museumtuin"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Museum bevestigt beeldenroute en gratis tuinbezoek het hele jaar, dinsdag–zondag 10–17 uur; delen beperkt toegankelijk voor rolstoel/rollator.",
+      "resolves_availability": true
+    },
+    {
+      "id": "9d6557a0-6577-582c-af55-fb1f2cf158d9",
+      "name": "De Beeldengalerij",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.stroom.nl/kunst-in-de-stad/de-beeldengalerij"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Collectiebeheerder Stroom bevestigt permanente sokkelroute Grote Marktstraat/Spui, 40 sokkels en een wisselende selectie uit 46 sculpturen.",
+      "resolves_availability": true
+    },
+    {
+      "id": "9a3db331-2f7a-51ed-8e71-ad6020adc01f",
+      "name": "Beeldentuin Mariënheem",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.beeldentuinmarienheem.nl/tijden-contact-route"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Exploitant bevestigt bezoek dinsdag–zondag 10–18 uur, Nijverdalseweg 20; de website toont de tuincollectie.",
+      "resolves_availability": true
+    },
+    {
+      "id": "e567b57b-525f-5591-8625-2899c3995bc6",
+      "name": "Museum Voorlinden – beeldentuin",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.voorlinden.nl/bezoek/tuinen/wandelen/",
+        "https://www.voorlinden.nl/bezoek/"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Museum noemt drie buitenwerken van Gormley, Katz en Fabre en vrij toegankelijke wandelpaden. Onderscheiden van Clingenbosch op een ander adres.",
+      "resolves_availability": true
+    },
+    {
+      "id": "d9759f96-0521-571f-96d8-7677d9648c48",
+      "name": "BIG Art & Garden (Beelden in Gees)",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://bigartgarden.nl/exhibitions/17-zomerexpositie-2026-beeldenpark-big-art-garden-meer-dan-30-kunstenaars-uit-7-landen-met/overview/"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Organisator bevestigt zomerexpositie 1 april–29 november 2026, ruim 200 werken op zeven hectare. Actueel open seizoen.",
+      "resolves_availability": true
+    },
+    {
+      "id": "adbbb706-a4d1-52ac-b3d8-f8a383cab034",
+      "name": "Museumbos",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.museumbos.nl/"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Stichting Bosland bevestigt dagelijks gratis bezoek aan meerdere landschapskunstwerken, startpunt Meesweg/Merelweg; actueel bericht september 2026.",
+      "resolves_availability": true
+    },
+    {
+      "id": "f42fce6a-cc00-52c2-b72c-f3451a9ab4a1",
+      "name": "Beeldenpark Een Zee van Staal",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.eenzeevanstaal.nl/"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Beheerder bevestigt zeventien beelden, gratis toegang via poort hoek Reyndersweg/Bosweg en maandelijkse rondleidingen.",
+      "resolves_availability": true
+    },
+    {
+      "id": "05e0c55c-8e8b-51a3-a294-3347e2809aa6",
+      "name": "Kröller-Müller Museum – beeldentuin",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://krollermuller.nl/beeldentuin"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "conclusion": "Museum bevestigt ruim tweehonderd beelden en toegang met museum/parkticket. Jardin d’émail heeft aparte seizoens- en weersvoorwaarden; deze gelden niet voor de hele beeldentuin.",
+      "resolves_availability": true
+    },
+    {
+      "id": "309b4c56-a9df-5cd7-824d-5e6830fc832e",
+      "name": "Museum Voorlinden",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.voorlinden.nl/bezoek/"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "street_address"
+      ],
+      "conclusion": "Museum bevestigt dagelijkse openstelling 11–17 uur en bezoekadres Buurtweg 90.",
+      "resolves_availability": true
+    },
+    {
+      "id": "d117a62d-9e50-56e1-ab19-feb92d50abba",
+      "name": "Keramiekmuseum Princessehof",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "street_address"
+      ],
+      "conclusion": "Museum bevestigt actueel programma en bezoekadres Grote Kerkstraat 9; huisnummer 11 gecorrigeerd.",
+      "resolves_availability": true
+    },
+    {
+      "id": "7d49b6c9-39c9-5bb1-bfcc-666a2c3c3598",
+      "name": "Project Space On The Inside",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:23:18.616684+00:00",
+      "primary_sources": [
+        "https://www.projectspaceontheinside.org/"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "street_address"
+      ],
+      "conclusion": "Actuele tentoonstelling Naturocene en woensdag–zondag open; bezoekadres Tt. Melaniaweg 1 onderscheiden van postadres Tt. Vasumweg 39.",
+      "resolves_availability": true
+    }
+  ],
+  "changes": [
+    {
+      "id": "2a3e7d95-9fe8-5f7b-b2f3-91802e788631",
+      "name": "Landgoed Anningahof",
+      "category": "beeldenparken",
+      "expected_updated_at": "2026-10-03T22:30:54.486756+00:00",
+      "before": {
+        "operating_status": "open",
+        "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+        "sources": [
+          {
+            "url": "https://www.anningahof.nl/",
+            "provider": "Beheerder / instelling",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "operating_status": "temporarily_closed",
+        "visit_notes": "Het park is in 2026 gesloten. De organisatie streeft naar een nieuwe tentoonstelling in 2027; een heropeningsdatum is nog niet vastgesteld.",
+        "sources": [
+          {
+            "url": "https://www.anningahof.nl/",
+            "provider": "Beheerder / instelling",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "provider": "Individuele broncontrole 4 oktober 2026",
+            "url": "https://www.anningahof.nl/",
+            "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+            "evidence_fields": [
+              "operating_status",
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "url": "https://www.anningahof.nl/",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "operating_status",
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "db54dd69-6f50-579e-a1e5-2a8af53c4bc7",
+      "name": "Beeldentuin Achter de Westduinen",
+      "category": "beeldenparken",
+      "expected_updated_at": "2026-10-03T20:39:20.44043+00:00",
+      "before": {
+        "operating_status": "open",
+        "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+        "sources": [
+          {
+            "url": "https://www.achterdewestduinen.nl/",
+            "provider": "Beheerder / instelling",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "operating_status": "temporarily_closed",
+        "visit_notes": "Het seizoen 2026 liep van 16 juli tot en met 22 augustus. De tuin is buiten dit seizoen gesloten.",
+        "sources": [
+          {
+            "url": "https://www.achterdewestduinen.nl/",
+            "provider": "Beheerder / instelling",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "provider": "Individuele broncontrole 4 oktober 2026",
+            "url": "https://www.achterdewestduinen.nl/",
+            "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+            "evidence_fields": [
+              "operating_status",
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "url": "https://www.achterdewestduinen.nl/",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "operating_status",
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "d117a62d-9e50-56e1-ab19-feb92d50abba",
+      "name": "Keramiekmuseum Princessehof",
+      "category": "musea",
+      "expected_updated_at": "2026-10-03T20:39:00.030782+00:00",
+      "before": {
+        "street_address": "Grote Kerkstraat 11"
+      },
+      "after": {
+        "street_address": "Grote Kerkstraat 9"
+      },
+      "source": {
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "url": "https://www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "street_address"
+        ]
+      }
+    },
+    {
+      "id": "fa170ae7-ac56-5b5b-8c40-85945571f1fd",
+      "name": "Koffie? Een Nederlandse geschiedenis in keramiek",
+      "category": "evenementen",
+      "expected_updated_at": "2026-10-03T22:30:54.525357+00:00",
+      "before": {
+        "street_address": "Grote Kerkstraat 11",
+        "visit_notes": "Keramiekmuseum Princessehof. Controleer openingstijden en eventuele reservering bij de organisator.",
+        "sources": [
+          {
+            "url": "https://www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie",
+            "provider": "Keramiekmuseum Princessehof · programma",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://museumtijdschrift.nl/artikelen/tips/tentoonstellingen-om-naar-uit-te-kijken-in-het-najaar-van-2026/",
+            "provider": "Museumtijdschrift · najaarsselectie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "street_address": "Grote Kerkstraat 9",
+        "visit_notes": "Keramiekmuseum Princessehof, Grote Kerkstraat 9. Dinsdag tot en met zondag geopend; gratis publieksopening op 10 oktober 2026.",
+        "sources": [
+          {
+            "url": "https://www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie",
+            "provider": "Keramiekmuseum Princessehof · programma",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://museumtijdschrift.nl/artikelen/tips/tentoonstellingen-om-naar-uit-te-kijken-in-het-najaar-van-2026/",
+            "provider": "Museumtijdschrift · najaarsselectie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "provider": "Individuele broncontrole 4 oktober 2026",
+            "url": "https://www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie",
+            "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+            "evidence_fields": [
+              "street_address",
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "url": "https://www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "street_address",
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "afe1ac6d-81ec-5f86-b7b7-22d421b3651a",
+      "name": "Celebrating the Icons of Art",
+      "category": "evenementen",
+      "expected_updated_at": "2026-10-03T20:39:18.549192+00:00",
+      "before": {
+        "street_address": "",
+        "latitude": 52.14106114,
+        "longitude": 4.36705193,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-5f869ff0e00e1cf563d7e1b2cd21f4b7",
+        "coordinate_precision": "city",
+        "photos": [],
+        "visit_notes": "Museum Voorlinden. Controleer openingstijden en eventuele reservering bij de organisator.",
+        "sources": [
+          {
+            "url": "https://www.voorlinden.nl/tentoonstelling/icons/",
+            "provider": "Museum Voorlinden · programma",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "street_address": "Buurtweg 90",
+        "latitude": 52.11852952,
+        "longitude": 4.34586994,
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-89d04f4dec02e3b7dc4ee7605af38605",
+        "coordinate_precision": "address",
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Piet_Oudolf_Tuin%2C_Voorlinden%2C_September_2025.jpg/1280px-Piet_Oudolf_Tuin%2C_Voorlinden%2C_September_2025.jpg",
+            "credit": "Renate Hano",
+            "caption": "De tuin van Museum Voorlinden — foto van de locatie.",
+            "license": "CC BY-SA 4.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Piet_Oudolf_Tuin,_Voorlinden,_September_2025.jpg"
+          }
+        ],
+        "visit_notes": "Museum Voorlinden, Buurtweg 90. Dagelijks geopend van 11.00 tot 17.00 uur.",
+        "sources": [
+          {
+            "url": "https://www.voorlinden.nl/tentoonstelling/icons/",
+            "provider": "Museum Voorlinden · programma",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "provider": "Individuele broncontrole 4 oktober 2026",
+            "url": "https://www.voorlinden.nl/bezoek/",
+            "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+            "evidence_fields": [
+              "street_address",
+              "latitude",
+              "longitude",
+              "coordinate_source",
+              "coordinate_precision",
+              "photos",
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "url": "https://www.voorlinden.nl/bezoek/",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "street_address",
+          "latitude",
+          "longitude",
+          "coordinate_source",
+          "coordinate_precision",
+          "photos",
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "e567b57b-525f-5591-8625-2899c3995bc6",
+      "name": "Museum Voorlinden – beeldentuin",
+      "category": "beeldenparken",
+      "expected_updated_at": "2026-10-03T20:39:20.43994+00:00",
+      "before": {
+        "photos": [],
+        "website_url": "https://www.voorlinden.nl/",
+        "summary": "Verken het landschap rond Voorlinden en ontdek hoe buitenkunst zich tot de omgeving verhoudt. De combinatie van sculpturen, bos, water en ontworpen beplanting maakt het kijken steeds anders. Controleer welke buitenwerken tijdens je bezoek toegankelijk zijn.",
+        "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+        "sources": [
+          {
+            "url": "https://www.voorlinden.nl/",
+            "provider": "Beheerder / instelling",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Piet_Oudolf_Tuin%2C_Voorlinden%2C_September_2025.jpg/1280px-Piet_Oudolf_Tuin%2C_Voorlinden%2C_September_2025.jpg",
+            "credit": "Renate Hano",
+            "caption": "De tuin van Museum Voorlinden — foto van de locatie.",
+            "license": "CC BY-SA 4.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Piet_Oudolf_Tuin,_Voorlinden,_September_2025.jpg"
+          }
+        ],
+        "website_url": "https://www.voorlinden.nl/bezoek/tuinen/wandelen/",
+        "summary": "Wandel tussen bos, duinen en de tuin van Piet Oudolf langs buitenkunst van Antony Gormley, Alex Katz en Jan Fabre. De beelden verschijnen telkens in een ander samenspel met licht en landschap. Een fijne aanvulling op het museumbezoek, met vrij toegankelijke wandelpaden.",
+        "visit_notes": "De wandelpaden door bos, duinweide en duinen zijn vrij toegankelijk. Start bij Museum Voorlinden, Buurtweg 90. Honden mogen aangelijnd mee. Beeldentuin Clingenbosch ligt elders en werkt met gereserveerde rondleidingen.",
+        "sources": [
+          {
+            "url": "https://www.voorlinden.nl/",
+            "provider": "Beheerder / instelling",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "provider": "Individuele broncontrole 4 oktober 2026",
+            "url": "https://www.voorlinden.nl/bezoek/tuinen/wandelen/",
+            "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+            "evidence_fields": [
+              "photos",
+              "website_url",
+              "summary",
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "url": "https://www.voorlinden.nl/bezoek/tuinen/wandelen/",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "photos",
+          "website_url",
+          "summary",
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "040bff16-8c77-5643-b1d3-12599730dcee",
+      "name": "Land Art Delft",
+      "category": "beeldenparken",
+      "expected_updated_at": "2026-10-03T22:31:10.821066+00:00",
+      "before": {
+        "visit_notes": "Gratis te bezoeken tussen zonsopgang en zonsondergang. De beheerder meldt geen toilet- of horecavoorzieningen in het park.",
+        "sources": [
+          {
+            "url": "https://www.landartdelft.nl/",
+            "provider": "Officiële instelling / beheerder",
+            "retrieved_at": "2026-10-04T00:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "visit_notes": "Gratis toegankelijk tussen zonsopgang en zonsondergang. Op het park zijn geen toilet- en horecavoorzieningen.",
+        "sources": [
+          {
+            "url": "https://www.landartdelft.nl/",
+            "provider": "Officiële instelling / beheerder",
+            "retrieved_at": "2026-10-04T00:00:00Z"
+          },
+          {
+            "provider": "Individuele broncontrole 4 oktober 2026",
+            "url": "https://www.landartdelft.nl/",
+            "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+            "evidence_fields": [
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "url": "https://www.landartdelft.nl/",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "022ad5a3-f476-5bae-ba03-74c1d1bede36",
+      "name": "Beeldentuin Cuijk",
+      "category": "beeldenparken",
+      "expected_updated_at": "2026-10-03T22:31:10.822365+00:00",
+      "before": {
+        "visit_notes": "Volgens de beheerder gratis toegankelijk, dinsdag tot en met zondag van 10.00 tot 17.00 uur; maandag gesloten. Controleer eventuele afwijkingen voor vertrek.",
+        "sources": [
+          {
+            "url": "https://www.beeldentuincuijk.nl/",
+            "provider": "Officiële instelling / beheerder",
+            "retrieved_at": "2026-10-04T00:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "visit_notes": "Het hele jaar gratis toegankelijk, dinsdag tot en met zondag van 10.00 tot 17.00 uur. Maandag gesloten.",
+        "sources": [
+          {
+            "url": "https://www.beeldentuincuijk.nl/",
+            "provider": "Officiële instelling / beheerder",
+            "retrieved_at": "2026-10-04T00:00:00Z"
+          },
+          {
+            "provider": "Individuele broncontrole 4 oktober 2026",
+            "url": "https://www.beeldentuincuijk.nl/",
+            "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+            "evidence_fields": [
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "url": "https://www.beeldentuincuijk.nl/",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "e6aff4f5-cf44-5873-ba4f-8cfc8acaef52",
+      "name": "Beeldentuin AJ & LW Bier",
+      "category": "beeldenparken",
+      "expected_updated_at": "2026-10-03T22:31:10.822596+00:00",
+      "before": {
+        "visit_notes": "Alleen op afspraak. De website noemt seizoensopenstelling tot 25 oktober 2026; controleer de tijden vóór vertrek.",
+        "sources": [
+          {
+            "url": "https://beeldentuin-gelderland-exposities.nl/",
+            "provider": "Officiële instelling / beheerder",
+            "retrieved_at": "2026-10-04T00:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "visit_notes": "In 2026 tot en met 25 oktober op afspraak te bezoeken. Ook rondleidingen voor groepen tot 15 personen.",
+        "sources": [
+          {
+            "url": "https://beeldentuin-gelderland-exposities.nl/",
+            "provider": "Officiële instelling / beheerder",
+            "retrieved_at": "2026-10-04T00:00:00Z"
+          },
+          {
+            "provider": "Individuele broncontrole 4 oktober 2026",
+            "url": "https://beeldentuin-gelderland-exposities.nl/",
+            "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+            "evidence_fields": [
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "url": "https://beeldentuin-gelderland-exposities.nl/",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "81088db8-5449-53c1-84b5-9830f1849f52",
+      "name": "Drents Museum De Buitenplaats – beeldentuin",
+      "category": "beeldenparken",
+      "expected_updated_at": "2026-10-03T20:39:18.541187+00:00",
+      "before": {
+        "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+        "sources": [
+          {
+            "url": "https://dmdebuitenplaats.nl/tentoonstellingen/museumtuin",
+            "provider": "Beheerder / instelling",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "visit_notes": "De museumtuin is het hele jaar gratis toegankelijk, dinsdag tot en met zondag van 10.00 tot 17.00 uur. Drempels en trappetjes beperken de toegang met rolstoel of rollator.",
+        "sources": [
+          {
+            "url": "https://dmdebuitenplaats.nl/tentoonstellingen/museumtuin",
+            "provider": "Beheerder / instelling",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "provider": "Individuele broncontrole 4 oktober 2026",
+            "url": "https://dmdebuitenplaats.nl/tentoonstellingen/museumtuin",
+            "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+            "evidence_fields": [
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "url": "https://dmdebuitenplaats.nl/tentoonstellingen/museumtuin",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "5aa7bd6b-22a7-5ee9-a221-3da2b37884af",
+      "name": "Beeldentuin De Zanderij",
+      "category": "beeldenparken",
+      "expected_updated_at": "2026-10-03T20:39:20.440758+00:00",
+      "before": {
+        "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+        "sources": [
+          {
+            "url": "https://www.beeldentuin-dezanderij.nl/",
+            "provider": "Beheerder / instelling",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "visit_notes": "In oktober en tot en met 24 november: zaterdag en zondag 10.00–17.00 uur. December en januari gesloten. Andere dagen op afspraak.",
+        "sources": [
+          {
+            "url": "https://www.beeldentuin-dezanderij.nl/",
+            "provider": "Beheerder / instelling",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "provider": "Individuele broncontrole 4 oktober 2026",
+            "url": "https://www.beeldentuin-dezanderij.nl/de-omgeving/openingstijden/",
+            "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+            "evidence_fields": [
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "url": "https://www.beeldentuin-dezanderij.nl/de-omgeving/openingstijden/",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "98f9e090-d4ba-5d5b-b71d-1099f4005c85",
+      "name": "Naturocene – Ways to Fall in Love with the Earth",
+      "category": "evenementen",
+      "expected_updated_at": "2026-10-03T23:13:08.957311+00:00",
+      "before": {
+        "visit_notes": "Bezoekersingang: Tt. Melaniaweg 1, Amsterdam. Het postadres is een ander adres. Woensdag–vrijdag 10.00–17.00 uur, zaterdag–zondag 11.00–17.00 uur; controleer tickets en eventuele wijzigingen bij de instelling.",
+        "sources": [
+          {
+            "url": "https://www.projectspaceontheinside.org/more-naturocene",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "name",
+              "summary",
+              "tags",
+              "starts_on",
+              "ends_on",
+              "visit_notes"
+            ]
+          },
+          {
+            "url": "https://www.projectspaceontheinside.org/",
+            "provider": "Aanvullende bron / selectieaanleiding",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "starts_on",
+              "ends_on"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "visit_notes": "Bezoekersingang: Tt. Melaniaweg 1, Amsterdam. Woensdag–vrijdag 10.00–17.00 uur, zaterdag–zondag 11.00–17.00 uur. Voor rolstoeltoegang vraagt de instelling een dag vooraf contact op te nemen.",
+        "sources": [
+          {
+            "url": "https://www.projectspaceontheinside.org/more-naturocene",
+            "provider": "Wekelijkse broncontrole 4 oktober 2026",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "name",
+              "summary",
+              "tags",
+              "starts_on",
+              "ends_on",
+              "visit_notes"
+            ]
+          },
+          {
+            "url": "https://www.projectspaceontheinside.org/",
+            "provider": "Aanvullende bron / selectieaanleiding",
+            "retrieved_at": "2026-10-03T23:12:08.687988+00:00",
+            "evidence_fields": [
+              "starts_on",
+              "ends_on"
+            ]
+          },
+          {
+            "provider": "Individuele broncontrole 4 oktober 2026",
+            "url": "https://www.projectspaceontheinside.org/",
+            "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+            "evidence_fields": [
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "url": "https://www.projectspaceontheinside.org/",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
+      }
+    }
+  ],
+  "photo_evidence": {
+    "url": "https://commons.wikimedia.org/wiki/File:Piet_Oudolf_Tuin,_Voorlinden,_September_2025.jpg",
+    "credit": "Renate Hano",
+    "license": "CC BY-SA 4.0",
+    "conclusion": "Commons-bestandspagina bevestigt tuin Voorlinden, eigen werk en hergebruiklicentie. Alleen gebruikt als herkenbare locatiefoto."
+  },
+  "location_uncertainties": [
+    {
+      "id": "7d49b6c9-39c9-5bb1-bfcc-666a2c3c3598",
+      "reason": "Officiële bezoekersingang bevestigd; BAG-query op exact huisnummer geeft geen resultaat. Straatcoördinaat niet tot exact opgewaardeerd."
+    },
+    {
+      "id": "d117a62d-9e50-56e1-ab19-feb92d50abba",
+      "reason": "Bezoekadres 9 bevestigd; BAG-query vindt geen exacte match. Bestaand museumobjectpunt behouden; geen nieuw adrespunt gefabriceerd."
+    }
+  ],
+  "verification": {
+    "database": "Alle 12 gewijzigde records opnieuw gelezen en elk bedoeld veld exact vergeleken. Geen wijzigingen aan de vier handmatig bewerkte museumrecords.",
+    "tests": "npm run check: typecheck, 51 tests en productiebuild geslaagd.",
+    "production": "Downloadbestanden worden via gecontroleerde Loci-keten gepubliceerd. Rechtstreekse lokale HTTP-controle vereist bestaande Cloudflare Access-toegang; CI voert de bevoegde productiecontrole uit.",
+    "public_api": [
+      {
+        "id": "d117a62d-9e50-56e1-ab19-feb92d50abba",
+        "result": "Publieke Supabase-API bevat alle bedoelde veldwijzigingen."
+      },
+      {
+        "id": "2a3e7d95-9fe8-5f7b-b2f3-91802e788631",
+        "result": "Niet publiek teruggegeven, zoals verwacht bij tijdelijke sluiting."
+      },
+      {
+        "id": "db54dd69-6f50-579e-a1e5-2a8af53c4bc7",
+        "result": "Niet publiek teruggegeven, zoals verwacht bij tijdelijke sluiting."
+      },
+      {
+        "id": "fa170ae7-ac56-5b5b-8c40-85945571f1fd",
+        "result": "Publieke Supabase-API bevat alle bedoelde veldwijzigingen."
+      },
+      {
+        "id": "afe1ac6d-81ec-5f86-b7b7-22d421b3651a",
+        "result": "Publieke Supabase-API bevat alle bedoelde veldwijzigingen."
+      },
+      {
+        "id": "e567b57b-525f-5591-8625-2899c3995bc6",
+        "result": "Publieke Supabase-API bevat alle bedoelde veldwijzigingen."
+      },
+      {
+        "id": "040bff16-8c77-5643-b1d3-12599730dcee",
+        "result": "Publieke Supabase-API bevat alle bedoelde veldwijzigingen."
+      },
+      {
+        "id": "022ad5a3-f476-5bae-ba03-74c1d1bede36",
+        "result": "Publieke Supabase-API bevat alle bedoelde veldwijzigingen."
+      },
+      {
+        "id": "e6aff4f5-cf44-5873-ba4f-8cfc8acaef52",
+        "result": "Publieke Supabase-API bevat alle bedoelde veldwijzigingen."
+      },
+      {
+        "id": "81088db8-5449-53c1-84b5-9830f1849f52",
+        "result": "Publieke Supabase-API bevat alle bedoelde veldwijzigingen."
+      },
+      {
+        "id": "5aa7bd6b-22a7-5ee9-a221-3da2b37884af",
+        "result": "Publieke Supabase-API bevat alle bedoelde veldwijzigingen."
+      },
+      {
+        "id": "98f9e090-d4ba-5d5b-b71d-1099f4005c85",
+        "result": "Publieke Supabase-API bevat alle bedoelde veldwijzigingen."
+      }
+    ]
+  },
+  "remaining_records": 638
+}

@@ -17,9 +17,9 @@
       "published": 39,
       "archived": 0,
       "draft": 0,
-      "with_photos": 10,
+      "with_photos": 11,
       "precise_locations": 28,
-      "visible_on_research_date": 36
+      "visible_on_research_date": 34
     },
     "architectuur": {
       "total": 193,
@@ -35,13 +35,13 @@
       "published": 75,
       "archived": 0,
       "draft": 0,
-      "with_photos": 71,
-      "precise_locations": 72,
+      "with_photos": 72,
+      "precise_locations": 73,
       "visible_on_research_date": 74
     }
   },
   "total": 434,
-  "remaining_records": 311,
+  "remaining_records": 310,
   "remaining": [
     {
       "id": "ec559317-ad1c-58c4-bce2-8118f292d3f2",
@@ -1246,16 +1246,6 @@
       ]
     },
     {
-      "id": "e567b57b-525f-5591-8625-2899c3995bc6",
-      "inventory_key": "garden:Museum Voorlinden",
-      "category": "beeldenparken",
-      "name": "Museum Voorlinden – beeldentuin",
-      "website_url": "https://www.voorlinden.nl/",
-      "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
-      ]
-    },
-    {
       "id": "d9759f96-0521-571f-96d8-7677d9648c48",
       "inventory_key": "garden:Beelden in Gees",
       "category": "beeldenparken",
@@ -1263,6 +1253,16 @@
       "website_url": "https://bigartgarden.nl/exhibitions/17-zomerexpositie-2026-beeldenpark-big-art-garden-meer-dan-30-kunstenaars-uit-7-landen-met/overview/",
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "2a3e7d95-9fe8-5f7b-b2f3-91802e788631",
+      "inventory_key": "garden:Landgoed Anningahof",
+      "category": "beeldenparken",
+      "name": "Landgoed Anningahof",
+      "website_url": "https://www.anningahof.nl/",
+      "issues": [
+        "Bezoekstatus: temporarily_closed; opnieuw bij officiële bron controleren"
       ]
     },
     {
@@ -1386,7 +1386,8 @@
       "name": "Beeldentuin Achter de Westduinen",
       "website_url": "https://www.achterdewestduinen.nl/",
       "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Bezoekstatus: temporarily_closed; opnieuw bij officiële bron controleren"
       ]
     },
     {
@@ -2412,17 +2413,6 @@
       "website_url": "https://www.nestruimte.nl/exhibitions/creation-myths",
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
-      ]
-    },
-    {
-      "id": "afe1ac6d-81ec-5f86-b7b7-22d421b3651a",
-      "inventory_key": "event:www.voorlinden.nl/tentoonstelling/icons:2026-09-12",
-      "category": "evenementen",
-      "name": "Celebrating the Icons of Art",
-      "website_url": "https://www.voorlinden.nl/tentoonstelling/icons/",
-      "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
       ]
     },
     {

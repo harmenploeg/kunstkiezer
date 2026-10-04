@@ -87,6 +87,15 @@
         "url": "https://museumtijdschrift.nl/artikelen/tips/tentoonstellingen-om-naar-uit-te-kijken-in-het-najaar-van-2026/",
         "provider": "Museumtijdschrift · najaarsselectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie",
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "street_address",
+          "visit_notes"
+        ]
       }
     ],
     "summary": "Van koffiepot tot kopje: keramiek vertelt hoe koffie door de wereld reisde. Ontdek de vormen, decoraties en verhalen achter een dagelijks ritueel dat veel meer omvat dan een drankje.",
@@ -96,10 +105,10 @@
     "longitude": 5.792079,
     "museum_id": "d117a62d-9e50-56e1-ab19-feb92d50abba",
     "starts_on": "2026-10-10",
-    "visit_notes": "Keramiekmuseum Princessehof. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "visit_notes": "Keramiekmuseum Princessehof, Grote Kerkstraat 9. Dinsdag tot en met zondag geopend; gratis publieksopening op 10 oktober 2026.",
     "website_url": "https://www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie",
     "inventory_key": "event:www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie:2026-10-10",
-    "street_address": "Grote Kerkstraat 11",
+    "street_address": "Grote Kerkstraat 9",
     "operating_status": "open",
     "selection_reason": "Geselecteerd naar aanleiding van een bespreking of tip bij Museumtijdschrift · najaarsselectie. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
     "coordinate_source": "Museumlocatie Keramiekmuseum Princessehof",
@@ -1915,7 +1924,15 @@
       "collectie"
     ],
     "year": "2026–2027",
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Piet_Oudolf_Tuin%2C_Voorlinden%2C_September_2025.jpg/1280px-Piet_Oudolf_Tuin%2C_Voorlinden%2C_September_2025.jpg",
+        "credit": "Renate Hano",
+        "caption": "De tuin van Museum Voorlinden — foto van de locatie.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Piet_Oudolf_Tuin,_Voorlinden,_September_2025.jpg"
+      }
+    ],
     "creator": "",
     "ends_on": "2027-03-07",
     "sources": [
@@ -1923,24 +1940,38 @@
         "url": "https://www.voorlinden.nl/tentoonstelling/icons/",
         "provider": "Museum Voorlinden · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.voorlinden.nl/bezoek/",
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "street_address",
+          "latitude",
+          "longitude",
+          "coordinate_source",
+          "coordinate_precision",
+          "photos",
+          "visit_notes"
+        ]
       }
     ],
     "summary": "Ontmoet hedendaagse iconen uit de collectie naast hun twintigste-eeuwse voorgangers. De combinaties nodigen uit tot vergelijken: welke ideeën leven voort, en waar slaat een kunstenaar een nieuwe weg in?",
     "category": "evenementen",
-    "latitude": 52.14106114,
+    "latitude": 52.11852952,
     "province": "Zuid-Holland",
-    "longitude": 4.36705193,
+    "longitude": 4.34586994,
     "museum_id": "309b4c56-a9df-5cd7-824d-5e6830fc832e",
     "starts_on": "2026-09-12",
-    "visit_notes": "Museum Voorlinden. Controleer openingstijden en eventuele reservering bij de organisator.",
+    "visit_notes": "Museum Voorlinden, Buurtweg 90. Dagelijks geopend van 11.00 tot 17.00 uur.",
     "website_url": "https://www.voorlinden.nl/tentoonstelling/icons/",
     "inventory_key": "event:www.voorlinden.nl/tentoonstelling/icons:2026-09-12",
-    "street_address": "",
+    "street_address": "Buurtweg 90",
     "operating_status": "open",
     "selection_reason": "Geselecteerd uit het programma van een kunstinstelling in het museumbestand. De inhoud voegt een eigen kunstvorm, kunstenaar of thema toe; de data zijn gecontroleerd bij de organisator.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-5f869ff0e00e1cf563d7e1b2cd21f4b7",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-89d04f4dec02e3b7dc4ee7605af38605",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "address"
   },
   {
     "id": "97e7cf48-dd54-53f3-956b-dccea7dbc03b",
@@ -3951,6 +3982,14 @@
           "starts_on",
           "ends_on"
         ]
+      },
+      {
+        "url": "https://www.projectspaceontheinside.org/",
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
       }
     ],
     "summary": "Bekijk de aarde eens vanuit een ander perspectief. Meer dan vijfentwintig kunstenaars onderzoeken het samenspel tussen mens en natuur met film, sculptuur en installaties. Hun werk maakt ruimte voor andere levensvormen en voor nieuwe manieren om onze omgeving te ervaren.",
@@ -3960,7 +3999,7 @@
     "longitude": 4.89256596,
     "museum_id": "7d49b6c9-39c9-5bb1-bfcc-666a2c3c3598",
     "starts_on": "2026-10-01",
-    "visit_notes": "Bezoekersingang: Tt. Melaniaweg 1, Amsterdam. Het postadres is een ander adres. Woensdag–vrijdag 10.00–17.00 uur, zaterdag–zondag 11.00–17.00 uur; controleer tickets en eventuele wijzigingen bij de instelling.",
+    "visit_notes": "Bezoekersingang: Tt. Melaniaweg 1, Amsterdam. Woensdag–vrijdag 10.00–17.00 uur, zaterdag–zondag 11.00–17.00 uur. Voor rolstoeltoegang vraagt de instelling een dag vooraf contact op te nemen.",
     "website_url": "https://www.projectspaceontheinside.org/more-naturocene",
     "inventory_key": "event:2026-naturocene",
     "street_address": "Tt. Melaniaweg 1",

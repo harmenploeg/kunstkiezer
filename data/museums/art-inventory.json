@@ -1567,7 +1567,7 @@
     "name": "Keramiekmuseum Princessehof",
     "city": "Leeuwarden",
     "province": "Friesland",
-    "street_address": "Grote Kerkstraat 11",
+    "street_address": "Grote Kerkstraat 9",
     "postal_code": "8911 DZ",
     "country": "NL",
     "website_url": "https://www.princessehof.nl",
@@ -1609,6 +1609,14 @@
           "website_url",
           "latitude",
           "longitude"
+        ]
+      },
+      {
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "url": "https://www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "street_address"
         ]
       }
     ],

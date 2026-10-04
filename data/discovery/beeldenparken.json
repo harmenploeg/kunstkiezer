@@ -56,7 +56,15 @@
       "installaties"
     ],
     "year": "",
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Piet_Oudolf_Tuin%2C_Voorlinden%2C_September_2025.jpg/1280px-Piet_Oudolf_Tuin%2C_Voorlinden%2C_September_2025.jpg",
+        "credit": "Renate Hano",
+        "caption": "De tuin van Museum Voorlinden — foto van de locatie.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Piet_Oudolf_Tuin,_Voorlinden,_September_2025.jpg"
+      }
+    ],
     "creator": "",
     "ends_on": null,
     "sources": [
@@ -64,17 +72,28 @@
         "url": "https://www.voorlinden.nl/",
         "provider": "Beheerder / instelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.voorlinden.nl/bezoek/tuinen/wandelen/",
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "photos",
+          "website_url",
+          "summary",
+          "visit_notes"
+        ]
       }
     ],
-    "summary": "Verken het landschap rond Voorlinden en ontdek hoe buitenkunst zich tot de omgeving verhoudt. De combinatie van sculpturen, bos, water en ontworpen beplanting maakt het kijken steeds anders. Controleer welke buitenwerken tijdens je bezoek toegankelijk zijn.",
+    "summary": "Wandel tussen bos, duinen en de tuin van Piet Oudolf langs buitenkunst van Antony Gormley, Alex Katz en Jan Fabre. De beelden verschijnen telkens in een ander samenspel met licht en landschap. Een fijne aanvulling op het museumbezoek, met vrij toegankelijke wandelpaden.",
     "category": "beeldenparken",
     "latitude": 52.11852952,
     "province": "Zuid-Holland",
     "longitude": 4.34586994,
     "museum_id": "309b4c56-a9df-5cd7-824d-5e6830fc832e",
     "starts_on": null,
-    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
-    "website_url": "https://www.voorlinden.nl/",
+    "visit_notes": "De wandelpaden door bos, duinweide en duinen zijn vrij toegankelijk. Start bij Museum Voorlinden, Buurtweg 90. Honden mogen aangelijnd mee. Beeldentuin Clingenbosch ligt elders en werkt met gereserveerde rondleidingen.",
+    "website_url": "https://www.voorlinden.nl/bezoek/tuinen/wandelen/",
     "inventory_key": "garden:Museum Voorlinden",
     "street_address": "Buurtweg 90",
     "operating_status": "open",
@@ -147,6 +166,15 @@
         "url": "https://www.anningahof.nl/",
         "provider": "Beheerder / instelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.anningahof.nl/",
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "operating_status",
+          "visit_notes"
+        ]
       }
     ],
     "summary": "Ontdek hedendaagse Nederlandse beeldhouwkunst tussen vijvers, bomen en open grasvelden. De jaarlijkse selectie brengt uiteenlopende kunstenaars samen. Groot, klein, ingetogen of uitbundig: iedere bocht in het park kan een nieuwe ontmoeting opleveren.",
@@ -156,11 +184,11 @@
     "longitude": 6.16041088,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "visit_notes": "Het park is in 2026 gesloten. De organisatie streeft naar een nieuwe tentoonstelling in 2027; een heropeningsdatum is nog niet vastgesteld.",
     "website_url": "https://www.anningahof.nl/",
     "inventory_key": "garden:Landgoed Anningahof",
     "street_address": "Hessenweg 9",
-    "operating_status": "open",
+    "operating_status": "temporarily_closed",
     "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
     "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-95270e1bcc597300a10864bd42138aba",
     "publication_status": "published",
@@ -826,6 +854,14 @@
         "url": "https://dmdebuitenplaats.nl/tentoonstellingen/museumtuin",
         "provider": "Beheerder / instelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://dmdebuitenplaats.nl/tentoonstellingen/museumtuin",
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
       }
     ],
     "summary": "Dwaal door deeltuinen, langs een spiegelvijver en de historische appelhof. Sculpturen en groen horen hier bij dezelfde ervaring. De museumtuin nodigt uit om langzaam te kijken en steeds nieuwe details te ontdekken.",
@@ -835,7 +871,7 @@
     "longitude": 6.563544,
     "museum_id": "432b3e1e-d233-5247-81e2-aba4a8c1d946",
     "starts_on": null,
-    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "visit_notes": "De museumtuin is het hele jaar gratis toegankelijk, dinsdag tot en met zondag van 10.00 tot 17.00 uur. Drempels en trappetjes beperken de toegang met rolstoel of rollator.",
     "website_url": "https://dmdebuitenplaats.nl/tentoonstellingen/museumtuin",
     "inventory_key": "garden:Drents Museum De Buitenplaats",
     "street_address": "Hoofdweg 76",
@@ -948,6 +984,15 @@
         "url": "https://www.achterdewestduinen.nl/",
         "provider": "Beheerder / instelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.achterdewestduinen.nl/",
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "operating_status",
+          "visit_notes"
+        ]
       }
     ],
     "summary": "In deze beschutte tuin vullen natuur en sculptuur elkaar aan. Ontdek abstracte vormen en herkenbare figuren terwijl je tussen het groen wandelt. Het licht en de beweging van de beplanting geven de beelden telkens een andere omlijsting.",
@@ -957,11 +1002,11 @@
     "longitude": 3.90352996,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "visit_notes": "Het seizoen 2026 liep van 16 juli tot en met 22 augustus. De tuin is buiten dit seizoen gesloten.",
     "website_url": "https://www.achterdewestduinen.nl/",
     "inventory_key": "garden:Beeldentuin Achter de Westduinen",
     "street_address": "Dijkstelweg 58",
-    "operating_status": "open",
+    "operating_status": "temporarily_closed",
     "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld.",
     "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-74428bf55cf67bc4619d843653bb1ef6",
     "publication_status": "published",
@@ -985,6 +1030,14 @@
         "url": "https://www.beeldentuin-dezanderij.nl/",
         "provider": "Beheerder / instelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.beeldentuin-dezanderij.nl/de-omgeving/openingstijden/",
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
       }
     ],
     "summary": "Wandel tussen hedendaagse beelden in een groene buitenomgeving. Verschillende materialen en vormen nodigen uit tot vergelijken: welk werk trekt je van veraf, en welk beeld onthult zich pas van dichtbij? Raadpleeg de actuele tentoonstelling voor bezoek.",
@@ -994,7 +1047,7 @@
     "longitude": 5.14136382,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "visit_notes": "In oktober en tot en met 24 november: zaterdag en zondag 10.00–17.00 uur. December en januari gesloten. Andere dagen op afspraak.",
     "website_url": "https://www.beeldentuin-dezanderij.nl/",
     "inventory_key": "garden:Beeldentuin De Zanderij",
     "street_address": "Oude Meentweg 2",
@@ -1411,10 +1464,18 @@
         "url": "https://www.landartdelft.nl/",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.landartdelft.nl/",
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt een samenhangende route met meerdere sculpturen.",
-    "visit_notes": "Gratis te bezoeken tussen zonsopgang en zonsondergang. De beheerder meldt geen toilet- of horecavoorzieningen in het park.",
+    "visit_notes": "Gratis toegankelijk tussen zonsopgang en zonsondergang. Op het park zijn geen toilet- en horecavoorzieningen.",
     "museum_id": null,
     "starts_on": null,
     "ends_on": null,
@@ -1448,10 +1509,18 @@
         "url": "https://www.beeldentuincuijk.nl/",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.beeldentuincuijk.nl/",
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt een samenhangende route met meerdere sculpturen.",
-    "visit_notes": "Volgens de beheerder gratis toegankelijk, dinsdag tot en met zondag van 10.00 tot 17.00 uur; maandag gesloten. Controleer eventuele afwijkingen voor vertrek.",
+    "visit_notes": "Het hele jaar gratis toegankelijk, dinsdag tot en met zondag van 10.00 tot 17.00 uur. Maandag gesloten.",
     "museum_id": null,
     "starts_on": null,
     "ends_on": null,
@@ -1487,10 +1556,18 @@
         "url": "https://beeldentuin-gelderland-exposities.nl/",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://beeldentuin-gelderland-exposities.nl/",
+        "provider": "Individuele broncontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T11:23:18.616684+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt een samenhangende route met meerdere sculpturen.",
-    "visit_notes": "Alleen op afspraak. De website noemt seizoensopenstelling tot 25 oktober 2026; controleer de tijden vóór vertrek.",
+    "visit_notes": "In 2026 tot en met 25 oktober op afspraak te bezoeken. Ook rondleidingen voor groepen tot 15 personen.",
     "museum_id": null,
     "starts_on": null,
     "ends_on": null,
