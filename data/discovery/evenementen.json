@@ -4045,5 +4045,110 @@
     "coordinate_source": "Bestaande museumcoördinaten",
     "publication_status": "published",
     "coordinate_precision": "exact"
+  },
+  {
+    "city": "Haarlem",
+    "province": "Noord-Holland",
+    "street_address": "Grote Markt 16",
+    "latitude": 52.38113409,
+    "longitude": 4.63602588,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-4c705e47cbbe7c25fcf8570e2f67516d",
+    "id": "dd25eb3e-079f-5628-a14e-d2552b902ffd",
+    "inventory_key": "event:museumvandegeest.nl:outsider-art:2026-10-03",
+    "category": "evenementen",
+    "name": "Outsider Art! – 150 jaar outsiderkunst in Nederland",
+    "website_url": "https://museumvandegeest.nl/tentoonstellingen/binnenkort-outsider-art/",
+    "summary": "Ruim tweehonderd werken brengen uiteenlopende manieren van tekenen, bouwen en verbeelden samen. Museum van de Geest toont in de Haarlemse Vleeshal werk uit de eigen verzameling en Collectie De Stadshof. De tentoonstelling verkent anderhalve eeuw outsiderkunst, met onder anderen Willem van Genk, Shinichi Sawada en Carlo Zinelli.",
+    "creator": "",
+    "year": "2026",
+    "tags": [
+      "outsider art",
+      "hedendaagse kunst",
+      "schilderkunst",
+      "beeldhouwkunst"
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Haarlem_Vleeshal_01.jpg/1280px-Haarlem_Vleeshal_01.jpg",
+        "credit": "Frank Schwichtenberg (Huhu Uet)",
+        "caption": "Locatie: Museum van de Geest – Pop-up Outsider Art — Vleeshal Haarlem, buitengevel in 2013",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Haarlem_Vleeshal_01.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://museumvandegeest.nl/tentoonstellingen/binnenkort-outsider-art/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "name",
+          "summary",
+          "starts_on",
+          "ends_on",
+          "street_address"
+        ]
+      }
+    ],
+    "selection_reason": "Beeldende kunst met actuele, exact gedateerde presentatie; bij de organisator gecontroleerd en vergeleken met de bestaande catalogus.",
+    "visit_notes": "Bezoek de tentoonstelling op de genoemde museumlocatie tijdens de reguliere openingstijden. De foto toont het gebouw, niet de tentoonstelling.",
+    "museum_id": "f0c2b13a-04ce-46a0-bef4-48f608604a0d",
+    "starts_on": "2026-10-03",
+    "ends_on": "2027-09-30",
+    "operating_status": "open",
+    "publication_status": "published"
+  },
+  {
+    "city": "Haarlem",
+    "province": "Noord-Holland",
+    "street_address": "Groot Heiligland 62",
+    "latitude": 52.376606,
+    "longitude": 4.63369,
+    "coordinate_precision": "exact",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "id": "a31a4358-a644-5589-9e1a-6003ebab7563",
+    "inventory_key": "event:franshalsmuseum.nl:meisje-in-het-blauw:2026-03-12",
+    "category": "evenementen",
+    "name": "Het raadsel van het meisje in het blauw",
+    "website_url": "https://franshalsmuseum.nl/nl/zien-en-doen/versproncks-meisje-in-het-blauw",
+    "summary": "Johannes Versproncks meisje in de blauwe jurk krijgt gezelschap van twee portretten die vermoedelijk haar ouders voorstellen. Het Frans Hals Museum brengt de schilderijen samen en laat zien hoe onderzoekers proberen de geportretteerden te identificeren. Vergelijk de ingetogen portretten ook met werk van Frans Hals.",
+    "creator": "Johannes Verspronck",
+    "year": "2026",
+    "tags": [
+      "schilderkunst",
+      "oude meesters",
+      "maker: johannes verspronck"
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Frans_Hals_Museum_portal_in_Haarlem.jpg/1280px-Frans_Hals_Museum_portal_in_Haarlem.jpg",
+        "credit": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+        "caption": "Locatie: Frans Hals Museum — Frans Hals Museum",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Frans_Hals_Museum_portal_in_Haarlem.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://franshalsmuseum.nl/nl/zien-en-doen/versproncks-meisje-in-het-blauw",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "name",
+          "summary",
+          "starts_on",
+          "ends_on",
+          "street_address"
+        ]
+      }
+    ],
+    "selection_reason": "Beeldende kunst met actuele, exact gedateerde presentatie; bij de organisator gecontroleerd en vergeleken met de bestaande catalogus.",
+    "visit_notes": "Bezoek de tentoonstelling op de genoemde museumlocatie tijdens de reguliere openingstijden. De foto toont het gebouw, niet de tentoonstelling.",
+    "museum_id": "c8e2fdc7-208f-52e5-8c63-b0fb0f11152f",
+    "starts_on": "2026-03-12",
+    "ends_on": "2026-10-11",
+    "operating_status": "open",
+    "publication_status": "published"
   }
 ]

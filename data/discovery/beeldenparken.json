@@ -1313,6 +1313,14 @@
         "url": "https://www.ruine-ravesteyn.nl/activiteiten/beeldentuin/anchor/kunstenaars",
         "provider": "Ruïne Ravesteyn · beeldentuin",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.ruine-ravesteyn.nl/activiteiten/beeldentuin/anchor/kunstenaars",
+        "provider": "Officiële instelling",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
       }
     ],
     "summary": "Bij de ruïne van Ravesteyn vormt een tijdelijke beeldententoonstelling een route door het groen. Verschillende kunstenaars laten hun sculpturen reageren op een historische omgeving. Kijk vooraf naar de openingsperiode: deze tuin is seizoensgebonden.",
@@ -1322,7 +1330,7 @@
     "longitude": 4.24280321,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "De tentoonstelling van 2026 liep van 8 tot en met 31 mei. Wacht op een nieuw bevestigd tentoonstellingsseizoen voordat deze locatie als beeldentuin wordt gepubliceerd.",
+    "visit_notes": "De beeldentuin van 2026 liep van 8 tot en met 31 mei en is nu niet regulier geopend. Het bezoekadres tijdens de tentoonstelling is Korte Welleweg 1, Heenvliet. Losse openstellingen van de ruïne zijn geen bewijs dat de jaarlijkse beeldentuin te bezoeken is. Nieuwe tentoonstellingsdata afwachten.",
     "website_url": "https://www.ruine-ravesteyn.nl/activiteiten/beeldentuin/anchor/kunstenaars",
     "inventory_key": "garden:Beeldentuin Ravesteyn",
     "street_address": "Korte Welleweg 1",
@@ -1351,6 +1359,14 @@
         "url": "https://www.lustwarande.org/bezoek/openingstijden-en-toegangsprijs",
         "provider": "Beheerder / instelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.lustwarande.org/bezoek/openingstijden-en-toegangsprijs",
+        "provider": "Officiële instelling",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
       }
     ],
     "summary": "In het barokke sterrenbos De Oude Warande krijgt hedendaagse sculptuur een prikkelend decor. Tijdens tentoonstellingen ontdek je hoe kunstwerken op het bos reageren. Buiten het seizoen blijft het paviljoen Grotto, maar niet de hele beeldenselectie.",
@@ -1360,7 +1376,7 @@
     "longitude": 5.03516111,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Material Worlds 2026 eindigde op 27 september. Buiten het tentoonstellingsseizoen is alleen Grotto permanent aanwezig; publiceer de beeldenselectie opnieuw wanneer een volgend seizoen is bevestigd.",
+    "visit_notes": "Het tentoonstellingsseizoen 2026 is afgelopen. De volgende Lustwarande is aangekondigd van 20 juni tot en met 19 september 2027. Het permanente paviljoen Grotto is afzonderlijk toegankelijk; dat betekent niet dat de seizoensgebonden beeldententoonstelling open is. Navigatieadres: Bredaseweg 441, Tilburg.",
     "website_url": "https://www.lustwarande.org/bezoek/openingstijden-en-toegangsprijs",
     "inventory_key": "garden:Lustwarande – De Oude Warande",
     "street_address": "Bredaseweg 441",
@@ -1510,10 +1526,18 @@
         "url": "https://keukenhof.nl/nl/",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://keukenhof.nl/nl/",
+        "provider": "Officiële instelling",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt een samenhangende route met meerdere sculpturen.",
-    "visit_notes": "Seizoensgesloten. De beheerder kondigt de volgende openstelling aan van 18 maart tot en met 9 mei 2027. Verwar het bloemenpark niet met Landgoed Keukenhof.",
+    "visit_notes": "Keukenhof is buiten het voorjaarsseizoen gesloten. De aangekondigde openstelling is van 18 maart tot en met 9 mei 2027, dagelijks 08.00–19.00 uur. Het gaat om het bloemenpark aan Stationsweg 166A in Lisse; verwar dit niet met het afzonderlijke landgoed Kasteel Keukenhof.",
     "museum_id": null,
     "starts_on": null,
     "ends_on": null,

@@ -124,7 +124,7 @@
     }
   ],
   "baseline_records": 732,
-  "current_records": 733,
+  "current_records": 735,
   "maker_updates": 54,
   "disappeared_updates": 6,
   "records": [
@@ -457,10 +457,43 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "coordinate_precision",
+        "coordinate_source",
+        "latitude",
+        "longitude",
+        "photos",
+        "postal_code",
+        "street_address",
+        "summary",
+        "website_url"
+      ],
+      "decisions": [
+        "Bezoeklocatie verplaatst naar Muntplein 8. Oude gevelfoto hoort bij Eerste Tuindwarsstraat; verwijderd uit de actuele presentatie, volledig bewaard in before. Nieuwe foto met hergebruikrechten nog nodig."
+      ],
       "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Foto van de huidige locatie met bevestigde hergebruikvoorwaarden ontbreekt."
+      ],
+      "followup_reviews": [
+        {
+          "id": "05fb0dec-a856-583b-8584-ab123e74feba",
+          "name": "Het Muizenhuis",
+          "category": "musea",
+          "checked_at": "2026-10-04T09:40:31.584769+00:00",
+          "primary_source": "https://www.themousemansion.com/pages/visit-the-mouse-mansion",
+          "verified_fields": [
+            "street_address",
+            "postal_code",
+            "latitude",
+            "longitude",
+            "coordinate_precision",
+            "coordinate_source",
+            "website_url",
+            "photos",
+            "summary"
+          ],
+          "conclusion": "Bezoeklocatie verplaatst naar Muntplein 8. Oude gevelfoto hoort bij Eerste Tuindwarsstraat; verwijderd uit de actuele presentatie, volledig bewaard in before. Nieuwe foto met hergebruikrechten nog nodig."
+        }
       ]
     },
     {
@@ -531,10 +564,29 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "summary",
+        "website_url"
+      ],
+      "decisions": [
+        "Tijdelijke sluiting bevestigd; actuele website en heropeningsplanning toegevoegd. Museumadres niet vervangen door kantooradres."
+      ],
       "remaining": [
         "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      ],
+      "followup_reviews": [
+        {
+          "id": "087b3436-17a7-5267-a11c-b5bcc00e8dfc",
+          "name": "Museum Prinsenhof Delft",
+          "category": "musea",
+          "checked_at": "2026-10-04T09:40:31.584769+00:00",
+          "primary_source": "https://www.museumprinsenhofdelft.nl/nieuws/enorme-belangstelling-voor-verbouwing-museum-prinsenhof-delft",
+          "verified_fields": [
+            "website_url",
+            "summary"
+          ],
+          "conclusion": "Tijdelijke sluiting bevestigd; actuele website en heropeningsplanning toegevoegd. Museumadres niet vervangen door kantooradres."
+        }
       ]
     },
     {
@@ -3257,11 +3309,29 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "visit_notes"
+      ],
+      "decisions": [
+        "Seizoenssluiting bevestigd; permanente Grotto onderscheiden van beeldententoonstelling."
+      ],
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      ],
+      "followup_reviews": [
+        {
+          "id": "2dca3c95-59f4-5630-9903-5f01c65958ee",
+          "name": "Lustwarande – De Oude Warande",
+          "category": "beeldenparken",
+          "checked_at": "2026-10-04T09:40:31.584769+00:00",
+          "primary_source": "https://www.lustwarande.org/bezoek/openingstijden-en-toegangsprijs",
+          "verified_fields": [
+            "visit_notes",
+            "sources"
+          ],
+          "conclusion": "Seizoenssluiting bevestigd; permanente Grotto onderscheiden van beeldententoonstelling."
+        }
       ]
     },
     {
@@ -5290,11 +5360,28 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "summary"
+      ],
+      "decisions": [
+        "Tijdelijke museumsluiting onderscheiden van geopende winkel en verlaten Ligne-locatie."
+      ],
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      ],
+      "followup_reviews": [
+        {
+          "id": "4aa2b82b-11a5-5fae-bb4c-392af6ca1047",
+          "name": "Het Nieuwe Domein - Hedendaagse Kunst",
+          "category": "musea",
+          "checked_at": "2026-10-04T09:40:31.584769+00:00",
+          "primary_source": "https://www.hetnieuwedomein.nl/",
+          "verified_fields": [
+            "summary"
+          ],
+          "conclusion": "Tijdelijke museumsluiting onderscheiden van geopende winkel en verlaten Ligne-locatie."
+        }
       ]
     },
     {
@@ -6918,12 +7005,30 @@
           "source_record_id": 111
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "visit_notes"
+      ],
+      "decisions": [
+        "Tijdelijke presentatie toegevoegd aan bezoekinformatie; rondreizende oeuvrevermelding blijft unknown en krijgt geen fictieve vaste kaartlocatie."
+      ],
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
         "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      ],
+      "followup_reviews": [
+        {
+          "id": "5f8c90fe-32b5-5263-9e88-1b0d76e5e115",
+          "name": "Strandbeesten",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T09:40:31.584769+00:00",
+          "primary_source": "https://www.museumprinsenhofdelft.nl/nieuws/strandbeesten-mortuarium-theo-jansen-weer-tot-leven",
+          "verified_fields": [
+            "visit_notes",
+            "sources"
+          ],
+          "conclusion": "Tijdelijke presentatie toegevoegd aan bezoekinformatie; rondreizende oeuvrevermelding blijft unknown en krijgt geen fictieve vaste kaartlocatie."
+        }
       ]
     },
     {
@@ -8179,10 +8284,27 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "summary"
+      ],
+      "decisions": [
+        "Sluiting en beperkte heropening bevestigd; geen algemeen toegankelijke decembertentoonstelling afgeleid."
+      ],
       "remaining": [
         "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      ],
+      "followup_reviews": [
+        {
+          "id": "71ca77ee-da1c-51cc-9692-57364ef7e513",
+          "name": "Stichting Nobilis centrum voor prentkunst",
+          "category": "musea",
+          "checked_at": "2026-10-04T09:40:31.584769+00:00",
+          "primary_source": "https://www.stichtingnobilis.nl/",
+          "verified_fields": [
+            "summary"
+          ],
+          "conclusion": "Sluiting en beperkte heropening bevestigd; geen algemeen toegankelijke decembertentoonstelling afgeleid."
+        }
       ]
     },
     {
@@ -8560,7 +8682,7 @@
       "id": "74fe051f-9622-5635-9a3e-4834fd4695fe",
       "name": "Woningbouw Kiefhoek",
       "category": "architectuur",
-      "operating_status": "unknown",
+      "operating_status": "open",
       "source_checks": [
         {
           "url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/284",
@@ -8569,10 +8691,38 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "coordinate_precision",
+        "coordinate_source",
+        "latitude",
+        "longitude",
+        "operating_status",
+        "street_address",
+        "visit_notes"
+      ],
+      "decisions": [
+        "Actuele rondleidingsaanbieder bevestigt bestaan, startpunt en toegang uitsluitend met gids. Status open slaat op bezoekbare architectuur, niet op vrije toegang tot woningen."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "74fe051f-9622-5635-9a3e-4834fd4695fe",
+          "name": "Woningbouw Kiefhoek",
+          "category": "architectuur",
+          "checked_at": "2026-10-04T09:40:31.584769+00:00",
+          "primary_source": "https://urbanguides.nl/nl/tours/kiefhoek-rondleiding-modernisme-rotterdam/",
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "latitude",
+            "longitude",
+            "coordinate_precision",
+            "coordinate_source",
+            "visit_notes",
+            "sources"
+          ],
+          "conclusion": "Actuele rondleidingsaanbieder bevestigt bestaan, startpunt en toegang uitsluitend met gids. Status open slaat op bezoekbare architectuur, niet op vrije toegang tot woningen."
+        }
       ]
     },
     {
@@ -8863,11 +9013,29 @@
           "readable_text": false
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "visit_notes"
+      ],
+      "decisions": [
+        "Seizoenssluiting en ingang bevestigd; geen openstelling voor oktober afgeleid."
+      ],
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      ],
+      "followup_reviews": [
+        {
+          "id": "77f9c032-23b0-5e86-9cb2-0d12ede312be",
+          "name": "Beeldentuin Ravesteyn",
+          "category": "beeldenparken",
+          "checked_at": "2026-10-04T09:40:31.584769+00:00",
+          "primary_source": "https://www.ruine-ravesteyn.nl/activiteiten/beeldentuin/anchor/kunstenaars",
+          "verified_fields": [
+            "visit_notes",
+            "sources"
+          ],
+          "conclusion": "Seizoenssluiting en ingang bevestigd; geen openstelling voor oktober afgeleid."
+        }
       ]
     },
     {
@@ -10123,10 +10291,27 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "summary"
+      ],
+      "decisions": [
+        "Status blijft tijdelijk gesloten op 4 oktober; heropening niet voortijdig als open verwerkt. Beeldentuin als mogelijke afzonderlijke kandidaat genoteerd."
+      ],
       "remaining": [
         "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      ],
+      "followup_reviews": [
+        {
+          "id": "878fe3f1-3c25-5be4-9dc7-76ffb629ad0a",
+          "name": "Museum Vaals",
+          "category": "musea",
+          "checked_at": "2026-10-04T09:40:31.584769+00:00",
+          "primary_source": "https://museumvaals.nl/",
+          "verified_fields": [
+            "summary"
+          ],
+          "conclusion": "Status blijft tijdelijk gesloten op 4 oktober; heropening niet voortijdig als open verwerkt. Beeldentuin als mogelijke afzonderlijke kandidaat genoteerd."
+        }
       ]
     },
     {
@@ -14601,7 +14786,7 @@
       "id": "c33817e6-9d43-560c-89cd-09d17a9a3869",
       "name": "Woongebouw De Peperklip",
       "category": "architectuur",
-      "operating_status": "unknown",
+      "operating_status": "open",
       "source_checks": [
         {
           "url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/287",
@@ -14610,11 +14795,31 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "operating_status",
+        "visit_notes"
+      ],
+      "decisions": [
+        "Gemeente bevestigt huidig wooncomplex en openbaar binnenterrein. Bestaande stadscoördinaat niet als exact objectpunt bestempeld."
+      ],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
         "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      ],
+      "followup_reviews": [
+        {
+          "id": "c33817e6-9d43-560c-89cd-09d17a9a3869",
+          "name": "Woongebouw De Peperklip",
+          "category": "architectuur",
+          "checked_at": "2026-10-04T09:40:31.584769+00:00",
+          "primary_source": "https://www.rotterdam.nl/urban-roofs",
+          "verified_fields": [
+            "operating_status",
+            "visit_notes",
+            "sources"
+          ],
+          "conclusion": "Gemeente bevestigt huidig wooncomplex en openbaar binnenterrein. Bestaande stadscoördinaat niet als exact objectpunt bestempeld."
+        }
       ]
     },
     {
@@ -15560,11 +15765,28 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "summary"
+      ],
+      "decisions": [
+        "Renovatiesluiting bevestigd; geen exacte heropeningsdag verzonnen."
+      ],
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      ],
+      "followup_reviews": [
+        {
+          "id": "cb3d8ee5-fbea-5532-a3e9-0beec17e9d32",
+          "name": "Flower Art Museum",
+          "category": "musea",
+          "checked_at": "2026-10-04T09:40:31.584769+00:00",
+          "primary_source": "https://www.flowerartmuseum.nl/",
+          "verified_fields": [
+            "summary"
+          ],
+          "conclusion": "Renovatiesluiting bevestigd; geen exacte heropeningsdag verzonnen."
+        }
       ]
     },
     {
@@ -16161,11 +16383,28 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "summary"
+      ],
+      "decisions": [
+        "Eigen locatie gesloten; extern programma bevestigd. Einddatum Puin Hoop conflicteert: GRID 31 januari 2027, RUG 17 januari 2027. Geen agenda-item met gegokte einddatum."
+      ],
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      ],
+      "followup_reviews": [
+        {
+          "id": "d36bbfc7-4d74-5022-851d-92f2cac85526",
+          "name": "GRID Grafisch Museum Groningen",
+          "category": "musea",
+          "checked_at": "2026-10-04T09:40:31.584769+00:00",
+          "primary_source": "https://www.gridgroningen.nl/",
+          "verified_fields": [
+            "summary"
+          ],
+          "conclusion": "Eigen locatie gesloten; extern programma bevestigd. Einddatum Puin Hoop conflicteert: GRID 31 januari 2027, RUG 17 januari 2027. Geen agenda-item met gegokte einddatum."
+        }
       ]
     },
     {
@@ -18109,11 +18348,29 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "visit_notes"
+      ],
+      "decisions": [
+        "Seizoenssluiting bevestigd via geïndexeerde officiële bron; directe webopvraag geblokkeerd. Geen volledige live-broncontrole geclaimd."
+      ],
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      ],
+      "followup_reviews": [
+        {
+          "id": "ecbbbd0f-8fa4-54c7-bcb5-87b6893c994b",
+          "name": "Kunstcollectie Keukenhof",
+          "category": "beeldenparken",
+          "checked_at": "2026-10-04T09:40:31.584769+00:00",
+          "primary_source": "https://keukenhof.nl/nl/",
+          "verified_fields": [
+            "visit_notes",
+            "sources"
+          ],
+          "conclusion": "Seizoenssluiting bevestigd via geïndexeerde officiële bron; directe webopvraag geblokkeerd. Geen volledige live-broncontrole geclaimd."
+        }
       ]
     },
     {
@@ -19793,7 +20050,58 @@
       "remaining": [
         "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
+    },
+    {
+      "id": "dd25eb3e-079f-5628-a14e-d2552b902ffd",
+      "name": "Outsider Art! – 150 jaar outsiderkunst in Nederland",
+      "category": "evenementen",
+      "operating_status": "open",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "summary"
+      ],
+      "decisions": [
+        "Gecontroleerd bij officiële organisator; locatie gekoppeld aan bestaande museumvermelding."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "checked_at": "2026-10-04T09:43:27.945677+00:00",
+          "primary_source": "https://museumvandegeest.nl/tentoonstellingen/binnenkort-outsider-art/",
+          "conclusion": "Exact gedateerde, actuele tentoonstelling bevestigd."
+        }
+      ]
+    },
+    {
+      "id": "a31a4358-a644-5589-9e1a-6003ebab7563",
+      "name": "Het raadsel van het meisje in het blauw",
+      "category": "evenementen",
+      "operating_status": "open",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "summary"
+      ],
+      "decisions": [
+        "Gecontroleerd bij officiële organisator; locatie gekoppeld aan bestaande museumvermelding."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "checked_at": "2026-10-04T09:43:27.945677+00:00",
+          "primary_source": "https://franshalsmuseum.nl/nl/zien-en-doen/versproncks-meisje-in-het-blauw",
+          "conclusion": "Exact gedateerde, actuele tentoonstelling bevestigd."
+        }
+      ]
     }
   ],
-  "sleutelwerken_api_records_checked": 100
+  "sleutelwerken_api_records_checked": 100,
+  "latest_followup_report": "2026-10-04-queue-2d91364a-report.json"
 }

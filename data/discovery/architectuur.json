@@ -8903,6 +8903,15 @@
         "url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/287",
         "provider": "Architectuurgids · Top 100",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.rotterdam.nl/urban-roofs",
+        "provider": "Gemeente Rotterdam",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "operating_status",
+          "visit_notes"
+        ]
       }
     ],
     "summary": "Een enorm woonblok buigt als een paperclip. De Peperklip combineert galerijen en portieken met kleurige tegelpatronen. De gevel maakt van honderden woningen één groot stedelijk beeld.",
@@ -8912,11 +8921,11 @@
     "longitude": 4.48653571,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Selectie betreft de architectuur. Binnenbezoek is niet vanzelfsprekend; respecteer woningen en werkplekken en controleer toegang vooraf.",
+    "visit_notes": "Bekijk het woongebouw vanaf de openbare straten en het openbare binnenterrein. De gemeente bevestigt het huidige woongebruik en het openbare karakter van het binnenterrein. Woningen en het groene dak zijn geen vrij toegankelijke bezoekersruimte. Een exact bezoekpunt voor de kaart is nog niet bevestigd.",
     "website_url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/287",
     "inventory_key": "architectuurgids:287",
     "street_address": "Rosestraat, Stootblok, Draaischijf",
-    "operating_status": "unknown",
+    "operating_status": "open",
     "selection_reason": "Opgenomen in de Top 100 van Architectuurgids; gekozen als representatief architectuurproject, met een herkenbaar gebouwtype en een vastgelegde architect en ontstaansperiode.",
     "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-055d1ceec024dcc35de9ffae9d18bd7b",
     "publication_status": "published",
@@ -9000,24 +9009,38 @@
         "url": "https://nl.wikipedia.org/wiki/Kiefhoek",
         "provider": "Wikipedia · objectbeschrijving en bronverwijzingen",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://urbanguides.nl/nl/tours/kiefhoek-rondleiding-modernisme-rotterdam/",
+        "provider": "UrbanGuides · organisator rondleidingen",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "operating_status",
+          "street_address",
+          "latitude",
+          "longitude",
+          "coordinate_precision",
+          "coordinate_source",
+          "visit_notes"
+        ]
       }
     ],
     "summary": "Oud combineerde gestandaardiseerde woningen met zorgvuldig ontworpen hoeken en voorzieningen. De Kiefhoek maakte moderne architectuur beschikbaar voor arbeidersgezinnen. De samenhang van straat, woning en buurt staat centraal.",
     "category": "architectuur",
-    "latitude": 51.8933333333333,
+    "latitude": 51.89255724,
     "province": "Zuid-Holland",
-    "longitude": 4.50611111111111,
+    "longitude": 4.50826258,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Selectie betreft de architectuur. Binnenbezoek is niet vanzelfsprekend; respecteer woningen en werkplekken en controleer toegang vooraf.",
+    "visit_notes": "De woonwijk is vanaf de openbare straten te bekijken. De museumwoning aan Hendrik Idoplein 2 is uitsluitend met een gids toegankelijk; reserveer bij UrbanGuides. Respecteer de privacy van bewoners. De kaart wijst het bezoekstartpunt aan, niet het hele wooncomplex.",
     "website_url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/284",
     "inventory_key": "architectuurgids:284",
-    "street_address": "1e en 2e Kiefhoekstraat/Lindtstraat",
-    "operating_status": "unknown",
+    "street_address": "Hendrik Idoplein 2 (startpunt museumwoning en wijk)",
+    "operating_status": "open",
     "selection_reason": "Opgenomen in de Top 100 van Architectuurgids; gekozen als representatief architectuurproject, met een herkenbaar gebouwtype en een vastgelegde architect en ontstaansperiode.",
-    "coordinate_source": "https://nl.wikipedia.org/wiki/Kiefhoek",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-44466984e7cf2299d0c3b9231ed52e36",
     "publication_status": "published",
-    "coordinate_precision": "exact"
+    "coordinate_precision": "address"
   },
   {
     "id": "9d7fb6ee-9443-59d5-9678-33832d59074c",

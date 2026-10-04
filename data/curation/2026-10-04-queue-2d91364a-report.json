@@ -1,0 +1,1016 @@
+{
+  "run_id": "2d91364a-8396-4e71-8791-10ac0a979ccd",
+  "started_at": "2026-10-04T09:32:49.648357Z",
+  "updated_at": "2026-10-04T09:43:27.945677+00:00",
+  "research_date": "2026-10-04",
+  "agenda_window_end": "2026-11-04",
+  "scope": "Gerichte vervolgcontrole van open bezoekinformatie in alle vijf categorieën en twee ontbrekende tentoonstellingen. Geen volledige individuele bestaanscontrole van alle 735 records. Overige inhoudelijke controles in 2026-10-04-availability-review.json blijven open.",
+  "sources_snapshot": [
+    {
+      "id": "11fountains",
+      "name": "11fountains",
+      "url": "https://11fountains.nl/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047284+00"
+    },
+    {
+      "id": "architectuur-org",
+      "name": "Architectuur.ORG",
+      "url": "https://www.architectuur.org/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047313+00"
+    },
+    {
+      "id": "architectuurgids",
+      "name": "Architectuurgids Top 100",
+      "url": "https://www.architectuurgids.nl/project/list_projects_of_tag/tag_id/15",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.0473+00"
+    },
+    {
+      "id": "culty-pleasures",
+      "name": "Culty Pleasures",
+      "url": "",
+      "notes": "Toegankelijke artikelen en sociale berichten; leg de werkelijk geraadpleegde URL vast.\n\nAfgeschermde berichten niet als geraadpleegd opvoeren.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.048003+00"
+    },
+    {
+      "id": "kunstmeisjes",
+      "name": "De Kunstmeisjes",
+      "url": "",
+      "notes": "Toegankelijke artikelen en sociale berichten; leg de werkelijk geraadpleegde URL vast.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047993+00"
+    },
+    {
+      "id": "municipal-collections",
+      "name": "Gemeentelijke kunstcollecties en monumenteninformatie",
+      "url": "",
+      "notes": "Gemeentelijke inventarissen en locatiespecifieke projectpagina’s",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.046458+00"
+    },
+    {
+      "id": "rdmz100",
+      "name": "Historische RDMZ Top 100",
+      "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
+      "notes": "Een historisch geselecteerd gebouw is niet vanzelf openbaar toegankelijk of een kunstmuseum.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047923+00"
+    },
+    {
+      "id": "kunstvensters",
+      "name": "KunstVensters",
+      "url": "https://kunstvensters.com/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047971+00"
+    },
+    {
+      "id": "newspapers",
+      "name": "Landelijke kranten",
+      "url": "",
+      "notes": "Toegankelijke recensies, architectuurartikelen, interviews en culturele reportages. Bewaar de specifieke krant en artikel-URL.\n\nGeen claim van inhoudelijke controle achter een niet toegankelijke betaalmuur.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.048018+00"
+    },
+    {
+      "id": "official-institutions",
+      "name": "Musea, kunstinstellingen, kunstenaars en terreinbeheerders",
+      "url": "",
+      "notes": "Officiële websites en bronlinks van bestaande en nieuwe vermeldingen",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.045553+00"
+    },
+    {
+      "id": "museumtijdschrift",
+      "name": "Museumtijdschrift",
+      "url": "https://museumtijdschrift.nl/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047982+00"
+    },
+    {
+      "id": "nai250",
+      "name": "Nederlandse architectuur in 250 topstukken",
+      "url": "https://www.nai010.com/product/nederlandse-architectuur-in-250-topstukken/",
+      "notes": "Alleen uitgeversinformatie en gedeeltelijk inkijkexemplaar beoordeeld; volledige lijst niet beschikbaar. Archiefontwerpen zijn niet automatisch bezoekbare locaties.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047941+00"
+    },
+    {
+      "id": "sleutelwerken",
+      "name": "Sleutelwerken",
+      "url": "https://www.sleutelwerken.nl/",
+      "notes": "Onderscheid de officiële honderd Sleutelwerken van overige inzendingen; controleer tijdelijke en verplaatste werken.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.046479+00"
+    },
+    {
+      "id": "whichmuseum",
+      "name": "WhichMuseum Kunst & Design",
+      "url": "https://whichmuseum.nl/plaats/nederland-1?category%5B%5D=art-design",
+      "notes": "Toets aan de afgesproken kunstselectie; een brede categorie op deze site is geen bewijs dat kunst de hoofdzaak is.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047959+00"
+    },
+    {
+      "id": "commons",
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/",
+      "notes": "Controleer beeldidentiteit, maker en licentie. Bestandsnaam of cameracoördinaten bewijzen niet de actuele bezoeklocatie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.048035+00"
+    }
+  ],
+  "source_policy": "Actieve databasebronnen vóór iedere onderzoeksbatch opnieuw geraadpleegd; 15 ingeschakelde bronnen(groepen), geen lokale terugval.",
+  "baseline": {
+    "records": 733,
+    "database_differences": 0,
+    "manual_editor_changes_reviewed": 4,
+    "manual_fields_overwritten": 0
+  },
+  "updates": [
+    {
+      "id": "05fb0dec-a856-583b-8584-ab123e74feba",
+      "name": "Het Muizenhuis",
+      "category": "musea",
+      "expected_updated_at": "2026-10-03T20:39:16.065589+00:00",
+      "before": {
+        "street_address": "Eerste Tuindwarsstraat 1HS",
+        "postal_code": "1015 RT",
+        "latitude": 52.3777906,
+        "longitude": 4.8837036,
+        "coordinate_precision": "address",
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-ed57407910237031b09fdf2237714384",
+        "website_url": "",
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Eerste_Tuindwarsstraat_hoek_Anjeliersstraat%2C_Het_Muizenhuis_foto_1.JPG/1280px-Eerste_Tuindwarsstraat_hoek_Anjeliersstraat%2C_Het_Muizenhuis_foto_1.JPG",
+            "credit": "Alf van Beem",
+            "caption": "Het Muizenhuis — Eerste Tuindwarsstraat hoek Anjeliersstraat, Het Muizenhuis foto 1",
+            "license": "Public domain",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Eerste_Tuindwarsstraat_hoek_Anjeliersstraat,_Het_Muizenhuis_foto_1.JPG"
+          }
+        ],
+        "summary": "Duik in de kleine wereld van Het Muizenhuis. Miniatuurkamers en zorgvuldig gemaakte details laten zien hoe verhalen een tastbare omgeving krijgen. Een speelse bestemming voor wie houdt van verbeelding en het vakmanschap achter kinderboeken."
+      },
+      "after": {
+        "street_address": "Muntplein 8",
+        "postal_code": "1012 WR",
+        "latitude": 52.36719467,
+        "longitude": 4.89269882,
+        "coordinate_precision": "address",
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-4687367c88932e3065d8291195746fd1",
+        "website_url": "https://www.themousemansion.com/pages/visit-the-mouse-mansion",
+        "photos": [],
+        "summary": "Ontdek de originele miniatuurdecors uit de boeken over Sam en Julia. Het Muizenhuis toont de kamers, winkels en werkplaatsen die Karina Schaapman voor haar verhalen bouwde. Het mini-museum aan Muntplein 8 in Amsterdam is dagelijks gratis te bezoeken van 10.00 tot 18.00 uur."
+      },
+      "source": {
+        "provider": "Officiële instelling",
+        "url": "https://www.themousemansion.com/pages/visit-the-mouse-mansion",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "street_address",
+          "postal_code",
+          "latitude",
+          "longitude",
+          "coordinate_precision",
+          "coordinate_source",
+          "website_url",
+          "photos",
+          "summary"
+        ]
+      }
+    },
+    {
+      "id": "087b3436-17a7-5267-a11c-b5bcc00e8dfc",
+      "name": "Museum Prinsenhof Delft",
+      "category": "musea",
+      "expected_updated_at": "2026-10-03T20:39:00.041827+00:00",
+      "before": {
+        "website_url": "https://prinsenhof-delft.nl/",
+        "summary": "Delftse schilderkunst, Delfts blauw en het verhaal van Willem van Oranje ontmoeten elkaar in het Prinsenhof. Het museum is tijdelijk gesloten voor vernieuwing; delen van de collectie en activiteiten zijn op andere locaties te vinden."
+      },
+      "after": {
+        "website_url": "https://museumprinsenhofdelft.nl/",
+        "summary": "Delftse schilderkunst, Delfts blauw en het verhaal van Willem van Oranje ontmoeten elkaar in het Prinsenhof. Het museumgebouw is gesloten voor renovatie; volgens de planning van september 2026 volgt heropening in 2028. Het programma Naar Buiten brengt ondertussen collectie en activiteiten naar andere locaties. Het informatiepunt aan Sint Agathaplein 4 is geen vervangend museum."
+      },
+      "source": {
+        "provider": "Officiële instelling",
+        "url": "https://www.museumprinsenhofdelft.nl/nieuws/enorme-belangstelling-voor-verbouwing-museum-prinsenhof-delft",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "website_url",
+          "summary"
+        ]
+      }
+    },
+    {
+      "id": "4aa2b82b-11a5-5fae-bb4c-392af6ca1047",
+      "name": "Het Nieuwe Domein - Hedendaagse Kunst",
+      "category": "musea",
+      "expected_updated_at": "2026-10-03T20:39:16.058729+00:00",
+      "before": {
+        "summary": "Ontdek hedendaagse kunst bij Het Nieuwe Domein. Tentoonstellingen brengen verschillende media en internationale perspectieven samen. Kunstenaars nodigen je uit om na te denken over beelden, ideeën en de samenleving van nu."
+      },
+      "after": {
+        "summary": "Het Nieuwe Domein verbindt hedendaagse kunst en erfgoed aan de Kapittelstraat in Sittard. Het museum is van 1 september tot 10 november 2026 gesloten voor de wisseling van tentoonstellingen. De museumwinkel is vanaf oktober weer open van dinsdag tot en met vrijdag. Op de voormalige locatie Ligne 5 vinden geen tentoonstellingen meer plaats."
+      },
+      "source": {
+        "provider": "Officiële instelling",
+        "url": "https://www.hetnieuwedomein.nl/",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "summary"
+        ]
+      }
+    },
+    {
+      "id": "71ca77ee-da1c-51cc-9692-57364ef7e513",
+      "name": "Stichting Nobilis centrum voor prentkunst",
+      "category": "musea",
+      "expected_updated_at": "2026-10-03T20:39:16.878627+00:00",
+      "before": {
+        "summary": "Ontdek de rijkdom van het gedrukte beeld. Nobilis verzamelt en presenteert prentkunst, met nadruk op figuratief werk uit de tweede helft van de twintigste eeuw. Lijnen, lagen en afdrukken maken ieder blad bijzonder."
+      },
+      "after": {
+        "summary": "Nobilis verzamelt prentkunst, met nadruk op figuratief werk uit de tweede helft van de twintigste eeuw. Het centrum aan Zuideinde 26b is sinds 18 mei 2026 wegens uitbreiding gesloten voor publiek. De aangekondigde heropening op 12 december is een vriendendag waarvoor aanmelding en een vriendenlidmaatschap nodig zijn."
+      },
+      "source": {
+        "provider": "Officiële instelling",
+        "url": "https://www.stichtingnobilis.nl/",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "summary"
+        ]
+      }
+    },
+    {
+      "id": "878fe3f1-3c25-5be4-9dc7-76ffb629ad0a",
+      "name": "Museum Vaals",
+      "category": "musea",
+      "expected_updated_at": "2026-10-03T20:39:16.061185+00:00",
+      "before": {
+        "summary": "Ontmoet een verzameling grote heiligenbeelden in een voormalige kloosterkapel. Museum Vaals combineert deze expressieve figuren met wisselende hedendaagse kunst. De ontmoeting tussen oude devotie en nieuwe beelden maakt nieuwsgierig."
+      },
+      "after": {
+        "summary": "Meer dan tweehonderd kerk- en kloosterbeelden vullen de voormalige kloosterkapel van Museum Vaals. Gebrandschilderde ramen, schilderingen en devotionalia vormen samen een wereld van religieuze verbeelding. Het museum meldt een tijdelijke sluiting en kondigt heropening aan op zaterdag 10 oktober 2026. In het omringende park staan eveneens heiligenbeelden."
+      },
+      "source": {
+        "provider": "Officiële instelling",
+        "url": "https://museumvaals.nl/",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "summary"
+        ]
+      }
+    },
+    {
+      "id": "cb3d8ee5-fbea-5532-a3e9-0beec17e9d32",
+      "name": "Flower Art Museum",
+      "category": "musea",
+      "expected_updated_at": "2026-10-03T20:39:00.022046+00:00",
+      "before": {
+        "summary": "Ontdek hoeveel verbeelding er in een bloem kan schuilen. Het Flower Art Museum presenteert kunst waarin bloemen, planten en natuur inspiratie geven. Wisselende tentoonstellingen brengen uiteenlopende technieken en kunstenaars samen."
+      },
+      "after": {
+        "summary": "Bloemen en planten vormen het vertrekpunt voor hedendaagse kunst in het Flower Art Museum. Het museum in Aalsmeer is sinds 1 oktober 2025 gesloten voor verbouwing en uitbreiding. De instelling verwacht in het najaar van 2026 te heropenen, maar noemt nog geen exacte datum. Controleer het programma voor tijdelijke activiteiten op andere locaties."
+      },
+      "source": {
+        "provider": "Officiële instelling",
+        "url": "https://www.flowerartmuseum.nl/",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "summary"
+        ]
+      }
+    },
+    {
+      "id": "d36bbfc7-4d74-5022-851d-92f2cac85526",
+      "name": "GRID Grafisch Museum Groningen",
+      "category": "musea",
+      "expected_updated_at": "2026-10-03T20:39:17.674056+00:00",
+      "before": {
+        "summary": "Ontdek het samenspel van woord en beeld. GRID bewaart de wereld van grafische technieken en vormgeving. De eigen locatie is gesloten; tijdelijke tentoonstellingen op andere plekken houden de verzameling en het maakverhaal zichtbaar."
+      },
+      "after": {
+        "summary": "GRID bewaart en presenteert grafische technieken, drukwerk en vormgeving. De eigen museumlocatie is sinds eind 2022 gesloten en de collectie ligt in opslag. Tentoonstellingen vinden op externe locaties plaats. Puin Hoop is vanaf 15 augustus 2026 te zien in het Universiteitsmuseum Groningen; controleer daar de actuele bezoekinformatie."
+      },
+      "source": {
+        "provider": "Officiële instelling",
+        "url": "https://www.gridgroningen.nl/",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "summary"
+        ]
+      }
+    },
+    {
+      "id": "74fe051f-9622-5635-9a3e-4834fd4695fe",
+      "name": "Woningbouw Kiefhoek",
+      "category": "architectuur",
+      "expected_updated_at": "2026-10-04T08:45:59.9415+00:00",
+      "before": {
+        "operating_status": "unknown",
+        "street_address": "1e en 2e Kiefhoekstraat/Lindtstraat",
+        "latitude": 51.8933333333333,
+        "longitude": 4.50611111111111,
+        "coordinate_precision": "exact",
+        "coordinate_source": "https://nl.wikipedia.org/wiki/Kiefhoek",
+        "visit_notes": "Selectie betreft de architectuur. Binnenbezoek is niet vanzelfsprekend; respecteer woningen en werkplekken en controleer toegang vooraf.",
+        "sources": [
+          {
+            "url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/284",
+            "provider": "Architectuurgids · Top 100",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
+            "provider": "Rijksdienst Monumentenzorg · Top 100 (1990)",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://nl.wikipedia.org/wiki/Kiefhoek",
+            "provider": "Wikipedia · objectbeschrijving en bronverwijzingen",
+            "retrieved_at": "2026-10-04T00:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "operating_status": "open",
+        "street_address": "Hendrik Idoplein 2 (startpunt museumwoning en wijk)",
+        "latitude": 51.89255724,
+        "longitude": 4.50826258,
+        "coordinate_precision": "address",
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-44466984e7cf2299d0c3b9231ed52e36",
+        "visit_notes": "De woonwijk is vanaf de openbare straten te bekijken. De museumwoning aan Hendrik Idoplein 2 is uitsluitend met een gids toegankelijk; reserveer bij UrbanGuides. Respecteer de privacy van bewoners. De kaart wijst het bezoekstartpunt aan, niet het hele wooncomplex.",
+        "sources": [
+          {
+            "url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/284",
+            "provider": "Architectuurgids · Top 100",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
+            "provider": "Rijksdienst Monumentenzorg · Top 100 (1990)",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://nl.wikipedia.org/wiki/Kiefhoek",
+            "provider": "Wikipedia · objectbeschrijving en bronverwijzingen",
+            "retrieved_at": "2026-10-04T00:00:00Z"
+          },
+          {
+            "provider": "UrbanGuides · organisator rondleidingen",
+            "url": "https://urbanguides.nl/nl/tours/kiefhoek-rondleiding-modernisme-rotterdam/",
+            "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+            "evidence_fields": [
+              "operating_status",
+              "street_address",
+              "latitude",
+              "longitude",
+              "coordinate_precision",
+              "coordinate_source",
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "UrbanGuides · organisator rondleidingen",
+        "url": "https://urbanguides.nl/nl/tours/kiefhoek-rondleiding-modernisme-rotterdam/",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "operating_status",
+          "street_address",
+          "latitude",
+          "longitude",
+          "coordinate_precision",
+          "coordinate_source",
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "c33817e6-9d43-560c-89cd-09d17a9a3869",
+      "name": "Woongebouw De Peperklip",
+      "category": "architectuur",
+      "expected_updated_at": "2026-10-04T08:45:59.957736+00:00",
+      "before": {
+        "operating_status": "unknown",
+        "visit_notes": "Selectie betreft de architectuur. Binnenbezoek is niet vanzelfsprekend; respecteer woningen en werkplekken en controleer toegang vooraf.",
+        "sources": [
+          {
+            "url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/287",
+            "provider": "Architectuurgids · Top 100",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "operating_status": "open",
+        "visit_notes": "Bekijk het woongebouw vanaf de openbare straten en het openbare binnenterrein. De gemeente bevestigt het huidige woongebruik en het openbare karakter van het binnenterrein. Woningen en het groene dak zijn geen vrij toegankelijke bezoekersruimte. Een exact bezoekpunt voor de kaart is nog niet bevestigd.",
+        "sources": [
+          {
+            "url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/287",
+            "provider": "Architectuurgids · Top 100",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "provider": "Gemeente Rotterdam",
+            "url": "https://www.rotterdam.nl/urban-roofs",
+            "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+            "evidence_fields": [
+              "operating_status",
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Gemeente Rotterdam",
+        "url": "https://www.rotterdam.nl/urban-roofs",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "operating_status",
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "2dca3c95-59f4-5630-9903-5f01c65958ee",
+      "name": "Lustwarande – De Oude Warande",
+      "category": "beeldenparken",
+      "expected_updated_at": "2026-10-03T20:39:25.385423+00:00",
+      "before": {
+        "visit_notes": "Material Worlds 2026 eindigde op 27 september. Buiten het tentoonstellingsseizoen is alleen Grotto permanent aanwezig; publiceer de beeldenselectie opnieuw wanneer een volgend seizoen is bevestigd.",
+        "sources": [
+          {
+            "url": "https://www.lustwarande.org/bezoek/openingstijden-en-toegangsprijs",
+            "provider": "Beheerder / instelling",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "visit_notes": "Het tentoonstellingsseizoen 2026 is afgelopen. De volgende Lustwarande is aangekondigd van 20 juni tot en met 19 september 2027. Het permanente paviljoen Grotto is afzonderlijk toegankelijk; dat betekent niet dat de seizoensgebonden beeldententoonstelling open is. Navigatieadres: Bredaseweg 441, Tilburg.",
+        "sources": [
+          {
+            "url": "https://www.lustwarande.org/bezoek/openingstijden-en-toegangsprijs",
+            "provider": "Beheerder / instelling",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "provider": "Officiële instelling",
+            "url": "https://www.lustwarande.org/bezoek/openingstijden-en-toegangsprijs",
+            "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+            "evidence_fields": [
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Officiële instelling",
+        "url": "https://www.lustwarande.org/bezoek/openingstijden-en-toegangsprijs",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "77f9c032-23b0-5e86-9cb2-0d12ede312be",
+      "name": "Beeldentuin Ravesteyn",
+      "category": "beeldenparken",
+      "expected_updated_at": "2026-10-03T20:39:25.385292+00:00",
+      "before": {
+        "visit_notes": "De tentoonstelling van 2026 liep van 8 tot en met 31 mei. Wacht op een nieuw bevestigd tentoonstellingsseizoen voordat deze locatie als beeldentuin wordt gepubliceerd.",
+        "sources": [
+          {
+            "url": "https://www.ruine-ravesteyn.nl/activiteiten/beeldentuin/anchor/kunstenaars",
+            "provider": "Ruïne Ravesteyn · beeldentuin",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "visit_notes": "De beeldentuin van 2026 liep van 8 tot en met 31 mei en is nu niet regulier geopend. Het bezoekadres tijdens de tentoonstelling is Korte Welleweg 1, Heenvliet. Losse openstellingen van de ruïne zijn geen bewijs dat de jaarlijkse beeldentuin te bezoeken is. Nieuwe tentoonstellingsdata afwachten.",
+        "sources": [
+          {
+            "url": "https://www.ruine-ravesteyn.nl/activiteiten/beeldentuin/anchor/kunstenaars",
+            "provider": "Ruïne Ravesteyn · beeldentuin",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "provider": "Officiële instelling",
+            "url": "https://www.ruine-ravesteyn.nl/activiteiten/beeldentuin/anchor/kunstenaars",
+            "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+            "evidence_fields": [
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Officiële instelling",
+        "url": "https://www.ruine-ravesteyn.nl/activiteiten/beeldentuin/anchor/kunstenaars",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "ecbbbd0f-8fa4-54c7-bcb5-87b6893c994b",
+      "name": "Kunstcollectie Keukenhof",
+      "category": "beeldenparken",
+      "expected_updated_at": "2026-10-03T22:31:10.822817+00:00",
+      "before": {
+        "visit_notes": "Seizoensgesloten. De beheerder kondigt de volgende openstelling aan van 18 maart tot en met 9 mei 2027. Verwar het bloemenpark niet met Landgoed Keukenhof.",
+        "sources": [
+          {
+            "url": "https://keukenhof.nl/nl/",
+            "provider": "Officiële instelling / beheerder",
+            "retrieved_at": "2026-10-04T00:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "visit_notes": "Keukenhof is buiten het voorjaarsseizoen gesloten. De aangekondigde openstelling is van 18 maart tot en met 9 mei 2027, dagelijks 08.00–19.00 uur. Het gaat om het bloemenpark aan Stationsweg 166A in Lisse; verwar dit niet met het afzonderlijke landgoed Kasteel Keukenhof.",
+        "sources": [
+          {
+            "url": "https://keukenhof.nl/nl/",
+            "provider": "Officiële instelling / beheerder",
+            "retrieved_at": "2026-10-04T00:00:00Z"
+          },
+          {
+            "provider": "Officiële instelling",
+            "url": "https://keukenhof.nl/nl/",
+            "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+            "evidence_fields": [
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Officiële instelling",
+        "url": "https://keukenhof.nl/nl/",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
+      }
+    },
+    {
+      "id": "5f8c90fe-32b5-5263-9e88-1b0d76e5e115",
+      "name": "Strandbeesten",
+      "category": "openbare-kunst",
+      "expected_updated_at": "2026-10-04T08:45:59.933465+00:00",
+      "before": {
+        "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+        "sources": [
+          {
+            "url": "https://www.sleutelwerken.nl/kunstwerken/strandbeesten",
+            "provider": "Sleutelwerken · officiële selectie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ]
+      },
+      "after": {
+        "visit_notes": "Strandbeesten hebben geen permanente openbare standplaats. Museum Prinsenhof Delft bevestigt het Strandbeesten Mortuarium in Kabeldistrict Delft, Schieweg 15, ingang noord: heropend op 19 april 2026, donderdag en zondag 13.00–17.00 uur. Een actuele einddatum ontbreekt in die primaire bron; controleer het programma voor vertrek.",
+        "sources": [
+          {
+            "url": "https://www.sleutelwerken.nl/kunstwerken/strandbeesten",
+            "provider": "Sleutelwerken · officiële selectie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "provider": "Officiële instelling",
+            "url": "https://www.museumprinsenhofdelft.nl/nieuws/strandbeesten-mortuarium-theo-jansen-weer-tot-leven",
+            "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+            "evidence_fields": [
+              "visit_notes"
+            ]
+          }
+        ]
+      },
+      "source": {
+        "provider": "Officiële instelling",
+        "url": "https://www.museumprinsenhofdelft.nl/nieuws/strandbeesten-mortuarium-theo-jansen-weer-tot-leven",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
+      }
+    }
+  ],
+  "added": [
+    {
+      "id": "dd25eb3e-079f-5628-a14e-d2552b902ffd",
+      "city": "Haarlem",
+      "name": "Outsider Art! – 150 jaar outsiderkunst in Nederland",
+      "tags": [
+        "outsider art",
+        "hedendaagse kunst",
+        "schilderkunst",
+        "beeldhouwkunst"
+      ],
+      "year": "2026",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Haarlem_Vleeshal_01.jpg/1280px-Haarlem_Vleeshal_01.jpg",
+          "credit": "Frank Schwichtenberg (Huhu Uet)",
+          "caption": "Locatie: Museum van de Geest – Pop-up Outsider Art — Vleeshal Haarlem, buitengevel in 2013",
+          "license": "CC BY-SA 3.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Haarlem_Vleeshal_01.jpg"
+        }
+      ],
+      "creator": "",
+      "ends_on": "2027-09-30",
+      "sources": [
+        {
+          "url": "https://museumvandegeest.nl/tentoonstellingen/binnenkort-outsider-art/",
+          "provider": "Officiële organisator",
+          "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+          "evidence_fields": [
+            "name",
+            "summary",
+            "starts_on",
+            "ends_on",
+            "street_address"
+          ]
+        }
+      ],
+      "summary": "Ruim tweehonderd werken brengen uiteenlopende manieren van tekenen, bouwen en verbeelden samen. Museum van de Geest toont in de Haarlemse Vleeshal werk uit de eigen verzameling en Collectie De Stadshof. De tentoonstelling verkent anderhalve eeuw outsiderkunst, met onder anderen Willem van Genk, Shinichi Sawada en Carlo Zinelli.",
+      "category": "evenementen",
+      "latitude": 52.38113409,
+      "province": "Noord-Holland",
+      "longitude": 4.63602588,
+      "museum_id": "f0c2b13a-04ce-46a0-bef4-48f608604a0d",
+      "starts_on": "2026-10-03",
+      "created_at": "2026-10-04T09:41:23.05617+00:00",
+      "updated_at": "2026-10-04T09:41:23.390766+00:00",
+      "visit_notes": "Bezoek de tentoonstelling op de genoemde museumlocatie tijdens de reguliere openingstijden. De foto toont het gebouw, niet de tentoonstelling.",
+      "website_url": "https://museumvandegeest.nl/tentoonstellingen/binnenkort-outsider-art/",
+      "inventory_key": "event:museumvandegeest.nl:outsider-art:2026-10-03",
+      "street_address": "Grote Markt 16",
+      "operating_status": "open",
+      "selection_reason": "Beeldende kunst met actuele, exact gedateerde presentatie; bij de organisator gecontroleerd en vergeleken met de bestaande catalogus.",
+      "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-4c705e47cbbe7c25fcf8570e2f67516d",
+      "publication_status": "published",
+      "coordinate_precision": "address"
+    },
+    {
+      "id": "a31a4358-a644-5589-9e1a-6003ebab7563",
+      "city": "Haarlem",
+      "name": "Het raadsel van het meisje in het blauw",
+      "tags": [
+        "schilderkunst",
+        "oude meesters",
+        "maker: johannes verspronck"
+      ],
+      "year": "2026",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Frans_Hals_Museum_portal_in_Haarlem.jpg/1280px-Frans_Hals_Museum_portal_in_Haarlem.jpg",
+          "credit": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+          "caption": "Locatie: Frans Hals Museum — Frans Hals Museum",
+          "license": "CC BY-SA 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Frans_Hals_Museum_portal_in_Haarlem.jpg"
+        }
+      ],
+      "creator": "Johannes Verspronck",
+      "ends_on": "2026-10-11",
+      "sources": [
+        {
+          "url": "https://franshalsmuseum.nl/nl/zien-en-doen/versproncks-meisje-in-het-blauw",
+          "provider": "Officiële organisator",
+          "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+          "evidence_fields": [
+            "name",
+            "summary",
+            "starts_on",
+            "ends_on",
+            "street_address"
+          ]
+        }
+      ],
+      "summary": "Johannes Versproncks meisje in de blauwe jurk krijgt gezelschap van twee portretten die vermoedelijk haar ouders voorstellen. Het Frans Hals Museum brengt de schilderijen samen en laat zien hoe onderzoekers proberen de geportretteerden te identificeren. Vergelijk de ingetogen portretten ook met werk van Frans Hals.",
+      "category": "evenementen",
+      "latitude": 52.376606,
+      "province": "Noord-Holland",
+      "longitude": 4.63369,
+      "museum_id": "c8e2fdc7-208f-52e5-8c63-b0fb0f11152f",
+      "starts_on": "2026-03-12",
+      "created_at": "2026-10-04T09:41:23.05617+00:00",
+      "updated_at": "2026-10-04T09:41:23.404385+00:00",
+      "visit_notes": "Bezoek de tentoonstelling op de genoemde museumlocatie tijdens de reguliere openingstijden. De foto toont het gebouw, niet de tentoonstelling.",
+      "website_url": "https://franshalsmuseum.nl/nl/zien-en-doen/versproncks-meisje-in-het-blauw",
+      "inventory_key": "event:franshalsmuseum.nl:meisje-in-het-blauw:2026-03-12",
+      "street_address": "Groot Heiligland 62",
+      "operating_status": "open",
+      "selection_reason": "Beeldende kunst met actuele, exact gedateerde presentatie; bij de organisator gecontroleerd en vergeleken met de bestaande catalogus.",
+      "coordinate_source": "Bestaande museumcoördinaten",
+      "publication_status": "published",
+      "coordinate_precision": "exact"
+    }
+  ],
+  "record_reviews": [
+    {
+      "id": "05fb0dec-a856-583b-8584-ab123e74feba",
+      "name": "Het Muizenhuis",
+      "category": "musea",
+      "checked_at": "2026-10-04T09:40:31.584769+00:00",
+      "primary_source": "https://www.themousemansion.com/pages/visit-the-mouse-mansion",
+      "verified_fields": [
+        "street_address",
+        "postal_code",
+        "latitude",
+        "longitude",
+        "coordinate_precision",
+        "coordinate_source",
+        "website_url",
+        "photos",
+        "summary"
+      ],
+      "conclusion": "Bezoeklocatie verplaatst naar Muntplein 8. Oude gevelfoto hoort bij Eerste Tuindwarsstraat; verwijderd uit de actuele presentatie, volledig bewaard in before. Nieuwe foto met hergebruikrechten nog nodig."
+    },
+    {
+      "id": "087b3436-17a7-5267-a11c-b5bcc00e8dfc",
+      "name": "Museum Prinsenhof Delft",
+      "category": "musea",
+      "checked_at": "2026-10-04T09:40:31.584769+00:00",
+      "primary_source": "https://www.museumprinsenhofdelft.nl/nieuws/enorme-belangstelling-voor-verbouwing-museum-prinsenhof-delft",
+      "verified_fields": [
+        "website_url",
+        "summary"
+      ],
+      "conclusion": "Tijdelijke sluiting bevestigd; actuele website en heropeningsplanning toegevoegd. Museumadres niet vervangen door kantooradres."
+    },
+    {
+      "id": "4aa2b82b-11a5-5fae-bb4c-392af6ca1047",
+      "name": "Het Nieuwe Domein - Hedendaagse Kunst",
+      "category": "musea",
+      "checked_at": "2026-10-04T09:40:31.584769+00:00",
+      "primary_source": "https://www.hetnieuwedomein.nl/",
+      "verified_fields": [
+        "summary"
+      ],
+      "conclusion": "Tijdelijke museumsluiting onderscheiden van geopende winkel en verlaten Ligne-locatie."
+    },
+    {
+      "id": "71ca77ee-da1c-51cc-9692-57364ef7e513",
+      "name": "Stichting Nobilis centrum voor prentkunst",
+      "category": "musea",
+      "checked_at": "2026-10-04T09:40:31.584769+00:00",
+      "primary_source": "https://www.stichtingnobilis.nl/",
+      "verified_fields": [
+        "summary"
+      ],
+      "conclusion": "Sluiting en beperkte heropening bevestigd; geen algemeen toegankelijke decembertentoonstelling afgeleid."
+    },
+    {
+      "id": "878fe3f1-3c25-5be4-9dc7-76ffb629ad0a",
+      "name": "Museum Vaals",
+      "category": "musea",
+      "checked_at": "2026-10-04T09:40:31.584769+00:00",
+      "primary_source": "https://museumvaals.nl/",
+      "verified_fields": [
+        "summary"
+      ],
+      "conclusion": "Status blijft tijdelijk gesloten op 4 oktober; heropening niet voortijdig als open verwerkt. Beeldentuin als mogelijke afzonderlijke kandidaat genoteerd."
+    },
+    {
+      "id": "cb3d8ee5-fbea-5532-a3e9-0beec17e9d32",
+      "name": "Flower Art Museum",
+      "category": "musea",
+      "checked_at": "2026-10-04T09:40:31.584769+00:00",
+      "primary_source": "https://www.flowerartmuseum.nl/",
+      "verified_fields": [
+        "summary"
+      ],
+      "conclusion": "Renovatiesluiting bevestigd; geen exacte heropeningsdag verzonnen."
+    },
+    {
+      "id": "d36bbfc7-4d74-5022-851d-92f2cac85526",
+      "name": "GRID Grafisch Museum Groningen",
+      "category": "musea",
+      "checked_at": "2026-10-04T09:40:31.584769+00:00",
+      "primary_source": "https://www.gridgroningen.nl/",
+      "verified_fields": [
+        "summary"
+      ],
+      "conclusion": "Eigen locatie gesloten; extern programma bevestigd. Einddatum Puin Hoop conflicteert: GRID 31 januari 2027, RUG 17 januari 2027. Geen agenda-item met gegokte einddatum."
+    },
+    {
+      "id": "74fe051f-9622-5635-9a3e-4834fd4695fe",
+      "name": "Woningbouw Kiefhoek",
+      "category": "architectuur",
+      "checked_at": "2026-10-04T09:40:31.584769+00:00",
+      "primary_source": "https://urbanguides.nl/nl/tours/kiefhoek-rondleiding-modernisme-rotterdam/",
+      "verified_fields": [
+        "operating_status",
+        "street_address",
+        "latitude",
+        "longitude",
+        "coordinate_precision",
+        "coordinate_source",
+        "visit_notes",
+        "sources"
+      ],
+      "conclusion": "Actuele rondleidingsaanbieder bevestigt bestaan, startpunt en toegang uitsluitend met gids. Status open slaat op bezoekbare architectuur, niet op vrije toegang tot woningen."
+    },
+    {
+      "id": "c33817e6-9d43-560c-89cd-09d17a9a3869",
+      "name": "Woongebouw De Peperklip",
+      "category": "architectuur",
+      "checked_at": "2026-10-04T09:40:31.584769+00:00",
+      "primary_source": "https://www.rotterdam.nl/urban-roofs",
+      "verified_fields": [
+        "operating_status",
+        "visit_notes",
+        "sources"
+      ],
+      "conclusion": "Gemeente bevestigt huidig wooncomplex en openbaar binnenterrein. Bestaande stadscoördinaat niet als exact objectpunt bestempeld."
+    },
+    {
+      "id": "2dca3c95-59f4-5630-9903-5f01c65958ee",
+      "name": "Lustwarande – De Oude Warande",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T09:40:31.584769+00:00",
+      "primary_source": "https://www.lustwarande.org/bezoek/openingstijden-en-toegangsprijs",
+      "verified_fields": [
+        "visit_notes",
+        "sources"
+      ],
+      "conclusion": "Seizoenssluiting bevestigd; permanente Grotto onderscheiden van beeldententoonstelling."
+    },
+    {
+      "id": "77f9c032-23b0-5e86-9cb2-0d12ede312be",
+      "name": "Beeldentuin Ravesteyn",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T09:40:31.584769+00:00",
+      "primary_source": "https://www.ruine-ravesteyn.nl/activiteiten/beeldentuin/anchor/kunstenaars",
+      "verified_fields": [
+        "visit_notes",
+        "sources"
+      ],
+      "conclusion": "Seizoenssluiting en ingang bevestigd; geen openstelling voor oktober afgeleid."
+    },
+    {
+      "id": "ecbbbd0f-8fa4-54c7-bcb5-87b6893c994b",
+      "name": "Kunstcollectie Keukenhof",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T09:40:31.584769+00:00",
+      "primary_source": "https://keukenhof.nl/nl/",
+      "verified_fields": [
+        "visit_notes",
+        "sources"
+      ],
+      "conclusion": "Seizoenssluiting bevestigd via geïndexeerde officiële bron; directe webopvraag geblokkeerd. Geen volledige live-broncontrole geclaimd."
+    },
+    {
+      "id": "5f8c90fe-32b5-5263-9e88-1b0d76e5e115",
+      "name": "Strandbeesten",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T09:40:31.584769+00:00",
+      "primary_source": "https://www.museumprinsenhofdelft.nl/nieuws/strandbeesten-mortuarium-theo-jansen-weer-tot-leven",
+      "verified_fields": [
+        "visit_notes",
+        "sources"
+      ],
+      "conclusion": "Tijdelijke presentatie toegevoegd aan bezoekinformatie; rondreizende oeuvrevermelding blijft unknown en krijgt geen fictieve vaste kaartlocatie."
+    }
+  ],
+  "uncertainties": [
+    {
+      "candidate": "Puin Hoop: herdruk van de jaren 80",
+      "sources": [
+        "https://www.gridgroningen.nl/",
+        "https://www.rug.nl/museum/exhibitions/2026/puin-hoop-herdruk-van-de-jaren-80"
+      ],
+      "reason": "Twee officiële einddatums: GRID 2027-01-31; gastmuseum RUG 2027-01-17. Geen agenda-item gepubliceerd tot duidelijkheid."
+    },
+    {
+      "candidate": "Strandbeesten Mortuarium",
+      "sources": [
+        "https://www.museumprinsenhofdelft.nl/nieuws/strandbeesten-mortuarium-theo-jansen-weer-tot-leven",
+        "https://museumtijdschrift.nl/artspot/museum-prinsenhof-delft-2/"
+      ],
+      "reason": "Primaire bron bevestigt begin 2026-04-19, adres en openingstijden, maar geen einddatum; secundaire agenda noemt 2026-11-01. Alleen bezoeknotitie bijgewerkt."
+    },
+    {
+      "candidate": "Museum Vaals kloosterpark",
+      "sources": [
+        "https://museumvaals.nl/"
+      ],
+      "reason": "Meerdere heiligenbeelden bevestigd; onafhankelijke parkopenstelling tijdens museumsluiting en selectie als afzonderlijke beeldentuin nog niet vastgesteld."
+    },
+    {
+      "candidate": "Het Muizenhuis",
+      "reason": "Foto op oud bezoekadres verwijderd uit actuele presentatie. Nieuwe locatiefoto met vastgelegde hergebruikrechten nog nodig. Oud beeld en metadata bewaard in wijzigingshistorie en dit verslag."
+    }
+  ],
+  "source_checks": [
+    {
+      "id": "official-institutions",
+      "result": "Gerichte primaire controles en correcties in alle vijf categorieën, niet alle instellingwebsites volledig onderzocht."
+    },
+    {
+      "id": "municipal-collections",
+      "url": "https://www.rotterdam.nl/urban-roofs",
+      "result": "Actueel woongebruik Peperklip en openbaar binnenterrein bevestigd. Gemeentelijke vergunningsstukken Feestaardvarken bewijzen geplande herplaatsing, niet uitvoering; status behouden."
+    },
+    {
+      "id": "11fountains",
+      "url": "https://11fountains.nl/",
+      "result": "Officieel overzicht van elf fonteinen gelezen. Geen nieuwe vermelding; afzonderlijke actuele objectcontroles nog open."
+    },
+    {
+      "id": "architectuur-org",
+      "url": "https://www.architectuur.org/",
+      "result": "Overzicht gelezen. Nieuwe kandidaat The Cubehouse (2026) vereist eigen primaire bezoekbaarheidscontrole; nog niet gepubliceerd."
+    },
+    {
+      "id": "architectuurgids",
+      "url": "https://www.architectuurgids.nl/project/list_projects_of_tag/tag_id/15",
+      "result": "Toplijst gelezen. Kiefhoek en Peperklip aanvullend bij organisator/gemeente geverifieerd."
+    },
+    {
+      "id": "nai250",
+      "url": "https://www.nai010.com/product/nederlandse-architectuur-in-250-topstukken/",
+      "result": "Uitgeverspagina bereikbaar; volledige boekinhoud niet beschikbaar, dus geen volledige NAi250-controle."
+    },
+    {
+      "id": "museumtijdschrift",
+      "url": "https://museumtijdschrift.nl/",
+      "result": "Agenda en selectieoverzicht gelezen. Ontbrekende presentatie Het raadsel van het meisje in het blauw bij Frans Hals Museum bevestigd en toegevoegd."
+    },
+    {
+      "id": "kunstvensters",
+      "url": "https://kunstvensters.com/",
+      "result": "Overzicht opgehaald; geen nieuwe kandidaat inhoudelijk geverifieerd."
+    },
+    {
+      "id": "whichmuseum",
+      "url": "https://whichmuseum.nl/plaats/nederland-1?category%5B%5D=art-design",
+      "result": "Webtool kon de lijst niet openen; geen volledigheidsclaim."
+    },
+    {
+      "id": "sleutelwerken",
+      "url": "https://www.sleutelwerken.nl/kunstwerken/het-feestaardvarken",
+      "result": "Webtool toont alleen JavaScript-melding; overige twee gerichte objectpagina’s niet toegankelijk. Verse bron-API uit eerdere ronde niet als actuele bestaanscontrole gebruikt."
+    },
+    {
+      "id": "commons",
+      "result": "Geen nieuwe foto gepubliceerd. Twee eerder vastgelegde gebouwfoto’s met bestaande maker/licentie/Commons-bron gebruikt bij gekoppelde tentoonstellingen; bijschriften noemen expliciet de locatie."
+    },
+    {
+      "id": "kunstmeisjes",
+      "result": "Zoekopdracht leverde geen bruikbare actuele inhoud op; niet volledig gecontroleerd."
+    },
+    {
+      "id": "culty-pleasures",
+      "result": "Zoekopdracht leverde geen bruikbare actuele inhoud op; niet volledig gecontroleerd."
+    },
+    {
+      "id": "newspapers",
+      "result": "Geen volledige actuele krantenronde uitgevoerd; geen afgeschermde inhoud als gelezen opgevoerd."
+    },
+    {
+      "id": "rdmz100",
+      "result": "Historische selectie behouden; Kiefhoek bij huidige bezoekaanbieder gecontroleerd. Overige individuele controles nog open."
+    }
+  ],
+  "verification": {
+    "database": "Alle 13 updates en 2 toevoegingen opnieuw uit Supabase gelezen en veld voor veld vergeleken; maker-tag automatisch aangevuld door bestaande trigger.",
+    "tests": "npm run check geslaagd: TypeScript, 50 tests en productiebuild. Eerste test vond ontbrekende foto-aantekening; redactionele notitie toegevoegd en daarna alle controles geslaagd.",
+    "production": "pending",
+    "public_api": {
+      "checked_at": "2026-10-04T09:45:13.137538+00:00",
+      "method": "Publieke Supabase API met publieke sleutel uit productiebroncode. RLS verbergt gesloten/onzekere records correct. Productiedomein vereist Cloudflare Access; productiecontrole via bestaande geautoriseerde CI-keten volgt.",
+      "results": [
+        {
+          "table": "kk_museums",
+          "requested_records": 7,
+          "public_records_verified": 1,
+          "closed_or_unknown_correctly_hidden": 6
+        },
+        {
+          "table": "kk_discoveries",
+          "requested_records": 8,
+          "public_records_verified": 4,
+          "closed_or_unknown_correctly_hidden": 4
+        }
+      ]
+    }
+  },
+  "editorial_note": "Bestaande review_notes van Het Muizenhuis behouden en met conflictcontrole aangevuld met FOTO ONTBREEKT; database heeft de opgeslagen notitie teruggegeven."
+}

@@ -8,7 +8,7 @@
       "published": 301,
       "archived": 0,
       "draft": 0,
-      "with_photos": 227,
+      "with_photos": 226,
       "precise_locations": 296,
       "visible_on_research_date": 291
     },
@@ -37,20 +37,20 @@
       "draft": 0,
       "with_photos": 128,
       "precise_locations": 146,
-      "visible_on_research_date": 182
+      "visible_on_research_date": 184
     },
     "evenementen": {
-      "total": 73,
-      "published": 73,
+      "total": 75,
+      "published": 75,
       "archived": 0,
       "draft": 0,
-      "with_photos": 69,
-      "precise_locations": 70,
-      "visible_on_research_date": 72
+      "with_photos": 71,
+      "precise_locations": 72,
+      "visible_on_research_date": 74
     }
   },
-  "total": 733,
-  "remaining_records": 312,
+  "total": 735,
+  "remaining_records": 311,
   "remaining": [
     {
       "id": "5402debd-2567-5c85-af4d-31354fd1f113",
@@ -67,7 +67,7 @@
       "inventory_key": "museum-nl:museum-prinsenhof-delft",
       "category": "musea",
       "name": "Museum Prinsenhof Delft",
-      "website_url": "https://prinsenhof-delft.nl/",
+      "website_url": "https://museumprinsenhofdelft.nl/",
       "issues": [
         "Bezoekstatus: temporarily_closed; opnieuw bij officiële bron controleren"
       ]
@@ -148,9 +148,9 @@
       "inventory_key": "art-audit:168",
       "category": "musea",
       "name": "Het Muizenhuis",
-      "website_url": "",
+      "website_url": "https://www.themousemansion.com/pages/visit-the-mouse-mansion",
       "issues": [
-        "Officiële website ontbreekt"
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]
     },
     {
@@ -3196,8 +3196,7 @@
       "name": "Woongebouw De Peperklip",
       "website_url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/287",
       "issues": [
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten",
-        "Bezoekstatus: unknown; opnieuw bij officiële bron controleren"
+        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
       ]
     },
     {
@@ -3209,16 +3208,6 @@
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
         "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten",
-        "Bezoekstatus: unknown; opnieuw bij officiële bron controleren"
-      ]
-    },
-    {
-      "id": "74fe051f-9622-5635-9a3e-4834fd4695fe",
-      "inventory_key": "architectuurgids:284",
-      "category": "architectuur",
-      "name": "Woningbouw Kiefhoek",
-      "website_url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/284",
-      "issues": [
         "Bezoekstatus: unknown; opnieuw bij officiële bron controleren"
       ]
     },

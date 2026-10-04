@@ -1071,6 +1071,14 @@
         "url": "https://www.sleutelwerken.nl/kunstwerken/strandbeesten",
         "provider": "Sleutelwerken · officiële selectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.museumprinsenhofdelft.nl/nieuws/strandbeesten-mortuarium-theo-jansen-weer-tot-leven",
+        "provider": "Officiële instelling",
+        "retrieved_at": "2026-10-04T09:40:31.584769+00:00",
+        "evidence_fields": [
+          "visit_notes"
+        ]
       }
     ],
     "summary": "Theo Jansen bouwt bewegende wezens van gele kunststofbuizen. Wind zet hun geraffineerde mechaniek in gang en maakt het strand tot een podium. De Strandbeesten veranderen steeds door nieuwe experimenten. Ze hebben geen vaste publieke standplaats; bekijk aangekondigde demonstraties bij de kunstenaar.",
@@ -1080,7 +1088,7 @@
     "longitude": null,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "visit_notes": "Strandbeesten hebben geen permanente openbare standplaats. Museum Prinsenhof Delft bevestigt het Strandbeesten Mortuarium in Kabeldistrict Delft, Schieweg 15, ingang noord: heropend op 19 april 2026, donderdag en zondag 13.00–17.00 uur. Een actuele einddatum ontbreekt in die primaire bron; controleer het programma voor vertrek.",
     "website_url": "https://www.sleutelwerken.nl/kunstwerken/strandbeesten",
     "inventory_key": "sleutelwerk:111",
     "street_address": "",
