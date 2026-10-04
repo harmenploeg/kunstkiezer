@@ -18,7 +18,7 @@ Deno.serve(async(req:Request)=>{
   // Password authentication is rate limited by Supabase Auth; no credentials are logged.
   const admin=createClient(url,Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!,{auth:{persistSession:false,autoRefreshToken:false}});
   const deleted=await admin.auth.admin.deleteUser(data.user.id);
-  await client.auth.signOut();
+  await client.auth.signOut({scope:'local'}); // Revoke only this temporary verification session.
   if(deleted.error)return response({error:'Verwijderen is niet gelukt. Als je de laatste beheerder bent, draag dan eerst het beheer over.'},409);
   return response({deleted:true});
  }catch{return response({error:'Verwijderen is niet gelukt. Probeer opnieuw.'},400);}
