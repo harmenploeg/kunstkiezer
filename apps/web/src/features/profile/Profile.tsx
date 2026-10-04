@@ -1,3 +1,4 @@
+import { navigate } from "../../navigation/client.ts";
 import { LocationControls } from "../ranking/LocationControls.tsx";
 import { Fragment, useState, useEffect, type FormEvent } from "react";
 import {
@@ -48,7 +49,7 @@ export function Profile({
       );
       dirty.current = false;
       setTags(selected);
-      if (onboarding) window.location.assign(appHref("/agenda"));
+      if (onboarding) navigate(appHref("/agenda"));
       else
         setMessage(
           "Je profiel is opgeslagen. Ontdek kunst gebruikt nu deze voorkeuren.",

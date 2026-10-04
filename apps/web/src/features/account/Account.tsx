@@ -1,3 +1,4 @@
+import { navigate } from "../../navigation/client.ts";
 import { readAllVisits } from "../../../../../packages/data/src/accounts.ts";
 import { useState, type FormEvent } from "react";
 import { useAuth } from "./AuthContext.tsx";
@@ -73,7 +74,7 @@ export function Account() {
           "Inloggen is niet gelukt. Controleer je gegevens en bevestig eerst je e-mailadres.",
         );
       // The landing page waits for the signed-in profile before choosing the start page.
-      location.replace(appHref("/"));
+      navigate(appHref("/"), true);
     });
   }
   async function changePassword(e: FormEvent) {
@@ -383,7 +384,7 @@ export function DeleteAccount() {
                     "Verwijderen is niet gelukt. Controleer je wachtwoord en beheerdersrechten.",
                 );
               await client.auth.signOut({ scope: "local" });
-              location.assign(appHref("/account"));
+              navigate(appHref("/account"));
             } catch (e) {
               setMessage((e as Error).message);
             } finally {

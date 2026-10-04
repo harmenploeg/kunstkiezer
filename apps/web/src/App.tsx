@@ -1,3 +1,4 @@
+import { navigate, useClientRoute } from "./navigation/client.ts";
 import { useAuth, RequireAdmin } from "./features/account/AuthContext.tsx";
 import { useProfileState } from "./features/profile/useProfile.ts";
 import { History } from "./features/visits/History.tsx";
@@ -158,6 +159,7 @@ function Page({ path }: { path: string }) {
   );
 }
 export function App() {
+  const route = useClientRoute();
   const profile = useProfile(),
     state = useProfileState(),
     auth = useAuth();
@@ -168,8 +170,8 @@ export function App() {
       (window.location.pathname === BASE_PATH ||
         window.location.pathname === BASE_PATH + "/")
     )
-      window.location.replace(appHref("/agenda"));
-  }, [profile.completed, state.ready]);
+      navigate(appHref("/agenda"), true);
+  }, [profile.completed, state.ready, route]);
   const relativePath =
     window.location.pathname.slice(BASE_PATH.length).replace(/\/$/, "") || "/";
   const activePath = relativePath.startsWith("/agenda")
@@ -210,7 +212,7 @@ export function App() {
       </nav>
       <main id="inhoud" tabIndex={-1}>
         <Suspense fallback={<p role="status">Pagina laden…</p>}>
-          <Page path={relativePath} />
+          <Page key={route} path={relativePath} />
         </Suspense>
       </main>
       <footer className="site-footer">

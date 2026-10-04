@@ -1,3 +1,4 @@
+import { navigate } from "../../navigation/client.ts";
 import { useEffect, useRef, useState } from "react";
 import L from "leaflet";
 import { voyagerUrl } from "./basemap.ts";
@@ -126,7 +127,7 @@ export function CatalogMap({
       }
       dot.bindPopup(popup, { maxWidth: 260, maxHeight: 300 });
       dot.on("dblclick", () => {
-        if (rows.length === 1) window.location.assign(detailHref(first));
+        if (rows.length === 1) navigate(detailHref(first));
         else dot.openPopup();
       });
       const el = dot.getElement();

@@ -70,3 +70,19 @@ test('Ontdek-kop volgt de hoogte van Musea en onboarding heeft geen lege beeldru
  await expect.poll(async()=>{const [b,m]=await Promise.all([banner.boundingBox(),museum.boundingBox()]);return b&&m?Math.abs(b.height-m.height):Infinity;}).toBeLessThan(2);
  expect(await page.evaluate(()=>document.body.scrollWidth<=innerWidth)).toBe(true);
 });
+
+test('Wisselen tussen hoofdkeuzes behoudt hetzelfde appvenster en ondersteunt terug', async ({page}) => {
+ await page.goto('/kunstkiezer/agenda');
+ await expect(page.getByRole('heading',{name:'Ontdek kunst.'})).toBeVisible();
+ await page.evaluate(() => document.documentElement.dataset.navigationIdentity = 'same-document');
+ for (const [label,heading] of [['Mijn kunstkeuze','Mijn kunstkeuze.'],['Gezien/te zien','Gezien/te zien.'],['Ontdek kunst','Ontdek kunst.']] as const) {
+  await page.getByRole('navigation',{name:'Hoofdnavigatie'}).getByRole('link',{name:label,exact:true}).click();
+  await expect(page.getByRole('heading',{name:heading,exact:true})).toBeVisible();
+  expect(await page.evaluate(()=>document.documentElement.dataset.navigationIdentity)).toBe('same-document');
+ }
+ await page.goBack();
+ await expect(page.getByRole('heading',{name:'Gezien/te zien.',exact:true})).toBeVisible();
+ await page.goForward();
+ await expect(page.getByRole('heading',{name:'Ontdek kunst.',exact:true})).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.dataset.navigationIdentity)).toBe('same-document');
+});
