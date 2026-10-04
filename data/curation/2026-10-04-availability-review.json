@@ -376,14 +376,21 @@
           "checked_at": "2026-10-04T08:33:27Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 196
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -593,14 +600,21 @@
           "checked_at": "2026-10-04T08:33:27Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 44
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -614,14 +628,21 @@
           "checked_at": "2026-10-04T08:33:28Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 141
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -830,6 +851,14 @@
           "checked_at": "2026-10-04T08:33:29Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 117
         }
       ],
       "manually_verified_fields": [],
@@ -837,8 +866,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -903,14 +931,21 @@
           "checked_at": "2026-10-04T08:33:29Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 145
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -1065,14 +1100,21 @@
           "checked_at": "2026-10-04T08:33:29Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 73
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -1105,14 +1147,21 @@
           "checked_at": "2026-10-04T08:33:29Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 115
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -1250,14 +1299,21 @@
           "checked_at": "2026-10-04T08:33:30Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 105
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -1625,14 +1681,21 @@
           "checked_at": "2026-10-04T08:33:30Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 85
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -1796,6 +1859,14 @@
           "checked_at": "2026-10-04T08:33:31Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 121
         }
       ],
       "manually_verified_fields": [],
@@ -1803,8 +1874,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -2168,6 +2238,14 @@
           "checked_at": "2026-10-04T08:33:32Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 75
         }
       ],
       "manually_verified_fields": [],
@@ -2175,8 +2253,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -2396,14 +2473,21 @@
           "checked_at": "2026-10-04T08:33:32Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 123
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -2417,6 +2501,14 @@
           "checked_at": "2026-10-04T08:33:32Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 89
         }
       ],
       "manually_verified_fields": [
@@ -2694,14 +2786,21 @@
           "checked_at": "2026-10-04T08:33:33Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 153
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -3121,6 +3220,14 @@
           "checked_at": "2026-10-04T08:33:35Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 159
         }
       ],
       "manually_verified_fields": [],
@@ -3128,8 +3235,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -3286,14 +3392,21 @@
           "checked_at": "2026-10-04T08:33:35Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 149
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -3339,14 +3452,21 @@
           "checked_at": "2026-10-04T08:33:35Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 186
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -3684,6 +3804,14 @@
           "checked_at": "2026-10-04T08:33:35Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 47
         }
       ],
       "manually_verified_fields": [],
@@ -3691,8 +3819,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -3907,14 +4034,21 @@
           "checked_at": "2026-10-04T08:33:35Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 190
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -4021,6 +4155,14 @@
           "checked_at": "2026-10-04T08:33:35Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 227
         }
       ],
       "manually_verified_fields": [],
@@ -4028,8 +4170,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -4294,6 +4435,14 @@
           "checked_at": "2026-10-04T08:33:36Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 211
         }
       ],
       "manually_verified_fields": [],
@@ -4301,8 +4450,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -4356,14 +4504,21 @@
           "checked_at": "2026-10-04T08:33:36Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 174
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -4536,6 +4691,14 @@
           "checked_at": "2026-10-04T08:33:36Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 176
         }
       ],
       "manually_verified_fields": [],
@@ -4543,8 +4706,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -4626,6 +4788,14 @@
           "checked_at": "2026-10-04T08:33:36Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 97
         }
       ],
       "manually_verified_fields": [],
@@ -5234,6 +5404,14 @@
           "checked_at": "2026-10-04T08:33:42Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 161
         }
       ],
       "manually_verified_fields": [],
@@ -5272,14 +5450,21 @@
           "checked_at": "2026-10-04T08:33:42Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 77
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -5571,14 +5756,21 @@
           "checked_at": "2026-10-04T08:33:42Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=3",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 243
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -5710,14 +5902,21 @@
           "checked_at": "2026-10-04T08:33:43Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 65
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -5844,14 +6043,21 @@
           "checked_at": "2026-10-04T08:33:43Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 180
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -5915,14 +6121,21 @@
           "checked_at": "2026-10-04T08:33:43Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 53
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -5936,6 +6149,14 @@
           "checked_at": "2026-10-04T08:33:44Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 61
         }
       ],
       "manually_verified_fields": [],
@@ -5943,8 +6164,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -6061,6 +6281,14 @@
           "checked_at": "2026-10-04T08:33:44Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 135
         }
       ],
       "manually_verified_fields": [],
@@ -6068,8 +6296,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -6290,14 +6517,21 @@
           "checked_at": "2026-10-04T08:33:44Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 91
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -6607,6 +6841,14 @@
           "checked_at": "2026-10-04T08:33:46Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 131
         }
       ],
       "manually_verified_fields": [],
@@ -6614,8 +6856,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -6667,6 +6908,14 @@
           "checked_at": "2026-10-04T08:33:46Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 111
         }
       ],
       "manually_verified_fields": [],
@@ -6674,8 +6923,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -6746,6 +6994,14 @@
           "checked_at": "2026-10-04T08:33:48Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 151
         }
       ],
       "manually_verified_fields": [
@@ -6790,14 +7046,21 @@
           "checked_at": "2026-10-04T08:33:48Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 119
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -6963,14 +7226,21 @@
           "checked_at": "2026-10-04T08:33:48Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 231
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -7157,14 +7427,21 @@
           "checked_at": "2026-10-04T08:33:50Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 93
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -7178,14 +7455,21 @@
           "checked_at": "2026-10-04T08:33:50Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 213
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -7571,14 +7855,21 @@
           "checked_at": "2026-10-04T08:33:50Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 39
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -7698,6 +7989,14 @@
           "checked_at": "2026-10-04T08:33:51Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 87
         }
       ],
       "manually_verified_fields": [],
@@ -7705,8 +8004,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -8028,6 +8326,14 @@
           "checked_at": "2026-10-04T08:33:51Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 107
         }
       ],
       "manually_verified_fields": [
@@ -8103,6 +8409,14 @@
           "checked_at": "2026-10-04T08:33:51Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 143
         }
       ],
       "manually_verified_fields": [],
@@ -8110,8 +8424,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -8225,6 +8538,14 @@
           "checked_at": "2026-10-04T08:33:52Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 157
         }
       ],
       "manually_verified_fields": [],
@@ -8232,8 +8553,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -8454,6 +8774,14 @@
           "checked_at": "2026-10-04T08:33:52Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 95
         }
       ],
       "manually_verified_fields": [],
@@ -8461,8 +8789,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -8580,14 +8907,21 @@
           "checked_at": "2026-10-04T08:33:53Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 113
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -8620,14 +8954,21 @@
           "checked_at": "2026-10-04T08:33:53Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 63
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -8669,6 +9010,14 @@
           "checked_at": "2026-10-04T08:33:53Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 241
         }
       ],
       "manually_verified_fields": [],
@@ -8820,14 +9169,21 @@
           "checked_at": "2026-10-04T08:33:53Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 165
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -9145,6 +9501,14 @@
           "checked_at": "2026-10-04T08:33:54Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 133
         }
       ],
       "manually_verified_fields": [],
@@ -9152,8 +9516,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -9274,14 +9637,21 @@
           "checked_at": "2026-10-04T08:33:54Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 202
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -9388,14 +9758,21 @@
           "checked_at": "2026-10-04T08:33:55Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 178
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -10408,6 +10785,14 @@
           "checked_at": "2026-10-04T08:33:59Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 237
         }
       ],
       "manually_verified_fields": [],
@@ -10415,8 +10800,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -10512,14 +10896,21 @@
           "checked_at": "2026-10-04T08:33:59Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 67
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -10598,14 +10989,21 @@
           "checked_at": "2026-10-04T08:33:59Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 235
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -10625,6 +11023,14 @@
           "checked_at": "2026-10-04T08:33:59Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 99
         }
       ],
       "manually_verified_fields": [],
@@ -10684,6 +11090,14 @@
           "checked_at": "2026-10-04T08:34:00Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 200
         }
       ],
       "manually_verified_fields": [],
@@ -10691,8 +11105,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -11247,6 +11660,14 @@
           "checked_at": "2026-10-04T08:34:04Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 129
         }
       ],
       "manually_verified_fields": [],
@@ -11557,14 +11978,21 @@
           "checked_at": "2026-10-04T08:34:05Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 225
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -11578,6 +12006,14 @@
           "checked_at": "2026-10-04T08:34:05Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 198
         }
       ],
       "manually_verified_fields": [],
@@ -11585,8 +12021,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -11691,6 +12126,14 @@
           "checked_at": "2026-10-04T08:34:05Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 239
         }
       ],
       "manually_verified_fields": [],
@@ -11918,6 +12361,14 @@
           "checked_at": "2026-10-04T08:34:06Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 36
         }
       ],
       "manually_verified_fields": [],
@@ -11925,8 +12376,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -12010,14 +12460,21 @@
           "checked_at": "2026-10-04T08:34:06Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 51
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -12125,6 +12582,14 @@
           "checked_at": "2026-10-04T08:34:06Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 219
         }
       ],
       "manually_verified_fields": [],
@@ -12132,8 +12597,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -12258,14 +12722,21 @@
           "checked_at": "2026-10-04T08:34:06Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 204
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -12437,14 +12908,21 @@
           "checked_at": "2026-10-04T08:34:07Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 233
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -12489,14 +12967,21 @@
           "checked_at": "2026-10-04T08:34:07Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 42
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -12605,6 +13090,14 @@
           "checked_at": "2026-10-04T08:34:07Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 127
         }
       ],
       "manually_verified_fields": [],
@@ -12780,14 +13273,21 @@
           "checked_at": "2026-10-04T08:34:07Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 168
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -12976,6 +13476,14 @@
           "checked_at": "2026-10-04T08:34:08Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 49
         }
       ],
       "manually_verified_fields": [],
@@ -13437,6 +13945,14 @@
           "checked_at": "2026-10-04T08:34:08Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 172
         }
       ],
       "manually_verified_fields": [],
@@ -13444,8 +13960,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -13649,14 +14164,21 @@
           "checked_at": "2026-10-04T08:34:09Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 109
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -14813,14 +15335,21 @@
           "checked_at": "2026-10-04T08:34:12Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 229
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -15049,6 +15578,14 @@
           "checked_at": "2026-10-04T08:34:13Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 184
         }
       ],
       "manually_verified_fields": [],
@@ -15056,8 +15593,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -15305,14 +15841,21 @@
           "checked_at": "2026-10-04T08:34:14Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 69
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -15373,14 +15916,21 @@
           "checked_at": "2026-10-04T08:34:14Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 192
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -15419,6 +15969,14 @@
           "checked_at": "2026-10-04T08:34:14Z",
           "http_status": 200,
           "readable_text": true
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 209
         }
       ],
       "manually_verified_fields": [],
@@ -15532,6 +16090,14 @@
           "checked_at": "2026-10-04T08:34:14Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 79
         }
       ],
       "manually_verified_fields": [
@@ -15978,14 +16544,21 @@
           "checked_at": "2026-10-04T08:34:15Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 71
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -16036,6 +16609,14 @@
           "checked_at": "2026-10-04T08:34:15Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 83
         }
       ],
       "manually_verified_fields": [],
@@ -16043,8 +16624,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -16121,6 +16701,14 @@
           "checked_at": "2026-10-04T08:34:16Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 163
         }
       ],
       "manually_verified_fields": [
@@ -16235,6 +16823,14 @@
           "checked_at": "2026-10-04T08:34:16Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 125
         }
       ],
       "manually_verified_fields": [
@@ -16409,14 +17005,21 @@
           "checked_at": "2026-10-04T08:34:16Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 215
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -16463,14 +17066,21 @@
           "checked_at": "2026-10-04T08:34:16Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 188
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -16856,6 +17466,14 @@
           "checked_at": "2026-10-04T08:34:16Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 59
         }
       ],
       "manually_verified_fields": [],
@@ -16863,8 +17481,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -16997,14 +17614,21 @@
           "checked_at": "2026-10-04T08:34:16Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 170
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -17127,14 +17751,21 @@
           "checked_at": "2026-10-04T08:34:17Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 206
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -17148,6 +17779,14 @@
           "checked_at": "2026-10-04T08:34:17Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 155
         }
       ],
       "manually_verified_fields": [],
@@ -17155,8 +17794,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -17358,6 +17996,14 @@
           "checked_at": "2026-10-04T08:34:17Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 55
         }
       ],
       "manually_verified_fields": [],
@@ -17377,6 +18023,14 @@
           "checked_at": "2026-10-04T08:34:17Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 221
         }
       ],
       "manually_verified_fields": [],
@@ -17384,8 +18038,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -17624,6 +18277,14 @@
           "checked_at": "2026-10-04T08:34:18Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 147
         }
       ],
       "manually_verified_fields": [],
@@ -17631,8 +18292,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -18377,14 +19037,21 @@
           "checked_at": "2026-10-04T08:34:19Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 103
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -18398,6 +19065,14 @@
           "checked_at": "2026-10-04T08:34:20Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 217
         }
       ],
       "manually_verified_fields": [],
@@ -18405,8 +19080,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -18440,14 +19114,21 @@
           "checked_at": "2026-10-04T08:34:20Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 81
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -18500,6 +19181,14 @@
           "checked_at": "2026-10-04T08:34:20Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 101
         }
       ],
       "manually_verified_fields": [],
@@ -18507,8 +19196,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -18584,6 +19272,14 @@
           "checked_at": "2026-10-04T08:34:20Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 223
         }
       ],
       "manually_verified_fields": [],
@@ -18591,8 +19287,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -18788,14 +19483,21 @@
           "checked_at": "2026-10-04T08:34:20Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 194
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -18809,6 +19511,14 @@
           "checked_at": "2026-10-04T08:34:20Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 57
         }
       ],
       "manually_verified_fields": [],
@@ -18816,8 +19526,7 @@
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -18975,14 +19684,21 @@
           "checked_at": "2026-10-04T08:34:21Z",
           "http_status": 200,
           "readable_text": false
+        },
+        {
+          "url": "https://sleutelwerken.nl/rest/wp-json/wp/v2/kunstwerk?per_page=100&page=4",
+          "checked_at": "2026-10-04",
+          "http_status": 200,
+          "readable_text": true,
+          "evidence_scope": "Titel, maker, historische projectbeschrijving. Geen zelfstandige bevestiging van actuele zichtbaarheid.",
+          "source_record_id": 137
         }
       ],
       "manually_verified_fields": [],
       "decisions": [],
       "remaining": [
         "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     },
     {
@@ -19078,5 +19794,6 @@
         "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ]
     }
-  ]
+  ],
+  "sleutelwerken_api_records_checked": 100
 }

@@ -19,6 +19,8 @@ De afzonderlijke achtergrondtaak **kunstkiezer-wekelijks-actualiseren** controle
 
 De volledige NAi250-publicatie, afgeschermde landelijke kranten en sommige Instagramaccounts zijn geen bewezen volledig gecontroleerde bronnen. Gebruik toegankelijke primaire informatie en houd de beperking zichtbaar. Verzin geen volledigheidsclaim om de lijst met open punten leeg te maken.
 
+De beheerder heeft daarnaast om een volledige bestaanscontrole per onderwerp gevraagd. Lees daarvoor `data/curation/2026-10-04-availability-review.json`: de technische controle van 1457 bronverwijzingen is geen bewijs van actuele bezoekbaarheid. Werk de resterende individuele inhoudscontroles af, ook bij records zonder ontbrekende foto of coördinaat. Bewaar de onderzochte velden, primaire bron en conclusie per record. `Verdwenen` geldt voor een beëindigde locatie of niet meer zichtbare presentatie; een verbouwing of seizoenssluiting blijft `tijdelijk gesloten`. Een onbereikbare website op zichzelf bewijst geen sluiting. Bronpagina’s van Sleutelwerken kunnen historische locaties noemen; de verse bron-API bevestigt evenmin automatisch dat een werk nu nog op die plek staat.
+
 ## Beheer door de redacteur
 
 Open `/kunstkiezer/beheer` en kies **Beheer** (`/kunstkiezer/beheer/instellingen`). Hier staan de bestaande afstands- en tagweging en de bewerkbare bronnenlijst. Elke bron heeft een naam, optioneel webadres, zoekinstructies/aandachtspunten en een aan/uit-keuze. Een bron zonder webadres vereist een zoekinstructie. Alleen redacteurs hebben toegang; opslaan en verwijderen gebruiken de laatst geladen wijzigingsversie, zodat tussentijdse wijzigingen niet worden overschreven. De oude link `/beheer/volgorde` blijft werken.
