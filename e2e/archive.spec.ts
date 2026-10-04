@@ -30,7 +30,7 @@ for(const museum of [true,false])test(`Beheer kan ${museum?'museum':'onderwerp'}
   if(path.endsWith('/kk_profiles'))return reply(null);
   return reply([]);
  });
- await page.goto('/kunstkiezer/account');await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');await page.locator('form').getByRole('button',{name:'Inloggen',exact:true}).click();await expect(page.getByText('Ingelogd als')).toBeVisible();
+ await page.goto('/kunstkiezer/account');await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');await page.locator('form').getByRole('button',{name:'Inloggen',exact:true}).click();await expect(page).toHaveURL(/\/kunstkiezer\/(agenda)?$/);
  await page.goto(`/kunstkiezer/beheer/${museum?'musea':'openbare-kunst'}`);await page.getByRole('button',{name:/Archieftest Utrecht/}).click();
  await page.getByRole('button',{name:'Onderwerp verwijderen',exact:true}).click();await page.getByRole('button',{name:'Annuleren',exact:true}).click();expect(writes).toBe(0);
  await page.getByRole('button',{name:'Onderwerp verwijderen',exact:true}).click();await page.getByRole('button',{name:'Ja, verwijderen',exact:true}).click();await expect(page.getByRole('alert')).toContainText('ondertussen gewijzigd');

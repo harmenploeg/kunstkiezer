@@ -37,7 +37,7 @@ test('Editor meldt aan en slaat museum plus notities via één Supabase-transact
  await page.goto('/kunstkiezer/account');
  await page.getByLabel('E-mail',{exact:true}).fill('editor@example.test');
  await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');
- await page.locator('form').getByRole('button',{name:'Inloggen',exact:true}).click();await expect(page.getByText('Ingelogd als')).toBeVisible();await page.goto('/kunstkiezer/beheer/musea');
+ await page.locator('form').getByRole('button',{name:'Inloggen',exact:true}).click();await expect(page).toHaveURL(/\/kunstkiezer\/(agenda)?$/);await page.goto('/kunstkiezer/beheer/musea');
  await page.getByRole('button',{name:/Testmuseum Utrecht/}).click();
  await page.getByLabel('Publicatie',{exact:true}).selectOption('published');
  await page.getByLabel('Plaats',{exact:true}).fill('');

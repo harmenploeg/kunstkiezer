@@ -30,7 +30,7 @@ async function setup(page:Page,editor=true){
  if(path.endsWith('/kk_delete_update_source')){const input=route.request().postDataJSON();expect(input.expected_updated_at).toBe(rows.find(r=>r.id===input.source_id)?.updated_at);rows=rows.filter(r=>r.id!==input.source_id);return reply(null);}
  return reply({});
  });
- await page.goto('/kunstkiezer/account');await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');await page.locator('form').getByRole('button',{name:'Inloggen'}).click();await expect(page.getByText('Ingelogd als')).toBeVisible();await page.goto('/kunstkiezer/beheer/instellingen');
+ await page.goto('/kunstkiezer/account');await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');await page.locator('form').getByRole('button',{name:'Inloggen'}).click();await expect(page).toHaveURL(/\/kunstkiezer\/(agenda)?$/);await page.goto('/kunstkiezer/beheer/instellingen');
  return {rows:()=>rows,conflict:(v:boolean)=>{conflict=v;},reads:()=>sourceReads};
 }
 test('Beheer groepeert ranking en bronnen; toevoegen, uitschakelen, herladen, conflicten en verwijderen',async({page})=>{
