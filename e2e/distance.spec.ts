@@ -14,27 +14,27 @@ async function catalog(page:Page){
 }
 test('Afstand wordt uitsluitend in profiel gekozen en geldt in alle vijf categorieën',async({page,context})=>{
  await catalog(page);await context.setGeolocation({latitude:52,longitude:5});await context.grantPermissions(['geolocation']);
- await page.goto('/kunstkiezer/profiel');await page.getByLabel('Afstand laten meetellen',{exact:true}).check();await expect(page.getByText('Je locatie wordt opgehaald')).toHaveCount(0);
+ await page.goto('/kunstkiezer/profiel');await page.getByLabel('Kunst dichtbij voorrang geven',{exact:true}).check();await expect(page.getByText('Je locatie wordt opgehaald')).toHaveCount(0);
  for(const category of ['musea','openbare-kunst','beeldenparken','architectuur','evenementen']){
- await page.goto('/kunstkiezer/agenda/'+category);await expect(page.locator('.museum-card h2').first()).toHaveText('Dichtbij');await expect(page.getByLabel('Afstand laten meetellen',{exact:true})).toHaveCount(0);await expect(page.locator('.distance-label')).toHaveCount(0);
+ await page.goto('/kunstkiezer/agenda/'+category);await expect(page.locator('.museum-card h2').first()).toHaveText('Dichtbij');await expect(page.getByLabel('Kunst dichtbij voorrang geven',{exact:true})).toHaveCount(0);await expect(page.locator('.distance-label')).toHaveCount(0);
  }
  expect(await page.evaluate(()=>Object.keys(localStorage).some(k=>k.includes('location')))).toBe(false);
- await page.goto('/kunstkiezer/profiel');await page.getByLabel('Afstand laten meetellen',{exact:true}).uncheck();
+ await page.goto('/kunstkiezer/profiel');await page.getByLabel('Kunst dichtbij voorrang geven',{exact:true}).uncheck();
  for(const category of ['musea','openbare-kunst','beeldenparken','architectuur','evenementen']){
  await page.goto('/kunstkiezer/agenda/'+category);await expect(page.locator('.museum-card h2').first()).toHaveText('Ver weg');
  }
- await page.goto('/kunstkiezer/profiel');await expect(page.getByLabel('Afstand laten meetellen',{exact:true})).not.toBeChecked();
+ await page.goto('/kunstkiezer/profiel');await expect(page.getByLabel('Kunst dichtbij voorrang geven',{exact:true})).not.toBeChecked();
  expect(await page.evaluate(()=>document.body.scrollWidth<=document.documentElement.clientWidth)).toBe(true);
 });
 test('Geen automatische locatievraag; weigering en timeout laten de smaakvolgorde intact',async({page})=>{
  await catalog(page);await page.addInitScript(()=>{let count=0;Object.defineProperty(window,'locationRequests',{get:()=>count});Object.defineProperty(navigator,'geolocation',{value:{getCurrentPosition:(_ok:unknown,no:(e:{code:number})=>void)=>{count++;no({code:count===1?1:3});}}});});
  await page.goto('/kunstkiezer/agenda/musea');await expect(page.locator('.museum-card h2').first()).toHaveText('Ver weg');expect(await page.evaluate(()=>(window as unknown as {locationRequests:number}).locationRequests)).toBe(0);
- await page.goto('/kunstkiezer/profiel');await page.getByLabel('Afstand laten meetellen',{exact:true}).click();await expect(page.getByText(/Geen locatietoestemming/)).toBeVisible();await expect(page.getByLabel('Afstand laten meetellen',{exact:true})).not.toBeChecked();
- await page.getByLabel('Afstand laten meetellen',{exact:true}).click();await expect(page.getByText(/duurde te lang/)).toBeVisible();await page.goto('/kunstkiezer/agenda/musea');await expect(page.locator('.museum-card h2').first()).toHaveText('Ver weg');
+ await page.goto('/kunstkiezer/profiel');await page.getByLabel('Kunst dichtbij voorrang geven',{exact:true}).click();await expect(page.getByText(/Geen locatietoestemming/)).toBeVisible();await expect(page.getByLabel('Kunst dichtbij voorrang geven',{exact:true})).not.toBeChecked();
+ await page.getByLabel('Kunst dichtbij voorrang geven',{exact:true}).click();await expect(page.getByText(/duurde te lang/)).toBeVisible();await page.goto('/kunstkiezer/agenda/musea');await expect(page.locator('.museum-card h2').first()).toHaveText('Ver weg');
 });
 test('Uitzetten negeert een locatie die later alsnog binnenkomt',async({page})=>{
  await catalog(page);await page.addInitScript(()=>Object.defineProperty(navigator,'geolocation',{value:{getCurrentPosition:(ok:(v:unknown)=>void)=>{(window as unknown as {returnLocation:()=>void}).returnLocation=()=>ok({coords:{latitude:52,longitude:5,accuracy:5}});}}}));
- await page.goto('/kunstkiezer/profiel');await page.getByLabel('Afstand laten meetellen',{exact:true}).check();await expect(page.getByText(/Je locatie wordt opgehaald/)).toBeVisible();await page.getByLabel('Afstand laten meetellen',{exact:true}).uncheck();await page.evaluate(()=>(window as unknown as {returnLocation:()=>void}).returnLocation());await expect(page.getByLabel('Afstand laten meetellen',{exact:true})).not.toBeChecked();expect(await page.evaluate(()=>sessionStorage.getItem('kunstkiezer.location.session'))).toBeNull();await page.goto('/kunstkiezer/agenda/musea');await expect(page.locator('.museum-card h2').first()).toHaveText('Ver weg');
+ await page.goto('/kunstkiezer/profiel');await page.getByLabel('Kunst dichtbij voorrang geven',{exact:true}).check();await expect(page.getByText(/Je locatie wordt opgehaald/)).toBeVisible();await page.getByLabel('Kunst dichtbij voorrang geven',{exact:true}).uncheck();await page.evaluate(()=>(window as unknown as {returnLocation:()=>void}).returnLocation());await expect(page.getByLabel('Kunst dichtbij voorrang geven',{exact:true})).not.toBeChecked();expect(await page.evaluate(()=>sessionStorage.getItem('kunstkiezer.location.session'))).toBeNull();await page.goto('/kunstkiezer/agenda/musea');await expect(page.locator('.museum-card h2').first()).toHaveText('Ver weg');
 });
 test('Redacteur kan gewichten opslaan en het voorbeeld verandert direct',async({page})=>{
  let settings={distance_weight:56,tag_weight:24,rating_weight:20,rating_prior:5,distance_scale_km:30,updated_at:'2026-10-03T00:00:00Z'};let saves=0;

@@ -64,16 +64,13 @@ function Discovery({ categoryId }: { categoryId?: string }) {
   const tag = new URLSearchParams(window.location.search).get("tag") ?? "";
   return (
     <>
-      <header className="page-heading">
+      <header className={!category && !tag ? "page-heading art-heading" : "page-heading"}>
         <p className="eyebrow">Kunst in Nederland</p>
         <h1>
           {tag ? `Kunst met ${tag.replace(/^maker: /, "")}` : category?.name ?? "Ontdek kunst"}
           <span className="accent">.</span>
         </h1>
-        <p>
-          {category?.description ??
-            "Op plekken die je al kent. En op plekken die je nog wilt ontdekken."}
-        </p>
+        {category && <p>{category.description}</p>}
       </header>
       {tag ? <Catalog tag={tag}/> : category ? (
         <>
@@ -207,7 +204,7 @@ export function App() {
       </main>
       <footer className="site-footer">
         <span>Kunstkiezer · Nederland</span>
-        <span>Bewaren. Bezoeken. Ontdekken.</span>
+        <a className="art-credit" href="https://www.nga.gov/artworks/163323-green-wheat-fields-auvers" target="_blank" rel="noreferrer">Achtergrond: Vincent van Gogh · Green Wheat Fields, Auvers (1890) · National Gallery of Art, Washington · CC0</a>
         {auth.admin && <a href={appHref("/beheer")}>Beheer</a>}
       </footer>
     </>

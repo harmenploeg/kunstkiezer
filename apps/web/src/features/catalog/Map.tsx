@@ -87,11 +87,30 @@ export function CatalogMap({
       for (const row of rows) {
         const a = document.createElement("a");
         a.href = detailHref(row);
-        a.textContent = row.name + " →";
-        a.style.display = "block";
+        a.className = "map-subject";
+        const photo = row.photos?.find((photo) => /^https:\/\//i.test(photo.url));
+        if (photo) {
+          const image = document.createElement("img");
+          image.src = photo.url;
+          image.alt = "";
+          image.width = 220;
+          image.height = 120;
+          image.loading = "lazy";
+          image.addEventListener("error", () => image.remove(), { once: true });
+          a.append(image);
+        }
+        const title = document.createElement("span");
+        title.textContent = row.name + " →";
+        a.append(title);
         popup.append(a);
+        if (photo && (photo.credit || photo.license)) {
+          const credit = document.createElement("small");
+          credit.className = "map-photo-credit";
+          credit.textContent = [photo.credit, photo.license].filter(Boolean).join(" · ");
+          popup.append(credit);
+        }
       }
-      dot.bindPopup(popup);
+      dot.bindPopup(popup, { maxWidth: 260, maxHeight: 300 });
       dot.on("dblclick", () => {
         if (rows.length === 1) window.location.assign(detailHref(first));
         else dot.openPopup();

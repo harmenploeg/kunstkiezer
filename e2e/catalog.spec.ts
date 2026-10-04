@@ -35,6 +35,7 @@ const discoveries = [
     ...base,
     id: "10000000-0000-4000-8000-000000000002",
     name: "Beeldentuin Eén",
+    photos: [{url:"https://images.example.org/garden.jpg",caption:"Beeldentuin",credit:"Testfotograaf",license:"CC0"}],
     category: "beeldenparken",
     latitude: 52.2,
   },
@@ -145,6 +146,7 @@ test("Kaart toont precieze stippen, popup opent onderwerp met vier navigatiekeuz
   isMobile,
 }) => {
   await setup(page);
+  await page.route("https://images.example.org/**", route => route.fulfill({contentType:"image/svg+xml",body:'<svg xmlns="http://www.w3.org/2000/svg" width="220" height="120"><rect width="220" height="120" fill="green"/></svg>'}));
   await page.goto("/kunstkiezer/agenda?tag=beeldhouwkunst");
   await page.getByRole("button", { name: "Kaart", exact: true }).click();
   await expect(page.getByText(/2 locaties op de kaart/)).toBeVisible();
@@ -162,6 +164,8 @@ test("Kaart toont precieze stippen, popup opent onderwerp met vier navigatiekeuz
   }
   await marker.click();
   await expect(page.locator(".leaflet-popup")).toBeVisible();
+  await expect(page.locator(".leaflet-popup img")).toHaveAttribute("src", "https://images.example.org/garden.jpg");
+  await expect(page.locator(".map-photo-credit")).toHaveText("Testfotograaf · CC0");
   await page
     .locator(".leaflet-popup")
     .getByRole("link", { name: "Beeldentuin Eén →" })

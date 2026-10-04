@@ -23,7 +23,7 @@ test('Alle vijf categorieën gebruiken dezelfde profielvoorkeuren',async({page})
  await route.fulfill({headers,json:[{...base,id:'a',name:'A schilderkunst',tags:['schilderkunst']},{...base,id:'z',name:'Z fotografie',tags:['Fotografie']}]});
  });
  for(const c of ['musea','openbare-kunst','beeldenparken','architectuur','evenementen']){
- await page.goto('/kunstkiezer/agenda/'+c);await expect(page.locator('.museum-card h2').first()).toHaveText('Z fotografie');await expect(page.locator('.taste-match').first()).toContainText('fotografie');await expect(page.getByLabel('Afstand laten meetellen',{exact:true})).toHaveCount(0);
+ await page.goto('/kunstkiezer/agenda/'+c);await expect(page.locator('.museum-card h2').first()).toHaveText('Z fotografie');await expect(page.locator('.taste-match').first()).toContainText('fotografie');await expect(page.getByLabel('Kunst dichtbij voorrang geven',{exact:true})).toHaveCount(0);
  await expect(page.getByLabel('Volgorde',{exact:true})).toHaveCount(0);await expect(page.locator('.museum-card')).toHaveCount(2);
  }
 });

@@ -2,13 +2,13 @@
 :root {
   color-scheme: light;
   --accent: #ef3850;
-  --accent-deep: #d92440;
-  --accent-tint: #fff2f4;
-  --ink: #111111;
-  --muted: #6e6e73;
-  --surface: #ffffff;
-  --surface-2: #f0f0f0;
-  --border: #e6e6e6;
+  --accent-deep: #ae2940;
+  --accent-tint: #f8e4db;
+  --ink: #243e35;
+  --muted: #60665b;
+  --surface: #f8f4e9;
+  --surface-2: #e8edde;
+  --border: #d7d9c8;
   --radius-s: 12px;
   --radius-m: 18px;
   --radius-l: 22px;

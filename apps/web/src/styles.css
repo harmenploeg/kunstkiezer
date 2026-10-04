@@ -170,3 +170,39 @@ dialog::backdrop {background:rgb(0 0 0 / .45)}
 .category-shortcuts a:hover {background:#fce5eb;border-color:#b62346;}
 .category-shortcuts a[aria-current="page"] {background:#171717;border-color:#171717;color:#fff;}
 .category-shortcuts a:focus-visible {outline:3px solid #b62346;outline-offset:3px;}
+
+/* Shared palette inspired by Van Gogh's public-domain landscape. */
+body { background-image: radial-gradient(ellipse at 100% 0, #e2e9d6 0, transparent 55%); }
+.art-heading { max-width:none; position:relative; isolation:isolate; overflow:hidden; margin:28px 0; padding:clamp(28px,5vw,56px); min-height:300px; border-radius:var(--radius-l); background:#dce7cb url('./assets/van-gogh-green-wheat.jpg') center 58% / cover; }
+.art-heading::before {content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(248,244,233,.97) 0%,rgba(248,244,233,.91) 40%,rgba(248,244,233,.12) 100%);}
+.art-heading h1 {font-family:Georgia,'Times New Roman',serif;font-weight:400;max-width:620px;}
+.art-heading > p {max-width:480px;}
+.art-heading > p:last-child {color:var(--ink);}
+.main-nav a[aria-current="page"] {background:#274d3d;}
+.header-actions a {border:1px solid var(--border);background:#fffaf0;}
+.taste-form {max-width:none;}
+.taste-form > p:first-child {max-width:720px;font-size:17px;}
+.taste-question {background:#fffcf5;border-color:#bcc9ad;border-top:4px solid #799165;}
+.taste-question:nth-of-type(2) {border-top-color:#bd8840;}
+.taste-question:nth-of-type(3) {border-top-color:#7198a2;}
+.taste-question legend {background:var(--surface);border-radius:8px;font-family:Georgia,'Times New Roman',serif;}
+.taste-option {background:#f6f5e9;border-color:#d4d8c3;}
+.taste-option:hover {background:#e8edde;border-color:#799165;}
+.taste-option[aria-pressed="true"] {background:#e0ead7;border-color:#416644;}
+.taste-option[aria-pressed="true"] strong::before {color:#416644;}
+.profile-tags {background:#eee5cf;border:0;border-radius:var(--radius-m);padding:24px;}
+.location-controls {background:#e6eee4;border-color:#bdceba;}
+.category-card {background:#f0e5cc;border-color:#d6c6a4;border-top:4px solid #a87833;transition:background .15s;}
+.category-card:nth-child(2) {background:#e5ecd8;border-color:#c0ceac;}
+.category-card:nth-child(3) {background:#dfece8;border-color:#afccc1;}
+.category-card:nth-child(4) {background:#e3e8ee;border-color:#b8c6d6;}
+.category-card:nth-child(5) {background:#f2e0d7;border-color:#d8b9aa;}
+.category-card:hover {background:#fffaf0;border-color:#516e50;}
+.category-card h2 {font-family:Georgia,'Times New Roman',serif;font-size:26px;}
+.category-dot {background:#fffaf0;color:var(--ink);}
+.museum-card,.museum-form,.empty-state {background:#fffcf6;}
+.art-credit {max-width:570px;text-decoration:underline;text-underline-offset:3px;}
+@media(max-width:640px){.art-heading{min-height:320px;margin-block:20px;padding:24px;background-position:60% center;}.art-heading::before{background:linear-gradient(180deg,rgba(248,244,233,.96),rgba(248,244,233,.88) 60%,rgba(248,244,233,.15));}.art-heading h1{font-size:2.6rem;}.profile-tags{padding:18px;}}
+.map-subject {display:flex;flex-direction:column;gap:8px;max-width:220px;font-weight:600;}
+.map-subject img {display:block;width:220px;max-width:100%;height:120px;object-fit:cover;border-radius:8px;}
+.map-photo-credit {display:block;max-width:220px;font-size:10px;line-height:1.4;color:#60665b;margin-bottom:10px;}

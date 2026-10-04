@@ -7,7 +7,6 @@ import {
 import { useTaxonomy } from "./Taxonomy.tsx";
 import { appHref } from "../../../../../packages/domain/src/navigation.ts";
 import { useProfileState } from "./useProfile.ts";
-import { useAuth } from "../account/AuthContext.tsx";
 import { useRef } from "react";
 export function Profile({
   profile,
@@ -20,7 +19,6 @@ export function Profile({
   const preferenceQuestions=taxonomy.questions;
   const catalogueTags=taxonomy.tags.filter(t=>t.enabled).map(t=>t.label);
   const state = useProfileState(),
-    auth = useAuth(),
     base = useRef(state.version),
     dirty = useRef(false);
   const [tags, setTags] = useState(profile.tags),
@@ -77,7 +75,7 @@ export function Profile({
             <br />
             {q.title}
           </legend>
-          <p>{q.description}</p>
+          {q.description && !["Kies gerust meerdere vormen.", "Van oude meesters tot nieuwe experimenten.", "Deze voorkeuren tellen ook mee binnen de vijf verzamelingen."].includes(q.description) && <p>{q.description}</p>}
           <div className="taste-options">
             {q.options.map((o) => {
               const chosen = o.tags.every((t) => tags.includes(t));
@@ -168,15 +166,15 @@ export function Profile({
   );
   return (
     <>
-      <header className="page-heading">
-        <p className="eyebrow">Jouw smaak, jouw ontdekkingen</p>
+      <header className={onboarding ? "page-heading art-heading" : "page-heading"}>
+
         <h1>
           {onboarding ? "Mijn kunstkeuze" : "Mijn profiel"}
           <span className="accent">.</span>
         </h1>
         <p>
           {onboarding
-            ? "Wat zie je graag? Vertel ons wat je aanspreekt en ontdek kunst die bij je past."
+            ? "Wat zie je graag? Vertel ons wat je aanspreekt en wij zoeken kunst die bij je past."
             : "Dit zijn je voorkeuren. Pas ze aan wanneer je smaak verandert of je iets nieuws wilt ontdekken."}
         </p>
       </header>
@@ -184,7 +182,7 @@ export function Profile({
       <form className="taste-form" onSubmit={(e) => save(e)}>
         <p>
           {onboarding
-            ? "Je mag meerdere antwoorden kiezen. Ze worden vertaald naar tags: meer overeenkomsten betekent een hogere plek in de resultaten. Het overige aanbod blijft beschikbaar."
+            ? "Je mag meerdere antwoorden kiezen. Dat zorgt voor een lijst met tags, als het goed is komt dat overeen met jouw voorkeuren. Je kunt die lijst nog aanpassen."
             : "Meer overeenkomende tags geeft een hogere plek bij Ontdek kunst. Je kunt hieronder je voorkeuren aanpassen."}
         </p>
         {onboarding ? (
@@ -203,18 +201,6 @@ export function Profile({
         )}
 
         <LocationControls />
-        <p className="storage-note">
-          {auth.user
-            ? "Je profiel wordt veilig in je account bewaard en is beschikbaar op je andere apparaten."
-            : "Zonder account bewaren we je voorkeuren alleen in deze browser."}{" "}
-          {!auth.user && (
-            <a href={appHref("/account")}>
-              Maak een account om je profiel te behouden en overal te gebruiken.
-            </a>
-          )}{" "}
-          Je locatiekeuze geldt per apparaat; je locatie wordt niet online
-          opgeslagen.
-        </p>
         {message && (
           <p className="notice" role="status">
             {message}
