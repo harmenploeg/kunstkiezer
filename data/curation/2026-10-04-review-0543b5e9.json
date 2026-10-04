@@ -1,7 +1,7 @@
 {
   "run_id": "0543b5e9-8105-4b9d-88be-6a690da0365d",
   "research_date": "2026-10-04",
-  "updated_at": "2026-10-04T11:31:17.175523+00:00",
+  "updated_at": "2026-10-04T11:48:12.790488+00:00",
   "scope": "Eerste vervolgpartij: 83 inhoudelijke dossiers (22 evenementen, 18 beeldentuinen/routes, 43 musea/instellingen), 12 databasecorrecties. Geen volledige hercontrole van alle 735 onderwerpen.",
   "sources_snapshot": [
     {
@@ -2195,7 +2195,15 @@
   "verification": {
     "database": "Alle 12 gewijzigde records opnieuw gelezen en elk bedoeld veld exact vergeleken. Geen wijzigingen aan de vier handmatig bewerkte museumrecords.",
     "tests": "npm run check: typecheck, 51 tests en productiebuild geslaagd.",
-    "production": "Downloadbestanden worden via gecontroleerde Loci-keten gepubliceerd. Rechtstreekse lokale HTTP-controle vereist bestaande Cloudflare Access-toegang; CI voert de bevoegde productiecontrole uit.",
+    "production": {
+      "result": "Geslaagd op het echte productiedomein: routes, applicatiebestanden, alle vijf catalogusdownloads, database en rangschikkingsinstellingen gecontroleerd.",
+      "domain": "https://www.loci-amsterdam.nl/kunstkiezer/",
+      "source_commit": "fe75afcf468fe367b1d41b267fba9855f0d827f1",
+      "loci_commit": "5c6b251c789eb30769d4ef51061725b4ac5fcc0f",
+      "publication_run": "https://github.com/harmenploeg/interactief/actions/runs/37198831587",
+      "production_check_run": "https://github.com/harmenploeg/interactief/actions/runs/37199887989",
+      "verified_at": "2026-10-04T11:47:04Z"
+    },
     "public_api": [
       {
         "id": "d117a62d-9e50-56e1-ab19-feb92d50abba",
@@ -2245,7 +2253,8 @@
         "id": "98f9e090-d4ba-5d5b-b71d-1099f4005c85",
         "result": "Publieke Supabase-API bevat alle bedoelde veldwijzigingen."
       }
-    ]
+    ],
+    "research_report_check": "Bronrepository-controle 37199077191 geslaagd voor de aanvullende 40 beoordelingen."
   },
   "remaining_records": 605,
   "followup_priority": [
@@ -2258,6 +2267,29 @@
       "url": "https://www.voorheendegemeente.nl",
       "checked_at": "2026-10-04T11:31:17.175523+00:00",
       "finding": "Prioriteit: officiële actuele VHDG-site noemt Naauw 6–8; database Ipe Brouwerssteeg 10A. Bevestig tentoonstellingsingang, geen correspondentieadres overnemen."
+    }
+  ],
+  "photo_followup": [
+    {
+      "name": "Dutch Design Week 2026",
+      "source": "https://ddw.nl/en/press/image-bank",
+      "candidate_url": "https://ddw.nl/press/media/162/download",
+      "credit": "Dutch Design Week / Max Kneefel",
+      "image_date": "2025-10-18",
+      "checked_at": "2026-10-04T11:38:00Z",
+      "finding": "Officiële persbeeldbank staat downloaden en gebruik met DDW- en fotografencredit toe. Kandidaat toont Ketelhuisplein in 2025: uitsluitend met duidelijk jaartal als sfeerbeeld van een eerdere editie gebruiken. Na time-out in de browsertool via openbare downloadlink HTTP 200 image/jpeg ontvangen en visueel gecontroleerd: overzicht Strijp-S/Ketelhuisplein bij avond. Klaar voor volgende gegevenspublicatie; nog niet aan database toegevoegd.",
+      "caption": "Ketelhuisplein tijdens Dutch Design Week 2025",
+      "reuse_terms": "Persbeeld; naamsvermelding Dutch Design Week en fotograaf verplicht"
+    },
+    {
+      "name": "Naturocene",
+      "source": "https://www.projectspaceontheinside.org/more-naturocene",
+      "finding": "Officiële pagina toont onder meer Janis Rafa, Lacerate (2020), filmstill. Geen expliciete hergebruiktoestemming vastgesteld; niet als vrij beeld overgenomen."
+    },
+    {
+      "name": "Creation Myths",
+      "source": "https://www.nestruimte.nl/en/exhibitions/creation-myths",
+      "finding": "Officiële tentoonstellingspagina bekeken; geen expliciete hergebruiktoestemming voor beelden vastgesteld. Commons-zoekresultaten gaven geen voldoende specifieke foto van de huidige locatie of tentoonstelling; fotovraag blijft open."
     }
   ]
 }
