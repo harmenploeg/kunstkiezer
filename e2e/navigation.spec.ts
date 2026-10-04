@@ -27,3 +27,15 @@ test("routebegrenzing, redirect en health werken in de echte Worker-runtime", as
   expect(await (await request.get("/kunstkiezer/api/health")).json()).toEqual({ status: "ok", service: "kunstkiezer-api" });
   expect((await request.get("/kunstkiezer/unknown")).status()).toBe(404);
 });
+
+test('Categorieknoppen geven directe toegang en markeren de huidige optie zonder horizontale overflow',async({page})=>{
+ await page.goto('/kunstkiezer/agenda/musea');
+ const nav=page.getByRole('navigation',{name:'Kies een categorie'});
+ await expect(nav.getByRole('link')).toHaveCount(5);
+ await expect(nav.getByRole('link',{name:'Musea',exact:true})).toHaveAttribute('aria-current','page');
+ await nav.getByRole('link',{name:'Kunst in de openbare ruimte',exact:true}).click();
+ await expect(nav.getByRole('link',{name:'Kunst in de openbare ruimte',exact:true})).toHaveAttribute('aria-current','page');
+ await expect(page.getByRole('link',{name:'Alle categorieën'})).toHaveCount(0);
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
+ await page.screenshot({path:`work/catalog-review/categories-${test.info().project.name}.png`});
+});

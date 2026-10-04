@@ -77,9 +77,13 @@ function Discovery({ categoryId }: { categoryId?: string }) {
       </header>
       {tag ? <Catalog tag={tag}/> : category ? (
         <>
-          <a className="back-link" href={appHref("/agenda")}>
-            ← Alle categorieën
-          </a>
+          <nav className="category-shortcuts" aria-label="Kies een categorie">
+            {categories.map((option) => (
+              <a key={option.id} href={appHref(`/agenda/${option.id}`)} aria-current={option.id === category.id ? "page" : undefined}>
+                {option.name}
+              </a>
+            ))}
+          </nav>
           <Section
             title="Te zien en te doen"
             description="Vaste plekken, tentoonstellingen en evenementen."
