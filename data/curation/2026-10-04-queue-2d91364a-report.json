@@ -1,7 +1,7 @@
 {
   "run_id": "2d91364a-8396-4e71-8791-10ac0a979ccd",
   "started_at": "2026-10-04T09:32:49.648357Z",
-  "updated_at": "2026-10-04T10:27:12.247176+00:00",
+  "updated_at": "2026-10-04T10:28:48.469183+00:00",
   "research_date": "2026-10-04",
   "agenda_window_end": "2026-11-04",
   "scope": "Gerichte vervolgcontrole van open bezoekinformatie in alle vijf categorieën en twee ontbrekende tentoonstellingen. Geen volledige individuele bestaanscontrole van alle 735 records. Overige inhoudelijke controles in 2026-10-04-availability-review.json blijven open.",
@@ -1428,7 +1428,7 @@
   "verification": {
     "database": "Alle 13 updates en 2 toevoegingen opnieuw uit Supabase gelezen en veld voor veld vergeleken; maker-tag automatisch aangevuld door bestaande trigger.",
     "tests": "npm run check geslaagd: TypeScript, 50 tests en productiebuild. Eerste test vond ontbrekende foto-aantekening; redactionele notitie toegevoegd en daarna alle controles geslaagd.",
-    "production": "Onbevestigd door lokale DNS/netwerkuitval vanaf circa 10:24 UTC. GitHub en het productiedomein konden niet meer worden opgezocht. Laatste zichtbare CI-status: mobiele controles en oudere toestellen geslaagd, desktopcarrousel liep. Geen productievoltooiing geclaimd.",
+    "production": "Geslaagd op https://www.loci-amsterdam.nl/kunstkiezer/: bronrevisie 9332b02ede4c3d2b0d88fc998f24312ec1ac1e97, routes, JS/CSS-assets, vijf catalogusdownloads, databaseconfiguratie en drie rangschikkingsgewichten bevestigd op 2026-10-04T10:24:42Z. Afzonderlijke opvolgcontrole eveneens geslaagd om 10:24:57Z.",
     "public_api": {
       "checked_at": "2026-10-04T09:45:13.137538+00:00",
       "method": "Publieke Supabase API met publieke sleutel uit productiebroncode. RLS verbergt gesloten/onzekere records correct. Productiedomein vereist Cloudflare Access; productiecontrole via bestaande geautoriseerde CI-keten volgt.",
@@ -1500,7 +1500,7 @@
     "superseded_workflow": "https://github.com/harmenploeg/interactief/actions/runs/37193278992",
     "production_source_commit": "9332b02ede4c3d2b0d88fc998f24312ec1ac1e97",
     "catalog_comparison": "Alle vijf catalogusdownloads in opvolgende integratie 370dd52 zijn bytegelijk aan de eigen gecontroleerde integratie e720d71; productie-hashcontrole is behouden.",
-    "database_final_compare": "Alle velden van de 735 geselecteerde records opnieuw vergeleken met Supabase: geen afwijkingen na de opgeslagen mutaties.",
+    "database_final_compare": "Na netwerkherstel alle velden van de 735 geselecteerde records opnieuw vergeleken met Supabase: geen afwijkingen.",
     "direct_primary_checks": [
       {
         "id": "05fb0dec-a856-583b-8584-ab123e74feba",
@@ -1713,7 +1713,10 @@
           "checked_at": "2026-10-04T10:11:28.513064+00:00"
         }
       ]
-    }
+    },
+    "production_workflow_conclusion": "success",
+    "production_smoke_workflow": "https://github.com/harmenploeg/interactief/actions/runs/37195279816",
+    "production_smoke_conclusion": "success"
   },
   "editorial_note": "Bestaande review_notes van Het Muizenhuis behouden en met conflictcontrole aangevuld met FOTO ONTBREEKT; database heeft de opgeslagen notitie teruggegeven.",
   "existing_records_reviewed_this_run": 40,
@@ -1830,13 +1833,17 @@
     }
   ],
   "completion": {
-    "status": "blocked",
-    "blocked_at": "2026-10-04T10:27:12.247176+00:00",
-    "reason": "Lokale DNS/netwerkuitval: curl kon api.github.com en www.loci-amsterdam.nl niet resolven; gh en Supabase-managementtransport faalden herhaaldelijk.",
-    "queue_status_update": "Voor eigen running run update naar failed met finished_at en concrete reden geprobeerd, maar Supabase-transport faalde. Afsluiten niet bevestigd; laatst bekende status running.",
-    "last_known_queue_status": "running",
-    "required_recovery": "Na netwerkherstel workflow 37193846296 en echte productie controleren. Daarna eigen runstatus afhandelen; geen tweede run claimen zolang deze running is. Laatste verslagcommit zo nodig alsnog naar kunstkiezer/main pushen.",
-    "previous_report_commit_pushed": "94f03cf",
-    "catalog_commit_pushed": "565d3ddb28b3dd72454d275251a6ae5ddd63ab5c"
-  }
+    "status": "completed",
+    "finished_at": "2026-10-04T10:28:11.424045Z",
+    "queue_status_verified": true,
+    "scope": "Gerichte actualisatieronde geverifieerd afgerond; volledige individuele bestaanscontrole blijft gedeeltelijk open."
+  },
+  "incidents": [
+    {
+      "type": "temporary_network_outage",
+      "first_noticed": "2026-10-04T10:24:00Z",
+      "resolved_before": "2026-10-04T10:28:11Z",
+      "result": "DNS en Supabase-transport tijdelijk onbereikbaar. De poging tot failed-afsluiting werd niet uitgevoerd; na herstel status running geverifieerd, productiechecks succesvol opgehaald en run completed afgesloten."
+    }
+  ]
 }
