@@ -1,10 +1,11 @@
 import {test,expect} from '@playwright/test';
 import {PROFILE_KEY} from '../packages/domain/src/profile.ts';
-test('Onboarding bewaart tags, verdwijnt bij herstart en profiel blijft bewerkbaar',async({page})=>{
+test('Onboarding bewaart tags, blijft bereikbaar na herstart en profiel blijft bewerkbaar',async({page})=>{
  await page.goto('/kunstkiezer/');await page.getByRole('button',{name:/^Fotografie/}).click();await page.getByRole('button',{name:/^Historische gebouwen/}).click();
  await page.getByRole('button',{name:'Bewaar mijn smaak en ontdek kunst'}).click();await expect(page).toHaveURL(/\/agenda$/);
- await expect(page.getByRole('link',{name:'Mijn kunstkeuze',exact:true})).toHaveCount(0);
+ await expect(page.getByRole('link',{name:'Mijn kunstkeuze',exact:true})).toBeVisible();
  await page.goto('/kunstkiezer/');await expect(page).toHaveURL(/\/agenda$/);
+ await page.getByRole('link',{name:'Mijn kunstkeuze',exact:true}).click();await expect(page).toHaveURL(/\/kunstkeuze$/);await expect(page.getByRole('heading',{name:'Mijn kunstkeuze.'})).toBeVisible();await expect(page.getByRole('button',{name:/Fotografie/})).toHaveAttribute('aria-pressed','true');
  await page.getByRole('link',{name:'Mijn profiel',exact:true}).click();await expect(page.getByRole('heading',{name:'Mijn profiel.'})).toBeVisible();await expect(page.getByRole('button',{name:'Verwijder tag fotografie',exact:true})).toBeVisible();
  await page.getByRole('button',{name:'Verwijder tag fotografie',exact:true}).click();await page.getByLabel('Zoek een extra tag').fill('art deco');await page.getByRole('button',{name:'art deco +',exact:true}).click();
  await page.getByRole('button',{name:'Profiel opslaan',exact:true}).click();await expect(page.getByRole('status')).toContainText('Je profiel is opgeslagen');await page.reload();await expect(page.getByRole('button',{name:'Verwijder tag art deco',exact:true})).toBeVisible();await expect(page.getByRole('button',{name:'Verwijder tag fotografie',exact:true})).toHaveCount(0);
@@ -27,7 +28,7 @@ test('Alle vijf categorieën gebruiken dezelfde profielvoorkeuren',async({page})
  }
 });
 test('Overal voor open rondt onboarding af zonder voorkeuren',async({page})=>{
- await page.goto('/kunstkiezer/');await page.getByRole('button',{name:'Ik sta overal voor open',exact:true}).click();await expect(page).toHaveURL(/\/agenda$/);await page.reload();await expect(page.getByRole('link',{name:'Mijn kunstkeuze',exact:true})).toHaveCount(0);
+ await page.goto('/kunstkiezer/');await page.getByRole('button',{name:'Ik sta overal voor open',exact:true}).click();await expect(page).toHaveURL(/\/agenda$/);await page.reload();await expect(page.getByRole('link',{name:'Mijn kunstkeuze',exact:true})).toBeVisible();
 });
 test('Geblokkeerde browseropslag verbergt onboarding niet ten onrechte',async({page})=>{
  await page.addInitScript(()=>{Storage.prototype.setItem=function(){throw new Error('Storage blocked');};});

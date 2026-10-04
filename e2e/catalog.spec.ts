@@ -56,6 +56,8 @@ const discoveries = [
   },
 ];
 async function setup(page: Page) {
+  await page.route('**/api/basemap-config', r=>r.fulfill({json:{key:'test_basemap_key_123456789'}}));
+  await page.route('https://*.basemaps.cartocdn.com/**',r=>r.fulfill({contentType:'image/png',body:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Wl6YJkAAAAASUVORK5CYII=','base64')}));
   await page.addInitScript(() =>
     localStorage.setItem(
       "kunstkiezer.profile.v1",
@@ -146,6 +148,7 @@ test("Kaart toont precieze stippen, popup opent onderwerp met vier navigatiekeuz
   await page.goto("/kunstkiezer/agenda?tag=beeldhouwkunst");
   await page.getByRole("button", { name: "Kaart", exact: true }).click();
   await expect(page.getByText(/2 locaties op de kaart/)).toBeVisible();
+  await expect(page.getByRole("region", { name: "Kaart met kunstlocaties" })).toBeInViewport();
   const marker = page.getByRole("button", {
     name: "Beeldentuin Eén",
     exact: true,
@@ -197,4 +200,40 @@ test("Dubbelklik op stip opent het onderwerp rechtstreeks", async ({
   await expect(page).toHaveURL(
     /categorie=musea&id=10000000-0000-4000-8000-000000000001/,
   );
+});
+
+test("Onbereikbare achtergrondkaart geeft herstelknop en behoudt stippen", async ({page}) => {
+ await setup(page);
+ let failTiles=true;
+ await page.route('https://*.basemaps.cartocdn.com/**',r=>failTiles?r.abort():r.fallback());
+ await page.goto('/kunstkiezer/agenda/musea');
+ await page.getByRole('button',{name:'Kaart',exact:true}).click();
+ await expect(page.getByRole('button',{name:'Kaart opnieuw laden',exact:true})).toBeVisible();
+ await expect(page.getByRole('button',{name:'Museum Eén',exact:true})).toBeVisible();
+ failTiles=false;
+ await page.getByRole('button',{name:'Kaart opnieuw laden',exact:true}).click();
+ await expect(page.locator('.leaflet-tile-loaded').first()).toBeVisible({timeout:15000});
+ await expect(page.getByRole('button',{name:'Kaart opnieuw laden',exact:true})).toHaveCount(0);
+});
+
+test('Toegestane locatie centreert Voyager met circa 25 km tot de dichtstbijzijnde kaartrand',async({page,context})=>{
+ await setup(page);
+ await context.setGeolocation({latitude:52.37,longitude:4.9});
+ await context.grantPermissions(['geolocation']);
+ await page.addInitScript(()=>localStorage.setItem('kunstkiezer.distance.enabled','true'));
+ await page.goto('/kunstkiezer/agenda/musea');
+ await page.getByRole('button',{name:'Kaart',exact:true}).click();
+ const map=page.getByRole('region',{name:'Kaart met kunstlocaties'});
+ await expect(map).toBeInViewport();
+ const here=page.locator('path[fill="#2563eb"]');
+ await expect(here).toBeVisible();
+ await expect(page.locator('.leaflet-tile-loaded').first()).toHaveAttribute('src',/rastertiles\/voyager\//);
+ const m=(await map.boundingBox())!,p=(await here.boundingBox())!;
+ expect(Math.abs(p.x+p.width/2-m.x-m.width/2)).toBeLessThan(3);
+ expect(Math.abs(p.y+p.height/2-m.y-m.height/2)).toBeLessThan(3);
+ const scale=page.locator('.leaflet-control-scale-line');
+ const km=Number((await scale.innerText()).replace(' km',''));
+ const width=(await scale.boundingBox())!.width;
+ const edgeKm=Math.min(m.width,m.height)/2/width*km;
+ expect(edgeKm).toBeGreaterThan(23);expect(edgeKm).toBeLessThan(27);
 });

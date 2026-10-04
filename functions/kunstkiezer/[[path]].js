@@ -1,5 +1,5 @@
 const PAGES = new Set([
- "/account", "/account-verwijderen", "/bekijk", "/", "/agenda", "/geschiedenis", "/profiel", "/agenda/musea", "/beheer/musea",
+ "/kunstkeuze", "/account", "/account-verwijderen", "/bekijk", "/", "/agenda", "/geschiedenis", "/profiel", "/agenda/musea", "/beheer/musea",
  "/beheer/instellingen", "/beheer/volgorde", "/beheer", "/beheer/openbare-kunst", "/beheer/beeldenparken", "/beheer/architectuur", "/beheer/evenementen", "/agenda/evenementen",
  "/agenda/openbare-kunst", "/agenda/beeldenparken", "/agenda/architectuur"
 ]);

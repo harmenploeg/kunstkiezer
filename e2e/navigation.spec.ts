@@ -39,3 +39,18 @@ test('Categorieknoppen geven directe toegang en markeren de huidige optie zonder
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
  await page.screenshot({path:`work/catalog-review/categories-${test.info().project.name}.png`});
 });
+
+ test('Vier vaste hoofdkeuzes naast elkaar en inloggen bovenaan, ook op smal scherm',async({page})=>{
+  await page.setViewportSize({width:320,height:740});
+  await page.goto('/kunstkiezer/');
+  const nav=page.getByRole('navigation',{name:'Hoofdnavigatie'});
+  await expect(nav.getByRole('link')).toHaveText(['Mijn kunstkeuze','Ontdek kunst','Gezien','Mijn profiel']);
+  await expect(nav.getByRole('link',{name:'Mijn kunstkeuze'})).toHaveAttribute('aria-current','page');
+  await expect(page.getByRole('banner').getByRole('link',{name:'Inloggen',exact:true})).toBeVisible();
+  await expect(page.getByRole('link',{name:/Loci Amsterdam/})).toHaveCount(0);
+  const tops=await nav.getByRole('link').evaluateAll(nodes=>nodes.map(n=>Math.round(n.getBoundingClientRect().top)));
+  expect(new Set(tops).size).toBe(1);
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  await page.getByRole('banner').getByRole('link',{name:'Inloggen',exact:true}).click();
+  await expect(page).toHaveURL(/\/account$/);
+ });

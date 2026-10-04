@@ -145,7 +145,7 @@ export function Catalog({
             voor de pop-up of dubbelklik om te openen.
           </p>
           <Suspense fallback={<p>Kaart laden…</p>}>
-            <CatalogMap items={sorted} />
+            <CatalogMap items={sorted} focusOnOpen />
           </Suspense>
           {onMap < sorted.length && (
             <p>Het overige aanbod vind je in de lijst.</p>

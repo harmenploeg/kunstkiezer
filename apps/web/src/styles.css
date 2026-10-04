@@ -6,9 +6,11 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-deep); o
 .site-header { display: flex; justify-content: space-between; align-items: center; padding-block: 26px; gap: 20px; }
 .brand { display: flex; align-items: center; gap: 12px; font-size: 27px; font-weight: 650; letter-spacing: -1px; }
 .brand-dot { width: 27px; height: 27px; border-radius: 50%; background: var(--accent); }
-.loci-link { font-size: 13px; color: var(--muted); }
-.main-nav { display: flex; flex-wrap: wrap; gap: 8px; border-bottom: 1px solid var(--border); padding-bottom: 20px; }
-.main-nav a { padding: 10px 17px; border-radius: var(--radius-pill); font-size: 14px; }
+.header-actions { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:8px; font-size:13px; }
+.header-actions a { display:inline-flex; align-items:center; min-height:44px; padding:6px 10px; border-radius:var(--radius-pill); }
+.header-actions a:hover, .header-actions a[aria-current="page"] { background:var(--surface-2); }
+.main-nav { display: grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap: 8px; border-bottom: 1px solid var(--border); padding-bottom: 20px; }
+.main-nav a { display:flex; align-items:center; justify-content:center; text-align:center; min-height:44px; padding: 10px 17px; border-radius: var(--radius-pill); font-size: 14px; }
 .main-nav a[aria-current="page"] { background: var(--ink); color: white; }
 .main-nav a:hover:not([aria-current="page"]) { background: var(--surface-2); }
 .page-heading { padding-block: 48px 35px; max-width: 760px; }
@@ -40,9 +42,9 @@ h1 { font-size: clamp(2.3rem, 6vw, 4rem); line-height: 1.12; font-weight: 350; l
   .site-header, .main-nav, main, .site-footer { padding-inline: 20px; }
   .site-header { padding-block: 20px; }
   .brand { font-size: 23px; }
-  .loci-link { font-size: 11px; }
+  .header-actions { font-size: 12px; gap:0; }
   .main-nav { gap: 2px; }
-  .main-nav a { font-size: 12px; padding: 9px 11px; }
+  .main-nav a { font-size: 12px; padding: 9px 3px; }
   .dashboard, .category-grid { grid-template-columns: 1fr; gap: 14px; }
   .page-heading { padding-top: 30px; }
   .empty-state { padding: 22px; }

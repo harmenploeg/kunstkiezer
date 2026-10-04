@@ -5,6 +5,8 @@ export default defineConfig({
   fullyParallel: true,
   use: { baseURL: "http://127.0.0.1:8790", trace: "retain-on-failure" },
   projects: [
+    { name: "safari", use: { ...devices["Desktop Safari"] } },
+    { name: "iphone", use: { ...devices["iPhone 13"] } },
     { name: "desktop", use: { ...devices["Desktop Chrome"] } },
     { name: "mobile", use: { ...devices["Pixel 7"], defaultBrowserType: "chromium" } },
   ],

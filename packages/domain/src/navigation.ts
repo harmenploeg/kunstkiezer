@@ -1,7 +1,7 @@
 export const BASE_PATH = "/kunstkiezer";
 
 export const navigation = [
-  { path: "/", label: "Mijn kunstkeuze" },
+  { path: "/kunstkeuze", label: "Mijn kunstkeuze" },
   { path: "/agenda", label: "Ontdek kunst" },
   { path: "/geschiedenis", label: "Gezien" },
   { path: "/profiel", label: "Mijn profiel" },
@@ -21,6 +21,6 @@ export function appHref(path: string): string {
 }
 
 export function isPagePath(path: string): boolean {
-  return ["/account","/account-verwijderen","/bekijk"].includes(path) || path === "/beheer/instellingen" || path === "/beheer/volgorde" || path === "/beheer" || categories.some(c=>path===`/beheer/${c.id}`) || navigation.some((entry) => entry.path === path)
+  return ["/","/account","/account-verwijderen","/bekijk"].includes(path) || path === "/beheer/instellingen" || path === "/beheer/volgorde" || path === "/beheer" || categories.some(c=>path===`/beheer/${c.id}`) || navigation.some((entry) => entry.path === path)
     || categories.some((category) => path === `/agenda/${category.id}`);
 }

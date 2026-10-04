@@ -129,11 +129,11 @@ function Page({ path }: { path: string }) {
   if (path === "/account-verwijderen") return <DeleteAccount />;
   if (path === "/bekijk") return <Detail />;
   if (path === "/geschiedenis") return <History />;
-  if (path === "/profiel" || path === "/") {
+  if (path === "/profiel" || path === "/kunstkeuze" || path === "/") {
     if (state.error) return <p role="alert">{state.error}</p>;
     if (!state.ready) return <p role="status">Profiel laden…</p>;
     if (path === "/profiel") return <Profile profile={profile} />;
-    return profile.completed ? (
+    return path === "/" && profile.completed ? (
       <Discovery />
     ) : (
       <Profile profile={profile} onboarding />
@@ -166,7 +166,7 @@ export function App() {
     window.location.pathname.slice(BASE_PATH.length).replace(/\/$/, "") || "/";
   const activePath = relativePath.startsWith("/agenda")
     ? "/agenda"
-    : relativePath;
+    : relativePath === "/" ? (profile.completed ? "/agenda" : "/kunstkeuze") : relativePath;
   return (
     <>
       <a className="skip-link" href="#inhoud">
@@ -181,13 +181,15 @@ export function App() {
           <span className="brand-dot" aria-hidden="true" />
           kunstkiezer
         </a>
-        <a className="loci-link" href="/">
-          Loci Amsterdam ↗
-        </a>
+        <div className="header-actions">
+          <a href={appHref("/account")} aria-current={activePath === "/account" ? "page" : undefined}>
+            {auth.user ? "Mijn account" : "Inloggen"}
+          </a>
+          {auth.admin && <a href={appHref("/beheer")} aria-current={relativePath.startsWith("/beheer") ? "page" : undefined}>Beheer</a>}
+        </div>
       </header>
       <nav className="main-nav" aria-label="Hoofdnavigatie">
         {navigation
-          .filter((item) => item.path !== "/" || !profile.completed)
           .map((item) => (
             <a
               key={item.path}
@@ -197,13 +199,6 @@ export function App() {
               {item.label}
             </a>
           ))}
-        <a
-          href={appHref("/account")}
-          aria-current={activePath === "/account" ? "page" : undefined}
-        >
-          {auth.user ? "Mijn account" : "Inloggen"}
-        </a>
-        {auth.admin && <a href={appHref("/beheer")}>Beheer</a>}
       </nav>
       <main id="inhoud" tabIndex={-1}>
         <Suspense fallback={<p role="status">Pagina laden…</p>}>
