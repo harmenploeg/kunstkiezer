@@ -1599,20 +1599,20 @@
     ],
     "summary": "Golvende terrazzo-elementen vormen een landschap om te zitten en te spelen. Schelpen, steen en kleur maken het oppervlak uitnodigend. Het werk verbindt kunst en ontwerp met gezamenlijk gebruik, ook met een rolstoel.",
     "category": "openbare-kunst",
-    "latitude": 52.0886922,
+    "latitude": 52.0796180947364,
     "province": "Utrecht",
-    "longitude": 5.09520363,
+    "longitude": 5.15511989593506,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Bij een school: respecteer het gebruik door leerlingen. Toegang tot het schoolterrein kan beperkt zijn.",
+    "visit_notes": "Voor de Ariane de Ranitz-school aan de Blauwe Vogelweg. Het werk is ontworpen voor leerlingen, ouders en personeel. Respecteer schoolgebruik; toegang tot het terrein voor andere bezoekers is niet gegarandeerd.",
     "website_url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/stone-line",
     "inventory_key": "public:www.kunstinopenbareruimte-utrecht.nl/kunstwerken/stone-line:The Stone Line",
     "street_address": "Blauwe Vogelweg, bij Ariane de Ranitz-school",
     "operating_status": "open",
     "selection_reason": "Recente gemeentelijke opdracht met een bijzondere combinatie van materiaalonderzoek, spel en inclusief ruimtelijk ontwerp.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-d7676180b7f172bcb7356429b19563a5",
+    "coordinate_source": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/stone-line",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "exact"
   },
   {
     "id": "4b4c8d18-06fb-5ddb-8fe4-81c34a117a97",
@@ -3285,6 +3285,16 @@
         "url": "https://www.sleutelwerken.nl/kunstwerken/reizend-zand",
         "provider": "Sleutelwerken · officiële selectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.spoorbeeld.nl/databank/reizend-zand",
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
+      },
+      {
+        "url": "https://www.apeldoorn.nl/cultuur-en-erfgoed/cultuur/kunst-en-cultuur-in-de-openlucht/",
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
       }
     ],
     "summary": "Een zandlandschap lijkt te stuiven over een glazen wand bij station Apeldoorn. Giny Vos laat lichtpuntjes voortdurend nieuwe patronen vormen. De installatie brengt het trage veranderen van een landschap binnen in de haast van de reiziger.",
@@ -3294,10 +3304,10 @@
     "longitude": 5.9737347,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "visit_notes": "Lichtwand van circa honderd meter aan het verdiepte Stationsplein, rond de entrees van de perrontunnel en ondergrondse fietsenstalling. Bekijk vanaf het openbare plein; de animatie is beter zichtbaar bij minder daglicht.",
     "website_url": "https://www.sleutelwerken.nl/kunstwerken/reizend-zand",
     "inventory_key": "sleutelwerk:196",
-    "street_address": "",
+    "street_address": "Verdiept Stationsplein, onder het stationsgebouw van Apeldoorn",
     "operating_status": "open",
     "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Giny Vos is hier vertegenwoordigd met Reizend zand (2008); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
     "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-0bec2fbac4d93b0212919b83b1e08f00",
@@ -4243,6 +4253,11 @@
         "url": "https://www.sleutelwerken.nl/kunstwerken/de-olifanten",
         "provider": "Sleutelwerken · officiële selectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://stadsarchief.almere.nl/ontdek/tentoonstelling/almere-boven/buiten",
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
       }
     ],
     "summary": "Vijf monumentale olifanten staan tussen de verkeersstromen bij Almere. Tom Claassen vereenvoudigt hun lichamen tot grote, zachte volumes. Juist met weinig details blijven de dieren onmiddellijk herkenbaar. De schaal past bij het weidse polderlandschap.",
@@ -4252,10 +4267,10 @@
     "longitude": 5.20565106,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "visit_notes": "Vijf beelden tussen de rijbanen van knooppunt A6/A27. Zichtbaar voor passerend verkeer; geen vrij toegankelijke wandelbestemming. Stop niet langs de snelweg en betreed het knooppunt niet.",
     "website_url": "https://www.sleutelwerken.nl/kunstwerken/de-olifanten",
     "inventory_key": "sleutelwerk:141",
-    "street_address": "",
+    "street_address": "Knooppunt Almere, A6/A27",
     "operating_status": "open",
     "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Tom Claassen is hier vertegenwoordigd met De Olifanten (1999); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
     "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-a41b17515bf944dfb13887a0ebf8a0a9",
@@ -6065,24 +6080,29 @@
         "url": "https://www.sleutelwerken.nl/kunstwerken/limburgs-bevrijdingsmonument",
         "provider": "Sleutelwerken · officiële selectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/933/maastricht-limburgs-bevrijdingsmonument",
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
       }
     ],
     "summary": "Acht figuren verbeelden de bevrijding van Maastricht. Charles Eyck brengt soldaten en burgers samen rond het moment waarop de bezetting eindigt. Het monument op het Koningsplein verbindt een lokale gebeurtenis met de bredere oorlogsgeschiedenis.",
     "category": "openbare-kunst",
-    "latitude": 50.85296715,
+    "latitude": 50.849267353382,
     "province": "Limburg",
-    "longitude": 5.6995303,
+    "longitude": 5.7103626579522,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
-    "website_url": "https://www.sleutelwerken.nl/kunstwerken/limburgs-bevrijdingsmonument",
+    "visit_notes": "Buitenmonument op het Koningsplein. Houd rekening met herdenkingen en respecteer de gedenkplek.",
+    "website_url": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/933/maastricht-limburgs-bevrijdingsmonument",
     "inventory_key": "sleutelwerk:44",
-    "street_address": "",
+    "street_address": "Koningsplein, Maastricht",
     "operating_status": "open",
     "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Charles Eyck is hier vertegenwoordigd met Limburgs Bevrijdingsmonument (1952); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-d6563125b006167e64b268c007d9e470",
+    "coordinate_source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/933/maastricht-limburgs-bevrijdingsmonument",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "exact"
   },
   {
     "id": "37620b0f-9981-53b3-996a-28385f7fe83a",

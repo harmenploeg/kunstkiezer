@@ -2797,7 +2797,15 @@
       "maker: brinkman & van der vlugt"
     ],
     "year": "1929-1933",
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Rotterdam_-_Huis_Sonneveld.jpg/330px-Rotterdam_-_Huis_Sonneveld.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Fred Romero",
+        "caption": "Huis Sonneveld, Rotterdam — gevelopname uit 2015.",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rotterdam_-_Huis_Sonneveld.jpg"
+      }
+    ],
     "creator": "BRINKMAN & VAN DER VLUGT",
     "ends_on": null,
     "sources": [
@@ -2805,6 +2813,11 @@
         "url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/201",
         "provider": "Architectuurgids · Top 100",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://nieuweinstituut.nl/projects/huis-sonneveld",
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
       }
     ],
     "summary": "Huis Sonneveld vertaalt het moderne wonen naar een Rotterdamse villa. Brede raamstroken, een dakterras en een heldere functiescheiding bepalen het ontwerp. De woning hoorde bij een directeur van de Van Nellefabriek.",
@@ -2814,8 +2827,8 @@
     "longitude": 4.47232816,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Selectie betreft de architectuur. Binnenbezoek is niet vanzelfsprekend; respecteer woningen en werkplekken en controleer toegang vooraf.",
-    "website_url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/201",
+    "visit_notes": "Museumwoning aan Jongkindstraat 12, geopend dinsdag tot en met zondag van 10.00 tot 17.00 uur. Koop een ticket bij de beheerder.",
+    "website_url": "https://nieuweinstituut.nl/projects/huis-sonneveld",
     "inventory_key": "architectuurgids:201",
     "street_address": "Jongkindstraat 12",
     "operating_status": "open",
@@ -2852,6 +2865,11 @@
         "url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/628",
         "provider": "Architectuurgids · Top 100",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.dudokarchitectuurcentrum.nl/",
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
       }
     ],
     "summary": "Dudok gaf Hilversum een zorgvuldig samengestelde groep bakstenen volumes. De hoge toren brengt oriëntatie en evenwicht in het raadhuis. Het gebouw werd een herkenbaar beeld van modern gemeentelijk bestuur.",
@@ -2861,8 +2879,8 @@
     "longitude": 5.16920455,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Selectie betreft de architectuur. Binnenbezoek is niet vanzelfsprekend; respecteer woningen en werkplekken en controleer toegang vooraf.",
-    "website_url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/628",
+    "visit_notes": "Binnenbezoek via een rondleiding van het Dudok Architectuur Centrum; reserveer vooraf. De ingang van het centrum ligt aan de achterzijde van het Raadhuis, Dudokpark 1.",
+    "website_url": "https://www.dudokarchitectuurcentrum.nl/",
     "inventory_key": "architectuurgids:628",
     "street_address": "Dudokpark 1/Witten Hullweg",
     "operating_status": "open",
@@ -3674,6 +3692,11 @@
         "url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/92",
         "provider": "Architectuurgids · Top 100",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.vredespaleis.nl/bezoek/tour-in-het-paleis/",
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
       }
     ],
     "summary": "Het Vredespaleis gaf internationale arbitrage een monumentaal onderkomen. Een internationale prijsvraag leidde tot een ontwerp met Hollandse neorenaissancevormen. Architectuur en vredesideaal kregen zo een gezamenlijk symbool.",
@@ -3683,8 +3706,8 @@
     "longitude": 4.29582321,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Selectie betreft de architectuur. Binnenbezoek is niet vanzelfsprekend; respecteer woningen en werkplekken en controleer toegang vooraf.",
-    "website_url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/92",
+    "visit_notes": "Binnenbezoek uitsluitend op beschikbare rondleidingsdagen met vooraf geboekt ticket. In de weekenden van mei tot oktober, afhankelijk van de gerechtshoven. Neem een geldig origineel identiteitsbewijs mee; het paleis is beperkt rolstoeltoegankelijk.",
+    "website_url": "https://www.vredespaleis.nl/bezoek/tour-in-het-paleis/",
     "inventory_key": "architectuurgids:92",
     "street_address": "Carnegieplein 2",
     "operating_status": "open",
@@ -7566,6 +7589,11 @@
         "url": "https://nl.wikipedia.org/wiki/Van_Nellefabriek",
         "provider": "Wikipedia · objectbeschrijving en bronverwijzingen",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.vannellefabriekrotterdam.com/nl/veelgestelde-vragen",
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
       }
     ],
     "summary": "Glas, licht en een heldere constructie maakten de Van Nellefabriek een voorbeeld van moderne industriearchitectuur. Het Rotterdamse complex is UNESCO-werelderfgoed. Let op de luchtbruggen en de relatie tussen productiegebouwen.",
@@ -7575,8 +7603,8 @@
     "longitude": 4.43361111111111,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
-    "website_url": "https://nl.wikipedia.org/wiki/Van_Nellefabriek",
+    "visit_notes": "Binnenbezoek via een vooraf gereserveerde rondleiding van Urban Guides of het Chabot Museum. Het complex is ook een evenementenlocatie en bedrijfsverzamelgebouw; kantoren zijn niet vrij toegankelijk.",
+    "website_url": "https://www.vannellefabriekrotterdam.com/nl/veelgestelde-vragen",
     "inventory_key": "rce100:Rotterdam:Van Nellefabriek",
     "street_address": "Van Nelleweg 1, Spaanse Polder, Rotterdam",
     "operating_status": "open",

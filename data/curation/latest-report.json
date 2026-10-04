@@ -8,9 +8,9 @@
       "published": 301,
       "archived": 0,
       "draft": 0,
-      "with_photos": 226,
+      "with_photos": 227,
       "precise_locations": 296,
-      "visible_on_research_date": 291
+      "visible_on_research_date": 290
     },
     "openbare-kunst": {
       "total": 127,
@@ -18,7 +18,7 @@
       "archived": 0,
       "draft": 0,
       "with_photos": 79,
-      "precise_locations": 18,
+      "precise_locations": 20,
       "visible_on_research_date": 108
     },
     "beeldenparken": {
@@ -35,22 +35,22 @@
       "published": 188,
       "archived": 5,
       "draft": 0,
-      "with_photos": 128,
+      "with_photos": 129,
       "precise_locations": 146,
       "visible_on_research_date": 184
     },
     "evenementen": {
-      "total": 75,
-      "published": 75,
+      "total": 78,
+      "published": 78,
       "archived": 0,
       "draft": 0,
-      "with_photos": 72,
-      "precise_locations": 73,
-      "visible_on_research_date": 74
+      "with_photos": 75,
+      "precise_locations": 76,
+      "visible_on_research_date": 77
     }
   },
-  "total": 735,
-  "remaining_records": 310,
+  "total": 738,
+  "remaining_records": 308,
   "remaining": [
     {
       "id": "5402debd-2567-5c85-af4d-31354fd1f113",
@@ -343,6 +343,16 @@
       "website_url": "https://thijnhof.nl/",
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "c699e7cd-a937-57cc-9684-ea19e6adf9b7",
+      "inventory_key": "museum-nl:drawing-centre-diepenheim",
+      "category": "musea",
+      "name": "Drawing Centre Diepenheim",
+      "website_url": "https://www.drawingcentre.nl/",
+      "issues": [
+        "Bezoekstatus: temporarily_closed; opnieuw bij officiële bron controleren"
       ]
     },
     {
@@ -821,16 +831,6 @@
       ]
     },
     {
-      "id": "b3bc3658-ee11-5b7a-862a-198b8a60fc0d",
-      "inventory_key": "art-audit:z101",
-      "category": "musea",
-      "name": "VHDG",
-      "website_url": "https://www.voorheendegemeente.nl",
-      "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
-      ]
-    },
-    {
       "id": "6fc74b6d-e4c5-55e3-aa78-1fe66acb26fc",
       "inventory_key": "art-audit:z105",
       "category": "musea",
@@ -1147,8 +1147,7 @@
       "name": "The Stone Line",
       "website_url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/stone-line",
       "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]
     },
     {
@@ -2064,16 +2063,6 @@
       ]
     },
     {
-      "id": "090695cf-fb67-5713-9c9b-358793fa424c",
-      "inventory_key": "sleutelwerk:44",
-      "category": "openbare-kunst",
-      "name": "Limburgs Bevrijdingsmonument",
-      "website_url": "https://www.sleutelwerken.nl/kunstwerken/limburgs-bevrijdingsmonument",
-      "issues": [
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
-      ]
-    },
-    {
       "id": "37620b0f-9981-53b3-996a-28385f7fe83a",
       "inventory_key": "sleutelwerk:47",
       "category": "openbare-kunst",
@@ -2850,16 +2839,6 @@
       "category": "architectuur",
       "name": "Gemeentemuseum Den Haag",
       "website_url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/779",
-      "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
-      ]
-    },
-    {
-      "id": "16f0a2dc-fddc-57a5-8b56-f6a48ae95856",
-      "inventory_key": "architectuurgids:201",
-      "category": "architectuur",
-      "name": "Woonhuis Sonneveld",
-      "website_url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/201",
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]

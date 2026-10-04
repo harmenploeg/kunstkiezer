@@ -16437,8 +16437,8 @@
     "website_url": "https://www.drawingcentre.nl/",
     "latitude": 52.200662,
     "longitude": 6.550402,
-    "summary": "Ontdek tekenen als een veelzijdige hedendaagse kunstpraktijk. Drawing Centre Diepenheim geeft kunstenaars ruimte om lijnen, materialen en ideeën te onderzoeken. Wisselende tentoonstellingen laten zien hoeveel meer een tekening kan zijn.",
-    "operating_status": "open",
+    "summary": "Drawing Centre Diepenheim onderzoekt hedendaagse tekenkunst in tentoonstellingen, installaties en workshops. Het hoofdgebouw aan Grotestraat 17 is tijdelijk gesloten wegens de opbouw van de volgende tentoonstelling. Vanaf 10 oktober 2026 verwelkomt het bezoekers weer met werk van Peng Zhang.",
+    "operating_status": "temporarily_closed",
     "publication_status": "published",
     "verification_status": "unreviewed",
     "suggested_tags": [],
@@ -16476,6 +16476,15 @@
           "summary",
           "tags",
           "is_art_museum"
+        ]
+      },
+      {
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "url": "https://www.drawingcentre.nl/",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00",
+        "evidence_fields": [
+          "operating_status",
+          "summary"
         ]
       }
     ],
@@ -20712,23 +20721,31 @@
     "name": "VHDG",
     "city": "Leeuwarden",
     "province": "Friesland",
-    "street_address": "Ipe Brouwerssteeg 10A",
-    "postal_code": "8911 BZ",
-    "website_url": "https://www.voorheendegemeente.nl",
+    "street_address": "Naauw 6–8",
+    "postal_code": "8911 HX",
+    "website_url": "https://www.vhdg.nl/",
     "country": "NL",
-    "latitude": 53.20092845,
-    "longitude": 5.79112393,
+    "latitude": 53.20109204,
+    "longitude": 5.79717581,
     "is_art_museum": true,
     "operating_status": "open",
     "publication_status": "published",
     "verification_status": "unreviewed",
-    "summary": "Ontdek eigenzinnige makers bij VHDG. Tentoonstellingen en projecten verbinden hedendaagse kunst met Leeuwarden en de omgeving. De instelling geeft ruimte aan experiment, ontwikkeling en ontmoetingen met nieuwe perspectieven.",
+    "summary": "VHDG presenteert experimentele hedendaagse kunst op de vaste locatie aan Naauw 6–8. Tentoonstellingen, performances en workshops verbinden lokale makers met nieuwe perspectieven. Tijdens exposities is de ruimte dinsdag tot en met zondag van 12.00 tot 17.00 uur gratis toegankelijk.",
     "tags": [
       "hedendaagse kunst",
       "kunsthal",
       "jong talent"
     ],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Naauw_6_Leeuwarden.jpg/330px-Naauw_6_Leeuwarden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Catrope",
+        "caption": "Pand Naauw 6 in 2011, vóór de vestiging van VHDG; historische gevelopname.",
+        "license": "CC BY-SA 3.0 nl",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Naauw_6_Leeuwarden.jpg"
+      }
+    ],
     "sources": [
       {
         "url": "https://www.dezaaknu.nl/leden",
@@ -20754,11 +20771,26 @@
           "tags",
           "is_art_museum"
         ]
+      },
+      {
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "url": "https://www.vhdg.nl/over/",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00",
+        "evidence_fields": [
+          "street_address",
+          "postal_code",
+          "website_url",
+          "latitude",
+          "longitude",
+          "coordinate_source",
+          "photos",
+          "summary"
+        ]
       }
     ],
     "review_notes": "Kunstinstelling met publiek tentoonstellingsprogramma. Geen vaste collectie verondersteld. Raadpleeg het programma voor bezoek; open geldt als actieve instelling, niet als dagelijkse openstelling. FOTO ONTBREEKT: nog een passende foto met aantoonbaar hergebruikrecht toevoegen.",
     "audit_reference": "z101",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-bf20242e1572e65397d1579253b7bfa9",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-22dd645e78c8b0bb8d05cfa847d267f4",
     "coordinate_precision": "address"
   },
   {

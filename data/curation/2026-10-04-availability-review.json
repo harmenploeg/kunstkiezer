@@ -1,6 +1,6 @@
 {
   "research_date": "2026-10-04",
-  "scope": "Controle op verzoek van de beheerder, buiten de automatische wachtrij. Een geslaagde bronaanvraag bewijst niet dat een object nog bestaat. Dit verslag maakt onderscheid tussen technische broncontrole, gerichte inhoudelijke verificatie en resterend onderzoek. Geen volledige bestaanscontrole geclaimd.",
+  "scope": "Doorlopend verslag van de individuele controle op verzoek van de beheerder, inclusief vervolgpartijen via de updaterwachtrij. Technische bronbereikbaarheid is onderscheiden van inhoudelijk geverifieerde bezoekinformatie; resterende vragen blijven per record staan. Geen volledige bestaanscontrole geclaimd.",
   "sources_snapshot": [
     {
       "id": "11fountains",
@@ -124,7 +124,7 @@
     }
   ],
   "baseline_records": 732,
-  "current_records": 735,
+  "current_records": 738,
   "maker_updates": 54,
   "disappeared_updates": 6,
   "records": [
@@ -218,10 +218,33 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "visit_notes",
+        "website_url"
+      ],
+      "decisions": [
+        "De beherende architectuurinstelling bevestigt actuele rondleidingen en de ingang aan de achterzijde; geen vrije toegang tot alle bestuursruimten verondersteld."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "02046c72-cb3a-549a-955f-78861c627444",
+          "name": "Raadhuis Hilversum",
+          "category": "architectuur",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://www.dudokarchitectuurcentrum.nl/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "website_url",
+            "visit_notes"
+          ],
+          "conclusion": "De beherende architectuurinstelling bevestigt actuele rondleidingen en de ingang aan de achterzijde; geen vrije toegang tot alle bestuursruimten verondersteld.",
+          "resolves_availability": true,
+          "remaining": []
+        }
       ]
     },
     {
@@ -428,11 +451,38 @@
           "source_record_id": 196
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "visit_notes"
+      ],
+      "decisions": [
+        "Gemeente noemt het werk in juli 2026 als actuele buitenkunst bij het station. Spoorbouwmeester lokaliseert het aan de plint van het verdiepte stationsplein, rond tunnel en fietsenstalling. Geen exacte coördinaat uit deze primaire pagina’s; stadscoördinaat niet tot objectpunt opgewaardeerd."
+      ],
       "remaining": [
-        "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Exacte kaartcoördinaat van de lichtwand nog niet bevestigd; bezoekplek onder het stationsgebouw is inhoudelijk beschreven."
+      ],
+      "followup_reviews": [
+        {
+          "id": "0565aefa-0022-58b4-9a5e-4e572e144c7a",
+          "name": "Reizend zand",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://www.apeldoorn.nl/cultuur-en-erfgoed/cultuur/kunst-en-cultuur-in-de-openlucht/",
+            "https://www.spoorbeeld.nl/databank/reizend-zand"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "visit_notes"
+          ],
+          "conclusion": "Gemeente noemt het werk in juli 2026 als actuele buitenkunst bij het station. Spoorbouwmeester lokaliseert het aan de plint van het verdiepte stationsplein, rond tunnel en fietsenstalling. Geen exacte coördinaat uit deze primaire pagina’s; stadscoördinaat niet tot objectpunt opgewaardeerd.",
+          "resolves_availability": true,
+          "remaining": [
+            "Exacte kaartcoördinaat van de lichtwand nog niet bevestigd; bezoekplek onder het stationsgebouw is inhoudelijk beschreven."
+          ]
+        }
       ]
     },
     {
@@ -613,12 +663,49 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "coordinate_precision",
+        "latitude",
+        "longitude",
+        "operating_status",
+        "visit_notes"
+      ],
+      "decisions": [
+        "Gemeente Utrecht bevestigt plaatsing in 2026 voor de Ariane de Ranitz-school en levert objectcoördinaten in de openbare paginadata. Schoolgebruik en beperkte terreintoegang blijven expliciet. Foto’s zijn gecrediteerd aan Riccardo de Vecchi, zonder aangetroffen vrije hergebruiklicentie."
+      ],
       "remaining": [
-        "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
-        "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Foto met bevestigde hergebruikvoorwaarden ontbreekt."
+      ],
+      "followup_reviews": [
+        {
+          "id": "083ee35e-1b8b-5031-a3e4-bda5e6fb9e20",
+          "name": "The Stone Line",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/stone-line"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "latitude",
+            "longitude",
+            "coordinate_precision",
+            "visit_notes"
+          ],
+          "conclusion": "Gemeente Utrecht bevestigt plaatsing in 2026 voor de Ariane de Ranitz-school en levert objectcoördinaten in de openbare paginadata. Schoolgebruik en beperkte terreintoegang blijven expliciet. Foto’s zijn gecrediteerd aan Riccardo de Vecchi, zonder aangetroffen vrije hergebruiklicentie.",
+          "resolves_availability": true,
+          "remaining": [
+            "Foto met bevestigde hergebruikvoorwaarden ontbreekt."
+          ],
+          "blocker": {
+            "reason": "Vrije hergebruiktoestemming voor beeld van dit in 2026 geplaatste werk ontbreekt. Gemeentepagina vermeldt Riccardo de Vecchi zonder vrije licentie; Commons levert geen overeenkomstige foto.",
+            "attempts": [
+              "Gemeentelijke objectpagina en fotocredits gelezen.",
+              "Commons gezocht op The Stone Line (14 niet-overeenkomstige treffers) en Studio Ossidiana Utrecht (0 treffers); geen geschikte vrij gelicentieerde foto aangetroffen."
+            ],
+            "required": "Nieuwe vrij gelicentieerde foto of expliciete hergebruiktoestemming van rechthebbende."
+          }
+        }
       ]
     },
     {
@@ -744,11 +831,39 @@
           "source_record_id": 44
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "coordinate_precision",
+        "latitude",
+        "longitude",
+        "operating_status",
+        "street_address",
+        "visit_notes"
+      ],
+      "decisions": [
+        "De landelijke monumentendatabase bevestigt Charles Eyck, Koningsplein en het objectpunt op de kaart. Een stadscentrumcoördinaat is vervangen door de door de monumentenbron aangewezen locatie."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "090695cf-fb67-5713-9c9b-358793fa424c",
+          "name": "Limburgs Bevrijdingsmonument",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/933/maastricht-limburgs-bevrijdingsmonument"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "latitude",
+            "longitude",
+            "coordinate_precision",
+            "visit_notes"
+          ],
+          "conclusion": "De landelijke monumentendatabase bevestigt Charles Eyck, Koningsplein en het objectpunt op de kaart. Een stadscentrumcoördinaat is vervangen door de door de monumentenbron aangewezen locatie.",
+          "resolves_availability": true,
+          "remaining": []
+        }
       ]
     },
     {
@@ -772,11 +887,37 @@
           "source_record_id": 141
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "visit_notes"
+      ],
+      "decisions": [
+        "Gemeentelijke collectie bevestigt vijf olifanten van Tom Claassen in knooppunt A6/A27. Dit is een zichtlocatie voor passerend verkeer; geen bezoekingang of veilige wandelroute vastgesteld. Geen stadscoördinaat als exact objectpunt opgevoerd."
+      ],
       "remaining": [
-        "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Exact objectpunt en eventuele veilige openbare uitzichtplek nog afzonderlijk bevestigen; het snelwegknooppunt is geen wandelbestemming."
+      ],
+      "followup_reviews": [
+        {
+          "id": "091ae7a2-e819-5467-a24c-9e3a5ad6d50f",
+          "name": "De Olifanten",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://stadsarchief.almere.nl/ontdek/tentoonstelling/almere-boven/buiten"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "visit_notes"
+          ],
+          "conclusion": "Gemeentelijke collectie bevestigt vijf olifanten van Tom Claassen in knooppunt A6/A27. Dit is een zichtlocatie voor passerend verkeer; geen bezoekingang of veilige wandelroute vastgesteld. Geen stadscoördinaat als exact objectpunt opgevoerd.",
+          "resolves_availability": true,
+          "remaining": [
+            "Exact objectpunt en eventuele veilige openbare uitzichtplek nog afzonderlijk bevestigen; het snelwegknooppunt is geen wandelbestemming."
+          ]
+        }
       ]
     },
     {
@@ -978,10 +1119,33 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "visit_notes",
+        "website_url"
+      ],
+      "decisions": [
+        "Officiële bezoekpagina inhoudelijk gelezen via web, ondanks HTTP 403 bij directe fetch. Gebouw is een werkpaleis met beperkte rondleidingsdagen, reservering en legitimatie; geen dagelijkse vrije openstelling."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "0c74a58e-56d2-538b-9631-e7c1f83fce1c",
+          "name": "Vredespaleis",
+          "category": "architectuur",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://www.vredespaleis.nl/bezoek/tour-in-het-paleis/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "website_url",
+            "visit_notes"
+          ],
+          "conclusion": "Officiële bezoekpagina inhoudelijk gelezen via web, ondanks HTTP 403 bij directe fetch. Gebouw is een werkpaleis met beperkte rondleidingsdagen, reservering en legitimatie; geen dagelijkse vrije openstelling.",
+          "resolves_availability": true,
+          "remaining": []
+        }
       ]
     },
     {
@@ -1169,10 +1333,33 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "visit_notes",
+        "website_url"
+      ],
+      "decisions": [
+        "De beheerder bevestigt rondleidingen op reservering en huidig gebruik als werk- en evenementenlocatie. De gedateerde FAQ-belofte over een bezoekerscentrum in 2022 is niet overgenomen."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "11fe32a2-69b3-5d07-887c-607758b21614",
+          "name": "Van Nellefabriek",
+          "category": "architectuur",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://www.vannellefabriekrotterdam.com/nl/veelgestelde-vragen"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "website_url",
+            "visit_notes"
+          ],
+          "conclusion": "De beheerder bevestigt rondleidingen op reservering en huidig gebruik als werk- en evenementenlocatie. De gedateerde FAQ-belofte over een bezoekerscentrum in 2022 is niet overgenomen.",
+          "resolves_availability": true,
+          "remaining": []
+        }
       ]
     },
     {
@@ -1753,11 +1940,35 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "photos",
+        "visit_notes",
+        "website_url"
+      ],
+      "decisions": [
+        "Nieuwe Instituut bevestigt bezoekbare museumwoning, adres en openingstijden. Dezelfde woning staat ook in de museumcategorie; beide categorieën blijven gekoppeld aan dezelfde plek, geen nieuw duplicaat."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "16f0a2dc-fddc-57a5-8b56-f6a48ae95856",
+          "name": "Woonhuis Sonneveld",
+          "category": "architectuur",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://nieuweinstituut.nl/projects/huis-sonneveld"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "website_url",
+            "visit_notes",
+            "photos"
+          ],
+          "conclusion": "Nieuwe Instituut bevestigt bezoekbare museumwoning, adres en openingstijden. Dezelfde woning staat ook in de museumcategorie; beide categorieën blijven gekoppeld aan dezelfde plek, geen nieuw duplicaat.",
+          "resolves_availability": true,
+          "remaining": []
+        }
       ]
     },
     {
@@ -2002,10 +2213,35 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "visit_notes",
+        "website_url"
+      ],
+      "decisions": [
+        "Beheerder bevestigt de beeldentuin als doorlopend bezoekaanbod, adres, openingstijden en afzonderlijke toegankelijkheid van tuin/Orangerie tegenover het kasteel."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "1916774f-80d1-5004-aa9a-4c4b0ac27ff2",
+          "name": "Museum de Fundatie – Kasteel het Nijenhuis – beeldentuin",
+          "category": "beeldenparken",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://museumdefundatie.nl/nl/bezoek-het-museum/heino"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url",
+            "visit_notes"
+          ],
+          "conclusion": "Beheerder bevestigt de beeldentuin als doorlopend bezoekaanbod, adres, openingstijden en afzonderlijke toegankelijkheid van tuin/Orangerie tegenover het kasteel.",
+          "resolves_availability": true,
+          "remaining": []
+        }
       ]
     },
     {
@@ -2505,10 +2741,36 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "visit_notes",
+        "website_url"
+      ],
+      "decisions": [
+        "Officiële tuinpagina beschrijft meerdere aanwezige werken (Eecen, Zweerus, Le Rütte, Kuijl, Lucebert); praktische pagina bevestigt bezoekadres en museumuren. Opbouwsluiting museum niet ongefundeerd uitgebreid tot een zelfstandig bevestigde sluiting van de gehele tuin."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "1f786716-abbe-5a12-8e38-362a72a68466",
+          "name": "Museum Kranenburgh – beeldentuin",
+          "category": "beeldenparken",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://kranenburgh.nl/te-doen/beeldentuin/",
+            "https://kranenburgh.nl/bezoek/praktische-informatie/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url",
+            "visit_notes"
+          ],
+          "conclusion": "Officiële tuinpagina beschrijft meerdere aanwezige werken (Eecen, Zweerus, Le Rütte, Kuijl, Lucebert); praktische pagina bevestigt bezoekadres en museumuren. Opbouwsluiting museum niet ongefundeerd uitgebreid tot een zelfstandig bevestigde sluiting van de gehele tuin.",
+          "resolves_availability": true,
+          "remaining": []
+        }
       ]
     },
     {
@@ -2899,14 +3161,14 @@
         "name",
         "operating_status",
         "street_address",
+        "visit_notes",
         "website_url"
       ],
       "decisions": [
-        "De eigen site bevestigt de beeldentuin aan Oude Drift 1, dinsdag-zondag 09.30-17.30; museum, horeca en theater niet met elkaar verward."
+        "De eigen site bevestigt de beeldentuin aan Oude Drift 1, dinsdag-zondag 09.30-17.30; museum, horeca en theater niet met elkaar verward.",
+        "Primaire pagina via web inhoudelijk gelezen: Piet Oudolf-tuin met meerdere hedendaagse sculpturen, gratis toegang en expliciete tuinuren. Directe HTTP-redirectlus omzeild door beschikbare webweergave, geen volledigheidsclaim op grond van de fout."
       ],
-      "remaining": [
-        "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
-      ],
+      "remaining": [],
       "followup_reviews": [
         {
           "id": "24cddb4a-f979-5f9b-9ca5-590dd237b574",
@@ -2922,6 +3184,24 @@
           ],
           "conclusion": "De eigen site bevestigt de beeldentuin aan Oude Drift 1, dinsdag-zondag 09.30-17.30; museum, horeca en theater niet met elkaar verward.",
           "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+        },
+        {
+          "id": "24cddb4a-f979-5f9b-9ca5-590dd237b574",
+          "name": "Singer Laren – beeldentuin",
+          "category": "beeldenparken",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://www.singerlaren.nl/nl/singer-laren-576n"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url",
+            "visit_notes"
+          ],
+          "conclusion": "Primaire pagina via web inhoudelijk gelezen: Piet Oudolf-tuin met meerdere hedendaagse sculpturen, gratis toegang en expliciete tuinuren. Directe HTTP-redirectlus omzeild door beschikbare webweergave, geen volledigheidsclaim op grond van de fout.",
+          "resolves_availability": true,
+          "remaining": []
         }
       ]
     },
@@ -4293,10 +4573,31 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address"
+      ],
+      "decisions": [
+        "Hoflaan 26 en reguliere openstelling dinsdag–zondag bevestigd; opbouwsluiting 2–14 november 2026 is toekomstig, status op 4 oktober blijft open."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "35667f6c-d721-506b-bc05-bfbc92e29eb7",
+          "name": "Museum Kranenburgh",
+          "category": "musea",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://kranenburgh.nl/bezoek/praktische-informatie/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address"
+          ],
+          "conclusion": "Hoflaan 26 en reguliere openstelling dinsdag–zondag bevestigd; opbouwsluiting 2–14 november 2026 is toekomstig, status op 4 oktober blijft open.",
+          "resolves_availability": true,
+          "remaining": []
+        }
       ]
     },
     {
@@ -13047,7 +13348,8 @@
         "website_url"
       ],
       "decisions": [
-        "Oude Drift 1 en museumopenstelling dinsdag-zondag 10-17 bevestigd. Theater en beeldentuin hebben afzonderlijke bezoekinformatie."
+        "Oude Drift 1 en museumopenstelling dinsdag-zondag 10-17 bevestigd. Theater en beeldentuin hebben afzonderlijke bezoekinformatie.",
+        "Museum aan Oude Drift 1 open dinsdag–zondag 10–17 uur. Tuin heeft afzonderlijke gratis toegang en ruimere tijden."
       ],
       "remaining": [],
       "followup_reviews": [
@@ -13065,6 +13367,22 @@
           ],
           "conclusion": "Oude Drift 1 en museumopenstelling dinsdag-zondag 10-17 bevestigd. Theater en beeldentuin hebben afzonderlijke bezoekinformatie.",
           "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+        },
+        {
+          "id": "98651057-8ba9-5e2c-b97a-56c719fb1227",
+          "name": "Singer Laren",
+          "category": "musea",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://www.singerlaren.nl/nl/singer-laren-576n"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address"
+          ],
+          "conclusion": "Museum aan Oude Drift 1 open dinsdag–zondag 10–17 uur. Tuin heeft afzonderlijke gratis toegang en ruimere tijden.",
+          "resolves_availability": true,
+          "remaining": []
         }
       ]
     },
@@ -15479,12 +15797,47 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Prioriteit: officiële actuele VHDG-site noemt Naauw 6–8; database Ipe Brouwerssteeg 10A. Bevestig tentoonstellingsingang, geen correspondentieadres overnemen."
+      "manually_verified_fields": [
+        "coordinate_precision",
+        "latitude",
+        "longitude",
+        "operating_status",
+        "photos",
+        "postal_code",
+        "street_address",
+        "summary",
+        "website_url"
+      ],
+      "decisions": [
+        "VHDG noemt Naauw expliciet als nieuwe vaste tentoonstellingsplek. Actuele Art Market loopt 12 september–18 oktober. Bezoekadres Naauw 6–8, 8911 HX; BAG-adrespunt nummer 6. Vrij gelicentieerde gevelopname uit 2011 geverifieerd, als historisch aangeduid; geen foto van de huidige inrichting."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "b3bc3658-ee11-5b7a-862a-198b8a60fc0d",
+          "name": "VHDG",
+          "category": "musea",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://www.vhdg.nl/over/",
+            "https://www.vhdg.nl/contact/",
+            "https://www.vhdg.nl/programma/art-market-8/"
+          ],
+          "verified_fields": [
+            "street_address",
+            "postal_code",
+            "website_url",
+            "latitude",
+            "longitude",
+            "coordinate_precision",
+            "photos",
+            "operating_status",
+            "summary"
+          ],
+          "conclusion": "VHDG noemt Naauw expliciet als nieuwe vaste tentoonstellingsplek. Actuele Art Market loopt 12 september–18 oktober. Bezoekadres Naauw 6–8, 8911 HX; BAG-adrespunt nummer 6. Vrij gelicentieerde gevelopname uit 2011 geverifieerd, als historisch aangeduid; geen foto van de huidige inrichting.",
+          "resolves_availability": true,
+          "remaining": []
+        }
       ]
     },
     {
@@ -17169,7 +17522,7 @@
       "id": "c699e7cd-a937-57cc-9684-ea19e6adf9b7",
       "name": "Drawing Centre Diepenheim",
       "category": "musea",
-      "operating_status": "open",
+      "operating_status": "temporarily_closed",
       "source_checks": [
         {
           "url": "https://www.drawingcentre.nl/",
@@ -17196,11 +17549,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
-        "Prioriteit: officiële pagina meldt opbouwsluiting tot heropening 10 oktober 2026; database staat nog open. Verse broncontrole en statuscorrectie nodig."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "summary"
+      ],
+      "decisions": [
+        "Opbouwsluiting op 4 oktober bevestigd door expliciete melding op de homepage; heropening 10 oktober 2026. Hoofdgebouw Grotestraat 17 onderscheiden van Drawing Studio aan Kuimgaarden 1."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "c699e7cd-a937-57cc-9684-ea19e6adf9b7",
+          "name": "Drawing Centre Diepenheim",
+          "category": "musea",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://www.drawingcentre.nl/",
+            "https://drawingcentre.nl/plan-je-bezoek/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "summary"
+          ],
+          "conclusion": "Opbouwsluiting op 4 oktober bevestigd door expliciete melding op de homepage; heropening 10 oktober 2026. Hoofdgebouw Grotestraat 17 onderscheiden van Drawing Studio aan Kuimgaarden 1.",
+          "resolves_availability": true,
+          "remaining": []
+        }
       ]
     },
     {
@@ -19653,10 +20029,31 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address"
+      ],
+      "decisions": [
+        "Bezoekbare museumwoning Jongkindstraat 12, dinsdag–zondag 10–17 uur. Bestaande locatiegegevens en museumselectie bevestigd."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "e3aedfaf-7f0b-517d-b5f4-f1f5acaad614",
+          "name": "Huis Sonneveld",
+          "category": "musea",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://nieuweinstituut.nl/projects/huis-sonneveld"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address"
+          ],
+          "conclusion": "Bezoekbare museumwoning Jongkindstraat 12, dinsdag–zondag 10–17 uur. Bestaande locatiegegevens en museumselectie bevestigd.",
+          "resolves_availability": true,
+          "remaining": []
+        }
       ]
     },
     {
@@ -20479,10 +20876,31 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address"
+      ],
+      "decisions": [
+        "Hoofdlocatie ’t Nijenhuis 10 bevestigd; dinsdag–zondag 11–17 uur. Beperkte rolstoeltoegang kasteel, wel toegang Orangerie en tuin."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "ec434d6d-013a-5b24-8781-f692f9282f6b",
+          "name": "Museum de Fundatie – Kasteel het Nijenhuis",
+          "category": "musea",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://museumdefundatie.nl/nl/bezoek-het-museum/heino"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address"
+          ],
+          "conclusion": "Hoofdlocatie ’t Nijenhuis 10 bevestigd; dinsdag–zondag 11–17 uur. Beperkte rolstoeltoegang kasteel, wel toegang Orangerie en tuin.",
+          "resolves_availability": true,
+          "remaining": []
+        }
       ]
     },
     {
@@ -22625,9 +23043,138 @@
           "conclusion": "Exact gedateerde, actuele tentoonstelling bevestigd."
         }
       ]
+    },
+    {
+      "id": "09c55d18-5c13-5b5e-949e-a734887af119",
+      "name": "Peng Zhang — In een land hier niet zo ver vandaan…",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Organisator bevestigt tentoonstelling, kunstinhoud en looptijd 2026-10-10 t/m 2027-01-09. Locatiefoto duidelijk als zodanig gelabeld."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "09c55d18-5c13-5b5e-949e-a734887af119",
+          "name": "Peng Zhang — In een land hier niet zo ver vandaan…",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://drawingcentre.nl/expo/een-land-hier-niet-zo-ver-vandaan/"
+          ],
+          "verified_fields": [
+            "name",
+            "summary",
+            "starts_on",
+            "ends_on",
+            "street_address",
+            "photos",
+            "tags"
+          ],
+          "conclusion": "Organisator bevestigt tentoonstelling, kunstinhoud en looptijd 2026-10-10 t/m 2027-01-09. Locatiefoto duidelijk als zodanig gelabeld.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "2e9776bf-9515-5390-bd34-37918b3062c1",
+      "name": "Dudok x Gispen — 110 jaar Gispen in Gebouwen",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Organisator bevestigt tentoonstelling, kunstinhoud en looptijd 2026-10-09 t/m 2027-04-04. Locatiefoto duidelijk als zodanig gelabeld."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "2e9776bf-9515-5390-bd34-37918b3062c1",
+          "name": "Dudok x Gispen — 110 jaar Gispen in Gebouwen",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://www.dudokarchitectuurcentrum.nl/activiteit/tentoonstelling-dudok-x-gispen-110-jaar-gispen-in-gebouwen/"
+          ],
+          "verified_fields": [
+            "name",
+            "summary",
+            "starts_on",
+            "ends_on",
+            "street_address",
+            "photos",
+            "tags"
+          ],
+          "conclusion": "Organisator bevestigt tentoonstelling, kunstinhoud en looptijd 2026-10-09 t/m 2027-04-04. Locatiefoto duidelijk als zodanig gelabeld.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "649e921a-325d-5422-9c12-66de74cfe130",
+      "name": "Art Market #8",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Organisator bevestigt tentoonstelling, kunstinhoud en looptijd 2026-09-12 t/m 2026-10-18. Locatiefoto duidelijk als zodanig gelabeld."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "649e921a-325d-5422-9c12-66de74cfe130",
+          "name": "Art Market #8",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T12:04:40.057279+00:00",
+          "primary_sources": [
+            "https://www.vhdg.nl/programma/art-market-8/"
+          ],
+          "verified_fields": [
+            "name",
+            "summary",
+            "starts_on",
+            "ends_on",
+            "street_address",
+            "photos",
+            "tags"
+          ],
+          "conclusion": "Organisator bevestigt tentoonstelling, kunstinhoud en looptijd 2026-09-12 t/m 2026-10-18. Locatiefoto duidelijk als zodanig gelabeld.",
+          "remaining": [],
+          "resolves_availability": true
+        }
+      ]
     }
   ],
   "sleutelwerken_api_records_checked": 100,
-  "latest_followup_report": "2026-10-04-review-0543b5e9.json",
-  "updated_at": "2026-10-04T11:31:17.175523+00:00"
+  "latest_followup_report": "2026-10-04-review-aa347a63.json",
+  "updated_at": "2026-10-04T12:04:40.057279+00:00"
 }

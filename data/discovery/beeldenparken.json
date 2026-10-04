@@ -26,6 +26,11 @@
         "url": "https://www.museumdefundatie.nl/",
         "provider": "Beheerder / instelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://museumdefundatie.nl/nl/bezoek-het-museum/heino",
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
       }
     ],
     "summary": "Tussen het kasteel, de gazons en oude bomen ontvouwt zich een rijke verzameling beelden. Monumentale vormen en kleinere sculpturen wisselen elkaar af. De historische omgeving maakt de ontmoetingen met moderne kunst extra verrassend.",
@@ -35,8 +40,8 @@
     "longitude": 6.2135685,
     "museum_id": "ec434d6d-013a-5b24-8781-f692f9282f6b",
     "starts_on": null,
-    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
-    "website_url": "https://www.museumdefundatie.nl/",
+    "visit_notes": "Beeldentuin bij Kasteel het Nijenhuis, ’t Nijenhuis 10. Dinsdag tot en met zondag 11.00–17.00 uur, met museumtoegang. De tuin en Orangerie zijn rolstoeltoegankelijk; het kasteel is beperkt toegankelijk.",
+    "website_url": "https://museumdefundatie.nl/nl/bezoek-het-museum/heino",
     "inventory_key": "garden:Museum de Fundatie – Kasteel het Nijenhuis",
     "street_address": "Het Nijenhuis 10",
     "operating_status": "open",
@@ -473,6 +478,11 @@
         "url": "https://www.ns.nl/dagje-uit/musea/kunst-in-de-buitenlucht",
         "provider": "NS · selectie kunst in de buitenlucht",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.singerlaren.nl/nl/singer-laren-576n",
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
       }
     ],
     "summary": "Tussen de beplanting van Piet Oudolf ontmoet je beelden op een menselijke schaal. De museumtuin verbindt kunst met het ritme van de seizoenen en nodigt uit om langzaam te wandelen en steeds opnieuw te kijken.",
@@ -482,8 +492,8 @@
     "longitude": 5.221566,
     "museum_id": "98651057-8ba9-5e2c-b97a-56c719fb1227",
     "starts_on": null,
-    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
-    "website_url": "https://www.singerlaren.nl/",
+    "visit_notes": "Gratis toegankelijke beeldentuin aan Oude Drift 1, dinsdag tot en met zondag van 09.30 tot 17.30 uur. Voor het museum gelden afzonderlijke tickets en openingstijden.",
+    "website_url": "https://www.singerlaren.nl/nl/singer-laren-576n",
     "inventory_key": "garden:Singer Laren",
     "street_address": "Oude Drift 1",
     "operating_status": "open",
@@ -817,6 +827,16 @@
         "url": "https://www.kranenburgh.nl/",
         "provider": "Beheerder / instelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://kranenburgh.nl/te-doen/beeldentuin/",
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
+      },
+      {
+        "url": "https://kranenburgh.nl/bezoek/praktische-informatie/",
+        "provider": "Primaire inhoudelijke controle 4 oktober 2026",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
       }
     ],
     "summary": "Kunst loopt bij Kranenburgh door naar buiten. In de tuin ontmoet je sculpturen in een groene omgeving die bij het kunstenaarsdorp Bergen past. Ontdek de verschillen in materiaal, schaal en de manier waarop ieder beeld ruimte inneemt.",
@@ -826,8 +846,8 @@
     "longitude": 4.695258,
     "museum_id": "35667f6c-d721-506b-bc05-bfbc92e29eb7",
     "starts_on": null,
-    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
-    "website_url": "https://www.kranenburgh.nl/",
+    "visit_notes": "Bezoek via Museum Kranenburgh, Hoflaan 26. Reguliere museumuren: dinsdag tot en met zondag 10.30–17.00 uur. Het museum meldt opbouwsluiting van 2 tot en met 14 november 2026; controleer toegang tot de tuin bij je bezoek.",
+    "website_url": "https://kranenburgh.nl/te-doen/beeldentuin/",
     "inventory_key": "garden:Museum Kranenburgh",
     "street_address": "Hoflaan 26",
     "operating_status": "open",

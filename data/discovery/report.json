@@ -9,7 +9,7 @@
       "archived": 0,
       "draft": 0,
       "with_photos": 79,
-      "precise_locations": 18,
+      "precise_locations": 20,
       "visible_on_research_date": 108
     },
     "beeldenparken": {
@@ -26,22 +26,22 @@
       "published": 188,
       "archived": 5,
       "draft": 0,
-      "with_photos": 128,
+      "with_photos": 129,
       "precise_locations": 146,
       "visible_on_research_date": 184
     },
     "evenementen": {
-      "total": 75,
-      "published": 75,
+      "total": 78,
+      "published": 78,
       "archived": 0,
       "draft": 0,
-      "with_photos": 72,
-      "precise_locations": 73,
-      "visible_on_research_date": 74
+      "with_photos": 75,
+      "precise_locations": 76,
+      "visible_on_research_date": 77
     }
   },
-  "total": 434,
-  "remaining_records": 310,
+  "total": 437,
+  "remaining_records": 308,
   "remaining": [
     {
       "id": "ec559317-ad1c-58c4-bce2-8118f292d3f2",
@@ -308,8 +308,7 @@
       "name": "The Stone Line",
       "website_url": "https://www.kunstinopenbareruimte-utrecht.nl/kunstwerken/stone-line",
       "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]
     },
     {
@@ -1225,16 +1224,6 @@
       ]
     },
     {
-      "id": "090695cf-fb67-5713-9c9b-358793fa424c",
-      "inventory_key": "sleutelwerk:44",
-      "category": "openbare-kunst",
-      "name": "Limburgs Bevrijdingsmonument",
-      "website_url": "https://www.sleutelwerken.nl/kunstwerken/limburgs-bevrijdingsmonument",
-      "issues": [
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
-      ]
-    },
-    {
       "id": "37620b0f-9981-53b3-996a-28385f7fe83a",
       "inventory_key": "sleutelwerk:47",
       "category": "openbare-kunst",
@@ -2011,16 +2000,6 @@
       "category": "architectuur",
       "name": "Gemeentemuseum Den Haag",
       "website_url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/779",
-      "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
-      ]
-    },
-    {
-      "id": "16f0a2dc-fddc-57a5-8b56-f6a48ae95856",
-      "inventory_key": "architectuurgids:201",
-      "category": "architectuur",
-      "name": "Woonhuis Sonneveld",
-      "website_url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/201",
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]

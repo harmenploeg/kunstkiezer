@@ -4189,5 +4189,152 @@
     "ends_on": "2026-10-11",
     "operating_status": "open",
     "publication_status": "published"
+  },
+  {
+    "id": "09c55d18-5c13-5b5e-949e-a734887af119",
+    "city": "Diepenheim",
+    "name": "Peng Zhang — In een land hier niet zo ver vandaan…",
+    "tags": [
+      "tentoonstelling",
+      "tekenkunst",
+      "hedendaagse kunst",
+      "installaties",
+      "maker: peng zhang"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Kunstvereniging_Diepenheim_hoofdgebouw_%28cropped%29.jpg/330px-Kunstvereniging_Diepenheim_hoofdgebouw_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Jürgen Eissink",
+        "caption": "Drawing Centre Diepenheim — locatiefoto uit 2018, geen tentoonstellingsbeeld.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kunstvereniging_Diepenheim_hoofdgebouw_(cropped).jpg"
+      }
+    ],
+    "creator": "Peng Zhang",
+    "ends_on": "2027-01-09",
+    "sources": [
+      {
+        "url": "https://drawingcentre.nl/expo/een-land-hier-niet-zo-ver-vandaan/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
+      }
+    ],
+    "summary": "Peng Zhang verbindt herinneringen aan het Chinese platteland met de omgeving van Diepenheim. Met tekeningen en installaties onderzoekt hij landbouw, landschap, ambacht en de verhalen die mensen aan hun leefomgeving verbinden.",
+    "category": "evenementen",
+    "latitude": 52.200662,
+    "province": "Overijssel",
+    "longitude": 6.550402,
+    "museum_id": "c699e7cd-a937-57cc-9684-ea19e6adf9b7",
+    "starts_on": "2026-10-10",
+    "created_at": "2026-10-04T12:05:57.163383+00:00",
+    "updated_at": "2026-10-04T12:05:57.290982+00:00",
+    "visit_notes": "Vanaf 10 oktober in Drawing Centre Diepenheim, Grotestraat 17. Het museum is tot de opening gesloten wegens opbouw. Daarna woensdag tot en met zondag 12.00–17.00 uur.",
+    "website_url": "https://drawingcentre.nl/expo/een-land-hier-niet-zo-ver-vandaan/",
+    "inventory_key": "event:drawingcentre.nl/expo/een-land-hier-niet-zo-ver-vandaan:2026-10-10",
+    "street_address": "Grotestraat 17",
+    "operating_status": "open",
+    "selection_reason": "Kunsttentoonstelling bij een instelling uit de actieve bronnenpool. Inhoud, locatie en begin- en einddatum door de organisator bevestigd; loopt op de controledatum of begint binnen één kalendermaand.",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "2e9776bf-9515-5390-bd34-37918b3062c1",
+    "city": "Hilversum",
+    "name": "Dudok x Gispen — 110 jaar Gispen in Gebouwen",
+    "tags": [
+      "tentoonstelling",
+      "design",
+      "architectuur",
+      "toegepaste kunst",
+      "maker: willem hendrik gispen; willem marinus dudok"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Raadhuis_Hilversum2022.jpg/330px-Raadhuis_Hilversum2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Choinowski",
+        "caption": "Raadhuis Hilversum, locatie van de tentoonstelling — gevelopname uit 2022.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Raadhuis_Hilversum2022.jpg"
+      }
+    ],
+    "creator": "Willem Hendrik Gispen; Willem Marinus Dudok",
+    "ends_on": "2027-04-04",
+    "sources": [
+      {
+        "url": "https://www.dudokarchitectuurcentrum.nl/activiteit/tentoonstelling-dudok-x-gispen-110-jaar-gispen-in-gebouwen/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
+      }
+    ],
+    "summary": "Ontdek hoe Gispen-meubels en architectuur elkaar beïnvloeden. De tentoonstelling volgt 110 jaar Nederlands interieurontwerp en belicht de samenwerking tussen Willem Hendrik Gispen en Willem Marinus Dudok, van modernistische gebouwen tot eigentijdse werkplekken.",
+    "category": "evenementen",
+    "latitude": 52.2294016,
+    "province": "Noord-Holland",
+    "longitude": 5.16920455,
+    "museum_id": null,
+    "starts_on": "2026-10-09",
+    "created_at": "2026-10-04T12:05:57.163383+00:00",
+    "updated_at": "2026-10-04T12:05:57.294061+00:00",
+    "visit_notes": "Dudok Architectuur Centrum, souterrain Raadhuis; ingang achterzijde, Dudokpark 1. Woensdag 14.00–17.00 uur, donderdag tot en met zondag 12.00–16.00 uur. Geen voorafgaande aanmelding nodig.",
+    "website_url": "https://www.dudokarchitectuurcentrum.nl/activiteit/tentoonstelling-dudok-x-gispen-110-jaar-gispen-in-gebouwen/",
+    "inventory_key": "event:www.dudokarchitectuurcentrum.nl/activiteit/tentoonstelling-dudok-x-gispen-110-jaar-gispen-in-gebouwen:2026-10-09",
+    "street_address": "Dudokpark 1/Witten Hullweg",
+    "operating_status": "open",
+    "selection_reason": "Kunsttentoonstelling bij een instelling uit de actieve bronnenpool. Inhoud, locatie en begin- en einddatum door de organisator bevestigd; loopt op de controledatum of begint binnen één kalendermaand.",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-d8a93ef2dc4750b97aeeb87448a78fe8",
+    "publication_status": "published",
+    "coordinate_precision": "address"
+  },
+  {
+    "id": "649e921a-325d-5422-9c12-66de74cfe130",
+    "city": "Leeuwarden",
+    "name": "Art Market #8",
+    "tags": [
+      "tentoonstelling",
+      "hedendaagse kunst",
+      "keramiek",
+      "textiel",
+      "schilderkunst"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Naauw_6_Leeuwarden.jpg/330px-Naauw_6_Leeuwarden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Catrope",
+        "caption": "Locatie van de tentoonstelling; Pand Naauw 6 in 2011, vóór de vestiging van VHDG; historische gevelopname.",
+        "license": "CC BY-SA 3.0 nl",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Naauw_6_Leeuwarden.jpg"
+      }
+    ],
+    "creator": "",
+    "ends_on": "2026-10-18",
+    "sources": [
+      {
+        "url": "https://www.vhdg.nl/programma/art-market-8/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T12:04:40.057279+00:00"
+      }
+    ],
+    "summary": "Tien jonge en lokale makers tonen bij VHDG keramiek, schilderijen, illustraties, textiel en andere kunstobjecten. De tijdelijke presentatie maakt ruimte voor uiteenlopende materialen en technieken. De werken zijn te koop; de opbrengst gaat rechtstreeks naar de makers.",
+    "category": "evenementen",
+    "latitude": 53.20109204,
+    "province": "Friesland",
+    "longitude": 5.79717581,
+    "museum_id": "b3bc3658-ee11-5b7a-862a-198b8a60fc0d",
+    "starts_on": "2026-09-12",
+    "created_at": "2026-10-04T12:05:57.163383+00:00",
+    "updated_at": "2026-10-04T12:07:59.129142+00:00",
+    "visit_notes": "VHDG, Naauw 6–8. Tijdens exposities dinsdag tot en met zondag 12.00–17.00 uur; gratis toegang.",
+    "website_url": "https://www.vhdg.nl/programma/art-market-8/",
+    "inventory_key": "event:www.vhdg.nl/programma/art-market-8:2026-09-12",
+    "street_address": "Naauw 6–8",
+    "operating_status": "open",
+    "selection_reason": "Kunsttentoonstelling bij een instelling uit de actieve bronnenpool. Inhoud, locatie en begin- en einddatum door de organisator bevestigd; loopt op de controledatum of begint binnen één kalendermaand.",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-22dd645e78c8b0bb8d05cfa847d267f4",
+    "publication_status": "published",
+    "coordinate_precision": "address"
   }
 ]
