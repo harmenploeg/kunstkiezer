@@ -4336,5 +4336,448 @@
     "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-22dd645e78c8b0bb8d05cfa847d267f4",
     "publication_status": "published",
     "coordinate_precision": "address"
+  },
+  {
+    "id": "94fabac3-d53c-5af9-b20c-c28d4457c7f3",
+    "city": "Bredevoort",
+    "name": "De verloren tijd",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "tekeningen",
+      "schilderkunst",
+      "identiteit",
+      "maker: marina ruempol; bert taken"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Koppelkerk_Bredevoort.jpeg/330px-Koppelkerk_Bredevoort.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "ErikKoppelkerk",
+        "caption": "Locatiebeeld, geen opname van deze tentoonstelling: Koppelkerk — gevelopname uit 2015.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Koppelkerk_Bredevoort.jpeg"
+      }
+    ],
+    "creator": "Marina Ruempol; Bert Taken",
+    "ends_on": "2026-10-11",
+    "sources": [
+      {
+        "url": "https://koppelkerk.nl/evenementen/expositie-de-verloren-tijd/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
+      }
+    ],
+    "summary": "Marina Ruempol en Bert Taken onderzoeken hun verhouding tot plaats, tijd en elkaar. Geënsceneerde fotografie, tekeningen en schilderijen brengen herinnering, eenzaamheid, vervreemding en verbondenheid samen.",
+    "category": "evenementen",
+    "latitude": 51.94082769,
+    "province": "Gelderland",
+    "longitude": 6.61562927,
+    "museum_id": "08c3d4c2-0fb4-5732-8916-5eda0748d06d",
+    "starts_on": "2026-08-28",
+    "created_at": "2026-10-04T16:41:00.222066+00:00",
+    "updated_at": "2026-10-04T16:41:00.401397+00:00",
+    "visit_notes": "Vrijdag tot en met zondag 11.00–17.00 uur, Koppelkerk, Koppelstraat 35. Controleer eventuele afwijkingen bij de organisator.",
+    "website_url": "https://koppelkerk.nl/evenementen/expositie-de-verloren-tijd/",
+    "inventory_key": "event:koppelkerk.nl/evenementen/expositie-de-verloren-tijd:2026-08-28",
+    "street_address": "Koppelstraat 35",
+    "operating_status": "open",
+    "selection_reason": "Beeldende kunst of geluidskunst bij een instelling uit de actieve bronnenpool; inhoud, plaats en volledige looptijd door de organisator bevestigd. Loopt nu of begint binnen één kalendermaand.",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-ad107c7fd677d31ff50fd1aedec280c8",
+    "publication_status": "published",
+    "coordinate_precision": "address"
+  },
+  {
+    "id": "d1753ce8-d59e-5cdf-94fd-6d053abee306",
+    "city": "Bredevoort",
+    "name": "Marcel van den Bergh — Verborgen Landschap & meer",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "documentaire fotografie",
+      "landschap",
+      "klimaat",
+      "maker: marcel van den bergh"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Koppelkerk_Bredevoort.jpeg/330px-Koppelkerk_Bredevoort.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "ErikKoppelkerk",
+        "caption": "Locatiebeeld, geen opname van deze tentoonstelling: Koppelkerk — gevelopname uit 2015.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Koppelkerk_Bredevoort.jpeg"
+      }
+    ],
+    "creator": "Marcel van den Bergh",
+    "ends_on": "2026-11-15",
+    "sources": [
+      {
+        "url": "https://koppelkerk.nl/evenementen/expositie-marcel-van-den-bergh-verborgen-landschap-meer/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
+      }
+    ],
+    "summary": "Fotograaf Marcel van den Bergh brengt klimaat, landschap en het dagelijks leven in beeld. Zijn series richten de aandacht op gewone mensen en plekken die gemakkelijk worden gemist, met verbazing als vertrekpunt.",
+    "category": "evenementen",
+    "latitude": 51.94082769,
+    "province": "Gelderland",
+    "longitude": 6.61562927,
+    "museum_id": "08c3d4c2-0fb4-5732-8916-5eda0748d06d",
+    "starts_on": "2026-09-18",
+    "created_at": "2026-10-04T16:41:00.222066+00:00",
+    "updated_at": "2026-10-04T16:41:00.407444+00:00",
+    "visit_notes": "Vrijdag tot en met zondag 11.00–17.00 uur, Koppelkerk, Koppelstraat 35. Controleer eventuele afwijkingen bij de organisator.",
+    "website_url": "https://koppelkerk.nl/evenementen/expositie-marcel-van-den-bergh-verborgen-landschap-meer/",
+    "inventory_key": "event:koppelkerk.nl/evenementen/expositie-marcel-van-den-bergh-verborgen-landschap-meer:2026-09-18",
+    "street_address": "Koppelstraat 35",
+    "operating_status": "open",
+    "selection_reason": "Beeldende kunst of geluidskunst bij een instelling uit de actieve bronnenpool; inhoud, plaats en volledige looptijd door de organisator bevestigd. Loopt nu of begint binnen één kalendermaand.",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-ad107c7fd677d31ff50fd1aedec280c8",
+    "publication_status": "published",
+    "coordinate_precision": "address"
+  },
+  {
+    "id": "86edad70-2305-558d-a529-28ebd462c7b7",
+    "city": "Bredevoort",
+    "name": "Voorbij dimensies",
+    "tags": [
+      "tentoonstelling",
+      "digitale kunst",
+      "fotografie",
+      "waarneming",
+      "maker: bert souren lamers; annemieke tonnaer"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Koppelkerk_Bredevoort.jpeg/330px-Koppelkerk_Bredevoort.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "ErikKoppelkerk",
+        "caption": "Locatiebeeld, geen opname van deze tentoonstelling: Koppelkerk — gevelopname uit 2015.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Koppelkerk_Bredevoort.jpeg"
+      }
+    ],
+    "creator": "Bert Souren Lamers; Annemieke Tonnaer",
+    "ends_on": "2026-11-29",
+    "sources": [
+      {
+        "url": "https://koppelkerk.nl/evenementen/expositie-voorbij-dimensies/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
+      }
+    ],
+    "summary": "Digitaal kunstenaar Bert Souren Lamers en conceptueel fotograaf Annemieke Tonnaer onderzoeken hoe kunst de waarneming van ruimte verandert. Feiten en fantasie lopen in elkaar over; de tentoonstelling vraagt wat werkelijkheid is en wat door onze blik ontstaat.",
+    "category": "evenementen",
+    "latitude": 51.94082769,
+    "province": "Gelderland",
+    "longitude": 6.61562927,
+    "museum_id": "08c3d4c2-0fb4-5732-8916-5eda0748d06d",
+    "starts_on": "2026-10-16",
+    "created_at": "2026-10-04T16:41:00.222066+00:00",
+    "updated_at": "2026-10-04T16:41:00.409892+00:00",
+    "visit_notes": "Vrijdag tot en met zondag 11.00–17.00 uur, Koppelkerk, Koppelstraat 35. Controleer eventuele afwijkingen bij de organisator.",
+    "website_url": "https://koppelkerk.nl/evenementen/expositie-voorbij-dimensies/",
+    "inventory_key": "event:koppelkerk.nl/evenementen/expositie-voorbij-dimensies:2026-10-16",
+    "street_address": "Koppelstraat 35",
+    "operating_status": "open",
+    "selection_reason": "Beeldende kunst of geluidskunst bij een instelling uit de actieve bronnenpool; inhoud, plaats en volledige looptijd door de organisator bevestigd. Loopt nu of begint binnen één kalendermaand.",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-ad107c7fd677d31ff50fd1aedec280c8",
+    "publication_status": "published",
+    "coordinate_precision": "address"
+  },
+  {
+    "id": "5f4a3755-3f69-523e-85ac-5690048df5c1",
+    "city": "Leiden",
+    "name": "Licht over Deshima",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "19e eeuw",
+      "Japanse kunst"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/WLANL_-_Pachango_-_Sieboldhuis.jpg/330px-WLANL_-_Pachango_-_Sieboldhuis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Niels from Amsterdam, NL",
+        "caption": "Locatiebeeld, geen opname van deze tentoonstelling: Japanmuseum SieboldHuis — gevelopname uit 2009.",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:WLANL_-_Pachango_-_Sieboldhuis.jpg"
+      }
+    ],
+    "creator": "",
+    "ends_on": "2027-02-28",
+    "sources": [
+      {
+        "url": "https://www.sieboldhuis.org/tentoonstellingen/licht-over-deshima/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
+      }
+    ],
+    "summary": "Ontdek hoe fotografie in de negentiende eeuw Japan bereikte via de Nederlandse handelspost Deshima. Vroege beelden tonen een samenleving in verandering. Kwetsbare historische foto’s worden grotendeels als nieuwe tentoonstellingsprints gepresenteerd, waardoor ook kleine albumbeelden goed te bekijken zijn.",
+    "category": "evenementen",
+    "latitude": 52.159641,
+    "province": "Zuid-Holland",
+    "longitude": 4.484616,
+    "museum_id": "13d786ee-7180-5e3f-ac5f-3aa0961316ad",
+    "starts_on": "2026-09-25",
+    "created_at": "2026-10-04T16:41:00.222066+00:00",
+    "updated_at": "2026-10-04T16:41:00.410767+00:00",
+    "visit_notes": "Dinsdag tot en met zondag 10.00–17.00 uur, Rapenburg 19. Raadpleeg de organisator voor feestdagensluitingen.",
+    "website_url": "https://www.sieboldhuis.org/tentoonstellingen/licht-over-deshima/",
+    "inventory_key": "event:www.sieboldhuis.org/tentoonstellingen/licht-over-deshima:2026-09-25",
+    "street_address": "Rapenburg 19",
+    "operating_status": "open",
+    "selection_reason": "Beeldende kunst of geluidskunst bij een instelling uit de actieve bronnenpool; inhoud, plaats en volledige looptijd door de organisator bevestigd. Loopt nu of begint binnen één kalendermaand.",
+    "coordinate_source": "Bestaande museumcoördinaten",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "03316b59-3bc4-5247-a620-182bf1801e26",
+    "city": "Amsterdam",
+    "name": "Cold in Church — Sails of Anarchy",
+    "tags": [
+      "tentoonstelling",
+      "installaties",
+      "geluidskunst",
+      "lichtkunst",
+      "tekeningen",
+      "maker: cold in church"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Amsterdam_-_Rokin_112.JPG/330px-Amsterdam_-_Rokin_112.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Rudolphous",
+        "caption": "Locatiebeeld, geen opname van deze tentoonstelling: Arti et Amicitiae, Rokin 112 — gevelopname uit 2010.",
+        "license": "CC BY-SA 3.0 nl",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Rokin_112.JPG"
+      }
+    ],
+    "creator": "Cold in Church",
+    "ends_on": "2026-11-07",
+    "sources": [
+      {
+        "url": "https://arti.nl/agenda/09-10-2026/sails-of-anarchy",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
+      }
+    ],
+    "summary": "Collectief Cold in Church onderzoekt collectieve kracht en verzet via piratenverbeelding. Een koorinstallatie, kleurpotloodtekeningen, een schilderij en bewegend licht verbinden drie ruimten. Door te luisteren en te kijken ontvouwt zich een wereld waarin samenwerking centraal staat.",
+    "category": "evenementen",
+    "latitude": 52.3688806,
+    "province": "Noord-Holland",
+    "longitude": 4.89179904,
+    "museum_id": "121a5aff-df75-51a1-a97a-e98ba0c0a5c7",
+    "starts_on": "2026-10-09",
+    "created_at": "2026-10-04T16:41:00.222066+00:00",
+    "updated_at": "2026-10-04T16:41:00.414018+00:00",
+    "visit_notes": "Arti, Rokin 112. Dinsdag–zondag 12.00–17.00 uur; opening 9 oktober om 19.00 uur. Voor Museumnacht op 7 november gelden afzonderlijke tickets.",
+    "website_url": "https://arti.nl/agenda/09-10-2026/sails-of-anarchy",
+    "inventory_key": "event:arti.nl/agenda/09-10-2026/sails-of-anarchy:2026-10-09",
+    "street_address": "Rokin 112",
+    "operating_status": "open",
+    "selection_reason": "Beeldende kunst of geluidskunst bij een instelling uit de actieve bronnenpool; inhoud, plaats en volledige looptijd door de organisator bevestigd. Loopt nu of begint binnen één kalendermaand.",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-eb6ed304f857bd002b782ebec4353660",
+    "publication_status": "published",
+    "coordinate_precision": "address"
+  },
+  {
+    "id": "55908d4a-68af-514d-8b94-2755e5875f12",
+    "city": "Amsterdam",
+    "name": "Wellness, Wigs and Weapons",
+    "tags": [
+      "tentoonstelling",
+      "installaties",
+      "identiteit",
+      "consumptiecultuur",
+      "maker: bein van vilsteren; luca mosbech; marianne theunissen"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Amsterdam_-_Rokin_112.JPG/330px-Amsterdam_-_Rokin_112.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Rudolphous",
+        "caption": "Locatiebeeld, geen opname van deze tentoonstelling: Arti et Amicitiae, Rokin 112 — gevelopname uit 2010.",
+        "license": "CC BY-SA 3.0 nl",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Rokin_112.JPG"
+      }
+    ],
+    "creator": "Bein van Vilsteren; Luca Mosbech; Marianne Theunissen",
+    "ends_on": "2026-11-07",
+    "sources": [
+      {
+        "url": "https://arti.nl/agenda/09-10-2026/wellness-wigs-and-weapons",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
+      }
+    ],
+    "summary": "Bein van Vilsteren, Luca Mosbech en Marianne Theunissen onderzoeken hoe producten, identiteit en verleiding samenkomen. In drie winkelachtige omgevingen vervagen grenzen tussen mens, object en ruimte. Van 9 tot en met 22 oktober is de opbouw publiek toegankelijk; vanaf 23 oktober staat de voltooide presentatie centraal.",
+    "category": "evenementen",
+    "latitude": 52.3688806,
+    "province": "Noord-Holland",
+    "longitude": 4.89179904,
+    "museum_id": "121a5aff-df75-51a1-a97a-e98ba0c0a5c7",
+    "starts_on": "2026-10-09",
+    "created_at": "2026-10-04T16:41:00.222066+00:00",
+    "updated_at": "2026-10-04T16:41:00.415747+00:00",
+    "visit_notes": "Arti, Rokin 112. Dinsdag–zondag 12.00–17.00 uur. 9–22 oktober publiek toegankelijke opbouw; presentatie 23 oktober 18.00–21.00 uur. Voor Museumnacht gelden aparte tickets.",
+    "website_url": "https://arti.nl/agenda/09-10-2026/wellness-wigs-and-weapons",
+    "inventory_key": "event:arti.nl/agenda/09-10-2026/wellness-wigs-and-weapons:2026-10-09",
+    "street_address": "Rokin 112",
+    "operating_status": "open",
+    "selection_reason": "Beeldende kunst of geluidskunst bij een instelling uit de actieve bronnenpool; inhoud, plaats en volledige looptijd door de organisator bevestigd. Loopt nu of begint binnen één kalendermaand.",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-eb6ed304f857bd002b782ebec4353660",
+    "publication_status": "published",
+    "coordinate_precision": "address"
+  },
+  {
+    "id": "e50e92e4-a38f-5fc2-bc19-d51bb78cccf2",
+    "city": "Venray",
+    "name": "One Way Ticket",
+    "tags": [
+      "tentoonstelling",
+      "hedendaagse kunst",
+      "identiteit",
+      "lichaam",
+      "maker: charlott markus; antoine berghs; vicky filippa; remy neumann"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Venray-merseloseweg-208281.jpg/330px-Venray-merseloseweg-208281.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Pim van Tend",
+        "caption": "Locatiebeeld, geen opname van deze tentoonstelling: Het Theehuis in Odapark — locatiefoto uit 2020.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Venray-merseloseweg-208281.jpg"
+      }
+    ],
+    "creator": "Charlott Markus; Antoine Berghs; Vicky Filippa; Remy Neumann",
+    "ends_on": "2027-01-03",
+    "sources": [
+      {
+        "url": "https://www.odapark.nl/tentoonstellingen/one-way-ticket/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
+      }
+    ],
+    "summary": "Charlott Markus, Antoine Berghs, Vicky Filippa en Remy Neumann verkennen de psyche via herinnering, ritueel en lichamelijkheid. De geschiedenis van de psychiatrische instellingen in Venray vormt een vertrekpunt voor een tentoonstelling over identiteit, kwetsbaarheid en verbeelding.",
+    "category": "evenementen",
+    "latitude": 51.5239583333333,
+    "province": "Limburg",
+    "longitude": 5.96189444444444,
+    "museum_id": "7b8f4db6-e522-5daf-9561-97924ceafc87",
+    "starts_on": "2026-09-20",
+    "created_at": "2026-10-04T16:41:00.222066+00:00",
+    "updated_at": "2026-10-04T16:41:00.416667+00:00",
+    "visit_notes": "Odapark, Merseloseweg 117. Tentoonstellingen dinsdag–zondag 13.30–17.00 uur tot eind november; december–januari 13.00–16.00 uur. Controleer feestdagensluitingen.",
+    "website_url": "https://www.odapark.nl/tentoonstellingen/one-way-ticket/",
+    "inventory_key": "event:www.odapark.nl/tentoonstellingen/one-way-ticket:2026-09-20",
+    "street_address": "Merseloseweg 117",
+    "operating_status": "open",
+    "selection_reason": "Beeldende kunst of geluidskunst bij een instelling uit de actieve bronnenpool; inhoud, plaats en volledige looptijd door de organisator bevestigd. Loopt nu of begint binnen één kalendermaand.",
+    "coordinate_source": "https://nl.wikipedia.org/wiki/Odapark",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "0765f494-3857-5802-bf4f-7c1609f748dd",
+    "city": "Venray",
+    "name": "Tussen niet-zien en weer-zien",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "geluidskunst",
+      "natuur en milieu",
+      "maker: wil friesen; gijs friesen"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Venray-merseloseweg-208281.jpg/330px-Venray-merseloseweg-208281.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Pim van Tend",
+        "caption": "Locatiebeeld, geen opname van deze tentoonstelling: Het Theehuis in Odapark — locatiefoto uit 2020.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Venray-merseloseweg-208281.jpg"
+      }
+    ],
+    "creator": "Wil Friesen; Gijs Friesen",
+    "ends_on": "2027-01-03",
+    "sources": [
+      {
+        "url": "https://www.odapark.nl/tentoonstellingen/tussen-niet-zien-en-weer-zien/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
+      }
+    ],
+    "summary": "Wil Friesen onderzoekt het licht en de natuur van Odapark met experimentele fotografische technieken. Zijn zoon Gijs Friesen voegt een compositie toe. Drie fotoseries laten contouren, belichting en de grens tussen zien en niet-zien op verschillende manieren ervaren.",
+    "category": "evenementen",
+    "latitude": 51.5239583333333,
+    "province": "Limburg",
+    "longitude": 5.96189444444444,
+    "museum_id": "7b8f4db6-e522-5daf-9561-97924ceafc87",
+    "starts_on": "2026-09-20",
+    "created_at": "2026-10-04T16:41:00.222066+00:00",
+    "updated_at": "2026-10-04T16:41:00.417617+00:00",
+    "visit_notes": "Odapark, Merseloseweg 117. Tentoonstellingen dinsdag–zondag 13.30–17.00 uur tot eind november; december–januari 13.00–16.00 uur. Controleer feestdagensluitingen.",
+    "website_url": "https://www.odapark.nl/tentoonstellingen/tussen-niet-zien-en-weer-zien/",
+    "inventory_key": "event:www.odapark.nl/tentoonstellingen/tussen-niet-zien-en-weer-zien:2026-09-20",
+    "street_address": "Merseloseweg 117",
+    "operating_status": "open",
+    "selection_reason": "Beeldende kunst of geluidskunst bij een instelling uit de actieve bronnenpool; inhoud, plaats en volledige looptijd door de organisator bevestigd. Loopt nu of begint binnen één kalendermaand.",
+    "coordinate_source": "https://nl.wikipedia.org/wiki/Odapark",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
+  },
+  {
+    "id": "e557df9f-2182-5d90-a070-961c01cbcfe2",
+    "city": "Venray",
+    "name": "GEWORTELD — een audioboswandeling",
+    "tags": [
+      "evenement",
+      "geluidskunst",
+      "kunstwandeling",
+      "natuur en milieu",
+      "maker: els huver"
+    ],
+    "year": "2026",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Venray-merseloseweg-208281.jpg/330px-Venray-merseloseweg-208281.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Pim van Tend",
+        "caption": "Locatiebeeld, geen opname van deze tentoonstelling: Het Theehuis in Odapark — locatiefoto uit 2020.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Venray-merseloseweg-208281.jpg"
+      }
+    ],
+    "creator": "Els Huver",
+    "ends_on": "2026-10-31",
+    "sources": [
+      {
+        "url": "https://www.odapark.nl/tentoonstellingen/geworteld-2/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
+      }
+    ],
+    "summary": "Kunstenaar Els Huver verbindt persoonlijke verhalen van inwoners van Venray met verhalen over bomen. Met een koptelefoon wandel je door het bos en onderzoek je overeenkomsten tussen mensen en natuur. Het geluidswerk nodigt uit tot aandacht voor de veranderende leefomgeving.",
+    "category": "evenementen",
+    "latitude": 51.5239583333333,
+    "province": "Limburg",
+    "longitude": 5.96189444444444,
+    "museum_id": "7b8f4db6-e522-5daf-9561-97924ceafc87",
+    "starts_on": "2026-08-01",
+    "created_at": "2026-10-04T16:41:00.222066+00:00",
+    "updated_at": "2026-10-04T16:41:00.418401+00:00",
+    "visit_notes": "Audiogids ophalen bij Odapark op openingsdagen tussen 13.30 en 15.30 uur; betaald programma. Het beeldenbos zelf heeft afzonderlijke vrije toegang.",
+    "website_url": "https://www.odapark.nl/tentoonstellingen/geworteld-2/",
+    "inventory_key": "event:www.odapark.nl/tentoonstellingen/geworteld-2:2026-08-01",
+    "street_address": "Merseloseweg 117",
+    "operating_status": "open",
+    "selection_reason": "Beeldende kunst of geluidskunst bij een instelling uit de actieve bronnenpool; inhoud, plaats en volledige looptijd door de organisator bevestigd. Loopt nu of begint binnen één kalendermaand.",
+    "coordinate_source": "https://nl.wikipedia.org/wiki/Odapark",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
   }
 ]

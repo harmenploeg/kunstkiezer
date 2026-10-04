@@ -40,16 +40,16 @@
       "visible_on_research_date": 184
     },
     "evenementen": {
-      "total": 78,
-      "published": 78,
+      "total": 87,
+      "published": 87,
       "archived": 0,
       "draft": 0,
-      "with_photos": 75,
-      "precise_locations": 76,
-      "visible_on_research_date": 77
+      "with_photos": 84,
+      "precise_locations": 85,
+      "visible_on_research_date": 86
     }
   },
-  "total": 738,
+  "total": 747,
   "remaining_records": 308,
   "remaining": [
     {

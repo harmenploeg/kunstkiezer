@@ -2644,6 +2644,11 @@
         "url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/286",
         "provider": "Architectuurgids · Top 100",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.dekuip.com/nl/tour-en-museum",
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
       }
     ],
     "summary": "Tribunes volgen het speelveld in een doorlopende kromming. De Kuip brengt toeschouwers zo dicht mogelijk bij het voetbal. Uitkragend staal draagt de bovenring en geeft het stadion zijn lichte constructieve karakter.",
@@ -2653,8 +2658,8 @@
     "longitude": 4.52469845,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Selectie betreft de architectuur. Binnenbezoek is niet vanzelfsprekend; respecteer woningen en werkplekken en controleer toegang vooraf.",
-    "website_url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/286",
+    "visit_notes": "Bekijk de stadionarchitectuur tijdens een geboekte rondleiding. Beschikbaarheid en toegankelijke ruimten hangen af van wedstrijden en evenementen. Boek vooraf bij De Kuip; toegang tot de tribunes en binnenruimten is niet vrij.",
+    "website_url": "https://www.dekuip.com/nl/tour-en-museum",
     "inventory_key": "architectuurgids:286",
     "street_address": "Van Zandvlietplein 1",
     "operating_status": "open",
@@ -3846,6 +3851,21 @@
         "url": "https://nl.wikipedia.org/wiki/Sint-Bavokerk_(Aardenburg)",
         "provider": "Wikipedia · objectbeschrijving en bronverwijzingen",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.sintbaafskerkaardenburg.nl/",
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
+      },
+      {
+        "url": "https://monumentenbezit.nl/monumenten/sint-bavokerk-aardenburg/",
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
+      },
+      {
+        "url": "https://monumentenbezit.nl/projecten/onderhoud-sint-bavokerk/",
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
       }
     ],
     "summary": "De Sint-Bavokerk combineert oude bouwsporen met Scheldegotiek. Kijk naar het verschil tussen materialen en bouwdelen: dit gebouw vertelt meer dan één periode uit de geschiedenis van Aardenburg.",
@@ -3855,8 +3875,8 @@
     "longitude": 3.44833333333333,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
-    "website_url": "https://nl.wikipedia.org/wiki/Sint-Bavokerk_(Aardenburg)",
+    "visit_notes": "Binnenbezoek dinsdag–zaterdag 10.00–16.45 uur, zondag 12.00–16.45 uur; maandag gesloten. Meld je voor bezoek bij de ontvangstbalie van het naastgelegen Romeins museum. Houd rekening met erediensten en evenementen.",
+    "website_url": "https://www.sintbaafskerkaardenburg.nl/",
     "inventory_key": "rce100:Aardenburg:Sint-Bavokerk",
     "street_address": "Sint Bavostraat 5",
     "operating_status": "open",
@@ -4052,6 +4072,16 @@
         "url": "https://nl.wikipedia.org/wiki/Museum_Ons'_Lieve_Heer_op_Solder",
         "provider": "Wikipedia · objectbeschrijving en bronverwijzingen",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://opsolder.nl/openingstijden/",
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
+      },
+      {
+        "url": "https://opsolder.nl/toegankelijkheid/",
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
       }
     ],
     "summary": "Achter een gewoon grachtenpand gaat een kerk op zolder schuil. Ons' Lieve Heer op Solder laat zien hoe religieuze ruimte in woonarchitectuur werd ingepast. Een onverwachte wereld boven de stad.",
@@ -4061,8 +4091,8 @@
     "longitude": 4.89933055555556,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
-    "website_url": "https://nl.wikipedia.org/wiki/Museum_Ons'_Lieve_Heer_op_Solder",
+    "visit_notes": "Binnenbezoek met museumticket. Dagelijks 10.00–18.00 uur; de eerste zondag van september tot en met juni vanaf 11.00 uur. Het historische huis en de zolderkerk hebben veel smalle trappen en geen lift. Het aparte entreegebouw heeft wel een lift en aangepast toilet.",
+    "website_url": "https://opsolder.nl/openingstijden/",
     "inventory_key": "rce100:Amsterdam:Ons' Lieve Heer op Solder",
     "street_address": "Oudezijds Voorburgwal 38, 1012 GD Amsterdam",
     "operating_status": "open",
@@ -4807,6 +4837,16 @@
         "url": "https://nl.wikipedia.org/wiki/Agnetapark",
         "provider": "Wikipedia · objectbeschrijving en bronverwijzingen",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.agnetapark.nl/",
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
+      },
+      {
+        "url": "https://media.delft.nl/raad/commissies/duurzaamheid/2005/Nota/d_2005_034_n.html",
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
       }
     ],
     "summary": "Kleine groepen arbeiderswoningen liggen in een groene parkaanleg. Het Agnetapark verbindt industriegeschiedenis met een vroeg ideaal van gezond wonen. Tuinen en gezamenlijke ruimte zijn wezenlijk voor het ontwerp.",
@@ -4816,8 +4856,8 @@
     "longitude": 4.34577777777778,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
-    "website_url": "https://nl.wikipedia.org/wiki/Agnetapark",
+    "visit_notes": "Bewoonde monumentale wijk. Bekijk de architectuur vanaf de openbare straten en parkpaden; woningen en particuliere tuinen zijn niet vrij toegankelijk. Respecteer de rust en privacy van bewoners.",
+    "website_url": "https://www.agnetapark.nl/",
     "inventory_key": "rce100:Delft:Agnetapark",
     "street_address": "Frederik Matthesstraat, Laan van Altena, Zocherweg, Pasteurstraat, J.C. van Markenweg, Vijver Noord, Vijver Zuid, Wallerstraat, Verkadestraat",
     "operating_status": "open",
@@ -7245,6 +7285,16 @@
         "url": "https://nl.wikipedia.org/wiki/Oostkerk_(Middelburg)",
         "provider": "Wikipedia · objectbeschrijving en bronverwijzingen",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://deoostkerk.nl/rondleidingen",
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
+      },
+      {
+        "url": "https://deoostkerk.nl/",
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
       }
     ],
     "summary": "Een achtkantige koepel maakt de Oostkerk tot een opvallend Middelburgs monument. De barokke kerk werd speciaal voor protestants gebruik gebouwd. De centrale vorm geeft de binnenruimte een eigen karakter.",
@@ -7254,8 +7304,8 @@
     "longitude": 3.62055555555556,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
-    "website_url": "https://nl.wikipedia.org/wiki/Oostkerk_(Middelburg)",
+    "visit_notes": "Buiten bekijken kan vanaf het Oostkerkplein. Reguliere zomerrondleidingen worden volgens de beheerder weer aangeboden vanaf mei 2027. Buiten het seizoen zijn groepsrondleidingen op aanvraag mogelijk. Binnenbezoek tijdens concerten en andere evenementen vereist het bijbehorende ticket.",
+    "website_url": "https://deoostkerk.nl/rondleidingen",
     "inventory_key": "rce100:Middelburg:Oostkerk",
     "street_address": "Oostkerkplein 1",
     "operating_status": "open",

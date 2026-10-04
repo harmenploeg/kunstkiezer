@@ -2308,10 +2308,10 @@
     "name": "H'ART Museum",
     "city": "Amsterdam",
     "province": "Noord-Holland",
-    "street_address": "51 Amstel",
+    "street_address": "Amstel 51",
     "postal_code": "1018 EJ",
     "country": "NL",
-    "website_url": "https://www.hartmuseum.nl/en/",
+    "website_url": "https://www.hartmuseum.nl/",
     "latitude": 52.364814,
     "longitude": 4.902185,
     "summary": "Reis door de kunst met wisselende tentoonstellingen in een historisch gebouw aan de Amstel. H’ART brengt internationale kunstcollecties naar Amsterdam: telkens een andere ontmoeting met kunstenaars, tijdperken en verhalen.",
@@ -2383,6 +2383,15 @@
           "name",
           "city",
           "province"
+        ]
+      },
+      {
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "url": "https://www.hartmuseum.nl/veelgestelde-vragen/",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00",
+        "evidence_fields": [
+          "street_address",
+          "website_url"
         ]
       }
     ],
@@ -7203,7 +7212,7 @@
     "website_url": "https://projectdenollen.nl/",
     "latitude": 52.9326,
     "longitude": 4.759562,
-    "summary": "Wandel door het kunstlandschap van Ruud van de Wint. Bij De Nollen zijn schilderingen, sculpturen en bouwwerken verbonden met het duin. Licht, ruimte en natuur veranderen je ervaring van de kunst bij iedere stap.",
+    "summary": "In het kunstlandschap van Rudi van de Wint grijpen beelden, gebouwen en schilderingen in elkaar. Bezoek is uitsluitend mogelijk met een gids; reserveer vooraf online een tijdslot. Van april tot en met oktober zijn er rondleidingen van donderdag tot en met zondag. In de winter is De Nollen op zondag geopend.",
     "operating_status": "open",
     "publication_status": "published",
     "verification_status": "unreviewed",
@@ -7253,6 +7262,14 @@
           "summary",
           "tags",
           "is_art_museum"
+        ]
+      },
+      {
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "url": "https://projectdenollen.nl/plan-mijn-bezoek/",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00",
+        "evidence_fields": [
+          "summary"
         ]
       }
     ],
@@ -12187,7 +12204,7 @@
     "website_url": "https://tonsmitshuis.nl/",
     "latitude": 51.42233404,
     "longitude": 5.48183221,
-    "summary": "Ontdek de humor en verbeelding van Ton Smits in zijn voormalige atelierwoning. Cartoons en schilderijen tonen verschillende kanten van zijn kunstenaarschap. Wisselende presentaties brengen ook andere tekenaars in beeld.",
+    "summary": "Ontdek de humor en verbeelding van Ton Smits in zijn voormalige atelierwoning. Cartoons en schilderijen tonen verschillende kanten van zijn kunstenaarschap. Bezoek is dagelijks tussen 11.00 en 17.00 uur mogelijk, uitsluitend op afspraak. De museumruimte is alleen via een trap bereikbaar.",
     "operating_status": "open",
     "publication_status": "published",
     "verification_status": "unreviewed",
@@ -12233,6 +12250,14 @@
           "name",
           "city",
           "province"
+        ]
+      },
+      {
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "url": "https://tonsmitshuis.nl/bezoekersinfo-in-corona-tijd/",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00",
+        "evidence_fields": [
+          "summary"
         ]
       }
     ],
@@ -12949,6 +12974,14 @@
           "city",
           "province"
         ]
+      },
+      {
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "url": "https://www.odapark.nl/bezoek/",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00",
+        "evidence_fields": [
+          "photos"
+        ]
       }
     ],
     "review_notes": "Landelijke kunstinventaris 3 oktober 2026. Collectie/programma inhoudelijk geselecteerd; openingstijden en het actuele tentoonstellingsaanbod voor bezoek raadplegen.",
@@ -12956,11 +12989,11 @@
     "is_art_museum": true,
     "photos": [
       {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Odapark_Venray_%2816944985101%29.jpg/1280px-Odapark_Venray_%2816944985101%29.jpg",
-        "credit": "FaceMePLS from The Hague, The Netherlands",
-        "caption": "Odapark — Odapark Venray (16944985101)",
-        "license": "CC BY 2.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Odapark_Venray_(16944985101).jpg"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Venray-merseloseweg-208281.jpg/330px-Venray-merseloseweg-208281.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Pim van Tend",
+        "caption": "Het Theehuis in Odapark — locatiefoto uit 2020.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Venray-merseloseweg-208281.jpg"
       }
     ],
     "audit_reference": "207",
@@ -13039,7 +13072,7 @@
     "operating_status": "open",
     "publication_status": "published",
     "verification_status": "unreviewed",
-    "summary": "Ontdek hedendaagse kunst in de historische kamers van Huize Frankendael. Wisselende presentaties reageren op ruimte, omgeving en nieuwe ideeën. Het landhuis biedt een rustige setting waarin kunst en architectuur elkaar ontmoeten.",
+    "summary": "Huize Frankendael verbindt een historisch buitenhuis met ruimte voor hedendaagse kunst. Momenteel is er volgens de eigen kunstpagina geen tentoonstelling. Het huis is iedere laatste zondag van de maand van 12.00 tot 17.00 uur te bezichtigen; privébijeenkomsten kunnen de toegang tot kamers beperken. Controleer het programma voordat je voor kunst op bezoek gaat.",
     "tags": [
       "hedendaagse kunst",
       "kunsthal"
@@ -13078,6 +13111,14 @@
           "summary",
           "tags",
           "is_art_museum"
+        ]
+      },
+      {
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "url": "https://huizefrankendael.nl/nl/thuis/kunst/",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00",
+        "evidence_fields": [
+          "summary"
         ]
       }
     ],
@@ -16951,11 +16992,11 @@
     ],
     "photos": [
       {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Overzicht_-_Amsterdam_-_20020465_-_RCE.jpg/1280px-Overzicht_-_Amsterdam_-_20020465_-_RCE.jpg",
-        "credit": "Prentenkabinet (Fotograaf)",
-        "caption": "Arti et Amicitiae — Overzicht - Amsterdam - 20020465 - RCE",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_-_Amsterdam_-_20020465_-_RCE.jpg"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Amsterdam_-_Rokin_112.JPG/330px-Amsterdam_-_Rokin_112.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Rudolphous",
+        "caption": "Arti et Amicitiae, Rokin 112 — gevelopname uit 2010.",
+        "license": "CC BY-SA 3.0 nl",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Rokin_112.JPG"
       }
     ],
     "sources": [
@@ -16972,6 +17013,14 @@
           "summary",
           "tags",
           "is_art_museum"
+        ]
+      },
+      {
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "url": "https://arti.nl/",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00",
+        "evidence_fields": [
+          "photos"
         ]
       }
     ],
@@ -17734,12 +17783,12 @@
   {
     "id": "0163ec3a-fdc1-5298-9c1b-4f4ed0e807f9",
     "inventory_key": "art-audit:309",
-    "name": "033Fotostad | Rietveldpaviljoen",
+    "name": "033Rietveldpaviljoen",
     "city": "Amersfoort",
     "province": "Utrecht",
     "street_address": "Zonnehof 8",
     "postal_code": "3811 ND",
-    "website_url": "https://www.033fotostad.com/",
+    "website_url": "https://033rietveldpaviljoen.nl/",
     "country": "NL",
     "latitude": 52.151791,
     "longitude": 5.38403003,
@@ -17747,7 +17796,7 @@
     "operating_status": "open",
     "publication_status": "published",
     "verification_status": "unreviewed",
-    "summary": "Ontdek fotografie in het Rietveldpaviljoen. Wisselende tentoonstellingen geven ruimte aan verschillende makers en beeldverhalen. De lichte architectuur vormt een helder decor om foto's aandachtig te bekijken en met elkaar te vergelijken.",
+    "summary": "Het Rietveldpaviljoen aan de Zonnehof presenteert fotografie, beeldende kunst en podiumactiviteiten. De kunsthal is donderdag tot en met zondag van 12.00 tot 17.00 uur toegankelijk. Raadpleeg het actuele programma voor tentoonstellingen en eventuele afwijkende openstelling.",
     "tags": [
       "fotografie",
       "kunsthal"
@@ -17786,6 +17835,16 @@
           "summary",
           "tags",
           "is_art_museum"
+        ]
+      },
+      {
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "url": "https://033rietveldpaviljoen.nl/bezoekinfo/",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00",
+        "evidence_fields": [
+          "name",
+          "website_url",
+          "summary"
         ]
       }
     ],

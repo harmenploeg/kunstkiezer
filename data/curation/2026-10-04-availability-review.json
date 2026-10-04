@@ -124,7 +124,7 @@
     }
   ],
   "baseline_records": 732,
-  "current_records": 738,
+  "current_records": 747,
   "maker_updates": 54,
   "disappeared_updates": 6,
   "records": [
@@ -168,15 +168,40 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "summary",
+        "website_url"
+      ],
+      "decisions": [
+        "Actuele bezoekerspagina bevestigt Jacob Reviuslaan 25, dagelijks 11–17 uur uitsluitend op afspraak. Museumruimte alleen per trap bereikbaar. De URL noemt corona, maar de huidige welkomsttekst presenteert afspraakbezoek expliciet als actuele werkwijze."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "01454eb6-db10-51bc-b474-c723ff2fc672",
+          "name": "Museum Ton Smits Huis",
+          "category": "musea",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://tonsmitshuis.nl/bezoekersinfo-in-corona-tijd/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "summary",
+            "website_url"
+          ],
+          "conclusion": "Actuele bezoekerspagina bevestigt Jacob Reviuslaan 25, dagelijks 11–17 uur uitsluitend op afspraak. Museumruimte alleen per trap bereikbaar. De URL noemt corona, maar de huidige welkomsttekst presenteert afspraakbezoek expliciet als actuele werkwijze.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
       "id": "0163ec3a-fdc1-5298-9c1b-4f4ed0e807f9",
-      "name": "033Fotostad | Rietveldpaviljoen",
+      "name": "033Rietveldpaviljoen",
       "category": "musea",
       "operating_status": "open",
       "source_checks": [
@@ -199,10 +224,40 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "name",
+        "operating_status",
+        "street_address",
+        "summary",
+        "website_url"
+      ],
+      "decisions": [
+        "Nieuwe beheerwebsite en publiek organisatorenprofiel bevestigen huidige naam, bezoekadres en donderdag–zondag 12–17 uur. Oude 033fotostad-site vervangen. Oude datumloze banners niet als actuele evenementen overgenomen; gemeentelijk renovatieplan is geen bewijs dat de locatie nu gesloten is."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "0163ec3a-fdc1-5298-9c1b-4f4ed0e807f9",
+          "name": "033Fotostad | Rietveldpaviljoen",
+          "category": "musea",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://033rietveldpaviljoen.nl/bezoekinfo/",
+            "https://033rietveldpaviljoen.nl/",
+            "https://www.amersfoort.nl/vernieuwing-en-uitbreiding-rietveldpaviljoen",
+            "https://nl.linkedin.com/company/rietveldpaviljoen"
+          ],
+          "verified_fields": [
+            "name",
+            "operating_status",
+            "street_address",
+            "summary",
+            "website_url"
+          ],
+          "conclusion": "Nieuwe beheerwebsite en publiek organisatorenprofiel bevestigen huidige naam, bezoekadres en donderdag–zondag 12–17 uur. Oude 033fotostad-site vervangen. Oude datumloze banners niet als actuele evenementen overgenomen; gemeentelijk renovatieplan is geen bewijs dat de locatie nu gesloten is.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -326,10 +381,33 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Dagelijkse openstelling 10–17 uur, adres Amstel 51 en tickets per datum/tijdslot bevestigd. Nederlandstalige bezoekverwijzing en adresnotatie bijgewerkt."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "0376541b-4d5f-5b8b-853a-007e6ae3920d",
+          "name": "H'ART Museum",
+          "category": "musea",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.hartmuseum.nl/veelgestelde-vragen/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Dagelijkse openstelling 10–17 uur, adres Amstel 51 en tickets per datum/tijdslot bevestigd. Nederlandstalige bezoekverwijzing en adresnotatie bijgewerkt.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -424,10 +502,37 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "visit_notes",
+        "website_url"
+      ],
+      "decisions": [
+        "Beheerder en eigenaar bevestigen huidige kerkopenstelling in Aardenburg. Onderhoudsmelding blijkt expliciet oktober 2023–mei 2024 en is geen huidige sluiting."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "047336be-3e41-5f0c-b02d-8e0f21029cbc",
+          "name": "Sint-Bavokerk",
+          "category": "architectuur",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.sintbaafskerkaardenburg.nl/",
+            "https://monumentenbezit.nl/monumenten/sint-bavokerk-aardenburg/",
+            "https://monumentenbezit.nl/projecten/onderhoud-sint-bavokerk/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "visit_notes",
+            "website_url"
+          ],
+          "conclusion": "Beheerder en eigenaar bevestigen huidige kerkopenstelling in Aardenburg. Onderhoudsmelding blijkt expliciet oktober 2023–mei 2024 en is geen huidige sluiting.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -499,9 +604,28 @@
         }
       ],
       "manually_verified_fields": [],
-      "decisions": [],
+      "decisions": [
+        "Gemeentelijke zoekverwijzing geeft Prinsengracht 855–899, maar pagina was niet inhoudelijk uitleesbaar. Geen actuele toegangsregeling van eigenaar/beheerder gevonden; geen opening of sluiting afgeleid uit secundaire toeristentips."
+      ],
       "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Actuele binnenhof-toegang nog bij eigenaar of beheerder bevestigen; gemeentepagina onleesbaar en geen primaire actuele bezoekregeling aangetroffen."
+      ],
+      "followup_reviews": [
+        {
+          "id": "05cefce9-6533-5dc9-a029-a79d26987606",
+          "name": "Deutzenhofje",
+          "category": "architectuur",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.amsterdam.nl/nieuws/achtergrond/hofjes/"
+          ],
+          "verified_fields": [],
+          "conclusion": "Gemeentelijke zoekverwijzing geeft Prinsengracht 855–899, maar pagina was niet inhoudelijk uitleesbaar. Geen actuele toegangsregeling van eigenaar/beheerder gevonden; geen opening of sluiting afgeleid uit secundaire toeristentips.",
+          "remaining": [
+            "Actuele binnenhof-toegang nog bij eigenaar of beheerder bevestigen; gemeentepagina onleesbaar en geen primaire actuele bezoekregeling aangetroffen."
+          ],
+          "resolves_availability": false
+        }
       ]
     },
     {
@@ -734,15 +858,16 @@
         }
       ],
       "manually_verified_fields": [
+        "operating_status",
+        "street_address",
         "summary",
         "website_url"
       ],
       "decisions": [
-        "Tijdelijke sluiting bevestigd; actuele website en heropeningsplanning toegevoegd. Museumadres niet vervangen door kantooradres."
+        "Tijdelijke sluiting bevestigd; actuele website en heropeningsplanning toegevoegd. Museumadres niet vervangen door kantooradres.",
+        "Expliciete verbouwingsmelding bevestigt tijdelijke sluiting. Infopunt Sint Agathaplein 4 is geen museumingang. Algemene header met tijden wijkt af van de prominente sluitingsmelding; gesloten status en bestaande renovatiebeschrijving behouden."
       ],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
+      "remaining": [],
       "followup_reviews": [
         {
           "id": "087b3436-17a7-5267-a11c-b5bcc00e8dfc",
@@ -755,6 +880,23 @@
             "summary"
           ],
           "conclusion": "Tijdelijke sluiting bevestigd; actuele website en heropeningsplanning toegevoegd. Museumadres niet vervangen door kantooradres."
+        },
+        {
+          "id": "087b3436-17a7-5267-a11c-b5bcc00e8dfc",
+          "name": "Museum Prinsenhof Delft",
+          "category": "musea",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://museumprinsenhofdelft.nl/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Expliciete verbouwingsmelding bevestigt tijdelijke sluiting. Infopunt Sint Agathaplein 4 is geen museumingang. Algemene header met tijden wijkt af van de prominente sluitingsmelding; gesloten status en bestaande renovatiebeschrijving behouden.",
+          "remaining": [],
+          "resolves_availability": true
         }
       ]
     },
@@ -783,10 +925,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Bezoeklocatie Koppelstraat 35 en vrijdag–zondag 11–17 uur bevestigd. Drie actuele of komende kunstexposities inhoudelijk gecontroleerd en apart toegevoegd."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "08c3d4c2-0fb4-5732-8916-5eda0748d06d",
+          "name": "Koppelkerk - vrijplaats voor kunst & cultuur",
+          "category": "musea",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://koppelkerk.nl/contact/",
+            "https://koppelkerk.nl/kalender/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Bezoeklocatie Koppelstraat 35 en vrijdag–zondag 11–17 uur bevestigd. Drie actuele of komende kunstexposities inhoudelijk gecontroleerd en apart toegevoegd.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -1100,10 +1266,40 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "summary",
+        "website_url"
+      ],
+      "decisions": [
+        "De eigen kunstpagina meldt expliciet geen huidige tentoonstelling. Het huis is wel iedere laatste zondag van de maand 12–17 uur open; dit is onderscheiden van een actueel kunstprogramma. Open-status voor gebouwbezoek behouden; geen sluiting verzonnen. Beschrijving maakt de beperking zichtbaar. Nieuwe kunstprogrammering nog niet bekend."
+      ],
       "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Nieuw actueel kunstprogramma niet bevestigd; eigen kunstpagina meldt momenteel geen tentoonstelling. Hercontrole bij nieuwe programmering."
+      ],
+      "followup_reviews": [
+        {
+          "id": "0c62923a-5d07-5f0a-8033-3f2cc8d25550",
+          "name": "Huize Frankendael",
+          "category": "musea",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://huizefrankendael.nl/nl/thuis/kunst/",
+            "https://huizefrankendael.nl/nl/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "summary",
+            "website_url"
+          ],
+          "conclusion": "De eigen kunstpagina meldt expliciet geen huidige tentoonstelling. Het huis is wel iedere laatste zondag van de maand 12–17 uur open; dit is onderscheiden van een actueel kunstprogramma. Open-status voor gebouwbezoek behouden; geen sluiting verzonnen. Beschrijving maakt de beperking zichtbaar. Nieuwe kunstprogrammering nog niet bekend.",
+          "remaining": [
+            "Nieuw actueel kunstprogramma niet bevestigd; eigen kunstpagina meldt momenteel geen tentoonstelling. Hercontrole bij nieuwe programmering."
+          ],
+          "resolves_availability": false
+        }
       ]
     },
     {
@@ -1254,10 +1450,35 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "visit_notes",
+        "website_url"
+      ],
+      "decisions": [
+        "Stadionbeheerder biedt rondleidingen met museumbezoek; architectuurselectie behouden. Binnenbezoek afhankelijk van geboekte tour en stadionprogramma, geen vrije toegang."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "107ded66-88c4-57c5-b10d-88ef65b46c3b",
+          "name": "Stadion Feijenoord",
+          "category": "architectuur",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.dekuip.com/nl/tour-en-museum"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "visit_notes",
+            "website_url"
+          ],
+          "conclusion": "Stadionbeheerder biedt rondleidingen met museumbezoek; architectuurselectie behouden. Binnenbezoek afhankelijk van geboekte tour en stadionprogramma, geen vrije toegang.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -1393,10 +1614,37 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "photos",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Tentoonstellingszalen dinsdag–zondag 12–17 uur. Sociëteit heeft andere toegangsregels en is op 4 oktober gesloten wegens evenement; niet het hele kunsthuis gesloten verklaard. Historisch stadsgezicht uit 1930 vervangen door geïdentificeerde gevel van Rokin 112 uit 2010."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "121a5aff-df75-51a1-a97a-e98ba0c0a5c7",
+          "name": "Arti et Amicitiae",
+          "category": "musea",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://arti.nl/",
+            "https://arti.nl/agenda/09-10-2026/sails-of-anarchy",
+            "https://arti.nl/agenda/09-10-2026/wellness-wigs-and-weapons"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "photos",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Tentoonstellingszalen dinsdag–zondag 12–17 uur. Sociëteit heeft andere toegangsregels en is op 4 oktober gesloten wegens evenement; niet het hele kunsthuis gesloten verklaard. Historisch stadsgezicht uit 1930 vervangen door geïdentificeerde gevel van Rokin 112 uit 2010.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -1550,10 +1798,36 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "visit_notes",
+        "website_url"
+      ],
+      "decisions": [
+        "Actuele stichting beschrijft nog altijd bewoonde monumentale wijk. Gemeente onderscheidt openbaar groen en wegen van woningen; architectuurbezoek uitsluitend buiten."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "1389b68b-15d3-5c7e-9f1e-beddead5626e",
+          "name": "Agnetapark",
+          "category": "architectuur",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.agnetapark.nl/",
+            "https://media.delft.nl/raad/commissies/duurzaamheid/2005/Nota/d_2005_034_n.html"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "visit_notes",
+            "website_url"
+          ],
+          "conclusion": "Actuele stichting beschrijft nog altijd bewoonde monumentale wijk. Gemeente onderscheidt openbaar groen en wegen van woningen; architectuurbezoek uitsluitend buiten.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -1615,10 +1889,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Rapenburg 19, dinsdag–zondag 10–17 uur en de lopende tentoonstelling bevestigen bezoekbaarheid. Sluitingsdag 3 oktober ligt achter de controledatum. Nieuwe expositie apart opgenomen; Nederlandse organisatorpagina (25 september) leidend boven Engelse pagina (24 september)."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "13d786ee-7180-5e3f-ac5f-3aa0961316ad",
+          "name": "Japanmuseum SieboldHuis",
+          "category": "musea",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.sieboldhuis.org/informatie/bezoekersinfo/",
+            "https://www.sieboldhuis.org/tentoonstellingen/licht-over-deshima/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Rapenburg 19, dinsdag–zondag 10–17 uur en de lopende tentoonstelling bevestigen bezoekbaarheid. Sluitingsdag 3 oktober ligt achter de controledatum. Nieuwe expositie apart opgenomen; Nederlandse organisatorpagina (25 september) leidend boven Engelse pagina (24 september).",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -1702,10 +2000,33 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Expliciet rooster september–december 2026 bevestigt woensdag–zondag 10–17 uur. Bezoekadres Laan van Meerdervoort 7-F komt overeen; geen wijziging nodig."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "14e73814-2d29-5368-be44-2252dc1fcf6d",
+          "name": "De Mesdag Collectie",
+          "category": "musea",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.demesdagcollectie.nl/nl/bezoek/adres-en-openingstijden"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Expliciet rooster september–december 2026 bevestigt woensdag–zondag 10–17 uur. Bezoekadres Laan van Meerdervoort 7-F komt overeen; geen wijziging nodig.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -1799,10 +2120,33 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Bezoekadres Wilhelminapark 1 en dinsdag–zondag open bevestigd, donderdag tot 20 uur. De drie lopende tentoonstellingen staan al in de catalogus en zijn niet dubbel toegevoegd."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "15b07f69-dc30-5410-8b9f-0168a8a647c0",
+          "name": "De Pont Museum",
+          "category": "musea",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.depont.nl/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Bezoekadres Wilhelminapark 1 en dinsdag–zondag open bevestigd, donderdag tot 20 uur. De drie lopende tentoonstellingen staan al in de catalogus en zijn niet dubbel toegevoegd.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -1838,10 +2182,36 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "visit_notes",
+        "website_url"
+      ],
+      "decisions": [
+        "Actuele specifieke openingstijdenpagina: dagelijks 10–18 uur, eerste zondag september–juni vanaf 11 uur. Oudere FAQ met zondag 13 uur niet gebruikt. Monument heeft smalle trappen en geen lift, entreegebouw wel toegankelijk."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "1637c8fc-5834-5076-b670-bdb1141a75af",
+          "name": "Ons' Lieve Heer op Solder",
+          "category": "architectuur",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://opsolder.nl/openingstijden/",
+            "https://opsolder.nl/toegankelijkheid/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "visit_notes",
+            "website_url"
+          ],
+          "conclusion": "Actuele specifieke openingstijdenpagina: dagelijks 10–18 uur, eerste zondag september–juni vanaf 11 uur. Oudere FAQ met zondag 13 uur niet gebruikt. Monument heeft smalle trappen en geen lift, entreegebouw wel toegankelijk.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -2134,10 +2504,36 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "visit_notes",
+        "website_url"
+      ],
+      "decisions": [
+        "Beheerder meldt dat reguliere zomer-rondleidingen in mei 2027 terugkeren. Buiten zomer alleen groepsaanvraag; groepsgrootte op pagina tegenstrijdig (8–10 versus 8–12), daarom geen exact maximum overgenomen. Evenementen blijven bestaan."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "18bdcb7e-ab6f-5582-ae63-ab99436c1913",
+          "name": "Oostkerk",
+          "category": "architectuur",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://deoostkerk.nl/rondleidingen",
+            "https://deoostkerk.nl/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "visit_notes",
+            "website_url"
+          ],
+          "conclusion": "Beheerder meldt dat reguliere zomer-rondleidingen in mei 2027 terugkeren. Buiten zomer alleen groepsaanvraag; groepsgrootte op pagina tegenstrijdig (8–10 versus 8–12), daarom geen exact maximum overgenomen. Evenementen blijven bestaan.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -4108,10 +4504,33 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Bezoek aan kunst, Hedge House, Koetshuis en tuin bevestigd; woensdag–zondag 11–17 uur. Kerkpad/In de Beemden 1 betreft dezelfde ingang."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "305f3814-535b-5426-a371-91dac06e5b1f",
+          "name": "Buitenplaats Kasteel Wijlre",
+          "category": "musea",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://kasteelwijlre.nl/nl/bezoek/bezoekinformatie/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Bezoek aan kunst, Hedge House, Koetshuis en tuin bevestigd; woensdag–zondag 11–17 uur. Kerkpad/In de Beemden 1 betreft dezelfde ingang.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -6486,10 +6905,34 @@
           "source_record_id": 161
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Gemeentelijke collectiebeheerder beschrijft het werk als permanent buitenbeeld op de huidige locatie. Historische eerdere standplaatsen onderscheiden van actuele plek. Bestaande bezoeklocatie, foto en bron behouden."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "4c6cbb09-5b0b-5a5e-ba45-001f319e9cb0",
+          "name": "Santa Claus",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.sculptureinternationalrotterdam.nl/collectie/santa-claus/",
+            "https://bkor.nl/en/beeld/santa-claus/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Gemeentelijke collectiebeheerder beschrijft het werk als permanent buitenbeeld op de huidige locatie. Historische eerdere standplaatsen onderscheiden van actuele plek. Bestaande bezoeklocatie, foto en bron behouden.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -6658,10 +7101,35 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "summary",
+        "website_url"
+      ],
+      "decisions": [
+        "Beheerder bevestigt begeleid bezoek aan kunstlandschap, adres en online tijdslotreservering. April–oktober donderdag–zondag; winterzondagen afzonderlijk vermeld."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "4f9e04fd-5c63-54d0-bfb2-9acf614c3501",
+          "name": "De Nollen",
+          "category": "musea",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://projectdenollen.nl/plan-mijn-bezoek/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "summary",
+            "website_url"
+          ],
+          "conclusion": "Beheerder bevestigt begeleid bezoek aan kunstlandschap, adres en online tijdslotreservering. April–oktober donderdag–zondag; winterzondagen afzonderlijk vermeld.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -7539,10 +8007,35 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "visit_notes",
+        "website_url"
+      ],
+      "decisions": [
+        "Meerdere kunstpresentaties en tuinbezoek via gezamenlijke entree bevestigd."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "588e87ed-5ae9-5770-92a7-7cb28c0d303d",
+          "name": "Buitenplaats Kasteel Wijlre – beeldentuin",
+          "category": "beeldenparken",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://kasteelwijlre.nl/nl/bezoek/bezoekinformatie/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "visit_notes",
+            "website_url"
+          ],
+          "conclusion": "Meerdere kunstpresentaties en tuinbezoek via gezamenlijke entree bevestigd.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -9350,13 +9843,36 @@
       ],
       "manually_verified_fields": [
         "creator",
-        "tags"
+        "operating_status",
+        "street_address",
+        "tags",
+        "visit_notes",
+        "website_url"
       ],
       "decisions": [
-        "Maker bij presentatiebron vastgesteld; zie recordbronnen."
+        "Maker bij presentatiebron vastgesteld; zie recordbronnen.",
+        "Verplichte gids en seizoensrooster bevestigd; oude algemene bezoekwaarschuwing vervangen. Verouderde coronavoorschriften niet overgenomen."
       ],
-      "remaining": [
-        "Foto met bevestigde hergebruikvoorwaarden ontbreekt."
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "6f8e712b-2881-58c6-9732-c1d4cb9a9557",
+          "name": "De Nollen – kunstlandschap",
+          "category": "beeldenparken",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://projectdenollen.nl/plan-mijn-bezoek/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "visit_notes",
+            "website_url"
+          ],
+          "conclusion": "Verplichte gids en seizoensrooster bevestigd; oude algemene bezoekwaarschuwing vervangen. Verouderde coronavoorschriften niet overgenomen.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -10550,10 +11066,35 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "photos",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Bezoekadres, tentoonstellingsruimten en seizoensuren bevestigd. Eenmalige sluiting 25 september is voorbij; beeldenbos blijft afzonderlijk dagelijks toegankelijk."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "7b8f4db6-e522-5daf-9561-97924ceafc87",
+          "name": "Odapark",
+          "category": "musea",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.odapark.nl/bezoek/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "photos",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Bezoekadres, tentoonstellingsruimten en seizoensuren bevestigd. Eenmalige sluiting 25 september is voorbij; beeldenbos blijft afzonderlijk dagelijks toegankelijk.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -10624,10 +11165,33 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Hoofdgebouw Arboretumlaan 4 open donderdag–zondag 11–17 uur. Arboreta hebben afzonderlijke dagelijkse openstelling; geen dagelijkse museumopenstelling afgeleid."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "7c25dca7-6154-513e-a8c6-3922f645a55c",
+          "name": "Beeldengalerij Het Depot",
+          "category": "musea",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.hetdepot.nl/openingstijden"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Hoofdgebouw Arboretumlaan 4 open donderdag–zondag 11–17 uur. Arboreta hebben afzonderlijke dagelijkse openstelling; geen dagelijkse museumopenstelling afgeleid.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -10932,10 +11496,35 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "visit_notes",
+        "website_url"
+      ],
+      "decisions": [
+        "Meerdere beelden in twee arboreta; ingangen en dagelijkse tuinuren onderscheiden van galerijuren. Vermelde feestdagensluiting niet ongefundeerd uitgebreid naar alle parkdelen."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "7eaf87a5-8518-597f-b5ef-3c7319cdb37b",
+          "name": "Beeldengalerij Het Depot",
+          "category": "beeldenparken",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.hetdepot.nl/openingstijden"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "visit_notes",
+            "website_url"
+          ],
+          "conclusion": "Meerdere beelden in twee arboreta; ingangen en dagelijkse tuinuren onderscheiden van galerijuren. Vermelde feestdagensluiting niet ongefundeerd uitgebreid naar alle parkdelen.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -11310,10 +11899,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Beeldenbos dagelijks zonsopgang–zonsondergang voor wandelaars en fietsers bevestigd. Bestaande bezoeknotities inclusief afzonderlijke gebouwuren kloppen."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "827bf88a-7e59-56a0-8cdc-4445a32fa2cc",
+          "name": "Odapark – beeldentuin",
+          "category": "beeldenparken",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.odapark.nl/bezoek/",
+            "https://www.odapark.nl/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Beeldenbos dagelijks zonsopgang–zonsondergang voor wandelaars en fietsers bevestigd. Bestaande bezoeknotities inclusief afzonderlijke gebouwuren kloppen.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -15665,10 +16278,33 @@
           "source_record_id": 49
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Gemeentelijke collectiebeheerder beschrijft het werk als permanent buitenbeeld op de huidige locatie. Historische eerdere standplaatsen onderscheiden van actuele plek. Bestaande bezoeklocatie, foto en bron behouden."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "b21f4077-1ac8-5e62-b02d-f43d38fe49db",
+          "name": "De verwoeste stad",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.sculptureinternationalrotterdam.nl/collectie/de-verwoeste-stad/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "website_url"
+          ],
+          "conclusion": "Gemeentelijke collectiebeheerder beschrijft het werk als permanent buitenbeeld op de huidige locatie. Historische eerdere standplaatsen onderscheiden van actuele plek. Bestaande bezoeklocatie, foto en bron behouden.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -23172,9 +23808,414 @@
           "resolves_availability": true
         }
       ]
+    },
+    {
+      "id": "94fabac3-d53c-5af9-b20c-c28d4457c7f3",
+      "name": "De verloren tijd",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Primaire organisator bevestigt kunstinhoud en looptijd 2026-08-28 t/m 2026-10-11. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "94fabac3-d53c-5af9-b20c-c28d4457c7f3",
+          "name": "De verloren tijd",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://koppelkerk.nl/evenementen/expositie-de-verloren-tijd/"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "photos",
+            "street_address"
+          ],
+          "conclusion": "Primaire organisator bevestigt kunstinhoud en looptijd 2026-08-28 t/m 2026-10-11. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet.",
+          "resolves_availability": true,
+          "remaining": []
+        }
+      ]
+    },
+    {
+      "id": "d1753ce8-d59e-5cdf-94fd-6d053abee306",
+      "name": "Marcel van den Bergh — Verborgen Landschap & meer",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Primaire organisator bevestigt kunstinhoud en looptijd 2026-09-18 t/m 2026-11-15. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "d1753ce8-d59e-5cdf-94fd-6d053abee306",
+          "name": "Marcel van den Bergh — Verborgen Landschap & meer",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://koppelkerk.nl/evenementen/expositie-marcel-van-den-bergh-verborgen-landschap-meer/"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "photos",
+            "street_address"
+          ],
+          "conclusion": "Primaire organisator bevestigt kunstinhoud en looptijd 2026-09-18 t/m 2026-11-15. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet.",
+          "resolves_availability": true,
+          "remaining": []
+        }
+      ]
+    },
+    {
+      "id": "86edad70-2305-558d-a529-28ebd462c7b7",
+      "name": "Voorbij dimensies",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Primaire organisator bevestigt kunstinhoud en looptijd 2026-10-16 t/m 2026-11-29. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "86edad70-2305-558d-a529-28ebd462c7b7",
+          "name": "Voorbij dimensies",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://koppelkerk.nl/evenementen/expositie-voorbij-dimensies/"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "photos",
+            "street_address"
+          ],
+          "conclusion": "Primaire organisator bevestigt kunstinhoud en looptijd 2026-10-16 t/m 2026-11-29. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet.",
+          "resolves_availability": true,
+          "remaining": []
+        }
+      ]
+    },
+    {
+      "id": "5f4a3755-3f69-523e-85ac-5690048df5c1",
+      "name": "Licht over Deshima",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Primaire organisator bevestigt kunstinhoud en looptijd 2026-09-25 t/m 2027-02-28. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "5f4a3755-3f69-523e-85ac-5690048df5c1",
+          "name": "Licht over Deshima",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.sieboldhuis.org/tentoonstellingen/licht-over-deshima/"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "photos",
+            "street_address"
+          ],
+          "conclusion": "Primaire organisator bevestigt kunstinhoud en looptijd 2026-09-25 t/m 2027-02-28. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet.",
+          "resolves_availability": true,
+          "remaining": []
+        }
+      ]
+    },
+    {
+      "id": "03316b59-3bc4-5247-a620-182bf1801e26",
+      "name": "Cold in Church — Sails of Anarchy",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Primaire organisator bevestigt kunstinhoud en looptijd 2026-10-09 t/m 2026-11-07. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "03316b59-3bc4-5247-a620-182bf1801e26",
+          "name": "Cold in Church — Sails of Anarchy",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://arti.nl/agenda/09-10-2026/sails-of-anarchy"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "photos",
+            "street_address"
+          ],
+          "conclusion": "Primaire organisator bevestigt kunstinhoud en looptijd 2026-10-09 t/m 2026-11-07. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet.",
+          "resolves_availability": true,
+          "remaining": []
+        }
+      ]
+    },
+    {
+      "id": "55908d4a-68af-514d-8b94-2755e5875f12",
+      "name": "Wellness, Wigs and Weapons",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Primaire organisator bevestigt kunstinhoud en looptijd 2026-10-09 t/m 2026-11-07. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "55908d4a-68af-514d-8b94-2755e5875f12",
+          "name": "Wellness, Wigs and Weapons",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://arti.nl/agenda/09-10-2026/wellness-wigs-and-weapons"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "photos",
+            "street_address"
+          ],
+          "conclusion": "Primaire organisator bevestigt kunstinhoud en looptijd 2026-10-09 t/m 2026-11-07. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet.",
+          "resolves_availability": true,
+          "remaining": []
+        }
+      ]
+    },
+    {
+      "id": "e50e92e4-a38f-5fc2-bc19-d51bb78cccf2",
+      "name": "One Way Ticket",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Primaire organisator bevestigt kunstinhoud en looptijd 2026-09-20 t/m 2027-01-03. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "e50e92e4-a38f-5fc2-bc19-d51bb78cccf2",
+          "name": "One Way Ticket",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.odapark.nl/tentoonstellingen/one-way-ticket/"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "photos",
+            "street_address"
+          ],
+          "conclusion": "Primaire organisator bevestigt kunstinhoud en looptijd 2026-09-20 t/m 2027-01-03. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet.",
+          "resolves_availability": true,
+          "remaining": []
+        }
+      ]
+    },
+    {
+      "id": "0765f494-3857-5802-bf4f-7c1609f748dd",
+      "name": "Tussen niet-zien en weer-zien",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Primaire organisator bevestigt kunstinhoud en looptijd 2026-09-20 t/m 2027-01-03. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "0765f494-3857-5802-bf4f-7c1609f748dd",
+          "name": "Tussen niet-zien en weer-zien",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.odapark.nl/tentoonstellingen/tussen-niet-zien-en-weer-zien/"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "photos",
+            "street_address"
+          ],
+          "conclusion": "Primaire organisator bevestigt kunstinhoud en looptijd 2026-09-20 t/m 2027-01-03. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet.",
+          "resolves_availability": true,
+          "remaining": []
+        }
+      ]
+    },
+    {
+      "id": "e557df9f-2182-5d90-a070-961c01cbcfe2",
+      "name": "GEWORTELD — een audioboswandeling",
+      "category": "evenementen",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "creator",
+        "ends_on",
+        "name",
+        "photos",
+        "starts_on",
+        "street_address",
+        "summary",
+        "tags"
+      ],
+      "decisions": [
+        "Primaire organisator bevestigt kunstinhoud en looptijd 2026-08-01 t/m 2026-10-31. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet."
+      ],
+      "remaining": [],
+      "operating_status": "open",
+      "followup_reviews": [
+        {
+          "id": "e557df9f-2182-5d90-a070-961c01cbcfe2",
+          "name": "GEWORTELD — een audioboswandeling",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T16:40:10.554095+00:00",
+          "primary_sources": [
+            "https://www.odapark.nl/tentoonstellingen/geworteld-2/"
+          ],
+          "verified_fields": [
+            "name",
+            "creator",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "photos",
+            "street_address"
+          ],
+          "conclusion": "Primaire organisator bevestigt kunstinhoud en looptijd 2026-08-01 t/m 2026-10-31. Vrij gelicentieerde locatiefoto visueel en op maker/licentie gecontroleerd; opnamedatum en onderscheid met tentoonstelling expliciet.",
+          "resolves_availability": true,
+          "remaining": []
+        }
+      ]
     }
   ],
   "sleutelwerken_api_records_checked": 100,
-  "latest_followup_report": "2026-10-04-review-aa347a63.json",
-  "updated_at": "2026-10-04T12:04:40.057279+00:00"
+  "latest_followup_report": "2026-10-04-review-c2c576a9.json",
+  "updated_at": "2026-10-04T16:40:10.554095+00:00"
 }

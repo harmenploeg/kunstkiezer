@@ -228,6 +228,11 @@
           "creator",
           "tags"
         ]
+      },
+      {
+        "url": "https://projectdenollen.nl/plan-mijn-bezoek/",
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
       }
     ],
     "summary": "In het landschap van Rudi van de Wint grijpen beelden, gebouwen en schilderingen in elkaar. Een bezoek is een ontdekkingstocht langs vormen en ruimtes die zich stap voor stap openen. Bekijk vooraf de rondleidingen en toegangsvoorwaarden.",
@@ -237,7 +242,7 @@
     "longitude": 4.759562,
     "museum_id": "4f9e04fd-5c63-54d0-bfb2-9acf614c3501",
     "starts_on": null,
-    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "visit_notes": "Alleen met een rondleiding van circa 90 minuten; reserveer vooraf online. April–oktober donderdag–zondag, rondleidingen om 11.00, 13.00 en 15.00 uur. In de winter op zondag. Het onverharde terrein is niet rolstoelvriendelijk.",
     "website_url": "https://projectdenollen.nl/nu-te-zien/",
     "inventory_key": "garden:De Nollen",
     "street_address": "Burgemeester Ritmeesterweg 10",
@@ -571,6 +576,11 @@
         "url": "https://www.hetdepot.nl/",
         "provider": "Beheerder / instelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.hetdepot.nl/openingstijden",
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
       }
     ],
     "summary": "Ontdek hoe het menselijk lichaam in sculptuur telkens een andere vorm krijgt. De beelden van Het Depot staan ook tussen bijzondere bomen en planten. Zo verbindt een wandeling de kunst met het arboretum en het veranderende licht.",
@@ -580,7 +590,7 @@
     "longitude": 5.67525355,
     "museum_id": "7c25dca7-6154-513e-a8c6-3922f645a55c",
     "starts_on": null,
-    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "visit_notes": "Arboreta De Dreijen en Hinkeloord dagelijks 10.00–17.00 uur, gratis entree. De Dreijen heeft een ingang aan Arboretumlaan 4; Hinkeloord aan Generaal Foulkesweg 64. De galerij is afzonderlijk donderdag–zondag 11.00–17.00 uur open. Controleer bijzondere sluitingsdagen bij de beheerder.",
     "website_url": "https://www.hetdepot.nl/",
     "inventory_key": "garden:Beeldengalerij Het Depot",
     "street_address": "Arboretumlaan 4",
@@ -928,6 +938,11 @@
         "url": "https://kasteelwijlre.nl/nl/",
         "provider": "Beheerder / instelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://kasteelwijlre.nl/nl/bezoek/bezoekinformatie/",
+        "provider": "Primaire inhoudelijke vervolgcontrole 4 oktober 2026",
+        "retrieved_at": "2026-10-04T16:40:10.554095+00:00"
       }
     ],
     "summary": "Kunst en landschap lopen in elkaar over op deze buitenplaats. Wandel door de tuin, bekijk hoe sculpturen op hun omgeving reageren en ontdek de samenhang tussen hedendaagse kunst, architectuur en groen.",
@@ -937,7 +952,7 @@
     "longitude": 5.891797,
     "museum_id": "305f3814-535b-5426-a371-91dac06e5b1f",
     "starts_on": null,
-    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
+    "visit_notes": "Tuin en tentoonstellingsruimten zijn woensdag tot en met zondag van 11.00 tot 17.00 uur toegankelijk met een entreebewijs. Ingang Kerkpad / In de Beemden 1. Raadpleeg de beheerder voor afwijkende feestdagen.",
     "website_url": "https://kasteelwijlre.nl/nl/",
     "inventory_key": "garden:Buitenplaats Kasteel Wijlre",
     "street_address": "Kerkpad 1",
