@@ -42,6 +42,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           const turn = ++serial;
           try {
             const session = await c.auth.getSession();
+            if (session.error) throw session.error;
             const verified = session.data.session
               ? await c.auth.getUser()
               : null;

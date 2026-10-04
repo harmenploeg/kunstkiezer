@@ -1,3 +1,4 @@
+import { readAllVisits } from "../../../../../packages/data/src/accounts.ts";
 import { useState, type FormEvent } from "react";
 import { useAuth } from "./AuthContext.tsx";
 import { useProfileState, readProfile } from "../profile/useProfile.ts";
@@ -109,14 +110,14 @@ export function Account() {
     await run(async () => {
       const [p, v] = await Promise.all([
         client.from("kk_profiles").select("*").eq("user_id", user.id),
-        client.from("kk_seen").select("*").eq("user_id", user.id),
+        readAllVisits(client, user.id),
       ]);
-      if (p.error || v.error) throw Error("Download mislukt.");
+      if (p.error) throw Error("Download mislukt.");
       const url = URL.createObjectURL(
         new Blob(
           [
             JSON.stringify(
-              { email: user.email, profile: p.data, seen: v.data },
+              { email: user.email, profile: p.data, seen: v },
               null,
               2,
             ),
@@ -312,7 +313,9 @@ export function Account() {
             <h2>Je gegevens en sessies</h2>
             <p>
               We bewaren je e-mailadres, voorkeuren, bezoeken en waarderingen.
-              Je locatie wordt niet in je account opgeslagen. Je voorkeuren, bezoeken en waarderingen zijn privé. Beheerders zien je e-mailadres om accountrechten te beheren.
+              Je locatie wordt niet in je account opgeslagen. Je voorkeuren,
+              bezoeken en waarderingen zijn privé. Beheerders zien je
+              e-mailadres om accountrechten te beheren.
             </p>
             <button disabled={busy} onClick={() => void exportData()}>
               Download mijn gegevens
