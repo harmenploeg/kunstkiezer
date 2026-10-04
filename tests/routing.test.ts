@@ -38,3 +38,5 @@ test("API-liveness staat uitsluitend onder het Kunstkiezer-pad", async () => {
   assert.equal(response.status, 200);
   assert.deepEqual(await response.json(), { status: "ok", service: "kunstkiezer-api" });
 });
+
+test("beheerinstellingen en oude volgordelink blijven rechtstreeks bereikbaar",async()=>{for(const path of ['/beheer/instellingen','/beheer/volgorde']){const env=assets();const r=await site.fetch(new Request('https://loci-amsterdam.nl/kunstkiezer'+path),env);assert.equal(r.status,200);assert.deepEqual(env.paths,['/']);}});

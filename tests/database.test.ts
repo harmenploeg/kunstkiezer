@@ -158,3 +158,27 @@ test('Coördinaten en nauwkeurigheid worden bewaard, ook bij opslaan door een ou
  const museum=(await db.query<{coordinate_precision:string}>('select * from public.kk_save_museum($1)',[{...payload,latitude:52,longitude:5,coordinate_precision:'address',coordinate_source:'PDOK'}])).rows[0]!;assert.equal(museum.coordinate_precision,'address');
  }finally{await db.close();}
 });
+
+test('Maandagbronnen zijn uitsluitend bewerkbaar door redacteurs; wijzigingen en verwijderingen hebben conflictcontrole',async()=>{
+ const db=await database();try{
+ await role(db,'anon');await assert.rejects(db.query('select * from public.kk_update_sources'));
+ await role(db,'authenticated',visitor);assert.equal((await db.query('select * from public.kk_update_sources')).rows.length,0);
+ const source={name:'Gemeentelijke collectie',url:'https://example.test/kunst',notes:'Beoordeel alle relevante categorieën.',enabled:true};
+ await assert.rejects(db.query('select * from public.kk_save_update_source($1)',[source]));
+ await assert.rejects(db.query('insert into public.kk_update_sources(name,url) values($1,$2)',['Verboden','https://example.test']));
+ await role(db,'authenticated',editor);assert.equal((await db.query('select * from public.kk_update_sources')).rows.length,15);
+ const row=(await db.query<{id:string;revision:string}>('select id,updated_at::text as revision from public.kk_save_update_source($1)',[source])).rows[0]!;
+ const changed=(await db.query<{revision:string;enabled:boolean}>('select updated_at::text as revision,enabled from public.kk_save_update_source($1,$2,$3)',[{...source,enabled:false},row.id,row.revision])).rows[0]!;
+ assert.equal(changed.enabled,false);
+ await assert.rejects(db.query('select * from public.kk_save_update_source($1,$2,$3)',[source,row.id,row.revision]));
+ await assert.rejects(db.query('select public.kk_delete_update_source($1,$2)',[row.id,row.revision]));
+ await assert.rejects(db.query('select * from public.kk_save_update_source($1)',[{...source,url:'javascript:alert(1)'}]));
+ await assert.rejects(db.query('select * from public.kk_save_update_source($1)',[{...source,url:'',notes:''}]));
+ await role(db,'authenticated',visitor);
+ assert.equal((await db.query('update public.kk_update_sources set name=$1 where id=$2 returning id',['Onbevoegd',row.id])).rows.length,0);
+ assert.equal((await db.query('delete from public.kk_update_sources where id=$1 returning id',[row.id])).rows.length,0);
+ await assert.rejects(db.query('select public.kk_delete_update_source($1,$2)',[row.id,changed.revision]));
+ await role(db,'authenticated',editor);await db.query('select public.kk_delete_update_source($1,$2)',[row.id,changed.revision]);
+ assert.equal((await db.query('select * from public.kk_update_sources where id=$1',[row.id])).rows.length,0);
+ }finally{await db.close();}
+});

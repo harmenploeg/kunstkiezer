@@ -9,20 +9,118 @@
     "evidence": "Een tip levert een kandidaat, geen automatisch publiceerbaar record. Controleer identiteit, bezoekplek, toepasselijke selectiecriteria en eventuele datums bij een primaire bron. Bewaar de bronverwijzing per record."
   },
   "sources": [
-    {"id":"official-institutions","name":"Musea, kunstinstellingen, kunstenaars en terreinbeheerders","type":"primary","discovery":"Officiële websites en bronlinks van bestaande en nieuwe vermeldingen","candidate_categories":"all_active_categories"},
-    {"id":"municipal-collections","name":"Gemeentelijke kunstcollecties en monumenteninformatie","type":"primary","discovery":"Gemeentelijke inventarissen en locatiespecifieke projectpagina’s","candidate_categories":"all_active_categories"},
-    {"id":"sleutelwerken","name":"Sleutelwerken","url":"https://www.sleutelwerken.nl/","type":"curated-selection","candidate_categories":"all_active_categories","qualification":"Onderscheid de officiële honderd Sleutelwerken van overige inzendingen; controleer tijdelijke en verplaatste werken."},
-    {"id":"11fountains","name":"11fountains","url":"https://11fountains.nl/","type":"primary","candidate_categories":"all_active_categories"},
-    {"id":"architectuurgids","name":"Architectuurgids Top 100","url":"https://www.architectuurgids.nl/project/list_projects_of_tag/tag_id/15","type":"curated-selection","candidate_categories":"all_active_categories"},
-    {"id":"architectuur-org","name":"Architectuur.ORG","url":"https://www.architectuur.org/","type":"specialist","candidate_categories":"all_active_categories"},
-    {"id":"rdmz100","name":"Historische RDMZ Top 100","url":"https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg","type":"historical-selection","candidate_categories":"all_active_categories","qualification":"Een historisch geselecteerd gebouw is niet vanzelf openbaar toegankelijk of een kunstmuseum."},
-    {"id":"nai250","name":"Nederlandse architectuur in 250 topstukken","url":"https://www.nai010.com/product/nederlandse-architectuur-in-250-topstukken/","type":"publication","candidate_categories":"all_active_categories","availability":"Alleen uitgeversinformatie en gedeeltelijk inkijkexemplaar beoordeeld; volledige lijst niet beschikbaar. Archiefontwerpen zijn niet automatisch bezoekbare locaties."},
-    {"id":"whichmuseum","name":"WhichMuseum Kunst & Design","url":"https://whichmuseum.nl/plaats/nederland-1?category%5B%5D=art-design","type":"discovery","candidate_categories":"all_active_categories","qualification":"Toets aan de afgesproken kunstselectie; een brede categorie op deze site is geen bewijs dat kunst de hoofdzaak is."},
-    {"id":"kunstvensters","name":"KunstVensters","url":"https://kunstvensters.com/","type":"editorial","candidate_categories":"all_active_categories"},
-    {"id":"museumtijdschrift","name":"Museumtijdschrift","url":"https://museumtijdschrift.nl/","type":"editorial","candidate_categories":"all_active_categories"},
-    {"id":"kunstmeisjes","name":"De Kunstmeisjes","type":"editorial-social","candidate_categories":"all_active_categories","discovery":"Toegankelijke artikelen en sociale berichten; leg de werkelijk geraadpleegde URL vast."},
-    {"id":"culty-pleasures","name":"Culty Pleasures","type":"editorial-social","candidate_categories":"all_active_categories","discovery":"Toegankelijke artikelen en sociale berichten; leg de werkelijk geraadpleegde URL vast.","availability":"Afgeschermde berichten niet als geraadpleegd opvoeren."},
-    {"id":"newspapers","name":"Landelijke kranten","type":"editorial","candidate_categories":"all_active_categories","discovery":"Toegankelijke recensies, architectuurartikelen, interviews en culturele reportages. Bewaar de specifieke krant en artikel-URL.","availability":"Geen claim van inhoudelijke controle achter een niet toegankelijke betaalmuur."},
-    {"id":"commons","name":"Wikimedia Commons","url":"https://commons.wikimedia.org/","type":"media","candidate_categories":"all_active_categories","qualification":"Controleer beeldidentiteit, maker en licentie. Bestandsnaam of cameracoördinaten bewijzen niet de actuele bezoeklocatie."}
-  ]
+    {
+      "id": "official-institutions",
+      "name": "Musea, kunstinstellingen, kunstenaars en terreinbeheerders",
+      "type": "primary",
+      "discovery": "Officiële websites en bronlinks van bestaande en nieuwe vermeldingen",
+      "candidate_categories": "all_active_categories"
+    },
+    {
+      "id": "municipal-collections",
+      "name": "Gemeentelijke kunstcollecties en monumenteninformatie",
+      "type": "primary",
+      "discovery": "Gemeentelijke inventarissen en locatiespecifieke projectpagina’s",
+      "candidate_categories": "all_active_categories"
+    },
+    {
+      "id": "sleutelwerken",
+      "name": "Sleutelwerken",
+      "url": "https://www.sleutelwerken.nl/",
+      "type": "curated-selection",
+      "candidate_categories": "all_active_categories",
+      "qualification": "Onderscheid de officiële honderd Sleutelwerken van overige inzendingen; controleer tijdelijke en verplaatste werken."
+    },
+    {
+      "id": "11fountains",
+      "name": "11fountains",
+      "url": "https://11fountains.nl/",
+      "type": "primary",
+      "candidate_categories": "all_active_categories"
+    },
+    {
+      "id": "architectuurgids",
+      "name": "Architectuurgids Top 100",
+      "url": "https://www.architectuurgids.nl/project/list_projects_of_tag/tag_id/15",
+      "type": "curated-selection",
+      "candidate_categories": "all_active_categories"
+    },
+    {
+      "id": "architectuur-org",
+      "name": "Architectuur.ORG",
+      "url": "https://www.architectuur.org/",
+      "type": "specialist",
+      "candidate_categories": "all_active_categories"
+    },
+    {
+      "id": "rdmz100",
+      "name": "Historische RDMZ Top 100",
+      "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
+      "type": "historical-selection",
+      "candidate_categories": "all_active_categories",
+      "qualification": "Een historisch geselecteerd gebouw is niet vanzelf openbaar toegankelijk of een kunstmuseum."
+    },
+    {
+      "id": "nai250",
+      "name": "Nederlandse architectuur in 250 topstukken",
+      "url": "https://www.nai010.com/product/nederlandse-architectuur-in-250-topstukken/",
+      "type": "publication",
+      "candidate_categories": "all_active_categories",
+      "availability": "Alleen uitgeversinformatie en gedeeltelijk inkijkexemplaar beoordeeld; volledige lijst niet beschikbaar. Archiefontwerpen zijn niet automatisch bezoekbare locaties."
+    },
+    {
+      "id": "whichmuseum",
+      "name": "WhichMuseum Kunst & Design",
+      "url": "https://whichmuseum.nl/plaats/nederland-1?category%5B%5D=art-design",
+      "type": "discovery",
+      "candidate_categories": "all_active_categories",
+      "qualification": "Toets aan de afgesproken kunstselectie; een brede categorie op deze site is geen bewijs dat kunst de hoofdzaak is."
+    },
+    {
+      "id": "kunstvensters",
+      "name": "KunstVensters",
+      "url": "https://kunstvensters.com/",
+      "type": "editorial",
+      "candidate_categories": "all_active_categories"
+    },
+    {
+      "id": "museumtijdschrift",
+      "name": "Museumtijdschrift",
+      "url": "https://museumtijdschrift.nl/",
+      "type": "editorial",
+      "candidate_categories": "all_active_categories"
+    },
+    {
+      "id": "kunstmeisjes",
+      "name": "De Kunstmeisjes",
+      "type": "editorial-social",
+      "candidate_categories": "all_active_categories",
+      "discovery": "Toegankelijke artikelen en sociale berichten; leg de werkelijk geraadpleegde URL vast."
+    },
+    {
+      "id": "culty-pleasures",
+      "name": "Culty Pleasures",
+      "type": "editorial-social",
+      "candidate_categories": "all_active_categories",
+      "discovery": "Toegankelijke artikelen en sociale berichten; leg de werkelijk geraadpleegde URL vast.",
+      "availability": "Afgeschermde berichten niet als geraadpleegd opvoeren."
+    },
+    {
+      "id": "newspapers",
+      "name": "Landelijke kranten",
+      "type": "editorial",
+      "candidate_categories": "all_active_categories",
+      "discovery": "Toegankelijke recensies, architectuurartikelen, interviews en culturele reportages. Bewaar de specifieke krant en artikel-URL.",
+      "availability": "Geen claim van inhoudelijke controle achter een niet toegankelijke betaalmuur."
+    },
+    {
+      "id": "commons",
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/",
+      "type": "media",
+      "candidate_categories": "all_active_categories",
+      "qualification": "Controleer beeldidentiteit, maker en licentie. Bestandsnaam of cameracoördinaten bewijzen niet de actuele bezoeklocatie."
+    }
+  ],
+  "authority": "Startlijst; de actuele bewerkbare lijst staat in public.kk_update_sources. Deze startlijst nooit opnieuw importeren of als automatische terugval gebruiken."
 }

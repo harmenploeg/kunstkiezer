@@ -1,6 +1,6 @@
 const PAGES = new Set([
  "/", "/agenda", "/geschiedenis", "/profiel", "/agenda/musea", "/beheer/musea",
- "/beheer/volgorde", "/beheer", "/beheer/openbare-kunst", "/beheer/beeldenparken", "/beheer/architectuur", "/beheer/evenementen", "/agenda/evenementen",
+ "/beheer/instellingen", "/beheer/volgorde", "/beheer", "/beheer/openbare-kunst", "/beheer/beeldenparken", "/beheer/architectuur", "/beheer/evenementen", "/agenda/evenementen",
  "/agenda/openbare-kunst", "/agenda/beeldenparken", "/agenda/architectuur"
 ]);
 export async function onRequest({request,env}) {

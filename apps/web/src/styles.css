@@ -129,3 +129,13 @@ fieldset {border:1px solid var(--border);border-radius:10px;padding:12px;}
 .ranking-form { max-width: 760px; display: grid; gap: 1rem; }
 .ranking-preview { padding: 1.4rem; border-radius: 16px; background: #faf5ed; }
 .ranking-preview h3 { margin-top: 0; }
+
+.source-admin {margin-top:3rem;padding-top:2rem;border-top:1px solid #ddd;}
+.source-list {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:1rem 0;}
+.source-list .museum-row {overflow-wrap:anywhere;}
+.source-actions {display:flex;gap:12px;flex-wrap:wrap;}
+.source-form {margin-top:2rem;scroll-margin-top:24px;}
+.source-form fieldset {border:0;padding:0;margin:0;display:grid;gap:1rem;min-width:0;}
+.source-checkbox {display:flex;align-items:center;gap:10px;}
+.source-checkbox input {width:auto;}
+@media(max-width:760px){.source-list{grid-template-columns:1fr;}}
