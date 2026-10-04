@@ -1,7 +1,7 @@
 {
   "run_id": "2d91364a-8396-4e71-8791-10ac0a979ccd",
   "started_at": "2026-10-04T09:32:49.648357Z",
-  "updated_at": "2026-10-04T09:43:27.945677+00:00",
+  "updated_at": "2026-10-04T10:11:52.275766+00:00",
   "research_date": "2026-10-04",
   "agenda_window_end": "2026-11-04",
   "scope": "Gerichte vervolgcontrole van open bezoekinformatie in alle vijf categorieën en twee ontbrekende tentoonstellingen. Geen volledige individuele bestaanscontrole van alle 735 records. Overige inhoudelijke controles in 2026-10-04-availability-review.json blijven open.",
@@ -887,6 +887,434 @@
         "sources"
       ],
       "conclusion": "Tijdelijke presentatie toegevoegd aan bezoekinformatie; rondreizende oeuvrevermelding blijft unknown en krijgt geen fictieve vaste kaartlocatie."
+    },
+    {
+      "id": "0b88d7ba-4ce0-59e6-aedc-adc901d938d6",
+      "name": "De Vis voor Stavoren",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T09:49:29.590476+00:00",
+      "primary_source": "https://11fountains.nl/fonteinen/stavoren/",
+      "additional_source": "https://11fountains.nl/faq/",
+      "verified_fields": [
+        "name",
+        "creator",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Stationsweg). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+    },
+    {
+      "id": "0bfeb0bb-b663-5a32-b781-6c6d9230d1d7",
+      "name": "De Oortwolk",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T09:49:29.590476+00:00",
+      "primary_source": "https://11fountains.nl/fonteinen/franeker/",
+      "additional_source": "https://11fountains.nl/faq/",
+      "verified_fields": [
+        "name",
+        "creator",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Breedeplaats, bij de Martinikerk). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+    },
+    {
+      "id": "5e33755b-9788-5006-8c7d-ae6720fd4ce9",
+      "name": "De IJsfontein",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T09:49:29.590476+00:00",
+      "primary_source": "https://11fountains.nl/fonteinen/dokkum/",
+      "additional_source": "https://11fountains.nl/faq/",
+      "verified_fields": [
+        "name",
+        "creator",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Markt 28). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+    },
+    {
+      "id": "5f059e48-d495-5567-b589-d784305deb65",
+      "name": "De Woeste Leeuwen van Workum",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T09:49:29.590476+00:00",
+      "primary_source": "https://11fountains.nl/fonteinen/workum/",
+      "additional_source": "https://11fountains.nl/faq/",
+      "verified_fields": [
+        "name",
+        "creator",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Grasveld bij de passantenhaven). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+    },
+    {
+      "id": "6a9f8059-9530-5bd7-b3b1-221976cf9699",
+      "name": "Onsterfelijke Bloemen – Rikka",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T09:49:29.590476+00:00",
+      "primary_source": "https://11fountains.nl/fonteinen/ijlst/",
+      "additional_source": "https://11fountains.nl/faq/",
+      "verified_fields": [
+        "name",
+        "creator",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (De Dassenboarch). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+    },
+    {
+      "id": "79d8dfc3-da90-57f3-89a0-5c5f03d5cc2f",
+      "name": "Love",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T09:49:29.590476+00:00",
+      "primary_source": "https://11fountains.nl/fonteinen/leeuwarden/",
+      "additional_source": "https://11fountains.nl/faq/",
+      "verified_fields": [
+        "name",
+        "creator",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Stationsgebied). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+    },
+    {
+      "id": "7e2e546b-d5de-55dd-9667-da25104ad7e2",
+      "name": "De Fontein van Fortuna",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T09:49:29.590476+00:00",
+      "primary_source": "https://11fountains.nl/fonteinen/sneek/",
+      "additional_source": "https://11fountains.nl/faq/",
+      "verified_fields": [
+        "name",
+        "creator",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Hoogend). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+    },
+    {
+      "id": "a13f7085-81cb-5016-bc67-4a9656ab6bd8",
+      "name": "Flora & Fauna",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T09:49:29.590476+00:00",
+      "primary_source": "https://11fountains.nl/fonteinen/hindeloopen/",
+      "additional_source": "https://11fountains.nl/faq/",
+      "verified_fields": [
+        "name",
+        "creator",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Nieuweweg 1). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+    },
+    {
+      "id": "a27f565c-eab7-5fde-94c4-68507190110b",
+      "name": "De Walvis",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T09:49:29.590476+00:00",
+      "primary_source": "https://11fountains.nl/fonteinen/harlingen/",
+      "additional_source": "https://11fountains.nl/faq/",
+      "verified_fields": [
+        "name",
+        "creator",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Nieuwe Willemshaven, bij de Zuiderpier). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+    },
+    {
+      "id": "ad791f4e-cdf7-524d-905a-87c33149d031",
+      "name": "Kievit",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T09:49:29.590476+00:00",
+      "primary_source": "https://11fountains.nl/fonteinen/sloten/",
+      "additional_source": "https://11fountains.nl/faq/",
+      "verified_fields": [
+        "name",
+        "creator",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (G.G. van der Walplein / Koestraat). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+    },
+    {
+      "id": "bad119a8-6a2e-58d0-974e-d1134e2b8a21",
+      "name": "De Vleermuis",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T09:49:29.590476+00:00",
+      "primary_source": "https://11fountains.nl/fonteinen/bolsward/",
+      "additional_source": "https://11fountains.nl/faq/",
+      "verified_fields": [
+        "name",
+        "creator",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Broereplein 9). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+    },
+    {
+      "id": "8ca65b0c-71eb-5178-bc9d-6e321af6995c",
+      "name": "Van Gogh Museum",
+      "category": "musea",
+      "checked_at": "2026-10-04T10:07:54.365757+00:00",
+      "primary_source": "https://www.vangoghmuseum.nl/en/visit/address-and-opening-hours",
+      "verified_fields": [
+        "name",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Museumplein 6 en dagelijkse openstelling bevestigd; actuele oktoberuren en verplicht tijdslot staan op de eigen bezoekpagina.",
+      "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+    },
+    {
+      "id": "45f722c3-7566-502a-93ee-acda64e7cdb0",
+      "name": "Kröller-Müller Museum",
+      "category": "musea",
+      "checked_at": "2026-10-04T10:07:54.365757+00:00",
+      "primary_source": "https://www.krollermuller.nl/nl/bezoek/plan-je-bezoek",
+      "verified_fields": [
+        "name",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Houtkampweg 6 en openstelling dinsdag-zondag bevestigd. Museumbezoek vereist een gecombineerd park- en museumticket.",
+      "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+    },
+    {
+      "id": "558d084e-8241-5142-a083-4137b51973a6",
+      "name": "Mauritshuis",
+      "category": "musea",
+      "checked_at": "2026-10-04T10:07:54.365757+00:00",
+      "primary_source": "https://www.mauritshuis.nl/bezoek",
+      "verified_fields": [
+        "name",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Plein 29 expliciet als bezoekadres en dagelijkse museumopenstelling bevestigd. Meisje met de parel is tot en met vandaag 4 oktober afwezig; algemene catalogustekst belooft dit specifieke werk niet.",
+      "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+    },
+    {
+      "id": "c3ab1b89-a248-5b8f-bf3e-031df0c33a18",
+      "name": "Kunstmuseum Den Haag",
+      "category": "musea",
+      "checked_at": "2026-10-04T10:07:54.365757+00:00",
+      "primary_source": "https://www.kunstmuseum.nl/nl/bezoek",
+      "verified_fields": [
+        "name",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Stadhouderslaan 41 en openstelling dinsdag-zondag bevestigd. Verouderde verkeersnotitie over verwachte tunnelheropening in juli niet overgenomen.",
+      "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+    },
+    {
+      "id": "29dda0c4-dea0-55dd-a9e6-35fe6ddad31b",
+      "name": "Museum MORE",
+      "category": "musea",
+      "checked_at": "2026-10-04T10:07:54.365757+00:00",
+      "primary_source": "https://www.moregorssel.nl/",
+      "verified_fields": [
+        "name",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Gorssel aan Hoofdstraat 28 is vandaag open. De groepswebsite verwijst expliciet naar dit afzonderlijke museum, met actuele tentoonstellingen; Ruurlo en Twickel zijn andere locaties.",
+      "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+    },
+    {
+      "id": "98651057-8ba9-5e2c-b97a-56c719fb1227",
+      "name": "Singer Laren",
+      "category": "musea",
+      "checked_at": "2026-10-04T10:07:54.365757+00:00",
+      "primary_source": "https://www.singerlaren.nl/",
+      "verified_fields": [
+        "name",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Oude Drift 1 en museumopenstelling dinsdag-zondag 10-17 bevestigd. Theater en beeldentuin hebben afzonderlijke bezoekinformatie.",
+      "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+    },
+    {
+      "id": "309b4c56-a9df-5cd7-824d-5e6830fc832e",
+      "name": "Museum Voorlinden",
+      "category": "musea",
+      "checked_at": "2026-10-04T10:07:54.365757+00:00",
+      "primary_source": "https://www.voorlinden.nl/bezoek/",
+      "verified_fields": [
+        "name",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Buurtweg 90 en dagelijks museumbezoek 11-17 bevestigd. Beeldentuin Clingenbosch wordt op de tuinpagina afzonderlijk genoemd; dat is geen bewijs dat elke omliggende tuin vrij te bezoeken is.",
+      "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+    },
+    {
+      "id": "c8e2fdc7-208f-52e5-8c63-b0fb0f11152f",
+      "name": "Frans Hals Museum",
+      "category": "musea",
+      "checked_at": "2026-10-04T10:07:54.365757+00:00",
+      "primary_source": "https://franshalsmuseum.nl/nl/tickets-openingstijden",
+      "verified_fields": [
+        "name",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Groot Heiligland 62 en openstelling dinsdag-zondag 11-17 bevestigd. Drie zalen zijn tot 15 oktober wegens werkzaamheden gesloten; het museum blijft open.",
+      "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+    },
+    {
+      "id": "05e0c55c-8e8b-51a3-a294-3347e2809aa6",
+      "name": "Kröller-Müller Museum – beeldentuin",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T10:07:54.365757+00:00",
+      "primary_source": "https://www.krollermuller.nl/nl/over-de-collectie/beeldentuin",
+      "verified_fields": [
+        "name",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Doorlopende beeldentuin met ruim tweehonderd beelden aan Houtkampweg 6 bevestigd. Entree via museum/park; Jardin d’émail heeft afzonderlijke seizoens- en weersbeperkingen.",
+      "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+    },
+    {
+      "id": "24cddb4a-f979-5f9b-9ca5-590dd237b574",
+      "name": "Singer Laren – beeldentuin",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-04T10:07:54.365757+00:00",
+      "primary_source": "https://www.singerlaren.nl/",
+      "verified_fields": [
+        "name",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "De eigen site bevestigt de beeldentuin aan Oude Drift 1, dinsdag-zondag 09.30-17.30; museum, horeca en theater niet met elkaar verward.",
+      "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+    },
+    {
+      "id": "44b67c66-7c7d-52a5-8b03-85639a482e9b",
+      "name": "Van Gogh, al onze schilderijen",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T10:11:28.186125+00:00",
+      "primary_source": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/van-gogh-al-onze-schilderijen",
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-09-15 t/m 2027-01-03 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden.",
+      "limits": "Beeldrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze datumcontrole."
+    },
+    {
+      "id": "16c9c211-e96f-514f-98ea-03c2b2e0ddbe",
+      "name": "Ruimtereis",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T10:11:28.143291+00:00",
+      "primary_source": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruimtereis",
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-03-25 t/m 2026-11-29 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden.",
+      "limits": "Beeldrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze datumcontrole."
+    },
+    {
+      "id": "2be3acfc-4745-5574-8b30-3552eeb04288",
+      "name": "Ruud Kuijer in het Rietveldpaviljoen",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T10:11:28.080712+00:00",
+      "primary_source": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruud-kuijer",
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-05-23 t/m 2026-12-06 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden.",
+      "limits": "Beeldrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze datumcontrole."
+    },
+    {
+      "id": "85b25102-6abc-5809-a92d-4c89137a459d",
+      "name": "Gilbert & George. Drifters",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T10:11:28.244959+00:00",
+      "primary_source": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/gilbert-and-george-drifters",
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-05-30 t/m 2027-01-17 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden.",
+      "limits": "Beeldrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze datumcontrole."
+    },
+    {
+      "id": "a57f2fcb-a055-5b92-9a40-da8cfd082610",
+      "name": "Wessel Couzijn. Rendez-vous van tafel en stoel",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T10:11:28.382307+00:00",
+      "primary_source": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/wessel-couzijn-rendez-vous-van-tafel-en-stoel",
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-01-17 t/m 2026-11-22 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden.",
+      "limits": "Beeldrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze datumcontrole."
+    },
+    {
+      "id": "c2c9b858-9a38-51a0-bfb7-8b80e0972922",
+      "name": "Bart van der Leck / Charley Toorop",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T10:11:28.513064+00:00",
+      "primary_source": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/bart-van-der-leck-charley-toorop",
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "operating_status",
+        "website_url"
+      ],
+      "conclusion": "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-09-26 t/m 2027-09-01 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden.",
+      "limits": "Beeldrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze datumcontrole."
     }
   ],
   "uncertainties": [
@@ -916,6 +1344,13 @@
     {
       "candidate": "Het Muizenhuis",
       "reason": "Foto op oud bezoekadres verwijderd uit actuele presentatie. Nieuwe locatiefoto met vastgelegde hergebruikrechten nog nodig. Oud beeld en metadata bewaard in wijzigingshistorie en dit verslag."
+    },
+    {
+      "candidate": "Museum Voorlinden – beeldentuin",
+      "sources": [
+        "https://www.voorlinden.nl/bezoek/tuinen/"
+      ],
+      "reason": "Onderscheid tuin bij museum en afzonderlijke beeldentuin Clingenbosch vereist eigen controle van actuele beelden en toegang. Museumbezoek aan Buurtweg 90 bevestigt niet automatisch deze beeldentuinselectie."
     }
   ],
   "source_checks": [
@@ -931,7 +1366,7 @@
     {
       "id": "11fountains",
       "url": "https://11fountains.nl/",
-      "result": "Officieel overzicht van elf fonteinen gelezen. Geen nieuwe vermelding; afzonderlijke actuele objectcontroles nog open."
+      "result": "Alle elf individuele objectpagina’s inhoudelijk gelezen en locaties/makers vergeleken; officiële FAQ bevestigt vrij bezoek en seizoenswerking. Elf recordcontroles vastgelegd zonder cataloguswijziging. Eerste opvragen hadden time-outs; via links op het overzicht en heropvraag waren ze bereikbaar."
     },
     {
       "id": "architectuur-org",
@@ -970,11 +1405,12 @@
     },
     {
       "id": "commons",
-      "result": "Geen nieuwe foto gepubliceerd. Twee eerder vastgelegde gebouwfoto’s met bestaande maker/licentie/Commons-bron gebruikt bij gekoppelde tentoonstellingen; bijschriften noemen expliciet de locatie."
+      "result": "Beide hergebruikte gebouwfoto’s opnieuw gecontroleerd via de Commons imageinfo-API: CC BY-SA 3.0 en CC BY-SA 4.0 met naamsvermelding. Beide beeldlinks geven HTTP 200 image/jpeg. Geen ongedocumenteerde nieuwe foto’s gepubliceerd."
     },
     {
       "id": "kunstmeisjes",
-      "result": "Zoekopdracht leverde geen bruikbare actuele inhoud op; niet volledig gecontroleerd."
+      "result": "Toegankelijke gedeelte nieuwsbrief van 6 september gelezen. Afgeschermd vervolg niet gelezen. Septemberafsluitingen en Belgische locaties vallen buiten de actuele Nederlandse selectie. Zes vermeldingen lopen volgens de nieuwsbrief tot 4 oktober; Helen Levitt staat al in de catalogus. Vijf overige tips bij primaire organisatorpagina’s nagezocht; kandidaten en conflict hieronder bewaard.",
+      "url": "https://kunstmeisjes.substack.com/p/km-nieuwsbrief-16-september-2026"
     },
     {
       "id": "culty-pleasures",
@@ -992,7 +1428,7 @@
   "verification": {
     "database": "Alle 13 updates en 2 toevoegingen opnieuw uit Supabase gelezen en veld voor veld vergeleken; maker-tag automatisch aangevuld door bestaande trigger.",
     "tests": "npm run check geslaagd: TypeScript, 50 tests en productiebuild. Eerste test vond ontbrekende foto-aantekening; redactionele notitie toegevoegd en daarna alle controles geslaagd.",
-    "production": "pending",
+    "production": "CI loopt; finale hashcontrole omvat ook alle vijf catalogusdownloads.",
     "public_api": {
       "checked_at": "2026-10-04T09:45:13.137538+00:00",
       "method": "Publieke Supabase API met publieke sleutel uit productiebroncode. RLS verbergt gesloten/onzekere records correct. Productiedomein vereist Cloudflare Access; productiecontrole via bestaande geautoriseerde CI-keten volgt.",
@@ -1010,7 +1446,387 @@
           "closed_or_unknown_correctly_hidden": 4
         }
       ]
+    },
+    "photos": {
+      "checked_at": "2026-10-04T09:50:24.799793+00:00",
+      "results": [
+        {
+          "id": "dd25eb3e-079f-5628-a14e-d2552b902ffd",
+          "name": "Outsider Art! – 150 jaar outsiderkunst in Nederland",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Haarlem_Vleeshal_01.jpg/1280px-Haarlem_Vleeshal_01.jpg",
+            "credit": "Frank Schwichtenberg (Huhu Uet)",
+            "caption": "Locatie: Museum van de Geest – Pop-up Outsider Art — Vleeshal Haarlem, buitengevel in 2013",
+            "license": "CC BY-SA 3.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Haarlem_Vleeshal_01.jpg"
+          },
+          "http_status": 200,
+          "content_type": "image/jpeg"
+        },
+        {
+          "id": "a31a4358-a644-5589-9e1a-6003ebab7563",
+          "name": "Het raadsel van het meisje in het blauw",
+          "photo": {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Frans_Hals_Museum_portal_in_Haarlem.jpg/1280px-Frans_Hals_Museum_portal_in_Haarlem.jpg",
+            "credit": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+            "caption": "Locatie: Frans Hals Museum — Frans Hals Museum",
+            "license": "CC BY-SA 4.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Frans_Hals_Museum_portal_in_Haarlem.jpg"
+          },
+          "http_status": 200,
+          "content_type": "image/jpeg"
+        }
+      ]
+    },
+    "photo_rights": [
+      {
+        "title": "File:Frans Hals Museum portal in Haarlem.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution_required": "true"
+      },
+      {
+        "title": "File:Haarlem Vleeshal 01.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "attribution_required": "true"
+      }
+    ],
+    "sources_final_compare": "De laatste gelezen bronnenlijst is identiek aan de beginmomentopname, inclusief updated_at. Alle 15 bronnen(groepen) blijven ingeschakeld.",
+    "loci_local": "npm run check:release en zes Kunstkiezer-routetests geslaagd.",
+    "integration_commit": "370dd529addeb440b6e6951186f03152f9703a05",
+    "catalog_source_commit": "565d3ddb28b3dd72454d275251a6ae5ddd63ab5c",
+    "production_workflow": "https://github.com/harmenploeg/interactief/actions/runs/37193846296",
+    "superseded_workflow": "https://github.com/harmenploeg/interactief/actions/runs/37193278992",
+    "production_source_commit": "9332b02ede4c3d2b0d88fc998f24312ec1ac1e97",
+    "catalog_comparison": "Alle vijf catalogusdownloads in opvolgende integratie 370dd52 zijn bytegelijk aan de eigen gecontroleerde integratie e720d71; productie-hashcontrole is behouden.",
+    "database_final_compare": "Alle velden van de 735 geselecteerde records opnieuw vergeleken met Supabase: geen afwijkingen na de opgeslagen mutaties.",
+    "direct_primary_checks": [
+      {
+        "id": "05fb0dec-a856-583b-8584-ab123e74feba",
+        "name": "Het Muizenhuis",
+        "url": "https://www.themousemansion.com/pages/visit-the-mouse-mansion",
+        "final_url": "https://www.themousemansion.com/pages/visit-the-mouse-mansion",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:18.535047+00:00"
+      },
+      {
+        "id": "087b3436-17a7-5267-a11c-b5bcc00e8dfc",
+        "name": "Museum Prinsenhof Delft",
+        "url": "https://www.museumprinsenhofdelft.nl/nieuws/enorme-belangstelling-voor-verbouwing-museum-prinsenhof-delft",
+        "final_url": "https://www.museumprinsenhofdelft.nl/nieuws/enorme-belangstelling-voor-verbouwing-museum-prinsenhof-delft",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:18.899965+00:00"
+      },
+      {
+        "id": "4aa2b82b-11a5-5fae-bb4c-392af6ca1047",
+        "name": "Het Nieuwe Domein - Hedendaagse Kunst",
+        "url": "https://www.hetnieuwedomein.nl/",
+        "final_url": "https://www.hetnieuwedomein.nl/",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:18.874109+00:00"
+      },
+      {
+        "id": "71ca77ee-da1c-51cc-9692-57364ef7e513",
+        "name": "Stichting Nobilis centrum voor prentkunst",
+        "url": "https://www.stichtingnobilis.nl/",
+        "final_url": "https://www.stichtingnobilis.nl/",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:19.067980+00:00"
+      },
+      {
+        "id": "878fe3f1-3c25-5be4-9dc7-76ffb629ad0a",
+        "name": "Museum Vaals",
+        "url": "https://museumvaals.nl/",
+        "final_url": "https://museumvaals.nl/",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:18.318815+00:00"
+      },
+      {
+        "id": "cb3d8ee5-fbea-5532-a3e9-0beec17e9d32",
+        "name": "Flower Art Museum",
+        "url": "https://www.flowerartmuseum.nl/",
+        "final_url": "https://www.flowerartmuseum.nl/",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:18.606199+00:00"
+      },
+      {
+        "id": "d36bbfc7-4d74-5022-851d-92f2cac85526",
+        "name": "GRID Grafisch Museum Groningen",
+        "url": "https://www.gridgroningen.nl/",
+        "final_url": "https://www.gridgroningen.nl/",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:18.813249+00:00"
+      },
+      {
+        "id": "74fe051f-9622-5635-9a3e-4834fd4695fe",
+        "name": "Woningbouw Kiefhoek",
+        "url": "https://urbanguides.nl/nl/tours/kiefhoek-rondleiding-modernisme-rotterdam/",
+        "final_url": "https://urbanguides.nl/nl/tours/kiefhoek-rondleiding-modernisme-rotterdam/",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:19.792942+00:00"
+      },
+      {
+        "id": "c33817e6-9d43-560c-89cd-09d17a9a3869",
+        "name": "Woongebouw De Peperklip",
+        "url": "https://www.rotterdam.nl/urban-roofs",
+        "final_url": "https://www.rotterdam.nl/urban-roofs",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:19.054968+00:00"
+      },
+      {
+        "id": "2dca3c95-59f4-5630-9903-5f01c65958ee",
+        "name": "Lustwarande – De Oude Warande",
+        "url": "https://www.lustwarande.org/bezoek/openingstijden-en-toegangsprijs",
+        "final_url": "https://www.lustwarande.org/bezoek/openingstijden-en-toegangsprijs",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:19.352293+00:00"
+      },
+      {
+        "id": "77f9c032-23b0-5e86-9cb2-0d12ede312be",
+        "name": "Beeldentuin Ravesteyn",
+        "url": "https://www.ruine-ravesteyn.nl/activiteiten/beeldentuin/anchor/kunstenaars",
+        "final_url": "https://www.ruine-ravesteyn.nl/activiteiten/beeldentuin/anchor/kunstenaars",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:19.315896+00:00"
+      },
+      {
+        "id": "ecbbbd0f-8fa4-54c7-bcb5-87b6893c994b",
+        "name": "Kunstcollectie Keukenhof",
+        "url": "https://keukenhof.nl/nl/",
+        "final_url": "https://www.keukenhof.nl/nl/",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:19.393994+00:00"
+      },
+      {
+        "id": "5f8c90fe-32b5-5263-9e88-1b0d76e5e115",
+        "name": "Strandbeesten",
+        "url": "https://www.museumprinsenhofdelft.nl/nieuws/strandbeesten-mortuarium-theo-jansen-weer-tot-leven",
+        "final_url": "https://www.museumprinsenhofdelft.nl/nieuws/strandbeesten-mortuarium-theo-jansen-weer-tot-leven",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:19.852882+00:00"
+      },
+      {
+        "id": "dd25eb3e-079f-5628-a14e-d2552b902ffd",
+        "name": "Outsider Art! – 150 jaar outsiderkunst in Nederland",
+        "url": "https://museumvandegeest.nl/tentoonstellingen/binnenkort-outsider-art/",
+        "final_url": "https://museumvandegeest.nl/tentoonstellingen/binnenkort-outsider-art/",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:20.487810+00:00"
+      },
+      {
+        "id": "a31a4358-a644-5589-9e1a-6003ebab7563",
+        "name": "Het raadsel van het meisje in het blauw",
+        "url": "https://franshalsmuseum.nl/nl/zien-en-doen/versproncks-meisje-in-het-blauw",
+        "final_url": "https://franshalsmuseum.nl/nl/zien-en-doen/versproncks-meisje-in-het-blauw",
+        "http_status": 200,
+        "checked_at": "2026-10-04T10:10:19.635919+00:00"
+      }
+    ],
+    "direct_primary_result": "Alle 15 primaire pagina’s voor de 13 wijzigingen en 2 toevoegingen rechtstreeks opgehaald met HTTP 200. Gewijzigde bezoekinformatie en tentoonstellingsdatums bevestigd.",
+    "search_cache_conflict": {
+      "source": "Kröller-Müller Museum",
+      "result": "Zoektool toonde oudere datums voor Ruimtereis, Ruud Kuijer en Gilbert & George. De rechtstreekse actuele HTML toont respectievelijk 2026-11-29, 2026-12-06 en 2027-01-17, gelijk aan Supabase. Geen databasecorrectie nodig.",
+      "checks": [
+        {
+          "id": "44b67c66-7c7d-52a5-8b03-85639a482e9b",
+          "name": "Van Gogh, al onze schilderijen",
+          "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/van-gogh-al-onze-schilderijen",
+          "starts_on": "2026-09-15",
+          "ends_on": "2027-01-03",
+          "start_found": true,
+          "end_found": true,
+          "address_found": true,
+          "visible_date_text": [
+            " al onze schilderijen 15 september 2026 - 3 januari 2027 Voor het eerst sinds"
+          ],
+          "checked_at": "2026-10-04T10:11:28.186125+00:00"
+        },
+        {
+          "id": "16c9c211-e96f-514f-98ea-03c2b2e0ddbe",
+          "name": "Ruimtereis",
+          "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruimtereis",
+          "starts_on": "2026-03-25",
+          "ends_on": "2026-11-29",
+          "start_found": true,
+          "end_found": true,
+          "address_found": true,
+          "visible_date_text": [
+            "entoonstelling Ruimtereis 25 maart 2026 - 29 november 2026 In Ruimtereis neem"
+          ],
+          "checked_at": "2026-10-04T10:11:28.143291+00:00"
+        },
+        {
+          "id": "2be3acfc-4745-5574-8b30-3552eeb04288",
+          "name": "Ruud Kuijer in het Rietveldpaviljoen",
+          "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruud-kuijer",
+          "starts_on": "2026-05-23",
+          "ends_on": "2026-12-06",
+          "start_found": true,
+          "end_found": true,
+          "address_found": true,
+          "visible_date_text": [
+            "Tentoonstelling Ruud Kuijer 23 mei 2026 - 6 december 2026 In de zomer van 202"
+          ],
+          "checked_at": "2026-10-04T10:11:28.080712+00:00"
+        },
+        {
+          "id": "85b25102-6abc-5809-a92d-4c89137a459d",
+          "name": "Gilbert & George. Drifters",
+          "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/gilbert-and-george-drifters",
+          "starts_on": "2026-05-30",
+          "ends_on": "2027-01-17",
+          "start_found": true,
+          "end_found": true,
+          "address_found": true,
+          "visible_date_text": [
+            "bert &amp; George. Drifters 30 mei 2026 - 17 januari 2027 Twee strak geklede "
+          ],
+          "checked_at": "2026-10-04T10:11:28.244959+00:00"
+        },
+        {
+          "id": "a57f2fcb-a055-5b92-9a40-da8cfd082610",
+          "name": "Wessel Couzijn. Rendez-vous van tafel en stoel",
+          "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/wessel-couzijn-rendez-vous-van-tafel-en-stoel",
+          "starts_on": "2026-01-17",
+          "ends_on": "2026-11-22",
+          "start_found": true,
+          "end_found": true,
+          "address_found": true,
+          "visible_date_text": [
+            "vous van tafel en stoel 17 januari 2026 - 22 november 2026 In onze vaste coll"
+          ],
+          "checked_at": "2026-10-04T10:11:28.382307+00:00"
+        },
+        {
+          "id": "c2c9b858-9a38-51a0-bfb7-8b80e0972922",
+          "name": "Bart van der Leck / Charley Toorop",
+          "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/bart-van-der-leck-charley-toorop",
+          "starts_on": "2026-09-26",
+          "ends_on": "2027-09-01",
+          "start_found": true,
+          "end_found": true,
+          "address_found": true,
+          "visible_date_text": [
+            "Leck / Charley Toorop 26 september 2026 - 1 september 2027 In deze tentoonste"
+          ],
+          "checked_at": "2026-10-04T10:11:28.513064+00:00"
+        }
+      ]
     }
   },
-  "editorial_note": "Bestaande review_notes van Het Muizenhuis behouden en met conflictcontrole aangevuld met FOTO ONTBREEKT; database heeft de opgeslagen notitie teruggegeven."
+  "editorial_note": "Bestaande review_notes van Het Muizenhuis behouden en met conflictcontrole aangevuld met FOTO ONTBREEKT; database heeft de opgeslagen notitie teruggegeven.",
+  "existing_records_reviewed_this_run": 40,
+  "additional_candidates": [
+    {
+      "name": "Thyssen-Bornemisza ❤️ Mauritshuis – Meesterwerken uit Madrid",
+      "category": "evenementen",
+      "starts_on": "2026-10-15",
+      "ends_on": "2027-01-17",
+      "primary_source": "https://www.mauritshuis.nl/nu-te-doen/tentoonstellingen/thyssen-bornemisza",
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "subject"
+      ],
+      "remaining": [
+        "Nieuw record en herbruikbare locatie-/tentoonstellingsfoto nog controleren; organisatorpagina in zoektool gelezen, rechtstreekse aanvullende HTTP-controle gaf 403. Museumbezoekadres Plein 29 bevestigd."
+      ],
+      "status": "candidate"
+    },
+    {
+      "name": "Carla Kogelman: A Closer Look",
+      "category": "evenementen",
+      "starts_on": "2026-07-17",
+      "ends_on": "2026-10-04",
+      "primary_source": "https://museumamersfoort.nl/tentoonstellingen/carla-kogelman-a-closer-look/",
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "subject"
+      ],
+      "remaining": [
+        "Nog geen kaartpunt en herbruikbare foto gecontroleerd; alleen toevoegen zolang de tentoonstelling nog loopt."
+      ],
+      "status": "candidate"
+    },
+    {
+      "name": "Draw Withdraw Redraw",
+      "category": "evenementen",
+      "starts_on": "2026-05-23",
+      "ends_on": "2026-10-04",
+      "primary_source": "https://www.kunstinstituutmelly.nl/en/exhibitions/9338-draw-withdraw-redraw",
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "subject"
+      ],
+      "remaining": [
+        "Nog geen kaartpunt en herbruikbare foto gecontroleerd; alleen toevoegen zolang de tentoonstelling nog loopt."
+      ],
+      "status": "candidate"
+    },
+    {
+      "name": "Woody van Amen – The Best of",
+      "category": "evenementen",
+      "starts_on": "2026-04-25",
+      "ends_on": "2026-10-04",
+      "primary_source": "https://kunsthal.nl/nl/tentoonstellingen/woody-van-amen/",
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "subject"
+      ],
+      "remaining": [
+        "Nog geen eigen record en herbruikbare foto gecontroleerd; alleen toevoegen zolang de tentoonstelling nog loopt."
+      ],
+      "status": "candidate"
+    },
+    {
+      "name": "Hendrik Chabot Prijs 2026",
+      "category": "evenementen",
+      "primary_source": "https://chabotmuseum.nl/exhibitions/silvia-b-evelyn-taocheng-wang-anne-wenzel/",
+      "verified_fields": [
+        "name",
+        "subject"
+      ],
+      "remaining": [
+        "Dezelfde officiële pagina noemt 4 oktober in de kop en 13 september in de lopende tekst. Niet op basis van aannames gepubliceerd."
+      ],
+      "status": "source_conflict"
+    },
+    {
+      "name": "Pronkjuwelen",
+      "category": "evenementen",
+      "primary_source": "https://www.ikonenmuseumkampen.nl/actueel/exposities/expositie/pronkjuwelen",
+      "verified_fields": [
+        "starts_on",
+        "ends_on"
+      ],
+      "remaining": [],
+      "status": "excluded_ended",
+      "starts_on": "2025-10-28",
+      "ends_on": "2026-09-26",
+      "reason": "Rechtstreekse primaire pagina meldt einddatum 26 september 2026. De nieuwsbrief/zoekweergave was verouderd; valt buiten het actuele venster."
+    }
+  ],
+  "publication_isolation": "Broncommit 565d3dd bevat deze cataloguswijzigingen. Een nieuwere afzonderlijke applicatiepublicatie (9332b02 / integratie 370dd52) heeft de oorspronkelijke CI-run automatisch vervangen. Alle vijf catalogi daarin zijn bytegelijk aan onze gecontroleerde integratie en de productie-hashcontrole is behouden.",
+  "remaining_counts": {
+    "catalog_records_with_open_fields": 311,
+    "individual_availability_dossiers_with_open_questions": 660
+  },
+  "source_access_limits": [
+    {
+      "name": "Stedelijk Museum Amsterdam",
+      "url": "https://www.stedelijk.nl/nl",
+      "reason": "Bezoekpagina niet bereikbaar via webtool; homepage leverde geen inhoudelijke bezoekinformatie. Geen statuswijziging en geen geslaagde actuele controle geclaimd."
+    }
+  ]
 }

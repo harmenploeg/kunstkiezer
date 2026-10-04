@@ -437,11 +437,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Doorlopende beeldentuin met ruim tweehonderd beelden aan Houtkampweg 6 bevestigd. Entree via museum/park; Jardin d’émail heeft afzonderlijke seizoens- en weersbeperkingen."
+      ],
       "remaining": [
-        "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Foto met bevestigde hergebruikvoorwaarden ontbreekt."
+      ],
+      "followup_reviews": [
+        {
+          "id": "05e0c55c-8e8b-51a3-a294-3347e2809aa6",
+          "name": "Kröller-Müller Museum – beeldentuin",
+          "category": "beeldenparken",
+          "checked_at": "2026-10-04T10:07:54.365757+00:00",
+          "primary_source": "https://www.krollermuller.nl/nl/over-de-collectie/beeldentuin",
+          "verified_fields": [
+            "name",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Doorlopende beeldentuin met ruim tweehonderd beelden aan Houtkampweg 6 bevestigd. Entree via museum/park; Jardin d’émail heeft afzonderlijke seizoens- en weersbeperkingen.",
+          "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+        }
       ]
     },
     {
@@ -751,11 +774,36 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "creator",
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Stationsweg). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+      ],
       "remaining": [
-        "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Foto met bevestigde hergebruikvoorwaarden ontbreekt."
+      ],
+      "followup_reviews": [
+        {
+          "id": "0b88d7ba-4ce0-59e6-aedc-adc901d938d6",
+          "name": "De Vis voor Stavoren",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T09:49:29.590476+00:00",
+          "primary_source": "https://11fountains.nl/fonteinen/stavoren/",
+          "additional_source": "https://11fountains.nl/faq/",
+          "verified_fields": [
+            "name",
+            "creator",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Stationsweg). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+        }
       ]
     },
     {
@@ -797,10 +845,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "creator",
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Breedeplaats, bij de Martinikerk). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "0bfeb0bb-b663-5a32-b781-6c6d9230d1d7",
+          "name": "De Oortwolk",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T09:49:29.590476+00:00",
+          "primary_source": "https://11fountains.nl/fonteinen/franeker/",
+          "additional_source": "https://11fountains.nl/faq/",
+          "verified_fields": [
+            "name",
+            "creator",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Breedeplaats, bij de Martinikerk). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+        }
       ]
     },
     {
@@ -1489,10 +1561,36 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "ends_on",
+        "name",
+        "operating_status",
+        "starts_on",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-03-25 t/m 2026-11-29 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "16c9c211-e96f-514f-98ea-03c2b2e0ddbe",
+          "name": "Ruimtereis",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T10:11:28.143291+00:00",
+          "primary_source": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruimtereis",
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-03-25 t/m 2026-11-29 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden.",
+          "limits": "Beeldrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze datumcontrole."
+        }
       ]
     },
     {
@@ -2621,11 +2719,34 @@
           "readable_text": false
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "De eigen site bevestigt de beeldentuin aan Oude Drift 1, dinsdag-zondag 09.30-17.30; museum, horeca en theater niet met elkaar verward."
+      ],
       "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
         "Geen goed leesbare bron in de eerste URL-controle; primaire opvolgbron nodig."
+      ],
+      "followup_reviews": [
+        {
+          "id": "24cddb4a-f979-5f9b-9ca5-590dd237b574",
+          "name": "Singer Laren – beeldentuin",
+          "category": "beeldenparken",
+          "checked_at": "2026-10-04T10:07:54.365757+00:00",
+          "primary_source": "https://www.singerlaren.nl/",
+          "verified_fields": [
+            "name",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "De eigen site bevestigt de beeldentuin aan Oude Drift 1, dinsdag-zondag 09.30-17.30; museum, horeca en theater niet met elkaar verward.",
+          "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+        }
       ]
     },
     {
@@ -2968,10 +3089,32 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Gorssel aan Hoofdstraat 28 is vandaag open. De groepswebsite verwijst expliciet naar dit afzonderlijke museum, met actuele tentoonstellingen; Ruurlo en Twickel zijn andere locaties."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "29dda0c4-dea0-55dd-a9e6-35fe6ddad31b",
+          "name": "Museum MORE",
+          "category": "musea",
+          "checked_at": "2026-10-04T10:07:54.365757+00:00",
+          "primary_source": "https://www.moregorssel.nl/",
+          "verified_fields": [
+            "name",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Gorssel aan Hoofdstraat 28 is vandaag open. De groepswebsite verwijst expliciet naar dit afzonderlijke museum, met actuele tentoonstellingen; Ruurlo en Twickel zijn andere locaties.",
+          "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+        }
       ]
     },
     {
@@ -3169,12 +3312,38 @@
       ],
       "manually_verified_fields": [
         "creator",
-        "tags"
+        "ends_on",
+        "name",
+        "operating_status",
+        "starts_on",
+        "street_address",
+        "tags",
+        "website_url"
       ],
       "decisions": [
-        "Maker bij presentatiebron vastgesteld; zie recordbronnen."
+        "Maker bij presentatiebron vastgesteld; zie recordbronnen.",
+        "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-05-23 t/m 2026-12-06 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden."
       ],
-      "remaining": []
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "2be3acfc-4745-5574-8b30-3552eeb04288",
+          "name": "Ruud Kuijer in het Rietveldpaviljoen",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T10:11:28.080712+00:00",
+          "primary_source": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruud-kuijer",
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-05-23 t/m 2026-12-06 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden.",
+          "limits": "Beeldrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze datumcontrole."
+        }
+      ]
     },
     {
       "id": "2c14c69f-214e-5e94-8da5-0af33f9f7a7b",
@@ -3408,10 +3577,32 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Buurtweg 90 en dagelijks museumbezoek 11-17 bevestigd. Beeldentuin Clingenbosch wordt op de tuinpagina afzonderlijk genoemd; dat is geen bewijs dat elke omliggende tuin vrij te bezoeken is."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "309b4c56-a9df-5cd7-824d-5e6830fc832e",
+          "name": "Museum Voorlinden",
+          "category": "musea",
+          "checked_at": "2026-10-04T10:07:54.365757+00:00",
+          "primary_source": "https://www.voorlinden.nl/bezoek/",
+          "verified_fields": [
+            "name",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Buurtweg 90 en dagelijks museumbezoek 11-17 bevestigd. Beeldentuin Clingenbosch wordt op de tuinpagina afzonderlijk genoemd; dat is geen bewijs dat elke omliggende tuin vrij te bezoeken is.",
+          "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+        }
       ]
     },
     {
@@ -4951,12 +5142,38 @@
       ],
       "manually_verified_fields": [
         "creator",
-        "tags"
+        "ends_on",
+        "name",
+        "operating_status",
+        "starts_on",
+        "street_address",
+        "tags",
+        "website_url"
       ],
       "decisions": [
-        "Maker bij presentatiebron vastgesteld; zie recordbronnen."
+        "Maker bij presentatiebron vastgesteld; zie recordbronnen.",
+        "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-09-15 t/m 2027-01-03 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden."
       ],
-      "remaining": []
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "44b67c66-7c7d-52a5-8b03-85639a482e9b",
+          "name": "Van Gogh, al onze schilderijen",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T10:11:28.186125+00:00",
+          "primary_source": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/van-gogh-al-onze-schilderijen",
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-09-15 t/m 2027-01-03 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden.",
+          "limits": "Beeldrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze datumcontrole."
+        }
+      ]
     },
     {
       "id": "44c1e41f-c797-5adc-bfce-52387d057ac0",
@@ -5033,10 +5250,32 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Houtkampweg 6 en openstelling dinsdag-zondag bevestigd. Museumbezoek vereist een gecombineerd park- en museumticket."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "45f722c3-7566-502a-93ee-acda64e7cdb0",
+          "name": "Kröller-Müller Museum",
+          "category": "musea",
+          "checked_at": "2026-10-04T10:07:54.365757+00:00",
+          "primary_source": "https://www.krollermuller.nl/nl/bezoek/plan-je-bezoek",
+          "verified_fields": [
+            "name",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Houtkampweg 6 en openstelling dinsdag-zondag bevestigd. Museumbezoek vereist een gecombineerd park- en museumticket.",
+          "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+        }
       ]
     },
     {
@@ -6291,10 +6530,32 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Plein 29 expliciet als bezoekadres en dagelijkse museumopenstelling bevestigd. Meisje met de parel is tot en met vandaag 4 oktober afwezig; algemene catalogustekst belooft dit specifieke werk niet."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "558d084e-8241-5142-a083-4137b51973a6",
+          "name": "Mauritshuis",
+          "category": "musea",
+          "checked_at": "2026-10-04T10:07:54.365757+00:00",
+          "primary_source": "https://www.mauritshuis.nl/bezoek",
+          "verified_fields": [
+            "name",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Plein 29 expliciet als bezoekadres en dagelijkse museumopenstelling bevestigd. Meisje met de parel is tot en met vandaag 4 oktober afwezig; algemene catalogustekst belooft dit specifieke werk niet.",
+          "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+        }
       ]
     },
     {
@@ -6911,10 +7172,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "creator",
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Markt 28). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "5e33755b-9788-5006-8c7d-ae6720fd4ce9",
+          "name": "De IJsfontein",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T09:49:29.590476+00:00",
+          "primary_source": "https://11fountains.nl/fonteinen/dokkum/",
+          "additional_source": "https://11fountains.nl/faq/",
+          "verified_fields": [
+            "name",
+            "creator",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Markt 28). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+        }
       ]
     },
     {
@@ -6978,10 +7263,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "creator",
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Grasveld bij de passantenhaven). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "5f059e48-d495-5567-b589-d784305deb65",
+          "name": "De Woeste Leeuwen van Workum",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T09:49:29.590476+00:00",
+          "primary_source": "https://11fountains.nl/fonteinen/workum/",
+          "additional_source": "https://11fountains.nl/faq/",
+          "verified_fields": [
+            "name",
+            "creator",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Grasveld bij de passantenhaven). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+        }
       ]
     },
     {
@@ -7739,10 +8048,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "creator",
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (De Dassenboarch). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "6a9f8059-9530-5bd7-b3b1-221976cf9699",
+          "name": "Onsterfelijke Bloemen – Rikka",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T09:49:29.590476+00:00",
+          "primary_source": "https://11fountains.nl/fonteinen/ijlst/",
+          "additional_source": "https://11fountains.nl/faq/",
+          "verified_fields": [
+            "name",
+            "creator",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (De Dassenboarch). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+        }
       ]
     },
     {
@@ -9188,10 +9521,34 @@
           "source_record_id": 241
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "creator",
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Stationsgebied). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "79d8dfc3-da90-57f3-89a0-5c5f03d5cc2f",
+          "name": "Love",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T09:49:29.590476+00:00",
+          "primary_source": "https://11fountains.nl/fonteinen/leeuwarden/",
+          "additional_source": "https://11fountains.nl/faq/",
+          "verified_fields": [
+            "name",
+            "creator",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Stationsgebied). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+        }
       ]
     },
     {
@@ -9518,10 +9875,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "creator",
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Hoogend). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "7e2e546b-d5de-55dd-9667-da25104ad7e2",
+          "name": "De Fontein van Fortuna",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T09:49:29.590476+00:00",
+          "primary_source": "https://11fountains.nl/fonteinen/sneek/",
+          "additional_source": "https://11fountains.nl/faq/",
+          "verified_fields": [
+            "name",
+            "creator",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Hoogend). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+        }
       ]
     },
     {
@@ -10127,12 +10508,38 @@
       ],
       "manually_verified_fields": [
         "creator",
-        "tags"
+        "ends_on",
+        "name",
+        "operating_status",
+        "starts_on",
+        "street_address",
+        "tags",
+        "website_url"
       ],
       "decisions": [
-        "Maker bij presentatiebron vastgesteld; zie recordbronnen."
+        "Maker bij presentatiebron vastgesteld; zie recordbronnen.",
+        "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-05-30 t/m 2027-01-17 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden."
       ],
-      "remaining": []
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "85b25102-6abc-5809-a92d-4c89137a459d",
+          "name": "Gilbert & George. Drifters",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T10:11:28.244959+00:00",
+          "primary_source": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/gilbert-and-george-drifters",
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-05-30 t/m 2027-01-17 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden.",
+          "limits": "Beeldrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze datumcontrole."
+        }
+      ]
     },
     {
       "id": "86b506f9-2e33-51ba-bb9b-536294c444b4",
@@ -10749,10 +11156,32 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Museumplein 6 en dagelijkse openstelling bevestigd; actuele oktoberuren en verplicht tijdslot staan op de eigen bezoekpagina."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "8ca65b0c-71eb-5178-bc9d-6e321af6995c",
+          "name": "Van Gogh Museum",
+          "category": "musea",
+          "checked_at": "2026-10-04T10:07:54.365757+00:00",
+          "primary_source": "https://www.vangoghmuseum.nl/en/visit/address-and-opening-hours",
+          "verified_fields": [
+            "name",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Museumplein 6 en dagelijkse openstelling bevestigd; actuele oktoberuren en verplicht tijdslot staan op de eigen bezoekpagina.",
+          "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+        }
       ]
     },
     {
@@ -11713,10 +12142,32 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Oude Drift 1 en museumopenstelling dinsdag-zondag 10-17 bevestigd. Theater en beeldentuin hebben afzonderlijke bezoekinformatie."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "98651057-8ba9-5e2c-b97a-56c719fb1227",
+          "name": "Singer Laren",
+          "category": "musea",
+          "checked_at": "2026-10-04T10:07:54.365757+00:00",
+          "primary_source": "https://www.singerlaren.nl/",
+          "verified_fields": [
+            "name",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Oude Drift 1 en museumopenstelling dinsdag-zondag 10-17 bevestigd. Theater en beeldentuin hebben afzonderlijke bezoekinformatie.",
+          "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+        }
       ]
     },
     {
@@ -12242,10 +12693,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "creator",
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Nieuweweg 1). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "a13f7085-81cb-5016-bc67-4a9656ab6bd8",
+          "name": "Flora & Fauna",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T09:49:29.590476+00:00",
+          "primary_source": "https://11fountains.nl/fonteinen/hindeloopen/",
+          "additional_source": "https://11fountains.nl/faq/",
+          "verified_fields": [
+            "name",
+            "creator",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Nieuweweg 1). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+        }
       ]
     },
     {
@@ -12321,10 +12796,34 @@
           "source_record_id": 239
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "creator",
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Nieuwe Willemshaven, bij de Zuiderpier). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "a27f565c-eab7-5fde-94c4-68507190110b",
+          "name": "De Walvis",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T09:49:29.590476+00:00",
+          "primary_source": "https://11fountains.nl/fonteinen/harlingen/",
+          "additional_source": "https://11fountains.nl/faq/",
+          "verified_fields": [
+            "name",
+            "creator",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Nieuwe Willemshaven, bij de Zuiderpier). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+        }
       ]
     },
     {
@@ -12528,12 +13027,38 @@
       ],
       "manually_verified_fields": [
         "creator",
-        "tags"
+        "ends_on",
+        "name",
+        "operating_status",
+        "starts_on",
+        "street_address",
+        "tags",
+        "website_url"
       ],
       "decisions": [
-        "Maker bij presentatiebron vastgesteld; zie recordbronnen."
+        "Maker bij presentatiebron vastgesteld; zie recordbronnen.",
+        "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-01-17 t/m 2026-11-22 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden."
       ],
-      "remaining": []
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "a57f2fcb-a055-5b92-9a40-da8cfd082610",
+          "name": "Wessel Couzijn. Rendez-vous van tafel en stoel",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T10:11:28.382307+00:00",
+          "primary_source": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/wessel-couzijn-rendez-vous-van-tafel-en-stoel",
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-01-17 t/m 2026-11-22 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden.",
+          "limits": "Beeldrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze datumcontrole."
+        }
+      ]
     },
     {
       "id": "a628f572-fafe-5103-97f8-1fc05c14e7d4",
@@ -13182,10 +13707,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "creator",
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (G.G. van der Walplein / Koestraat). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "ad791f4e-cdf7-524d-905a-87c33149d031",
+          "name": "Kievit",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T09:49:29.590476+00:00",
+          "primary_source": "https://11fountains.nl/fonteinen/sloten/",
+          "additional_source": "https://11fountains.nl/faq/",
+          "verified_fields": [
+            "name",
+            "creator",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (G.G. van der Walplein / Koestraat). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+        }
       ]
     },
     {
@@ -14252,11 +14801,36 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "creator",
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Broereplein 9). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+      ],
       "remaining": [
-        "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Foto met bevestigde hergebruikvoorwaarden ontbreekt."
+      ],
+      "followup_reviews": [
+        {
+          "id": "bad119a8-6a2e-58d0-974e-d1134e2b8a21",
+          "name": "De Vleermuis",
+          "category": "openbare-kunst",
+          "checked_at": "2026-10-04T09:49:29.590476+00:00",
+          "primary_source": "https://11fountains.nl/fonteinen/bolsward/",
+          "additional_source": "https://11fountains.nl/faq/",
+          "verified_fields": [
+            "name",
+            "creator",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Individuele primaire objectpagina inhoudelijk gelezen: identiteit, maker en bezoekplek komen overeen met catalogus (Broereplein 9). Officiële FAQ bevestigt gratis bezoek in de openbare ruimte; fonteinen blijven zichtbaar in de winter, water normaal vanaf lente tot medio november, Dokkum jaarrond. Geen catalogusmutatie nodig. Exacte coördinaten en fotorechten niet opnieuw vastgesteld."
+        }
       ]
     },
     {
@@ -14755,12 +15329,38 @@
       ],
       "manually_verified_fields": [
         "creator",
-        "tags"
+        "ends_on",
+        "name",
+        "operating_status",
+        "starts_on",
+        "street_address",
+        "tags",
+        "website_url"
       ],
       "decisions": [
-        "Maker bij presentatiebron vastgesteld; zie recordbronnen."
+        "Maker bij presentatiebron vastgesteld; zie recordbronnen.",
+        "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-09-26 t/m 2027-09-01 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden."
       ],
-      "remaining": []
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "c2c9b858-9a38-51a0-bfb7-8b80e0972922",
+          "name": "Bart van der Leck / Charley Toorop",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T10:11:28.513064+00:00",
+          "primary_source": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/bart-van-der-leck-charley-toorop",
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Actuele HTML rechtstreeks van organisator gecontroleerd: looptijd 2026-09-26 t/m 2027-09-01 en Houtkampweg 6 bevestigd. Bestaande catalogus behouden.",
+          "limits": "Beeldrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze datumcontrole."
+        }
+      ]
     },
     {
       "id": "c2e18e9c-d637-5a88-a615-f65884c90eb6",
@@ -14961,10 +15561,32 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Stadhouderslaan 41 en openstelling dinsdag-zondag bevestigd. Verouderde verkeersnotitie over verwachte tunnelheropening in juli niet overgenomen."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "c3ab1b89-a248-5b8f-bf3e-031df0c33a18",
+          "name": "Kunstmuseum Den Haag",
+          "category": "musea",
+          "checked_at": "2026-10-04T10:07:54.365757+00:00",
+          "primary_source": "https://www.kunstmuseum.nl/nl/bezoek",
+          "verified_fields": [
+            "name",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Stadhouderslaan 41 en openstelling dinsdag-zondag bevestigd. Verouderde verkeersnotitie over verwachte tunnelheropening in juli niet overgenomen.",
+          "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+        }
       ]
     },
     {
@@ -15523,10 +16145,32 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "name",
+        "operating_status",
+        "street_address",
+        "website_url"
+      ],
+      "decisions": [
+        "Groot Heiligland 62 en openstelling dinsdag-zondag 11-17 bevestigd. Drie zalen zijn tot 15 oktober wegens werkzaamheden gesloten; het museum blijft open."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "c8e2fdc7-208f-52e5-8c63-b0fb0f11152f",
+          "name": "Frans Hals Museum",
+          "category": "musea",
+          "checked_at": "2026-10-04T10:07:54.365757+00:00",
+          "primary_source": "https://franshalsmuseum.nl/nl/tickets-openingstijden",
+          "verified_fields": [
+            "name",
+            "street_address",
+            "operating_status",
+            "website_url"
+          ],
+          "conclusion": "Groot Heiligland 62 en openstelling dinsdag-zondag 11-17 bevestigd. Drie zalen zijn tot 15 oktober wegens werkzaamheden gesloten; het museum blijft open.",
+          "limits": "Controle van actuele bezoekinformatie; fotohergebruikrechten en exacte kaartcoördinaten niet opnieuw gecontroleerd in deze vervolgcontrole."
+        }
       ]
     },
     {
@@ -20103,5 +20747,6 @@
     }
   ],
   "sleutelwerken_api_records_checked": 100,
-  "latest_followup_report": "2026-10-04-queue-2d91364a-report.json"
+  "latest_followup_report": "2026-10-04-queue-2d91364a-report.json",
+  "updated_at": "2026-10-04T10:11:52.275766+00:00"
 }
