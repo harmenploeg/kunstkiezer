@@ -1,0 +1,103 @@
+{
+  "updated_at": "2026-10-04T20:02:59.426912+00:00",
+  "scope": "Eerste uitbreiding en gerichte zoekronde; geen volledige landelijke inventarisatie.",
+  "provinces": [
+    {
+      "province": "Groningen",
+      "status": "partial",
+      "catalog_records": 2,
+      "next_step": "Verdiep gemeente-, atelier-, galerie- en tuinenroutes met minimaal twee bronsoorten."
+    },
+    {
+      "province": "Friesland",
+      "status": "partial",
+      "catalog_records": 2,
+      "next_step": "Verdiep gemeente-, atelier-, galerie- en tuinenroutes met minimaal twee bronsoorten."
+    },
+    {
+      "province": "Drenthe",
+      "status": "partial",
+      "catalog_records": 5,
+      "next_step": "Verdiep gemeente-, atelier-, galerie- en tuinenroutes met minimaal twee bronsoorten."
+    },
+    {
+      "province": "Overijssel",
+      "status": "partial",
+      "catalog_records": 6,
+      "next_step": "Verdiep gemeente-, atelier-, galerie- en tuinenroutes met minimaal twee bronsoorten."
+    },
+    {
+      "province": "Flevoland",
+      "status": "partial",
+      "catalog_records": 2,
+      "next_step": "Verdiep gemeente-, atelier-, galerie- en tuinenroutes met minimaal twee bronsoorten."
+    },
+    {
+      "province": "Gelderland",
+      "status": "partial",
+      "catalog_records": 5,
+      "next_step": "Verdiep gemeente-, atelier-, galerie- en tuinenroutes met minimaal twee bronsoorten."
+    },
+    {
+      "province": "Utrecht",
+      "status": "partial",
+      "catalog_records": 5,
+      "next_step": "Verdiep gemeente-, atelier-, galerie- en tuinenroutes met minimaal twee bronsoorten."
+    },
+    {
+      "province": "Noord-Holland",
+      "status": "partial",
+      "catalog_records": 7,
+      "next_step": "Verdiep gemeente-, atelier-, galerie- en tuinenroutes met minimaal twee bronsoorten."
+    },
+    {
+      "province": "Zuid-Holland",
+      "status": "partial",
+      "catalog_records": 11,
+      "next_step": "Verdiep gemeente-, atelier-, galerie- en tuinenroutes met minimaal twee bronsoorten."
+    },
+    {
+      "province": "Zeeland",
+      "status": "partial",
+      "catalog_records": 3,
+      "next_step": "Verdiep gemeente-, atelier-, galerie- en tuinenroutes met minimaal twee bronsoorten."
+    },
+    {
+      "province": "Noord-Brabant",
+      "status": "partial",
+      "catalog_records": 13,
+      "next_step": "Verdiep gemeente-, atelier-, galerie- en tuinenroutes met minimaal twee bronsoorten."
+    },
+    {
+      "province": "Limburg",
+      "status": "partial",
+      "catalog_records": 9,
+      "next_step": "Verdiep gemeente-, atelier-, galerie- en tuinenroutes met minimaal twee bronsoorten."
+    }
+  ],
+  "additional_candidates": [
+    {
+      "name": "De Gerichtshof / Eenumermaar",
+      "url": "https://www.steenbeelden.nl/?page_id=16",
+      "status": "pending",
+      "reason": "Eigenaar bevestigt tuin en adres, maar publiceert nog bezoekseizoen 2025. Huidige openstelling verifiëren."
+    },
+    {
+      "name": "Kunst aan de Lek",
+      "url": "https://www.kunstaandelek.nl/",
+      "status": "pending",
+      "reason": "Regionale vermelding gevonden; primaire site leverde geen inhoud. Browsercontrole en actuele bezoekbaarheid nog nodig."
+    },
+    {
+      "name": "Galerie De Queeste",
+      "status": "pending",
+      "reason": "Gevonden via Gelderlandse tuinenagenda; actuele primaire bron en bezoekbaarheid nog onderzoeken."
+    },
+    {
+      "name": "Sculptuur inZicht",
+      "url": "https://www.bezoekmijntuin.nl/tuinen/beeldentuin-sculptuur-inzicht/",
+      "status": "pending",
+      "reason": "Nieuwe kandidaat uit tuinenroute; eigenaar en actuele openstelling nog controleren."
+    }
+  ]
+}

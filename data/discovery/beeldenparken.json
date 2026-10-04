@@ -1776,5 +1776,1182 @@
     "longitude": null,
     "coordinate_precision": "unknown",
     "coordinate_source": ""
+  },
+  {
+    "id": "0723660f-c74d-5c79-8492-49f738c8f341",
+    "inventory_key": "garden:Borg Verhildersum – beeldentuin",
+    "category": "beeldenparken",
+    "name": "Borg Verhildersum – beeldentuin",
+    "city": "Leens",
+    "province": "Groningen",
+    "street_address": "Wierde 40",
+    "website_url": "https://www.verhildersum.nl/nl/plan-je-bezoek/openingstijden-toegangsprijzen/",
+    "summary": "Ontdek de dansende figuren van Eddy Roos tussen hagen, rozen en de historische borg. Beeld en tuin zijn hier samen ontworpen: vanuit ieder pad ontstaat een andere ontmoeting met beweging, ruimte en groen.",
+    "creator": "Eddy Roos",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "figuratief",
+      "museumtuin"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.verhildersum.nl/nl/plan-je-bezoek/openingstijden-toegangsprijzen/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      },
+      {
+        "url": "https://www.verhildersum.nl/nl/landgoed/eddy-roos/",
+        "provider": "Primaire aanvullende controle",
+        "retrieved_at": "2026-10-04T20:01:52.128682+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Borgtuin gratis. Seizoen 2026 tot en met 1 november; dinsdag–zondag 10.30–17.00 uur.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 53.36251324,
+    "longitude": 6.39303023,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-12dcd54cd213c2eb04d105692e9964d4"
+  },
+  {
+    "id": "5f68e866-bbfb-52ba-8b84-ad57d412099f",
+    "inventory_key": "garden:Beeldentuin Cilia de la Court",
+    "category": "beeldenparken",
+    "name": "Beeldentuin Cilia de la Court",
+    "city": "Bad Nieuweschans",
+    "province": "Groningen",
+    "street_address": "Oudezijl 14",
+    "website_url": "https://www.ciliadelacourt.nl/",
+    "summary": "Loop langs het huis een kleine wereld van keramische figuren binnen. Cilia de la Court geeft klei een levendig karakter; tussen het groen ontdek je haar beelden van dichtbij.",
+    "creator": "Cilia de la Court",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "keramiek",
+      "figuratief"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.ciliadelacourt.nl/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "De tuin is altijd toegankelijk via de doorgang naast het huis. Atelierbezoek op afspraak.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 53.18604956,
+    "longitude": 7.20022592,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-f14ec3468b969c86b9f8317253986729"
+  },
+  {
+    "id": "b9a87e8e-4542-5aa7-83c3-d3f072c870c3",
+    "inventory_key": "garden:Beeldentuin Fransje Versloot",
+    "category": "beeldenparken",
+    "name": "Beeldentuin Fransje Versloot",
+    "city": "Terkaple",
+    "province": "Friesland",
+    "street_address": "Oenemawei 26",
+    "website_url": "https://www.fransjeversloot.nl/beeldentuin/",
+    "summary": "Wandel tussen inheemse planten en sculpturen van onder anderen Jan Ketelaar, Marco Goldenbeld en Frans van Straaten. Verschillende materialen en stijlen maken deze Friese kunstenaarstuin tot een verrassende ontmoeting met hedendaagse beeldhouwkunst.",
+    "creator": "Jan Ketelaar; Marco Goldenbeld; Frans van Straaten",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst",
+      "natuur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.fransjeversloot.nl/beeldentuin/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      },
+      {
+        "url": "https://www.fransjeversloot.nl/contact/",
+        "provider": "Primaire aanvullende controle",
+        "retrieved_at": "2026-10-04T20:01:52.128682+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Tuin dagelijks 12.00–18.00 uur, gratis. Voor een atelierbezoek apart contact opnemen.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 53.02091874,
+    "longitude": 5.78525658,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-e668324a8c0de6c1b869a7051fab9842"
+  },
+  {
+    "id": "968ee944-3092-5823-bc04-9e688c0d7414",
+    "inventory_key": "garden:Galerie Wildevuur – beeldentuin",
+    "category": "beeldenparken",
+    "name": "Galerie Wildevuur – beeldentuin",
+    "city": "Hooghalen",
+    "province": "Drenthe",
+    "street_address": "Zwiggelterweg 4",
+    "website_url": "https://wildevuur.nl/",
+    "summary": "Op Landgoed Hiemstrastate ontmoet hedendaagse figuratieve kunst het Drentse groen. Beelden en tuinbeelden krijgen ruimte rond de galerie: een fijne plek om vormen, houdingen en materialen rustig te ontdekken.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "figuratief",
+      "hedendaagse kunst",
+      "landgoed"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://wildevuur.nl/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Vrijdag–zondag 12.00–18.00 uur.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 52.89912362,
+    "longitude": 6.54629236,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-7dd8751816e0733934122688d702ec62"
+  },
+  {
+    "id": "14a75e84-dcd4-5c67-a769-ae0a238cb9b4",
+    "inventory_key": "garden:Beeldentuin Harwi",
+    "category": "beeldenparken",
+    "name": "Beeldentuin Harwi",
+    "city": "Eeserveen",
+    "province": "Drenthe",
+    "street_address": "Kanaalstraat 9",
+    "website_url": "https://www.harwikeramiek.nl/",
+    "summary": "Keramiek en stenen sculpturen geven deze Drentse tuin een eigen ritme. Ontdek ook beelden uit Zimbabwe en combineer je wandeling met de galerie en pottenbakkerij.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "keramiek",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.harwikeramiek.nl/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "April–oktober: dinsdag–zaterdag 10.00–17.00, zondag 11.00–17.00 uur. November donderdag–zaterdag 11.00–16.00 uur. Winter 2026 op afspraak. Gratis toegang.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 52.87371929,
+    "longitude": 6.76018704,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-23c76df554863cd5980bac37479e3c11"
+  },
+  {
+    "id": "63a3371c-0db5-5da9-a306-b9e5c50772ff",
+    "inventory_key": "garden:Pluck Elke Dag – beeldentuin Witharen",
+    "category": "beeldenparken",
+    "name": "Pluck Elke Dag – beeldentuin Witharen",
+    "city": "Witharen",
+    "province": "Overijssel",
+    "street_address": "Witharenweg 24",
+    "website_url": "https://www.pluckelkedag.nl/",
+    "summary": "Meer dan honderd verschillende beelden staan tussen bloemen en groen. Dwaal langs uiteenlopende stijlen, zoek een rustig plekje en bekijk hoe ieder beeld een ander gesprek aangaat met de tuin.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst",
+      "natuur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.pluckelkedag.nl/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Tot het najaar dagelijks 11.00–17.00 uur, dinsdag gesloten. In de winter vrijdag–zondag 11.00–17.00 uur. De beeldentuin heeft in het seizoen betaalde toegang.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 52.55326708,
+    "longitude": 6.37454167,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-b678e3c9ed6ed0175c2f330ab275a8e7"
+  },
+  {
+    "id": "e095668a-3a3f-5914-a7b4-5233c2fb0e6c",
+    "inventory_key": "garden:Klein Afrika – beeldentuin",
+    "category": "beeldenparken",
+    "name": "Klein Afrika – beeldentuin",
+    "city": "Marknesse",
+    "province": "Flevoland",
+    "street_address": "Uiterdijkenweg 48",
+    "website_url": "https://kleinafrika.nl/",
+    "summary": "In een ruime boerderijtuin ontdek je stenen sculpturen uit Zimbabwe. Van menselijke figuren tot vloeiende abstracte vormen: het materiaal en de hand van de maker staan centraal. Binnen gaat de ontmoeting met Afrikaanse kunst verder.",
+    "creator": "Obert Marime",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "figuratief",
+      "abstract",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://kleinafrika.nl/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      },
+      {
+        "url": "https://kleinafrika.nl/contact/",
+        "provider": "Primaire aanvullende controle",
+        "retrieved_at": "2026-10-04T20:01:52.128682+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "De tuin is altijd vrij toegankelijk. Voor ontmoeting met de eigenaar of begeleid galeriebezoek vooraf afspreken.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 52.74301646,
+    "longitude": 5.92339335,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-633bce50fc98a5f4002bca55da08ee4e"
+  },
+  {
+    "id": "38eb9a1c-a9db-5ca0-9ca9-ce76dd868b21",
+    "inventory_key": "garden:HazArt – Beeldenpark Klein Engendaal",
+    "category": "beeldenparken",
+    "name": "HazArt – Beeldenpark Klein Engendaal",
+    "city": "Soest",
+    "province": "Utrecht",
+    "street_address": "Pimpelmees 3",
+    "website_url": "https://www.hazart.nl/contact",
+    "summary": "Een vaste beeldencollectie en wisselende werken brengen Nederlandse beeldhouwkunst samen in het groen. Ontdek hoe kunstenaars omgaan met materiaal en ruimte; de galerie van de Nederlandse Kring van Beeldhouwers sluit erop aan.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst",
+      "abstract"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.hazart.nl/contact",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Woensdag–vrijdag 10.00–17.00 uur, zaterdag 10.00–16.00 uur.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 52.16478547,
+    "longitude": 5.29936731,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-169d728d6b0b13626fdbca8f6e5ebeb3"
+  },
+  {
+    "id": "5345e87c-a5a6-5485-a62f-fce08a62dc5e",
+    "inventory_key": "garden:Het SculptuurDuin – Beelden aan Zee",
+    "category": "beeldenparken",
+    "name": "Het SculptuurDuin – Beelden aan Zee",
+    "city": "Den Haag",
+    "province": "Zuid-Holland",
+    "street_address": "Harteveltstraat 1",
+    "website_url": "https://www.beeldenaanzee.nl/over-ons/contact",
+    "summary": "Sculpturen staan tussen duinplanten op de terrassen van Beelden aan Zee. Het landschap geeft ieder werk een ander decor, met gebogen muren, zand en zee als medespelers. Een beeldentuin waarin kunst en architectuur elkaar versterken.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "moderne kunst",
+      "hedendaagse kunst",
+      "museumtuin"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.beeldenaanzee.nl/over-ons/contact",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      },
+      {
+        "url": "https://buroharro.nl/projecten/sculptuur-duin-museum-beelden-aan-zee/",
+        "provider": "Primaire aanvullende controle",
+        "retrieved_at": "2026-10-04T20:01:52.128682+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Tijdens museumbezoek: dinsdag–zondag 10.00–17.00 uur. Toegang via het museum; dit is een andere presentatie dan de gratis SprookjesBeelden op de boulevard.",
+    "museum_id": "875f6c88-adca-5a0b-9982-741901899f2f",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 52.110936,
+    "longitude": 4.27840114,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-6f19885242c9384ffe9e9662d0b3a746"
+  },
+  {
+    "id": "c0f402a8-b8be-52fc-9e4e-82a41ce3e858",
+    "inventory_key": "garden:Galerie T – beeldentuin",
+    "category": "beeldenparken",
+    "name": "Galerie T – beeldentuin",
+    "city": "Middelburg",
+    "province": "Zeeland",
+    "street_address": "Vismarkt 13",
+    "website_url": "https://www.kunstroutemiddelburg.nl/deelnemers/deelnemers-kunstroute?catid=9&id=979:galerie-t&view=article",
+    "summary": "Tussen de galerieruimten aan de Vismarkt en de Turfkaai ligt een intieme beeldentuin. Ontdek ruimtelijk werk in een historische stadsomgeving en wandel daarna verder door de presentaties van vrije en toegepaste kunst.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst",
+      "toegepaste kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.kunstroutemiddelburg.nl/deelnemers/deelnemers-kunstroute?catid=9&id=979:galerie-t&view=article",
+        "provider": "Regionale cultuurroute / toeristische organisatie: actuele locatievermelding",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Zaterdag 11.00–16.00 uur; eerste zondag van de maand 13.00–17.00 uur. Ook op afspraak.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 51.49705677,
+    "longitude": 3.61487961,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-16c731b2fd291d04df55c74114ddd32b"
+  },
+  {
+    "id": "d856d821-7b1c-578f-921e-3ecd93f2966e",
+    "inventory_key": "garden:SEE – Sculpture Expo Esbeek",
+    "category": "beeldenparken",
+    "name": "SEE – Sculpture Expo Esbeek",
+    "city": "Esbeek",
+    "province": "Noord-Brabant",
+    "street_address": "Groenstraat 2a",
+    "website_url": "https://see-expo.nl/",
+    "summary": "Hedendaagse sculpturen krijgen de ruimte in deze Brabantse beeldentuin. Kunst, atelier en landschap komen samen; onverwachte vormen maken een wandeling tot een reeks ontdekkingen.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst",
+      "natuur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://see-expo.nl/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Zaterdag en zondag 10.00–17.00 uur.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 51.46215245,
+    "longitude": 5.14031729,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-fc856daa0b18f3d5db61369e49290a98"
+  },
+  {
+    "id": "c42ad5a7-de3b-5dbc-ab78-294e2876ba63",
+    "inventory_key": "garden:De Buffel – beeldentuin Vinkel",
+    "category": "beeldenparken",
+    "name": "De Buffel – beeldentuin Vinkel",
+    "city": "Vinkel",
+    "province": "Noord-Brabant",
+    "street_address": "Vinkelsestraat 80",
+    "website_url": "https://www.beeldengaleriedebuffel.nl/",
+    "summary": "Duik in de rijke beeldhouwtraditie van Zimbabwe. De grote buitencollectie toont hoe kunstenaars steen veranderen in menselijke figuren, dieren en vrije vormen. Verschillen in kleur, huid en materiaal nodigen uit tot dichtbij kijken.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "figuratief",
+      "abstract"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.beeldengaleriedebuffel.nl/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Donderdag en vrijdag 10.00–17.00 uur, zaterdag 10.00–16.00 uur.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 51.70828306,
+    "longitude": 5.49380158,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-6e63083b9ab944e2feb9e36e5e6cb9d3"
+  },
+  {
+    "id": "78bb3323-0f9f-5fb4-9f40-ab1775ca3131",
+    "inventory_key": "garden:De Buffel – beeldentuin Veghel",
+    "category": "beeldenparken",
+    "name": "De Buffel – beeldentuin Veghel",
+    "city": "Veghel",
+    "province": "Noord-Brabant",
+    "street_address": "Kruigenstraat 1",
+    "website_url": "https://www.beeldengaleriedebuffel.nl/galerie/beeldentuin-veghel",
+    "summary": "In Veghels Buiten staan Afrikaanse stenen sculpturen in een openluchttuin. Ontdek onder meer werk van Forbes Suliyari en neem de tijd voor de vormen en structuren. Een picknicktafel maakt het makkelijk om wat langer te blijven.",
+    "creator": "Forbes Suliyari",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "figuratief",
+      "abstract"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.beeldengaleriedebuffel.nl/galerie/beeldentuin-veghel",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "De eigenaar vermeldt dat de poort doorgaans openstaat. Onbemande tuin.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 51.60404268,
+    "longitude": 5.56144237,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-d66af40171fbb082b097c8ca3c09ab28"
+  },
+  {
+    "id": "1addc8ce-9115-54fb-ad4b-400721e5757f",
+    "inventory_key": "garden:Sous-Terre – beeldenpark Lithoijen",
+    "category": "beeldenparken",
+    "name": "Sous-Terre – beeldenpark Lithoijen",
+    "city": "Lithoijen",
+    "province": "Noord-Brabant",
+    "street_address": "Batterijstraat 23A",
+    "website_url": "https://sous-terre.nl/sous-terre-lithoijen/",
+    "summary": "Bij de galerie strekt een ruim beeldenpark zich uit in de Brabantse polder. Hedendaagse sculpturen wisselen van karakter terwijl je eromheen loopt. Buiten en binnen vormen samen een afwisselende kunstwandeling.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst",
+      "natuur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://sous-terre.nl/sous-terre-lithoijen/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Zondag 13.00–17.00 uur. Maandag–zaterdag uitsluitend op afspraak.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 51.79631644,
+    "longitude": 5.47520843,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-1d07fdac46f5748a04883943f8199f16"
+  },
+  {
+    "id": "d0964d61-3536-5b25-b3c1-4d232f1862fa",
+    "inventory_key": "garden:Gallery van Dun – beeldentuin",
+    "category": "beeldenparken",
+    "name": "Gallery van Dun – beeldentuin",
+    "city": "Oisterwijk",
+    "province": "Noord-Brabant",
+    "street_address": "De Lind 52",
+    "website_url": "https://www.galleryvandun.com/oisterwijk",
+    "summary": "Achter een voormalige pastorie ontdek je sculpturen van Nederlandse en internationale kunstenaars. De historische omgeving geeft hedendaagse vormen een bijzonder decor. Combineer de tuin met de kunst in de galerie.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.galleryvandun.com/oisterwijk",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Donderdag–zondag 12.00–17.00 uur; maandag–woensdag op afspraak.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 51.58157844,
+    "longitude": 5.19987445,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-4f847bb7dbd8ea459085060bcd3d4220"
+  },
+  {
+    "id": "15fdc855-f077-5f24-8188-4aafa2e0c416",
+    "inventory_key": "garden:Galerie DNK – beeldentuin",
+    "category": "beeldenparken",
+    "name": "Galerie DNK – beeldentuin",
+    "city": "Dorst",
+    "province": "Noord-Brabant",
+    "street_address": "Groenestraat 5",
+    "website_url": "https://galerie-dnk.nl/beeldentuin/",
+    "summary": "Royale ruimte laat sculpturen hier van alle kanten spreken. Wandel langs hedendaagse objecten en ontdek wat schaal, materiaal en licht met je blik doen. De tuin sluit aan op de binnenpresentaties van de galerie.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst",
+      "abstract"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://galerie-dnk.nl/beeldentuin/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      },
+      {
+        "url": "https://galerie-dnk.nl/contact/",
+        "provider": "Primaire aanvullende controle",
+        "retrieved_at": "2026-10-04T20:01:52.128682+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Donderdag–zondag 12.00–17.00 uur; maandag–woensdag op afspraak. Gratis toegang.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 51.58673914,
+    "longitude": 4.85879096,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-ae9430873b9c38862ad3e1f38f0feb6f"
+  },
+  {
+    "id": "22da8276-14a3-5e9f-87a0-f39004a55b95",
+    "inventory_key": "garden:Beeldentuin Paula Withagen",
+    "category": "beeldenparken",
+    "name": "Beeldentuin Paula Withagen",
+    "city": "Halsteren",
+    "province": "Noord-Brabant",
+    "street_address": "Daansbergen 48",
+    "website_url": "https://www.paulawithagen.nl/",
+    "summary": "Ontdek de beeldentuin bij het atelier van Paula Withagen. Haar sculpturen staan hier in het groen, waar de wisseling van licht en seizoen steeds andere details zichtbaar maakt.",
+    "creator": "Paula Withagen",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.paulawithagen.nl/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Het hele jaar bezoekbaar; vooraf bellen om een bezoek af te spreken.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 51.53816955,
+    "longitude": 4.2807512,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-12d3aac2a7374cba94f8969e6aeb6c8c"
+  },
+  {
+    "id": "a89b2aeb-86f5-5fa6-b0a2-a71af4c30371",
+    "inventory_key": "garden:Willem Merkxtuin",
+    "category": "beeldenparken",
+    "name": "Willem Merkxtuin",
+    "city": "Breda",
+    "province": "Noord-Brabant",
+    "street_address": "Catharinastraat 24",
+    "website_url": "https://www.explorebreda.com/nl/locaties/willem-merkxtuin",
+    "summary": "Achter de oude hofhuizen schuilt een stadstuin met twaalf kunstwerken en een zonnewijzer. Wandel tussen beelden en groen, met zicht op de Grote Kerk. Een kleine kunstpauze midden in Breda.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "moderne kunst",
+      "stadstuin"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.explorebreda.com/nl/locaties/willem-merkxtuin",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Dagelijks 09.00–17.00 uur, gratis. Ingang tussen Catharinastraat 24 en 26; ook via Sint Annastraat 12.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 51.58960987,
+    "longitude": 4.77853636,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-54a7360be90345474c33aceb304acac2"
+  },
+  {
+    "id": "ea01cf40-a24c-5116-85e3-1d3d3ada9e12",
+    "inventory_key": "garden:Noordbrabants Museum – Paleistuin",
+    "category": "beeldenparken",
+    "name": "Noordbrabants Museum – Paleistuin",
+    "city": "'s-Hertogenbosch",
+    "province": "Noord-Brabant",
+    "street_address": "Verwersstraat 41",
+    "website_url": "https://www.hetnoordbrabantsmuseum.nl/bezoek/tentoonstellingen/paleistuin/",
+    "summary": "Ontmoet Van Gogh in brons en de aluminium dieren van Guido Geelen onder een monumentale rode beuk. Deze historische museumtuin combineert sculpturen met verrassende doorkijkjes en een terras om rustig verder te kijken.",
+    "creator": "Guido Geelen; Gabriël Sterk; Jean-Antoine van der Ven",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "museumtuin",
+      "figuratief",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.hetnoordbrabantsmuseum.nl/bezoek/tentoonstellingen/paleistuin/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Tijdens museumbezoek, dinsdag–zondag 11.00–17.00 uur.",
+    "museum_id": "ecb8adbb-a48b-51e4-8a84-386a04106acf",
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 51.68658025,
+    "longitude": 5.30468465,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-366a08d0ca31b028592cc9180f3c16f5"
+  },
+  {
+    "id": "24c11a2e-5177-5dc8-a474-52966ef79719",
+    "inventory_key": "garden:Giardino – galerie en beeldentuin",
+    "category": "beeldenparken",
+    "name": "Giardino – galerie en beeldentuin",
+    "city": "Berg en Terblijt",
+    "province": "Limburg",
+    "street_address": "Rijksweg 31",
+    "website_url": "https://www.giardinobeeldentuin.nl/",
+    "summary": "Internationale hedendaagse sculpturen komen samen in een intieme tuin. Ontdek verschillende materialen en uitgesproken vormen, met werk van gevestigde makers en nieuw talent. Binnen loopt de kunstervaring verder.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst",
+      "abstract"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.giardinobeeldentuin.nl/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Vrijdag–zondag 11.00–17.00 uur. Maandag–donderdag op afspraak.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 50.8603418,
+    "longitude": 5.77846018,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-209548461ebda53b6fdea94c0a79a0d6"
+  },
+  {
+    "id": "1a592565-87cd-5e82-9f55-37cc08f2bccb",
+    "inventory_key": "garden:De Grote Beer – beeldentuin",
+    "category": "beeldenparken",
+    "name": "De Grote Beer – beeldentuin",
+    "city": "Geulle",
+    "province": "Limburg",
+    "street_address": "Mevrouw van der Meijstraat 14",
+    "website_url": "https://www.galeriedegrotebeer.nl/",
+    "summary": "Hedendaagse kunst krijgt een groen decor bij deze galerie in Geulle. Wandel langs sculpturen van verschillende kunstenaars en ervaar hoe hun vormen veranderen tussen de beplanting.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.galeriedegrotebeer.nl/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Zondag in even weken 11.00–17.00 uur; daarnaast op afspraak.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 50.92339868,
+    "longitude": 5.75782896,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-7b0c0a09ff39fc3b5f24756cd52289bf"
+  },
+  {
+    "id": "f78d86a4-8307-515b-99e3-88596fac08e0",
+    "inventory_key": "garden:De Aalbekerhoeve – beeldentuin",
+    "category": "beeldenparken",
+    "name": "De Aalbekerhoeve – beeldentuin",
+    "city": "Aalbeek",
+    "province": "Limburg",
+    "street_address": "Aalbekerweg 85",
+    "website_url": "https://www.visitzuidlimburg.nl/te-doen-in-zuid-limburg/attracties-bezienswaardigheden/detail/atelier-beeldentuin-en-galerie-de-aalbekerhoeve/389415/",
+    "summary": "Een op Monet geïnspireerde tuin vormt het decor voor bronzen beelden van Paulette Snijders en andere beeldhouwers. Tussen groen en water ontdek je figuratieve kunst, met een bruggetje dat de schilderkunst dichtbij brengt.",
+    "creator": "Paulette Snijders; To Crijns; Ru de Vries; Paul de Win; Lothar Scheffler",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "figuratief",
+      "natuur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.visitzuidlimburg.nl/te-doen-in-zuid-limburg/attracties-bezienswaardigheden/detail/atelier-beeldentuin-en-galerie-de-aalbekerhoeve/389415/",
+        "provider": "Regionale cultuurroute / toeristische organisatie: actuele locatievermelding",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Zondag 14.00–18.00 uur; andere dagen op telefonische afspraak. Grindpaden beperken de toegankelijkheid.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 50.89933814,
+    "longitude": 5.85238846,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-2ff951c8e8b5f93cab9a8845ceaa1799"
+  },
+  {
+    "id": "4b741184-0dd2-5911-a3fd-ce88bc74771d",
+    "inventory_key": "garden:Vera de Haas – atelier en beeldentuin",
+    "category": "beeldenparken",
+    "name": "Vera de Haas – atelier en beeldentuin",
+    "city": "Schimmert",
+    "province": "Limburg",
+    "street_address": "Kleverstraat 10A",
+    "website_url": "https://www.veradehaas.nl/page/atelier-en-beeldentuin",
+    "summary": "Bronzen dieren bevolken de tuin bij het atelier van Vera de Haas. In deze Limburgse omgeving ontdek je hoe beweging en karakter in een beeld worden gevangen. Het atelier in vakwerkbouw maakt deel uit van de ervaring.",
+    "creator": "Vera de Haas",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "figuratief",
+      "dieren"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.veradehaas.nl/page/atelier-en-beeldentuin",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Uitsluitend op afspraak, naast twee jaarlijkse openstellingen.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 50.88881651,
+    "longitude": 5.81621847,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-14ea6428a907ba1702f29a12f08c3a62"
+  },
+  {
+    "id": "b55a4bbc-c0b0-5e45-84d2-1f16828ac6b9",
+    "inventory_key": "garden:Yaka – beeldentuin",
+    "category": "beeldenparken",
+    "name": "Yaka – beeldentuin",
+    "city": "Brunssum",
+    "province": "Limburg",
+    "street_address": "Hoogenboschweg 43",
+    "website_url": "https://www.visitzuidlimburg.nl/te-doen-in-zuid-limburg/attracties-bezienswaardigheden/detail/yaka-art-for-home-en-garden/9526/",
+    "summary": "Ontdek stenen Shona-sculpturen uit Zimbabwe naast werk van Limburgse kunstenaars. Verschillende stijlen en materialen maken de tuin en galerie tot een kleinschalige ontmoeting tussen internationale en regionale kunst.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "figuratief",
+      "abstract"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.visitzuidlimburg.nl/te-doen-in-zuid-limburg/attracties-bezienswaardigheden/detail/yaka-art-for-home-en-garden/9526/",
+        "provider": "Regionale cultuurroute / toeristische organisatie: actuele locatievermelding",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Geen vaste openingstijden. Dinsdag–zondag aanbellen mogelijk; vooraf een bezoek afspreken.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 50.95696155,
+    "longitude": 5.98038148,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-934c415f01aec1c3ae09fbb6531d66a1"
+  },
+  {
+    "id": "0cfbb766-dfa6-5592-ab24-1fec3baa7234",
+    "inventory_key": "garden:Beeldentuin Suëstra",
+    "category": "beeldenparken",
+    "name": "Beeldentuin Suëstra",
+    "city": "Susteren",
+    "province": "Limburg",
+    "street_address": "Salvatorplein",
+    "website_url": "https://beeldentuinsuestra.nl/",
+    "summary": "Verscholen bij de Amelbergabasiliek ligt een groene buitenpresentatie. De permanente collectie groeide uit jaarlijkse tentoonstellingen en brengt uiteenlopende sculpturen samen tussen bomen en wandelpaden.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst",
+      "stadstuin"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://beeldentuinsuestra.nl/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Toegang via de voortuin van Vastrada aan het Salvatorplein.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 51.06148105,
+    "longitude": 5.85075649,
+    "coordinate_precision": "street",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=weg-8b1586d8b13d1a02f9702e8753b75d97"
+  },
+  {
+    "id": "66f236cd-f46e-5a23-923a-4d445a5de153",
+    "inventory_key": "garden:Daniëlle Orelio – beeldentuin",
+    "category": "beeldenparken",
+    "name": "Daniëlle Orelio – beeldentuin",
+    "city": "Burgh-Haamstede",
+    "province": "Zeeland",
+    "street_address": "Hogeweg 34",
+    "website_url": "https://www.orelio-art.com/",
+    "summary": "Bronzen en keramische beelden bevolken de tuin van Daniëlle Orelio. Haar eigen werk en sculpturen van gastkunstenaars ontmoeten elkaar tussen het groen. Bezoek ook het atelier, waar het maakproces dichtbij komt.",
+    "creator": "Daniëlle Orelio",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "keramiek",
+      "figuratief"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.orelio-art.com/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Bezoek 11.00–17.00 uur wanneer het hek openstaat, of op afspraak. Groepsbezoek op afspraak.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": null,
+    "longitude": null,
+    "coordinate_precision": "unknown",
+    "coordinate_source": ""
+  },
+  {
+    "id": "23103c24-889b-53c8-a814-4f61dea9df64",
+    "inventory_key": "garden:Beeldentuin Anja Ysermans",
+    "category": "beeldenparken",
+    "name": "Beeldentuin Anja Ysermans",
+    "city": "Gulpen",
+    "province": "Limburg",
+    "street_address": "Oude Maastrichterweg 40",
+    "website_url": "https://www.anjaysermans.nl/actueel.htm",
+    "summary": "Tuinkamers, vijvers en sculpturen wisselen elkaar af bij het atelier van Anja Ysermans. Ontdek hoe menselijke en natuurlijke vormen worden vereenvoudigd en vervormd, tussen planten en verharde paden.",
+    "creator": "Anja Ysermans",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "figuratief",
+      "abstract"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.anjaysermans.nl/actueel.htm",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Samenhangende, bezoekbare buitenpresentatie met meerdere sculpturen; ook kleinere galerie- en kunstenaarstuinen horen bij de landelijke kunstselectie.",
+    "visit_notes": "Reguliere open dagen 2026 eindigden op 6 september. Alleen groepen van 8–16 personen op afspraak; geen vrije herfstinloop.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 50.81358314,
+    "longitude": 5.8802997,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-93ff5b72eb8482db1b4fafdf506095e1"
+  },
+  {
+    "id": "b97f0973-bf22-5daf-b602-d6a18fcb4baf",
+    "inventory_key": "garden:Beeldentuin Clingenbosch",
+    "category": "beeldenparken",
+    "name": "Beeldentuin Clingenbosch",
+    "city": "Wassenaar",
+    "province": "Zuid-Holland",
+    "street_address": "Dennenlaan 9",
+    "website_url": "https://www.voorlinden.nl/bezoek/tours/beeldentuin-clingenbosch/",
+    "summary": "Bijna zeventig sculpturen zijn verweven met het boslandschap van Clingenbosch. Ontdek werk van onder anderen Antony Gormley, Henry Moore en Sol LeWitt, vaak geplaatst in samenspraak met de kunstenaars.",
+    "creator": "Antony Gormley; Henry Moore; Sol LeWitt",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "moderne kunst",
+      "hedendaagse kunst",
+      "landgoed"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.voorlinden.nl/bezoek/tours/beeldentuin-clingenbosch/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      },
+      {
+        "url": "https://tickets.voorlinden.nl/event/beeldentuin-clingenbosch/beeldentuin-clingenbosch/3695120",
+        "provider": "Primaire aanvullende controle",
+        "retrieved_at": "2026-10-04T20:01:52.128682+00:00"
+      }
+    ],
+    "selection_reason": "Historisch of tijdelijk niet toegankelijk beeldentuin-dossier; bewaren voor hercontrole en om onjuiste herimport te voorkomen. Niet tonen als actuele bezoekmogelijkheid.",
+    "visit_notes": "Rondleidingen 2026 tot en met 8 oktober, uitsluitend met ticket. Het seizoen is uitverkocht; geen vrije toegang.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "temporarily_closed",
+    "publication_status": "draft",
+    "latitude": 52.11722676,
+    "longitude": 4.35759868,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-3a8e0cd75b468c949b874cf6302742ba"
+  },
+  {
+    "id": "640bc941-65cb-5e81-b15a-535c7bda7170",
+    "inventory_key": "garden:Hof van OOK – beeldentuin",
+    "category": "beeldenparken",
+    "name": "Hof van OOK – beeldentuin",
+    "city": "Lewedorp",
+    "province": "Zeeland",
+    "street_address": "Dekkersweg 4",
+    "website_url": "https://www.hofvanook.nl/",
+    "summary": "Een tijdelijke beeldenroute slingert door boomgaard en weiland. Kunst en landschap vormen hier samen een buitenexpositie, met sculpturen tussen de bomen en het hoge gras.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst",
+      "natuur"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.hofvanook.nl/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Historisch of tijdelijk niet toegankelijk beeldentuin-dossier; bewaren voor hercontrole en om onjuiste herimport te voorkomen. Niet tonen als actuele bezoekmogelijkheid.",
+    "visit_notes": "De beeldententoonstelling van 2–30 mei 2026 is afgelopen. Nieuwe openstelling is nog niet aangekondigd.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "temporarily_closed",
+    "publication_status": "draft",
+    "latitude": 51.49163813,
+    "longitude": 3.73643688,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-3f9a76c72457e6fb72e3753c6c6d5930"
+  },
+  {
+    "id": "9ac88984-0700-5b1e-826c-f89f15db5d8f",
+    "inventory_key": "garden:Ruimte in Beeld – beeldentuin",
+    "category": "beeldenparken",
+    "name": "Ruimte in Beeld – beeldentuin",
+    "city": "Nuenen",
+    "province": "Noord-Brabant",
+    "street_address": "Dubbestraat 61",
+    "website_url": "https://www.ruimteinbeeld.nl/",
+    "summary": "De voormalige beeldentuin bij het kunstenaarsatelier bracht sculpturen samen in een landelijke omgeving. Het atelier blijft een plek voor kunstbeoefening, maar de tuin is niet meer voor bezoekers geopend.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "hedendaagse kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.ruimteinbeeld.nl/",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Historisch of tijdelijk niet toegankelijk beeldentuin-dossier; bewaren voor hercontrole en om onjuiste herimport te voorkomen. Niet tonen als actuele bezoekmogelijkheid.",
+    "visit_notes": "De eigenaar meldt dat de beeldentuin permanent gesloten is.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "disappeared",
+    "publication_status": "archived",
+    "latitude": 51.46332552,
+    "longitude": 5.52720622,
+    "coordinate_precision": "address",
+    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-9cee17fa6f04a8f1e76730e0653ef36d"
+  },
+  {
+    "id": "eba17da7-850c-5a9e-91b4-c0862974ef38",
+    "inventory_key": "garden:Interart – voormalige beeldentuin",
+    "category": "beeldenparken",
+    "name": "Interart – voormalige beeldentuin",
+    "city": "Heeswijk-Dinther",
+    "province": "Noord-Brabant",
+    "street_address": "",
+    "website_url": "https://www.cultureelerfgoed.nl/site/binaries/site-content/collections/documents/2025/01/01/tuinontwerp-in-de-periode-1965-1990/verkennend-onderzoek-post-65-tuinontwerp.pdf",
+    "summary": "De voormalige beeldentuin Interart combineerde een tuinontwerp van Arend Jan van der Horst met beeldhouwkunst. De publieksopenstelling is beëindigd.",
+    "creator": "",
+    "year": "",
+    "tags": [
+      "beeldhouwkunst",
+      "moderne kunst"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.cultureelerfgoed.nl/site/binaries/site-content/collections/documents/2025/01/01/tuinontwerp-in-de-periode-1965-1990/verkennend-onderzoek-post-65-tuinontwerp.pdf",
+        "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+      }
+    ],
+    "selection_reason": "Historisch of tijdelijk niet toegankelijk beeldentuin-dossier; bewaren voor hercontrole en om onjuiste herimport te voorkomen. Niet tonen als actuele bezoekmogelijkheid.",
+    "visit_notes": "Sinds 2016 gesloten voor publiek; geen bezoeklocatie.",
+    "museum_id": null,
+    "starts_on": null,
+    "ends_on": null,
+    "operating_status": "disappeared",
+    "publication_status": "archived",
+    "latitude": null,
+    "longitude": null,
+    "coordinate_precision": "unknown",
+    "coordinate_source": ""
   }
 ]

@@ -27,7 +27,7 @@ function server(){
  }
  return {setup,profile:()=>profile,visits:()=>visits,fail:(v:boolean)=>{failSave=v;},remoteEdit:()=>{profile={tags:['design'],completed:true,updated_at:'remote-'+(++version)};},reset:()=>resetUrl,signup:()=>signupConfirmed,changes:()=>passwordChanges};
 }
-async function login(page:Page){await page.goto('/kunstkiezer/account');await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password-123');await page.locator('form').getByRole('button',{name:'Inloggen',exact:true}).click();await expect(page.getByText('Ingelogd als')).toBeVisible();}
+async function login(page:Page){await page.goto('/kunstkiezer/account');await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password-123');await page.locator('form').getByRole('button',{name:'Inloggen',exact:true}).click();await expect(page).toHaveURL(/\/kunstkiezer\/(agenda)?$/);await expect(page.getByRole('heading',{level:1})).toContainText(/Mijn kunstkeuze|Ontdek kunst/);}
 test('Profiel en sterren synchroniseren tussen twee apparaten; delen opent hetzelfde onderwerp',async({page,browser})=>{
  const mock=server();await mock.setup(page);await login(page);await expect(page.getByRole('link',{name:'Beheer',exact:true})).toHaveCount(0);
  await page.goto('/kunstkiezer/profiel');await page.getByLabel('Zoek een extra tag').fill('fotografie');await page.getByRole('button',{name:'fotografie +',exact:true}).click();await page.getByRole('button',{name:'Profiel opslaan',exact:true}).click();await expect(page.getByText('Je profiel is opgeslagen.',{exact:false})).toBeVisible();expect(mock.profile()?.tags).toEqual(['fotografie']);
@@ -46,7 +46,7 @@ test('Online profiel overschrijft geen gelijktijdige wijziging; geen beheer via 
 test('Registratie vraagt bevestiging en wachtwoordherstel gebruikt het accountadres',async({page})=>{
  const mock=server();await mock.setup(page);await page.goto('/kunstkiezer/account');await page.getByRole('button',{name:'Account maken',exact:true}).click();await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('New-test-password-123');await page.getByLabel('Herhaal wachtwoord',{exact:true}).fill('New-test-password-123');await page.locator('form').getByRole('button',{name:'Account maken',exact:true}).click();await expect(page.getByRole('status')).toContainText('bevestig je e-mailadres');expect(mock.signup()).toBe(true);
  await page.getByRole('button',{name:'Wachtwoord vergeten',exact:true}).click();await page.getByRole('button',{name:'Resetlink aanvragen',exact:true}).click();await expect(page.getByRole('status')).toContainText('Als dit e-mailadres een account heeft');expect(mock.reset()).toBe('http://127.0.0.1:8790/kunstkiezer/account?reset=1');
- await login(page);await page.getByLabel('Huidig wachtwoord',{exact:true}).fill('Test-password-123');await page.getByLabel('Nieuw wachtwoord (minstens 12 tekens)',{exact:true}).fill('New-password-12345');await page.getByLabel('Herhaal nieuw wachtwoord',{exact:true}).fill('New-password-12345');await page.getByRole('button',{name:'Wachtwoord opslaan',exact:true}).click();await expect.poll(mock.changes).toBe(1);
+ await login(page);await page.goto('/kunstkiezer/account');await page.getByLabel('Huidig wachtwoord',{exact:true}).fill('Test-password-123');await page.getByLabel('Nieuw wachtwoord (minstens 12 tekens)',{exact:true}).fill('New-password-12345');await page.getByLabel('Herhaal nieuw wachtwoord',{exact:true}).fill('New-password-12345');await page.getByRole('button',{name:'Wachtwoord opslaan',exact:true}).click();await expect.poll(mock.changes).toBe(1);
 });
 test('Herstellink opent nieuw wachtwoord; een losse reset-parameter omzeilt herauthenticatie niet',async({page})=>{
  const mock=server();await mock.setup(page);
@@ -54,4 +54,8 @@ test('Herstellink opent nieuw wachtwoord; een losse reset-parameter omzeilt hera
  await expect(page.getByRole('heading',{name:'Kies een nieuw wachtwoord',exact:true})).toBeVisible();
  await expect(page.getByLabel('Huidig wachtwoord',{exact:true})).toHaveCount(0);
  await page.reload();await expect(page.getByLabel('Huidig wachtwoord',{exact:true})).toBeVisible();
+});
+
+test('Inloggen kiest de startpagina van het online profiel, account blijft bereikbaar',async({page})=>{
+ const mock=server();mock.remoteEdit();await mock.setup(page);await login(page);await expect(page).toHaveURL(/\/agenda$/);await page.goto('/kunstkiezer/account');await expect(page.getByText('Ingelogd als')).toBeVisible();
 });

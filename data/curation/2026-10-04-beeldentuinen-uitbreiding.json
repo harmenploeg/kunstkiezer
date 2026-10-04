@@ -1,0 +1,453 @@
+{
+  "checked_at": "2026-10-04T20:02:59.426912+00:00",
+  "provided_list_count": 42,
+  "new_records": [
+    {
+      "id": "0723660f-c74d-5c79-8492-49f738c8f341",
+      "name": "Borg Verhildersum – beeldentuin",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.verhildersum.nl/nl/plan-je-bezoek/openingstijden-toegangsprijzen/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        },
+        {
+          "url": "https://www.verhildersum.nl/nl/landgoed/eddy-roos/",
+          "provider": "Primaire aanvullende controle",
+          "retrieved_at": "2026-10-04T20:01:52.128682+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5f68e866-bbfb-52ba-8b84-ad57d412099f",
+      "name": "Beeldentuin Cilia de la Court",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.ciliadelacourt.nl/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b9a87e8e-4542-5aa7-83c3-d3f072c870c3",
+      "name": "Beeldentuin Fransje Versloot",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.fransjeversloot.nl/beeldentuin/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        },
+        {
+          "url": "https://www.fransjeversloot.nl/contact/",
+          "provider": "Primaire aanvullende controle",
+          "retrieved_at": "2026-10-04T20:01:52.128682+00:00"
+        }
+      ]
+    },
+    {
+      "id": "968ee944-3092-5823-bc04-9e688c0d7414",
+      "name": "Galerie Wildevuur – beeldentuin",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://wildevuur.nl/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "14a75e84-dcd4-5c67-a769-ae0a238cb9b4",
+      "name": "Beeldentuin Harwi",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.harwikeramiek.nl/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "63a3371c-0db5-5da9-a306-b9e5c50772ff",
+      "name": "Pluck Elke Dag – beeldentuin Witharen",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.pluckelkedag.nl/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e095668a-3a3f-5914-a7b4-5233c2fb0e6c",
+      "name": "Klein Afrika – beeldentuin",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://kleinafrika.nl/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        },
+        {
+          "url": "https://kleinafrika.nl/contact/",
+          "provider": "Primaire aanvullende controle",
+          "retrieved_at": "2026-10-04T20:01:52.128682+00:00"
+        }
+      ]
+    },
+    {
+      "id": "38eb9a1c-a9db-5ca0-9ca9-ce76dd868b21",
+      "name": "HazArt – Beeldenpark Klein Engendaal",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.hazart.nl/contact",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5345e87c-a5a6-5485-a62f-fce08a62dc5e",
+      "name": "Het SculptuurDuin – Beelden aan Zee",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.beeldenaanzee.nl/over-ons/contact",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        },
+        {
+          "url": "https://buroharro.nl/projecten/sculptuur-duin-museum-beelden-aan-zee/",
+          "provider": "Primaire aanvullende controle",
+          "retrieved_at": "2026-10-04T20:01:52.128682+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c0f402a8-b8be-52fc-9e4e-82a41ce3e858",
+      "name": "Galerie T – beeldentuin",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.kunstroutemiddelburg.nl/deelnemers/deelnemers-kunstroute?catid=9&id=979:galerie-t&view=article",
+          "provider": "Regionale cultuurroute / toeristische organisatie: actuele locatievermelding",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "d856d821-7b1c-578f-921e-3ecd93f2966e",
+      "name": "SEE – Sculpture Expo Esbeek",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://see-expo.nl/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c42ad5a7-de3b-5dbc-ab78-294e2876ba63",
+      "name": "De Buffel – beeldentuin Vinkel",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.beeldengaleriedebuffel.nl/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "78bb3323-0f9f-5fb4-9f40-ab1775ca3131",
+      "name": "De Buffel – beeldentuin Veghel",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.beeldengaleriedebuffel.nl/galerie/beeldentuin-veghel",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "1addc8ce-9115-54fb-ad4b-400721e5757f",
+      "name": "Sous-Terre – beeldenpark Lithoijen",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://sous-terre.nl/sous-terre-lithoijen/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "d0964d61-3536-5b25-b3c1-4d232f1862fa",
+      "name": "Gallery van Dun – beeldentuin",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.galleryvandun.com/oisterwijk",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "15fdc855-f077-5f24-8188-4aafa2e0c416",
+      "name": "Galerie DNK – beeldentuin",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://galerie-dnk.nl/beeldentuin/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        },
+        {
+          "url": "https://galerie-dnk.nl/contact/",
+          "provider": "Primaire aanvullende controle",
+          "retrieved_at": "2026-10-04T20:01:52.128682+00:00"
+        }
+      ]
+    },
+    {
+      "id": "22da8276-14a3-5e9f-87a0-f39004a55b95",
+      "name": "Beeldentuin Paula Withagen",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.paulawithagen.nl/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a89b2aeb-86f5-5fa6-b0a2-a71af4c30371",
+      "name": "Willem Merkxtuin",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.explorebreda.com/nl/locaties/willem-merkxtuin",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ea01cf40-a24c-5116-85e3-1d3d3ada9e12",
+      "name": "Noordbrabants Museum – Paleistuin",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.hetnoordbrabantsmuseum.nl/bezoek/tentoonstellingen/paleistuin/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "24c11a2e-5177-5dc8-a474-52966ef79719",
+      "name": "Giardino – galerie en beeldentuin",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.giardinobeeldentuin.nl/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "1a592565-87cd-5e82-9f55-37cc08f2bccb",
+      "name": "De Grote Beer – beeldentuin",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.galeriedegrotebeer.nl/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f78d86a4-8307-515b-99e3-88596fac08e0",
+      "name": "De Aalbekerhoeve – beeldentuin",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.visitzuidlimburg.nl/te-doen-in-zuid-limburg/attracties-bezienswaardigheden/detail/atelier-beeldentuin-en-galerie-de-aalbekerhoeve/389415/",
+          "provider": "Regionale cultuurroute / toeristische organisatie: actuele locatievermelding",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "4b741184-0dd2-5911-a3fd-ce88bc74771d",
+      "name": "Vera de Haas – atelier en beeldentuin",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.veradehaas.nl/page/atelier-en-beeldentuin",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b55a4bbc-c0b0-5e45-84d2-1f16828ac6b9",
+      "name": "Yaka – beeldentuin",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.visitzuidlimburg.nl/te-doen-in-zuid-limburg/attracties-bezienswaardigheden/detail/yaka-art-for-home-en-garden/9526/",
+          "provider": "Regionale cultuurroute / toeristische organisatie: actuele locatievermelding",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "0cfbb766-dfa6-5592-ab24-1fec3baa7234",
+      "name": "Beeldentuin Suëstra",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://beeldentuinsuestra.nl/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "66f236cd-f46e-5a23-923a-4d445a5de153",
+      "name": "Daniëlle Orelio – beeldentuin",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.orelio-art.com/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "23103c24-889b-53c8-a814-4f61dea9df64",
+      "name": "Beeldentuin Anja Ysermans",
+      "operating_status": "open",
+      "publication_status": "published",
+      "sources": [
+        {
+          "url": "https://www.anjaysermans.nl/actueel.htm",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b97f0973-bf22-5daf-b602-d6a18fcb4baf",
+      "name": "Beeldentuin Clingenbosch",
+      "operating_status": "temporarily_closed",
+      "publication_status": "draft",
+      "sources": [
+        {
+          "url": "https://www.voorlinden.nl/bezoek/tours/beeldentuin-clingenbosch/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        },
+        {
+          "url": "https://tickets.voorlinden.nl/event/beeldentuin-clingenbosch/beeldentuin-clingenbosch/3695120",
+          "provider": "Primaire aanvullende controle",
+          "retrieved_at": "2026-10-04T20:01:52.128682+00:00"
+        }
+      ]
+    },
+    {
+      "id": "640bc941-65cb-5e81-b15a-535c7bda7170",
+      "name": "Hof van OOK – beeldentuin",
+      "operating_status": "temporarily_closed",
+      "publication_status": "draft",
+      "sources": [
+        {
+          "url": "https://www.hofvanook.nl/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9ac88984-0700-5b1e-826c-f89f15db5d8f",
+      "name": "Ruimte in Beeld – beeldentuin",
+      "operating_status": "disappeared",
+      "publication_status": "archived",
+      "sources": [
+        {
+          "url": "https://www.ruimteinbeeld.nl/",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    },
+    {
+      "id": "eba17da7-850c-5a9e-91b4-c0862974ef38",
+      "name": "Interart – voormalige beeldentuin",
+      "operating_status": "disappeared",
+      "publication_status": "archived",
+      "sources": [
+        {
+          "url": "https://www.cultureelerfgoed.nl/site/binaries/site-content/collections/documents/2025/01/01/tuinontwerp-in-de-periode-1965-1990/verkennend-onderzoek-post-65-tuinontwerp.pdf",
+          "provider": "Eigenaar / beheerder, inhoudelijk gecontroleerd",
+          "retrieved_at": "2026-10-04T20:00:38.633137+00:00"
+        }
+      ]
+    }
+  ],
+  "new_published": 27,
+  "new_unavailable": 4,
+  "already_correctly_unavailable": [
+    "Landgoed Anningahof",
+    "Beeldentuin Ravesteyn",
+    "Beeldentuin Achter de Westduinen"
+  ],
+  "notes": [
+    "De 42 aangeleverde tuinen zijn vertegenwoordigd door 24 nieuwe en 18 bestaande records.",
+    "Aanvullend ontdekt: Suëstra en Daniëlle Orelio.",
+    "Anja Ysermans is uitsluitend voor groepen op afspraak opgenomen, niet als reguliere herfstopenstelling.",
+    "Foto’s met bevestigde hergebruikvoorwaarden ontbreken bij de nieuwe dossiers en blijven open punten.",
+    "Geen volledige bestaanscontrole van alle oude catalogusrecords geclaimd."
+  ]
+}

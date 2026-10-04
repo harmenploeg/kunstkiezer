@@ -65,3 +65,7 @@ De eenmalige toevoegingen staan ter verantwoording in `data/curation/2026-10-04-
 ## Instagram: verplichte browserroute
 
 Lees en volg `docs/instagram-bronnen.md` vóór iedere Instagramcontrole. De eerdere tekst-ophaalfouten zijn geen bewijs van ontoegankelijke accounts. Open de profielen en berichten in de gewone browser, sluit wegklikbare promoties en leg de werkelijk gelezen inhoud vast. Deze werkwijze staat ook in de actieve automatisering en in de bewerkbare bronnotities.
+
+## Ontbrekende beeldentuinen systematisch zoeken
+
+Lees ook `docs/selectie-beeldentuinen.md`. Werk de provinciale dekking in `data/curation/garden-coverage.json` bij. De aangeleverde lijst van 42 tuinen en acht beperkingen moet herleidbaar zijn tot een record of een gemotiveerd dossier. Naast dossieronderhoud blijven kleinere galerie- en kunstenaarstuinen, museumtuinen en beeldenroutes expliciete zoekingangen. Controleer seizoenssluiting, afspraken en ticketbeschikbaarheid afzonderlijk.

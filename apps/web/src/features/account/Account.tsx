@@ -72,9 +72,8 @@ export function Account() {
         throw Error(
           "Inloggen is niet gelukt. Controleer je gegevens en bevestig eerst je e-mailadres.",
         );
-      setMessage(
-        "Je bent ingelogd. Je online profiel is beschikbaar op al je apparaten.",
-      );
+      // The landing page waits for the signed-in profile before choosing the start page.
+      location.replace(appHref("/"));
     });
   }
   async function changePassword(e: FormEvent) {

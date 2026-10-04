@@ -22,13 +22,13 @@
       "visible_on_research_date": 111
     },
     "beeldenparken": {
-      "total": 39,
-      "published": 39,
-      "archived": 0,
-      "draft": 0,
+      "total": 70,
+      "published": 66,
+      "archived": 2,
+      "draft": 2,
       "with_photos": 11,
-      "precise_locations": 28,
-      "visible_on_research_date": 34
+      "precise_locations": 53,
+      "visible_on_research_date": 61
     },
     "architectuur": {
       "total": 193,
@@ -49,8 +49,8 @@
       "visible_on_research_date": 86
     }
   },
-  "total": 750,
-  "remaining_records": 308,
+  "total": 781,
+  "remaining_records": 335,
   "remaining": [
     {
       "id": "5402debd-2567-5c85-af4d-31354fd1f113",
@@ -2385,6 +2385,278 @@
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
         "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "0723660f-c74d-5c79-8492-49f738c8f341",
+      "inventory_key": "garden:Borg Verhildersum – beeldentuin",
+      "category": "beeldenparken",
+      "name": "Borg Verhildersum – beeldentuin",
+      "website_url": "https://www.verhildersum.nl/nl/plan-je-bezoek/openingstijden-toegangsprijzen/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5f68e866-bbfb-52ba-8b84-ad57d412099f",
+      "inventory_key": "garden:Beeldentuin Cilia de la Court",
+      "category": "beeldenparken",
+      "name": "Beeldentuin Cilia de la Court",
+      "website_url": "https://www.ciliadelacourt.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "b9a87e8e-4542-5aa7-83c3-d3f072c870c3",
+      "inventory_key": "garden:Beeldentuin Fransje Versloot",
+      "category": "beeldenparken",
+      "name": "Beeldentuin Fransje Versloot",
+      "website_url": "https://www.fransjeversloot.nl/beeldentuin/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "968ee944-3092-5823-bc04-9e688c0d7414",
+      "inventory_key": "garden:Galerie Wildevuur – beeldentuin",
+      "category": "beeldenparken",
+      "name": "Galerie Wildevuur – beeldentuin",
+      "website_url": "https://wildevuur.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "14a75e84-dcd4-5c67-a769-ae0a238cb9b4",
+      "inventory_key": "garden:Beeldentuin Harwi",
+      "category": "beeldenparken",
+      "name": "Beeldentuin Harwi",
+      "website_url": "https://www.harwikeramiek.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "63a3371c-0db5-5da9-a306-b9e5c50772ff",
+      "inventory_key": "garden:Pluck Elke Dag – beeldentuin Witharen",
+      "category": "beeldenparken",
+      "name": "Pluck Elke Dag – beeldentuin Witharen",
+      "website_url": "https://www.pluckelkedag.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e095668a-3a3f-5914-a7b4-5233c2fb0e6c",
+      "inventory_key": "garden:Klein Afrika – beeldentuin",
+      "category": "beeldenparken",
+      "name": "Klein Afrika – beeldentuin",
+      "website_url": "https://kleinafrika.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "38eb9a1c-a9db-5ca0-9ca9-ce76dd868b21",
+      "inventory_key": "garden:HazArt – Beeldenpark Klein Engendaal",
+      "category": "beeldenparken",
+      "name": "HazArt – Beeldenpark Klein Engendaal",
+      "website_url": "https://www.hazart.nl/contact",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5345e87c-a5a6-5485-a62f-fce08a62dc5e",
+      "inventory_key": "garden:Het SculptuurDuin – Beelden aan Zee",
+      "category": "beeldenparken",
+      "name": "Het SculptuurDuin – Beelden aan Zee",
+      "website_url": "https://www.beeldenaanzee.nl/over-ons/contact",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "c0f402a8-b8be-52fc-9e4e-82a41ce3e858",
+      "inventory_key": "garden:Galerie T – beeldentuin",
+      "category": "beeldenparken",
+      "name": "Galerie T – beeldentuin",
+      "website_url": "https://www.kunstroutemiddelburg.nl/deelnemers/deelnemers-kunstroute?catid=9&id=979:galerie-t&view=article",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "d856d821-7b1c-578f-921e-3ecd93f2966e",
+      "inventory_key": "garden:SEE – Sculpture Expo Esbeek",
+      "category": "beeldenparken",
+      "name": "SEE – Sculpture Expo Esbeek",
+      "website_url": "https://see-expo.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "c42ad5a7-de3b-5dbc-ab78-294e2876ba63",
+      "inventory_key": "garden:De Buffel – beeldentuin Vinkel",
+      "category": "beeldenparken",
+      "name": "De Buffel – beeldentuin Vinkel",
+      "website_url": "https://www.beeldengaleriedebuffel.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "78bb3323-0f9f-5fb4-9f40-ab1775ca3131",
+      "inventory_key": "garden:De Buffel – beeldentuin Veghel",
+      "category": "beeldenparken",
+      "name": "De Buffel – beeldentuin Veghel",
+      "website_url": "https://www.beeldengaleriedebuffel.nl/galerie/beeldentuin-veghel",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "1addc8ce-9115-54fb-ad4b-400721e5757f",
+      "inventory_key": "garden:Sous-Terre – beeldenpark Lithoijen",
+      "category": "beeldenparken",
+      "name": "Sous-Terre – beeldenpark Lithoijen",
+      "website_url": "https://sous-terre.nl/sous-terre-lithoijen/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "d0964d61-3536-5b25-b3c1-4d232f1862fa",
+      "inventory_key": "garden:Gallery van Dun – beeldentuin",
+      "category": "beeldenparken",
+      "name": "Gallery van Dun – beeldentuin",
+      "website_url": "https://www.galleryvandun.com/oisterwijk",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "15fdc855-f077-5f24-8188-4aafa2e0c416",
+      "inventory_key": "garden:Galerie DNK – beeldentuin",
+      "category": "beeldenparken",
+      "name": "Galerie DNK – beeldentuin",
+      "website_url": "https://galerie-dnk.nl/beeldentuin/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "22da8276-14a3-5e9f-87a0-f39004a55b95",
+      "inventory_key": "garden:Beeldentuin Paula Withagen",
+      "category": "beeldenparken",
+      "name": "Beeldentuin Paula Withagen",
+      "website_url": "https://www.paulawithagen.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "a89b2aeb-86f5-5fa6-b0a2-a71af4c30371",
+      "inventory_key": "garden:Willem Merkxtuin",
+      "category": "beeldenparken",
+      "name": "Willem Merkxtuin",
+      "website_url": "https://www.explorebreda.com/nl/locaties/willem-merkxtuin",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "ea01cf40-a24c-5116-85e3-1d3d3ada9e12",
+      "inventory_key": "garden:Noordbrabants Museum – Paleistuin",
+      "category": "beeldenparken",
+      "name": "Noordbrabants Museum – Paleistuin",
+      "website_url": "https://www.hetnoordbrabantsmuseum.nl/bezoek/tentoonstellingen/paleistuin/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "24c11a2e-5177-5dc8-a474-52966ef79719",
+      "inventory_key": "garden:Giardino – galerie en beeldentuin",
+      "category": "beeldenparken",
+      "name": "Giardino – galerie en beeldentuin",
+      "website_url": "https://www.giardinobeeldentuin.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "1a592565-87cd-5e82-9f55-37cc08f2bccb",
+      "inventory_key": "garden:De Grote Beer – beeldentuin",
+      "category": "beeldenparken",
+      "name": "De Grote Beer – beeldentuin",
+      "website_url": "https://www.galeriedegrotebeer.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "f78d86a4-8307-515b-99e3-88596fac08e0",
+      "inventory_key": "garden:De Aalbekerhoeve – beeldentuin",
+      "category": "beeldenparken",
+      "name": "De Aalbekerhoeve – beeldentuin",
+      "website_url": "https://www.visitzuidlimburg.nl/te-doen-in-zuid-limburg/attracties-bezienswaardigheden/detail/atelier-beeldentuin-en-galerie-de-aalbekerhoeve/389415/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "4b741184-0dd2-5911-a3fd-ce88bc74771d",
+      "inventory_key": "garden:Vera de Haas – atelier en beeldentuin",
+      "category": "beeldenparken",
+      "name": "Vera de Haas – atelier en beeldentuin",
+      "website_url": "https://www.veradehaas.nl/page/atelier-en-beeldentuin",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "b55a4bbc-c0b0-5e45-84d2-1f16828ac6b9",
+      "inventory_key": "garden:Yaka – beeldentuin",
+      "category": "beeldenparken",
+      "name": "Yaka – beeldentuin",
+      "website_url": "https://www.visitzuidlimburg.nl/te-doen-in-zuid-limburg/attracties-bezienswaardigheden/detail/yaka-art-for-home-en-garden/9526/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "0cfbb766-dfa6-5592-ab24-1fec3baa7234",
+      "inventory_key": "garden:Beeldentuin Suëstra",
+      "category": "beeldenparken",
+      "name": "Beeldentuin Suëstra",
+      "website_url": "https://beeldentuinsuestra.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "66f236cd-f46e-5a23-923a-4d445a5de153",
+      "inventory_key": "garden:Daniëlle Orelio – beeldentuin",
+      "category": "beeldenparken",
+      "name": "Daniëlle Orelio – beeldentuin",
+      "website_url": "https://www.orelio-art.com/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "23103c24-889b-53c8-a814-4f61dea9df64",
+      "inventory_key": "garden:Beeldentuin Anja Ysermans",
+      "category": "beeldenparken",
+      "name": "Beeldentuin Anja Ysermans",
+      "website_url": "https://www.anjaysermans.nl/actueel.htm",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]
     },
     {
