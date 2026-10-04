@@ -14,6 +14,12 @@ Aanvullende controle bij bronrevisie 081d2972ac56cc556aaab1be676e294cf8dcb3ca en
 
 ## Publicatie en beperking
 
-Loci-run 37190244568 doorloopt de bestaande gecontroleerde productieketen. Op het moment van dit verslag was de run nog bezig; dit verslag claimt daarom nog geen geslaagde productiepublicatie van de frontend. Databasewijzigingen zijn afzonderlijk toegepast en via de anonieme API gecontroleerd.
+Loci-run [37191556062](https://github.com/harmenploeg/interactief/actions/runs/37191556062) is geslaagd. Op 4 oktober 2026 om 09:40:25 UTC bevestigde de geautoriseerde productiecontrole bronversie `2f81d95e2a0297485d72a97c29ec1702996a135d` op het echte Loci-domein: routes, assets, database en alle drie rangschikkingsgewichten werken. De mobiele en desktopcontroles van de publicatieketen zijn geslaagd. Databasewijzigingen zijn bovendien afzonderlijk via de anonieme API gecontroleerd.
+
+De eerste publicatierun 37190244568 strandde na publicatie op een verouderde controle die alleen afstand en tags optelde. De controle is aangepast aan drie gewichten, met behoud van bereikcontroles en de eis dat het totaal 100 is; ook de waarderingsprior wordt gevalideerd. De nieuwe volledige publicatierun is geslaagd. De aanvullende catalogusimporttest ontdekte een gepubliceerd seed-record; dit is voor nieuwe database-installaties naar concept gecorrigeerd. De gecontroleerde productiepublicatie van dat record bleef behouden. Bronrun [37191820725](https://github.com/harmenploeg/kunstkiezer/actions/runs/37191820725) slaagde vervolgens met 50 unit/database-tests en 50 browsertests.
+
+Handmatige browserinspectie van productie werd geblokkeerd door de bestaande Cloudflare Access-aanmelding. Deze is niet omzeild. Productieverificatie berust op de geautoriseerde CI-controle; de nieuwe schermen en kaarttegels zijn lokaal in de browser gecontroleerd.
 
 De bestaande afhankelijkheidscorrectie uit het eerdere verslag is gepubliceerd: Loci-run 37183321495 slaagde. De automatische beveiligingscontrole en inhoudelijke wachtrijcontrole zijn op verzoek verplaatst naar afzonderlijke lokale achtergrondtaken; beide blijven actief, met meldingen uitsluitend bij mislukte uitvoeringen. De computer en Codex moeten beschikbaar blijven.
+
+De zelfstandige productie-smoketest [37191555774](https://github.com/harmenploeg/interactief/actions/runs/37191555774) is na de definitieve publicatie opnieuw uitgevoerd en geslaagd. De eerste poging liep vóór die publicatie en meldde daardoor een versieverschil.
