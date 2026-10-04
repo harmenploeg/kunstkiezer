@@ -1,7 +1,7 @@
 {
   "run_id": "c2c576a9-e278-4fa1-a141-d977d28c9950",
   "research_date": "2026-10-04",
-  "updated_at": "2026-10-04T16:40:10.554095+00:00",
+  "updated_at": "2026-10-04T17:10:37.372693+00:00",
   "agenda_window_end": "2026-11-04",
   "scope": "Nieuwe geclaimde vervolgpartij na aa347a63. 26 bestaande dossiers onderzocht; negen nieuwe kunstactiviteiten. Geen volledige controle van de resterende landelijke inventaris.",
   "sources_snapshot": [
@@ -1854,10 +1854,15 @@
     "database": "Alle 24 gewijzigde/nieuwe records opnieuw gelezen; elk bedoeld veld vergeleken. Vijftien optimistische updates zonder conflict, negen inserts. Bestaande handmatige redactiewijzigingen behouden.",
     "public_api": "Alle 24 gewijzigde of nieuwe records via publieke Supabase-API teruggelezen en op alle velden vergeleken.",
     "tests": "npm run check geslaagd: typecheck, 51 tests en productiebuild.",
-    "production": "pending",
+    "production": "Geslaagd op https://www.loci-amsterdam.nl/kunstkiezer/: bronrevisie 39663aba37f66ecc6adb2d63ab613be67c067147 bevestigd, inclusief routes, assets, vijf catalogusdownloads, database en drie rangschikkingsgewichten.",
     "normalization": "Bestaande maker-trigger gecontroleerd: één maker-tag op basis van volledige creator-tekst. Coördinaten vergeleken met 1e-10 graden tolerantie voor JSON-floatafronding.",
     "catalogs": "Alle 747 catalogusrecords vergeleken met de actuele database; afsluitende vergelijking van wijzigingsversies toont geen onverwachte wijzigingen.",
-    "photos": "Vier locatiefoto’s opgehaald via Commons, makers en vrije licenties bevestigd en beelden visueel gecontroleerd. Bestaande Arti-foto was algemeen stadsgezicht; vervangen door specifieke gevel. Odapark-kabouterkunst uit 2014 vervangen door herkenbaar Theehuis. Hergebruikte beelden benoemen historische opnamedatum. Initiële HTTP 403 zonder User-Agent opgelost met normale identificerende curation User-Agent."
+    "photos": "Vier locatiefoto’s opgehaald via Commons, makers en vrije licenties bevestigd en beelden visueel gecontroleerd. Bestaande Arti-foto was algemeen stadsgezicht; vervangen door specifieke gevel. Odapark-kabouterkunst uit 2014 vervangen door herkenbaar Theehuis. Hergebruikte beelden benoemen historische opnamedatum. Initiële HTTP 403 zonder User-Agent opgelost met normale identificerende curation User-Agent.",
+    "loci_local": "npm run check:release en zes Kunstkiezer-integratietests geslaagd; integratie wijzigt uitsluitend vier catalogi, versie en integratiedocument. Mondriaan-appassets ongewijzigd.",
+    "museum_sources": "Zeven nieuwe museum-bronverwijzingen teruggelezen; ids, URLs en ondersteunde velden komen overeen.",
+    "production_run": "https://github.com/harmenploeg/interactief/actions/runs/37217833548",
+    "production_smoke_run": "https://github.com/harmenploeg/interactief/actions/runs/37219444042",
+    "production_verified_at": "2026-10-04T17:10:37.372693+00:00"
   },
   "backlog_counts": {
     "pending_count": 567,
@@ -1946,5 +1951,8 @@
       "remaining": "Régis Gonçalves — In Memoriam (26 oktober–6 november) staat in agenda; detailpagina, inhoud en beeld nog controleren."
     }
   ],
-  "preserved_app_revision": "9bcc566 — Mondriaan-vormgeving; geen applicatiecode gewijzigd."
+  "preserved_app_revision": "9bcc566 — Mondriaan-vormgeving; geen applicatiecode gewijzigd.",
+  "source_commit": "39663aba37f66ecc6adb2d63ab613be67c067147",
+  "integration_commit": "9749398a38823cee912544630c9b88fc3c79b141",
+  "completion": "Geverifieerd gepubliceerde partij met 24 afgeronde bestaande dossiers, vijftien correcties en negen toevoegingen; 567 uitvoerbare pending dossiers blijven over, plus één bestaande fotorechtenblokkade."
 }
