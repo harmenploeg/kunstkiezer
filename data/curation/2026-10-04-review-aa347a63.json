@@ -1,7 +1,7 @@
 {
   "run_id": "aa347a63-8db4-4074-ba7e-8594fa808505",
   "research_date": "2026-10-04",
-  "updated_at": "2026-10-04T12:04:40.057279+00:00",
+  "updated_at": "2026-10-04T13:40:13.979202+00:00",
   "agenda_window_end": "2026-11-04",
   "scope": "Gerichte vervolgpartij: 17 bestaande dossiers uit musea, architectuur, beeldentuinen en openbare kunst; drie nieuwe tentoonstellingen. Geen volledige hercontrole van alle overige dossiers.",
   "sources_snapshot": [
@@ -1273,9 +1273,14 @@
     "database": "Alle 16 gewijzigde/nieuwe records opnieuw gelezen; elk bedoeld veld exact vergeleken. 13 optimistische updates zonder conflict, drie inserts. Bestaande handmatige redactiewijzigingen behouden.",
     "public_api": "16 controles geslaagd: 15 records met alle velden publiek beschikbaar; Drawing Centre correct uitgesloten tijdens opbouwsluiting.",
     "tests": "npm run check geslaagd: typecheck, 51 tests en productiebuild.",
-    "production": "Voorbereid; gecontroleerde Loci-keten moet nog slagen.",
+    "production": "Geslaagd op https://www.loci-amsterdam.nl/kunstkiezer/: routes, assets, vijf catalogusdownloads, database en drie rangschikkingsgewichten geverifieerd tegen broncommit 374dd866c919b4083fb59a708c4e2b86565d929a. Gecontroleerde publicatie en afzonderlijke productiecontrole geslaagd op integratiecommit cd1511c9cb9322a517fed63460894f8d07d27737.",
     "normalization": "De bestaande database-trigger voegt maker-tags toe. Deze afleiding gecontroleerd; groepspresentatie heeft geen fictieve maker Groepstentoonstelling. Numerieke coördinaten vergeleken met tolerantie 1e-10 graden voor JSON-floatafronding.",
-    "catalogs": "Alle 738 records vergeleken met de actuele database; geen onverwachte tussentijdse wijzigingen."
+    "catalogs": "Alle 738 records vergeleken met de actuele database; geen onverwachte tussentijdse wijzigingen.",
+    "loci_local": "npm run check:release en zes tests in tests/kunstkiezer-pages.test.mjs geslaagd.",
+    "photo_links": "Vier geselecteerde Commons-afbeeldingen met HTTP 200 geladen en visueel gecontroleerd; auteurs, licenties, onderwerp en historische datums vastgelegd. Oude vijf HTTP 429-meldingen waren al opgelost in manual-01-photo-link-check; geen ontbrekende foto uit een bronlimiet afgeleid.",
+    "production_run": "https://github.com/harmenploeg/interactief/actions/runs/37201199450",
+    "production_smoke_run": "https://github.com/harmenploeg/interactief/actions/runs/37202218737",
+    "production_verified_at": "2026-10-04T12:28:38Z"
   },
   "backlog_counts": {
     "pending_count": 591,
@@ -1314,5 +1319,14 @@
       "caption": "Locatie van de tentoonstelling; Pand Naauw 6 in 2011, vóór de vestiging van VHDG; historische gevelopname."
     }
   ],
-  "database_finished_at": "2026-10-04T12:09:50.215225+00:00"
+  "database_finished_at": "2026-10-04T12:09:50.215225+00:00",
+  "followup_notes": [
+    "Vanaf 10 oktober 2026 Drawing Centre Diepenheim opnieuw controleren voor herstel van open-status; audit blijft tijdelijke sluiting tonen totdat primaire bron heropening bevestigt.",
+    "Reizend zand: actuele zichtbaarheid en exacte omschrijving bevestigd; kaartcoördinaat nog pending.",
+    "De Olifanten: ligging in snelwegknooppunt bevestigd; exact objectpunt/veilige uitzichtplek nog pending.",
+    "The Stone Line: alleen fotohergebruikrechten blocked; bezoekinformatie en gemeentelijk objectpunt bevestigd."
+  ],
+  "source_commit": "374dd866c919b4083fb59a708c4e2b86565d929a",
+  "integration_commit": "cd1511c9cb9322a517fed63460894f8d07d27737",
+  "completion": "Partij geverifieerd afgerond; 591 uitvoerbare pending dossiers vragen één atomair vervolg volgens het wachtrijprotocol."
 }

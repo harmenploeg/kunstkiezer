@@ -3,9 +3,9 @@
   "campaign": "individuele-controle-2026-10-04",
   "requested_at": "2026-10-04",
   "active": true,
-  "updated_at": "2026-10-04T12:04:40.057279+00:00",
+  "updated_at": "2026-10-04T13:40:13.979202+00:00",
   "policy": "Alle overgebleven punten inhoudelijk onderzoeken; onoplosbare punten krijgen een concrete externe blokkade met bron en uitgevoerde pogingen. Geen status afronden op basis van HTTP 200.",
-  "last_completed_batch": "0543b5e9-8105-4b9d-88be-6a690da0365d",
+  "last_completed_batch": "aa347a63-8db4-4074-ba7e-8594fa808505",
   "pending_count": 591,
   "blocked_count": 1,
   "records": [
@@ -7164,6 +7164,5 @@
     }
   ],
   "resolved_count": 68,
-  "initial_count": 660,
-  "last_prepared_batch": "aa347a63-8db4-4074-ba7e-8594fa808505"
+  "initial_count": 660
 }
