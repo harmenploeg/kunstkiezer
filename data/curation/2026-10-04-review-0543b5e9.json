@@ -1,8 +1,8 @@
 {
   "run_id": "0543b5e9-8105-4b9d-88be-6a690da0365d",
   "research_date": "2026-10-04",
-  "updated_at": "2026-10-04T11:23:18.616684+00:00",
-  "scope": "Eerste inhoudelijke vervolgpartij: 22 evenementen, 18 beeldentuinen/routes en 3 instellingen. Geen volledige hercontrole van alle 735 onderwerpen.",
+  "updated_at": "2026-10-04T11:31:17.175523+00:00",
+  "scope": "Eerste vervolgpartij: 83 inhoudelijke dossiers (22 evenementen, 18 beeldentuinen/routes, 43 musea/instellingen), 12 databasecorrecties. Geen volledige hercontrole van alle 735 onderwerpen.",
   "sources_snapshot": [
     {
       "id": "11fountains",
@@ -838,6 +838,750 @@
       ],
       "conclusion": "Actuele tentoonstelling Naturocene en woensdag–zondag open; bezoekadres Tt. Melaniaweg 1 onderscheiden van postadres Tt. Vasumweg 39.",
       "resolves_availability": true
+    },
+    {
+      "id": "de60456d-84e7-5a70-ba25-d0c58b584e2b",
+      "name": "Museum 't Oude Slot",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:33:03Z"
+      ],
+      "primary_sources": [
+        "https://www.museumoudeslot.nl/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Actuele tentoonstelling Willem Adams t/m 29 november 2026 en bezoekersopenstelling 13–17 uur bevestigd; volkskunst en beeldcultuur worden als collectie genoemd.",
+      "resolves_availability": true
+    },
+    {
+      "id": "514fb72a-7e24-53db-9a2a-88c76c28368f",
+      "name": "Museum Krona",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:16Z",
+        "2026-10-04T08:52:41Z"
+      ],
+      "primary_sources": [
+        "https://www.museumkrona.nl/nl/",
+        "https://www.museumkrona.nl/nl/plan-uw-bezoek/openingstijden-en-tarieven"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Museum noemt De Camino en Tom Heerschop t/m 25 oktober 2026; openingspagina 2026 bevestigt dinsdag–zondag 11–17 uur. Hitte-uitzondering in juni geldt niet meer.",
+      "resolves_availability": true
+    },
+    {
+      "id": "962921a1-f173-54e7-b4fd-6fcdafe873de",
+      "name": "Anton Pieck Museum",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:37Z",
+        "2026-10-04T08:52:50Z",
+        "2026-10-04T08:52:50Z"
+      ],
+      "primary_sources": [
+        "https://www.antonpieckmuseum.nl",
+        "https://www.antonpieckmuseum.nl/openingstijden-en-prijzen/",
+        "https://www.antonpieckmuseum.nl/contact/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Openingspagina noemt reguliere bezoekuren, extra maandagen in oktober 2026 en bezoekadres Noordwal 31.",
+      "resolves_availability": true
+    },
+    {
+      "id": "823e5b86-eb4d-532d-9fd0-190da04564db",
+      "name": "Museum van Bommel van Dam",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:29Z",
+        "2026-10-04T08:52:46Z",
+        "2026-10-04T08:52:46Z"
+      ],
+      "primary_sources": [
+        "https://www.vanbommelvandam.nl/",
+        "https://www.vanbommelvandam.nl/openingstijden-en-locatie/",
+        "https://www.vanbommelvandam.nl/contact/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Actuele presentaties Seeing Sounds en Material Memories bevestigd; bezoekpagina noemt Keulsepoort 1 en dinsdag–zondag 11–17 uur.",
+      "resolves_availability": true
+    },
+    {
+      "id": "9f69bc60-5e2e-5d0b-b2ab-65572fba9796",
+      "name": "Katwijks Museum",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:42Z",
+        "2026-10-04T08:52:51Z"
+      ],
+      "primary_sources": [
+        "https://www.katwijksmuseum.nl/",
+        "https://www.katwijksmuseum.nl/bezoek-ons/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "De Muze van… loopt tot en met controledatum 4 oktober 2026; bezoekpagina bevestigt reguliere openstelling dinsdag–zondag.",
+      "resolves_availability": true
+    },
+    {
+      "id": "3fbea5ae-2cbe-5ed0-96e7-e4c86ab85f88",
+      "name": "CODA",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:11Z",
+        "2026-10-04T08:52:39Z"
+      ],
+      "primary_sources": [
+        "https://www.coda-apeldoorn.nl/",
+        "https://www.coda-apeldoorn.nl/pagina/56/Bezoek-CODA-ExperienceLab-met-de-klas"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Museumprogramma 2026 en opening museum 11–17 uur bevestigd. Gesloten archief en ExperienceLab niet verward met het museum.",
+      "resolves_availability": true
+    },
+    {
+      "id": "b5ddfbab-b8bd-5856-8b22-792c6464cda1",
+      "name": "Musiom",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:48Z",
+        "2026-10-04T08:52:55Z",
+        "2026-10-04T08:52:55Z"
+      ],
+      "primary_sources": [
+        "https://musiom.art/",
+        "https://musiom.art/contact/",
+        "https://musiom.art/contact-3/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Eigen site bevestigt vrijdag–zondag 12–17 uur en Stadsring 137. Momentmelding gesloten buiten daguren is geen bedrijfssluiting.",
+      "resolves_availability": true
+    },
+    {
+      "id": "fbb5ea54-a7e6-5146-8810-d0aa2e9ba8f1",
+      "name": "Museum EICAS",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:33:24Z",
+        "2026-10-04T08:53:07Z"
+      ],
+      "primary_sources": [
+        "https://www.eicas.nl",
+        "https://www.eicas.nl/bezoek"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Bezoekpagina bevestigt museumopenstelling dinsdag–zondag 10–17 uur en rondleidingen.",
+      "resolves_availability": true
+    },
+    {
+      "id": "8ccd0e05-472e-5b33-ab92-616e197d0f1d",
+      "name": "Museum Jan Cunen Oss",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:33Z",
+        "2026-10-04T08:52:49Z",
+        "2026-10-04T08:52:49Z"
+      ],
+      "primary_sources": [
+        "https://www.museumjancunen.nl",
+        "https://www.museumjancunen.nl/openingstijden-en-locatie/",
+        "https://www.museumjancunen.nl/contact/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Huidige tentoonstellingen t/m 1 november en reguliere opening dinsdag–zondag bevestigd. Ombouw 2–14 november vastgelegd voor latere hercontrole.",
+      "resolves_availability": true
+    },
+    {
+      "id": "e5422e49-51de-5669-91d9-bde559fb0d12",
+      "name": "Museum Slager",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:33:17Z"
+      ],
+      "primary_sources": [
+        "https://www.museumslager.com/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Tentoonstelling Daniel Douglas 20 september 2026–30 januari 2027, Choorstraat 8 en dinsdag–zondag open bevestigd.",
+      "resolves_availability": true
+    },
+    {
+      "id": "d8323e10-6b74-5eb4-8934-c78370638c29",
+      "name": "Museum Dr8888",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:33:02Z"
+      ],
+      "primary_sources": [
+        "https://www.museumdrachten.nl/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Actuele tentoonstelling tot 18 oktober 2026, verlengd programma tot 25 oktober en opening dinsdag–zondag 11–17 bevestigd.",
+      "resolves_availability": true
+    },
+    {
+      "id": "878670d8-2c15-529b-8c17-ad3b84455f9a",
+      "name": "Vincent van GoghHuis",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:30Z"
+      ],
+      "primary_sources": [
+        "https://www.vangoghhuis.com/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "DUET loopt 6 juni–11 oktober 2026; actuele residentie van september en museumprogramma bevestigen de instelling als bezoekbestemming.",
+      "resolves_availability": true
+    },
+    {
+      "id": "f138ec54-d381-53ff-9f41-d0166c596093",
+      "name": "Museum Land van Valkenburg",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:33:21Z"
+      ],
+      "primary_sources": [
+        "https://www.museumlandvanvalkenburg.nl/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Eigen site bevestigt actuele kunstpresentatie tot 10 januari 2027, jubileumpresentatie en dinsdag–zondag 13–17 uur.",
+      "resolves_availability": true
+    },
+    {
+      "id": "87fe4272-7fd0-585d-a911-c5dc12dbd2f1",
+      "name": "Chabot Museum",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:31Z"
+      ],
+      "primary_sources": [
+        "https://www.chabotmuseum.nl/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Hendrik Chabot Prijs en collectiepresentatie tot en met 4 oktober 2026; volgende tentoonstelling vanaf 25 oktober. Geen sluiting op de controledatum vastgesteld.",
+      "resolves_availability": true
+    },
+    {
+      "id": "ffe7c7e6-0c5e-59c1-a15f-30cbab35178c",
+      "name": "Noord-Veluws Museum Nunspeet",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:33:25Z",
+        "2026-10-04T08:53:08Z",
+        "2026-10-04T08:53:08Z"
+      ],
+      "primary_sources": [
+        "https://www.noord-veluws-museum.nl/",
+        "https://www.noord-veluws-museum.nl/openingstijden-en-entreeprijzen/",
+        "https://www.noord-veluws-museum.nl/bezoek/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Bezoekpagina bevestigt Winckelweg 17a en reguliere openstelling dinsdag–zondag; navigatieadvies huisnummer 17 vastgelegd.",
+      "resolves_availability": true
+    },
+    {
+      "id": "c576230f-abaa-54b0-b98b-214cf3013e6b",
+      "name": "KM21",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:54Z"
+      ],
+      "primary_sources": [
+        "https://www.gem-online.nl/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Actuele presentatie Dala Nasser tot 11 oktober 2026 en volgende solo Karimah Ashadu vanaf 24 oktober bevestigen het museumprogramma.",
+      "resolves_availability": true
+    },
+    {
+      "id": "c80464ad-d921-592b-ae1b-bdd2b8de0833",
+      "name": "Museum IJsselstein",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:56Z",
+        "2026-10-04T08:52:58Z",
+        "2026-10-04T08:52:58Z"
+      ],
+      "primary_sources": [
+        "https://www.museumijsselstein.nl/",
+        "https://www.museumijsselstein.nl/openingstijden/",
+        "https://www.museumijsselstein.nl/activiteiten/bezoek-kasteeltoren-ijsselstein/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Actuele presentaties tot 25 oktober 2026, Walkade 2–4 en woensdag–zondag open bevestigd.",
+      "resolves_availability": true
+    },
+    {
+      "id": "94c9f145-8ff6-5ff4-9bd8-1b767ccad566",
+      "name": "Ikonenmuseum Kampen",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:37Z"
+      ],
+      "primary_sources": [
+        "https://ikonenmuseumkampen.nl/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Eigen bezoekersinformatie biedt reguliere openingstijden. Afgelopen afzonderlijke exposities niet opgevat als sluiting van de hele instelling.",
+      "resolves_availability": true
+    },
+    {
+      "id": "f464bfae-6478-5717-b2c6-b412ef103ba3",
+      "name": "De Wieger Deurne",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:33:22Z"
+      ],
+      "primary_sources": [
+        "https://www.dewieger.nl/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Brabant Modern en De Judaskus tot 29 november 2026; nieuwe atelierpresentatie vanaf 3 oktober. Actueel kunstprogramma bevestigd.",
+      "resolves_availability": true
+    },
+    {
+      "id": "dbc1b2a9-b3fe-5eba-ac29-9fbc44c0ad82",
+      "name": "ABC Architectuurcentrum Haarlem",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:33:03Z"
+      ],
+      "primary_sources": [
+        "https://www.architectuurhaarlem.nl/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Lopende architectuurpresentaties en oktoberprogramma bevestigd. Dagelijkse sluiting op 17 oktober wegens opbouw betreft een toekomstige uitzondering.",
+      "resolves_availability": true
+    },
+    {
+      "id": "f0c85959-33c5-57b0-a64c-9f15d845317e",
+      "name": "Depot van Museum Boijmans Van Beuningen",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:33:21Z",
+        "2026-10-04T08:52:41Z"
+      ],
+      "primary_sources": [
+        "https://www.boijmans.nl/depot",
+        "https://www.boijmans.nl/contact"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Depot-bezoekpagina en contact bevestigen Museumpark 24, dinsdag–zondag 11–17. Niet verward met het gesloten oorspronkelijke museumgebouw.",
+      "resolves_availability": true
+    },
+    {
+      "id": "124d28bc-7cca-56a2-807a-fb5afc5f8eb0",
+      "name": "Heiligenbeeldenmuseum",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:31:59Z",
+        "2026-10-04T08:52:30Z",
+        "2026-10-04T08:52:30Z"
+      ],
+      "primary_sources": [
+        "https://www.heiligenbeeldenmuseum.nl/",
+        "https://www.heiligenbeeldenmuseum.nl/contact",
+        "https://www.heiligenbeeldenmuseum.nl/contact/links"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Kunstdrijfwerk Wim Thijssen tot 1 november 2026, Ruurloseweg 101 en dinsdag–zondag 12–17 uur bevestigd.",
+      "resolves_availability": true
+    },
+    {
+      "id": "cb87d4f3-78a5-5fb8-b92b-6377ccfa242b",
+      "name": "Lalique Museum Nederland",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:58Z",
+        "2026-10-04T08:52:59Z"
+      ],
+      "primary_sources": [
+        "https://www.laliquemuseum.nl/",
+        "https://www.laliquemuseum.nl/nl/uw-bezoek/openingstijden/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Museum bevestigt volledige publieke heropening, Chagall tot 11 oktober en Magnificent Jewels tot 27 juni 2027; reguliere bezoekpagina beschikbaar.",
+      "resolves_availability": true
+    },
+    {
+      "id": "d356e785-836d-50a5-a77e-29baf03bef1d",
+      "name": "Museum Rijswijk",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:33:00Z"
+      ],
+      "primary_sources": [
+        "https://www.museumrijswijk.nl/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Papier Biënnale Familielijnen tot 28 februari 2027 en actueel publieksprogramma bevestigen openstelling.",
+      "resolves_availability": true
+    },
+    {
+      "id": "73330214-cabd-59be-90b4-622c7a99784a",
+      "name": "Museum Helmantel",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:26Z",
+        "2026-10-04T08:52:44Z"
+      ],
+      "primary_sources": [
+        "https://www.helmantel.nl/",
+        "https://www.helmantel.nl/contact"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Museum bevestigt seizoen tot 31 oktober 2026, woensdag–zaterdag 13–17 uur. Zondag/dagelijkse sluiting niet als bedrijfsstatus gebruikt.",
+      "resolves_availability": true
+    },
+    {
+      "id": "a56dbafb-a9a8-5dc6-85e8-0c2198b3f241",
+      "name": "Museum Lunteren",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:43Z"
+      ],
+      "primary_sources": [
+        "https://www.museumlunteren.nl/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Bezoekadres Dorpsstraat 55 en openstelling dinsdag–zaterdag bevestigd. Twee verschillende vrijdag/zaterdag-aanvangstijden op dezelfde pagina: exacte uren blijven onzeker.",
+      "resolves_availability": true
+    },
+    {
+      "id": "bf23d2b3-7171-502b-af61-75c4b4a1364c",
+      "name": "Storyworld",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:51Z",
+        "2026-10-04T08:52:56Z",
+        "2026-10-04T08:52:56Z"
+      ],
+      "primary_sources": [
+        "https://www.storyworld.nl/",
+        "https://www.storyworld.nl/nl/plan-je-bezoek/openingstijden",
+        "https://www.storyworld.nl/nl/plan-je-bezoek/contact"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Officiële bezoekpagina bevestigt dinsdag–zondag 10–17 uur en ticketverkoop.",
+      "resolves_availability": true
+    },
+    {
+      "id": "be7ae9fc-3ebe-5d1c-beb8-5c4c6fa0ac1c",
+      "name": "Post Arnhem",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:50Z",
+        "2026-10-04T08:52:56Z",
+        "2026-10-04T08:52:56Z"
+      ],
+      "primary_sources": [
+        "https://platformpost.nl",
+        "https://platformpost.nl/contact",
+        "https://platformpost.nl/bezoek"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "POST Arnhem bevestigt Weverstraat 40 en extra openstelling tijdens Sonsbeek 2 juli–12 oktober 2026, dinsdag–zondag 11–18 uur. Onderscheiden van POST Nijmegen.",
+      "resolves_availability": true
+    },
+    {
+      "id": "ff0e51b5-15d8-59e2-b1b8-ee1906077251",
+      "name": "Borduurmuseum",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:33:24Z",
+        "2026-10-04T08:53:07Z"
+      ],
+      "primary_sources": [
+        "https://borduurmuseum.nl/",
+        "https://borduurmuseum.nl/contact-2/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Museum bevestigt woensdagmiddagopenstelling in 2026 en een bezoekbare collectie kunstzinnig borduurwerk.",
+      "resolves_availability": true
+    },
+    {
+      "id": "84a06b32-b218-581b-bcff-0e8103cc85fa",
+      "name": "Nxt Museum",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:30Z",
+        "2026-10-04T08:52:47Z"
+      ],
+      "primary_sources": [
+        "https://nxtmuseum.com/",
+        "https://nxtmuseum.com/homepage/contact/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Pioneers of Media Art loopt 12 juni 2026–10 januari 2027; actueel oktoberprogramma bevestigt de bezoekbare instelling.",
+      "resolves_availability": true
+    },
+    {
+      "id": "bc076b1b-963a-5ab5-8429-fea490835ac5",
+      "name": "Escher in Het  Paleis",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:50Z"
+      ],
+      "primary_sources": [
+        "https://www.escherinhetpaleis.nl/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Museum bevestigt dinsdag–zondag 11–17 uur en actueel oktoberprogramma, inclusief Museumnacht en de slotavond van de tentoonstelling.",
+      "resolves_availability": true
+    },
+    {
+      "id": "4aa2b82b-11a5-5fae-bb4c-392af6ca1047",
+      "name": "Het Nieuwe Domein - Hedendaagse Kunst",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:13Z"
+      ],
+      "primary_sources": [
+        "https://www.hetnieuwedomein.nl/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Museum meldt sluiting 1 september–10 november vanwege ombouw. Alleen de winkel gaat eerder open. Bestaande status tijdelijk gesloten blijft juist.",
+      "resolves_availability": true
+    },
+    {
+      "id": "ca6ae9b5-43dc-5ebe-9c2a-e91623187ac5",
+      "name": "De Kopermolen",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:57Z",
+        "2026-10-04T08:52:59Z"
+      ],
+      "primary_sources": [
+        "https://dekopermolenvaals.nl/nl/",
+        "https://dekopermolenvaals.nl/contact/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Eigen site bevestigt expositie t/m 4 oktober en reguliere zomer- en winteropenstelling op Von Clermontplein 11.",
+      "resolves_availability": true
+    },
+    {
+      "id": "b1dec3a0-2a14-5d8b-be26-19068c22967f",
+      "name": "Noorderlicht. Studio | Festival | On Tour",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:47Z"
+      ],
+      "primary_sources": [
+        "https://www.noorderlicht.com"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Thinking Hands loopt 12 september–1 november 2026, met publieksactiviteiten in oktober op Akerkhof 12.",
+      "resolves_availability": true
+    },
+    {
+      "id": "2399fffa-6f31-5919-b340-6153d1689312",
+      "name": "Van Abbehuis",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:02Z"
+      ],
+      "primary_sources": [
+        "https://vanabbehuis.com/nl/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Liberta Totalemente loopt 4 september–11 oktober 2026; actueel programma van de kunstinstelling bevestigd.",
+      "resolves_availability": true
+    },
+    {
+      "id": "90ba7d13-5dd3-5202-b72e-2122c5e0ffdc",
+      "name": "De Bewaerschole",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:35Z",
+        "2026-10-04T08:52:50Z"
+      ],
+      "primary_sources": [
+        "https://www.bewaerschole.nl/",
+        "https://www.bewaerschole.nl/contact/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Ecotoon loopt tot 11 oktober 2026. Contactpagina bevestigt Weststraat 18 en openstelling vrijdag–zondag 13–16 tijdens exposities.",
+      "resolves_availability": true
+    },
+    {
+      "id": "76bb2424-a1d1-5a57-a968-4999c4b12032",
+      "name": "Stroom Den Haag",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:26Z",
+        "2026-10-04T08:52:44Z"
+      ],
+      "primary_sources": [
+        "https://www.stroom.nl",
+        "https://www.stroom.nl/over-stroom/contact-en-info"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Concrete Composure loopt 25 september 2026–3 januari 2027. Bezoekersinformatie bevestigt Hogewal 1–9 en woensdag–zondag 12–17 uur.",
+      "resolves_availability": true
+    },
+    {
+      "id": "dc985ccf-47c2-58bf-8466-518af0400fcb",
+      "name": "Zone2Source",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:33:03Z"
+      ],
+      "primary_sources": [
+        "https://zone2source.net"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Actueel oktoberprogramma en tentoonstellingslocatie Het Glazen Huis in Amstelpark bevestigen de kunstinstelling als bezoekbestemming.",
+      "resolves_availability": true
+    },
+    {
+      "id": "4748fef0-e09d-5cf6-a446-39065bc468ce",
+      "name": "Schoenenkwartier",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:13Z",
+        "2026-10-04T08:52:40Z",
+        "2026-10-04T08:52:40Z"
+      ],
+      "primary_sources": [
+        "https://schoenenkwartier.nl/",
+        "https://schoenenkwartier.nl/openingstijden/",
+        "https://schoenenkwartier.nl/contact/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Bezoekerspagina bevestigt Raadhuisplein 1 en reguliere openstelling dinsdag–zondag. Hinder op 2 oktober is voorbij; 27 november is een latere sluitingsdag.",
+      "resolves_availability": true
+    },
+    {
+      "id": "503f926c-885f-5925-b0e6-cc83832404a6",
+      "name": "Verwey Museum Haarlem",
+      "category": "musea",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "retrieved_at": [
+        "2026-10-04T08:32:15Z"
+      ],
+      "primary_sources": [
+        "https://www.verweymuseumhaarlem.nl/"
+      ],
+      "verified_fields": [
+        "operating_status"
+      ],
+      "conclusion": "Actuele kunstpresentaties t/m 25 oktober/1 november en reguliere bezoekuren bevestigen bestaand, bezoekbaar museum.",
+      "resolves_availability": true
     }
   ],
   "changes": [
@@ -1503,5 +2247,17 @@
       }
     ]
   },
-  "remaining_records": 638
+  "remaining_records": 605,
+  "followup_priority": [
+    {
+      "url": "https://www.drawingcentre.nl/",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "finding": "Prioriteit: officiële pagina meldt opbouwsluiting tot heropening 10 oktober 2026; database staat nog open. Verse broncontrole en statuscorrectie nodig."
+    },
+    {
+      "url": "https://www.voorheendegemeente.nl",
+      "checked_at": "2026-10-04T11:31:17.175523+00:00",
+      "finding": "Prioriteit: officiële actuele VHDG-site noemt Naauw 6–8; database Ipe Brouwerssteeg 10A. Bevestig tentoonstellingsingang, geen correspondentieadres overnemen."
+    }
+  ]
 }

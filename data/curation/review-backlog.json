@@ -3,10 +3,10 @@
   "campaign": "individuele-controle-2026-10-04",
   "requested_at": "2026-10-04",
   "active": true,
-  "updated_at": "2026-10-04T11:23:18.616684+00:00",
+  "updated_at": "2026-10-04T11:31:17.175523+00:00",
   "policy": "Alle overgebleven punten inhoudelijk onderzoeken; onoplosbare punten krijgen een concrete externe blokkade met bron en uitgevoerde pogingen. Geen status afronden op basis van HTTP 200.",
   "last_completed_batch": null,
-  "pending_count": 638,
+  "pending_count": 605,
   "blocked_count": 0,
   "records": [
     {
@@ -340,11 +340,9 @@
       "id": "124d28bc-7cca-56a2-807a-fb5afc5f8eb0",
       "name": "Heiligenbeeldenmuseum",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "125a1bea-6c06-5f11-8d5b-68559e524552",
@@ -812,11 +810,9 @@
       "id": "2399fffa-6f31-5919-b340-6153d1689312",
       "name": "Van Abbehuis",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "239a2249-04a4-5c86-9715-efc8a48a3141",
@@ -1391,11 +1387,9 @@
       "id": "3fbea5ae-2cbe-5ed0-96e7-e4c86ab85f88",
       "name": "CODA",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "3fcdc1cc-a4b2-5037-ae37-afb947c59725",
@@ -1657,11 +1651,9 @@
       "id": "4748fef0-e09d-5cf6-a446-39065bc468ce",
       "name": "Schoenenkwartier",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "47c08cbe-6b91-531f-ae08-ac40085b8393",
@@ -1733,10 +1725,9 @@
       "category": "musea",
       "status": "pending",
       "remaining": [
-        "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Foto met bevestigde hergebruikvoorwaarden ontbreekt."
       ],
-      "last_reviewed_at": null
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "4b38110e-19ec-5b5c-93a7-a3d05738f735",
@@ -1866,11 +1857,9 @@
       "id": "503f926c-885f-5925-b0e6-cc83832404a6",
       "name": "Verwey Museum Haarlem",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "509d1eed-5502-5c55-af40-f44850129ad1",
@@ -1896,11 +1885,9 @@
       "id": "514fb72a-7e24-53db-9a2a-88c76c28368f",
       "name": "Museum Krona",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "516d449c-0aa6-5230-aac7-bf708a766e16",
@@ -2914,11 +2901,9 @@
       "id": "73330214-cabd-59be-90b4-622c7a99784a",
       "name": "Museum Helmantel",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "735d4408-fab7-540d-87e4-06b3c25707e2",
@@ -2989,10 +2974,9 @@
       "category": "musea",
       "status": "pending",
       "remaining": [
-        "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Foto met bevestigde hergebruikvoorwaarden ontbreekt."
       ],
-      "last_reviewed_at": null
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "76c21b1b-3b3b-5688-bef6-7213e687b89a",
@@ -3336,11 +3320,9 @@
       "id": "823e5b86-eb4d-532d-9fd0-190da04564db",
       "name": "Museum van Bommel van Dam",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "827bf88a-7e59-56a0-8cdc-4445a32fa2cc",
@@ -3422,10 +3404,9 @@
       "category": "musea",
       "status": "pending",
       "remaining": [
-        "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Foto met bevestigde hergebruikvoorwaarden ontbreekt."
       ],
-      "last_reviewed_at": null
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "854c8cfa-b083-5be2-a1fb-a84dd81ef890",
@@ -3494,11 +3475,9 @@
       "id": "878670d8-2c15-529b-8c17-ad3b84455f9a",
       "name": "Vincent van GoghHuis",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "878fe3f1-3c25-5be4-9dc7-76ffb629ad0a",
@@ -3524,11 +3503,9 @@
       "id": "87fe4272-7fd0-585d-a911-c5dc12dbd2f1",
       "name": "Chabot Museum",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "88058f35-5dd4-5412-8fcb-cf10014c8cbb",
@@ -3640,11 +3617,9 @@
       "id": "8ccd0e05-472e-5b33-ab92-616e197d0f1d",
       "name": "Museum Jan Cunen Oss",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "8e5547e7-285e-580a-8424-b560c801de22",
@@ -3776,11 +3751,9 @@
       "id": "90ba7d13-5dd3-5202-b72e-2122c5e0ffdc",
       "name": "De Bewaerschole",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "90c821ab-ea07-5e2b-b9cf-91d1710dc026",
@@ -3882,11 +3855,9 @@
       "id": "94c9f145-8ff6-5ff4-9bd8-1b767ccad566",
       "name": "Ikonenmuseum Kampen",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "95a2feaa-c112-5c5f-9c68-680f27febc08",
@@ -3934,11 +3905,9 @@
       "id": "962921a1-f173-54e7-b4fd-6fcdafe873de",
       "name": "Anton Pieck Museum",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "969a6704-75ad-5407-8a89-eebd594fe112",
@@ -4126,11 +4095,9 @@
       "id": "9f69bc60-5e2e-5d0b-b2ab-65572fba9796",
       "name": "Katwijks Museum",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "9ff3f212-f17d-57e9-be6f-1471aa0ea16c",
@@ -4280,9 +4247,9 @@
       "status": "pending",
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Officiële pagina Museum Lunteren noemt verschillende aanvangstijden op vrijdag en zaterdag (10.30 en 13.30). Exacte uren nog te bevestigen; bezoekbaarheid op die dagen wel bevestigd."
       ],
-      "last_reviewed_at": null
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "a628f572-fafe-5103-97f8-1fc05c14e7d4",
@@ -4672,11 +4639,9 @@
       "id": "b1dec3a0-2a14-5d8b-be26-19068c22967f",
       "name": "Noorderlicht. Studio | Festival | On Tour",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "b21f4077-1ac8-5e62-b02d-f43d38fe49db",
@@ -4736,9 +4701,16 @@
       "status": "pending",
       "remaining": [
         "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
+        "Prioriteit: officiële actuele VHDG-site noemt Naauw 6–8; database Ipe Brouwerssteeg 10A. Bevestig tentoonstellingsingang, geen correspondentieadres overnemen."
       ],
-      "last_reviewed_at": null
+      "last_reviewed_at": null,
+      "priority": "high",
+      "research_hint": {
+        "url": "https://www.voorheendegemeente.nl",
+        "checked_at": "2026-10-04T11:31:17.175523+00:00",
+        "finding": "Prioriteit: officiële actuele VHDG-site noemt Naauw 6–8; database Ipe Brouwerssteeg 10A. Bevestig tentoonstellingsingang, geen correspondentieadres overnemen."
+      }
     },
     {
       "id": "b47e5668-14f7-5139-8226-89fc090f5d8a",
@@ -4754,11 +4726,9 @@
       "id": "b5ddfbab-b8bd-5856-8b22-792c6464cda1",
       "name": "Musiom",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "b6a969cd-4e4a-5ff5-8c57-8d62c94fb54c",
@@ -4893,11 +4863,9 @@
       "id": "bc076b1b-963a-5ab5-8429-fea490835ac5",
       "name": "Escher in Het  Paleis",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "bd4fae61-c562-59dc-9d23-6183b4dff212",
@@ -4927,10 +4895,9 @@
       "category": "musea",
       "status": "pending",
       "remaining": [
-        "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Foto met bevestigde hergebruikvoorwaarden ontbreekt."
       ],
-      "last_reviewed_at": null
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "beeda520-b560-5b4b-890c-5c0b551e09f5",
@@ -4957,11 +4924,9 @@
       "id": "bf23d2b3-7171-502b-af61-75c4b4a1364c",
       "name": "Storyworld",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "bf46e13a-9d9d-5716-a831-2d0f68f8a9d2",
@@ -5168,11 +5133,9 @@
       "id": "c576230f-abaa-54b0-b98b-214cf3013e6b",
       "name": "KM21",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "c5b18da6-6077-59bb-b02a-4377496a5faa",
@@ -5212,9 +5175,16 @@
       "category": "musea",
       "status": "pending",
       "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond.",
+        "Prioriteit: officiële pagina meldt opbouwsluiting tot heropening 10 oktober 2026; database staat nog open. Verse broncontrole en statuscorrectie nodig."
       ],
-      "last_reviewed_at": null
+      "last_reviewed_at": null,
+      "priority": "high",
+      "research_hint": {
+        "url": "https://www.drawingcentre.nl/",
+        "checked_at": "2026-10-04T11:31:17.175523+00:00",
+        "finding": "Prioriteit: officiële pagina meldt opbouwsluiting tot heropening 10 oktober 2026; database staat nog open. Verse broncontrole en statuscorrectie nodig."
+      }
     },
     {
       "id": "c6a5e3ac-11ec-5203-b8b2-9546d531535c",
@@ -5265,11 +5235,9 @@
       "id": "c80464ad-d921-592b-ae1b-bdd2b8de0833",
       "name": "Museum IJsselstein",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "c8628c86-f5df-5efc-845f-c14564a79037",
@@ -5337,11 +5305,9 @@
       "id": "ca6ae9b5-43dc-5ebe-9c2a-e91623187ac5",
       "name": "De Kopermolen",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "ca99db13-bd01-509d-b6c8-ac60a6d081c7",
@@ -5391,11 +5357,9 @@
       "id": "cb87d4f3-78a5-5fb8-b92b-6377ccfa242b",
       "name": "Lalique Museum Nederland",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "cbf5bc39-7389-5448-9c62-be465d7360b8",
@@ -5545,11 +5509,9 @@
       "id": "d356e785-836d-50a5-a77e-29baf03bef1d",
       "name": "Museum Rijswijk",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "d36bbfc7-4d74-5022-851d-92f2cac85526",
@@ -5660,11 +5622,9 @@
       "id": "d8323e10-6b74-5eb4-8934-c78370638c29",
       "name": "Museum Dr8888",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "d88b798d-25af-5e7b-b615-7ed455fdf4cd",
@@ -5754,11 +5714,9 @@
       "id": "dbc1b2a9-b3fe-5eba-ac29-9fbc44c0ad82",
       "name": "ABC Architectuurcentrum Haarlem",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "dbd8a1e6-be5f-53a7-b218-f539e8cf33d3",
@@ -5776,10 +5734,9 @@
       "category": "musea",
       "status": "pending",
       "remaining": [
-        "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Foto met bevestigde hergebruikvoorwaarden ontbreekt."
       ],
-      "last_reviewed_at": null
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "ddbd71b0-2a4d-53b6-a9e5-a4e6355ca6e0",
@@ -5806,11 +5763,9 @@
       "id": "de60456d-84e7-5a70-ba25-d0c58b584e2b",
       "name": "Museum 't Oude Slot",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "decb8f30-683f-5074-a75b-94a939a95403",
@@ -5944,11 +5899,9 @@
       "id": "e5422e49-51de-5669-91d9-bde559fb0d12",
       "name": "Museum Slager",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "e5545194-a1bd-54f9-9e3e-a711b0475a07",
@@ -6302,11 +6255,9 @@
       "id": "f0c85959-33c5-57b0-a64c-9f15d845317e",
       "name": "Depot van Museum Boijmans Van Beuningen",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "f127c110-8115-5ece-a3ff-cba0d2d0afcd",
@@ -6322,11 +6273,9 @@
       "id": "f138ec54-d381-53ff-9f41-d0166c596093",
       "name": "Museum Land van Valkenburg",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "f1695613-bc74-5954-a628-c389f55d7e61",
@@ -6429,11 +6378,9 @@
       "id": "f464bfae-6478-5717-b2c6-b412ef103ba3",
       "name": "De Wieger Deurne",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "f52b4904-d85a-5e57-ad95-7500a7592f92",
@@ -6614,11 +6561,9 @@
       "id": "fbb5ea54-a7e6-5146-8810-d0aa2e9ba8f1",
       "name": "Museum EICAS",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "fc5571e7-f9d8-5a3e-815d-b64c57cc1994",
@@ -6679,10 +6624,9 @@
       "category": "musea",
       "status": "pending",
       "remaining": [
-        "Foto met bevestigde hergebruikvoorwaarden ontbreekt.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Foto met bevestigde hergebruikvoorwaarden ontbreekt."
       ],
-      "last_reviewed_at": null
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "ff544ac0-a6a5-5594-b689-0d5498575a0f",
@@ -6731,11 +6675,9 @@
       "id": "ffe7c7e6-0c5e-59c1-a15f-30cbab35178c",
       "name": "Noord-Veluws Museum Nunspeet",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     },
     {
       "id": "ffe9dd21-38b3-5ae3-b6d4-da26bfecbc81",
@@ -6746,6 +6688,184 @@
         "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
       ],
       "last_reviewed_at": null
+    },
+    {
+      "id": "0c78ab33-9c7c-5f42-aaf2-374e328f67b2",
+      "name": "Quickscan 3. Fotografie nu",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "1932719c-2f68-5526-841c-c11d2f4fb4c6",
+      "name": "Tuin der lusten – De zeventiende eeuw in bloei",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "2902ac1d-a0f0-54c2-b169-47bc5c154e4e",
+      "name": "Base Line – Music Meets Art",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "29ebe4e5-6251-53c4-9541-81aa91cd6cba",
+      "name": "Opening Museum als Zonnewijzer",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "2a3e7d95-9fe8-5f7b-b2f3-91802e788631",
+      "name": "Landgoed Anningahof",
+      "category": "beeldenparken",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "348e146f-5a7c-5322-9ce4-d7bf5252b46c",
+      "name": "Playing House",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "34b17ad3-2336-5421-a049-1a0011aef843",
+      "name": "Deep Rooted — The Impact of Graffiti on Art",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "3c699a95-1703-5b19-8b98-12c7b2734ce7",
+      "name": "Experimenteerdrift",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "61fa9b2f-0732-59c5-9acb-9148421ce56b",
+      "name": "Reflections on Fashion",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "7f69a14c-e12a-5d41-a742-3eae459512c0",
+      "name": "Avondopenstelling From Dusk Till Dawn",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "a56a44da-05bc-5ea1-a53c-642aa8c930fb",
+      "name": "The Architect & the Housewife",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "a65d8d19-1660-5bbb-8c28-64e6665f3e83",
+      "name": "A Chair and You",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "afe1ac6d-81ec-5f86-b7b7-22d421b3651a",
+      "name": "Celebrating the Icons of Art",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "c37d97a3-fda1-5879-9091-4ea0122d09c0",
+      "name": "Art Noord VIII",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "c3e46db3-c870-5438-b3de-1e8b3f1c7cc4",
+      "name": "Museum als Zonnewijzer",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "c6dfdaa2-98c3-5cb7-ab1b-708a993c9d9e",
+      "name": "Mix & Match – Kamalia Talhaoui",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "d117a62d-9e50-56e1-ab19-feb92d50abba",
+      "name": "Keramiekmuseum Princessehof",
+      "category": "musea",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "e567b57b-525f-5591-8625-2899c3995bc6",
+      "name": "Museum Voorlinden – beeldentuin",
+      "category": "beeldenparken",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "f16a6d1a-42d6-5aeb-beee-a6ed587b39e7",
+      "name": "Dordtse Cultuurnacht – Dordrechts Museum",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "f26ab982-87dd-50f1-9585-39ac7e0c1407",
+      "name": "From Dusk Till Dawn",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "f4de0272-2702-5754-a6a5-a4e3aa51c623",
+      "name": "Graffiti",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
+    },
+    {
+      "id": "fa170ae7-ac56-5b5b-8c40-85945571f1fd",
+      "name": "Koffie? Een Nederlandse geschiedenis in keramiek",
+      "category": "evenementen",
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-04T11:31:17.175523+00:00"
     }
-  ]
+  ],
+  "resolved_count": 55,
+  "initial_count": 660
 }
