@@ -316,24 +316,34 @@
         "url": "https://landartflevoland.nl/kunstwerken/marinus-boezem-de-groene-kathedraal/",
         "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
       }
     ],
     "summary": "Populieren tekenen de plattegrond van een kathedraal in het landschap. Wandel tussen de bomen en ervaar hoe groei, licht en seizoenen de architectuur voortdurend veranderen.",
     "category": "openbare-kunst",
-    "latitude": 52.40247126,
+    "latitude": 52.322104,
     "province": "Flevoland",
-    "longitude": 5.20565106,
+    "longitude": 5.31752,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "visit_notes": "De kaartpin markeert de populierenkathedraal. Vanaf de parkeerplaats rechtdoor over het Kathedralenpad, niet rechts het Nachtegaalpad op. Links ligt de afzonderlijke contrakathedraal.",
     "website_url": "https://landartflevoland.nl/kunstwerken/marinus-boezem-de-groene-kathedraal/",
     "inventory_key": "sleutelwerk:127",
     "street_address": "Kathedralenpad, vanaf Tureluurweg",
     "operating_status": "open",
     "selection_reason": "Een internationaal herkenbaar land-artwerk waarin gotische architectuur wordt vertaald naar een levend landschap.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-a41b17515bf944dfb13887a0ebf8a0a9",
+    "coordinate_source": "https://www.landartflevoland.nl/locaties/coordinaten/",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "exact"
   },
   {
     "id": "92c2492f-f037-5b9a-b3f1-29d981db9c99",
@@ -1028,6 +1038,11 @@
         "url": "https://www.sleutelwerken.nl/kunstwerken/engelenzender",
         "provider": "Sleutelwerken · officiële selectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/kunstwerken/engelen-angels-fm-98.0-1994/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
       }
     ],
     "summary": "Moniek Toebosch veranderde een autorit over de Houtribdijk in een luisterervaring. Haar Engelenzender bracht zang in de besloten ruimte van de auto. Het historische radiowerk kreeg later een digitale voortzetting. Controleer de actuele beschikbaarheid voordat je speciaal hiervoor op pad gaat.",
@@ -1037,7 +1052,7 @@
     "longitude": null,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Historisch of tijdelijk werk: controleer of en waar het nog te zien is. Niet automatisch als bezoekbestemming gepubliceerd.",
+    "visit_notes": "Het historische radiosignaal is vervangen door een locatiegebonden app op de Houtribdijk. Land Art Flevoland meldt problemen met downloaden en een lopende app-update. Actuele werking is niet bevestigd; plan geen bezoek zonder de beschikbaarheid te controleren.",
     "website_url": "https://www.sleutelwerken.nl/kunstwerken/engelenzender",
     "inventory_key": "sleutelwerk:121",
     "street_address": "",
@@ -1942,24 +1957,34 @@
         "url": "https://landartflevoland.nl/kunstwerken/paul-de-kort-pier-horizon/",
         "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
       }
     ],
     "summary": "Boomstammen draaien met de wind langs een lange pier. Paul de Kort maakt de beweging van het water zichtbaar en verwijst naar een verdwenen strekdam. Kijk hoe geschiedenis en het huidige landschap elkaar raken.",
     "category": "openbare-kunst",
-    "latitude": 52.64928968,
+    "latitude": 52.64744,
     "province": "Flevoland",
-    "longitude": 5.92218411,
+    "longitude": 5.974954,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Raadpleeg de bron voor de exacte plek en eventuele toegangsvoorwaarden.",
+    "visit_notes": "Bereikbaar via het fietspad tussen Zwartemeerweg 62 en 64. De huidige uitvoering gebruikt boomstammen na de stormschade van 2022; de oude pier is niet als ongewijzigd beschreven.",
     "website_url": "https://landartflevoland.nl/kunstwerken/paul-de-kort-pier-horizon/",
     "inventory_key": "public:landartflevoland.nl/kunstwerken/paul-de-kort-pier-horizon:PIER+HORIZON",
     "street_address": "Zwartemeerdijk, toegang tussen Zwartemeerweg 62 en 64",
     "operating_status": "open",
     "selection_reason": "Onderdeel van de Land Art Flevoland-collectie; het herstelontwerp gebruikt lokale boomstammen en verbindt landschapsgeschiedenis met wind en water.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-e3e764aa7e33d14c9aec6eb2f5c36967",
+    "coordinate_source": "https://www.landartflevoland.nl/locaties/coordinaten/",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "exact"
   },
   {
     "id": "a741fc1b-23c3-5c4a-bcc4-be3692d0aec2",
@@ -1989,24 +2014,34 @@
         "url": "https://landartflevoland.nl/kunstwerken/bob-gramsma-riff-pd-18245/",
         "provider": "Gemeentelijke kunstcollectie / kunstinstelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
       }
     ],
     "summary": "Een uitgegraven vorm is in beton vastgelegd en boven de grond zichtbaar gemaakt. Riff laat je anders kijken naar wat onder het polderlandschap verborgen zit. Aarde, geschiedenis en sculptuur komen hier samen.",
     "category": "openbare-kunst",
-    "latitude": 52.42687979,
+    "latitude": 52.454339,
     "province": "Flevoland",
-    "longitude": 5.77202837,
+    "longitude": 5.806684,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Het dak van het kunstwerk mag niet worden betreden. Raadpleeg de locatie-informatie van Land Art Flevoland.",
+    "visit_notes": "Riff is bereikbaar in het buitengebied. Het dak mag niet worden betreden; gebruik alleen de daarvoor bestemde trap en het uitkijkplatform.",
     "website_url": "https://landartflevoland.nl/kunstwerken/bob-gramsma-riff-pd-18245/",
     "inventory_key": "public:landartflevoland.nl/kunstwerken/bob-gramsma-riff-pd-18245:Riff, PD#18245",
-    "street_address": "Bremerbergdijk",
+    "street_address": "Bremerbergdijk 10",
     "operating_status": "open",
     "selection_reason": "Land-artmonument rond honderd jaar Zuiderzeewet, waarbij het maakproces de bodemgeschiedenis letterlijk zichtbaar maakt.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=weg-637ed9856f2d5fa9d9dd84cb3e703bcc",
+    "coordinate_source": "https://www.landartflevoland.nl/locaties/coordinaten/",
     "publication_status": "published",
-    "coordinate_precision": "street"
+    "coordinate_precision": "exact"
   },
   {
     "id": "ad791f4e-cdf7-524d-905a-87c33149d031",
@@ -2271,6 +2306,16 @@
           "longitude",
           "coordinate_precision"
         ]
+      },
+      {
+        "url": "https://11fountains.nl/fonteinen/bolsward/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      },
+      {
+        "url": "https://11fountains.nl/faq/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
       }
     ],
     "summary": "Voor de Broerekerk spreidt een monumentale vleermuis zijn vormen uit. Het dier roept tegelijk verwondering en ongemak op. Johan Creten maakt van een vaak verborgen nachtdier een opvallend middelpunt.",
@@ -2280,7 +2325,7 @@
     "longitude": 5.5250337,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
+    "visit_notes": "Vrij toegankelijk voor de Broerekerk op het Broereplein. Alleen de aangebrachte trap mag worden beklommen. De fonteininstallatie staat in de winter uit.",
     "website_url": "https://11fountains.nl/fonteinen/bolsward/",
     "inventory_key": "11fountains:bolsward",
     "street_address": "Broereplein 9",
@@ -2379,6 +2424,16 @@
           "longitude",
           "coordinate_precision"
         ]
+      },
+      {
+        "url": "https://11fountains.nl/fonteinen/stavoren/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      },
+      {
+        "url": "https://11fountains.nl/faq/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
       }
     ],
     "summary": "Een enorme vis opent zijn bek in de havenstad. Mark Dion verbindt de maritieme geschiedenis met fantasie en verwondering. Bekijk hoe het beeld de verhouding tussen mens, zee en rijkdom op scherp zet.",
@@ -2388,7 +2443,7 @@
     "longitude": 5.3581523895264,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "De werking van het water kan per seizoen en bij onderhoud verschillen. Raadpleeg de informatie van 11fountains.",
+    "visit_notes": "Vrij toegankelijk op het plein bij de Stationsweg. Het kunstwerk blijft buiten te zien als de waterinstallatie in de winter uitstaat.",
     "website_url": "https://11fountains.nl/fonteinen/stavoren/",
     "inventory_key": "11fountains:stavoren",
     "street_address": "Stationsweg",
@@ -2526,24 +2581,34 @@
         "url": "https://www.sleutelwerken.nl/kunstwerken/deltawerk",
         "provider": "Sleutelwerken · officiële selectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
       }
     ],
     "summary": "Een voormalig golfbassin verandert in een monumentale ruïne. RAAAF en Atelier de Lyon sneden de betonnen constructie open en kantelden delen ervan. In het Waterloopbos ontmoeten waterbouwgeschiedenis, natuur en radicale ruimtelijke kunst elkaar.",
     "category": "openbare-kunst",
-    "latitude": 52.70447213,
+    "latitude": 52.673943,
     "province": "Flevoland",
-    "longitude": 5.89035423,
+    "longitude": 5.914797,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "visit_notes": "Kunstwerk in het Waterloopbos, bereikbaar via de paden vanaf de parkeerplaats. Volg de actuele terreinregels van Natuurmonumenten.",
     "website_url": "https://www.sleutelwerken.nl/kunstwerken/deltawerk",
     "inventory_key": "sleutelwerk:237",
-    "street_address": "",
+    "street_address": "Voorsterweg 34",
     "operating_status": "open",
     "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. RAAAF en Atelier de Lyon is hier vertegenwoordigd met Deltawerk // (2018); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-07ea6564339d936097e27fee3059535e",
+    "coordinate_source": "https://www.landartflevoland.nl/locaties/coordinaten/",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "exact"
   },
   {
     "id": "90c821ab-ea07-5e2b-b9cf-91d1710dc026",
@@ -3101,24 +3166,34 @@
         "url": "https://www.sleutelwerken.nl/kunstwerken/exposure",
         "provider": "Sleutelwerken · officiële selectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
       }
     ],
     "summary": "Een reusachtige menselijke figuur hurkt aan de rand van de polder. Antony Gormley bouwde Exposure op uit een open netwerk van stalen profielen. Lichaam, lucht en horizon vallen samen in een beeld dat van ver én dichtbij blijft veranderen.",
     "category": "openbare-kunst",
-    "latitude": 52.54272549,
-    "province": "",
-    "longitude": 5.37476449,
+    "latitude": 52.521946,
+    "province": "Flevoland",
+    "longitude": 5.4253,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "visit_notes": "Vrij toegankelijk buitenwerk aan het water. Parkeerplek volgens Land Art Flevoland: 52.528344, 5.425711; wandel vandaar naar het objectpunt.",
     "website_url": "https://www.sleutelwerken.nl/kunstwerken/exposure",
     "inventory_key": "sleutelwerk:204",
-    "street_address": "",
+    "street_address": "Strekdam bij het begin van de Houtribdijk",
     "operating_status": "open",
     "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Antony Gormley is hier vertegenwoordigd met Exposure (2010); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-cad4da9deb50643cf9a7c80dbed0dbff",
+    "coordinate_source": "https://www.landartflevoland.nl/locaties/coordinaten/",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "exact"
   },
   {
     "id": "81cb9dd7-e599-55f8-807a-b82e681ce86b",
@@ -4907,24 +4982,34 @@
         "url": "https://www.sleutelwerken.nl/kunstwerken/aardzee",
         "provider": "Sleutelwerken · officiële selectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
       }
     ],
     "summary": "Grasgolven herinneren aan het water dat ooit over deze polder stroomde. Piet Slegers maakte Aardzee als een landschap waarin aarde en voormalige zee samenkomen. Wandel door de glooiingen en ervaar hoe de horizon steeds anders verschijnt.",
     "category": "openbare-kunst",
-    "latitude": 52.34436139,
-    "province": "",
-    "longitude": 5.45524194,
+    "latitude": 52.396706,
+    "province": "Flevoland",
+    "longitude": 5.45353,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "visit_notes": "Vrij toegankelijk landschapskunstwerk tussen Ooievaarsweg en Reigerweg. Parkeerplek 52.396408, 5.454761; loop vandaar het terrein in.",
     "website_url": "https://www.sleutelwerken.nl/kunstwerken/aardzee",
     "inventory_key": "sleutelwerk:95",
-    "street_address": "",
+    "street_address": "Vogelweg, hoek Lepelaartocht",
     "operating_status": "open",
     "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Piet Slegers is hier vertegenwoordigd met Aardzee (1982); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-1fe55950e81a80887a9b920e051514d3",
+    "coordinate_source": "https://www.landartflevoland.nl/locaties/coordinaten/",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "exact"
   },
   {
     "id": "6719d67e-78a2-5a40-acba-c42fca5ac02a",
@@ -5111,24 +5196,34 @@
         "url": "https://www.sleutelwerken.nl/kunstwerken/observatorium",
         "provider": "Sleutelwerken · officiële selectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
       }
     ],
     "summary": "Ronde aardwallen kaderen de polderhorizon. Robert Morris richtte openingen en vizieren op de stand van de zon. Loop naar het midden en ervaar hoe dit land-artwerk de dagelijkse en jaarlijkse beweging van het licht voelbaar maakt.",
     "category": "openbare-kunst",
-    "latitude": 52.54272549,
-    "province": "",
-    "longitude": 5.37476449,
+    "latitude": 52.549598,
+    "province": "Flevoland",
+    "longitude": 5.565872,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Opgenomen als Sleutelwerk; huidige locatie en bezoekmogelijkheden nog redactioneel controleren vóór publicatie.",
+    "visit_notes": "Aanrijden via Klokbekerweg of Edelhertweg. Vrij toegankelijk landschapskunstwerk; parkeerplek 52.550012, 5.564163. Houd rekening met onverharde paden.",
     "website_url": "https://www.sleutelwerken.nl/kunstwerken/observatorium",
     "inventory_key": "sleutelwerk:87",
-    "street_address": "",
+    "street_address": "Swifterringweg, hoek Houtribweg",
     "operating_status": "open",
     "selection_reason": "Door Stichting BK-informatie opgenomen in de landelijke selectie van 100 Sleutelwerken. Robert Morris is hier vertegenwoordigd met Observatorium (1977); de selectie documenteert de ontwikkeling van kunst in de openbare ruimte.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-cad4da9deb50643cf9a7c80dbed0dbff",
+    "coordinate_source": "https://www.landartflevoland.nl/locaties/coordinaten/",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "exact"
   },
   {
     "id": "18e601ba-abe4-52fe-bf6a-5fe8dab49ec0",
@@ -6180,26 +6275,26 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Peter_Struycken_-_Blocks_-_Palkerplein_01.jpg/1280px-Peter_Struycken_-_Blocks_-_Palkerplein_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Blokken",
         "credit": "Sandra Fauconnier",
+        "caption": "Blokken",
         "license": "CC BY 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Peter_Struycken_-_Blocks_-_Palkerplein_01.jpg"
       }
     ],
     "sources": [
       {
+        "url": "https://thestorybehind.it/collections/2/works/1639-peter-struycken-blokken",
         "provider": "Gemeentelijke open data",
-        "url": "https://thestorybehind.it/collections/2/works/1639-peter-struycken-blokken",
         "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
       },
       {
+        "url": "https://thestorybehind.it/collections/2/works/1639-peter-struycken-blokken",
         "provider": "Gemeente Nijmegen · open collectiegegevens via TheStoryBehind.it",
-        "url": "https://thestorybehind.it/collections/2/works/1639-peter-struycken-blokken",
         "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
       },
       {
-        "provider": "Croes · project aan het Palkerplein",
         "url": "https://www.croes.nl/projecten/commercieel/palkerplein-bijsterhuizen/",
+        "provider": "Croes · project aan het Palkerplein",
         "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
       }
     ],
@@ -6239,21 +6334,21 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Wachten_op_hoog_water_%28beeld_van_Jan_Ketelaar%29_14-08-2023._%28actm.%29_04.jpg/1280px-Wachten_op_hoog_water_%28beeld_van_Jan_Ketelaar%29_14-08-2023._%28actm.%29_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Wachten op hoog water",
         "credit": "Agnes Monkelbaan",
+        "caption": "Wachten op hoog water",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:Wachten_op_hoog_water_(beeld_van_Jan_Ketelaar)_14-08-2023._(actm.)_04.jpg"
       }
     ],
     "sources": [
       {
-        "provider": "Sense of Place · organisator",
         "url": "https://sense-of-place.eu/experience/wachten-op-hoog-water/",
+        "provider": "Sense of Place · organisator",
         "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
       },
       {
-        "provider": "Regionale toeristische organisatie · locatiegegevens",
         "url": "https://www.eropuitinfriesland.nl/nl/locaties-overzicht/4033429289/sense-of-place-wachten-op-hoog-water",
+        "provider": "Regionale toeristische organisatie · locatiegegevens",
         "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
       }
     ],
@@ -6267,8 +6362,8 @@
     "street_address": "Parnassusweg 280, plein voor de rechtbank",
     "year": "2020",
     "website_url": "https://stadscuratorium.nl/collectie/love-or-generosity/",
-    "latitude": 52.33970555555556,
-    "longitude": 4.867886111111112,
+    "latitude": 52.3397055555556,
+    "longitude": 4.86788611111111,
     "coordinate_precision": "exact",
     "summary": "Een reus buigt zich voorover op het plein van de Amsterdamse rechtbank. Nicole Eisenman geeft deze poortwachter een ontwapenende zachtheid. In de hand liggen kleine gelukssymbolen, die het monumentale beeld iets intiems geven. Loop eromheen en ontdek hoe kwetsbaarheid en kracht hier naast elkaar bestaan.",
     "selection_reason": "Publieke kunstopdracht bij de Amsterdamse rechtbank; vijf meter hoge sculptuur van internationaal toonaangevend kunstenaar Nicole Eisenman. De combinatie van monumentaliteit, menselijkheid en de betekenis van de rechtbank maakt het een belangrijke openbare kunstbestemming.",
@@ -6292,29 +6387,87 @@
     "photos": [
       {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/2021_Love_or_generosity_%281%29.jpg/1280px-2021_Love_or_generosity_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "caption": "Love or Generosity",
         "credit": "Ceescamel",
+        "caption": "Love or Generosity",
         "license": "CC BY-SA 4.0",
         "source_url": "https://commons.wikimedia.org/wiki/File:2021_Love_or_generosity_(1).jpg"
       }
     ],
     "sources": [
       {
-        "provider": "Stadscuratorium Amsterdam",
         "url": "https://stadscuratorium.nl/collectie/love-or-generosity/",
+        "provider": "Stadscuratorium Amsterdam",
         "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
       },
       {
-        "provider": "Rechtspraak · opdrachtgever",
         "url": "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-amsterdam/nieuws/2020/11/eerste-kunstwerk-voor-de-nieuwe-amsterdamse-rechtbank",
+        "provider": "Rechtspraak · opdrachtgever",
         "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
       },
       {
-        "provider": "Wikimedia Commons · objectcoördinaten (niet camerastandpunt)",
         "url": "https://commons.wikimedia.org/wiki/Category:Love_or_generosity",
+        "provider": "Wikimedia Commons · objectcoördinaten (niet camerastandpunt)",
         "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
       }
     ],
     "coordinate_source": "https://commons.wikimedia.org/wiki/Category:Love_or_generosity"
+  },
+  {
+    "id": "9177b66e-c900-47c5-83e4-590c98d73d40",
+    "city": "Almere",
+    "name": "Polderland Garden of Love and Fire",
+    "tags": [
+      "kunst in de openbare ruimte",
+      "land art",
+      "aluminium",
+      "landschap",
+      "geometrie",
+      "maker: daniel libeskind"
+    ],
+    "year": "1997",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Polderland_Garden_of_Love_and_Fire_%28Q21854955%29_-_1.jpg/1280px-Polderland_Garden_of_Love_and_Fire_%28Q21854955%29_-_1.jpg",
+        "credit": "Hay Kranen",
+        "caption": "Polderland Garden of Love and Fire, foto 14 juli 2025.",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Polderland_Garden_of_Love_and_Fire_(Q21854955)_-_1.jpg"
+      }
+    ],
+    "creator": "Daniel Libeskind",
+    "ends_on": null,
+    "sources": [
+      {
+        "url": "https://www.landartflevoland.nl/kunstwerken/daniel-libeskind-polderland-garden-of-love-and-fire/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      },
+      {
+        "url": "https://www.landartflevoland.nl/locaties/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      }
+    ],
+    "summary": "Lijnen van water en een pad doorsnijden het polderlandschap en komen samen bij een doolhof van aluminium wanden. Daniel Libeskind verbindt in dit landschapskunstwerk routes, herinnering en ontmoeting. Wandel door het open terrein en zie hoe de perspectieven verschuiven.",
+    "category": "openbare-kunst",
+    "latitude": 52.38125,
+    "province": "Flevoland",
+    "longitude": 5.142029,
+    "museum_id": null,
+    "starts_on": null,
+    "visit_notes": "Vrij toegankelijk buitenwerk. Parkeren bij 52.380883, 5.143434; de kaartpin markeert het kunstwerk, niet het parkeerterrein. Paden kunnen ongelijk of drassig zijn.",
+    "website_url": "https://www.landartflevoland.nl/kunstwerken/daniel-libeskind-polderland-garden-of-love-and-fire/",
+    "inventory_key": "public:landartflevoland:polderland-garden-of-love-and-fire",
+    "street_address": "Pampushavenweg, tussen Oostvaardersdijk en Brikweg",
+    "operating_status": "open",
+    "selection_reason": "Score 8/9: artistieke betekenis 3 (ruimtelijke compositie van Libeskind), ruimtelijke werking 3 (250 bij 250 meter geïntegreerd polderlandschap), publieke betekenis 2 (gemeentelijke opdracht en publiek toegankelijke Land Art Flevoland-collectie).",
+    "coordinate_source": "https://www.landartflevoland.nl/locaties/coordinaten/",
+    "publication_status": "published",
+    "coordinate_precision": "exact"
   }
 ]

@@ -1,16 +1,16 @@
 {
-  "research_date": "2026-10-04",
-  "agenda_window_end": "2026-11-04",
+  "research_date": "2026-10-05",
+  "agenda_window_end": "2026-11-05",
   "scope": "Gecontroleerde catalogusmomentopname; geen claim dat elk Nederlands kunstaanbod of alle foto- en locatievragen zijn afgerond.",
   "categories": {
     "openbare-kunst": {
-      "total": 130,
-      "published": 130,
+      "total": 131,
+      "published": 131,
       "archived": 0,
       "draft": 0,
-      "with_photos": 82,
-      "precise_locations": 23,
-      "visible_on_research_date": 111
+      "with_photos": 83,
+      "precise_locations": 31,
+      "visible_on_research_date": 112
     },
     "beeldenparken": {
       "total": 70,
@@ -31,17 +31,17 @@
       "visible_on_research_date": 184
     },
     "evenementen": {
-      "total": 100,
-      "published": 100,
+      "total": 107,
+      "published": 107,
       "archived": 0,
       "draft": 0,
-      "with_photos": 91,
-      "precise_locations": 93,
-      "visible_on_research_date": 99
+      "with_photos": 96,
+      "precise_locations": 98,
+      "visible_on_research_date": 104
     }
   },
-  "total": 493,
-  "remaining_records": 341,
+  "total": 501,
+  "remaining_records": 340,
   "remaining": [
     {
       "id": "ec559317-ad1c-58c4-bce2-8118f292d3f2",
@@ -60,16 +60,6 @@
       "category": "openbare-kunst",
       "name": "Het Hemels Gewelf",
       "website_url": "https://www.stroom.nl/kunst-in-de-stad/kunst-in-de-openbare-ruimte",
-      "issues": [
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
-      ]
-    },
-    {
-      "id": "ae97891a-3a14-5be7-8fc2-918c96aba98d",
-      "inventory_key": "sleutelwerk:127",
-      "category": "openbare-kunst",
-      "name": "De Groene Kathedraal",
-      "website_url": "https://landartflevoland.nl/kunstwerken/marinus-boezem-de-groene-kathedraal/",
       "issues": [
         "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
       ]
@@ -390,18 +380,7 @@
       "name": "PIER+HORIZON",
       "website_url": "https://landartflevoland.nl/kunstwerken/paul-de-kort-pier-horizon/",
       "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
-      ]
-    },
-    {
-      "id": "a741fc1b-23c3-5c4a-bcc4-be3692d0aec2",
-      "inventory_key": "public:landartflevoland.nl/kunstwerken/bob-gramsma-riff-pd-18245:Riff, PD#18245",
-      "category": "openbare-kunst",
-      "name": "Riff, PD#18245",
-      "website_url": "https://landartflevoland.nl/kunstwerken/bob-gramsma-riff-pd-18245/",
-      "issues": [
-        "Locatie: street; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]
     },
     {
@@ -452,8 +431,7 @@
       "name": "Deltawerk //",
       "website_url": "https://www.sleutelwerken.nl/kunstwerken/deltawerk",
       "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]
     },
     {
@@ -566,16 +544,6 @@
       "category": "openbare-kunst",
       "name": "Velden van Nevel",
       "website_url": "https://www.sleutelwerken.nl/kunstwerken/velden-van-nevel",
-      "issues": [
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
-      ]
-    },
-    {
-      "id": "aa836ced-ea75-5320-aaf3-654f910bd1b6",
-      "inventory_key": "sleutelwerk:204",
-      "category": "openbare-kunst",
-      "name": "Exposure",
-      "website_url": "https://www.sleutelwerken.nl/kunstwerken/exposure",
       "issues": [
         "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
       ]
@@ -982,8 +950,7 @@
       "name": "Aardzee",
       "website_url": "https://www.sleutelwerken.nl/kunstwerken/aardzee",
       "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]
     },
     {
@@ -1023,8 +990,7 @@
       "name": "Observatorium",
       "website_url": "https://www.sleutelwerken.nl/kunstwerken/observatorium",
       "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]
     },
     {
@@ -2737,6 +2703,28 @@
       "category": "evenementen",
       "name": "Kunst10Daagse 2026",
       "website_url": "https://dekunst10daagse.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "0e601bc8-c101-471d-89ef-ad04e133cf84",
+      "inventory_key": "event:sense-of-place:surroundings:2026-09-20",
+      "category": "evenementen",
+      "name": "Over le(u)ven – Surroundings 2026",
+      "website_url": "https://sense-of-place.eu/experience/surroundings/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "0e99635a-f80c-45a7-b38f-27cdde43e900",
+      "inventory_key": "event:melkweg:no-need-to-pretend:2026-10-11",
+      "category": "evenementen",
+      "name": "No Need To Pretend",
+      "website_url": "https://www.melkweg.nl/nl/agenda/no-need-to-pretend-11-10-2026/",
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
         "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"

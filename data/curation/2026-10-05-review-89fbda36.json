@@ -1,0 +1,741 @@
+{
+  "run_id": "89fbda36-9ac4-472f-9244-e5f41b73e666",
+  "checked_at": "2026-10-04T22:09:47.586614+00:00",
+  "research_date": "2026-10-05",
+  "source_review": "89fbda36-9ac4-472f-9244-e5f41b73e666-source-review.json",
+  "added_count": 8,
+  "changed_count": 10,
+  "public_art_count": 131,
+  "records": [
+    {
+      "id": "a741fc1b-23c3-5c4a-bcc4-be3692d0aec2",
+      "name": "Riff, PD#18245",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "https://www.landartflevoland.nl/locaties/",
+        "https://www.landartflevoland.nl/kunstwerken/bob-gramsma-riff-pd-18245/"
+      ],
+      "verified_fields": [
+        "latitude",
+        "longitude",
+        "street_address",
+        "visit_notes",
+        "province",
+        "coordinate_precision",
+        "coordinate_source",
+        "sources"
+      ],
+      "conclusion": "Riff is bereikbaar in het buitengebied. Het dak mag niet worden betreden; gebruik alleen de daarvoor bestemde trap en het uitkijkplatform.",
+      "remaining": [],
+      "resolves_availability": true,
+      "action": "updated"
+    },
+    {
+      "id": "aa836ced-ea75-5320-aaf3-654f910bd1b6",
+      "name": "Exposure",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "https://www.landartflevoland.nl/locaties/"
+      ],
+      "verified_fields": [
+        "latitude",
+        "longitude",
+        "street_address",
+        "visit_notes",
+        "province",
+        "coordinate_precision",
+        "coordinate_source",
+        "sources"
+      ],
+      "conclusion": "Vrij toegankelijk buitenwerk aan het water. Parkeerplek volgens Land Art Flevoland: 52.528344, 5.425711; wandel vandaar naar het objectpunt.",
+      "remaining": [],
+      "resolves_availability": true,
+      "action": "updated"
+    },
+    {
+      "id": "2b3f2109-4373-53dc-9077-fe7d9a72e006",
+      "name": "PIER+HORIZON",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "https://www.landartflevoland.nl/locaties/",
+        "https://www.landartflevoland.nl/kunstwerken/paul-de-kort-pier-horizon/"
+      ],
+      "verified_fields": [
+        "latitude",
+        "longitude",
+        "street_address",
+        "visit_notes",
+        "province",
+        "coordinate_precision",
+        "coordinate_source",
+        "sources"
+      ],
+      "conclusion": "Bereikbaar via het fietspad tussen Zwartemeerweg 62 en 64. De huidige uitvoering gebruikt boomstammen na de stormschade van 2022; de oude pier is niet als ongewijzigd beschreven. Primaire actuele werkpagina bevestigt aangepaste uitvoering met boomstammen; oudere stormwaarschuwing op coördinatenpagina is historische schade, geen bewijs van huidige sluiting.",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig."
+      ],
+      "resolves_availability": true,
+      "action": "updated"
+    },
+    {
+      "id": "ae97891a-3a14-5be7-8fc2-918c96aba98d",
+      "name": "De Groene Kathedraal",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "https://www.landartflevoland.nl/locaties/",
+        "https://landartflevoland.nl/kunstwerken/marinus-boezem-de-groene-kathedraal/"
+      ],
+      "verified_fields": [
+        "latitude",
+        "longitude",
+        "street_address",
+        "visit_notes",
+        "province",
+        "coordinate_precision",
+        "coordinate_source",
+        "sources"
+      ],
+      "conclusion": "De kaartpin markeert de populierenkathedraal. Vanaf de parkeerplaats rechtdoor over het Kathedralenpad, niet rechts het Nachtegaalpad op. Links ligt de afzonderlijke contrakathedraal.",
+      "remaining": [],
+      "resolves_availability": true,
+      "action": "updated"
+    },
+    {
+      "id": "77b0b0cc-905a-5e65-a569-d1f664cf2ae2",
+      "name": "Aardzee",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "https://www.landartflevoland.nl/locaties/"
+      ],
+      "verified_fields": [
+        "latitude",
+        "longitude",
+        "street_address",
+        "visit_notes",
+        "province",
+        "coordinate_precision",
+        "coordinate_source",
+        "sources"
+      ],
+      "conclusion": "Vrij toegankelijk landschapskunstwerk tussen Ooievaarsweg en Reigerweg. Parkeerplek 52.396408, 5.454761; loop vandaar het terrein in.",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig."
+      ],
+      "resolves_availability": true,
+      "action": "updated"
+    },
+    {
+      "id": "8f086c84-7670-5085-9531-9c9a3b5655dd",
+      "name": "Deltawerk //",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "https://www.landartflevoland.nl/locaties/",
+        "https://www.landartflevoland.nl/kunstwerken/raaaf-atelier-de-lyon-deltawerk/"
+      ],
+      "verified_fields": [
+        "latitude",
+        "longitude",
+        "street_address",
+        "visit_notes",
+        "province",
+        "coordinate_precision",
+        "coordinate_source",
+        "sources"
+      ],
+      "conclusion": "Kunstwerk in het Waterloopbos, bereikbaar via de paden vanaf de parkeerplaats. Volg de actuele terreinregels van Natuurmonumenten.",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig."
+      ],
+      "resolves_availability": true,
+      "action": "updated"
+    },
+    {
+      "id": "0b88d7ba-4ce0-59e6-aedc-adc901d938d6",
+      "name": "De Vis voor Stavoren",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://11fountains.nl/fonteinen/stavoren/",
+        "https://11fountains.nl/faq/"
+      ],
+      "verified_fields": [
+        "visit_notes",
+        "sources"
+      ],
+      "conclusion": "Vrij toegankelijk op het plein bij de Stationsweg. Het kunstwerk blijft buiten te zien als de waterinstallatie in de winter uitstaat.",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig."
+      ],
+      "resolves_availability": true,
+      "action": "updated"
+    },
+    {
+      "id": "bad119a8-6a2e-58d0-974e-d1134e2b8a21",
+      "name": "De Vleermuis",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://11fountains.nl/fonteinen/bolsward/",
+        "https://11fountains.nl/faq/"
+      ],
+      "verified_fields": [
+        "visit_notes",
+        "sources"
+      ],
+      "conclusion": "Vrij toegankelijk voor de Broerekerk op het Broereplein. Alleen de aangebrachte trap mag worden beklommen. De fonteininstallatie staat in de winter uit.",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig."
+      ],
+      "resolves_availability": true,
+      "action": "updated"
+    },
+    {
+      "id": "1a01925b-df68-586d-9a3a-bee25e0344ae",
+      "name": "Engelenzender",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.landartflevoland.nl/kunstwerken/engelen-angels-fm-98.0-1994/"
+      ],
+      "verified_fields": [
+        "visit_notes",
+        "sources"
+      ],
+      "conclusion": "Het historische radiosignaal is vervangen door een locatiegebonden app op de Houtribdijk. Land Art Flevoland meldt problemen met downloaden en een lopende app-update. Actuele werking is niet bevestigd; plan geen bezoek zonder de beschikbaarheid te controleren.",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig.",
+        "Exact objectpunt ontbreekt; bezoekadres/route is beschreven, kaartpin niet verzonnen.",
+        "Organisator meldt downloadproblemen en app-update; actuele werking op de Houtribdijk niet bevestigd."
+      ],
+      "resolves_availability": false,
+      "action": "updated"
+    },
+    {
+      "id": "dc032a55-080d-47ac-aada-9f65b005096b",
+      "name": "Herman Kruyder. Expressionist van de ziel",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.singerlaren.nl/nl/agenda/herman-kruyder-1881-1935-5t3s"
+      ],
+      "verified_fields": [
+        "identity",
+        "creator",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "website_url",
+        "summary",
+        "tags",
+        "photos",
+        "operating_status"
+      ],
+      "conclusion": "Singer Laren, dinsdag t/m zondag 10–17 uur. Museumticket nodig; controleer de bezoekinformatie bij de organisator.",
+      "remaining": [],
+      "resolves_availability": true,
+      "action": "added"
+    },
+    {
+      "id": "70459c4c-8e5e-42fd-9700-7fb18d771888",
+      "name": "Vincent de Boer – Omgeven",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.singerlaren.nl/nl/agenda/vincent-de-boer-omgeven-yzfj"
+      ],
+      "verified_fields": [
+        "identity",
+        "creator",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "website_url",
+        "summary",
+        "tags",
+        "photos",
+        "operating_status"
+      ],
+      "conclusion": "Gratis te zien in de balkonfoyer van Singer Laren, ook zonder museumticket. Raadpleeg de organisator voor actuele openingstijden.",
+      "remaining": [],
+      "resolves_availability": true,
+      "action": "added"
+    },
+    {
+      "id": "17574ed0-39e6-426d-887c-5b75d619fede",
+      "name": "Otobong Nkanga – Humus Blues",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.singerlaren.nl/nl/agenda/otobong-nkanga-humus-blues-yz1h"
+      ],
+      "verified_fields": [
+        "identity",
+        "creator",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "website_url",
+        "summary",
+        "tags",
+        "photos",
+        "operating_status"
+      ],
+      "conclusion": "Singer Laren, dinsdag t/m zondag 10–17 uur. Museumticket nodig; controleer de bezoekinformatie bij de organisator.",
+      "remaining": [],
+      "resolves_availability": true,
+      "action": "added"
+    },
+    {
+      "id": "9177b66e-c900-47c5-83e4-590c98d73d40",
+      "name": "Polderland Garden of Love and Fire",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.landartflevoland.nl/kunstwerken/daniel-libeskind-polderland-garden-of-love-and-fire/",
+        "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "https://www.landartflevoland.nl/locaties/"
+      ],
+      "verified_fields": [
+        "identity",
+        "creator",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "website_url",
+        "summary",
+        "tags",
+        "photos",
+        "operating_status"
+      ],
+      "conclusion": "Vrij toegankelijk buitenwerk. Parkeren bij 52.380883, 5.143434; de kaartpin markeert het kunstwerk, niet het parkeerterrein. Paden kunnen ongelijk of drassig zijn.",
+      "remaining": [],
+      "resolves_availability": true,
+      "action": "added",
+      "selection_score": {
+        "artistieke_betekenis": 3,
+        "ruimtelijke_werking": 3,
+        "publieke_betekenis": 2
+      },
+      "photo_evidence": "Hay Kranen, CC BY 4.0, foto 14 juli 2025; visueel gecontroleerd in browser. Exacte locatie uit Land Art Flevoland, niet EXIF."
+    },
+    {
+      "id": "b3cde81c-7447-4a97-b887-5c38b441657d",
+      "name": "Etha Fles & Medardo Rosso. Voor de kunst",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.singerlaren.nl/nl/agenda/etha-fles-medardo-rosso-voor-de-kunst-6544"
+      ],
+      "verified_fields": [
+        "identity",
+        "creator",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "website_url",
+        "summary",
+        "tags",
+        "photos",
+        "operating_status"
+      ],
+      "conclusion": "Singer Laren, dinsdag t/m zondag 10–17 uur. Museumticket nodig; controleer de bezoekinformatie bij de organisator.",
+      "remaining": [],
+      "resolves_availability": true,
+      "action": "added"
+    },
+    {
+      "id": "92ce6ad2-d505-4fb6-9e1c-530c81f821ee",
+      "name": "Dichter bij De denker",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.singerlaren.nl/nl/agenda/dichter-bij-de-denker-zw16"
+      ],
+      "verified_fields": [
+        "identity",
+        "creator",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "website_url",
+        "summary",
+        "tags",
+        "photos",
+        "operating_status"
+      ],
+      "conclusion": "Singer Laren, dinsdag t/m zondag 10–17 uur. Museumticket nodig; controleer de bezoekinformatie bij de organisator.",
+      "remaining": [],
+      "resolves_availability": true,
+      "action": "added"
+    },
+    {
+      "id": "6ee27eb8-3cec-5d2e-b5cb-ae796ca91532",
+      "name": "Observatorium",
+      "category": "openbare-kunst",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.landartflevoland.nl/locaties/coordinaten/",
+        "https://www.landartflevoland.nl/locaties/"
+      ],
+      "verified_fields": [
+        "latitude",
+        "longitude",
+        "street_address",
+        "visit_notes",
+        "province",
+        "coordinate_precision",
+        "coordinate_source",
+        "sources"
+      ],
+      "conclusion": "Aanrijden via Klokbekerweg of Edelhertweg. Vrij toegankelijk landschapskunstwerk; parkeerplek 52.550012, 5.564163. Houd rekening met onverharde paden.",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig."
+      ],
+      "resolves_availability": true,
+      "action": "updated"
+    },
+    {
+      "id": "0e99635a-f80c-45a7-b38f-27cdde43e900",
+      "name": "No Need To Pretend",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://www.melkweg.nl/nl/agenda/no-need-to-pretend-11-10-2026/",
+        "https://www.melkweg.nl/nl/expo/",
+        "https://www.melkweg.nl/nl/bezoekersinfo/toegankelijkheid/expo/"
+      ],
+      "verified_fields": [
+        "identity",
+        "creator",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "website_url",
+        "summary",
+        "tags",
+        "photos",
+        "operating_status"
+      ],
+      "conclusion": "Melkweg Expo, gratis, dinsdag t/m zondag 11–19 uur. Eigen ingang Marnixstraat 409 heeft een trap; rolstoeltoegang met hulp via de hoofdingang Lijnbaansgracht 234a. Afzonderlijke opening op 10 oktober.",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig.",
+        "Exact objectpunt ontbreekt; bezoekadres/route is beschreven, kaartpin niet verzonnen."
+      ],
+      "resolves_availability": true,
+      "action": "added"
+    },
+    {
+      "id": "0e601bc8-c101-471d-89ef-ad04e133cf84",
+      "name": "Over le(u)ven – Surroundings 2026",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T22:09:47.586614+00:00",
+      "primary_sources": [
+        "https://sense-of-place.eu/experience/surroundings/"
+      ],
+      "verified_fields": [
+        "identity",
+        "creator",
+        "starts_on",
+        "ends_on",
+        "street_address",
+        "website_url",
+        "summary",
+        "tags",
+        "photos",
+        "operating_status"
+      ],
+      "conclusion": "Gratis van zonsopkomst tot zonsondergang. Vijf plekken: Kerkpad 6 Tinallinge; Schouwerzijlsterweg 13 Winsum; kruising Pieterpad/Schouwerzijlsterweg; Maarhuizen 3 Winsum; Wolddijk 52 Bedum. Gebruik de route van Sense of Place. Geen centrale kaartpin.",
+      "remaining": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig.",
+        "Verspreide route zonder centrale kaartpin."
+      ],
+      "resolves_availability": true,
+      "action": "added"
+    }
+  ],
+  "download_sync": [
+    {
+      "id": "ae97891a-3a14-5be7-8fc2-918c96aba98d",
+      "name": "De Groene Kathedraal",
+      "category": "openbare-kunst",
+      "fields": [
+        "sources",
+        "latitude",
+        "longitude",
+        "visit_notes",
+        "coordinate_source",
+        "coordinate_precision"
+      ]
+    },
+    {
+      "id": "1a01925b-df68-586d-9a3a-bee25e0344ae",
+      "name": "Engelenzender",
+      "category": "openbare-kunst",
+      "fields": [
+        "sources",
+        "visit_notes"
+      ]
+    },
+    {
+      "id": "2b3f2109-4373-53dc-9077-fe7d9a72e006",
+      "name": "PIER+HORIZON",
+      "category": "openbare-kunst",
+      "fields": [
+        "sources",
+        "latitude",
+        "longitude",
+        "visit_notes",
+        "coordinate_source",
+        "coordinate_precision"
+      ]
+    },
+    {
+      "id": "a741fc1b-23c3-5c4a-bcc4-be3692d0aec2",
+      "name": "Riff, PD#18245",
+      "category": "openbare-kunst",
+      "fields": [
+        "sources",
+        "latitude",
+        "longitude",
+        "visit_notes",
+        "street_address",
+        "coordinate_source",
+        "coordinate_precision"
+      ]
+    },
+    {
+      "id": "bad119a8-6a2e-58d0-974e-d1134e2b8a21",
+      "name": "De Vleermuis",
+      "category": "openbare-kunst",
+      "fields": [
+        "sources",
+        "visit_notes"
+      ]
+    },
+    {
+      "id": "0b88d7ba-4ce0-59e6-aedc-adc901d938d6",
+      "name": "De Vis voor Stavoren",
+      "category": "openbare-kunst",
+      "fields": [
+        "sources",
+        "visit_notes"
+      ]
+    },
+    {
+      "id": "8f086c84-7670-5085-9531-9c9a3b5655dd",
+      "name": "Deltawerk //",
+      "category": "openbare-kunst",
+      "fields": [
+        "sources",
+        "latitude",
+        "longitude",
+        "visit_notes",
+        "street_address",
+        "coordinate_source",
+        "coordinate_precision"
+      ]
+    },
+    {
+      "id": "aa836ced-ea75-5320-aaf3-654f910bd1b6",
+      "name": "Exposure",
+      "category": "openbare-kunst",
+      "fields": [
+        "sources",
+        "latitude",
+        "province",
+        "longitude",
+        "visit_notes",
+        "street_address",
+        "coordinate_source",
+        "coordinate_precision"
+      ]
+    },
+    {
+      "id": "77b0b0cc-905a-5e65-a569-d1f664cf2ae2",
+      "name": "Aardzee",
+      "category": "openbare-kunst",
+      "fields": [
+        "sources",
+        "latitude",
+        "province",
+        "longitude",
+        "visit_notes",
+        "street_address",
+        "coordinate_source",
+        "coordinate_precision"
+      ]
+    },
+    {
+      "id": "6ee27eb8-3cec-5d2e-b5cb-ae796ca91532",
+      "name": "Observatorium",
+      "category": "openbare-kunst",
+      "fields": [
+        "sources",
+        "latitude",
+        "province",
+        "longitude",
+        "visit_notes",
+        "street_address",
+        "coordinate_source",
+        "coordinate_precision"
+      ]
+    },
+    {
+      "id": "b56bae7e-7c40-5800-9e19-dcb75467a12a",
+      "name": "Love or Generosity",
+      "category": "openbare-kunst",
+      "fields": [
+        "latitude",
+        "longitude"
+      ]
+    },
+    {
+      "id": "0723660f-c74d-5c79-8492-49f738c8f341",
+      "name": "Borg Verhildersum – beeldentuin",
+      "category": "beeldenparken",
+      "fields": [
+        "tags"
+      ]
+    },
+    {
+      "id": "5f68e866-bbfb-52ba-8b84-ad57d412099f",
+      "name": "Beeldentuin Cilia de la Court",
+      "category": "beeldenparken",
+      "fields": [
+        "tags"
+      ]
+    },
+    {
+      "id": "b9a87e8e-4542-5aa7-83c3-d3f072c870c3",
+      "name": "Beeldentuin Fransje Versloot",
+      "category": "beeldenparken",
+      "fields": [
+        "tags"
+      ]
+    },
+    {
+      "id": "e095668a-3a3f-5914-a7b4-5233c2fb0e6c",
+      "name": "Klein Afrika – beeldentuin",
+      "category": "beeldenparken",
+      "fields": [
+        "tags"
+      ]
+    },
+    {
+      "id": "78bb3323-0f9f-5fb4-9f40-ab1775ca3131",
+      "name": "De Buffel – beeldentuin Veghel",
+      "category": "beeldenparken",
+      "fields": [
+        "tags"
+      ]
+    },
+    {
+      "id": "22da8276-14a3-5e9f-87a0-f39004a55b95",
+      "name": "Beeldentuin Paula Withagen",
+      "category": "beeldenparken",
+      "fields": [
+        "tags"
+      ]
+    },
+    {
+      "id": "ea01cf40-a24c-5116-85e3-1d3d3ada9e12",
+      "name": "Noordbrabants Museum – Paleistuin",
+      "category": "beeldenparken",
+      "fields": [
+        "tags"
+      ]
+    },
+    {
+      "id": "f78d86a4-8307-515b-99e3-88596fac08e0",
+      "name": "De Aalbekerhoeve – beeldentuin",
+      "category": "beeldenparken",
+      "fields": [
+        "tags"
+      ]
+    },
+    {
+      "id": "4b741184-0dd2-5911-a3fd-ce88bc74771d",
+      "name": "Vera de Haas – atelier en beeldentuin",
+      "category": "beeldenparken",
+      "fields": [
+        "tags"
+      ]
+    },
+    {
+      "id": "66f236cd-f46e-5a23-923a-4d445a5de153",
+      "name": "Daniëlle Orelio – beeldentuin",
+      "category": "beeldenparken",
+      "fields": [
+        "tags"
+      ]
+    },
+    {
+      "id": "23103c24-889b-53c8-a814-4f61dea9df64",
+      "name": "Beeldentuin Anja Ysermans",
+      "category": "beeldenparken",
+      "fields": [
+        "tags"
+      ]
+    },
+    {
+      "id": "b97f0973-bf22-5daf-b602-d6a18fcb4baf",
+      "name": "Beeldentuin Clingenbosch",
+      "category": "beeldenparken",
+      "fields": [
+        "tags"
+      ]
+    }
+  ],
+  "publication": {
+    "status": "pending"
+  },
+  "uncertain_candidates": [
+    {
+      "name": "Carlijn Kingma. De machinerie van de volkshuisvesting",
+      "url": "https://www.singerlaren.nl/nl/agenda/carlijn-kingma-de-machinerie-van-de-volkshuisvesting-mdyw",
+      "status": "blocked",
+      "reason": "Organisator vermeldt 10 januari 2027 in kop en datumblokken maar 4 januari 2027 in lopende tekst. Niet ingevoerd zonder eenduidige einddatum."
+    },
+    {
+      "name": "Sea Level",
+      "url": "https://landartflevoland.nl/kunstwerken/richard-serra-sea-level-1996/",
+      "status": "pending",
+      "score": [
+        3,
+        3,
+        3
+      ],
+      "reason": "Identiteit, gemeentelijke opdracht, restauratie afgerond december 2024 en exacte locatie bevestigd. Commons-zoekactie leverde nog geen gecontroleerde foto op; niet toegevoegd."
+    },
+    {
+      "name": "ReflAction, AkzoNobel Art Foundation",
+      "status": "pending",
+      "reason": "NRC-index en Singer Nkanga-pagina geven aanwijzingen. Primaire organisator en bezoekdetails nog controleren."
+    }
+  ],
+  "backlog": {
+    "pending": 594,
+    "blocked": 1,
+    "resolved": 107,
+    "previous_pending": 595,
+    "previous_resolved": 98
+  },
+  "preservation": "Alle niet in kk_museums opgeslagen bronverwijzingen, suggesties en redactionele notities zijn behouden. Twaalf nieuwere maker-tags in beeldentuinrecords en bestaande live-coördinaten van Love or Generosity overgenomen in downloads; geen terugschrijven hiervan naar database.",
+  "checks": {
+    "npm_run_check": "passed: TypeScript, 51 tests and production build",
+    "public_database": "17 open records matched anonymous API; Engelenzender appropriately hidden",
+    "production_pending": "Local request redirected to existing Cloudflare Access. Production validation uses the established authorized CI smoke workflow."
+  }
+}

@@ -358,5 +358,105 @@
     "label": "in een tuin",
     "dimension": "locatie",
     "description": "Redactionele tag; alleen toepassen na controle. Voorzieningen en toegankelijkheid vereisen een actuele bron."
+  },
+  {
+    "label": "maker: herman kruyder",
+    "dimension": "maker",
+    "description": "Herman Kruyder"
+  },
+  {
+    "label": "maker: etha fles",
+    "dimension": "maker",
+    "description": "Etha Fles"
+  },
+  {
+    "label": "maker: medardo rosso",
+    "dimension": "maker",
+    "description": "Medardo Rosso"
+  },
+  {
+    "label": "maker: auguste rodin",
+    "dimension": "maker",
+    "description": "Auguste Rodin"
+  },
+  {
+    "label": "maker: saar de swart",
+    "dimension": "maker",
+    "description": "Saar de Swart"
+  },
+  {
+    "label": "maker: vincent de boer",
+    "dimension": "maker",
+    "description": "Vincent de Boer"
+  },
+  {
+    "label": "maker: otobong nkanga",
+    "dimension": "maker",
+    "description": "Otobong Nkanga"
+  },
+  {
+    "label": "maker: alexandra galateia tsolou",
+    "dimension": "maker",
+    "description": "Alexandra Galateia Tsolou"
+  },
+  {
+    "label": "maker: densley annastatia",
+    "dimension": "maker",
+    "description": "Densley Annastatia"
+  },
+  {
+    "label": "maker: elsa rubio björk",
+    "dimension": "maker",
+    "description": "Elsa Rubio Björk"
+  },
+  {
+    "label": "maker: finn koene",
+    "dimension": "maker",
+    "description": "Finn Koene"
+  },
+  {
+    "label": "maker: gala camps-mcloughlin",
+    "dimension": "maker",
+    "description": "Gala Camps-McLoughlin"
+  },
+  {
+    "label": "maker: mabel blokzijl",
+    "dimension": "maker",
+    "description": "Mabel Blokzijl"
+  },
+  {
+    "label": "maker: rosa uribe",
+    "dimension": "maker",
+    "description": "Rosa Uribe"
+  },
+  {
+    "label": "maker: anjet van linge",
+    "dimension": "maker",
+    "description": "Anjet van Linge"
+  },
+  {
+    "label": "maker: beth wong",
+    "dimension": "maker",
+    "description": "Beth Wong"
+  },
+  {
+    "label": "maker: chris schoonenberg-d’cruz",
+    "dimension": "maker",
+    "description": "Chris Schoonenberg-D’Cruz"
+  },
+  {
+    "label": "maker: leonard witte",
+    "dimension": "maker",
+    "description": "Leonard Witte"
+  },
+  {
+    "label": "maker: susanne luurs",
+    "dimension": "maker",
+    "description": "Susanne Luurs"
+  },
+  {
+    "label": "maker: daniel libeskind",
+    "dimension": "maker",
+    "description": "Daniel Libeskind"
   }
 ]

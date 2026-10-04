@@ -5373,5 +5373,346 @@
     "coordinate_source": "",
     "publication_status": "published",
     "coordinate_precision": "unknown"
+  },
+  {
+    "id": "0e601bc8-c101-471d-89ef-ad04e133cf84",
+    "city": "Het Hogeland",
+    "name": "Over le(u)ven – Surroundings 2026",
+    "tags": [
+      "tentoonstelling",
+      "kunstwandeling",
+      "installatie",
+      "landschap",
+      "hedendaagse kunst",
+      "maker: anjet van linge; beth wong; chris schoonenberg-d’cruz; leonard witte; susanne luurs",
+      "maker: anjet van linge",
+      "maker: beth wong",
+      "maker: chris schoonenberg-d’cruz",
+      "maker: leonard witte",
+      "maker: susanne luurs"
+    ],
+    "year": "2026",
+    "photos": [],
+    "creator": "Anjet van Linge; Beth Wong; Chris Schoonenberg-D’Cruz; Leonard Witte; Susanne Luurs",
+    "ends_on": "2026-11-15",
+    "sources": [
+      {
+        "url": "https://sense-of-place.eu/experience/surroundings/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      }
+    ],
+    "summary": "Vijf tijdelijke kunstwerken verbinden het Groningse landschap met verhalen over leven en overleven. Reis langs plekken rond Winsum, Tinallinge en Bedum en ontdek hoe kunstenaars reageren op de bodem, de geschiedenis en de mensen van Het Hogeland.",
+    "category": "evenementen",
+    "latitude": null,
+    "province": "Groningen",
+    "longitude": null,
+    "museum_id": null,
+    "starts_on": "2026-09-20",
+    "visit_notes": "Gratis van zonsopkomst tot zonsondergang. Vijf plekken: Kerkpad 6 Tinallinge; Schouwerzijlsterweg 13 Winsum; kruising Pieterpad/Schouwerzijlsterweg; Maarhuizen 3 Winsum; Wolddijk 52 Bedum. Gebruik de route van Sense of Place. Geen centrale kaartpin.",
+    "website_url": "https://sense-of-place.eu/experience/surroundings/",
+    "inventory_key": "event:sense-of-place:surroundings:2026-09-20",
+    "street_address": "Vijf locaties rond Winsum, Tinallinge en Bedum",
+    "operating_status": "open",
+    "selection_reason": "Tijdelijke kunstroute met vijf werken, primaire bron met data en afzonderlijke bezoeklocaties.",
+    "coordinate_source": "",
+    "publication_status": "published",
+    "coordinate_precision": "unknown"
+  },
+  {
+    "id": "0e99635a-f80c-45a7-b38f-27cdde43e900",
+    "city": "Amsterdam",
+    "name": "No Need To Pretend",
+    "tags": [
+      "tentoonstelling",
+      "hedendaagse kunst",
+      "jong talent",
+      "identiteit",
+      "maker: alexandra galateia tsolou",
+      "maker: densley annastatia",
+      "maker: elsa rubio björk",
+      "maker: finn koene",
+      "maker: gala camps-mcloughlin",
+      "maker: mabel blokzijl",
+      "maker: rosa uribe"
+    ],
+    "year": "2026",
+    "photos": [],
+    "creator": "Alexandra Galateia Tsolou; Densley Annastatia; Elsa Rubio Björk; Finn Koene; Gala Camps-McLoughlin; Mabel Blokzijl; Rosa Uribe",
+    "ends_on": "2026-12-30",
+    "sources": [
+      {
+        "url": "https://www.melkweg.nl/nl/agenda/no-need-to-pretend-11-10-2026/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      },
+      {
+        "url": "https://www.melkweg.nl/nl/expo/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      },
+      {
+        "url": "https://www.melkweg.nl/nl/bezoekersinfo/toegankelijkheid/expo/",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      }
+    ],
+    "summary": "Zeven jonge kunstenaars verkennen mentale gezondheid en de druk om jezelf anders voor te doen. Hun uiteenlopende perspectieven krijgen ruimte in een tentoonstelling samengesteld door Cathelijne Blok, waarin kwetsbaarheid en herkenning centraal staan.",
+    "category": "evenementen",
+    "latitude": null,
+    "province": "Noord-Holland",
+    "longitude": null,
+    "museum_id": null,
+    "starts_on": "2026-10-11",
+    "visit_notes": "Melkweg Expo, gratis, dinsdag t/m zondag 11–19 uur. Eigen ingang Marnixstraat 409 heeft een trap; rolstoeltoegang met hulp via de hoofdingang Lijnbaansgracht 234a. Afzonderlijke opening op 10 oktober.",
+    "website_url": "https://www.melkweg.nl/nl/agenda/no-need-to-pretend-11-10-2026/",
+    "inventory_key": "event:melkweg:no-need-to-pretend:2026-10-11",
+    "street_address": "Marnixstraat 409",
+    "operating_status": "open",
+    "selection_reason": "Inhoudelijke kunstpresentatie bevestigd bij de organisator na een tip op het actieve Instagramaccount cathelijneblok.",
+    "coordinate_source": "",
+    "publication_status": "published",
+    "coordinate_precision": "unknown"
+  },
+  {
+    "id": "17574ed0-39e6-426d-887c-5b75d619fede",
+    "city": "Laren (NH)",
+    "name": "Otobong Nkanga – Humus Blues",
+    "tags": [
+      "tentoonstelling",
+      "textiel",
+      "beeldhouwkunst",
+      "hedendaagse kunst",
+      "ecologie",
+      "maker: otobong nkanga"
+    ],
+    "year": "2026–2027",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Singer_museum_laren.jpg/1280px-Singer_museum_laren.jpg",
+        "credit": "M.M.Minderhoud",
+        "caption": "Historische locatiefoto: Singer Laren, juni 2006; niet deze tentoonstelling.",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Singer_museum_laren.jpg"
+      }
+    ],
+    "creator": "Otobong Nkanga",
+    "ends_on": "2027-02-28",
+    "sources": [
+      {
+        "url": "https://www.singerlaren.nl/nl/agenda/otobong-nkanga-humus-blues-yz1h",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      }
+    ],
+    "summary": "Wandtapijten, sculpturen, tekeningen en andere media tonen hoe Otobong Nkanga de relaties tussen aarde, grondstoffen en mensen onderzoekt. Kleur draagt herinneringen aan landschappen en geschiedenissen. De presentatie bevat ook nieuw werk voor Singer Laren.",
+    "category": "evenementen",
+    "latitude": 52.259383,
+    "province": "Noord-Holland",
+    "longitude": 5.221566,
+    "museum_id": "98651057-8ba9-5e2c-b97a-56c719fb1227",
+    "starts_on": "2026-10-27",
+    "visit_notes": "Singer Laren, dinsdag t/m zondag 10–17 uur. Museumticket nodig; controleer de bezoekinformatie bij de organisator.",
+    "website_url": "https://www.singerlaren.nl/nl/agenda/otobong-nkanga-humus-blues-yz1h",
+    "inventory_key": "event:https://www.singerlaren.nl/nl/agenda/otobong-nkanga-humus-blues-yz1h:2026-10-27",
+    "street_address": "Oude Drift 1",
+    "operating_status": "open",
+    "selection_reason": "Zelfstandige tijdelijke presentatie uit het volledige officiële museumprogramma, met bevestigde begin- en einddatum.",
+    "coordinate_source": "https://www.singerlaren.nl/nl/theme/tentoonstellingen-dnc9",
+    "publication_status": "published",
+    "coordinate_precision": "address"
+  },
+  {
+    "id": "70459c4c-8e5e-42fd-9700-7fb18d771888",
+    "city": "Laren (NH)",
+    "name": "Vincent de Boer – Omgeven",
+    "tags": [
+      "tentoonstelling",
+      "installatie",
+      "papierkunst",
+      "kalligrafie",
+      "natuur",
+      "maker: vincent de boer"
+    ],
+    "year": "2026–2027",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Singer_museum_laren.jpg/1280px-Singer_museum_laren.jpg",
+        "credit": "M.M.Minderhoud",
+        "caption": "Historische locatiefoto: Singer Laren, juni 2006; niet deze tentoonstelling.",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Singer_museum_laren.jpg"
+      }
+    ],
+    "creator": "Vincent de Boer",
+    "ends_on": "2027-03-07",
+    "sources": [
+      {
+        "url": "https://www.singerlaren.nl/nl/agenda/vincent-de-boer-omgeven-yzfj",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      }
+    ],
+    "summary": "Een beschilderd raam, een papieren bos en een totem met dierenhoofden vormen een installatie waar je doorheen kunt bewegen. Vincent de Boer verbindt kalligrafie met de texturen van de natuur. Het veranderende daglicht maakt de omgeving onderdeel van het werk.",
+    "category": "evenementen",
+    "latitude": 52.259383,
+    "province": "Noord-Holland",
+    "longitude": 5.221566,
+    "museum_id": "98651057-8ba9-5e2c-b97a-56c719fb1227",
+    "starts_on": "2026-03-29",
+    "visit_notes": "Gratis te zien in de balkonfoyer van Singer Laren, ook zonder museumticket. Raadpleeg de organisator voor actuele openingstijden.",
+    "website_url": "https://www.singerlaren.nl/nl/agenda/vincent-de-boer-omgeven-yzfj",
+    "inventory_key": "event:https://www.singerlaren.nl/nl/agenda/vincent-de-boer-omgeven-yzfj:2026-03-29",
+    "street_address": "Oude Drift 1",
+    "operating_status": "open",
+    "selection_reason": "Zelfstandige tijdelijke presentatie uit het volledige officiële museumprogramma, met bevestigde begin- en einddatum.",
+    "coordinate_source": "https://www.singerlaren.nl/nl/theme/tentoonstellingen-dnc9",
+    "publication_status": "published",
+    "coordinate_precision": "address"
+  },
+  {
+    "id": "92ce6ad2-d505-4fb6-9e1c-530c81f821ee",
+    "city": "Laren (NH)",
+    "name": "Dichter bij De denker",
+    "tags": [
+      "tentoonstelling",
+      "beeldhouwkunst",
+      "brons",
+      "kunst rond 1900",
+      "maker: auguste rodin; saar de swart",
+      "maker: auguste rodin",
+      "maker: saar de swart"
+    ],
+    "year": "2026–2027",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Singer_museum_laren.jpg/1280px-Singer_museum_laren.jpg",
+        "credit": "M.M.Minderhoud",
+        "caption": "Historische locatiefoto: Singer Laren, juni 2006; niet deze tentoonstelling.",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Singer_museum_laren.jpg"
+      }
+    ],
+    "creator": "Auguste Rodin; Saar de Swart",
+    "ends_on": "2026-11-15",
+    "sources": [
+      {
+        "url": "https://www.singerlaren.nl/nl/agenda/dichter-bij-de-denker-zw16",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      }
+    ],
+    "summary": "Rodins De denker komt tijdelijk dichter bij de bezoeker te staan. Andere sculpturen van Rodin en twee bronzen beelden van Saar de Swart laten zien hoe beweging en menselijke expressie in brons vorm krijgen.",
+    "category": "evenementen",
+    "latitude": 52.259383,
+    "province": "Noord-Holland",
+    "longitude": 5.221566,
+    "museum_id": "98651057-8ba9-5e2c-b97a-56c719fb1227",
+    "starts_on": "2026-04-29",
+    "visit_notes": "Singer Laren, dinsdag t/m zondag 10–17 uur. Museumticket nodig; controleer de bezoekinformatie bij de organisator.",
+    "website_url": "https://www.singerlaren.nl/nl/agenda/dichter-bij-de-denker-zw16",
+    "inventory_key": "event:https://www.singerlaren.nl/nl/agenda/dichter-bij-de-denker-zw16:2026-04-29",
+    "street_address": "Oude Drift 1",
+    "operating_status": "open",
+    "selection_reason": "Zelfstandige tijdelijke presentatie uit het volledige officiële museumprogramma, met bevestigde begin- en einddatum.",
+    "coordinate_source": "https://www.singerlaren.nl/nl/theme/tentoonstellingen-dnc9",
+    "publication_status": "published",
+    "coordinate_precision": "address"
+  },
+  {
+    "id": "b3cde81c-7447-4a97-b887-5c38b441657d",
+    "city": "Laren (NH)",
+    "name": "Etha Fles & Medardo Rosso. Voor de kunst",
+    "tags": [
+      "tentoonstelling",
+      "beeldhouwkunst",
+      "impressionisme",
+      "vrouwelijke kunstenaars",
+      "maker: etha fles; medardo rosso",
+      "maker: etha fles",
+      "maker: medardo rosso"
+    ],
+    "year": "2026–2027",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Singer_museum_laren.jpg/1280px-Singer_museum_laren.jpg",
+        "credit": "M.M.Minderhoud",
+        "caption": "Historische locatiefoto: Singer Laren, juni 2006; niet deze tentoonstelling.",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Singer_museum_laren.jpg"
+      }
+    ],
+    "creator": "Etha Fles; Medardo Rosso",
+    "ends_on": "2026-10-11",
+    "sources": [
+      {
+        "url": "https://www.singerlaren.nl/nl/agenda/etha-fles-medardo-rosso-voor-de-kunst-6544",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      }
+    ],
+    "summary": "Ontdek de artistieke vriendschap tussen Etha Fles en Medardo Rosso. Rond Rosso’s lachende sculptuur Rieuse toont Singer schilderijen, etsen en publicaties van Fles, die zijn werk internationaal bekend hielp maken.",
+    "category": "evenementen",
+    "latitude": 52.259383,
+    "province": "Noord-Holland",
+    "longitude": 5.221566,
+    "museum_id": "98651057-8ba9-5e2c-b97a-56c719fb1227",
+    "starts_on": "2026-06-02",
+    "visit_notes": "Singer Laren, dinsdag t/m zondag 10–17 uur. Museumticket nodig; controleer de bezoekinformatie bij de organisator.",
+    "website_url": "https://www.singerlaren.nl/nl/agenda/etha-fles-medardo-rosso-voor-de-kunst-6544",
+    "inventory_key": "event:https://www.singerlaren.nl/nl/agenda/etha-fles-medardo-rosso-voor-de-kunst-6544:2026-06-02",
+    "street_address": "Oude Drift 1",
+    "operating_status": "open",
+    "selection_reason": "Zelfstandige tijdelijke presentatie uit het volledige officiële museumprogramma, met bevestigde begin- en einddatum.",
+    "coordinate_source": "https://www.singerlaren.nl/nl/theme/tentoonstellingen-dnc9",
+    "publication_status": "published",
+    "coordinate_precision": "address"
+  },
+  {
+    "id": "dc032a55-080d-47ac-aada-9f65b005096b",
+    "city": "Laren (NH)",
+    "name": "Herman Kruyder. Expressionist van de ziel",
+    "tags": [
+      "tentoonstelling",
+      "expressionisme",
+      "schilderkunst",
+      "natuur",
+      "maker: herman kruyder"
+    ],
+    "year": "2026–2027",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Singer_museum_laren.jpg/1280px-Singer_museum_laren.jpg",
+        "credit": "M.M.Minderhoud",
+        "caption": "Historische locatiefoto: Singer Laren, juni 2006; niet deze tentoonstelling.",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Singer_museum_laren.jpg"
+      }
+    ],
+    "creator": "Herman Kruyder",
+    "ends_on": "2027-02-14",
+    "sources": [
+      {
+        "url": "https://www.singerlaren.nl/nl/agenda/herman-kruyder-1881-1935-5t3s",
+        "provider": "Officiële organisator · inhoudelijk gecontroleerd",
+        "retrieved_at": "2026-10-04T22:04:00Z"
+      }
+    ],
+    "summary": "Herman Kruyder maakt het dorpsleven en de natuur tegelijk vertrouwd en onheilspellend. Dit overzicht verbindt zijn expressieve schilderijen met nieuw onderzoek en met het werk van Jo Kruyder-Bouman.",
+    "category": "evenementen",
+    "latitude": 52.259383,
+    "province": "Noord-Holland",
+    "longitude": 5.221566,
+    "museum_id": "98651057-8ba9-5e2c-b97a-56c719fb1227",
+    "starts_on": "2026-09-23",
+    "visit_notes": "Singer Laren, dinsdag t/m zondag 10–17 uur. Museumticket nodig; controleer de bezoekinformatie bij de organisator.",
+    "website_url": "https://www.singerlaren.nl/nl/agenda/herman-kruyder-1881-1935-5t3s",
+    "inventory_key": "event:https://www.singerlaren.nl/nl/agenda/herman-kruyder-1881-1935-5t3s:2026-09-23",
+    "street_address": "Oude Drift 1",
+    "operating_status": "open",
+    "selection_reason": "Zelfstandige tijdelijke presentatie uit het volledige officiële museumprogramma, met bevestigde begin- en einddatum.",
+    "coordinate_source": "https://www.singerlaren.nl/nl/theme/tentoonstellingen-dnc9",
+    "publication_status": "published",
+    "coordinate_precision": "address"
   }
 ]

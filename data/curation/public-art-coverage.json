@@ -37,9 +37,155 @@
     },
     {
       "province": "Flevoland",
-      "status": "pending",
-      "last_reviewed": null,
-      "municipalities_reviewed": []
+      "status": "partial",
+      "last_reviewed": "2026-10-05",
+      "municipalities_reviewed": [
+        "Almere",
+        "Lelystad",
+        "Dronten",
+        "Noordoostpolder",
+        "Zeewolde"
+      ],
+      "run_id": "89fbda36-9ac4-472f-9244-e5f41b73e666",
+      "commissioners_reviewed": [
+        "Gemeente Almere",
+        "Gemeente Zeewolde",
+        "Provincie Flevoland",
+        "Natuurmonumenten",
+        "Rijksdienst voor het Cultureel Erfgoed"
+      ],
+      "artists_reviewed": [
+        "Daniel Libeskind",
+        "Richard Serra",
+        "Marinus Boezem",
+        "Paul de Kort",
+        "Bob Gramsma",
+        "RAAAF en Atelier de Lyon"
+      ],
+      "evidence": [
+        {
+          "name": "Riff, PD#18245",
+          "source_urls": [
+            "https://www.landartflevoland.nl/locaties/coordinaten/",
+            "https://www.landartflevoland.nl/locaties/",
+            "https://www.landartflevoland.nl/kunstwerken/bob-gramsma-riff-pd-18245/"
+          ],
+          "status": "resolved",
+          "remaining": []
+        },
+        {
+          "name": "Exposure",
+          "source_urls": [
+            "https://www.landartflevoland.nl/locaties/coordinaten/",
+            "https://www.landartflevoland.nl/locaties/"
+          ],
+          "status": "resolved",
+          "remaining": []
+        },
+        {
+          "name": "PIER+HORIZON",
+          "source_urls": [
+            "https://www.landartflevoland.nl/locaties/coordinaten/",
+            "https://www.landartflevoland.nl/locaties/",
+            "https://www.landartflevoland.nl/kunstwerken/paul-de-kort-pier-horizon/"
+          ],
+          "status": "partial",
+          "remaining": [
+            "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig."
+          ]
+        },
+        {
+          "name": "De Groene Kathedraal",
+          "source_urls": [
+            "https://www.landartflevoland.nl/locaties/coordinaten/",
+            "https://www.landartflevoland.nl/locaties/",
+            "https://landartflevoland.nl/kunstwerken/marinus-boezem-de-groene-kathedraal/"
+          ],
+          "status": "resolved",
+          "remaining": []
+        },
+        {
+          "name": "Aardzee",
+          "source_urls": [
+            "https://www.landartflevoland.nl/locaties/coordinaten/",
+            "https://www.landartflevoland.nl/locaties/"
+          ],
+          "status": "partial",
+          "remaining": [
+            "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig."
+          ]
+        },
+        {
+          "name": "Deltawerk //",
+          "source_urls": [
+            "https://www.landartflevoland.nl/locaties/coordinaten/",
+            "https://www.landartflevoland.nl/locaties/",
+            "https://www.landartflevoland.nl/kunstwerken/raaaf-atelier-de-lyon-deltawerk/"
+          ],
+          "status": "partial",
+          "remaining": [
+            "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig."
+          ]
+        },
+        {
+          "name": "De Vis voor Stavoren",
+          "source_urls": [
+            "https://11fountains.nl/fonteinen/stavoren/",
+            "https://11fountains.nl/faq/"
+          ],
+          "status": "partial",
+          "remaining": [
+            "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig."
+          ]
+        },
+        {
+          "name": "De Vleermuis",
+          "source_urls": [
+            "https://11fountains.nl/fonteinen/bolsward/",
+            "https://11fountains.nl/faq/"
+          ],
+          "status": "partial",
+          "remaining": [
+            "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig."
+          ]
+        },
+        {
+          "name": "Engelenzender",
+          "source_urls": [
+            "https://www.landartflevoland.nl/kunstwerken/engelen-angels-fm-98.0-1994/"
+          ],
+          "status": "partial",
+          "remaining": [
+            "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig.",
+            "Exact objectpunt ontbreekt; bezoekadres/route is beschreven, kaartpin niet verzonnen.",
+            "Organisator meldt downloadproblemen en app-update; actuele werking op de Houtribdijk niet bevestigd."
+          ]
+        },
+        {
+          "name": "Polderland Garden of Love and Fire",
+          "source_urls": [
+            "https://www.landartflevoland.nl/kunstwerken/daniel-libeskind-polderland-garden-of-love-and-fire/",
+            "https://www.landartflevoland.nl/locaties/coordinaten/",
+            "https://www.landartflevoland.nl/locaties/"
+          ],
+          "status": "resolved",
+          "remaining": []
+        },
+        {
+          "name": "Observatorium",
+          "source_urls": [
+            "https://www.landartflevoland.nl/locaties/coordinaten/",
+            "https://www.landartflevoland.nl/locaties/"
+          ],
+          "status": "partial",
+          "remaining": [
+            "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt; gericht vervolgonderzoek nodig."
+          ]
+        }
+      ],
+      "limitations": [
+        "Gerichte Land Art Flevoland-collectie; niet alle gemeentelijke werken of volledige kunstenaarsœuvres onderzocht. Sea Level blijft fotodossier."
+      ]
     },
     {
       "province": "Friesland",
@@ -180,5 +326,6 @@
       ]
     }
   ],
-  "note": "Drie gerichte toevoegingen; provinciebrede inventarisatie nog open. Gebruik alleen de actuele ingeschakelde bronnen."
+  "note": "Drie gerichte toevoegingen; provinciebrede inventarisatie nog open. Gebruik alleen de actuele ingeschakelde bronnen.",
+  "updated_at": "2026-10-04T22:09:47.586614+00:00"
 }

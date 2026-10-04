@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T20:02:59.426912+00:00",
+  "updated_at": "2026-10-04T22:09:47.586614+00:00",
   "scope": "Eerste uitbreiding en gerichte zoekronde; geen volledige landelijke inventarisatie.",
   "provinces": [
     {
@@ -105,6 +105,18 @@
       "url": "https://www.bezoekmijntuin.nl/tuinen/beeldentuin-sculptuur-inzicht/",
       "status": "pending",
       "reason": "Tuinenroute bevestigt Weereweg 114 Lutjewinkel, marmeren beelden van Ageeth en open dagen tot 13 september 2026; groepen tot 10 op afspraak. Actuele afspraakmogelijkheid bij eigenaar nog verifiëren."
+    }
+  ],
+  "research_rounds": [
+    {
+      "run_id": "89fbda36-9ac4-472f-9244-e5f41b73e666",
+      "province": "Flevoland",
+      "status": "partial",
+      "sources": [
+        "https://www.visitflevoland.nl/nl/locaties/48373360/galerie-en-beeldentuin-klein-afrika",
+        "https://kleinafrika.nl/contact/"
+      ],
+      "conclusion": "Klein Afrika bestaand record bevestigd; geen dubbel ingevoerd. Groene Velden nadere kandidaatinventarisatie. Overige gemeenten en kleine tuinen blijven open."
     }
   ]
 }

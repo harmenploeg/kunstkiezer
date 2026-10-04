@@ -1,0 +1,124 @@
+{
+  "checked_at": "2026-10-04T22:11:03.071452+00:00",
+  "production_domain": "https://www.loci-amsterdam.nl/kunstkiezer/",
+  "public_records_verified": 17,
+  "rows": [
+    {
+      "id": "a741fc1b-23c3-5c4a-bcc4-be3692d0aec2",
+      "name": "Riff, PD#18245",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "aa836ced-ea75-5320-aaf3-654f910bd1b6",
+      "name": "Exposure",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "2b3f2109-4373-53dc-9077-fe7d9a72e006",
+      "name": "PIER+HORIZON",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "ae97891a-3a14-5be7-8fc2-918c96aba98d",
+      "name": "De Groene Kathedraal",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "77b0b0cc-905a-5e65-a569-d1f664cf2ae2",
+      "name": "Aardzee",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "8f086c84-7670-5085-9531-9c9a3b5655dd",
+      "name": "Deltawerk //",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "0b88d7ba-4ce0-59e6-aedc-adc901d938d6",
+      "name": "De Vis voor Stavoren",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "bad119a8-6a2e-58d0-974e-d1134e2b8a21",
+      "name": "De Vleermuis",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "1a01925b-df68-586d-9a3a-bee25e0344ae",
+      "name": "Engelenzender",
+      "public_visible": false,
+      "verified": true
+    },
+    {
+      "id": "dc032a55-080d-47ac-aada-9f65b005096b",
+      "name": "Herman Kruyder. Expressionist van de ziel",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "70459c4c-8e5e-42fd-9700-7fb18d771888",
+      "name": "Vincent de Boer – Omgeven",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "17574ed0-39e6-426d-887c-5b75d619fede",
+      "name": "Otobong Nkanga – Humus Blues",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "9177b66e-c900-47c5-83e4-590c98d73d40",
+      "name": "Polderland Garden of Love and Fire",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "b3cde81c-7447-4a97-b887-5c38b441657d",
+      "name": "Etha Fles & Medardo Rosso. Voor de kunst",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "92ce6ad2-d505-4fb6-9e1c-530c81f821ee",
+      "name": "Dichter bij De denker",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "6ee27eb8-3cec-5d2e-b5cb-ae796ca91532",
+      "name": "Observatorium",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "0e99635a-f80c-45a7-b38f-27cdde43e900",
+      "name": "No Need To Pretend",
+      "public_visible": true,
+      "verified": true
+    },
+    {
+      "id": "0e601bc8-c101-471d-89ef-ad04e133cf84",
+      "name": "Over le(u)ven – Surroundings 2026",
+      "public_visible": true,
+      "verified": true
+    }
+  ],
+  "checks": [
+    "18 intended records checked against Supabase snapshot",
+    "17 open records identical via anonymous public API",
+    "Engelenzender remains hidden with unknown status",
+    "8 new inventory keys unique",
+    "80-word summaries and paired coordinates valid",
+    "photo provenance complete where photo published",
+    "131 public artworks below maximum 1000"
+  ]
+}

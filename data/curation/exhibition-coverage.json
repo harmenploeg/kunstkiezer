@@ -1,14 +1,14 @@
 {
   "method": "docs/selectie-tentoonstellingen.md",
-  "updated_at": "2026-10-04T20:48:00.712388+00:00",
-  "run_id": "bba51f0f-447d-4419-9b07-8fdcf72bfb6a",
-  "window_from": "2026-10-04",
-  "window_to": "2026-11-04",
+  "updated_at": "2026-10-04T22:09:47.586614+00:00",
+  "run_id": "89fbda36-9ac4-472f-9244-e5f41b73e666",
+  "window_from": "2026-10-05",
+  "window_to": "2026-11-05",
   "scope": "Beginpopulatie 301 geselecteerde musea. Prioriteitsgroep is redactioneel en uitbreidbaar; externe organisatoren en ontbrekende musea blijven ontdekkingswerk. Geen landelijke volledigheidsclaim.",
   "museum_count": 301,
   "priority_museum_count": 60,
-  "complete_programs": 4,
-  "partial_programs": 3,
+  "complete_programs": 0,
+  "partial_programs": 4,
   "museums": [
     {
       "museum_id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
@@ -156,13 +156,27 @@
       "official_url": "https://www.singerlaren.nl",
       "source_group_id": "official-institutions",
       "priority": "high",
-      "status": "pending",
+      "status": "partial",
       "last_complete_check": null,
-      "last_partial_check": null,
-      "known_event_ids": [],
-      "program_pages_read": [],
+      "last_partial_check": "2026-10-04T22:09:47.586614+00:00",
+      "known_event_ids": [
+        "dc032a55-080d-47ac-aada-9f65b005096b",
+        "70459c4c-8e5e-42fd-9700-7fb18d771888",
+        "17574ed0-39e6-426d-887c-5b75d619fede",
+        "b3cde81c-7447-4a97-b887-5c38b441657d",
+        "92ce6ad2-d505-4fb6-9e1c-530c81f821ee"
+      ],
+      "program_pages_read": [
+        "https://www.singerlaren.nl/nl/theme/tentoonstellingen-dnc9",
+        "https://www.singerlaren.nl/nl/agenda/herman-kruyder-1881-1935-5t3s",
+        "https://www.singerlaren.nl/nl/agenda/vincent-de-boer-omgeven-yzfj",
+        "https://www.singerlaren.nl/nl/agenda/otobong-nkanga-humus-blues-yz1h",
+        "https://www.singerlaren.nl/nl/agenda/etha-fles-medardo-rosso-voor-de-kunst-6544",
+        "https://www.singerlaren.nl/nl/agenda/dichter-bij-de-denker-zw16",
+        "https://www.singerlaren.nl/nl/agenda/carlijn-kingma-de-machinerie-van-de-volkshuisvesting-mdyw"
+      ],
       "remaining": [
-        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+        "Kingma: einddatumconflict 4/10 januari 2027. Vijf andere relevante tentoonstellingen gepubliceerd; drie programma-items na 5 november buiten huidig kalendermaandvenster."
       ]
     },
     {
