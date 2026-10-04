@@ -1,7 +1,7 @@
 {
   "run_id": "bba51f0f-447d-4419-9b07-8fdcf72bfb6a",
   "research_date": "2026-10-04",
-  "updated_at": "2026-10-04T20:48:00.712388+00:00",
+  "updated_at": "2026-10-04T21:44:55.187405+00:00",
   "agenda_window_end": "2026-11-04",
   "scope": "Partij met bronnenonderzoek en individuele dossiers; onvolledige bronnen worden expliciet verantwoord, geen claim van volledige landelijke dekking.",
   "sources_snapshot": [
@@ -1347,7 +1347,7 @@
   ],
   "verification": {
     "baseline": "750 geselecteerde records gelezen uit actuele database; niet-geselecteerde musea uitgesloten.",
-    "database": "Alle tien gewijzigde/nieuwe records opnieuw gelezen; elk bedoeld veld vergeleken. Twee optimistische updates zonder conflict, acht inserts. Bestaande handmatige redactiewijzigingen behouden. De database voegt via bestaande trigger waar mogelijk automatisch een maker-tag toe; gecontroleerd en meegenomen.",
+    "database": "Alle vijftien gewijzigde/nieuwe records opnieuw gelezen en elk bedoeld veld vergeleken: dertien inserts en twee optimistische updates zonder conflict. Bestaande handmatige redactiewijzigingen behouden. Automatisch toegevoegde maker-tags gecontroleerd.",
     "public_api": {
       "checked_at": "2026-10-04T20:48:01.398052+00:00",
       "results": [
@@ -1415,12 +1415,17 @@
     },
     "tests": "Definitieve inhoud: npm run check, typecheck, 51/51 tests, productiebuild geslaagd.",
     "production": {
-      "integration_commit": "fa36da7ee4aea77b634bd68c188cfc9045a433c7",
-      "source_commit": "30eb7c03b22b9314db4404062c23a7a5f05bb63a",
-      "quality_run": 37232438392,
-      "status": "superseded",
+      "integration_commit": "bbbd91c0f685942a510396c68427ff212b4acffb",
+      "source_commit": "b1b55b0f80f1eee1043057aae62c9d9cce472618",
+      "quality_run": 37235873258,
+      "status": "success",
       "domain": "https://www.loci-amsterdam.nl/kunstkiezer/",
-      "note": "Hoofdtaak annuleerde fa36-run en publiceert identieke oorspronkelijke catalogi met UI in d37d6c3. Daarna is nieuwe contentpublicatie nodig voor deze vijf aanvullende evenementen."
+      "catalog_verification": "Alle vijf catalogusbestanden identiek aan inhoudelijke integratie 9739256; git-diff gecontroleerd.",
+      "production_smoke_run": 37237275725,
+      "production_verified_at": "2026-10-04T21:44:13.4561772Z",
+      "evidence": "CI op het echte productiedomein bevestigt bron b1b55b0f80f1eee1043057aae62c9d9cce472618: routes, assets, alle vijf catalogusdownloads, database, Voyager-kaarttegel en drie rangschikkingsgewichten werken.",
+      "quality_url": "https://github.com/harmenploeg/interactief/actions/runs/37235873258",
+      "production_smoke_url": "https://github.com/harmenploeg/interactief/actions/runs/37237275725"
     },
     "catalog_comparison": {
       "count": 794,
@@ -1488,8 +1493,8 @@
       ],
       "explanation": "Uitsluitend twaalf automatisch toegevoegde maker-tags in de afzonderlijke beeldentuinuitbreiding. Geen overige veldverschillen; hoofdtaak-tuinbestand behouden."
     },
-    "integration": "Schone checkout vanaf 1ca1dd2; npm run check:release en 6/6 integratietests geslaagd. Integratiecommit fa36da7 voorbereid; uitsluitend twee catalogi, version.json en integratiedocumentatie gewijzigd.",
-    "isolated_build": "Bronrevisie 30eb7c03b22b9314db4404062c23a7a5f05bb63a in aparte schone checkout geïnstalleerd en gecontroleerd: typecheck, 51/51 tests, build geslaagd.",
+    "integration": "Schone checkout vanaf d37d6c3; npm run check:release en 6/6 integratietests geslaagd. Voorbereide integratie 9739256611fe8c0db509a82bbd3410d987afb746 wijzigt uitsluitend evenementen.json, version.json en integratiedocumentatie.",
+    "isolated_build": "Definitieve bronrevisie 4e8144360ca6178bbe13493ca0e4724101d4f41d in schone checkout: typecheck, 51/51 tests en productiebuild geslaagd.",
     "previous_release": {
       "integration_commit": "1ca1dd220ff9f973c7c678689a7a80ac272a274c",
       "source_commit": "2b7604858692d44f0ef4cc050497286988b0fecd",
@@ -1503,7 +1508,36 @@
       "integration_commit": "d37d6c38d41f86827ea4f1a329cd178be4a44448",
       "source_commit": "ebfa96a90bb481183e536945fc21ce6cc83e2038",
       "quality_run": 37232969590,
-      "status": "in_progress"
+      "status": "success",
+      "production_smoke_run": 37234809122,
+      "production_verified_at": "2026-10-04T21:07:43.9882191Z"
+    },
+    "final_content_build": "Bron 4e8144360ca6178bbe13493ca0e4724101d4f41d uit schone checkout: typecheck, 51 tests en productiebuild geslaagd. Loci check:release en zes integratietests geslaagd. Ten opzichte van d37d6c3 veranderen alleen evenementen.json en versie/documentatie; runtime en overige catalogi identiek.",
+    "ui_source_tests": {
+      "run": 37232887930,
+      "source_commit": "ebfa96a90bb481183e536945fc21ce6cc83e2038",
+      "status": "success"
+    },
+    "superseded_content_attempt": {
+      "integration_commit": "fa36da7ee4aea77b634bd68c188cfc9045a433c7",
+      "source_commit": "30eb7c03b22b9314db4404062c23a7a5f05bb63a",
+      "quality_run": 37232438392,
+      "status": "superseded",
+      "domain": "https://www.loci-amsterdam.nl/kunstkiezer/",
+      "note": "Hoofdtaak annuleerde fa36-run en publiceert identieke oorspronkelijke catalogi met UI in d37d6c3. Daarna is nieuwe contentpublicatie nodig voor deze vijf aanvullende evenementen."
+    },
+    "final_content_attempt": {
+      "integration_commit": "9739256611fe8c0db509a82bbd3410d987afb746",
+      "source_commit": "4e8144360ca6178bbe13493ca0e4724101d4f41d",
+      "status": "superseded",
+      "domain": "https://www.loci-amsterdam.nl/kunstkiezer/",
+      "quality_run": 37234854352,
+      "note": "Navigatieherstel bbbd91c is directe opvolger en behoudt alle vijf catalogusbestanden exact. Eigen overbodige kwaliteitsrun geannuleerd om gecombineerde publicatie vrij te geven; oude deployment zou terecht weigeren omdat main inmiddels verder staat."
+    },
+    "navigation_source_tests": {
+      "run": 37235845579,
+      "source_commit": "b1b55b0f80f1eee1043057aae62c9d9cce472618",
+      "status": "success"
     }
   },
   "backlog_counts": {
@@ -1967,5 +2001,11 @@
     "partial_programs": 3,
     "note": "Vier volledige programma-overzichten inhoudelijk gecontroleerd; Mixed Mesdag blijft een ontbrekende invoer door datumconflict. Dertien nieuwe records totaal, geen nationale volledigheidsclaim.",
     "additional_organizers": 5
+  },
+  "completion": {
+    "verified_at": "2026-10-04T21:44:55.187405+00:00",
+    "result": "13 evenementen toegevoegd, 2 museumteksten gecorrigeerd en 6 bestaande dossiers afgerond. Productie geverifieerd.",
+    "continuation_required": true,
+    "remaining": "595 pending, 98 resolved, 1 blocked. Uitvoerbare dossiers resteren. Bronbeperkingen en datumconflicten blijven zichtbaar."
   }
 }
