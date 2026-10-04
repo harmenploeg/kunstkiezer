@@ -31,17 +31,17 @@
       "visible_on_research_date": 184
     },
     "evenementen": {
-      "total": 95,
-      "published": 95,
+      "total": 100,
+      "published": 100,
       "archived": 0,
       "draft": 0,
       "with_photos": 91,
       "precise_locations": 93,
-      "visible_on_research_date": 94
+      "visible_on_research_date": 99
     }
   },
-  "total": 488,
-  "remaining_records": 336,
+  "total": 493,
+  "remaining_records": 341,
   "remaining": [
     {
       "id": "ec559317-ad1c-58c4-bce2-8118f292d3f2",
@@ -2685,6 +2685,61 @@
       "website_url": "https://impakt.nl/nl/events/2026/tentoonstelling/data-never-dies/",
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "234b8c4d-2118-5630-9336-f277be2d95bc",
+      "inventory_key": "event:museumnachtdenhaag.nl/en/programma:2026-10-10",
+      "category": "evenementen",
+      "name": "Museumnacht Den Haag 2026",
+      "website_url": "https://museumnachtdenhaag.nl/en/programma/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "4ed8fad1-2296-5388-9991-14d9f8ca0443",
+      "inventory_key": "event:2026.manifestations.nl/over:2026-10-17",
+      "category": "evenementen",
+      "name": "Manifestations 2026 — MUTE",
+      "website_url": "https://2026.manifestations.nl/over/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "5a48d80e-3585-5c09-904b-59941a92423d",
+      "inventory_key": "event:bredaphoto.nl/nl:2026-09-11",
+      "category": "evenementen",
+      "name": "BredaPhoto Festival 2026 — Our Songs Came Through",
+      "website_url": "https://bredaphoto.nl/nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "5aca41c7-5719-5972-9832-7da4f28b5485",
+      "inventory_key": "event:www.kunstmaandameland.com/thema:2026-11-01",
+      "category": "evenementen",
+      "name": "Kunstmaand Ameland 2026 — TIJDLOOS",
+      "website_url": "https://www.kunstmaandameland.com/thema/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "a38df32f-c893-539d-bf22-c3584719c388",
+      "inventory_key": "event:dekunst10daagse.nl:2026-10-16",
+      "category": "evenementen",
+      "name": "Kunst10Daagse 2026",
+      "website_url": "https://dekunst10daagse.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
       ]
     }
   ]

@@ -77,27 +77,34 @@
   ],
   "additional_candidates": [
     {
-      "name": "De Gerichtshof / Eenumermaar",
+      "name": "De Gerichtshof",
       "url": "https://www.steenbeelden.nl/?page_id=16",
       "status": "pending",
       "reason": "Eigenaar bevestigt tuin en adres, maar publiceert nog bezoekseizoen 2025. Huidige openstelling verifiëren."
     },
     {
+      "name": "Beeldentuin Eenumermaar",
+      "url": "https://www.eenumermaar.nl/",
+      "status": "pending",
+      "reason": "Andere locatie dan De Gerichtshof: Tolweg 4 in Zeerijp. Regionale bron noemt tuin; actuele primaire bezoekinformatie nog verifiëren."
+    },
+    {
       "name": "Kunst aan de Lek",
       "url": "https://www.kunstaandelek.nl/",
       "status": "pending",
-      "reason": "Regionale vermelding gevonden; primaire site leverde geen inhoud. Browsercontrole en actuele bezoekbaarheid nog nodig."
+      "reason": "Visit Utrecht Region noemt vrij-zo 13–17 uur van 3 mei tot 3 oktober, daarnaast op afspraak. Primaire site levert geen inhoud; huidige afspraakmogelijkheid nog bij eigenaar verifiëren."
     },
     {
       "name": "Galerie De Queeste",
       "status": "pending",
-      "reason": "Gevonden via Gelderlandse tuinenagenda; actuele primaire bron en bezoekbaarheid nog onderzoeken."
+      "reason": "Secundaire bronnen spreken elkaar tegen: seizoen mei–september op afspraak versus za/zo 14–17 uur. Primaire site niet bereikbaar via onderzoekstool; huidige openstelling niet vastgesteld.",
+      "url": "https://www.galeriedequeeste.nl/"
     },
     {
       "name": "Sculptuur inZicht",
       "url": "https://www.bezoekmijntuin.nl/tuinen/beeldentuin-sculptuur-inzicht/",
       "status": "pending",
-      "reason": "Nieuwe kandidaat uit tuinenroute; eigenaar en actuele openstelling nog controleren."
+      "reason": "Tuinenroute bevestigt Weereweg 114 Lutjewinkel, marmeren beelden van Ageeth en open dagen tot 13 september 2026; groepen tot 10 op afspraak. Actuele afspraakmogelijkheid bij eigenaar nog verifiëren."
     }
   ]
 }

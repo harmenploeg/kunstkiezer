@@ -5163,5 +5163,215 @@
     "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-ea4108a09f03bea8b5032ba25f0abc5c",
     "publication_status": "published",
     "coordinate_precision": "address"
+  },
+  {
+    "id": "234b8c4d-2118-5630-9336-f277be2d95bc",
+    "city": "Den Haag en Voorburg",
+    "name": "Museumnacht Den Haag 2026",
+    "tags": [
+      "tentoonstelling",
+      "hedendaagse kunst",
+      "schilderkunst"
+    ],
+    "year": "2026",
+    "photos": [],
+    "creator": "Diverse kunstenaars",
+    "ends_on": "2026-10-11",
+    "sources": [
+      {
+        "url": "https://museumnachtdenhaag.nl/en/programma/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+      }
+    ],
+    "summary": "Musea en kunstplekken openen tijdens één avond hun deuren voor tentoonstellingen, rondleidingen en maakactiviteiten. Kies bijvoorbeeld kunstprogramma’s bij het Kunstmuseum, Mauritshuis, Escher in Het Paleis en 1646. Deelnemende locaties bieden elk een eigen programma.",
+    "category": "evenementen",
+    "latitude": null,
+    "province": "Zuid-Holland",
+    "longitude": null,
+    "museum_id": null,
+    "starts_on": "2026-10-10",
+    "created_at": "2026-10-04T20:46:07.442339+00:00",
+    "updated_at": "2026-10-04T20:46:07.493236+00:00",
+    "visit_notes": "Zaterdag 10 oktober vanaf 19.00 uur tot na middernacht in de nacht naar 11 oktober. Museumnachtticket nodig; sommige onderdelen vereisen reservering. Gebruik het officiële programma voor locaties, tijden en vervoer. Geen één locatie omvattend kaartpunt.",
+    "website_url": "https://museumnachtdenhaag.nl/en/programma/",
+    "inventory_key": "event:museumnachtdenhaag.nl/en/programma:2026-10-10",
+    "street_address": "Diverse deelnemende musea en kunstlocaties in Den Haag en Voorburg",
+    "operating_status": "open",
+    "selection_reason": "Zelfstandig kunstevenement met beeldende kunst als wezenlijk onderdeel; editie, looptijd en bezoekcontext bij de organisator bevestigd. Loopt nu of start binnen één kalendermaand.",
+    "coordinate_source": "",
+    "publication_status": "published",
+    "coordinate_precision": "unknown"
+  },
+  {
+    "id": "4ed8fad1-2296-5388-9991-14d9f8ca0443",
+    "city": "Eindhoven",
+    "name": "Manifestations 2026 — MUTE",
+    "tags": [
+      "tentoonstelling",
+      "digitale kunst",
+      "installaties",
+      "design",
+      "technologie"
+    ],
+    "year": "2026",
+    "photos": [],
+    "creator": "Diverse kunstenaars",
+    "ends_on": "2026-10-25",
+    "sources": [
+      {
+        "url": "https://2026.manifestations.nl/over/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+      }
+    ],
+    "summary": "Kunstenaars onderzoeken welke stemmen technologie versterkt, vervormt of laat verdwijnen. Interactieve installaties, robotica, digitale kunst en ontwerp maken maatschappelijke vragen tastbaar. De gratis expositie tijdens Dutch Design Week geeft veel ruimte aan jonge makers.",
+    "category": "evenementen",
+    "latitude": null,
+    "province": "Noord-Brabant",
+    "longitude": null,
+    "museum_id": null,
+    "starts_on": "2026-10-17",
+    "created_at": "2026-10-04T20:46:07.442339+00:00",
+    "updated_at": "2026-10-04T20:46:07.489137+00:00",
+    "visit_notes": "17–25 oktober, dagelijks 11.00–18.30 uur. Gratis toegang. Achtste verdieping van het Veemgebouw; de organisator vermeldt een aparte rolstoelingang. Exacte publieksingang nog niet als kaartpunt bevestigd.",
+    "website_url": "https://2026.manifestations.nl/over/",
+    "inventory_key": "event:2026.manifestations.nl/over:2026-10-17",
+    "street_address": "VEEM, vloer 8, Torenallee 100, 5617 BE Eindhoven",
+    "operating_status": "open",
+    "selection_reason": "Zelfstandig kunstevenement met beeldende kunst als wezenlijk onderdeel; editie, looptijd en bezoekcontext bij de organisator bevestigd. Loopt nu of start binnen één kalendermaand.",
+    "coordinate_source": "",
+    "publication_status": "published",
+    "coordinate_precision": "unknown"
+  },
+  {
+    "id": "5a48d80e-3585-5c09-904b-59941a92423d",
+    "city": "Breda",
+    "name": "BredaPhoto Festival 2026 — Our Songs Came Through",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "hedendaagse kunst"
+    ],
+    "year": "2026",
+    "photos": [],
+    "creator": "Diverse kunstenaars",
+    "ends_on": "2026-10-25",
+    "sources": [
+      {
+        "url": "https://bredaphoto.nl/nl/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+      },
+      {
+        "url": "https://bredaphoto.nl/nl/plan-je-bezoek/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+      },
+      {
+        "url": "https://bredaphoto.nl/nl/locatie/carre-chasse/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+      }
+    ],
+    "summary": "Meer dan veertig fotografen en kunstenaars verkennen verhalen over troost, veerkracht en verbondenheid. Tentoonstellingen op binnen- en buitenlocaties laten je Breda te voet ontdekken. Festivalhart Carré Chassé brengt verschillende makers, een informatiepunt en de boekenwinkel samen.",
+    "category": "evenementen",
+    "latitude": null,
+    "province": "Noord-Brabant",
+    "longitude": null,
+    "museum_id": null,
+    "starts_on": "2026-09-11",
+    "created_at": "2026-10-04T20:46:07.442339+00:00",
+    "updated_at": "2026-10-04T20:46:07.486647+00:00",
+    "visit_notes": "Meerdere locaties. De organisator adviseert starten bij Carré Chassé, Chasséveld 3A. Dinsdag–zondag 10.00–17.00 uur; festivalkaart nodig voor binnenlocaties zoals Carré Chassé. Bekijk per locatie toegankelijkheid en route.",
+    "website_url": "https://bredaphoto.nl/nl/",
+    "inventory_key": "event:bredaphoto.nl/nl:2026-09-11",
+    "street_address": "Festivalstart Carré Chassé, Chasséveld 3A; overige locaties in Breda",
+    "operating_status": "open",
+    "selection_reason": "Zelfstandig kunstevenement met beeldende kunst als wezenlijk onderdeel; editie, looptijd en bezoekcontext bij de organisator bevestigd. Loopt nu of start binnen één kalendermaand.",
+    "coordinate_source": "",
+    "publication_status": "published",
+    "coordinate_precision": "unknown"
+  },
+  {
+    "id": "5aca41c7-5719-5972-9832-7da4f28b5485",
+    "city": "Ameland",
+    "name": "Kunstmaand Ameland 2026 — TIJDLOOS",
+    "tags": [
+      "tentoonstelling",
+      "hedendaagse kunst"
+    ],
+    "year": "2026",
+    "photos": [],
+    "creator": "Diverse kunstenaars",
+    "ends_on": "2026-11-30",
+    "sources": [
+      {
+        "url": "https://www.kunstmaandameland.com/thema/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+      },
+      {
+        "url": "https://www.kunstmaandameland.com/veelgestelde-vragen/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+      }
+    ],
+    "summary": "De dertigste Kunstmaand Ameland onderzoekt onder de titel TIJDLOOS hoe kunst omgaat met herinnering, verandering en tijd. Kunstenaars tonen werk in gebouwen en buitenlocaties verspreid over het eiland. Combineer de exposities met de actuele route en het aanvullende programma.",
+    "category": "evenementen",
+    "latitude": null,
+    "province": "Friesland",
+    "longitude": null,
+    "museum_id": null,
+    "starts_on": "2026-11-01",
+    "created_at": "2026-10-04T20:46:07.442339+00:00",
+    "updated_at": "2026-10-04T20:46:07.485381+00:00",
+    "visit_notes": "Eilandbreed programma, van 1 november 13.30 tot 30 november 13.30 uur. Galerie November is informatiepunt én een van de expositielocaties. Controleer per locatie de opening en reserveer aanvullende activiteiten waar nodig. Reis naar het eiland afzonderlijk plannen.",
+    "website_url": "https://www.kunstmaandameland.com/thema/",
+    "inventory_key": "event:www.kunstmaandameland.com/thema:2026-11-01",
+    "street_address": "Diverse locaties op Ameland; informatiepunt Galerie November, Bureweg 2, Nes",
+    "operating_status": "open",
+    "selection_reason": "Zelfstandig kunstevenement met beeldende kunst als wezenlijk onderdeel; editie, looptijd en bezoekcontext bij de organisator bevestigd. Loopt nu of start binnen één kalendermaand.",
+    "coordinate_source": "",
+    "publication_status": "published",
+    "coordinate_precision": "unknown"
+  },
+  {
+    "id": "a38df32f-c893-539d-bf22-c3584719c388",
+    "city": "Bergen en Bergen aan Zee",
+    "name": "Kunst10Daagse 2026",
+    "tags": [
+      "tentoonstelling",
+      "hedendaagse kunst"
+    ],
+    "year": "2026",
+    "photos": [],
+    "creator": "Diverse kunstenaars",
+    "ends_on": "2026-10-25",
+    "sources": [
+      {
+        "url": "https://dekunst10daagse.nl/",
+        "provider": "Officiële organisator",
+        "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+      }
+    ],
+    "summary": "Meer dan driehonderd kunstenaars en galeries tonen werk op ruim honderddertig plekken in Bergen, Bergen aan Zee en het buitengebied. Musea, ateliers, winkels, tuinen en woningen vormen samen een kunstroute. Stel met de deelnemerslijst en routekaarten je eigen bezoek samen.",
+    "category": "evenementen",
+    "latitude": null,
+    "province": "Noord-Holland",
+    "longitude": null,
+    "museum_id": null,
+    "starts_on": "2026-10-16",
+    "created_at": "2026-10-04T20:46:07.442339+00:00",
+    "updated_at": "2026-10-04T20:46:07.458618+00:00",
+    "visit_notes": "Verspreid festival; openingstijden en toegang verschillen per expositielocatie. Gebruik de actuele deelnemerslijst en routekaarten. De prominente 2026-aankondiging noemt 16–25 oktober; een oude tekst over 2025 is niet overgenomen.",
+    "website_url": "https://dekunst10daagse.nl/",
+    "inventory_key": "event:dekunst10daagse.nl:2026-10-16",
+    "street_address": "Diverse locaties in Bergen en Bergen aan Zee",
+    "operating_status": "open",
+    "selection_reason": "Zelfstandig kunstevenement met beeldende kunst als wezenlijk onderdeel; editie, looptijd en bezoekcontext bij de organisator bevestigd. Loopt nu of start binnen één kalendermaand.",
+    "coordinate_source": "",
+    "publication_status": "published",
+    "coordinate_precision": "unknown"
   }
 ]

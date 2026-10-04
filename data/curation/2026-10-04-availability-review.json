@@ -124,7 +124,7 @@
     }
   ],
   "baseline_records": 732,
-  "current_records": 789,
+  "current_records": 794,
   "maker_updates": 54,
   "disappeared_updates": 6,
   "records": [
@@ -24771,9 +24771,257 @@
           "resolves_availability": true
         }
       ]
+    },
+    {
+      "id": "a38df32f-c893-539d-bf22-c3584719c388",
+      "name": "Kunst10Daagse 2026",
+      "category": "evenementen",
+      "operating_status": "open",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "summary",
+        "tags",
+        "street_address",
+        "visit_notes"
+      ],
+      "decisions": [
+        "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar."
+      ],
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+      ],
+      "followup_reviews": [
+        {
+          "id": "a38df32f-c893-539d-bf22-c3584719c388",
+          "name": "Kunst10Daagse 2026",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:48:00.712388+00:00",
+          "primary_sources": [
+            "https://dekunst10daagse.nl/"
+          ],
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "visit_notes"
+          ],
+          "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+          "remaining": [
+            "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+            "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+          ],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "5aca41c7-5719-5972-9832-7da4f28b5485",
+      "name": "Kunstmaand Ameland 2026 — TIJDLOOS",
+      "category": "evenementen",
+      "operating_status": "open",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "summary",
+        "tags",
+        "street_address",
+        "visit_notes"
+      ],
+      "decisions": [
+        "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar."
+      ],
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+      ],
+      "followup_reviews": [
+        {
+          "id": "5aca41c7-5719-5972-9832-7da4f28b5485",
+          "name": "Kunstmaand Ameland 2026 — TIJDLOOS",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:48:00.712388+00:00",
+          "primary_sources": [
+            "https://www.kunstmaandameland.com/thema/",
+            "https://www.kunstmaandameland.com/veelgestelde-vragen/"
+          ],
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "visit_notes"
+          ],
+          "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+          "remaining": [
+            "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+            "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+          ],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "5a48d80e-3585-5c09-904b-59941a92423d",
+      "name": "BredaPhoto Festival 2026 — Our Songs Came Through",
+      "category": "evenementen",
+      "operating_status": "open",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "summary",
+        "tags",
+        "street_address",
+        "visit_notes"
+      ],
+      "decisions": [
+        "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar."
+      ],
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Coördinaten festivalstart Chasséveld 3A nog verifiëren; festival omvat meerdere locaties."
+      ],
+      "followup_reviews": [
+        {
+          "id": "5a48d80e-3585-5c09-904b-59941a92423d",
+          "name": "BredaPhoto Festival 2026 — Our Songs Came Through",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:48:00.712388+00:00",
+          "primary_sources": [
+            "https://bredaphoto.nl/nl/",
+            "https://bredaphoto.nl/nl/plan-je-bezoek/",
+            "https://bredaphoto.nl/nl/locatie/carre-chasse/"
+          ],
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "visit_notes"
+          ],
+          "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+          "remaining": [
+            "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+            "Coördinaten festivalstart Chasséveld 3A nog verifiëren; festival omvat meerdere locaties."
+          ],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "4ed8fad1-2296-5388-9991-14d9f8ca0443",
+      "name": "Manifestations 2026 — MUTE",
+      "category": "evenementen",
+      "operating_status": "open",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "summary",
+        "tags",
+        "street_address",
+        "visit_notes"
+      ],
+      "decisions": [
+        "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar."
+      ],
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Exact punt van publieksingang VEEM nog bevestigen; PDOK vindt Torenallee 100-02, niet zonder controle als ingang vloer 8 overgenomen."
+      ],
+      "followup_reviews": [
+        {
+          "id": "4ed8fad1-2296-5388-9991-14d9f8ca0443",
+          "name": "Manifestations 2026 — MUTE",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:48:00.712388+00:00",
+          "primary_sources": [
+            "https://2026.manifestations.nl/over/"
+          ],
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "visit_notes"
+          ],
+          "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+          "remaining": [
+            "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+            "Exact punt van publieksingang VEEM nog bevestigen; PDOK vindt Torenallee 100-02, niet zonder controle als ingang vloer 8 overgenomen."
+          ],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "234b8c4d-2118-5630-9336-f277be2d95bc",
+      "name": "Museumnacht Den Haag 2026",
+      "category": "evenementen",
+      "operating_status": "open",
+      "source_checks": [],
+      "manually_verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "summary",
+        "tags",
+        "street_address",
+        "visit_notes"
+      ],
+      "decisions": [
+        "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar."
+      ],
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+      ],
+      "followup_reviews": [
+        {
+          "id": "234b8c4d-2118-5630-9336-f277be2d95bc",
+          "name": "Museumnacht Den Haag 2026",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:48:00.712388+00:00",
+          "primary_sources": [
+            "https://museumnachtdenhaag.nl/en/programma/"
+          ],
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "visit_notes"
+          ],
+          "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+          "remaining": [
+            "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+            "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+          ],
+          "resolves_availability": true
+        }
+      ]
     }
   ],
   "sleutelwerken_api_records_checked": 100,
   "latest_followup_report": "2026-10-04-review-bba51f0f.json",
-  "updated_at": "2026-10-04T20:01:37.975725+00:00"
+  "updated_at": "2026-10-04T20:48:00.712388+00:00"
 }

@@ -1,7 +1,7 @@
 {
   "run_id": "bba51f0f-447d-4419-9b07-8fdcf72bfb6a",
   "research_date": "2026-10-04",
-  "updated_at": "2026-10-04T20:01:37.975725+00:00",
+  "updated_at": "2026-10-04T20:48:00.712388+00:00",
   "agenda_window_end": "2026-11-04",
   "scope": "Partij met bronnenonderzoek en individuele dossiers; onvolledige bronnen worden expliciet verantwoord, geen claim van volledige landelijke dekking.",
   "sources_snapshot": [
@@ -608,6 +608,129 @@
         "Passende foto met maker, bron en hergebruikvoorwaarden ontbreekt."
       ],
       "resolves_availability": true
+    },
+    {
+      "id": "a38df32f-c893-539d-bf22-c3584719c388",
+      "name": "Kunst10Daagse 2026",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T20:48:00.712388+00:00",
+      "primary_sources": [
+        "https://dekunst10daagse.nl/"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "summary",
+        "tags",
+        "street_address",
+        "visit_notes"
+      ],
+      "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+      ],
+      "resolves_availability": true
+    },
+    {
+      "id": "5aca41c7-5719-5972-9832-7da4f28b5485",
+      "name": "Kunstmaand Ameland 2026 — TIJDLOOS",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T20:48:00.712388+00:00",
+      "primary_sources": [
+        "https://www.kunstmaandameland.com/thema/",
+        "https://www.kunstmaandameland.com/veelgestelde-vragen/"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "summary",
+        "tags",
+        "street_address",
+        "visit_notes"
+      ],
+      "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+      ],
+      "resolves_availability": true
+    },
+    {
+      "id": "5a48d80e-3585-5c09-904b-59941a92423d",
+      "name": "BredaPhoto Festival 2026 — Our Songs Came Through",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T20:48:00.712388+00:00",
+      "primary_sources": [
+        "https://bredaphoto.nl/nl/",
+        "https://bredaphoto.nl/nl/plan-je-bezoek/",
+        "https://bredaphoto.nl/nl/locatie/carre-chasse/"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "summary",
+        "tags",
+        "street_address",
+        "visit_notes"
+      ],
+      "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Coördinaten festivalstart Chasséveld 3A nog verifiëren; festival omvat meerdere locaties."
+      ],
+      "resolves_availability": true
+    },
+    {
+      "id": "4ed8fad1-2296-5388-9991-14d9f8ca0443",
+      "name": "Manifestations 2026 — MUTE",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T20:48:00.712388+00:00",
+      "primary_sources": [
+        "https://2026.manifestations.nl/over/"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "summary",
+        "tags",
+        "street_address",
+        "visit_notes"
+      ],
+      "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Exact punt van publieksingang VEEM nog bevestigen; PDOK vindt Torenallee 100-02, niet zonder controle als ingang vloer 8 overgenomen."
+      ],
+      "resolves_availability": true
+    },
+    {
+      "id": "234b8c4d-2118-5630-9336-f277be2d95bc",
+      "name": "Museumnacht Den Haag 2026",
+      "category": "evenementen",
+      "checked_at": "2026-10-04T20:48:00.712388+00:00",
+      "primary_sources": [
+        "https://museumnachtdenhaag.nl/en/programma/"
+      ],
+      "verified_fields": [
+        "name",
+        "starts_on",
+        "ends_on",
+        "summary",
+        "tags",
+        "street_address",
+        "visit_notes"
+      ],
+      "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+      ],
+      "resolves_availability": true
     }
   ],
   "changes": [
@@ -1014,6 +1137,206 @@
       "longitude": 5.12289039,
       "coordinate_precision": "address",
       "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-ea4108a09f03bea8b5032ba25f0abc5c"
+    },
+    {
+      "id": "a38df32f-c893-539d-bf22-c3584719c388",
+      "inventory_key": "event:dekunst10daagse.nl:2026-10-16",
+      "category": "evenementen",
+      "name": "Kunst10Daagse 2026",
+      "city": "Bergen en Bergen aan Zee",
+      "province": "Noord-Holland",
+      "street_address": "Diverse locaties in Bergen en Bergen aan Zee",
+      "website_url": "https://dekunst10daagse.nl/",
+      "summary": "Meer dan driehonderd kunstenaars en galeries tonen werk op ruim honderddertig plekken in Bergen, Bergen aan Zee en het buitengebied. Musea, ateliers, winkels, tuinen en woningen vormen samen een kunstroute. Stel met de deelnemerslijst en routekaarten je eigen bezoek samen.",
+      "creator": "Diverse kunstenaars",
+      "year": "2026",
+      "tags": [
+        "tentoonstelling",
+        "hedendaagse kunst"
+      ],
+      "photos": [],
+      "sources": [
+        {
+          "provider": "Officiële organisator",
+          "url": "https://dekunst10daagse.nl/",
+          "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+        }
+      ],
+      "selection_reason": "Zelfstandig kunstevenement met beeldende kunst als wezenlijk onderdeel; editie, looptijd en bezoekcontext bij de organisator bevestigd. Loopt nu of start binnen één kalendermaand.",
+      "visit_notes": "Verspreid festival; openingstijden en toegang verschillen per expositielocatie. Gebruik de actuele deelnemerslijst en routekaarten. De prominente 2026-aankondiging noemt 16–25 oktober; een oude tekst over 2025 is niet overgenomen.",
+      "museum_id": null,
+      "starts_on": "2026-10-16",
+      "ends_on": "2026-10-25",
+      "operating_status": "open",
+      "publication_status": "published",
+      "latitude": null,
+      "longitude": null,
+      "coordinate_precision": "unknown",
+      "coordinate_source": ""
+    },
+    {
+      "id": "5aca41c7-5719-5972-9832-7da4f28b5485",
+      "inventory_key": "event:www.kunstmaandameland.com/thema:2026-11-01",
+      "category": "evenementen",
+      "name": "Kunstmaand Ameland 2026 — TIJDLOOS",
+      "city": "Ameland",
+      "province": "Friesland",
+      "street_address": "Diverse locaties op Ameland; informatiepunt Galerie November, Bureweg 2, Nes",
+      "website_url": "https://www.kunstmaandameland.com/thema/",
+      "summary": "De dertigste Kunstmaand Ameland onderzoekt onder de titel TIJDLOOS hoe kunst omgaat met herinnering, verandering en tijd. Kunstenaars tonen werk in gebouwen en buitenlocaties verspreid over het eiland. Combineer de exposities met de actuele route en het aanvullende programma.",
+      "creator": "Diverse kunstenaars",
+      "year": "2026",
+      "tags": [
+        "tentoonstelling",
+        "hedendaagse kunst"
+      ],
+      "photos": [],
+      "sources": [
+        {
+          "provider": "Officiële organisator",
+          "url": "https://www.kunstmaandameland.com/thema/",
+          "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+        },
+        {
+          "provider": "Officiële organisator",
+          "url": "https://www.kunstmaandameland.com/veelgestelde-vragen/",
+          "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+        }
+      ],
+      "selection_reason": "Zelfstandig kunstevenement met beeldende kunst als wezenlijk onderdeel; editie, looptijd en bezoekcontext bij de organisator bevestigd. Loopt nu of start binnen één kalendermaand.",
+      "visit_notes": "Eilandbreed programma, van 1 november 13.30 tot 30 november 13.30 uur. Galerie November is informatiepunt én een van de expositielocaties. Controleer per locatie de opening en reserveer aanvullende activiteiten waar nodig. Reis naar het eiland afzonderlijk plannen.",
+      "museum_id": null,
+      "starts_on": "2026-11-01",
+      "ends_on": "2026-11-30",
+      "operating_status": "open",
+      "publication_status": "published",
+      "latitude": null,
+      "longitude": null,
+      "coordinate_precision": "unknown",
+      "coordinate_source": ""
+    },
+    {
+      "id": "5a48d80e-3585-5c09-904b-59941a92423d",
+      "inventory_key": "event:bredaphoto.nl/nl:2026-09-11",
+      "category": "evenementen",
+      "name": "BredaPhoto Festival 2026 — Our Songs Came Through",
+      "city": "Breda",
+      "province": "Noord-Brabant",
+      "street_address": "Festivalstart Carré Chassé, Chasséveld 3A; overige locaties in Breda",
+      "website_url": "https://bredaphoto.nl/nl/",
+      "summary": "Meer dan veertig fotografen en kunstenaars verkennen verhalen over troost, veerkracht en verbondenheid. Tentoonstellingen op binnen- en buitenlocaties laten je Breda te voet ontdekken. Festivalhart Carré Chassé brengt verschillende makers, een informatiepunt en de boekenwinkel samen.",
+      "creator": "Diverse kunstenaars",
+      "year": "2026",
+      "tags": [
+        "tentoonstelling",
+        "fotografie",
+        "hedendaagse kunst"
+      ],
+      "photos": [],
+      "sources": [
+        {
+          "provider": "Officiële organisator",
+          "url": "https://bredaphoto.nl/nl/",
+          "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+        },
+        {
+          "provider": "Officiële organisator",
+          "url": "https://bredaphoto.nl/nl/plan-je-bezoek/",
+          "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+        },
+        {
+          "provider": "Officiële organisator",
+          "url": "https://bredaphoto.nl/nl/locatie/carre-chasse/",
+          "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+        }
+      ],
+      "selection_reason": "Zelfstandig kunstevenement met beeldende kunst als wezenlijk onderdeel; editie, looptijd en bezoekcontext bij de organisator bevestigd. Loopt nu of start binnen één kalendermaand.",
+      "visit_notes": "Meerdere locaties. De organisator adviseert starten bij Carré Chassé, Chasséveld 3A. Dinsdag–zondag 10.00–17.00 uur; festivalkaart nodig voor binnenlocaties zoals Carré Chassé. Bekijk per locatie toegankelijkheid en route.",
+      "museum_id": null,
+      "starts_on": "2026-09-11",
+      "ends_on": "2026-10-25",
+      "operating_status": "open",
+      "publication_status": "published",
+      "latitude": null,
+      "longitude": null,
+      "coordinate_precision": "unknown",
+      "coordinate_source": ""
+    },
+    {
+      "id": "4ed8fad1-2296-5388-9991-14d9f8ca0443",
+      "inventory_key": "event:2026.manifestations.nl/over:2026-10-17",
+      "category": "evenementen",
+      "name": "Manifestations 2026 — MUTE",
+      "city": "Eindhoven",
+      "province": "Noord-Brabant",
+      "street_address": "VEEM, vloer 8, Torenallee 100, 5617 BE Eindhoven",
+      "website_url": "https://2026.manifestations.nl/over/",
+      "summary": "Kunstenaars onderzoeken welke stemmen technologie versterkt, vervormt of laat verdwijnen. Interactieve installaties, robotica, digitale kunst en ontwerp maken maatschappelijke vragen tastbaar. De gratis expositie tijdens Dutch Design Week geeft veel ruimte aan jonge makers.",
+      "creator": "Diverse kunstenaars",
+      "year": "2026",
+      "tags": [
+        "tentoonstelling",
+        "digitale kunst",
+        "installaties",
+        "design",
+        "technologie"
+      ],
+      "photos": [],
+      "sources": [
+        {
+          "provider": "Officiële organisator",
+          "url": "https://2026.manifestations.nl/over/",
+          "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+        }
+      ],
+      "selection_reason": "Zelfstandig kunstevenement met beeldende kunst als wezenlijk onderdeel; editie, looptijd en bezoekcontext bij de organisator bevestigd. Loopt nu of start binnen één kalendermaand.",
+      "visit_notes": "17–25 oktober, dagelijks 11.00–18.30 uur. Gratis toegang. Achtste verdieping van het Veemgebouw; de organisator vermeldt een aparte rolstoelingang. Exacte publieksingang nog niet als kaartpunt bevestigd.",
+      "museum_id": null,
+      "starts_on": "2026-10-17",
+      "ends_on": "2026-10-25",
+      "operating_status": "open",
+      "publication_status": "published",
+      "latitude": null,
+      "longitude": null,
+      "coordinate_precision": "unknown",
+      "coordinate_source": ""
+    },
+    {
+      "id": "234b8c4d-2118-5630-9336-f277be2d95bc",
+      "inventory_key": "event:museumnachtdenhaag.nl/en/programma:2026-10-10",
+      "category": "evenementen",
+      "name": "Museumnacht Den Haag 2026",
+      "city": "Den Haag en Voorburg",
+      "province": "Zuid-Holland",
+      "street_address": "Diverse deelnemende musea en kunstlocaties in Den Haag en Voorburg",
+      "website_url": "https://museumnachtdenhaag.nl/en/programma/",
+      "summary": "Musea en kunstplekken openen tijdens één avond hun deuren voor tentoonstellingen, rondleidingen en maakactiviteiten. Kies bijvoorbeeld kunstprogramma’s bij het Kunstmuseum, Mauritshuis, Escher in Het Paleis en 1646. Deelnemende locaties bieden elk een eigen programma.",
+      "creator": "Diverse kunstenaars",
+      "year": "2026",
+      "tags": [
+        "tentoonstelling",
+        "hedendaagse kunst",
+        "schilderkunst"
+      ],
+      "photos": [],
+      "sources": [
+        {
+          "provider": "Officiële organisator",
+          "url": "https://museumnachtdenhaag.nl/en/programma/",
+          "retrieved_at": "2026-10-04T20:45:47.983525+00:00"
+        }
+      ],
+      "selection_reason": "Zelfstandig kunstevenement met beeldende kunst als wezenlijk onderdeel; editie, looptijd en bezoekcontext bij de organisator bevestigd. Loopt nu of start binnen één kalendermaand.",
+      "visit_notes": "Zaterdag 10 oktober vanaf 19.00 uur tot na middernacht in de nacht naar 11 oktober. Museumnachtticket nodig; sommige onderdelen vereisen reservering. Gebruik het officiële programma voor locaties, tijden en vervoer. Geen één locatie omvattend kaartpunt.",
+      "museum_id": null,
+      "starts_on": "2026-10-10",
+      "ends_on": "2026-10-11",
+      "operating_status": "open",
+      "publication_status": "published",
+      "latitude": null,
+      "longitude": null,
+      "coordinate_precision": "unknown",
+      "coordinate_source": ""
     }
   ],
   "manual_edits_preserved": [
@@ -1026,7 +1349,7 @@
     "baseline": "750 geselecteerde records gelezen uit actuele database; niet-geselecteerde musea uitgesloten.",
     "database": "Alle tien gewijzigde/nieuwe records opnieuw gelezen; elk bedoeld veld vergeleken. Twee optimistische updates zonder conflict, acht inserts. Bestaande handmatige redactiewijzigingen behouden. De database voegt via bestaande trigger waar mogelijk automatisch een maker-tag toe; gecontroleerd en meegenomen.",
     "public_api": {
-      "checked_at": "2026-10-04T20:06:56.003193+00:00",
+      "checked_at": "2026-10-04T20:48:01.398052+00:00",
       "results": [
         {
           "id": "f5b4eb15-d3db-506b-8356-724de9e15d1b",
@@ -1067,13 +1390,40 @@
         {
           "id": "efdae812-95ef-52b9-8b82-8a784b7d3604",
           "result": "Publieke Supabase-API bevat alle geverifieerde velden."
+        },
+        {
+          "id": "a38df32f-c893-539d-bf22-c3584719c388",
+          "result": "Publieke Supabase-API bevat alle geverifieerde velden."
+        },
+        {
+          "id": "5aca41c7-5719-5972-9832-7da4f28b5485",
+          "result": "Publieke Supabase-API bevat alle geverifieerde velden."
+        },
+        {
+          "id": "5a48d80e-3585-5c09-904b-59941a92423d",
+          "result": "Publieke Supabase-API bevat alle geverifieerde velden."
+        },
+        {
+          "id": "4ed8fad1-2296-5388-9991-14d9f8ca0443",
+          "result": "Publieke Supabase-API bevat alle geverifieerde velden."
+        },
+        {
+          "id": "234b8c4d-2118-5630-9336-f277be2d95bc",
+          "result": "Publieke Supabase-API bevat alle geverifieerde velden."
         }
       ]
     },
-    "tests": "npm run check: typecheck, 51/51 tests en productiebuild geslaagd.",
-    "production": "In afwachting van gecontroleerde publicatie; bestaande publicatie 1ca1dd2 eerst laten afronden.",
+    "tests": "Definitieve inhoud: npm run check, typecheck, 51/51 tests, productiebuild geslaagd.",
+    "production": {
+      "integration_commit": "fa36da7ee4aea77b634bd68c188cfc9045a433c7",
+      "source_commit": "30eb7c03b22b9314db4404062c23a7a5f05bb63a",
+      "quality_run": 37232438392,
+      "status": "superseded",
+      "domain": "https://www.loci-amsterdam.nl/kunstkiezer/",
+      "note": "Hoofdtaak annuleerde fa36-run en publiceert identieke oorspronkelijke catalogi met UI in d37d6c3. Daarna is nieuwe contentpublicatie nodig voor deze vijf aanvullende evenementen."
+    },
     "catalog_comparison": {
-      "count": 789,
+      "count": 794,
       "differences": [
         [
           "0723660f-c74d-5c79-8492-49f738c8f341",
@@ -1136,11 +1486,28 @@
           "tags"
         ]
       ],
-      "explanation": "789 lokale records vergeleken met actuele database. Twaalf beeldentuin-tagverschillen zijn automatische maker-tags van de bestaande trigger in afzonderlijk werk; tuinbestand op verzoek van hoofdtaak niet gewijzigd. Overige velden gelijk."
+      "explanation": "Uitsluitend twaalf automatisch toegevoegde maker-tags in de afzonderlijke beeldentuinuitbreiding. Geen overige veldverschillen; hoofdtaak-tuinbestand behouden."
+    },
+    "integration": "Schone checkout vanaf 1ca1dd2; npm run check:release en 6/6 integratietests geslaagd. Integratiecommit fa36da7 voorbereid; uitsluitend twee catalogi, version.json en integratiedocumentatie gewijzigd.",
+    "isolated_build": "Bronrevisie 30eb7c03b22b9314db4404062c23a7a5f05bb63a in aparte schone checkout geïnstalleerd en gecontroleerd: typecheck, 51/51 tests, build geslaagd.",
+    "previous_release": {
+      "integration_commit": "1ca1dd220ff9f973c7c678689a7a80ac272a274c",
+      "source_commit": "2b7604858692d44f0ef4cc050497286988b0fecd",
+      "quality_run": 37230754566,
+      "production_smoke_run": 37232400238,
+      "status": "success",
+      "production_verified_at": "2026-10-04T20:31:14.9230230Z"
+    },
+    "additional_database": "Vijf festivalrecords insert-only toegevoegd; alle velden na opslag vergeleken. Actuele database vooraf gecontroleerd op namen en brondomeinen: geen dubbelen.",
+    "superseding_ui_release": {
+      "integration_commit": "d37d6c38d41f86827ea4f1a329cd178be4a44448",
+      "source_commit": "ebfa96a90bb481183e536945fc21ce6cc83e2038",
+      "quality_run": 37232969590,
+      "status": "in_progress"
     }
   },
   "backlog_counts": {
-    "pending_count": 590,
+    "pending_count": 595,
     "blocked_count": 1,
     "resolved_count": 98
   },
@@ -1195,13 +1562,6 @@
       "source_url": "https://www.melkweg.nl/nl/agenda/no-need-to-pretend-11-10-2026/",
       "status": "pending",
       "remaining": "Organisator bevestigt 11 oktober–30 december 2026; bezoekcoördinaten/foto en volledige invoer nog nodig. Instagramtekst noemt afwijkend 31 december."
-    },
-    {
-      "name": "BredaPhoto — Our Songs Came Through",
-      "category": "evenementen",
-      "source_url": "https://www.nrc.nl/nieuws/2026/09/14/bredaphoto-festival-wil-de-troost-en-veerkracht-bieden-waar-nu-behoefte-aan-is-a4936173",
-      "status": "pending",
-      "remaining": "Primaire meerlocatie-/datum-/fotocontrole nog nodig."
     },
     {
       "name": "Leef! Surrealisme",
@@ -1279,6 +1639,20 @@
       "source_url": null,
       "status": "pending",
       "remaining": "Alleen aanwijzingen uit krantenindex; geen volledige artikelen/primair bewijs opgeslagen. Niet als geverifieerde kandidaat publiceren."
+    },
+    {
+      "name": "Beeldentuin rond MORE Twickel",
+      "category": "beeldenparken",
+      "source_url": "https://wilmatakesabreak.nl/musea/de-derde-more-opent-en-heet-more-twickel/",
+      "status": "pending",
+      "remaining": "Artikel noemt beeldentuin rond nieuwe museumlocatie. Ensemble, kunstwerken en toegang primair bevestigen en vergelijken met bestaande tuincatalogus."
+    },
+    {
+      "name": "Mixed Mesdag: Rarri Jackson",
+      "category": "evenementen",
+      "source_url": "https://panorama-mesdag.nl/zien-en-doen/tentoonstellingen/mixed-mesdag-rarri-jackson/",
+      "status": "pending",
+      "remaining": "Nieuw bevestigd kunstprogramma tot 9 mei 2027. Overzicht en kop noemen begin 11 september; alinea noemt 12 september 2026. Datumverschil eerst expliciet oplossen; niet blind invoeren."
     }
   ],
   "sources_snapshot_at_end": [
@@ -1572,13 +1946,26 @@
     }
   ],
   "source_review_file": "bba51f0f-447d-4419-9b07-8fdcf72bfb6a-source-review.json",
-  "source_coverage": "Onvolledig; zie elke bronrij. Twee beeldentuinbronnen toegevoegd tijdens deze partij en nog niet opnieuw onderzocht.",
+  "source_coverage": "35 actieve bronnen verantwoord; Wilma Takes a Break en Museumkijker volledig binnen het nieuwsvenster gelezen. Overige 33 bronnen gedeeltelijk, niet gecontroleerd of geblokkeerd; zie bronrijen.",
   "date_conflicts": [
     "Wonder Walls: actuele organisator noemt 29 maart 2027; secundaire 28 maart niet overgenomen.",
-    "No Need To Pretend: organisator noemt 30 december; Instagramtekst 31 december niet overgenomen."
+    "No Need To Pretend: organisator noemt 30 december; Instagramtekst 31 december niet overgenomen.",
+    "Kunst10Daagse: prominente datum en aparte 2026-alinea bevestigen 16–25 oktober; achtergebleven 2025-tekst niet gebruikt.",
+    "Kunstmaand Ameland: echte browser bevestigt actuele editie 2026 TIJDLOOS. Homepage bevat oude voorbeeldinhoud; thema en FAQ als primaire basis gebruikt.",
+    "Museumnacht Den Haag: 10 oktober vanaf 19 uur, onderdelen lopen na middernacht. ends_on=11 oktober, nachtverloop expliciet toegelicht."
   ],
   "concurrent_work_preserved": "Broncommit 2b76048: 31 beeldentuindossiers en loginredirect van hoofdtaak behouden; geen eigen tuinmutaties.",
-  "catalog_total": 789,
-  "technical_remaining": 336,
-  "resolved_existing_this_batch": 6
+  "catalog_total": 794,
+  "technical_remaining": 341,
+  "resolved_existing_this_batch": 6,
+  "lease_renewed_at": "2026-10-04T20:32:02.70452Z",
+  "next_reconciliation": "Twaalf automatische maker-tags in nieuwe beeldentuindossiers staan al in de database, maar nog niet in de broncatalogus; inhoud van parallelle hoofdtaak behouden. Bij volgende catalogussynchronisatie gecontroleerd meenemen.",
+  "exhibition_coverage": {
+    "museum_count": 301,
+    "priority_museum_count": 60,
+    "complete_programs": 4,
+    "partial_programs": 3,
+    "note": "Vier volledige programma-overzichten inhoudelijk gecontroleerd; Mixed Mesdag blijft een ontbrekende invoer door datumconflict. Dertien nieuwe records totaal, geen nationale volledigheidsclaim.",
+    "additional_organizers": 5
+  }
 }

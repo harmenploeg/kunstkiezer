@@ -69,3 +69,7 @@ Lees en volg `docs/instagram-bronnen.md` vóór iedere Instagramcontrole. De eer
 ## Ontbrekende beeldentuinen systematisch zoeken
 
 Lees ook `docs/selectie-beeldentuinen.md`. Werk de provinciale dekking in `data/curation/garden-coverage.json` bij. De aangeleverde lijst van 42 tuinen en acht beperkingen moet herleidbaar zijn tot een record of een gemotiveerd dossier. Naast dossieronderhoud blijven kleinere galerie- en kunstenaarstuinen, museumtuinen en beeldenroutes expliciete zoekingangen. Controleer seizoenssluiting, afspraken en ticketbeschikbaarheid afzonderlijk.
+
+## Volledige tentoonstellingsprogramma’s
+
+Lees ook `docs/selectie-tentoonstellingen.md` en werk `data/curation/exhibition-coverage.json` bij. Controleer alle relevante tijdelijke tentoonstellingen van de grote musea via hun volledige officiële programma’s; vul aan met opmerkelijk aanbod van kleinere instellingen en evenementen. Losse recensies en toegevoegde evenementen zijn geen bewijs van volledige museadekking. Benoem per run de gecontroleerde en nog ontbrekende programma’s.

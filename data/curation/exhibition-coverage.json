@@ -1,0 +1,5048 @@
+{
+  "method": "docs/selectie-tentoonstellingen.md",
+  "updated_at": "2026-10-04T20:48:00.712388+00:00",
+  "run_id": "bba51f0f-447d-4419-9b07-8fdcf72bfb6a",
+  "window_from": "2026-10-04",
+  "window_to": "2026-11-04",
+  "scope": "Beginpopulatie 301 geselecteerde musea. Prioriteitsgroep is redactioneel en uitbreidbaar; externe organisatoren en ontbrekende musea blijven ontdekkingswerk. Geen landelijke volledigheidsclaim.",
+  "museum_count": 301,
+  "priority_museum_count": 60,
+  "complete_programs": 4,
+  "partial_programs": 3,
+  "museums": [
+    {
+      "museum_id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
+      "name": "Rijksmuseum Amsterdam",
+      "province": "Noord-Holland",
+      "official_url": "https://www.rijksmuseum.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "f1d74863-cd61-5c18-9dfc-a54fa1bf8593",
+        "eb9eb168-d4b3-5122-9bca-ef104fabd5b8"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "8ca65b0c-71eb-5178-bc9d-6e321af6995c",
+      "name": "Van Gogh Museum",
+      "province": "Noord-Holland",
+      "official_url": "https://www.vangoghmuseum.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "e5d061b9-6bc9-5d82-8674-70b2023d39c1",
+        "fa2e32a7-08c8-5894-9ea3-2826216c63c5",
+        "49b7b4df-63fe-5344-a82e-ff4dd02ebdca"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "45f722c3-7566-502a-93ee-acda64e7cdb0",
+      "name": "Kröller-Müller Museum",
+      "province": "Gelderland",
+      "official_url": "https://www.krollermuller.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "44b67c66-7c7d-52a5-8b03-85639a482e9b",
+        "16c9c211-e96f-514f-98ea-03c2b2e0ddbe",
+        "2be3acfc-4745-5574-8b30-3552eeb04288",
+        "85b25102-6abc-5809-a92d-4c89137a459d",
+        "a57f2fcb-a055-5b92-9a40-da8cfd082610",
+        "c2c9b858-9a38-51a0-bfb7-8b80e0972922"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "d40cd0e8-52f2-5f2d-b452-4caad4718c94",
+      "name": "Stedelijk Museum Amsterdam",
+      "province": "Noord-Holland",
+      "official_url": "https://www.stedelijk.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "1444555c-6230-5aff-bf64-bd36170198e3"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "558d084e-8241-5142-a083-4137b51973a6",
+      "name": "Mauritshuis",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.mauritshuis.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c3ab1b89-a248-5b8f-bf3e-031df0c33a18",
+      "name": "Kunstmuseum Den Haag",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.kunstmuseum.nl/nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "61fa9b2f-0732-59c5-9acb-9148421ce56b",
+        "0673a405-887c-5c40-b92c-8bbb501f18ac",
+        "cd2a6f0d-aeae-5d72-8071-654dd1f2f0ff",
+        "2902ac1d-a0f0-54c2-b169-47bc5c154e4e",
+        "c6dfdaa2-98c3-5cb7-ab1b-708a993c9d9e",
+        "d85f96cc-b390-5969-8b69-f2f5ef906c8c"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "29dda0c4-dea0-55dd-a9e6-35fe6ddad31b",
+      "name": "Museum MORE",
+      "province": "Gelderland",
+      "official_url": "https://www.museummore.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "1d51fa86-b79d-5d4b-9a82-b14c03c5de93",
+        "2822cb3d-23fc-53cb-b751-3bcb2a9f9533",
+        "19dec422-ffe8-54d2-b98d-3ae3e10d4975"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "98651057-8ba9-5e2c-b97a-56c719fb1227",
+      "name": "Singer Laren",
+      "province": "",
+      "official_url": "https://www.singerlaren.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "d88b798d-25af-5e7b-b615-7ed455fdf4cd",
+      "name": "Van Abbemuseum",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.vanabbemuseum.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "29ebe4e5-6251-53c4-9541-81aa91cd6cba",
+        "c3e46db3-c870-5438-b3de-1e8b3f1c7cc4",
+        "79d099c2-8b2f-5968-a2c9-387663e41aa1"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "15b07f69-dc30-5410-8b9f-0168a8a647c0",
+      "name": "De Pont Museum",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.depont.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "b7bf8bb6-309c-5638-b462-5dd25f52c7bc",
+        "1f3182dd-fe22-5fdb-9e81-a567c80ef3b9",
+        "7d804d5f-4487-5d1f-8400-17aaae140f29"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "309b4c56-a9df-5cd7-824d-5e6830fc832e",
+      "name": "Museum Voorlinden",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.voorlinden.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "afe1ac6d-81ec-5f86-b7b7-22d421b3651a"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "4a9f2f17-8498-5c6d-a676-f3432edcf507",
+      "name": "Bonnefanten",
+      "province": "Limburg",
+      "official_url": "https://www.bonnefanten.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c8e2fdc7-208f-52e5-8c63-b0fb0f11152f",
+      "name": "Frans Hals Museum",
+      "province": "Noord-Holland",
+      "official_url": "https://www.franshalsmuseum.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "a31a4358-a644-5589-9e1a-6003ebab7563"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "b2463c1b-ea3f-5ac3-bce4-90dbe8eb067c",
+      "name": "Dordrechts Museum",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.dordrechtsmuseum.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "f26ab982-87dd-50f1-9585-39ac7e0c1407",
+        "f16a6d1a-42d6-5aeb-beee-a6ed587b39e7",
+        "7f69a14c-e12a-5d41-a742-3eae459512c0"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "7d9a1a4e-ae60-5be5-9fed-aae9fca909b7",
+      "name": "Rijksmuseum Twenthe",
+      "province": "Overijssel",
+      "official_url": "https://www.rijksmuseumtwenthe.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "35667f6c-d721-506b-bc05-bfbc92e29eb7",
+      "name": "Museum Kranenburgh",
+      "province": "Noord-Holland",
+      "official_url": "http://www.kranenburgh.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "8a9fafc9-45ef-5198-990a-f339b34cf146",
+      "name": "Cobra Museum voor Moderne Kunst",
+      "province": "Noord-Holland",
+      "official_url": "https://cobra-museum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "875f6c88-adca-5a0b-9982-741901899f2f",
+      "name": "Museum Beelden aan Zee",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.beeldenaanzee.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ddccc10b-3920-548c-a5b1-8a7f1c459879",
+      "name": "Foam Fotografiemuseum Amsterdam",
+      "province": "Noord-Holland",
+      "official_url": "https://www.foam.org",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "3c606568-23b3-5707-8474-2b2bf7fd49d3",
+      "name": "Huis Marseille, Museum voor Fotografie",
+      "province": "Noord-Holland",
+      "official_url": "https://www.huismarseille.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "c4e9ad3d-3d51-52e2-811a-8f9c7cd32f42",
+        "72a6293a-c725-5171-a838-5c1d22dc9aa4",
+        "d421e03f-73e1-5a83-8ad2-0bdd8b66f127",
+        "50cf3cd6-b9e1-5b40-b6b3-41c241f83d13"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "d117a62d-9e50-56e1-ab19-feb92d50abba",
+      "name": "Keramiekmuseum Princessehof",
+      "province": "Friesland",
+      "official_url": "https://www.princessehof.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "fa170ae7-ac56-5b5b-8c40-85945571f1fd"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "8edea6c8-cb58-5a56-a3c4-920252d1fc12",
+      "name": "Nationaal Glasmuseum",
+      "province": "Utrecht",
+      "official_url": "https://www.nationaalglasmuseum.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "c89c2dc7-e50f-54d3-abb5-834c6b053ad7",
+        "ef175028-bc28-5ada-badc-aaaac15f8fae"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "9423dcc9-339e-56c1-b694-1cdc14ee95f3",
+      "name": "Museum Rembrandthuis",
+      "province": "Noord-Holland",
+      "official_url": "https://www.rembrandthuis.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "3c699a95-1703-5b19-8b98-12c7b2734ce7"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c3ff4d29-40e4-550b-a61f-480049ff03d0",
+      "name": "Museum Arnhem",
+      "province": "Gelderland",
+      "official_url": "https://www.museumarnhem.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "6e0d3502-bad5-5a03-bf24-009fafc0d493",
+      "name": "Museum Belvédère",
+      "province": "Friesland",
+      "official_url": "https://www.museumbelvedere.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "c37d97a3-fda1-5879-9091-4ea0122d09c0"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "5be91cbd-f55e-5e69-b0e1-3ed503678881",
+      "name": "Groninger Museum",
+      "province": "Groningen",
+      "official_url": "https://www.groningermuseum.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "a56a44da-05bc-5ea1-a53c-642aa8c930fb",
+        "348e146f-5a7c-5322-9ce4-d7bf5252b46c",
+        "c11413aa-07ce-5813-95a2-efde40c34e8b",
+        "e64c9062-b3f1-52e5-8da6-150e918bdad2"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c24f1245-7f2c-59db-82b7-d09e0493861e",
+      "name": "Centraal Museum",
+      "province": "Utrecht",
+      "official_url": "https://www.centraalmuseum.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "f4de0272-2702-5754-a6a5-a4e3aa51c623"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "a97d768c-f01d-5b2e-8563-7769ab0342ed",
+      "name": "Museum De Lakenhal",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.lakenhal.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "1932719c-2f68-5526-841c-c11d2f4fb4c6",
+        "fe1116a1-55ad-51f6-974a-6bd0286eb842"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "623afc94-68b5-5cd2-9a60-f47d71e4a2e8",
+      "name": "Stedelijk Museum Schiedam",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.stedelijkmuseumschiedam.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "b8d4aee0-5ef5-5244-8a7f-6dd2dc47cbf8"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "87eb4285-c7df-556e-9555-a5c048893ca9",
+      "name": "Museum Henriette Polak",
+      "province": "Gelderland",
+      "official_url": "https://www.museazutphen.nl/museum-henriette-polak/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "0376541b-4d5f-5b8b-853a-007e6ae3920d",
+      "name": "H'ART Museum",
+      "province": "Noord-Holland",
+      "official_url": "https://www.hartmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "1231a6d0-594f-56c7-96da-47a5e5c465f7"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "51f162b9-5df8-58d9-b7c3-30d0eb7ac3f6",
+      "name": "Museum Panorama Mesdag",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.panorama-mesdag.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "checked",
+      "last_complete_check": "2026-10-04T20:48:00.712388+00:00",
+      "last_partial_check": "2026-10-04",
+      "known_event_ids": [
+        "95a0280a-32bc-5af0-aaeb-ea9a95ad6fa9"
+      ],
+      "program_pages_read": [
+        "https://panorama-mesdag.nl/zien-en-doen/tentoonstellingen/betzy-akersloot-berg/",
+        "https://panorama-mesdag.nl/zien-en-doen/tentoonstellingen/",
+        "https://panorama-mesdag.nl/zien-en-doen/tentoonstellingen/mixed-mesdag-rarri-jackson/"
+      ],
+      "remaining": [
+        "Mixed Mesdag: begin-datumconflict nog oplossen en invoeren."
+      ],
+      "decision": "Betzy opgenomen; Mixed Mesdag kandidaat met begin-datumconflict 11/12 september. Panorama/collectie permanent, DRIFT geëindigd 13 september. Programma onderzocht, opname nog onvolledig."
+    },
+    {
+      "museum_id": "5402debd-2567-5c85-af4d-31354fd1f113",
+      "name": "Museum Boijmans Van Beuningen",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.boijmans.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "d908d0df-29a8-5c7e-a1a1-2be836132fab",
+      "name": "Teylers Museum",
+      "province": "Noord-Holland",
+      "official_url": "https://www.teylersmuseum.nl/nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "e6b6688b-3189-5792-ba31-cbc8cb245510",
+      "name": "Kijk-kubus",
+      "province": "Zuid-Holland",
+      "official_url": "https://kubuswoning.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "cd78184c-a1ee-5884-870b-093e0a2120ef",
+      "name": "Drents Museum",
+      "province": "Drenthe",
+      "official_url": "https://drentsmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ed3f9408-8d30-53d9-92fd-30c1c3cb633a",
+      "name": "Rietveld Schröderhuis",
+      "province": "Utrecht",
+      "official_url": "https://centraalmuseum.nl/bezoeken/locaties/rietveld-schroederhuis/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "aa92a112-916f-54a7-8bce-bdb310a39db0",
+      "name": "Vermeer Centrum Delft",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.vermeerdelft.nl/nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "cc66ef0a-4e1d-5376-9f63-0d65a78676fd",
+      "name": "Kunsthal Rotterdam",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.kunsthal.nl/nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "8ba456b1-37ea-5770-b3f3-8e56006deb79",
+        "ead85dac-9b3e-53b3-b095-d418b81e678c",
+        "0a0aa49c-596d-508b-849f-e71a62077753",
+        "a65d8d19-1660-5bbb-8c28-64e6665f3e83",
+        "e9217a94-b708-5a81-8dc2-df000484c806",
+        "8ba6eb50-a749-5403-8ced-6c3c577575c4",
+        "4313e455-b575-5b5f-8356-86692165f42d"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "f5b4eb15-d3db-506b-8356-724de9e15d1b",
+      "name": "EYE",
+      "province": "Noord-Holland",
+      "official_url": "https://www.eyefilm.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "checked",
+      "last_complete_check": "2026-10-04T20:48:00.712388+00:00",
+      "last_partial_check": "2026-10-04",
+      "known_event_ids": [
+        "ebd0c8de-10d8-5532-a902-bf2e5d937f16"
+      ],
+      "program_pages_read": [
+        "https://www.eyefilm.nl/programma/ulrich-seidl/1633828",
+        "https://www.eyefilm.nl/tentoonstellingen"
+      ],
+      "remaining": [],
+      "decision": "Ulrich Seidl opgenomen; Wat is film? is permanente presentatie, overige lijst expliciet archief."
+    },
+    {
+      "museum_id": "c3bd7029-8733-5619-8525-3a538efda7dd",
+      "name": "Fabrique des Lumières",
+      "province": "Noord-Holland",
+      "official_url": "https://www.fabrique-lumieres.com/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "b8aacf17-b869-50b4-a72c-805da2ea4054",
+      "name": "Museum de Fundatie",
+      "province": "Overijssel",
+      "official_url": "https://www.museumdefundatie.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "4954270b-1d6a-5e96-b333-5cffa14bb79d",
+        "97e7cf48-dd54-53f3-956b-dccea7dbc03b",
+        "3f70f5c0-ab29-5519-ac40-f745a36da8ea"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "087b3436-17a7-5267-a11c-b5bcc00e8dfc",
+      "name": "Museum Prinsenhof Delft",
+      "province": "Zuid-Holland",
+      "official_url": "https://museumprinsenhofdelft.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ff63aeea-705e-54d2-8239-77a240672090",
+      "name": "Jheronimus Bosch Art Center",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.jheronimusbosch-artcenter.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "bc076b1b-963a-5ab5-8429-fea490835ac5",
+      "name": "Escher in Het  Paleis",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.escherinhetpaleis.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ba68d5d3-b373-54ff-b353-d23b8c4b9928",
+      "name": "Huis Willet-Holthuysen",
+      "province": "Noord-Holland",
+      "official_url": "https://www.willetholthuysen.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ecb8adbb-a48b-51e4-8a84-386a04106acf",
+      "name": "Het Noordbrabants Museum",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.hetnoordbrabantsmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "14e73814-2d29-5368-be44-2252dc1fcf6d",
+      "name": "De Mesdag Collectie",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.demesdagcollectie.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "8e5547e7-285e-580a-8424-b560c801de22",
+      "name": "Van Gogh Kerk Etten-Leur",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.vangoghbrabant.com/nl/home/etten-leur",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "abe177c0-7a81-528f-84af-ceca3adf4275",
+      "name": "Museum Catharijneconvent",
+      "province": "Utrecht",
+      "official_url": "https://www.catharijneconvent.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "partial",
+      "last_complete_check": null,
+      "last_partial_check": "2026-10-04",
+      "known_event_ids": [
+        "7d3ee52d-c2fb-59b3-a9e1-b660a1a56afc"
+      ],
+      "program_pages_read": [
+        "https://catharijneconvent.nl/tentoonstellingen/henk-helmantel/"
+      ],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "3141bb58-2bee-5b3c-ae96-c7f4a16886e9",
+      "name": "Nederlands Fotomuseum",
+      "province": "Zuid-Holland",
+      "official_url": "https://nederlandsfotomuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "0c78ab33-9c7c-5f42-aaf2-374e328f67b2"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "69812b36-6c10-5811-80ea-5afa65e5823e",
+      "name": "Stedelijk Museum Alkmaar",
+      "province": "Noord-Holland",
+      "official_url": "https://stedelijkmuseumalkmaar.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "e979cace-a1ad-529f-ad13-218751d60b91",
+      "name": "TextielMuseum",
+      "province": "Noord-Brabant",
+      "official_url": "https://textielmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "7754eda6-25ee-5d9e-8359-15dd037f9d5c",
+      "name": "Nieuwe Instituut",
+      "province": "Zuid-Holland",
+      "official_url": "https://nieuweinstituut.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "a9c661b9-fa7f-5341-911b-30bb01e79778",
+      "name": "Slot Zeist",
+      "province": "Utrecht",
+      "official_url": "https://www.slotzeist.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "edcef0f9-0aa9-5898-9e0c-dae509612b17",
+      "name": "Museum Gouda",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.museumgouda.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "partial",
+      "last_complete_check": null,
+      "last_partial_check": "2026-10-04",
+      "known_event_ids": [
+        "a8e7aaa6-6178-5914-8502-3e1dcf659892"
+      ],
+      "program_pages_read": [
+        "https://www.museumgouda.nl/tentoonstelling/wonder-walls-wandtapijten/"
+      ],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "b0bd5e77-f9a9-524a-bdc1-245142a24ff9",
+      "name": "Fries Museum",
+      "province": "Friesland",
+      "official_url": "https://www.friesmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "937fab00-3fd6-5f24-a386-0f6449de242f",
+      "name": "Valkhof Museum",
+      "province": "Gelderland",
+      "official_url": "https://valkhofmuseum.nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "7c25dca7-6154-513e-a8c6-3922f645a55c",
+      "name": "Beeldengalerij Het Depot",
+      "province": "Gelderland",
+      "official_url": "https://www.hetdepot.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "d11204f0-0880-5d01-b334-a3a1cb0eea58",
+      "name": "Stedelijk Museum Kampen",
+      "province": "Overijssel",
+      "official_url": "https://stedelijkmuseumkampen.nl/cms/index.php",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "267f337c-8b40-5a58-bc2a-694d0b27f823"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "13d786ee-7180-5e3f-ac5f-3aa0961316ad",
+      "name": "Japanmuseum SieboldHuis",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.sieboldhuis.org/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "5f4a3755-3f69-523e-85ac-5690048df5c1"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ed17251a-807b-5603-932d-a62ca132c1ca",
+      "name": "Electric Ladyland",
+      "province": "Noord-Holland",
+      "official_url": "https://electric-lady-land.com/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ecf42871-4733-5818-8ffe-ad8469b6bfa7",
+      "name": "Museum Bredius",
+      "province": "Zuid-Holland",
+      "official_url": "https://museumbredius.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "a9585bd2-a2bd-5126-9858-93ab6c183163",
+      "name": "Zeeuws Museum",
+      "province": "Zeeland",
+      "official_url": "https://www.zeeuwsmuseum.nl/nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "63dcb672-0d3c-5949-828c-4b215302b67c",
+      "name": "Maelwael Van Lymborch Huis",
+      "province": "Gelderland",
+      "official_url": "https://maelwaelvanlymborch.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ec434d6d-013a-5b24-8781-f692f9282f6b",
+      "name": "Museum de Fundatie – Kasteel het Nijenhuis",
+      "province": "Overijssel",
+      "official_url": "https://www.museumdefundatie.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "a817357c-3008-5594-8e8c-faced1cf9e76",
+      "name": "Museum Het Schip",
+      "province": "Noord-Holland",
+      "official_url": "https://www.hetschip.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "e3aedfaf-7f0b-517d-b5f4-f1f5acaad614",
+      "name": "Huis Sonneveld",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.huissonneveld.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "631f08f6-48a8-5e5f-bf13-7e9ad1312172",
+      "name": "LAM museum",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.lammuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "7bfde0cc-1bc8-5d12-a2c8-e102714496da",
+      "name": "Marius van Dokkum Museum",
+      "province": "Gelderland",
+      "official_url": "https://www.mariusvandokkummuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "88ccf034-8bb3-5af0-978f-b43e50073eb5",
+      "name": "Design Museum Den Bosch",
+      "province": "Noord-Brabant",
+      "official_url": "https://designmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "f38df3ae-584e-59b9-8e8e-b12e56b71eb0",
+      "name": "Villa Mondriaan",
+      "province": "Gelderland",
+      "official_url": "https://villamondriaan.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ab4966d6-7d00-51d0-893f-cbc99e983c8f",
+      "name": "Fotomuseum aan het Vrijthof",
+      "province": "Limburg",
+      "official_url": "https://fotomuseumaanhetvrijthof.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "cfdc737b-31db-5edd-a0a5-931815891ca9"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "760fa7b6-2d12-5a3c-8e26-f1ddb9053704",
+      "name": "Kasteel Huis Bergh",
+      "province": "Gelderland",
+      "official_url": "https://huisbergh.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "555af903-7bed-5d6e-b52e-de3b7909bc55",
+      "name": "Voerman Stadsmuseum Hattem",
+      "province": "Gelderland",
+      "official_url": "https://voermanstadsmuseumhattem.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "2a46501c-a2db-5c39-a68f-7611def83d0b",
+      "name": "Stedelijk Museum Breda",
+      "province": "Noord-Brabant",
+      "official_url": "https://stedelijkmuseumbreda.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "69e35ede-847c-54a8-b8cf-e47b20c92837",
+      "name": "Museum MORE | Kasteel Ruurlo",
+      "province": "Gelderland",
+      "official_url": "https://www.museummore-kasteelruurlo.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "b733d593-f4cc-55ef-a4ea-0d3eff1bd76c",
+      "name": "SCHUNCK",
+      "province": "Limburg",
+      "official_url": "https://schunck.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c2ab51c6-5835-5cdb-b14c-0d8f2e1d580a",
+      "name": "Jopie Huisman Museum",
+      "province": "Friesland",
+      "official_url": "https://www.jopiehuismanmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c94f7d64-cee0-5e3e-ac58-5967dc5772cf",
+      "name": "Galerij Prins Willem V",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.mauritshuis.nl/nl-nl/ontdek/galerij-prins-willem-v/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "8a290657-e14f-59a2-9b56-0944fdb40844",
+      "name": "Moco Museum",
+      "province": "Noord-Holland",
+      "official_url": "https://mocomuseum.com",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "1562a8b0-4700-5d66-ab3d-249ecc026653",
+      "name": "Museum Valse kunst",
+      "province": "Drenthe",
+      "official_url": "https://www.museumvalsekunst.art",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "4e9c7be8-3423-5969-9bbe-2fa087de7dea",
+      "name": "Fotomuseum Den Haag",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.fotomuseumdenhaag.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "2cdc1f0f-1108-54b5-93ea-de7490270bfd"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "de60456d-84e7-5a70-ba25-d0c58b584e2b",
+      "name": "Museum 't Oude Slot",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.museumoudeslot.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "514fb72a-7e24-53db-9a2a-88c76c28368f",
+      "name": "Museum Krona",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.museumkrona.nl/nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "962921a1-f173-54e7-b4fd-6fcdafe873de",
+      "name": "Anton Pieck Museum",
+      "province": "Gelderland",
+      "official_url": "https://www.antonpieckmuseum.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "823e5b86-eb4d-532d-9fd0-190da04564db",
+      "name": "Museum van Bommel van Dam",
+      "province": "Limburg",
+      "official_url": "https://www.vanbommelvandam.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "9f69bc60-5e2e-5d0b-b2ab-65572fba9796",
+      "name": "Katwijks Museum",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.katwijksmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "3fbea5ae-2cbe-5ed0-96e7-e4c86ab85f88",
+      "name": "CODA",
+      "province": "Gelderland",
+      "official_url": "https://www.coda-apeldoorn.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "4f9e04fd-5c63-54d0-bfb2-9acf614c3501",
+      "name": "De Nollen",
+      "province": "Noord-Holland",
+      "official_url": "https://projectdenollen.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "afebe6c1-fc16-5e11-b35f-d0a5e5804b92",
+      "name": "Van Gogh Village Museum",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.vangoghbrabant.com/nl/home/nuenen",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "3dc4845e-6524-55d4-9f8c-12d9db984cb9",
+      "name": "Hildo Krop Museum",
+      "province": "Overijssel",
+      "official_url": "https://hildokrop.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "b5ddfbab-b8bd-5856-8b22-792c6464cda1",
+      "name": "Musiom",
+      "province": "Utrecht",
+      "official_url": "https://musiom.art/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "f1695613-bc74-5954-a628-c389f55d7e61",
+      "name": "MU Hybrid Art House",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.mu.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "fbb5ea54-a7e6-5146-8810-d0aa2e9ba8f1",
+      "name": "Museum EICAS",
+      "province": "Overijssel",
+      "official_url": "https://www.eicas.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "e5422e49-51de-5669-91d9-bde559fb0d12",
+      "name": "Museum Slager",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.museumslager.com/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "d8323e10-6b74-5eb4-8934-c78370638c29",
+      "name": "Museum Dr8888",
+      "province": "Friesland",
+      "official_url": "https://www.museumdrachten.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "878670d8-2c15-529b-8c17-ad3b84455f9a",
+      "name": "Vincent van GoghHuis",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.vangoghhuis.com/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "f138ec54-d381-53ff-9f41-d0166c596093",
+      "name": "Museum Land van Valkenburg",
+      "province": "Limburg",
+      "official_url": "https://www.museumlandvanvalkenburg.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "58e00654-587e-58e6-8fa6-7559430c4734",
+      "name": "Oude Kerk",
+      "province": "Noord-Holland",
+      "official_url": "https://oudekerk.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "87fe4272-7fd0-585d-a911-c5dc12dbd2f1",
+      "name": "Chabot Museum",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.chabotmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "beeda520-b560-5b4b-890c-5c0b551e09f5",
+      "name": "Het Cuypershuis",
+      "province": "Limburg",
+      "official_url": "https://www.cuypershuisroermond.nl/home.html",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "cc320050-d947-5c6d-aa5e-c8f478963bd7",
+      "name": "Museum Noordwijk",
+      "province": "Zuid-Holland",
+      "official_url": "https://museumnoordwijk.nl/home/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "8f6a4ae7-6b90-5430-be60-52601ce16952",
+      "name": "Villa Zebra",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.villazebra.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "8ccd0e05-472e-5b33-ab92-616e197d0f1d",
+      "name": "Museum Jan Cunen Oss",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.museumjancunen.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ffe7c7e6-0c5e-59c1-a15f-30cbab35178c",
+      "name": "Noord-Veluws Museum Nunspeet",
+      "province": "Gelderland",
+      "official_url": "https://www.noord-veluws-museum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "420d6c54-d5ca-5dce-81a2-5e10da22075e",
+      "name": "Sint Hubertus Kunstcentrum",
+      "province": "Limburg",
+      "official_url": "https://sinthubertuskunstcentrum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c576230f-abaa-54b0-b98b-214cf3013e6b",
+      "name": "KM21",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.gem-online.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "bf46e13a-9d9d-5716-a831-2d0f68f8a9d2",
+      "name": "Keramiekmuseum Tiendschuur",
+      "province": "Limburg",
+      "official_url": "https://tiendschuur.net/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "581d059e-55d2-5d21-a87c-75e97c51cf00",
+      "name": "FENIX",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.fenix.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c80464ad-d921-592b-ae1b-bdd2b8de0833",
+      "name": "Museum IJsselstein",
+      "province": "Utrecht",
+      "official_url": "https://www.museumijsselstein.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "94c9f145-8ff6-5ff4-9bd8-1b767ccad566",
+      "name": "Ikonenmuseum Kampen",
+      "province": "Overijssel",
+      "official_url": "https://ikonenmuseumkampen.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "f464bfae-6478-5717-b2c6-b412ef103ba3",
+      "name": "De Wieger Deurne",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.dewieger.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "fa78ea52-fba1-58c8-be25-bcecbf33cc78",
+      "name": "het MAG museum",
+      "province": "Gelderland",
+      "official_url": "https://www.hetmagmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "736d4174-2c78-5305-8c58-7fc82b56bad1",
+      "name": "Museum Helmond - Kunsthal Helmond",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.museumhelmond.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "34b17ad3-2336-5421-a049-1a0011aef843"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "dfa224fb-7932-560f-8eb6-b96f8853a880",
+      "name": "Museum JAN",
+      "province": "Noord-Holland",
+      "official_url": "https://www.jvdtogt.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "bc833d7c-8ba2-54d3-bd71-38fa4d995fde",
+        "14ac55c2-a031-5fa2-b5e4-afa20d4b7ded",
+        "4802eb1b-e936-5aa0-b660-14809d4b5a04"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "e35be3e5-0fcc-5a86-99d1-e0e0214ae034",
+      "name": "Museum Stadskasteel Zaltbommel",
+      "province": "Gelderland",
+      "official_url": "https://stadskasteelzaltbommel.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "e8015868-3712-5250-8bc7-c7ddee1f1f42",
+      "name": "Nederlands Steendrukmuseum",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.steendrukmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "d7cfa691-5a5a-5112-b8c0-bae8b65e100f",
+      "name": "Nederlands Zilvermuseum Schoonhoven",
+      "province": "Zuid-Holland",
+      "official_url": "https://zilvermuseum.com/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "3c7d430e-34ed-50f7-b61c-d879c363892b",
+      "name": "Nederlands Tegelmuseum",
+      "province": "Gelderland",
+      "official_url": "https://www.nederlandstegelmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "8a861a3c-e5e5-5488-a90a-36903b5154c5",
+      "name": "Van Gogh Huis Drenthe",
+      "province": "Drenthe",
+      "official_url": "https://vangogh-drenthe.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ef7609e1-fc69-5d14-9786-0a5070c2a13b",
+      "name": "Museum Møhlmann",
+      "province": "Groningen",
+      "official_url": "https://www.museummohlmann.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "a6452694-a45d-58d8-8628-5de0e30bdc9d",
+      "name": "De Nieuwe Kerk Amsterdam",
+      "province": "Noord-Holland",
+      "official_url": "https://www.nieuwekerk.nl/en/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "6f61c002-72c5-5220-8ccf-5108ab3847e4",
+      "name": "Museum No Hero",
+      "province": "Overijssel",
+      "official_url": "https://www.museumnohero.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "69be9209-e151-5ee7-929d-f4c76f560787",
+      "name": "Cultuurhuis Bergeijk",
+      "province": "Noord-Brabant",
+      "official_url": "https://cultuurhuisbergeijk.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "878fe3f1-3c25-5be4-9dc7-76ffb629ad0a",
+      "name": "Museum Vaals",
+      "province": "Limburg",
+      "official_url": "https://museumvaals.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "712b6a6e-d1c5-52e2-b8cb-9ee8c41eb0e2",
+      "name": "Kunstinstituut Melly",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.kunstinstituutmelly.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "6680fea1-fc3d-59b8-8ce7-193a2fbf7d29",
+      "name": "Kunsthuis Waterland",
+      "province": "Noord-Holland",
+      "official_url": "https://kunsthuiswaterland.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "f7f0e959-1239-54f5-93a6-825a57eeba00",
+      "name": "Museum of Comic Art",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.museumofcomicart.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "3581b76b-ca42-5922-9a05-808e98a31588",
+      "name": "Museum van de geest | Outsider Art",
+      "province": "Noord-Holland",
+      "official_url": "https://www.museumvandegeest.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "08c3d4c2-0fb4-5732-8916-5eda0748d06d",
+      "name": "Koppelkerk - vrijplaats voor kunst & cultuur",
+      "province": "Gelderland",
+      "official_url": "https://koppelkerk.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "94fabac3-d53c-5af9-b20c-c28d4457c7f3",
+        "d1753ce8-d59e-5cdf-94fd-6d053abee306",
+        "86edad70-2305-558d-a529-28ebd462c7b7"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "35e5e40b-4f64-55b3-b8ca-de87aa30f31a",
+      "name": "Royal Delft",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.royaldelft.com/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "65d8b256-8a18-539d-9108-e66ce17e8758",
+      "name": "West Den Haag",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.westdenhaag.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "97f2055d-0eef-523b-8d30-023c82c8dd49",
+      "name": "MOW I Museum Westerwolde",
+      "province": "Groningen",
+      "official_url": "https://www.hetmow.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "8edfa3a7-938a-5511-92d1-8c4914560b37",
+      "name": "Zandvoorts Museum",
+      "province": "Noord-Holland",
+      "official_url": "https://www.zandvoortsmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "7068c110-e6b8-540b-8d36-b3f19c14cd58",
+      "name": "Stadsmuseum Woerden",
+      "province": "Utrecht",
+      "official_url": "https://www.stadsmuseumwoerden.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "05fb0dec-a856-583b-8584-ab123e74feba",
+      "name": "Het Muizenhuis",
+      "province": "Noord-Holland",
+      "official_url": "https://www.themousemansion.com/pages/visit-the-mouse-mansion",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "aebfd535-8cdb-53f2-b71c-19766784d439",
+      "name": "Zandverhalen",
+      "province": "Gelderland",
+      "official_url": "https://www.zandverhalen.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "943efe1f-c343-5720-b4ec-e9312e5ef0e4",
+      "name": "Kasteel-Museum Sypesteyn",
+      "province": "Noord-Holland",
+      "official_url": "https://www.sypesteyn.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c7ae35cc-92b0-5f4f-925f-d661381ca4c1",
+      "name": "TENT Rotterdam",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.tentrotterdam.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "2c307ef0-30ba-5220-891c-b21366ac11f0",
+      "name": "Museum Jan Heestershuis",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.museumjanheestershuis.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "305f3814-535b-5426-a371-91dac06e5b1f",
+      "name": "Buitenplaats Kasteel Wijlre",
+      "province": "Limburg",
+      "official_url": "https://kasteelwijlre.nl/nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "checked",
+      "last_complete_check": "2026-10-04T20:48:00.712388+00:00",
+      "last_partial_check": "2026-10-04",
+      "known_event_ids": [
+        "26e3bf7e-3221-59e8-9c95-9e4a194f9a3d",
+        "21153ebd-6b72-54e5-a742-da5522035f87"
+      ],
+      "program_pages_read": [
+        "https://kasteelwijlre.nl/nl/tentoonstellingen/gossip/",
+        "https://kasteelwijlre.nl/nl/tentoonstellingen/vibeke-mascini/",
+        "https://kasteelwijlre.nl/nl/toekomst/"
+      ],
+      "remaining": [],
+      "decision": "Gossip en Daisychain opgenomen. Kasteel/interieur/Collectie Eyck betreft het museale collectieparcours; geen afzonderlijke tijdelijke kunstinterventie vastgesteld. Toekomstpagina bevat geen extra aankondigingen."
+    },
+    {
+      "museum_id": "432b3e1e-d233-5247-81e2-aba4a8c1d946",
+      "name": "Drents Museum De Buitenplaats",
+      "province": "Drenthe",
+      "official_url": "https://www.dmdebuitenplaats.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "1f036ced-beb0-5d00-9813-540bc690d4b6",
+      "name": "Mondriaanhuis",
+      "province": "Utrecht",
+      "official_url": "https://www.mondriaanhuis.nl/nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "819d6419-6798-5c8f-97ad-d9885053aa3c",
+      "name": "Kunsthal KAdE",
+      "province": "Utrecht",
+      "official_url": "https://www.kunsthalkade.nl/nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "9974e4d8-7965-5ee3-b798-eedae289150c"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "4b4a010e-6083-5758-b0d6-4f3f2e30d155",
+      "name": "Elleboogkerk",
+      "province": "Utrecht",
+      "official_url": "https://www.elleboogkerk.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "2301a527-f7f2-501c-b11e-6fdf9cc5afb1"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "d4e52858-c159-598c-8acd-9a925ccbf031",
+      "name": "Museum Paul Tetar van Elven",
+      "province": "Zuid-Holland",
+      "official_url": "https://tetar.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ae8b491e-3964-5b9f-8909-925c3fc93952",
+      "name": "Marres, Huis voor Hedendaagse Cultuur",
+      "province": "Limburg",
+      "official_url": "https://www.marres.org/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "5d25fb1e-5e88-59dd-b988-b570633bbceb",
+      "name": "BAK Basecamp",
+      "province": "Utrecht",
+      "official_url": "https://www.bakonline.org/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "b241837c-03ee-5ad3-a7d2-f89f8f611f92",
+      "name": "Museum W",
+      "province": "Limburg",
+      "official_url": "https://www.museumw.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ebd4b76e-fd97-5fa3-9bbf-1706d111f69a",
+      "name": "Klooster Ter Apel",
+      "province": "Groningen",
+      "official_url": "https://www.kloosterterapel.nl/nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "513e04e1-f0c6-50d3-be8b-de4cd63e1d44",
+      "name": "Ateliermuseum Jac Maris",
+      "province": "Gelderland",
+      "official_url": "https://www.marishuis.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "01454eb6-db10-51bc-b474-c723ff2fc672",
+      "name": "Museum Ton Smits Huis",
+      "province": "Noord-Brabant",
+      "official_url": "https://tonsmitshuis.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "6e87864c-3cbf-5a12-9abf-05f60ffa8071",
+      "name": "Bureau Europa",
+      "province": "Limburg",
+      "official_url": "https://www.bureau-europa.nl/nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "832eabc1-48a4-5297-a18c-cec6be605720",
+      "name": "R.S.O.L. Art Space",
+      "province": "Overijssel",
+      "official_url": "https://www.tonkruse.nl/rsol.html",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ff06c179-0577-558a-b3eb-d0283d5a6fa9",
+      "name": "Diagoonwoning Delft",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.diagoonwoningdelft.nl/home",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "422c8695-9007-529e-8e9f-e90142ebb43a",
+      "name": "MUTEK - Museum voor Toegepaste Europese Kunst",
+      "province": "Noord-Holland",
+      "official_url": "https://mutekmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "298d8b42-77ec-5527-a6b8-580dfddb071d",
+      "name": "Kunstlinie",
+      "province": "Flevoland",
+      "official_url": "https://kunstlinie.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "a429aa0c-7446-5b60-b7fe-6561e704365d",
+      "name": "Museum Panorama Walcheren",
+      "province": "Zeeland",
+      "official_url": "https://panoramawalcheren.nl/nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "17e28664-5ec5-546c-a57a-ccafbf58e250",
+      "name": "Rien Poortvlietmuseum",
+      "province": "Zuid-Holland",
+      "official_url": "https://rienpoortvlietmuseum.nl/index.php",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "0be81822-0a78-5a03-a13c-1c9f8a7ff730",
+      "name": "Museum van Papierknipkunst",
+      "province": "Drenthe",
+      "official_url": "https://www.papierknipmuseum.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ca6ae9b5-43dc-5ebe-9c2a-e91623187ac5",
+      "name": "De Kopermolen",
+      "province": "Limburg",
+      "official_url": "https://dekopermolenvaals.nl/nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "7b8f4db6-e522-5daf-9561-97924ceafc87",
+      "name": "Odapark",
+      "province": "Limburg",
+      "official_url": "https://www.odapark.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "e50e92e4-a38f-5fc2-bc19-d51bb78cccf2",
+        "0765f494-3857-5802-bf4f-7c1609f748dd",
+        "e557df9f-2182-5d90-a070-961c01cbcfe2"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "f409e9dd-0646-565c-8b98-3a23c0ce884f",
+      "name": "Garage Rotterdam",
+      "province": "Zuid-Holland",
+      "official_url": "https://garagerotterdam.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "0c62923a-5d07-5f0a-8033-3f2cc8d25550",
+      "name": "Huize Frankendael",
+      "province": "Noord-Holland",
+      "official_url": "https://huizefrankendael.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "cbf5bc39-7389-5448-9c62-be465d7360b8",
+      "name": "Museum Nagele",
+      "province": "Flevoland",
+      "official_url": "https://www.museumnagele.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c344234a-541f-52c4-8637-6425e7ceb449",
+      "name": "Gorcums Museum",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.gorcumsmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "6da8a831-f5cd-5269-a6ac-4a20b3c72482",
+      "name": "Museum Hilversum",
+      "province": "Noord-Holland",
+      "official_url": "https://www.museumhilversum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "72f70d1b-ef0f-512f-b0b4-348a50d90aa7",
+      "name": "Purmerends Museum",
+      "province": "Noord-Holland",
+      "official_url": "https://www.purmerendsmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "5973c940-48f5-50f6-9e37-f4965f3c5ca3",
+      "name": "Beeldenpark Jits Bakker",
+      "province": "Utrecht",
+      "official_url": "https://jitsartmuseum.com/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "42af4bff-b5be-549f-b36c-4233b67c93a9",
+      "name": "De Vleeshal",
+      "province": "Zeeland",
+      "official_url": "https://vleeshal.nl/en/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "2175046d-a6d7-537f-b591-a3420e1ad29b",
+      "name": "Stedelijk Museum Vianen",
+      "province": "Utrecht",
+      "official_url": "https://stedelijkmuseumvianen.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "19352f21-89d6-516f-8be0-362c41604103",
+      "name": "Pier Pander Museum",
+      "province": "Friesland",
+      "official_url": "https://historischcentrumleeuwarden.nl/pier-pander",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "2335783a-59fe-5be9-b370-5e3629208b6d",
+      "name": "KattenKabinet",
+      "province": "Noord-Holland",
+      "official_url": "https://www.kattenkabinet.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ffded4b9-b725-50f6-8e41-ddaebec64e1b",
+      "name": "Museum Veluwezoom",
+      "province": "Gelderland",
+      "official_url": "https://www.museumveluwezoom.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "3378c57b-4660-5174-81f0-beccdc0c3723",
+      "name": "Atlas van Stolk",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.atlasvanstolk.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "f09ec0cb-1e19-5a97-9e65-4e3ee620ec73",
+      "name": "Hofje van Aerden",
+      "province": "Utrecht",
+      "official_url": "https://hofjevanaerden.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ac8b9843-593c-5589-a793-c54029d518c8",
+      "name": "Kunstfort bij Vijfhuizen",
+      "province": "Noord-Holland",
+      "official_url": "https://www.kunstfort.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "dbc1b2a9-b3fe-5eba-ac29-9fbc44c0ad82",
+      "name": "ABC Architectuurcentrum Haarlem",
+      "province": "Noord-Holland",
+      "official_url": "https://www.architectuurhaarlem.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "b1dec3a0-2a14-5d8b-be26-19068c22967f",
+      "name": "Noorderlicht. Studio | Festival | On Tour",
+      "province": "Groningen",
+      "official_url": "https://www.noorderlicht.com",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "59f8bd2b-62d4-5df4-bb20-49c412d6d1d2",
+      "name": "P/////AKT",
+      "province": "Noord-Holland",
+      "official_url": "https://www.pakt.nu/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "84a06b32-b218-581b-bcff-0e8103cc85fa",
+      "name": "Nxt Museum",
+      "province": "Noord-Holland",
+      "official_url": "https://nxtmuseum.com/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "61fab26a-2148-56e2-98df-de1f043e68c8",
+      "name": "Museum voor hedendaagse Tibetaanse Kunst",
+      "province": "Drenthe",
+      "official_url": "https://www.mocta.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "7219a354-30c7-53b0-ada4-ed6b85393c4f",
+      "name": "Van Doesburg-Rinsemahuis",
+      "province": "Friesland",
+      "official_url": "https://www.museumdrachten.nl/museumwoning-vdrh/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "f127c110-8115-5ece-a3ff-cba0d2d0afcd",
+      "name": "IMPAKT Centre for Mediaculture",
+      "province": "Utrecht",
+      "official_url": "https://impakt.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "partial",
+      "last_complete_check": null,
+      "last_partial_check": "2026-10-04",
+      "known_event_ids": [
+        "efdae812-95ef-52b9-8b82-8a784b7d3604"
+      ],
+      "program_pages_read": [
+        "https://impakt.nl/nl/events/2026/tentoonstelling/data-never-dies/"
+      ],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "341fe4b5-a85c-5ae8-8250-f9cd0207138e",
+      "name": "Stedelijk Museum Meppel",
+      "province": "Drenthe",
+      "official_url": "https://stedelijkmuseummeppel.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "da273dad-3b23-5a93-8879-148c9028cf71",
+      "name": "Museum De Dageraad",
+      "province": "Noord-Holland",
+      "official_url": "https://www.dedageraad.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "520c8eaa-79b9-5dc1-8a22-0b6e97b96a74",
+      "name": "Voormalige Synagoge",
+      "province": "Overijssel",
+      "official_url": "https://stedelijkmuseumkampen.nl/cms/index.php",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "59ec4255-daa3-52d1-9131-404e41b47145",
+      "name": "Museum Tromp's Huys",
+      "province": "Friesland",
+      "official_url": "https://www.trompshuys.nl/nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "7d49b6c9-39c9-5bb1-bfcc-666a2c3c3598",
+      "name": "Project Space On The Inside",
+      "province": "Noord-Holland",
+      "official_url": "https://www.projectspaceontheinside.org/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "98f9e090-d4ba-5d5b-b71d-1099f4005c85"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "d748f6a8-0c3f-5b97-8c34-479becaff92e",
+      "name": "ACEC",
+      "province": "Gelderland",
+      "official_url": "https://acec.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "f0c85959-33c5-57b0-a64c-9f15d845317e",
+      "name": "Depot van Museum Boijmans Van Beuningen",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.boijmans.nl/depot",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "2b1576a4-43b4-5493-9792-9338ee31c448"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "80f54577-ec20-5e7b-896b-f75d6593c25e",
+      "name": "Design Museum Dedel",
+      "province": "Zuid-Holland",
+      "official_url": "https://designmuseumdedel.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "1d6aa07d-0be3-540c-8792-67321db35073",
+      "name": "Brutus",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.brutus.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "88058f35-5dd4-5412-8fcb-cf10014c8cbb",
+      "name": "Rembrandts Amsterdam Experience",
+      "province": "Noord-Holland",
+      "official_url": "https://rembrandtsamsterdam.com/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "6cf0ed82-9a12-5a93-adca-2a19322dfa0f",
+      "name": "Museum Ton Schulten",
+      "province": "Overijssel",
+      "official_url": "https://www.tonschulten.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "9c2bb599-4597-5e8c-adfb-38598cf60c80",
+      "name": "Brinkhuis Laren",
+      "province": "Noord-Holland",
+      "official_url": "https://hartvanlaren.nl/brinkhuis/hart-galerij/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "2c14c69f-214e-5e94-8da5-0af33f9f7a7b",
+      "name": "Van Eesteren Museum",
+      "province": "Noord-Holland",
+      "official_url": "https://vaneesterenmuseum.nl/nl/home/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "e07c6573-a3c2-58c6-b3a5-bdbfa2ac00af",
+      "name": "Ruurd Wiersma Museum",
+      "province": "Friesland",
+      "official_url": "https://www.museum.frl/musea/ruurd-wiersma/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "3bdeae20-fec7-5b7a-921a-03ccbc47a814",
+      "name": "Andreas Schotel Museum",
+      "province": "Noord-Brabant",
+      "official_url": "https://andreasschotel.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "5280274f-f3ec-5f2e-989c-41e43941be69",
+      "name": "Marie Tak van Poortvliet Museum",
+      "province": "Zeeland",
+      "official_url": "https://marietakmuseum.nl/home/langs-paden-van-verlangen.html",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "21d02dab-d642-558a-8ecd-1b6f1dcf721e",
+      "name": "De Appel",
+      "province": "Noord-Holland",
+      "official_url": "https://deappel.nl/en/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "681edb02-d5c5-587f-8e5d-9351bae76ea7",
+      "name": "Arcam Architectuurcentrum Amsterdam",
+      "province": "Noord-Holland",
+      "official_url": "https://www.arcam.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "186120ae-4217-5e1e-99a4-cfe625fea09c",
+      "name": "Landhuis Oud Amelisweerd",
+      "province": "Utrecht",
+      "official_url": "https://landhuisoudamelisweerd.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "124d28bc-7cca-56a2-807a-fb5afc5f8eb0",
+      "name": "Heiligenbeeldenmuseum",
+      "province": "Gelderland",
+      "official_url": "https://www.heiligenbeeldenmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "cb87d4f3-78a5-5fb8-b92b-6377ccfa242b",
+      "name": "Lalique Museum Nederland",
+      "province": "Gelderland",
+      "official_url": "https://www.laliquemuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "d356e785-836d-50a5-a77e-29baf03bef1d",
+      "name": "Museum Rijswijk",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.museumrijswijk.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "73330214-cabd-59be-90b4-622c7a99784a",
+      "name": "Museum Helmantel",
+      "province": "Groningen",
+      "official_url": "https://www.helmantel.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ff0e51b5-15d8-59e2-b1b8-ee1906077251",
+      "name": "Borduurmuseum",
+      "province": "Gelderland",
+      "official_url": "https://borduurmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "72a11e52-9d73-56ef-815e-04b2b467ae2d",
+      "name": "Museumkerk Eben Haezer Wierum",
+      "province": "Friesland",
+      "official_url": "https://www.museumkerk.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "e44d4ac6-a158-50a7-9ae2-877573cd7c55",
+      "name": "Keramisch Museum Goedewaagen",
+      "province": "Drenthe",
+      "official_url": "https://www.keramischmuseumgoedewaagen.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "3fcdc1cc-a4b2-5037-ae37-afb947c59725",
+      "name": "Museum Thijnhof",
+      "province": "Drenthe",
+      "official_url": "https://thijnhof.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c699e7cd-a937-57cc-9684-ea19e6adf9b7",
+      "name": "Drawing Centre Diepenheim",
+      "province": "Overijssel",
+      "official_url": "https://www.drawingcentre.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "09c55d18-5c13-5b5e-949e-a734887af119"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "e20d2d0b-7888-5625-88c2-ad07c8fb624c",
+      "name": "Glas-in-loodmuseum Hengelo Bas-in-lood",
+      "province": "Overijssel",
+      "official_url": "https://glas-in-loodmuseum-hengelo.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "4cdc0d3d-71f2-5f09-ab80-50459c413e18",
+      "name": "RTXP Amsterdam",
+      "province": "Noord-Holland",
+      "official_url": "",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "4aa2b82b-11a5-5fae-bb4c-392af6ca1047",
+      "name": "Het Nieuwe Domein - Hedendaagse Kunst",
+      "province": "Limburg",
+      "official_url": "https://www.hetnieuwedomein.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "4f3ca9f3-0009-5a24-a288-ab9ac1b9aad0",
+      "name": "Jan Kruis Museum",
+      "province": "Drenthe",
+      "official_url": "https://jankruismuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "e86db9db-eb94-5dfb-af31-0208132ee40d",
+      "name": "Street Art Museum Amsterdam",
+      "province": "Noord-Holland",
+      "official_url": "https://www.streetartmuseumamsterdam.com/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "7c88711b-05d7-592a-b07e-3e7639d3720f",
+      "name": "Museum Maassluis",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.museummaassluis.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "121a5aff-df75-51a1-a97a-e98ba0c0a5c7",
+      "name": "Arti et Amicitiae",
+      "province": "Noord-Holland",
+      "official_url": "https://www.arti.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "03316b59-3bc4-5247-a620-182bf1801e26",
+        "55908d4a-68af-514d-8b94-2755e5875f12"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "10e5b685-693f-5cc4-bc69-7e1f1a3a89bb",
+      "name": "Artphy",
+      "province": "Groningen",
+      "official_url": "https://www.artphy.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "37a5e496-176e-56f1-a387-c3ff339bec30",
+      "name": "Kunstenlab",
+      "province": "Overijssel",
+      "official_url": "https://www.kunstenlab.nl//",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c0ca1baa-d39b-55b8-9074-bcbb4249b94b",
+      "name": "NEST - ruimte voor kunst",
+      "province": "Zuid-Holland",
+      "official_url": "https://nestruimte.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "25d40c69-8a84-5853-937a-e40824db0972"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "cb3d8ee5-fbea-5532-a3e9-0beec17e9d32",
+      "name": "Flower Art Museum",
+      "province": "Noord-Holland",
+      "official_url": "https://www.flowerartmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "a56dbafb-a9a8-5dc6-85e8-0c2198b3f241",
+      "name": "Museum Lunteren",
+      "province": "Gelderland",
+      "official_url": "https://www.museumlunteren.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "76c21b1b-3b3b-5688-bef6-7213e687b89a",
+      "name": "OSCAM - Open Space Contemporary Art Museum",
+      "province": "Noord-Holland",
+      "official_url": "https://www.oscam.nl/about/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "71ca77ee-da1c-51cc-9692-57364ef7e513",
+      "name": "Stichting Nobilis centrum voor prentkunst",
+      "province": "Friesland",
+      "official_url": "https://www.stichtingnobilis.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "bf23d2b3-7171-502b-af61-75c4b4a1364c",
+      "name": "Storyworld",
+      "province": "Groningen",
+      "official_url": "https://www.storyworld.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "729160db-5769-5075-bdd5-96d314fd813a",
+      "name": "Buitenmuseum",
+      "province": "Zuid-Holland",
+      "official_url": "https://buitenmuseum.com/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ba5d88b2-0ac0-5398-aa7f-1a60227a1a14",
+      "name": "MAS Museum voor Achterhoekse Schilderkunst",
+      "province": "Gelderland",
+      "official_url": "",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "35b67e78-bbd8-5bae-8a83-9612565a6d35",
+      "name": "Dat Bolwerck - Huis voor kunst en gedachten",
+      "province": "Gelderland",
+      "official_url": "https://www.datbolwerck.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "8c9ac3bc-ff2a-5358-a726-de3a3a7ff7b7",
+      "name": "STRAAT Museum",
+      "province": "Noord-Holland",
+      "official_url": "https://straatmuseum.com/nl",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "0163ec3a-fdc1-5298-9c1b-4f4ed0e807f9",
+      "name": "033Rietveldpaviljoen",
+      "province": "Utrecht",
+      "official_url": "https://033rietveldpaviljoen.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "8f412324-f19e-5dae-a2ab-b3579ec40695",
+      "name": "TETEM kunstruimte",
+      "province": "Overijssel",
+      "official_url": "https://www.tetem.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "e591e0bb-943d-53bf-a039-8b7c79814421",
+      "name": "(A)WAKE",
+      "province": "Zuid-Holland",
+      "official_url": "https://a-wake.world/about/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "16ea7349-16f9-5f69-b273-914930a5e2a7",
+      "name": "1646",
+      "province": "Zuid-Holland",
+      "official_url": "https://1646.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "25a789aa-77b3-5c6c-9d10-e9dae2d50c95",
+      "name": "38CC",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.38cc.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "53a4ea87-3364-548c-ae48-56b78a1d3eb5",
+      "name": "A Tale of a Tub",
+      "province": "Zuid-Holland",
+      "official_url": "https://a-tub.org",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "b0e3929f-652d-5fa9-83de-36afa06e5636",
+      "name": "Beautiful Distress House",
+      "province": "Noord-Holland",
+      "official_url": "https://www.beautifuldistress.org/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "5caab58f-9a36-5b74-b22c-1147054e0037",
+      "name": "CAMPIS podium voor hedendaagse kunst",
+      "province": "Drenthe",
+      "official_url": "https://www.campis.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "9b52f710-dd7e-5428-bfce-f535533ac528",
+      "name": "Casco Art Institute: Working for the Commons",
+      "province": "Utrecht",
+      "official_url": "https://www.casco.art",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "3530053f-e512-5258-9c49-cb1a82f58d61",
+      "name": "CBK Centrum Beeldende Kunst Zuidoost",
+      "province": "Noord-Holland",
+      "official_url": "https://www.cbkzuidoost.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "7253528b-7a0e-568a-8027-0fffa0e48466",
+      "name": "Concordia",
+      "province": "Overijssel",
+      "official_url": "https://www.concordia.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "d57b690e-b2d3-538c-835e-c9c97020b2b2",
+      "name": "De Cacaofabriek",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.cacaofabriek.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "ca2c6fde-1b3e-5017-b7db-24bc9d344a20",
+      "name": "De Fabriek Eindhoven",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.defabriekeindhoven.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "9ca0e59a-1012-5d5c-aa25-9ea718064b17",
+      "name": "Extrapool",
+      "province": "Gelderland",
+      "official_url": "https://www.extrapool.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "4933b0fd-07e5-5856-a1a3-929f6a4ca999",
+      "name": "Factor IJ",
+      "province": "Noord-Holland",
+      "official_url": "https://www.factor-ij.amsterdam/over-ons/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "a5149a14-e065-56e0-ac24-a33f2fc9b777",
+      "name": "FOTODOK",
+      "province": "Utrecht",
+      "official_url": "https://www.fotodok.org/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "bf8db4f9-ca97-5715-a46d-7ec2887dec9f",
+      "name": "Framer Framed",
+      "province": "Noord-Holland",
+      "official_url": "https://www.framerframed.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "f32c368d-5c0b-5f58-824a-d0bdb203cb9f",
+      "name": "Greylight Projects",
+      "province": "Limburg",
+      "official_url": "https://greylightprojects.org/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "9ffd3f46-b10e-57ac-8a4b-192b381ee847",
+      "name": "HotelMariaKapel",
+      "province": "Noord-Holland",
+      "official_url": "https://www.hotelmariakapel.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "344dc9e8-b078-5a23-8bcf-9079dc3517bf",
+      "name": "Kunstgarage Franx",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.kunstgaragefranx.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c39bd0c8-1020-5c45-8f31-f2141d6a08fb",
+      "name": "Kunsthal Kloof",
+      "province": "Utrecht",
+      "official_url": "https://www.kunsthalkloof.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "b72de5cb-384d-54e4-8e70-d924679a875a",
+      "name": "Kunsthuis Syb",
+      "province": "Friesland",
+      "official_url": "https://www.kunsthuissyb.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "77dcd5d7-e549-53f5-b6cf-9d900113e0fe",
+      "name": "Kunstpodium T",
+      "province": "Noord-Brabant",
+      "official_url": "https://kunstpodium-t.com",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "377e808e-87b2-5a7b-a114-650880916ec3",
+      "name": "Kunstpunt Groningen",
+      "province": "Groningen",
+      "official_url": "https://www.kunstpuntgroningen.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "3eccb19d-2772-5ae1-be07-8d3fb319ac9a",
+      "name": "MaMA",
+      "province": "Zuid-Holland",
+      "official_url": "https://thisismama.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "cf4febc1-45cc-53e6-93c6-37e464ac551f",
+      "name": "Mediamatic",
+      "province": "Noord-Holland",
+      "official_url": "https://www.mediamatic.net",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "2347e3b4-cc82-55b5-a28e-f1f4d341542e",
+      "name": "Murals Inc",
+      "province": "Zuid-Holland",
+      "official_url": "https://murals-inc.com",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "63d52cc7-0de7-543c-9791-2dfc82048c48",
+      "name": "Nieuwe Vide",
+      "province": "Noord-Holland",
+      "official_url": "https://nieuwevide.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "7e6ef733-4a4e-514a-909c-addda45d4cc3",
+      "name": "NP3 | eMMa Rem Koolhaas Videobusstop",
+      "province": "Groningen",
+      "official_url": "https://www.np3.nu/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "1b5450c8-f2d7-56e7-a330-8a109b5c0278",
+      "name": "NP3 | MOBi",
+      "province": "Groningen",
+      "official_url": "https://www.np3.nu/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "b9f3af95-3427-535f-b2de-f293758b2a34",
+      "name": "NP3 | RE:Search:Gallery",
+      "province": "Groningen",
+      "official_url": "https://www.np3.nu/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "edd974bf-2d7b-5029-a46e-8eda1e106288",
+      "name": "Omstand, presentatieruimte voor actuele kunst",
+      "province": "Gelderland",
+      "official_url": "https://www.omstand.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "f54193f9-446c-5b4b-82a9-6ec7c93840dd",
+      "name": "Page Not Found",
+      "province": "Zuid-Holland",
+      "official_url": "https://page-not-found.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "86f0974d-63d5-54fc-b32f-6e4b764c60dc",
+      "name": "PARK platform for visual arts",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.park013.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "f8a0f9b4-b285-5329-b697-0d0f89a9c351",
+      "name": "Pictura",
+      "province": "Groningen",
+      "official_url": "https://www.pictura-groningen.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "b87046b0-6241-5cb1-8447-b203cdb511a0",
+      "name": "Plaatsmaken",
+      "province": "Gelderland",
+      "official_url": "https://plaatsmaken.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "32743540-27e7-55b1-9397-bb2f583f8d00",
+      "name": "POST",
+      "province": "Gelderland",
+      "official_url": "https://www.platformpost.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "be7ae9fc-3ebe-5d1c-beb8-5c4c6fa0ac1c",
+      "name": "Post Arnhem",
+      "province": "Gelderland",
+      "official_url": "https://platformpost.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "781e5ba8-d9f0-51eb-9b68-c35caad82a57",
+      "name": "PrintRoom",
+      "province": "Zuid-Holland",
+      "official_url": "https://printroom.org/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "3afa43d7-49e0-5a7a-91d2-6c3292c69c02",
+      "name": "RADIUS",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.radius-cca.org/en",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "f38227ea-5f80-5d36-91fe-581042df34e5",
+      "name": "Rib",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.ribrib.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "44c1e41f-c797-5adc-bfce-52387d057ac0",
+      "name": "Roodkapje",
+      "province": "Zuid-Holland",
+      "official_url": "https://roodkapje.org",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "28c5d487-ea4b-52f8-ae83-41eebe885b71",
+      "name": "ROZENSTRAAT - a rose is a rose is a rose",
+      "province": "Noord-Holland",
+      "official_url": "https://www.rozenstraat.com/nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "5b300211-4e53-56b6-8406-abbe99f523ab",
+      "name": "SEA Foundation",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.seafoundation.eu/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "e5545194-a1bd-54f9-9e3e-a711b0475a07",
+      "name": "Shimmer",
+      "province": "Zuid-Holland",
+      "official_url": "https://shimmershimmer.org",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "7e50d86e-21f2-5924-b07f-ff78edb41f57",
+      "name": "SIGN",
+      "province": "Groningen",
+      "official_url": "https://sign2.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "abe68e6d-4b1c-5277-9a09-7a0abec22d74",
+      "name": "EST art foundation",
+      "province": "Zuid-Holland",
+      "official_url": "https://est-art-foundation.org",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "2399fffa-6f31-5919-b340-6153d1689312",
+      "name": "Van Abbehuis",
+      "province": "Noord-Brabant",
+      "official_url": "https://vanabbehuis.com/nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "90ba7d13-5dd3-5202-b72e-2122c5e0ffdc",
+      "name": "De Bewaerschole",
+      "province": "Zeeland",
+      "official_url": "https://www.bewaerschole.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "d383cc7e-bc5c-5034-8e3f-26f77cf0dedd",
+      "name": "The Grey Space in the Middle",
+      "province": "Zuid-Holland",
+      "official_url": "https://thegreyspace.net",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "76bb2424-a1d1-5a57-a968-4999c4b12032",
+      "name": "Stroom Den Haag",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.stroom.nl",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c4f26e6f-6dc8-54b7-aa78-0d504149b2ef",
+      "name": "The Balcony",
+      "province": "Zuid-Holland",
+      "official_url": "https://thebalconythehague.com/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "c55697d5-d5dc-55e4-ab51-2868762e5d85",
+      "name": "V2_",
+      "province": "Zuid-Holland",
+      "official_url": "https://www.v2.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "b3bc3658-ee11-5b7a-862a-198b8a60fc0d",
+      "name": "VHDG",
+      "province": "Friesland",
+      "official_url": "https://www.vhdg.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "649e921a-325d-5422-9c12-66de74cfe130"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "3dc36ebf-d27d-52db-b49d-b026fc5c6f0f",
+      "name": "W139",
+      "province": "Noord-Holland",
+      "official_url": "https://w139.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "6fc74b6d-e4c5-55e3-aa78-1fe66acb26fc",
+      "name": "Witte Rook",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.witterook.nu",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "dc985ccf-47c2-58bf-8466-518af0400fcb",
+      "name": "Zone2Source",
+      "province": "Noord-Holland",
+      "official_url": "https://zone2source.net",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "4748fef0-e09d-5cf6-a446-39065bc468ce",
+      "name": "Schoenenkwartier",
+      "province": "Noord-Brabant",
+      "official_url": "https://schoenenkwartier.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "99e5e11c-b0fb-5509-9407-dae7aacbf5c9",
+      "name": "MOYA – Museum of Young Art",
+      "province": "Noord-Brabant",
+      "official_url": "https://www.moya.museum/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "503f926c-885f-5925-b0e6-cc83832404a6",
+      "name": "Verwey Museum Haarlem",
+      "province": "Noord-Holland",
+      "official_url": "https://www.verweymuseumhaarlem.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "d36bbfc7-4d74-5022-851d-92f2cac85526",
+      "name": "GRID Grafisch Museum Groningen",
+      "province": "Groningen",
+      "official_url": "https://www.gridgroningen.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "210a5e49-0b2b-5af1-9372-62936689ed75",
+      "name": "Herman Brood Museum",
+      "province": "Overijssel",
+      "official_url": "https://hermanbroodmuseum.nl/pages/contact",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "5de1ef76-c89b-5bd3-87ab-57fcaaf6c35a",
+      "name": "Bommel en Tom Poes Museum",
+      "province": "Drenthe",
+      "official_url": "https://www.bommelentompoesmuseum.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "5a2c98fa-0a13-5f8a-b599-ee2cf067aaeb",
+      "name": "Collectie Six",
+      "province": "Noord-Holland",
+      "official_url": "https://collectiesix.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "18568908-3bcc-5832-8fd0-e3c715f945d6",
+      "name": "De Boterhal",
+      "province": "Noord-Holland",
+      "official_url": "https://boterhal.com/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "185cb6d0-5f53-5ae7-b674-31a2337ee561",
+      "name": "Europees Keramisch Werkcentrum",
+      "province": "Noord-Brabant",
+      "official_url": "https://ekwc.nl/bezoekersinfo/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "8fa74ff1-0c85-53cc-8a02-bd1b25b0ef33",
+      "name": "Beeldentuin De Havixhorst",
+      "province": "Drenthe",
+      "official_url": "https://www.beeldentuindehavixhorst.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    },
+    {
+      "museum_id": "2ad664ac-fdb1-5a39-a587-feea9ed9608e",
+      "name": "Museum MORE Twickel",
+      "province": "Overijssel",
+      "official_url": "https://www.moretwickel.nl/",
+      "source_group_id": "official-institutions",
+      "priority": "high",
+      "status": "checked",
+      "last_complete_check": "2026-10-04T20:48:00.712388+00:00",
+      "last_partial_check": "2026-10-04",
+      "known_event_ids": [
+        "9811f150-aefd-5cae-9cfb-3d5eb64a67c5"
+      ],
+      "program_pages_read": [
+        "https://www.moretwickel.nl/tentoonstellingen/into-the-woods",
+        "https://www.moretwickel.nl/tentoonstellingen",
+        "https://www.moretwickel.nl/tentoonstellingen/jan-mankes"
+      ],
+      "remaining": [],
+      "decision": "Into the Woods opgenomen; Jan Mankes is expliciet permanent, geen verzonnen einddatum."
+    },
+    {
+      "museum_id": "f0c2b13a-04ce-46a0-bef4-48f608604a0d",
+      "name": "Museum van de Geest – Pop-up Outsider Art",
+      "province": "Noord-Holland",
+      "official_url": "https://museumvandegeest.nl/plan-je-bezoek/praktische-informatie-pop-up/",
+      "source_group_id": "official-institutions",
+      "priority": "normal",
+      "status": "pending",
+      "last_complete_check": null,
+      "last_partial_check": null,
+      "known_event_ids": [
+        "dd25eb3e-079f-5628-a14e-d2552b902ffd"
+      ],
+      "program_pages_read": [],
+      "remaining": [
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ]
+    }
+  ],
+  "checked_does_not_mean_all_published": true,
+  "additional_organizers": [
+    {
+      "name": "Kunst10Daagse 2026",
+      "url": "https://dekunst10daagse.nl/",
+      "event_id": "a38df32f-c893-539d-bf22-c3584719c388",
+      "checked_at": "2026-10-04T20:48:00.712388+00:00",
+      "status": "event_verified",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+      ]
+    },
+    {
+      "name": "Kunstmaand Ameland 2026 — TIJDLOOS",
+      "url": "https://www.kunstmaandameland.com/thema/",
+      "event_id": "5aca41c7-5719-5972-9832-7da4f28b5485",
+      "checked_at": "2026-10-04T20:48:00.712388+00:00",
+      "status": "event_verified",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+      ]
+    },
+    {
+      "name": "BredaPhoto Festival 2026 — Our Songs Came Through",
+      "url": "https://bredaphoto.nl/nl/",
+      "event_id": "5a48d80e-3585-5c09-904b-59941a92423d",
+      "checked_at": "2026-10-04T20:48:00.712388+00:00",
+      "status": "event_verified",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Coördinaten festivalstart Chasséveld 3A nog verifiëren; festival omvat meerdere locaties."
+      ]
+    },
+    {
+      "name": "Manifestations 2026 — MUTE",
+      "url": "https://2026.manifestations.nl/over/",
+      "event_id": "4ed8fad1-2296-5388-9991-14d9f8ca0443",
+      "checked_at": "2026-10-04T20:48:00.712388+00:00",
+      "status": "event_verified",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Exact punt van publieksingang VEEM nog bevestigen; PDOK vindt Torenallee 100-02, niet zonder controle als ingang vloer 8 overgenomen."
+      ]
+    },
+    {
+      "name": "Museumnacht Den Haag 2026",
+      "url": "https://museumnachtdenhaag.nl/en/programma/",
+      "event_id": "234b8c4d-2118-5630-9336-f277be2d95bc",
+      "checked_at": "2026-10-04T20:48:00.712388+00:00",
+      "status": "event_verified",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+      ]
+    }
+  ]
+}

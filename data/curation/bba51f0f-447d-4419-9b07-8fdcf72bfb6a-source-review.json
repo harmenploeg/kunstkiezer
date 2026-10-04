@@ -952,7 +952,7 @@
       "source_id": "official-institutions",
       "name": "Musea, kunstinstellingen, kunstenaars en terreinbeheerders",
       "url": "",
-      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "checked_at": "2026-10-04T20:48:00.712388+00:00",
       "window_from": "2026-09-06",
       "window_to": "2026-10-04",
       "status": "partial",
@@ -1036,11 +1036,51 @@
           "url": "https://www.eyefilm.nl/programma/ulrich-seidl/1633828",
           "published_at": null,
           "result": "Organisator bevestigt inhoud, locatie en looptijd. Vrij gelicentieerde, visueel gecontroleerde locatiefoto met opnamedatum; geen actuele expositiefoto."
+        },
+        {
+          "url": "https://dekunst10daagse.nl/",
+          "published_at": null,
+          "result": "Kunstinhoud, editie, looptijd en bezoekcontext inhoudelijk geverifieerd; evenement toegevoegd."
+        },
+        {
+          "url": "https://www.kunstmaandameland.com/thema/",
+          "published_at": null,
+          "result": "Kunstinhoud, editie, looptijd en bezoekcontext inhoudelijk geverifieerd; evenement toegevoegd."
+        },
+        {
+          "url": "https://www.kunstmaandameland.com/veelgestelde-vragen/",
+          "published_at": null,
+          "result": "Kunstinhoud, editie, looptijd en bezoekcontext inhoudelijk geverifieerd; evenement toegevoegd."
+        },
+        {
+          "url": "https://bredaphoto.nl/nl/",
+          "published_at": null,
+          "result": "Kunstinhoud, editie, looptijd en bezoekcontext inhoudelijk geverifieerd; evenement toegevoegd."
+        },
+        {
+          "url": "https://bredaphoto.nl/nl/plan-je-bezoek/",
+          "published_at": null,
+          "result": "Kunstinhoud, editie, looptijd en bezoekcontext inhoudelijk geverifieerd; evenement toegevoegd."
+        },
+        {
+          "url": "https://bredaphoto.nl/nl/locatie/carre-chasse/",
+          "published_at": null,
+          "result": "Kunstinhoud, editie, looptijd en bezoekcontext inhoudelijk geverifieerd; evenement toegevoegd."
+        },
+        {
+          "url": "https://2026.manifestations.nl/over/",
+          "published_at": null,
+          "result": "Kunstinhoud, editie, looptijd en bezoekcontext inhoudelijk geverifieerd; evenement toegevoegd."
+        },
+        {
+          "url": "https://museumnachtdenhaag.nl/en/programma/",
+          "published_at": null,
+          "result": "Kunstinhoud, editie, looptijd en bezoekcontext inhoudelijk geverifieerd; evenement toegevoegd."
         }
       ],
-      "candidate_count": 8,
+      "candidate_count": 14,
       "limitations": [
-        "Gerichte primaire controle van acht bestaande musea en acht nieuwe tentoonstellingen. Geen volledige nationale programma-inventarisatie."
+        "Dertien nieuwe evenementen/tentoonstellingen en acht bestaande musea gericht geverifieerd; vier museumprogramma’s aanvullend volledig doorgenomen. Nog geen volledige landelijke dekking."
       ],
       "last_successful_content_check": null
     },
@@ -1048,27 +1088,26 @@
       "source_id": "museumkijker",
       "name": "Museumkijker",
       "url": "https://www.museumkijker.nl/",
-      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "checked_at": "2026-10-04T20:16:28.651461+00:00",
       "window_from": "2026-09-06",
       "window_to": "2026-10-04",
-      "status": "partial",
+      "status": "read",
       "articles": [
         {
           "url": "https://www.museumkijker.nl/ballonnen-en-confetti-tien-jaar-museum-voorlinden/",
           "published_at": "2026-09-21",
-          "result": "Gedeeltelijk; Icons bestaat; Penone buitenwerk kandidaat"
+          "result": "Volledig gelezen; Icons bestaat; Penone buitenwerk kandidaat"
         },
         {
           "url": "https://www.museumkijker.nl/lou-loeber-kunstenaar-en-idealist/",
           "published_at": "2026-09-07",
-          "result": "Gedeeltelijk; tentoonstelling afgelopen"
+          "result": "Volledig gelezen; tentoonstelling afgelopen"
         }
       ],
       "candidate_count": 1,
-      "limitations": [
-        "Twee vensterartikelen gedeeltelijk gelezen. Icons reeds aanwezig; Lou Loeber officieel afgelopen 27 september. Penone buitenwerk blijft kandidaat."
-      ],
-      "last_successful_content_check": null
+      "limitations": [],
+      "last_successful_content_check": "2026-10-04T20:16:28.651461+00:00",
+      "scope_note": "Nieuwsvenster 6 september–4 oktober: homepage chronologisch tot vóór venster en alle artikelen in venster inclusief slot gelezen. Kandidaatcontrole blijft waar vermeld open."
     },
     {
       "source_id": "museumtijdschrift",
@@ -1322,32 +1361,31 @@
       "source_id": "wilma",
       "name": "Wilma Takes a Break",
       "url": "https://wilmatakesabreak.nl/",
-      "checked_at": "2026-10-04T20:09:41.800192+00:00",
+      "checked_at": "2026-10-04T20:16:28.651461+00:00",
       "window_from": "2026-09-06",
       "window_to": "2026-10-04",
-      "status": "partial",
+      "status": "read",
       "articles": [
         {
           "url": "https://wilmatakesabreak.nl/nu-te-zien-now/asta-norregaard-in-oslo/",
           "published_at": "2026-10-03",
-          "result": "Gedeeltelijk; buiten Nederland"
+          "result": "Volledig gelezen; buiten Nederland"
         },
         {
           "url": "https://wilmatakesabreak.nl/nu-te-zien-now/kroller-muller-van-goch-al-onze-schilderijen/",
           "published_at": "2026-09-25",
-          "result": "Gedeeltelijk; evenement reeds aanwezig"
+          "result": "Volledig gelezen; evenement reeds aanwezig"
         },
         {
           "url": "https://wilmatakesabreak.nl/musea/de-derde-more-opent-en-heet-more-twickel/",
           "published_at": "2026-09-12",
-          "result": "Gedeeltelijk; Into the Woods toegevoegd na primaire controle"
+          "result": "Volledig gelezen; Into the Woods toegevoegd na primaire controle"
         }
       ],
-      "candidate_count": 1,
-      "limitations": [
-        "Drie vensterartikelen benaderd: Noorse kunstenaar buiten Nederlandse selectie, Van Gogh 88 reeds aanwezig, MORE Twickel reeds aanwezig en Into the Woods toegevoegd. Niet alle artikelstaarten gelezen."
-      ],
-      "last_successful_content_check": null
+      "candidate_count": 2,
+      "limitations": [],
+      "last_successful_content_check": "2026-10-04T20:16:28.651461+00:00",
+      "scope_note": "Nieuwsvenster 6 september–4 oktober: homepage chronologisch tot vóór venster en alle artikelen in venster inclusief slot gelezen. Kandidaatcontrole blijft waar vermeld open."
     }
   ]
 }

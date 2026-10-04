@@ -3,10 +3,10 @@
   "campaign": "individuele-controle-2026-10-04",
   "requested_at": "2026-10-04",
   "active": true,
-  "updated_at": "2026-10-04T20:01:37.975725+00:00",
+  "updated_at": "2026-10-04T20:48:00.712388+00:00",
   "policy": "Alle overgebleven punten inhoudelijk onderzoeken; onoplosbare punten krijgen een concrete externe blokkade met bron en uitgevoerde pogingen. Geen status afronden op basis van HTTP 200.",
   "last_completed_batch": "c2c576a9-e278-4fa1-a141-d977d28c9950",
-  "pending_count": 590,
+  "pending_count": 595,
   "blocked_count": 1,
   "records": [
     {
@@ -8132,6 +8132,194 @@
       ],
       "last_reviewed_at": null,
       "evidence_from": "data/curation/2026-10-04-beeldentuinen-uitbreiding.json"
+    },
+    {
+      "id": "a38df32f-c893-539d-bf22-c3584719c388",
+      "name": "Kunst10Daagse 2026",
+      "category": "evenementen",
+      "status": "pending",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+      ],
+      "last_reviewed_at": "2026-10-04T20:48:00.712388+00:00",
+      "evidence": [
+        {
+          "id": "a38df32f-c893-539d-bf22-c3584719c388",
+          "name": "Kunst10Daagse 2026",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:48:00.712388+00:00",
+          "primary_sources": [
+            "https://dekunst10daagse.nl/"
+          ],
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "visit_notes"
+          ],
+          "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+          "remaining": [
+            "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+            "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+          ],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "5aca41c7-5719-5972-9832-7da4f28b5485",
+      "name": "Kunstmaand Ameland 2026 — TIJDLOOS",
+      "category": "evenementen",
+      "status": "pending",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+      ],
+      "last_reviewed_at": "2026-10-04T20:48:00.712388+00:00",
+      "evidence": [
+        {
+          "id": "5aca41c7-5719-5972-9832-7da4f28b5485",
+          "name": "Kunstmaand Ameland 2026 — TIJDLOOS",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:48:00.712388+00:00",
+          "primary_sources": [
+            "https://www.kunstmaandameland.com/thema/",
+            "https://www.kunstmaandameland.com/veelgestelde-vragen/"
+          ],
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "visit_notes"
+          ],
+          "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+          "remaining": [
+            "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+            "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+          ],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "5a48d80e-3585-5c09-904b-59941a92423d",
+      "name": "BredaPhoto Festival 2026 — Our Songs Came Through",
+      "category": "evenementen",
+      "status": "pending",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Coördinaten festivalstart Chasséveld 3A nog verifiëren; festival omvat meerdere locaties."
+      ],
+      "last_reviewed_at": "2026-10-04T20:48:00.712388+00:00",
+      "evidence": [
+        {
+          "id": "5a48d80e-3585-5c09-904b-59941a92423d",
+          "name": "BredaPhoto Festival 2026 — Our Songs Came Through",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:48:00.712388+00:00",
+          "primary_sources": [
+            "https://bredaphoto.nl/nl/",
+            "https://bredaphoto.nl/nl/plan-je-bezoek/",
+            "https://bredaphoto.nl/nl/locatie/carre-chasse/"
+          ],
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "visit_notes"
+          ],
+          "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+          "remaining": [
+            "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+            "Coördinaten festivalstart Chasséveld 3A nog verifiëren; festival omvat meerdere locaties."
+          ],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "4ed8fad1-2296-5388-9991-14d9f8ca0443",
+      "name": "Manifestations 2026 — MUTE",
+      "category": "evenementen",
+      "status": "pending",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Exact punt van publieksingang VEEM nog bevestigen; PDOK vindt Torenallee 100-02, niet zonder controle als ingang vloer 8 overgenomen."
+      ],
+      "last_reviewed_at": "2026-10-04T20:48:00.712388+00:00",
+      "evidence": [
+        {
+          "id": "4ed8fad1-2296-5388-9991-14d9f8ca0443",
+          "name": "Manifestations 2026 — MUTE",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:48:00.712388+00:00",
+          "primary_sources": [
+            "https://2026.manifestations.nl/over/"
+          ],
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "visit_notes"
+          ],
+          "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+          "remaining": [
+            "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+            "Exact punt van publieksingang VEEM nog bevestigen; PDOK vindt Torenallee 100-02, niet zonder controle als ingang vloer 8 overgenomen."
+          ],
+          "resolves_availability": true
+        }
+      ]
+    },
+    {
+      "id": "234b8c4d-2118-5630-9336-f277be2d95bc",
+      "name": "Museumnacht Den Haag 2026",
+      "category": "evenementen",
+      "status": "pending",
+      "remaining": [
+        "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+        "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+      ],
+      "last_reviewed_at": "2026-10-04T20:48:00.712388+00:00",
+      "evidence": [
+        {
+          "id": "234b8c4d-2118-5630-9336-f277be2d95bc",
+          "name": "Museumnacht Den Haag 2026",
+          "category": "evenementen",
+          "checked_at": "2026-10-04T20:48:00.712388+00:00",
+          "primary_sources": [
+            "https://museumnachtdenhaag.nl/en/programma/"
+          ],
+          "verified_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "tags",
+            "street_address",
+            "visit_notes"
+          ],
+          "conclusion": "Organisator bevestigt editie, looptijd, kunstinhoud en bezoekcontext. Geen foto gepubliceerd zonder hergebruikbewijs. Geografische spreiding blijft zichtbaar.",
+          "remaining": [
+            "Passend beeld met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt.",
+            "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
+          ],
+          "resolves_availability": true
+        }
+      ]
     }
   ],
   "resolved_count": 98,
