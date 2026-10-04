@@ -7,7 +7,8 @@
       "tentoonstelling",
       "glaskunst",
       "beeldhouwkunst",
-      "ambacht"
+      "ambacht",
+      "maker: richard price"
     ],
     "year": "2026–2027",
     "photos": [
@@ -19,13 +20,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Museum_Jan_van_der_Togt._Amstelveen_001.JPG"
       }
     ],
-    "creator": "",
+    "creator": "Richard Price",
     "ends_on": "2027-04-18",
     "sources": [
       {
         "url": "https://www.museumjan.nl/tentoonstellingen/richard-price-vloeibaar-meesterschap",
         "provider": "Museum JAN · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.museumjan.nl/tentoonstellingen/richard-price-vloeibaar-meesterschap",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Ontdek hoe Richard Price glas laat balanceren tussen vloeibaarheid en vaste vorm. Vroeg werk en recente sculpturen brengen zijn ontwikkeling als glaskunstenaar samen.",
@@ -105,7 +115,10 @@
       "abstract expressionisme",
       "minimalisme",
       "schilderkunst",
-      "beeldhouwkunst"
+      "beeldhouwkunst",
+      "maker: helen frankenthaler",
+      "maker: donald judd",
+      "maker: helen frankenthaler / donald judd"
     ],
     "year": "2026–2027",
     "photos": [
@@ -117,7 +130,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:20140513Eemhuis43rx.JPG"
       }
     ],
-    "creator": "",
+    "creator": "Helen Frankenthaler / Donald Judd",
     "ends_on": "2027-01-10",
     "sources": [
       {
@@ -129,6 +142,15 @@
         "url": "https://museumtijdschrift.nl/artikelen/tips/tentoonstellingen-om-naar-uit-te-kijken-in-het-najaar-van-2026/",
         "provider": "Museumtijdschrift · najaarsselectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.kunsthalkade.nl/nl/nieuws/binnenkort-te-zien-frankenthaler-judd/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Vrije kleurvelden ontmoeten strakke vormen. Het werk van Helen Frankenthaler en Donald Judd laat zien hoe verschillend abstracte kunst kan zijn, en waar kleur, vlak en ruimte elkaar toch raken.",
@@ -242,7 +264,8 @@
       "tentoonstelling",
       "tekenkunst",
       "abstract expressionisme",
-      "moderne kunst"
+      "moderne kunst",
+      "maker: willem de kooning"
     ],
     "year": "2026–2027",
     "photos": [
@@ -254,7 +277,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:South_facade_of_the_Rijksmuseum_Amsterdam_(DSCF0528).jpg"
       }
     ],
-    "creator": "",
+    "creator": "Willem de Kooning",
     "ends_on": "2027-01-17",
     "sources": [
       {
@@ -266,6 +289,15 @@
         "url": "https://kunstvensters.com/2026/10/01/10-tentoonstellingen-die-je-niet-wil-missen-in-oktober-2026/",
         "provider": "KunstVensters · najaarsselectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/willem-de-kooning-at-work",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Volg De Koonings onderzoekende hand: van eerste lijnen tot krachtige figuren en landschappen. Tekeningen, schilderijen en sculpturen laten zien hoe hij bleef zoeken, veranderen en verrassen.",
@@ -293,7 +325,8 @@
       "tentoonstelling",
       "schilderkunst",
       "prentkunst",
-      "19e eeuw"
+      "19e eeuw",
+      "maker: james mcneill whistler"
     ],
     "year": "2026–2027",
     "photos": [
@@ -305,7 +338,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum_7206_rt_HDR.jpg"
       }
     ],
-    "creator": "",
+    "creator": "James McNeill Whistler",
     "ends_on": "2027-01-10",
     "sources": [
       {
@@ -317,6 +350,15 @@
         "url": "https://museumtijdschrift.nl/artikelen/tips/tentoonstellingen-om-naar-uit-te-kijken-in-het-najaar-van-2026/",
         "provider": "Museumtijdschrift · najaarsselectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.vangoghmuseum.nl/en/about/news-and-press/news/20260825-highlights-of-the-upcoming-cultural-season",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Ontmoet Whistler als schilder en prentmaker die stemming boven verhaal stelde. Zijn gevoel voor licht, muziek en kleur maakt deze ontmoeting met de negentiende eeuw verrassend levendig.",
@@ -344,7 +386,8 @@
       "tentoonstelling",
       "japanse kunst",
       "prentkunst",
-      "19e eeuw"
+      "19e eeuw",
+      "maker: tsukioka yoshitoshi"
     ],
     "year": "2026–2027",
     "photos": [
@@ -356,13 +399,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum_7206_rt_HDR.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Tsukioka Yoshitoshi",
     "ends_on": "2027-01-04",
     "sources": [
       {
         "url": "https://www.vangoghmuseum.nl/en/about/news-and-press/news/20260825-highlights-of-the-upcoming-cultural-season",
         "provider": "Van Gogh Museum · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.vangoghmuseum.nl/en/about/news-and-press/news/20260825-highlights-of-the-upcoming-cultural-season",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Honderd prenten verbinden maanlicht met mythen, strijders en geliefden. Ontdek hoe Yoshitoshi met kleur en compositie telkens een ander verhaal laat oplichten.",
@@ -390,7 +442,10 @@
       "evenement",
       "muziek",
       "beeldende kunst",
-      "avondprogramma"
+      "avondprogramma",
+      "maker: coby sey",
+      "maker: devon rexi",
+      "maker: coby sey / devon rexi"
     ],
     "year": "2026",
     "photos": [
@@ -402,13 +457,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_Museum_7206_rt_HDR.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Coby Sey / Devon Rexi",
     "ends_on": "2026-10-23",
     "sources": [
       {
         "url": "https://www.vangoghmuseum.nl/nl/bezoek/agenda-en-activiteiten",
         "provider": "Van Gogh Museum · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.vangoghmuseum.nl/nl/bezoek/agenda-en-activiteiten",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Ervaar hoe muziek en beeld elkaar ontmoeten in een avond geïnspireerd op Whistlers nachtelijke wereld. Coby Sey, Devon Rexi en visuals van uncloud brengen een nieuwe sfeer in het museum.",
@@ -436,7 +500,8 @@
       "tentoonstelling",
       "moderne kunst",
       "schilderkunst",
-      "kleur"
+      "kleur",
+      "maker: henri matisse"
     ],
     "year": "2026–2027",
     "photos": [
@@ -448,7 +513,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Amstel_-_View_on_river_Amstel_%26_Museum_Hermitage_Amsterdam.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Henri Matisse",
     "ends_on": "2027-02-14",
     "sources": [
       {
@@ -460,6 +525,15 @@
         "url": "https://kunstvensters.com/2026/10/01/10-tentoonstellingen-die-je-niet-wil-missen-in-oktober-2026/",
         "provider": "KunstVensters · najaarsselectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.hartmuseum.nl/pers/persberichten/matisse-arriveert-in-amsterdam/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Duik in de kleurenwereld van Matisse. Zijn werk ontmoet kunst van onder anderen Rothko, Newman en Delaunay, waardoor je ontdekt hoe zijn vernieuwende blik bleef doorwerken in volgende generaties.",
@@ -487,7 +561,8 @@
       "tentoonstelling",
       "beeldhouwkunst",
       "popart",
-      "moderne kunst"
+      "moderne kunst",
+      "maker: marisol"
     ],
     "year": "2026–2027",
     "photos": [
@@ -499,7 +574,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Depot_Boijmans_Van_Beuningen,_Rotterdam.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Marisol",
     "ends_on": "2027-03-29",
     "sources": [
       {
@@ -511,6 +586,15 @@
         "url": "https://kunstvensters.com/2026/10/01/10-tentoonstellingen-die-je-niet-wil-missen-in-oktober-2026/",
         "provider": "KunstVensters · najaarsselectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.boijmans.nl/tentoonstellingen/marisol",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Maak kennis met Marisols eigenzinnige sculpturen en de manier waarop zij mensen in beelden verandert. Haar werk krijgt in het Depot de ruimte voor een nieuwe ontmoeting met Rotterdam.",
@@ -589,7 +673,8 @@
       "tentoonstelling",
       "schilderkunst",
       "pointillisme",
-      "landschap"
+      "landschap",
+      "maker: paul signac"
     ],
     "year": "2026–2027",
     "photos": [
@@ -601,7 +686,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Kunsthal_Rotterdam.JPG"
       }
     ],
-    "creator": "",
+    "creator": "Paul Signac",
     "ends_on": "2027-02-28",
     "sources": [
       {
@@ -613,6 +698,15 @@
         "url": "https://kunstvensters.com/2026/10/01/10-tentoonstellingen-die-je-niet-wil-missen-in-oktober-2026/",
         "provider": "KunstVensters · najaarsselectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.kunsthal.nl/nl/tentoonstellingen/signac-symphony-of-colours-nl/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Zie hoe kleine kleurstippen samen een groot beeld vormen. Signacs havens, landschappen en portretten laten je dichtbij én van een afstand kijken. Een tentoonstelling waarin kleur letterlijk in beweging lijkt te komen.",
@@ -641,7 +735,10 @@
       "fotografie",
       "documentair",
       "migratie",
-      "maatschappij"
+      "maatschappij",
+      "maker: rob hornstra",
+      "maker: arnold van bruggen",
+      "maker: rob hornstra / arnold van bruggen"
     ],
     "year": "2026–2027",
     "photos": [
@@ -653,13 +750,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Kunsthal_Rotterdam.JPG"
       }
     ],
-    "creator": "",
+    "creator": "Rob Hornstra / Arnold van Bruggen",
     "ends_on": "2027-03-07",
     "sources": [
       {
         "url": "https://www.kunsthal.nl/nl/tentoonstellingen/plastic-sea-perfect-storm/",
         "provider": "Kunsthal Rotterdam · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.kunsthal.nl/nl/tentoonstellingen/plastic-sea-perfect-storm/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Rob Hornstra en Arnold van Bruggen richten hun blik op de wereld achter de Spaanse kassen. Foto’s en verhalen verbinden ons dagelijkse eten met arbeidsomstandigheden, migratie en het Europese landschap.",
@@ -687,7 +793,8 @@
       "tentoonstelling",
       "fotografie",
       "straatfotografie",
-      "20e eeuw"
+      "20e eeuw",
+      "maker: helen levitt"
     ],
     "year": "2026",
     "photos": [
@@ -699,7 +806,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Kunsthal_Rotterdam.JPG"
       }
     ],
-    "creator": "",
+    "creator": "Helen Levitt",
     "ends_on": "2026-10-04",
     "sources": [
       {
@@ -711,6 +818,15 @@
         "url": "https://kunstmeisjes.com/portfolio/go-no-go-465-de-new-yorkse-straten-op-met-helen-levitt/",
         "provider": "De Kunstmeisjes · recensie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.kunsthal.nl/nl/tentoonstellingen/helen-levitt/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Wandel met je ogen door het New York van Helen Levitt. Kinderen, buren en toevallige ontmoetingen geven de straat een eigen toneel. Haar foto’s maken het gewone rijk aan humor en aandacht.",
@@ -785,7 +901,8 @@
       "installaties",
       "video",
       "dans",
-      "mens en natuur"
+      "mens en natuur",
+      "maker: alida dors"
     ],
     "year": "2026–2027",
     "photos": [
@@ -797,13 +914,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Kunsthal_Rotterdam.JPG"
       }
     ],
-    "creator": "",
+    "creator": "Alida Dors",
     "ends_on": "2027-01-17",
     "sources": [
       {
         "url": "https://www.kunsthal.nl/nl/tentoonstellingen/theater-rotterdam/",
         "provider": "Kunsthal Rotterdam · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.kunsthal.nl/nl/tentoonstellingen/theater-rotterdam/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Dans, muziek, poëzie en video worden een ruimtelijke ervaring. Deze vertaling van Alida Dors’ voorstelling nodigt je uit de verhouding tussen mens, natuur en de systemen om ons heen te onderzoeken.",
@@ -831,7 +957,11 @@
       "tentoonstelling",
       "tekenkunst",
       "stad",
-      "nacht"
+      "nacht",
+      "maker: tessa biemans",
+      "maker: peyman fazeli",
+      "maker: steef offerhaus",
+      "maker: tessa biemans / peyman fazeli / steef offerhaus"
     ],
     "year": "2026–2027",
     "photos": [
@@ -843,13 +973,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Kunsthal_Rotterdam.JPG"
       }
     ],
-    "creator": "",
+    "creator": "Tessa Biemans / Peyman Fazeli / Steef Offerhaus",
     "ends_on": "2027-02-07",
     "sources": [
       {
         "url": "https://www.kunsthal.nl/nl/tentoonstellingen/getekend-rotterdam-nachtwerk/",
         "provider": "Kunsthal Rotterdam · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.kunsthal.nl/nl/tentoonstellingen/getekend-rotterdam-nachtwerk/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Ontdek de stad nadat het daglicht verdwijnt. Tessa Biemans, Peyman Fazeli en Steef Offerhaus tekenen ieder een andere Rotterdamse nacht, van stille plekken tot het leven dat juist dan op gang komt.",
@@ -878,7 +1017,8 @@
       "design",
       "installaties",
       "architectuur",
-      "marmer"
+      "marmer",
+      "maker: sabine marcelis"
     ],
     "year": "2026–2027",
     "photos": [
@@ -890,13 +1030,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Kunsthal_Rotterdam.JPG"
       }
     ],
-    "creator": "",
+    "creator": "Sabine Marcelis",
     "ends_on": "2027-01-23",
     "sources": [
       {
         "url": "https://www.kunsthal.nl/nl/tentoonstellingen/kunsthal-insideout-sabine-marcelis/",
         "provider": "Kunsthal Rotterdam · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.kunsthal.nl/nl/tentoonstellingen/kunsthal-insideout-sabine-marcelis/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Marmeren volumes veranderen de hellingbaan van de Kunsthal in een ontmoetingsplek. Sabine Marcelis verbindt binnen en buiten, en laat je de architectuur ervaren door er zelf doorheen te bewegen.",
@@ -924,7 +1073,10 @@
       "tentoonstelling",
       "schilderkunst",
       "realisme",
-      "20e eeuw"
+      "20e eeuw",
+      "maker: charley toorop",
+      "maker: pyke koch",
+      "maker: charley toorop / pyke koch"
     ],
     "year": "2026",
     "photos": [
@@ -936,13 +1088,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Restaurated_traditional_Manor_at_Gorssel,_now_Museeum_More,_mostly_in_the_new_building_behind_it_-_panoramio.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Charley Toorop / Pyke Koch",
     "ends_on": "2026-10-25",
     "sources": [
       {
         "url": "https://www.moregorssel.nl/tentoonstellingen/charley-toorop-en-pyke-koch-alles-of-niets",
         "provider": "Museum MORE · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.moregorssel.nl/tentoonstellingen/charley-toorop-en-pyke-koch-alles-of-niets",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Twee uitgesproken schilders ontmoeten elkaar in één tentoonstelling. Vergelijk de krachtige beelden van Charley Toorop met de wereld van Pyke Koch en ontdek raakvlakken tussen hun kunst en levens.",
@@ -971,7 +1132,10 @@
       "schilderkunst",
       "tekenkunst",
       "hedendaagse kunst",
-      "jongerencultuur"
+      "jongerencultuur",
+      "maker: robin wen",
+      "maker: bobbi essers",
+      "maker: robin wen / bobbi essers"
     ],
     "year": "2026",
     "photos": [
@@ -983,13 +1147,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Restaurated_traditional_Manor_at_Gorssel,_now_Museeum_More,_mostly_in_the_new_building_behind_it_-_panoramio.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Robin Wen / Bobbi Essers",
     "ends_on": "2026-11-15",
     "sources": [
       {
         "url": "https://www.moregorssel.nl/tentoonstellingen/robin-wen-en-bobbi-essers",
         "provider": "Museum MORE · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.moregorssel.nl/tentoonstellingen/robin-wen-en-bobbi-essers",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Vriendschap, nachten en vrijheid krijgen vorm in schilderijen en balpentekeningen. Robin Wen en Bobbi Essers kiezen hun fragmenten zorgvuldig: juist wat buiten beeld blijft, maakt nieuwsgierig naar het verhaal.",
@@ -1017,7 +1190,8 @@
       "tentoonstelling",
       "tekenkunst",
       "hedendaagse kunst",
-      "figuratief"
+      "figuratief",
+      "maker: maeve van klaveren"
     ],
     "year": "2026",
     "photos": [
@@ -1029,13 +1203,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Restaurated_traditional_Manor_at_Gorssel,_now_Museeum_More,_mostly_in_the_new_building_behind_it_-_panoramio.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Maeve van Klaveren",
     "ends_on": "2026-11-15",
     "sources": [
       {
         "url": "https://www.moregorssel.nl/tentoonstellingen/kabinet-maeve-van-klaveren",
         "provider": "Museum MORE · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.moregorssel.nl/tentoonstellingen/kabinet-maeve-van-klaveren",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Stap een stille wereld binnen waarin figuren aanwezig lijken en toch ontsnappen. Maeve van Klaverens beelden laten ruimte voor gedachten, sporen en je eigen interpretatie.",
@@ -1063,7 +1246,8 @@
       "tentoonstelling",
       "fotografie",
       "identiteit",
-      "hedendaagse kunst"
+      "hedendaagse kunst",
+      "maker: martine gutierrez"
     ],
     "year": "2026",
     "photos": [
@@ -1075,13 +1259,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Huis_Marseille,_Museum_voor_Fotografie.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Martine Gutierrez",
     "ends_on": "2026-10-18",
     "sources": [
       {
         "url": "https://huismarseille.nl/tentoonstellingen/martine-gutierrez/",
         "provider": "Huis Marseille, Museum voor Fotografie · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://huismarseille.nl/tentoonstellingen/martine-gutierrez/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Ontdek de fotografische wereld van Martine Gutierrez. Wunderkind nodigt uit aandachtig te kijken naar beeldvorming, identiteit en de rollen die een beeld ons laat aannemen.",
@@ -1109,7 +1302,8 @@
       "tentoonstelling",
       "fotografie",
       "picturalisme",
-      "venetië"
+      "venetië",
+      "maker: adolphe de meyer"
     ],
     "year": "2026–2027",
     "photos": [
@@ -1121,13 +1315,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Huis_Marseille,_Museum_voor_Fotografie.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Adolphe de Meyer",
     "ends_on": "2027-02-07",
     "sources": [
       {
         "url": "https://huismarseille.nl/tentoonstellingen/venetiaanse-droom/",
         "provider": "Huis Marseille, Museum voor Fotografie · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://huismarseille.nl/tentoonstellingen/venetiaanse-droom/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Reis met de blik van Adolphe de Meyer naar Venetië. Zijn fotografie nodigt uit om niet alleen de stad te herkennen, maar vooral de sfeer en het licht ervan te ervaren.",
@@ -1154,7 +1357,8 @@
     "tags": [
       "tentoonstelling",
       "fotografie",
-      "hedendaagse kunst"
+      "hedendaagse kunst",
+      "maker: andrzej steinbach"
     ],
     "year": "2026–2027",
     "photos": [
@@ -1166,13 +1370,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Huis_Marseille,_Museum_voor_Fotografie.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Andrzej Steinbach",
     "ends_on": "2027-02-07",
     "sources": [
       {
         "url": "https://huismarseille.nl/tentoonstellingen/andrzej-steinbach/",
         "provider": "Huis Marseille, Museum voor Fotografie · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://huismarseille.nl/tentoonstellingen/andrzej-steinbach/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Ontmoet de fotografie van Andrzej Steinbach in Hier. Neem de tijd voor de beelden en ontdek hoe fotografie je aandacht verplaatst tussen wat je direct herkent en wat zich pas later laat lezen.",
@@ -1200,7 +1413,8 @@
       "tentoonstelling",
       "fotografie",
       "stilleven",
-      "identiteit"
+      "identiteit",
+      "maker: maya inès touam"
     ],
     "year": "2026–2027",
     "photos": [
@@ -1212,13 +1426,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Huis_Marseille,_Museum_voor_Fotografie.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Maya Inès Touam",
     "ends_on": "2027-02-07",
     "sources": [
       {
         "url": "https://huismarseille.nl/tentoonstellingen/maya-ines-touam/",
         "provider": "Huis Marseille, Museum voor Fotografie · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://huismarseille.nl/tentoonstellingen/maya-ines-touam/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "In de tableaus van Maya Inès Touam ontmoeten tijden, culturen en voorwerpen elkaar. Haar beelden nodigen uit om te onderzoeken wat we bewaren, wat bij ons hoort en hoe dingen verhalen dragen.",
@@ -1246,7 +1469,10 @@
       "tentoonstelling",
       "schilderkunst",
       "prentkunst",
-      "figuratief"
+      "figuratief",
+      "maker: lita cabellut",
+      "maker: francisco de goya",
+      "maker: lita cabellut / francisco de goya"
     ],
     "year": "2026–2027",
     "photos": [
@@ -1258,13 +1484,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Museum_Jan_van_der_Togt._Amstelveen_001.JPG"
       }
     ],
-    "creator": "",
+    "creator": "Lita Cabellut / Francisco de Goya",
     "ends_on": "2027-03-14",
     "sources": [
       {
         "url": "https://www.museumjan.nl/tentoonstellingen/lita-cabellut-goya",
         "provider": "Museum JAN · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.museumjan.nl/tentoonstellingen/lita-cabellut-goya",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Twee kunstenaars, twee eeuwen ertussen: Lita Cabellut gaat een beeldend gesprek aan met Goya. Kijk hoe oude en nieuwe beelden elkaar versterken, tegenspreken en opnieuw betekenis krijgen.",
@@ -1292,7 +1527,8 @@
       "tentoonstelling",
       "design",
       "hergebruik",
-      "objecten"
+      "objecten",
+      "maker: diederik schneemann"
     ],
     "year": "2026",
     "photos": [
@@ -1304,13 +1540,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Museum_Jan_van_der_Togt._Amstelveen_001.JPG"
       }
     ],
-    "creator": "",
+    "creator": "Diederik Schneemann",
     "ends_on": "2026-11-01",
     "sources": [
       {
         "url": "https://www.museumjan.nl/tentoonstellingen/diederik-schneemann",
         "provider": "Museum JAN · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.museumjan.nl/tentoonstellingen/diederik-schneemann",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Wat maakt een voorwerp waardevol? Diederik Schneemann speelt met materialen, verzamelingen en onverwachte combinaties. Zijn ontwerpen laten je met frisse ogen kijken naar dingen die je dacht te kennen.",
@@ -1382,7 +1627,8 @@
       "tentoonstelling",
       "textielkunst",
       "biokunst",
-      "mens en natuur"
+      "mens en natuur",
+      "maker: diana scherer"
     ],
     "year": "2026–2027",
     "photos": [
@@ -1394,13 +1640,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:20150819_Museum_de_Fundatie_Zwolle.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Diana Scherer",
     "ends_on": "2027-10-03",
     "sources": [
       {
         "url": "https://www.museumdefundatie.nl/nl/te-zien/symbio",
         "provider": "Museum de Fundatie · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.museumdefundatie.nl/nl/te-zien/symbio",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Wortels worden weefsels in het werk van Diana Scherer. Ontdek hoe ze natuurlijke groei begeleidt tot patronen die tegelijk kwetsbaar en krachtig ogen. Hier ontmoeten kunst, biologie en textiel elkaar.",
@@ -1429,7 +1684,12 @@
       "moderne kunst",
       "abstract",
       "schilderkunst",
-      "kleur"
+      "kleur",
+      "maker: yves klein",
+      "maker: fred klein",
+      "maker: marie raymond",
+      "maker: rotraut",
+      "maker: yves klein / fred klein / marie raymond / rotraut"
     ],
     "year": "2026",
     "photos": [
@@ -1441,7 +1701,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Stedelijk_Museum_Schiedam.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Yves Klein / Fred Klein / Marie Raymond / Rotraut",
     "ends_on": "2026-10-25",
     "sources": [
       {
@@ -1453,6 +1713,15 @@
         "url": "https://kunstmeisjes.com/portfolio/go-no-go-466-yves-kleins-talent-kwam-niet-uit-de-blauwe-lucht-vallen/",
         "provider": "De Kunstmeisjes · recensie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://stedelijkmuseumschiedam.nl/en/tentoonstelling/yves-klein-and-his-artist-family/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Duik in het beroemde blauw van Yves Klein en ontdek tegelijk de kunst van zijn ouders en Rotraut. De werken laten zien hoe uiteenlopende artistieke werelden binnen één familie naast elkaar bestaan.",
@@ -1531,7 +1800,8 @@
       "tentoonstelling",
       "glaskunst",
       "stilleven",
-      "ambacht"
+      "ambacht",
+      "maker: nienke sikkema"
     ],
     "year": "2026",
     "photos": [
@@ -1543,13 +1813,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:The_new_Nationaal_Glasmuseum_-_Leerdam.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Nienke Sikkema",
     "ends_on": "2026-10-25",
     "sources": [
       {
         "url": "https://www.nationaalglasmuseum.nl/agenda/2026/stilleven/",
         "provider": "Nationaal Glasmuseum · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.nationaalglasmuseum.nl/agenda/2026/stilleven/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Vloeibaar glas wordt een stilstaand beeld. Ontdek hoe kleur, vorm en de hand van de maker alledaagse onderwerpen omzetten in glaskunst die blijft verrassen.",
@@ -1577,7 +1856,8 @@
       "tentoonstelling",
       "glaskunst",
       "abstract",
-      "licht"
+      "licht",
+      "maker: bert frijns"
     ],
     "year": "2026",
     "photos": [
@@ -1589,13 +1869,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:The_new_Nationaal_Glasmuseum_-_Leerdam.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Bert Frijns",
     "ends_on": "2026-11-15",
     "sources": [
       {
         "url": "https://www.nationaalglasmuseum.nl/agenda/2026/elementen/",
         "provider": "Nationaal Glasmuseum · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.nationaalglasmuseum.nl/agenda/2026/elementen/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Glas, lijnen en licht komen samen in Bert Frijns’ verstilde werk. Loop eromheen en merk hoe een kleine verandering van gezichtspunt een andere vorm zichtbaar maakt.",
@@ -1661,7 +1950,8 @@
       "tentoonstelling",
       "digitale kunst",
       "installaties",
-      "mens en natuur"
+      "mens en natuur",
+      "maker: miguel chevalier"
     ],
     "year": "2026–2027",
     "photos": [
@@ -1673,13 +1963,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:20150819_Museum_de_Fundatie_Zwolle.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Miguel Chevalier",
     "ends_on": "2027-04-04",
     "sources": [
       {
         "url": "https://www.museumdefundatie.nl/nl/te-zien/digital-nature",
         "provider": "Museum de Fundatie · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.museumdefundatie.nl/nl/te-zien/digital-nature",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Stap de digitale natuur van Miguel Chevalier binnen. Zijn kunst verbindt technologie met organische vormen en laat je ervaren hoe de grens tussen natuur en verbeelding kan verschuiven.",
@@ -1707,7 +2006,8 @@
       "tentoonstelling",
       "geluidskunst",
       "installaties",
-      "hedendaagse kunst"
+      "hedendaagse kunst",
+      "maker: natalia domínguez rangel"
     ],
     "year": "2026–2027",
     "photos": [
@@ -1719,13 +2019,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:20150819_Museum_de_Fundatie_Zwolle.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Natalia Domínguez Rangel",
     "ends_on": "2027-04-04",
     "sources": [
       {
         "url": "https://www.museumdefundatie.nl/nl/te-zien/deep-dive",
         "provider": "Museum de Fundatie · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.museumdefundatie.nl/nl/te-zien/deep-dive",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Neem de tijd voor de wereld van Natalia Domínguez Rangel. DEEP DIVE nodigt uit om niet alleen met je ogen, maar ook met je oren en je hele aanwezigheid naar kunst te kijken.",
@@ -1891,7 +2200,8 @@
       "tentoonstelling",
       "keramiek",
       "design",
-      "toegepaste kunst"
+      "toegepaste kunst",
+      "maker: jan van der vaart"
     ],
     "year": "2026",
     "photos": [
@@ -1903,13 +2213,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Den_Haag-Scheveningen,_het_Kunstmuseum_(noordelijke_deel)_IMG_6089_2024-11-04_14.35.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Jan van der Vaart",
     "ends_on": "2026-10-25",
     "sources": [
       {
         "url": "https://www.kunstmuseum.nl/nl/tentoonstellingen/jan-van-der-vaart-voor-jan-en-alleman",
         "provider": "Kunstmuseum Den Haag · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.kunstmuseum.nl/nl/tentoonstellingen/jan-van-der-vaart-voor-jan-en-alleman",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Ontmoet de keramiek van Jan van der Vaart. Kijk naar vorm, ritme en de verhouding tussen gebruiksvoorwerp en kunstobject, en ontdek hoeveel karakter een vaas of schaal kan hebben.",
@@ -2031,7 +2350,8 @@
       "tentoonstelling",
       "video",
       "hedendaagse kunst",
-      "identiteit"
+      "identiteit",
+      "maker: ani schulze"
     ],
     "year": "2026–2027",
     "photos": [
@@ -2043,13 +2363,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Groninger_Museum_1287.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Ani Schulze",
     "ends_on": "2027-05-09",
     "sources": [
       {
         "url": "https://groningermuseum.nl/ani-schulze-the-convent-of-pleasure",
         "provider": "Groninger Museum · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://groningermuseum.nl/ani-schulze-the-convent-of-pleasure",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Ani Schulzes doorlopende soapopera onderzoekt een leven op eigen voorwaarden. Haar filmische wereld ontmoet werk en ideeën uit de kring van De Ploeg, waardoor verleden en heden onverwacht door elkaar lopen.",
@@ -2077,7 +2406,10 @@
       "tentoonstelling",
       "keramiek",
       "textiel",
-      "toegepaste kunst"
+      "toegepaste kunst",
+      "maker: matthew lutz-kinoy",
+      "maker: natsuko uchino",
+      "maker: matthew lutz-kinoy / natsuko uchino"
     ],
     "year": "2026–2027",
     "photos": [
@@ -2089,13 +2421,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Groninger_Museum_1287.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Matthew Lutz-Kinoy / Natsuko Uchino",
     "ends_on": "2027-01-10",
     "sources": [
       {
         "url": "https://groningermuseum.nl/keramikos-carrier-bag",
         "provider": "Groninger Museum · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://groningermuseum.nl/keramikos-carrier-bag",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Serviesstukken en tafelkleden uit gezamenlijke diners krijgen een nieuw leven als kunst. Matthew Lutz-Kinoy en Natsuko Uchino verbinden eten, verzamelen en culturele uitwisseling met objecten uit de museumcollectie.",
@@ -2124,7 +2465,8 @@
       "beeldhouwkunst",
       "staal",
       "abstract",
-      "museumtuin"
+      "museumtuin",
+      "maker: carel visser"
     ],
     "year": "2026",
     "photos": [
@@ -2136,13 +2478,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:South_facade_of_the_Rijksmuseum_Amsterdam_(DSCF0528).jpg"
       }
     ],
-    "creator": "",
+    "creator": "Carel Visser",
     "ends_on": "2026-10-25",
     "sources": [
       {
         "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
         "provider": "Rijksmuseum Amsterdam · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Dertien monumentale beelden ontmoeten bomen en groen. Carel Visser stapelt, herhaalt en balanceert vormen die soms aan dieren of takken doen denken. Loop rondom de sculpturen en ontdek je eigen associaties.",
@@ -2219,7 +2570,8 @@
       "fotografie",
       "documentaire fotografie",
       "portretten",
-      "eve arnold"
+      "eve arnold",
+      "maker: eve arnold"
     ],
     "year": "2026–2027",
     "photos": [
@@ -2231,13 +2583,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Voorgevel_-_Maastricht_-_20149312_-_RCE.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Eve Arnold",
     "ends_on": "2027-01-31",
     "sources": [
       {
         "url": "https://fotomuseumaanhetvrijthof.nl/tentoonstelling/eve-arnold-all-about-eve-1",
         "provider": "Fotomuseum aan het Vrijthof · programma",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://fotomuseumaanhetvrijthof.nl/tentoonstelling/eve-arnold-all-about-eve-1",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Ontmoet mensen door de nieuwsgierige blik van Eve Arnold. Van filmsterren tot het dagelijks leven: haar foto's brengen beroemdheid, kwetsbaarheid en maatschappelijke verandering dichtbij. Dit overzicht verbindt portretten met reportages en reisbeelden, in kleur én zwart-wit.",
@@ -2315,14 +2676,15 @@
     "street_address": "Houtkampweg 6",
     "website_url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/van-gogh-al-onze-schilderijen",
     "summary": "Alle 88 Van Gogh-schilderijen uit de Kröller-Müllercollectie komen samen. Geloof, hoop en liefde vormen de rode draad. Ontdek hoe de schilder zijn persoonlijke zoektocht vertaalde naar mensen, landschappen en alledaagse onderwerpen.",
-    "creator": "",
+    "creator": "Vincent van Gogh",
     "year": "",
     "tags": [
       "schilderkunst",
       "moderne kunst",
       "van gogh",
       "landschap",
-      "portret"
+      "portret",
+      "maker: vincent van gogh"
     ],
     "photos": [
       {
@@ -2338,6 +2700,15 @@
         "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/van-gogh-al-onze-schilderijen",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/van-gogh-al-onze-schilderijen",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt de inhoud en exacte begin- en einddatum.",
@@ -2409,13 +2780,14 @@
     "street_address": "Houtkampweg 6",
     "website_url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruud-kuijer",
     "summary": "Zestien sculpturen van Ruud Kuijer ontmoeten de open architectuur van het Rietveldpaviljoen. Beton, staal en herkenbare constructievormen onderzoeken staan, hangen en leunen. Loop tussen de beelden en zie hoe ruimte en licht hun evenwicht veranderen.",
-    "creator": "",
+    "creator": "Ruud Kuijer",
     "year": "",
     "tags": [
       "beeldhouwkunst",
       "abstract",
       "architectuur",
-      "hedendaagse kunst"
+      "hedendaagse kunst",
+      "maker: ruud kuijer"
     ],
     "photos": [
       {
@@ -2431,6 +2803,15 @@
         "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruud-kuijer",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruud-kuijer",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt de inhoud en exacte begin- en einddatum.",
@@ -2455,13 +2836,14 @@
     "street_address": "Houtkampweg 6",
     "website_url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/gilbert-and-george-drifters",
     "summary": "Grote houtskooltekeningen en vroege fotowerken tonen Gilbert & George aan het begin van hun loopbaan. Hun Londense leven, uitgaan en drinken worden onderwerp én materiaal. Ontdek hoe het duo zijn herkenbare beeldtaal ontwikkelde.",
-    "creator": "",
+    "creator": "Gilbert & George",
     "year": "",
     "tags": [
       "tekenkunst",
       "fotografie",
       "conceptuele kunst",
-      "stedelijk leven"
+      "stedelijk leven",
+      "maker: gilbert & george"
     ],
     "photos": [
       {
@@ -2477,6 +2859,15 @@
         "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/gilbert-and-george-drifters",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/gilbert-and-george-drifters",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt de inhoud en exacte begin- en einddatum.",
@@ -2501,13 +2892,14 @@
     "street_address": "Houtkampweg 6",
     "website_url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/wessel-couzijn-rendez-vous-van-tafel-en-stoel",
     "summary": "Gehavende bronzen vormen ontmoeten elkaar rond een tafel en stoel. Couzijn geeft grote thema's als vrijheid, liefde en verwoesting een lichamelijke spanning. Naast de sculptuur laat een reeks prenten zijn experimenten met druktechnieken zien.",
-    "creator": "",
+    "creator": "Wessel Couzijn",
     "year": "",
     "tags": [
       "beeldhouwkunst",
       "abstract",
       "moderne kunst",
-      "grafiek"
+      "grafiek",
+      "maker: wessel couzijn"
     ],
     "photos": [
       {
@@ -2523,6 +2915,15 @@
         "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/wessel-couzijn-rendez-vous-van-tafel-en-stoel",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/wessel-couzijn-rendez-vous-van-tafel-en-stoel",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt de inhoud en exacte begin- en einddatum.",
@@ -2547,14 +2948,17 @@
     "street_address": "Houtkampweg 6",
     "website_url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/bart-van-der-leck-charley-toorop",
     "summary": "Twee bevriende kunstenaars kiezen heel verschillende wegen: Van der Leck vereenvoudigt tot kleurvlakken, Toorop schildert indringend realistisch. Hun gezamenlijke belangstelling voor het leven van werkende mensen verbindt de verschillen. Een groepsportret rond kunstadviseur Bremmer brengt hun wereld bijeen.",
-    "creator": "",
+    "creator": "Bart van der Leck / Charley Toorop",
     "year": "",
     "tags": [
       "schilderkunst",
       "de stijl",
       "realisme",
       "portret",
-      "moderne kunst"
+      "moderne kunst",
+      "maker: bart van der leck",
+      "maker: charley toorop",
+      "maker: bart van der leck / charley toorop"
     ],
     "photos": [
       {
@@ -2570,6 +2974,15 @@
         "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/bart-van-der-leck-charley-toorop",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/bart-van-der-leck-charley-toorop",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt de inhoud en exacte begin- en einddatum.",
@@ -2594,14 +3007,15 @@
     "street_address": "Stadhouderslaan 41",
     "website_url": "https://www.kunstmuseum.nl/nl/tentoonstellingen/mix-match-antonis-pittas",
     "summary": "Antonis Pittas kijkt via de kleur blauw naar kunst, macht en idealen. Collectiewerken, archiefmateriaal en nieuwe installaties ontmoeten elkaar. De presentatie laat zien hoe een kleur zowel een esthetische keuze als een politieke boodschap kan zijn.",
-    "creator": "",
+    "creator": "Antonis Pittas",
     "year": "",
     "tags": [
       "installatie",
       "de stijl",
       "modernisme",
       "kleur",
-      "politiek"
+      "politiek",
+      "maker: antonis pittas"
     ],
     "photos": [
       {
@@ -2617,6 +3031,15 @@
         "url": "https://www.kunstmuseum.nl/nl/tentoonstellingen/mix-match-antonis-pittas",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.kunstmuseum.nl/nl/tentoonstellingen/mix-match-antonis-pittas",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt de inhoud en exacte begin- en einddatum.",
@@ -2734,13 +3157,14 @@
     "street_address": "Stadhouderslaan 41",
     "website_url": "https://www.kunstmuseum.nl/nl/tentoonstellingen/tentoon-gesteld",
     "summary": "Een buste van Joseph Mendes da Costa opent een beladen geschiedenis: de vrouw werd in 1898 zelf tentoongesteld in Den Haag. De presentatie onderzoekt hoe musea dit koloniale verleden kunnen tonen en vanuit wiens perspectief het verhaal wordt verteld.",
-    "creator": "",
+    "creator": "Joseph Mendes da Costa",
     "year": "",
     "tags": [
       "beeldhouwkunst",
       "portret",
       "koloniale geschiedenis",
-      "geschiedenis"
+      "geschiedenis",
+      "maker: joseph mendes da costa"
     ],
     "photos": [
       {
@@ -2756,6 +3180,15 @@
         "url": "https://www.kunstmuseum.nl/nl/tentoonstellingen/tentoon-gesteld",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.kunstmuseum.nl/nl/tentoonstellingen/tentoon-gesteld",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt de inhoud en exacte begin- en einddatum.",
@@ -2780,14 +3213,15 @@
     "street_address": "Wilhelminapark 1",
     "website_url": "https://www.depont.nl/tentoonstellingen/sigmar-polke-3",
     "summary": "Kleuren lijken bij Sigmar Polke hun eigen leven te leiden. Pigmenten, lak en hars laten het schilderij veranderen met licht en kijkhoek. Meer dan vijftig werken maken zichtbaar hoe nieuwsgierigheid naar materialen een onvoorspelbare beeldwereld opent.",
-    "creator": "",
+    "creator": "Sigmar Polke",
     "year": "",
     "tags": [
       "schilderkunst",
       "kleur",
       "abstract",
       "moderne kunst",
-      "experiment"
+      "experiment",
+      "maker: sigmar polke"
     ],
     "photos": [
       {
@@ -2803,6 +3237,15 @@
         "url": "https://www.depont.nl/tentoonstellingen/sigmar-polke-3",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.depont.nl/tentoonstellingen/sigmar-polke-3",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt de inhoud en exacte begin- en einddatum.",
@@ -2827,13 +3270,14 @@
     "street_address": "Wilhelminapark 1",
     "website_url": "https://www.depont.nl/tentoonstellingen/matthew-monahan",
     "summary": "Menselijke figuren vallen uiteen en krijgen opnieuw vorm in sculpturen, reliëfs en papierwerken. Matthew Monahan speelt met materiaal en verwachting: wat hard lijkt, kan kwetsbaar zijn. Ontdek lichamen die tegelijk vertrouwd en raadselachtig ogen.",
-    "creator": "",
+    "creator": "Matthew Monahan",
     "year": "",
     "tags": [
       "beeldhouwkunst",
       "figuratief",
       "tekenkunst",
-      "hedendaagse kunst"
+      "hedendaagse kunst",
+      "maker: matthew monahan"
     ],
     "photos": [
       {
@@ -2849,6 +3293,15 @@
         "url": "https://www.depont.nl/tentoonstellingen/matthew-monahan",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.depont.nl/tentoonstellingen/matthew-monahan",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt de inhoud en exacte begin- en einddatum.",
@@ -2873,13 +3326,16 @@
     "street_address": "Wilhelminapark 1",
     "website_url": "https://www.depont.nl/tentoonstellingen/barbara-wagner-benjamin-de-burca",
     "summary": "Een Duitse hardcorescene en Braziliaanse bregamuziek ontmoeten elkaar in twee films. Wagner en De Burca werken nauw samen met de mensen die ze filmen. Muziek, zelfexpressie en gemeenschap bepalen samen de beelden.",
-    "creator": "",
+    "creator": "Bárbara Wagner / Benjamin de Burca",
     "year": "",
     "tags": [
       "videokunst",
       "muziek",
       "gemeenschap",
-      "hedendaagse kunst"
+      "hedendaagse kunst",
+      "maker: bárbara wagner",
+      "maker: benjamin de burca",
+      "maker: bárbara wagner / benjamin de burca"
     ],
     "photos": [
       {
@@ -2895,6 +3351,15 @@
         "url": "https://www.depont.nl/tentoonstellingen/barbara-wagner-benjamin-de-burca",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.depont.nl/tentoonstellingen/barbara-wagner-benjamin-de-burca",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt de inhoud en exacte begin- en einddatum.",
@@ -2966,13 +3431,14 @@
     "street_address": "Oude Singel 32",
     "website_url": "https://www.lakenhal.nl/nl/verhaal/giselle-kuster-de-leidse-jaren",
     "summary": "Ontdek de indringende portretten van Giselle Kuster. Als kunstenaar en galeriehouder bracht zij tussen 1940 en 1953 nieuw leven in de Leidse kunstwereld. Haar schilderijen verbinden persoonlijke ontmoetingen met een bewogen tijd.",
-    "creator": "",
+    "creator": "Giselle Kuster",
     "year": "",
     "tags": [
       "schilderkunst",
       "portret",
       "moderne kunst",
-      "vrouwelijke kunstenaars"
+      "vrouwelijke kunstenaars",
+      "maker: giselle kuster"
     ],
     "photos": [
       {
@@ -2988,6 +3454,15 @@
         "url": "https://www.lakenhal.nl/nl/verhaal/giselle-kuster-de-leidse-jaren",
         "provider": "Officiële instelling / beheerder",
         "retrieved_at": "2026-10-04T00:00:00Z"
+      },
+      {
+        "url": "https://www.lakenhal.nl/nl/verhaal/giselle-kuster-de-leidse-jaren",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "selection_reason": "Officiële instelling of beheerder bevestigt de inhoud en exacte begin- en einddatum.",
@@ -3106,7 +3581,8 @@
       "abstract",
       "kleur",
       "natuur",
-      "hedendaagse kunst"
+      "hedendaagse kunst",
+      "maker: vivian suter"
     ],
     "year": "",
     "photos": [
@@ -3118,7 +3594,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Amersfoort_Elleboogkerk_1.JPG"
       }
     ],
-    "creator": "",
+    "creator": "Vivian Suter",
     "ends_on": "2027-05-02",
     "sources": [
       {
@@ -3132,6 +3608,15 @@
           "starts_on",
           "ends_on",
           "visit_notes"
+        ]
+      },
+      {
+        "url": "https://www.kunsthalkade.nl/nl/tentoonstellingen/vivian-suter-in-de-elleboogkerk/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
         ]
       }
     ],
@@ -3224,7 +3709,8 @@
       "design",
       "installaties",
       "architectuur",
-      "duurzaamheid"
+      "duurzaamheid",
+      "maker: yvonne mak"
     ],
     "year": "",
     "photos": [
@@ -3236,7 +3722,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Eindhoven,_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Yvonne Mak",
     "ends_on": "2026-10-25",
     "sources": [
       {
@@ -3259,6 +3745,15 @@
         "evidence_fields": [
           "starts_on",
           "ends_on"
+        ]
+      },
+      {
+        "url": "https://www.vanabbemuseum.nl/nl/zien-en-doen/activiteiten/sandbag-castle--the-future-of-concrete-is-now",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
         ]
       }
     ],
@@ -3287,7 +3782,8 @@
       "fotografie",
       "moderne kunst",
       "zwart-wit",
-      "stedelijk leven"
+      "stedelijk leven",
+      "maker: eva besnyö"
     ],
     "year": "",
     "photos": [
@@ -3299,7 +3795,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Photo_Museum_The_Hague,_Main_entrance.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Eva Besnyö",
     "ends_on": "2027-01-31",
     "sources": [
       {
@@ -3313,6 +3809,15 @@
           "starts_on",
           "ends_on",
           "visit_notes"
+        ]
+      },
+      {
+        "url": "https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen/de-bevrijde-camera",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
         ]
       }
     ],
@@ -3343,7 +3848,8 @@
       "installaties",
       "schilderkunst",
       "beeldhouwkunst",
-      "kleur"
+      "kleur",
+      "maker: yayoi kusama"
     ],
     "year": "",
     "photos": [
@@ -3355,7 +3861,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Stedelijk_Museum_Amsterdam_7173_HDR.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Yayoi Kusama",
     "ends_on": "2027-01-17",
     "sources": [
       {
@@ -3378,6 +3884,15 @@
         "evidence_fields": [
           "starts_on",
           "ends_on"
+        ]
+      },
+      {
+        "url": "https://www.stedelijk.nl/nl/tentoonstellingen/yayoi-kusama",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
         ]
       }
     ],
@@ -3464,7 +3979,10 @@
       "tekenkunst",
       "oude meesters",
       "landschap",
-      "winter"
+      "winter",
+      "maker: hendrick avercamp",
+      "maker: barent avercamp",
+      "maker: hendrick avercamp / barent avercamp"
     ],
     "year": "",
     "photos": [
@@ -3476,7 +3994,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Interieur_Stedelijk_Museum_Kampen_DSCF5238.JPG"
       }
     ],
-    "creator": "",
+    "creator": "Hendrick Avercamp / Barent Avercamp",
     "ends_on": "2027-01-10",
     "sources": [
       {
@@ -3499,6 +4017,15 @@
         "evidence_fields": [
           "starts_on",
           "ends_on"
+        ]
+      },
+      {
+        "url": "https://stedelijkmuseumkampen.nl/tentoonstellingen/avercamp/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
         ]
       }
     ],

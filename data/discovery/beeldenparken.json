@@ -174,17 +174,27 @@
       "land art",
       "beeldhouwkunst",
       "installaties",
-      "kunstenaarsmuseum"
+      "kunstenaarsmuseum",
+      "maker: r.w. van de wint"
     ],
     "year": "",
     "photos": [],
-    "creator": "",
+    "creator": "R.W. van de Wint",
     "ends_on": null,
     "sources": [
       {
         "url": "https://projectdenollen.nl/nu-te-zien/",
         "provider": "Beheerder / instelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://projectdenollen.nl/nu-te-zien/",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "In het landschap van Rudi van de Wint grijpen beelden, gebouwen en schilderingen in elkaar. Een bezoek is een ontdekkingstocht langs vormen en ruimtes die zich stap voor stap openen. Bekijk vooraf de rondleidingen en toegangsvoorwaarden.",
@@ -326,17 +336,27 @@
       "beeldhouwkunst",
       "beton",
       "beeldenensemble",
-      "water"
+      "water",
+      "maker: ruud kuijer"
     ],
     "year": "",
     "photos": [],
-    "creator": "",
+    "creator": "Ruud Kuijer",
     "ends_on": null,
     "sources": [
       {
         "url": "https://ruudkuijer.nl/Pavilion",
         "provider": "Beheerder / instelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://ruudkuijer.nl/Pavilion",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Zeven grote betonsculpturen staan langs het kanaal. Ruud Kuijer laat abstracte vormen reageren op water, transport en industrie. Verplaats je langs de reeks en ontdek hoe de beelden samen én afzonderlijk de omgeving veranderen.",
@@ -540,7 +560,8 @@
       "beeldhouwkunst",
       "figuratief",
       "landgoed",
-      "kunstenaarsmuseum"
+      "kunstenaarsmuseum",
+      "maker: jits bakker"
     ],
     "year": "",
     "photos": [
@@ -552,7 +573,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Overzicht_van_de_tuin,_thans_de_beeldentuin_van_Jits_Bakker,_koetshuis_op_de_achtergrond_-_De_Bilt_-_20413835_-_RCE.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Jits Bakker",
     "ends_on": null,
     "sources": [
       {
@@ -564,6 +585,26 @@
         "url": "https://verhaalvanutrecht.nl/verhalen/beerschoten",
         "provider": "Verhaal van Utrecht · landgoed en collectie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.kubes.nl/eropuit/beeldenpark-beerschoten",
+        "provider": "KUBES · makerinformatie",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
+      },
+      {
+        "url": "https://www.utrechtslandschap.nl/bezoekerscentra/koetshuis-beerschoten",
+        "provider": "Utrechts Landschap · terreinbeheerder",
+        "retrieved_at": "2026-10-04T09:03:24.853692+00:00",
+        "evidence_fields": [
+          "creator",
+          "website_url",
+          "visit_notes",
+          "street_address"
+        ]
       }
     ],
     "summary": "Beweging spat van de beelden van Jits Bakker af. Op landgoed Beerschoten ontmoet je sporters, mensfiguren en krachtige vormen in brons en steen. Wandel tussen de werken en ontdek hoe hun energie contrasteert met het rustige groen.",
@@ -573,8 +614,8 @@
     "longitude": 5.20077532,
     "museum_id": "5973c940-48f5-50f6-9e37-f4965f3c5ca3",
     "starts_on": null,
-    "visit_notes": "Controleer de actuele openingstijden, seizoensopenstelling en eventuele toegangsvoorwaarden bij de beheerder.",
-    "website_url": "https://www.kubes.nl/eropuit/beeldenpark-beerschoten",
+    "visit_notes": "Het beeldenpark achter het Koetshuis is gratis toegankelijk en geschikt voor rolstoelgebruikers.",
+    "website_url": "https://www.utrechtslandschap.nl/bezoekerscentra/koetshuis-beerschoten",
     "inventory_key": "garden:Beeldenpark Jits Bakker",
     "street_address": "De Holle Bilt 6",
     "operating_status": "open",
@@ -1055,7 +1096,8 @@
       "beeldhouwkunst",
       "brons",
       "figuratief",
-      "polderlandschap"
+      "polderlandschap",
+      "maker: nic jonk"
     ],
     "year": "",
     "photos": [
@@ -1067,13 +1109,22 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Museum_en_Beeldentuin_Nic_Jonk_Dhr._K._Davidse_heeft_in_het_jaar_2009_in_opdracht_van_het_Regionaal_-_RAA003024779_-_RAA_Davidse.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Nic Jonk",
     "ends_on": null,
     "sources": [
       {
         "url": "https://www.nicjonk.nl/museum/beeldentuin",
         "provider": "Beheerder / instelling",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.nicjonk.nl/museum/beeldentuin",
+        "provider": "Officiële makercontrole",
+        "retrieved_at": "2026-10-04T08:55:13.402026+00:00",
+        "evidence_fields": [
+          "creator",
+          "tags"
+        ]
       }
     ],
     "summary": "Dertig bronzen sculpturen ontmoeten het open polderlandschap. Ontdek hoe Nic Jonks ronde vormen afsteken tegen wolken, riet en water. Loop om de beelden heen en zie hoe steeds een ander silhouet ontstaat.",

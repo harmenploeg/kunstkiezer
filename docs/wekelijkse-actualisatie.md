@@ -1,6 +1,6 @@
 # Wekelijkse actualisatie Kunstkiezer
 
-De heartbeat **kunstkiezer-wekelijks-actualiseren** controleert iedere vijf minuten de serverwachtrij. De beheerder bepaalt de werkelijke weekdag en tijd in `public.kk_update_schedule` via Beheer. Beginwaarde: maandag **09.00 Europe/Amsterdam**. `Nu updaten` voegt een extra aanvraag toe. Een ongewijzigde controle blijft stil; meld een afgeronde wijziging, fout of benodigde actie. Een heartbeat vereist dat de uitvoeromgeving en benodigde verbindingen beschikbaar zijn; de instelling alleen is geen bewijs van een geslaagde toekomstige run.
+De afzonderlijke achtergrondtaak **kunstkiezer-wekelijks-actualiseren** controleert iedere vijf minuten de serverwachtrij. De beheerder bepaalt de werkelijke weekdag en tijd in `public.kk_update_schedule` via Beheer. Beginwaarde: maandag **09.00 Europe/Amsterdam**. `Nu updaten` voegt een extra aanvraag toe. Een ongewijzigde controle blijft stil; meld een afgeronde wijziging, fout of benodigde actie. De achtergrondtaak vereist dat de uitvoeromgeving en benodigde verbindingen beschikbaar zijn; de instelling alleen is geen bewijs van een geslaagde toekomstige run.
 
 ## Uitvoering
 
@@ -32,6 +32,6 @@ De bronnenlijst start met de vijftien bestaande bronnen(groepen). Zij geldt voor
 2. Bewaar de teruggegeven run-id. Lees uitsluitend actuele ingeschakelde `kk_update_sources`. Doorloop dan bovenstaande onderzoeksprocedure. Bij een lege lijst of een onbereikbare vereiste bron registreer je de beperking expliciet; meld nooit een volledige controle als die niet is uitgevoerd.
 3. Houd de lease actueel bij lange runs: vóór het verstrijken van vier uur werk `started_at=now()` bij voor de eigen run-id, uitsluitend zolang status `running` is. Vermijd onderzoek dat een tweede run kan overlappen.
 4. Na geverifieerde voltooiing: update alleen de geclaimde rij naar `status='completed',finished_at=now(),summary=<bondige Nederlandse uitkomst>`, met `where id=<run-id> and status='running'`. Verwijs naar het gedateerde verslag. Bij mislukking op dezelfde manier `status='failed'` met concrete reden. Geen privésessies, credentials of bezoekersgegevens in samenvattingen.
-5. De wekelijkse tijd is geen tweede harde heartbeat-trigger: de tabel is leidend. Een handmatige ronde verschuift de eerstvolgende weekronde niet. Meerdere klikken worden samengevoegd; er geldt vijf minuten herhaalbeperking. Alleen beheerders lezen de uitvoergeschiedenis. Bezoekers kunnen geen updater starten.
+5. De wekelijkse tijd is geen tweede vaste automatiseringstrigger: de tabel is leidend. Een handmatige ronde verschuift de eerstvolgende weekronde niet. Meerdere klikken worden samengevoegd; er geldt vijf minuten herhaalbeperking. Alleen beheerders lezen de uitvoergeschiedenis. Bezoekers kunnen geen updater starten.
 
 De lokale computer en Codex moeten beschikbaar zijn. Dit is een lokale onderzoeksrunner, geen autonome 24/7 serverdienst. De UI toont daarom wachtrij, start, einde en foutstatus, en belooft geen onmiddellijke voltooiing.

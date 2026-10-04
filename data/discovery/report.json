@@ -9,8 +9,8 @@
       "archived": 0,
       "draft": 0,
       "with_photos": 79,
-      "precise_locations": 17,
-      "visible_on_research_date": 127
+      "precise_locations": 18,
+      "visible_on_research_date": 108
     },
     "beeldenparken": {
       "total": 39,
@@ -19,7 +19,7 @@
       "draft": 0,
       "with_photos": 10,
       "precise_locations": 28,
-      "visible_on_research_date": 39
+      "visible_on_research_date": 36
     },
     "architectuur": {
       "total": 193,
@@ -28,7 +28,7 @@
       "draft": 0,
       "with_photos": 128,
       "precise_locations": 146,
-      "visible_on_research_date": 188
+      "visible_on_research_date": 182
     },
     "evenementen": {
       "total": 73,
@@ -225,7 +225,8 @@
       "website_url": "https://www.sleutelwerken.nl/kunstwerken/het-wiel",
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten",
+        "Bezoekstatus: disappeared; opnieuw bij officiële bron controleren"
       ]
     },
     {
@@ -746,7 +747,7 @@
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
         "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten",
-        "Bezoekstatus: closed; opnieuw bij officiële bron controleren"
+        "Bezoekstatus: disappeared; opnieuw bij officiële bron controleren"
       ]
     },
     {
@@ -791,7 +792,7 @@
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
         "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten",
-        "Bezoekstatus: closed; opnieuw bij officiële bron controleren"
+        "Bezoekstatus: disappeared; opnieuw bij officiële bron controleren"
       ]
     },
     {
@@ -888,7 +889,7 @@
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
         "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten",
-        "Bezoekstatus: closed; opnieuw bij officiële bron controleren"
+        "Bezoekstatus: disappeared; opnieuw bij officiële bron controleren"
       ]
     },
     {
@@ -1011,11 +1012,9 @@
       "inventory_key": "sleutelwerk:89",
       "category": "openbare-kunst",
       "name": "Blauwe Golven",
-      "website_url": "https://www.sleutelwerken.nl/kunstwerken/blauwe-golven",
+      "website_url": "https://monumentenregister.cultureelerfgoed.nl/monumenten/532551",
       "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten",
-        "Bezoekstatus: unknown; opnieuw bij officiële bron controleren"
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]
     },
     {
@@ -1066,7 +1065,7 @@
       "inventory_key": "sleutelwerk:79",
       "category": "openbare-kunst",
       "name": "Tegelreliëf",
-      "website_url": "https://www.sleutelwerken.nl/kunstwerken/tegelrelief",
+      "website_url": "https://www.bergeijk.nl/tegelrelief",
       "issues": [
         "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
       ]
