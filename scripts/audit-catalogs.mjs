@@ -6,7 +6,7 @@ const paths={musea:'data/museums/art-inventory.json',...Object.fromEntries(['ope
 const categories={},remaining=[];let total=0;
 for(const [category,path] of Object.entries(paths)){
  const rows=JSON.parse(readFileSync(path,'utf8')),published=rows.filter(r=>r.publication_status==='published');total+=rows.length;
- categories[category]={total:rows.length,published:published.length,archived:rows.filter(r=>r.publication_status==='archived').length,draft:rows.filter(r=>r.publication_status==='draft').length,with_photos:published.filter(r=>r.photos?.length).length,precise_locations:published.filter(r=>['exact','address'].includes(r.coordinate_precision)).length,visible_on_research_date:published.filter(r=>category!=='evenementen'||inAgenda(r,date)).length};
+ categories[category]={total:rows.length,published:published.length,archived:rows.filter(r=>r.publication_status==='archived').length,draft:rows.filter(r=>r.publication_status==='draft').length,with_photos:published.filter(r=>r.photos?.length).length,precise_locations:published.filter(r=>['exact','address'].includes(r.coordinate_precision)).length,visible_on_research_date:published.filter(r=>r.operating_status==='open'&&(category!=='evenementen'||inAgenda(r,date))).length};
  for(const r of published){
   const issues=[];
   if(!r.photos?.length)issues.push('Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt');

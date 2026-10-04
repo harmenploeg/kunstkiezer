@@ -136,16 +136,16 @@ test('Eenmalige publicatie publiceert uitsluitend concepten in de vijf keuzes en
 
 test('Rangschikking is publiek leesbaar, alleen redacteur schrijft, bewaart balans en voorkomt overschrijven',async()=>{
  const db=await database();try{
- await role(db,'anon');const original=(await db.query<{updated_at:Date;distance_weight:number}>('select * from public.kk_ranking_settings')).rows[0]!;assert.equal(original.distance_weight,70);
+ await role(db,'anon');const original=(await db.query<{updated_at:Date;distance_weight:number}>('select * from public.kk_ranking_settings')).rows[0]!;assert.equal(original.distance_weight,56);
  await assert.rejects(db.query('update public.kk_ranking_settings set distance_weight=50,tag_weight=50'));
  await role(db,'authenticated',visitor);assert.equal((await db.query('update public.kk_ranking_settings set distance_weight=50,tag_weight=50 returning *')).rows.length,0);
  await assert.rejects(db.query('select * from public.kk_save_ranking_settings(50,50,30,$1)',[original.updated_at]));
  await role(db,'authenticated',editor);
  await assert.rejects(db.query('select * from public.kk_save_ranking_settings(80,50,30,$1)',[original.updated_at]));
  await assert.rejects(db.query('select * from public.kk_save_ranking_settings(50,50,0,$1)',[original.updated_at]));
- const changed=(await db.query<{distance_weight:number}>('select * from public.kk_save_ranking_settings(60,40,40,$1)',[original.updated_at])).rows[0]!;assert.equal(changed.distance_weight,60);
+ const changed=(await db.query<{distance_weight:number}>(`select * from public.kk_save_ranking_v2('{"distance_weight":60,"tag_weight":20,"rating_weight":20,"rating_prior":5,"distance_scale_km":40}', $1)`,[original.updated_at])).rows[0]!;assert.equal(changed.distance_weight,60);
  await assert.rejects(db.query('select * from public.kk_save_ranking_settings(50,50,30,$1)',[original.updated_at]));
- await role(db,'anon');assert.equal((await db.query<{tag_weight:number}>('select tag_weight from public.kk_ranking_settings')).rows[0]!.tag_weight,40);
+ await role(db,'anon');assert.equal((await db.query<{tag_weight:number}>('select tag_weight from public.kk_ranking_settings')).rows[0]!.tag_weight,20);
  }finally{await db.close();}
 });
 test('Coördinaten en nauwkeurigheid worden bewaard, ook bij opslaan door een oudere redactietool',async()=>{
@@ -225,5 +225,21 @@ test('Updates: alleen beheer kan aanvragen, deduplicatie, alleen vertrouwde runn
  await db.query("update public.kk_update_runs set status='completed',finished_at=now() where id=$1",[first]);
  const next=(await db.query<{due:Date}>("select kunstkiezer_private.next_update(1,'09:00','2026-10-24T12:00:00Z') due")).rows[0]!.due;
  assert.equal(next.toISOString(),'2026-10-26T08:00:00.000Z');
+ }finally{await db.close();}
+});
+
+test('Verdwenen aanbod is privé en gezamenlijke sterren lekken geen individuele stemmen',async()=>{
+ const db=await database();try{
+ await role(db,'authenticated',editor);
+ const row=(await db.query<{id:string}>('select * from kk_save_museum($1)',[{...payload,publication_status:'published'}])).rows[0]!;
+ await db.exec('reset role');
+ const third='00000000-0000-4000-8000-000000000003';await db.query('insert into auth.users(id,email) values($1,$2)',[third,'third@example.test']);
+ for(const [id,stars] of [[editor,5],[visitor,1]] as const)await db.query('insert into public.kk_seen(user_id,item_id,category,name,rating) values($1,$2,\'musea\',\'test\',$3)',[id,row.id,stars]);
+ await role(db,'anon');assert.equal((await db.query('select * from kk_rating_totals()')).rows.length,0);await assert.rejects(db.query('select * from kk_seen'));
+ await db.exec('reset role');await db.query('insert into public.kk_seen(user_id,item_id,category,name,rating) values($1,$2,\'musea\',\'test\',4)',[third,row.id]);
+ await role(db,'anon');const aggregate=(await db.query<{votes:number;stars:number[]}>('select * from kk_rating_totals()')).rows[0]!;assert.equal(Number(aggregate.votes),3);assert.deepEqual(aggregate.stars.map(Number),[1,0,0,1,1]);assert.deepEqual(Object.keys(aggregate).sort(),['category','item_id','stars','votes']);
+ await role(db,'authenticated',visitor);assert.equal((await db.query('update kk_preference_questions set questions=\'[]\' returning id')).rows.length,0);
+ await role(db,'authenticated',editor);await db.query("update kk_museums set operating_status='disappeared' where id=$1",[row.id]);
+ await role(db,'anon');assert.equal((await db.query('select * from kk_museums')).rows.length,0);assert.equal((await db.query('select * from kk_rating_totals()')).rows.length,0);
  }finally{await db.close();}
 });

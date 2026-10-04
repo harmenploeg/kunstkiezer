@@ -347,7 +347,7 @@ function DiscoveryForm({
             <option value="open">Open</option>
             <option value="unknown">Nog controleren</option>
             <option value="temporarily_closed">Tijdelijk gesloten</option>
-            <option value="closed">Gesloten / verdwenen</option>
+            <option value="closed">Gesloten</option><option value="disappeared">Verdwenen</option>
           </select>
           {errors.operating_status && (
             <span className="field-error">{errors.operating_status}</span>

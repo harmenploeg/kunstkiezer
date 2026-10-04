@@ -19,7 +19,7 @@ const DeleteAccount = lazy(() =>
 const Detail = lazy(() =>
   import("./features/visits/Detail.tsx").then((m) => ({ default: m.Detail })),
 );
-import { LocationControls } from "./features/ranking/LocationControls.tsx";
+import { Catalog } from "./features/catalog/Catalog.tsx";
 import { Profile } from "./features/profile/Profile.tsx";
 import { useProfile } from "./features/profile/useProfile.ts";
 import { lazy, Suspense, useEffect } from "react";
@@ -61,12 +61,13 @@ import {
 
 function Discovery({ categoryId }: { categoryId?: string }) {
   const category = categories.find((item) => item.id === categoryId);
+  const tag = new URLSearchParams(window.location.search).get("tag") ?? "";
   return (
     <>
       <header className="page-heading">
         <p className="eyebrow">Kunst in Nederland</p>
         <h1>
-          {category?.name ?? "Ontdek kunst"}
+          {tag ? `Kunst met ${tag.replace(/^maker: /, "")}` : category?.name ?? "Ontdek kunst"}
           <span className="accent">.</span>
         </h1>
         <p>
@@ -74,7 +75,7 @@ function Discovery({ categoryId }: { categoryId?: string }) {
             "Op plekken die je al kent. En op plekken die je nog wilt ontdekken."}
         </p>
       </header>
-      {category ? (
+      {tag ? <Catalog tag={tag}/> : category ? (
         <>
           <a className="back-link" href={appHref("/agenda")}>
             ← Alle categorieën
@@ -92,7 +93,6 @@ function Discovery({ categoryId }: { categoryId?: string }) {
         </>
       ) : (
         <>
-          <LocationControls />
           <CategoryCards />
         </>
       )}

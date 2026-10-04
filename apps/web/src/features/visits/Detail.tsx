@@ -1,20 +1,32 @@
-import { useEffect, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import { getClient } from "../../../../../packages/data/src/client.ts";
 import {
   appHref,
   categories,
 } from "../../../../../packages/domain/src/navigation.ts";
 import {
-  safeWebUrl,
-  type Museum,
-} from "../../../../../packages/data/src/museums.ts";
+  amsterdamDay,
+  monthAhead,
+} from "../../../../../packages/data/src/discovery.ts";
+import { safeWebUrl } from "../../../../../packages/data/src/museums.ts";
+import type { CatalogItem } from "../../../../../packages/data/src/catalog.ts";
+import {
+  directionsUrl,
+  precisePoint,
+  visitorText,
+} from "../../../../../packages/domain/src/presentation.ts";
+import { Kind, Photos, Tags } from "../catalog/Card.tsx";
 import { CatalogActions } from "./Visits.tsx";
+const CatalogMap = lazy(() =>
+  import("../catalog/Map.tsx").then((m) => ({ default: m.CatalogMap })),
+);
 export function Detail() {
   const params = new URLSearchParams(location.search),
     category = params.get("categorie") ?? "",
     id = params.get("id") ?? "";
-  const [item, setItem] = useState<Museum | null>(null),
+  const [item, setItem] = useState<CatalogItem | null>(null),
     [message, setMessage] = useState("Onderwerp laden…");
+  const points = useMemo(() => (item ? [item] : []), [item]);
   useEffect(() => {
     let active = true;
     if (
@@ -30,17 +42,23 @@ export function Detail() {
           .from(category === "musea" ? "kk_museums" : "kk_discoveries")
           .select("*")
           .eq("id", id)
-          .eq("publication_status", "published");
+          .eq("publication_status", "published")
+          .eq("operating_status", "open");
         if (category !== "musea") q = q.eq("category", category);
-        const { data, error } = await q.maybeSingle();
+        else q = q.eq("is_art_museum", true);
+        if (category === "evenementen")
+          q = q
+            .gte("ends_on", amsterdamDay())
+            .lte("starts_on", monthAhead(amsterdamDay()));
+        const r = await q.maybeSingle();
         if (active) {
-          setItem(data);
+          setItem(r.data ? { ...r.data, category } : null);
           setMessage(
-            error
+            r.error
               ? "Laden is niet gelukt. Probeer opnieuw."
-              : data
+              : r.data
                 ? ""
-                : "Dit onderwerp is niet meer beschikbaar. Een tentoonstelling kan inmiddels afgelopen zijn.",
+                : "Dit onderwerp is niet meer beschikbaar.",
           );
         }
       })
@@ -64,36 +82,20 @@ export function Detail() {
       {message && <p role="status">{message}</p>}
       {item && (
         <article className="museum-card">
+          <Kind item={item} />
           <p className="eyebrow">{item.city}</p>
           <h1>{item.name}</h1>
-          <div className="museum-photos">
-            {item.photos
-              .filter((p) => safeWebUrl(p.url))
-              .map((p, i) => (
-                <figure key={i}>
-                  <img src={p.url} alt={p.caption || item.name} />
-                  <figcaption>
-                    {p.caption} · {p.credit}{" "}
-                    {safeWebUrl(p.source_url) && (
-                      <a
-                        href={p.source_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {p.license || "Bron"}
-                      </a>
-                    )}
-                  </figcaption>
-                </figure>
-              ))}
-          </div>
-          <p>{item.summary}</p>
+          {item.creator && <p>{item.creator}</p>}
+          {item.operating_status === "temporarily_closed" && (
+            <p>Tijdelijk gesloten</p>
+          )}
+          <Photos item={item} />
+          <p>{visitorText(item.summary)}</p>
           <p>{item.street_address}</p>
-          <div className="tag-list">
-            {item.tags.map((t) => (
-              <span key={t}>{t}</span>
-            ))}
-          </div>
+          {"visit_notes" in item && visitorText(item.visit_notes) && (
+            <p>{visitorText(item.visit_notes)}</p>
+          )}
+          <Tags tags={item.tags} />
           {safeWebUrl(item.website_url) && (
             <p>
               <a
@@ -101,10 +103,39 @@ export function Detail() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Bezoekinformatie ↗
+                Website ↗
               </a>
             </p>
           )}
+          <section aria-label="Plan je bezoek">
+            <h2>Plan je bezoek</h2>
+            {precisePoint(item) && (
+              <Suspense fallback={<p>Kaart laden…</p>}>
+                <CatalogMap items={points} compact />
+              </Suspense>
+            )}
+            <p>
+              {item.street_address}
+              {item.city && `, ${item.city}`}
+            </p>
+            <div className="navigation-choices">
+              {[
+                ["driving", "Auto"],
+                ["transit", "Ov"],
+                ["bicycling", "Fiets"],
+                ["walking", "Lopen"],
+              ].map(([mode, label]) => (
+                <a
+                  key={mode}
+                  href={directionsUrl(item, mode!)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {label} ↗
+                </a>
+              ))}
+            </div>
+          </section>
           <CatalogActions id={item.id} category={category} name={item.name} />
         </article>
       )}

@@ -7,7 +7,7 @@ export interface DiscoveryInput extends LocatedItem {
  category:DiscoveryCategory;name:string;city:string;province:string;street_address:string;website_url:string;
  summary:string;creator:string;year:string;tags:string[];photos:MuseumPhoto[];sources:DiscoverySource[];
  selection_reason:string;visit_notes:string;museum_id:string|null;starts_on:string|null;ends_on:string|null;
- operating_status:'open'|'temporarily_closed'|'closed'|'unknown';publication_status:'draft'|'published'|'archived';
+ operating_status:'open'|'temporarily_closed'|'closed'|'unknown'|'disappeared';publication_status:'draft'|'published'|'archived';
 }
 export interface DiscoveryItem extends DiscoveryInput {id:string;inventory_key:string|null;updated_at:string;}
 export function blankDiscovery(category:DiscoveryCategory):DiscoveryInput{return {latitude:null,longitude:null,coordinate_precision:'unknown',coordinate_source:'',category,name:'',city:'',province:'',street_address:'',website_url:'',summary:'',creator:'',year:'',tags:[],photos:[],sources:[],selection_reason:'',visit_notes:'',museum_id:null,starts_on:null,ends_on:null,operating_status:'open',publication_status:'draft'};}

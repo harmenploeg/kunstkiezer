@@ -1,11 +1,10 @@
 import { LocationControls } from "../ranking/LocationControls.tsx";
 import { useState, useEffect, type FormEvent } from "react";
 import {
-  preferenceQuestions,
   uniqueTags,
   type TasteProfile,
 } from "../../../../../packages/domain/src/profile.ts";
-import { catalogueTags } from "../../../../../packages/domain/src/catalogue-tags.ts";
+import { useTaxonomy } from "./Taxonomy.tsx";
 import { appHref } from "../../../../../packages/domain/src/navigation.ts";
 import { useProfileState } from "./useProfile.ts";
 import { useAuth } from "../account/AuthContext.tsx";
@@ -17,6 +16,9 @@ export function Profile({
   profile: TasteProfile;
   onboarding?: boolean;
 }) {
+  const taxonomy = useTaxonomy();
+  const preferenceQuestions=taxonomy.questions;
+  const catalogueTags=taxonomy.tags.filter(t=>t.enabled).map(t=>t.label);
   const state = useProfileState(),
     auth = useAuth(),
     base = useRef(state.version),

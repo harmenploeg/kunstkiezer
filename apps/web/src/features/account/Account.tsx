@@ -314,7 +314,7 @@ export function Account() {
             <p>
               We bewaren je e-mailadres, voorkeuren, bezoeken en waarderingen.
               Je locatie wordt niet in je account opgeslagen. Je voorkeuren,
-              bezoeken en waarderingen zijn privé. Beheerders zien je
+              bezoeken en individuele waarderingen zijn privé. Vanaf drie beoordelingen telt de anonieme sterrenverdeling mee in de volgorde. Beheerders zien je
               e-mailadres om accountrechten te beheren.
             </p>
             <button disabled={busy} onClick={() => void exportData()}>

@@ -104,6 +104,7 @@ export function VisitsProvider({ children }: { children: ReactNode }) {
     if (r.error)
       throw Error("Je bezoek kon niet worden opgeslagen. Probeer opnieuw.");
     mutations.current++;
+    window.dispatchEvent(new Event("kunstkiezer-ratings"));
     if (owner.current === uid)
       setRows((rows) => [
         value,
@@ -123,6 +124,7 @@ export function VisitsProvider({ children }: { children: ReactNode }) {
       .eq("category", item.category);
     if (r.error) throw Error("Verwijderen is niet gelukt.");
     mutations.current++;
+    window.dispatchEvent(new Event("kunstkiezer-ratings"));
     if (owner.current === uid)
       setRows((rows) =>
         rows.filter(
@@ -231,7 +233,7 @@ export function CatalogActions({
         onCancel={() => setMessage("")}
       >
         <h2 id={"rate-" + id}>Wat vond je van {name}?</h2>
-        <p>Geef 1 tot 5 sterren. Je waardering blijft privé.</p>
+        <p>Geef 1 tot 5 sterren. Je naam wordt niet getoond. Vanaf drie beoordelingen tellen de sterren samen mee in de volgorde.</p>
         <div className="stars" role="group" aria-label="Waardering">
           {[1, 2, 3, 4, 5].map((n) => (
             <button
@@ -330,7 +332,7 @@ export function History() {
         <h1>
           Gezien<span className="accent">.</span>
         </h1>
-        <p>Je bezoeken en waarderingen, alleen zichtbaar voor jou.</p>
+        <p>Je eigen bezoeken en sterren. Alleen de gezamenlijke sterrenverdeling telt mee in het aanbod.</p>
       </header>
       {loading ? (
         <p>Account laden…</p>

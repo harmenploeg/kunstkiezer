@@ -6,7 +6,7 @@ export interface Museum extends LocatedItem {
  id: string; inventory_key: string | null; name: string; city: string; province: string;
  street_address: string; postal_code: string; country: string; website_url: string;
  latitude: number | null; longitude: number | null; summary: string;
- operating_status: 'unknown' | 'open' | 'temporarily_closed' | 'closed';
+ operating_status: 'unknown' | 'open' | 'temporarily_closed' | 'closed' | 'disappeared';
  publication_status: 'draft' | 'review' | 'published' | 'archived';
  is_art_museum: boolean; photos: MuseumPhoto[];
  verification_status?: 'unreviewed' | 'verified' | 'needs_update';

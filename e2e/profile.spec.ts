@@ -11,19 +11,19 @@ test('Onboarding bewaart tags, verdwijnt bij herstart en profiel blijft bewerkba
  const tags=await page.evaluate(key=>JSON.parse(localStorage.getItem(key)!).tags,PROFILE_KEY);expect(tags).toContain('art deco');expect(tags).toContain('historische architectuur');expect(tags).not.toContain('fotografie');
  expect(await page.evaluate(()=>document.body.scrollWidth<=document.documentElement.clientWidth)).toBe(true);
 });
-test('Alle vijf categorieën sorteren op het profiel; standaardvolgorde blijft beschikbaar',async({page})=>{
+test('Alle vijf categorieën gebruiken dezelfde profielvoorkeuren',async({page})=>{
  await page.addInitScript(key=>localStorage.setItem(key,JSON.stringify({version:1,completed:true,tags:['fotografie']})),PROFILE_KEY);
  await page.route('**/kunstkiezer/api/config',r=>r.fulfill({json:{APP_ENV:'production',PUBLIC_SUPABASE_URL:'https://taste-test.supabase.co',PUBLIC_SUPABASE_PUBLISHABLE_KEY:'sb_publishable_test'}}));
  await page.route('https://taste-test.supabase.co/**',async route=>{
  const u=new URL(route.request().url());const headers={'access-control-allow-origin':'*','access-control-allow-headers':'*','access-control-allow-methods':'GET,OPTIONS','content-range':'0-1/2'};
  if(route.request().method()==='OPTIONS'){await route.fulfill({status:204,headers});return;}
  const category=u.searchParams.get('category')?.replace('eq.','')??'musea';
- const base={category,city:'Utrecht',province:'Utrecht',street_address:'Teststraat',postal_code:'',website_url:'',summary:'Een collectie.',creator:'',year:'',photos:[],sources:[],selection_reason:'Bijzondere collectie.',visit_notes:'',operating_status:'closed',publication_status:'published',starts_on:'2026-01-01',ends_on:'2099-01-01'};
+ const base={category,city:'Utrecht',province:'Utrecht',street_address:'Teststraat',postal_code:'',website_url:'',summary:'Een collectie.',creator:'',year:'',photos:[],sources:[],selection_reason:'Bijzondere collectie.',visit_notes:'',operating_status:'open',publication_status:'published',starts_on:'2026-01-01',ends_on:'2099-01-01'};
  await route.fulfill({headers,json:[{...base,id:'a',name:'A schilderkunst',tags:['schilderkunst']},{...base,id:'z',name:'Z fotografie',tags:['Fotografie']}]});
  });
  for(const c of ['musea','openbare-kunst','beeldenparken','architectuur','evenementen']){
- await page.goto('/kunstkiezer/agenda/'+c);await expect(page.locator('.museum-card h2').first()).toHaveText('Z fotografie');await expect(page.locator('.taste-match').first()).toContainText('fotografie');await expect(page.locator('.visit-status').first()).toContainText('Gesloten');
- await page.getByLabel('Volgorde',{exact:true}).selectOption('standard');await expect(page.locator('.museum-card h2').first()).toHaveText('A schilderkunst');await expect(page.locator('.museum-card')).toHaveCount(2);
+ await page.goto('/kunstkiezer/agenda/'+c);await expect(page.locator('.museum-card h2').first()).toHaveText('Z fotografie');await expect(page.locator('.taste-match').first()).toContainText('fotografie');await expect(page.getByLabel('Afstand laten meetellen',{exact:true})).toHaveCount(0);
+ await expect(page.getByLabel('Volgorde',{exact:true})).toHaveCount(0);await expect(page.locator('.museum-card')).toHaveCount(2);
  }
 });
 test('Overal voor open rondt onboarding af zonder voorkeuren',async({page})=>{
