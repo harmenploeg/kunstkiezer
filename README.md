@@ -1,39 +1,49 @@
 # Kunstkiezer
 
-Modulaire kunstagenda voor Nederland. Mijn kunstkeuze is het startpunt.
+Kunst ontdekken in Nederland, afgestemd op smaak en afstand. De vijf verzamelingen zijn musea, openbare kunst, beeldentuinen/parken, architectuur en tentoonstellingen/evenementen.
 
-## Bekijk het resultaat
+## Gebruik
 
-- App: https://kunstkiezer.pages.dev/kunstkiezer/
-- Museuminventaris en bewerkformulier: https://kunstkiezer.pages.dev/kunstkiezer/beheer/musea
-- CSV: https://kunstkiezer.pages.dev/kunstkiezer/inventory.csv
+- [Productie op Loci](https://www.loci-amsterdam.nl/kunstkiezer/)
+- [Mijn account](https://www.loci-amsterdam.nl/kunstkiezer/account)
+- [Redactie](https://www.loci-amsterdam.nl/kunstkiezer/beheer) — alleen zichtbaar en bereikbaar voor beheerders
+- [Beheerinstellingen](https://www.loci-amsterdam.nl/kunstkiezer/beheer/instellingen) — afstand/smaak, bronnen, updateschema, extra update en gebruikersrechten
 
-De eerste inventaris bevat 1.496 kandidaten uit Museum.nl, twaalf provinciale Wikipedia-lijsten en de Amsterdam-lijst. Exacte overeenkomsten zijn samengevoegd; 62 mogelijke dubbelparen en 71 onbekende provincies blijven te controleren. Historische en gesloten vermeldingen zijn nog aanwezig. Alle records beginnen als concept, niet als gecontroleerde openbare catalogus.
+`kunstkiezer.pages.dev` is uitsluitend een preview. De echte productie wordt gepubliceerd via [harmenploeg/interactief](https://github.com/harmenploeg/interactief). Zie [publicatieprotocol](docs/publicatie.md).
 
-## Backend en beheer
+## Wegwijs in de code
 
-De museumcatalogus leest uitsluitend uit Supabase. Het redacteurformulier ondersteunt aanmelden, zoeken, provinciefilters, toevoegen, wijzigen, bronnen, tagvoorstellen, privénotities en publicatie. RLS beschermt concepten en notities. Museumgegevens en notities worden in één transactie opgeslagen met controle op gelijktijdige wijzigingen.
+| Onderdeel | Locatie |
+| --- | --- |
+| Pagina's en navigatieschil | `apps/web/src/App.tsx` |
+| Account en centrale toegangscontrole | `apps/web/src/features/account` |
+| Smaakprofiel en onboarding | `apps/web/src/features/profile` |
+| Gezien, sterren en delen | `apps/web/src/features/visits` |
+| Redactie, bronnen en updatebeheer | `apps/web/src/features/museums`, `discovery`, `management`, `ranking` |
+| Domeinregels, categorieën en rangschikking | `packages/domain` |
+| Databaseclients en gegevenstypen | `packages/data` |
+| Gedeelde vormgeving en elementen | `packages/ui`, `apps/web/src/styles.css` |
+| Database, toegangspolicies en migraties | `supabase/migrations` |
+| Serverfunctie voor accountverwijdering | `supabase/functions/delete-account` |
+| Onderzoeksbestanden, bronverantwoording en open punten | `data`, met `data/curation/latest-report.json` |
+| Webroutes en configuratie | `functions/kunstkiezer`, `workers/api` |
 
-Supabase-project `kunstkiezer` (`qrlfywcqkkzmerglmsbj`, Frankfurt) bevat vier migraties en 1.496 museumconcepten. GitHub is verbonden met productiebranch `main`. De Pages-publicatieworkflow zet de twee publieke Supabase-runtimevariabelen vanuit GitHub Actions-variabelen. Redacteuren kunnen aanmelden met wachtwoord of een e-maillink. Zonder verbinding toont de beheerpagina een duidelijk gemarkeerde, niet-opslagbare inventarispreview. Zie [inrichting en datamodel](docs/musea-en-supabase.md).
+Gebruik gedeelde componenten voor categorie-overstijgende functies. Nieuwe categorieën vragen ook expliciete selectiecriteria, domeinconfiguratie, routes en databasevalidatie. Voeg geen tweede account- of rollenimplementatie toe.
+
+## Accounts en beveiliging
+
+Bezoekers kunnen zonder account ontdekken en lokale voorkeuren bewaren. Ingelogde gebruikers bewaren voorkeuren, bezoeken en persoonlijke sterren in Supabase, bruikbaar op meerdere apparaten. Locaties worden niet in de accountdatabase opgeslagen. Beheerdersrechten komen uit een afgeschermde tabel, nooit uit gebruikersmetadata. RLS beschermt persoonlijke gegevens, concepten, interne notities, bronnen en instellingen.
+
+Registratie gebruikt e-mailbevestiging. Wachtwoordwijziging, herstel, gegevensdownload, wereldwijd uitloggen en eigen account verwijderen zijn aanwezig. **Voor publieke bevestigings- en herstelmails moet custom SMTP nog worden ingericht.** De standaardmaildienst van Supabase bezorgt alleen aan projectteamleden. Zie de actuele [beoordeling van architectuur en beveiliging](docs/accounts-en-beveiliging.md) voor controles en resterende voorwaarden.
+
+## Gegevens en actualisatie
+
+De openbare catalogi lezen uit Supabase. Onderzoeksbestanden zijn reproduceerbare momentopnamen, geen vervanging voor actuele redactionele gegevens. Imports behouden latere bewerkingen; opslaan gebruikt conflictcontrole. Beschrijvingen zijn maximaal 80 woorden, foto's hebben bron-/rechtengegevens, publicatie en bezoekstatus zijn afzonderlijk.
+
+De beheerder bewerkt de bronnen voor alle huidige en toekomstige categorieën en het wekelijkse schema. `Nu updaten` maakt een extra aanvraag. De lokale Codex-runner controleert iedere vijf minuten de wachtrij. De computer en Codex moeten beschikbaar zijn. Een afzonderlijke dagelijkse controle bewaakt technische beveiligingsbevindingen. Zie [actualisatieprotocol](docs/wekelijkse-actualisatie.md) en [smaak/afstand](docs/smaakprofiel.md).
 
 ## Ontwikkelen en testen
 
-`npm ci`, `npm run check`, `npm run test:e2e`. De tests voeren de echte PostgreSQL-schema’s en RLS uit met PGlite en controleren de frontend op desktop en mobiel. De login-/opslagbrowsertest gebruikt gemockte Supabase-antwoorden; live databasecontrole volgt na aansluiting.
+Gebruik Node 24 of hoger. Installeer exact de lockfile met `npm ci`. `npm run check` voert typecontrole, unit-/databasetests en de productiebuild uit. `npm run test:e2e` controleert de gebruikersstromen op desktop en mobiel. Databasetests gebruiken PostgreSQL/RLS via PGlite; browsertests gebruiken gecontroleerde Supabase-antwoorden. Verifieer nieuwe migraties daarnaast op het echte project.
 
-De code staat modulair in `apps/web/src/features/museums`, `packages/data`, `packages/config` en `functions/kunstkiezer`. Onderzoeksdata en bronnen staan in `data/museums`; de collectie heeft een tagbibliotheek per dimensie.
-
-## Cloudflare
-
-De preview is Cloudflare Pages-project `kunstkiezer`. Runtimevariabelen `PUBLIC_SUPABASE_URL` en `PUBLIC_SUPABASE_PUBLISHABLE_KEY` leveren uitsluitend de openbare clientconfiguratie; serverkeys worden geweigerd.
-
-De eerdere basisintegratie is gepubliceerd in Pages-project `interactief` onder `www.loci-amsterdam.nl/kunstkiezer/`. De nieuwe museumuitbreiding is momenteel op de afzonderlijke preview gepubliceerd; het Loci-publicatiepakket moet voor deze uitbreiding nog worden bijgewerkt.
-
-Persoonlijke keuzes, bezoekplanning en aanbevelingen zijn nog niet geïmplementeerd.
-
-## Kunstmuseumselectie
-
-De redactietool toont nu een eerste selectie van 30 kunstmusea, inclusief fotografie en toegepaste kunst. De brede inventaris blijft bewaard als onderzoeksbron; dit is nog geen uitputtende lijst van alle Nederlandse kunstmusea. Alle 30 hebben een originele collectietekst van maximaal 80 woorden, minimaal één foto (32 totaal) met maker/bron/licentie, en inhoudelijke tags (110 koppelingen).
-
-De selectie staat in `data/museums/art-curation-2026-10-03.json`. Genereer de herhaalbare inhoudsimport met `node scripts/generate-art-curation.mjs` en voer `supabase/art-curation.sql` uit na de migraties en inventarisimport. Deze vult lege teksten/fotolijsten aan, voegt tags samen en behoudt publicatiestatus en latere bewerkingen.
-
-Foto’s kunnen via afbeeldingslinks worden toegevoegd, verwijderd en als omslag gekozen. De collectietekst heeft een woordenteller; frontend én database handhaven maximaal 80 woorden. De afzonderlijke status Gecontroleerd is vervallen. De legacykolom blijft alleen voor compatibiliteit met oude imports bestaan. Publicatie gebeurt expliciet door de redactie; de verrijkte musea blijven concept.
+Supabase-project: `kunstkiezer`, referentie `qrlfywcqkkzmerglmsbj`. Alleen de publishable key mag in de browserconfiguratie. Auth-dashboardinstellingen staan naast het lokale voorbeeld in `supabase/config.toml`; dat bestand alleen past de hosted Auth-instellingen niet aan. Nieuwe migraties worden eerst lokaal gegenereerd en daarna gecontroleerd toegepast. Gebruik de migratiegeschiedenis als autoriteit; push geen oude, anders gedateerde importmigraties opnieuw.
