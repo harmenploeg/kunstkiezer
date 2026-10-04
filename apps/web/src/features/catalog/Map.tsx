@@ -12,10 +12,12 @@ export function CatalogMap({
   items,
   compact = false,
   focusOnOpen = false,
+  visitStates,
 }: {
   items: CatalogItem[];
   compact?: boolean;
   focusOnOpen?: boolean;
+  visitStates?: Record<string, string>;
 }) {
   const location = useMapLocation(!compact);
   const latitude = compact ? undefined : location?.latitude;
@@ -73,10 +75,19 @@ export function CatalogMap({
       const point: L.LatLngExpression = [first.latitude!, first.longitude!];
       bounds.push(point);
       const dot = L.circleMarker(point, {
-        radius: 8,
-        color: "#fff",
+        radius: 5,
+        color:
+          visitStates &&
+          rows.some((r) => visitStates[r.category + ":" + r.id] === "wanted") &&
+          rows.some((r) => visitStates[r.category + ":" + r.id] === "seen")
+            ? "#db163e"
+            : "#fff",
         weight: 2,
-        fillColor: "#db163e",
+        fillColor:
+          visitStates &&
+          rows.some((r) => visitStates[r.category + ":" + r.id] === "wanted")
+            ? "#198348"
+            : "#db163e",
         fillOpacity: 0.95,
         bubblingMouseEvents: false,
       }).addTo(map);
@@ -88,7 +99,9 @@ export function CatalogMap({
         const a = document.createElement("a");
         a.href = detailHref(row);
         a.className = "map-subject";
-        const photo = row.photos?.find((photo) => /^https:\/\//i.test(photo.url));
+        const photo = row.photos?.find((photo) =>
+          /^https:\/\//i.test(photo.url),
+        );
         if (photo) {
           const image = document.createElement("img");
           image.src = photo.url;
@@ -100,15 +113,16 @@ export function CatalogMap({
           a.append(image);
         }
         const title = document.createElement("span");
-        title.textContent = row.name + " →";
+        title.textContent =
+          row.name +
+          (visitStates
+            ? visitStates[row.category + ":" + row.id] === "wanted"
+              ? " · Te zien"
+              : " · Gezien"
+            : "") +
+          " →";
         a.append(title);
         popup.append(a);
-        if (photo && (photo.credit || photo.license)) {
-          const credit = document.createElement("small");
-          credit.className = "map-photo-credit";
-          credit.textContent = [photo.credit, photo.license].filter(Boolean).join(" · ");
-          popup.append(credit);
-        }
       }
       dot.bindPopup(popup, { maxWidth: 260, maxHeight: 300 });
       dot.on("dblclick", () => {
@@ -158,7 +172,7 @@ export function CatalogMap({
       observer.disconnect();
       map.remove();
     };
-  }, [items, compact, attempt, latitude, longitude]);
+  }, [items, compact, attempt, latitude, longitude, visitStates]);
   return (
     <div className="map-frame">
       {tileError && (

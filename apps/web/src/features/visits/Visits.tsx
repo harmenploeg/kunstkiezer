@@ -7,16 +7,14 @@ import {
   type ReactNode,
 } from "react";
 import { useAuth } from "../account/AuthContext.tsx";
-import {
-  appHref,
-  categories,
-} from "../../../../../packages/domain/src/navigation.ts";
+import { appHref } from "../../../../../packages/domain/src/navigation.ts";
 export interface SeenItem {
   item_id: string;
   category: string;
   name: string;
   rating: number | null;
   seen_at: string;
+  status?: "seen" | "wanted";
 }
 interface State {
   rows: SeenItem[];
@@ -25,6 +23,7 @@ interface State {
   save: (
     item: Pick<SeenItem, "item_id" | "category" | "name">,
     rating: number | null,
+    status?: "seen" | "wanted",
   ) => Promise<void>;
   remove: (item: SeenItem) => Promise<void>;
 }
@@ -52,7 +51,7 @@ export function VisitsProvider({ children }: { children: ReactNode }) {
       for (let page = 0; ; page++) {
         const r = await client
           .from("kk_seen")
-          .select("item_id,category,name,rating,seen_at")
+          .select("item_id,category,name,rating,seen_at,status")
           .eq("user_id", user.id)
           .order("seen_at", { ascending: false })
           .order("item_id")
@@ -83,6 +82,7 @@ export function VisitsProvider({ children }: { children: ReactNode }) {
   async function save(
     item: Pick<SeenItem, "item_id" | "category" | "name">,
     rating: number | null,
+    status: "seen" | "wanted" = "seen",
   ) {
     if (!user || !client || !ready)
       throw Error("Log eerst in en wacht tot je bezoeken zijn geladen.");
@@ -92,8 +92,12 @@ export function VisitsProvider({ children }: { children: ReactNode }) {
       );
     const value = {
       ...item,
-      rating,
-      seen_at: old?.seen_at ?? new Date().toISOString(),
+      rating: status === "wanted" ? null : rating,
+      status,
+      seen_at:
+        old && (old.status ?? "seen") === status
+          ? old.seen_at
+          : new Date().toISOString(),
     };
     const r = await client
       .from("kk_seen")
@@ -138,7 +142,7 @@ export function VisitsProvider({ children }: { children: ReactNode }) {
     </Context.Provider>
   );
 }
-function useVisits() {
+export function useVisits() {
   const v = useContext(Context);
   if (!v) throw Error("VisitsProvider ontbreekt");
   return v;
@@ -175,7 +179,7 @@ export function CatalogActions({
     try {
       await visits.save({ item_id: id, category, name }, value);
       dialog.current?.close();
-      setMessage("Bewaard op Gezien.");
+      setMessage("Bewaard op Gezien/te zien.");
     } catch (e) {
       setMessage((e as Error).message);
     } finally {
@@ -210,13 +214,58 @@ export function CatalogActions({
             dialog.current?.showModal();
           }}
         >
-          {saved
+          {saved && saved.status !== "wanted"
             ? `✓ Gezien${saved.rating ? " · " + saved.rating + " ★" : ""}`
             : "✓ Ik heb dit gezien"}
         </button>
       ) : (
         <a className="text-button" href={appHref("/account")}>
           Log in om te bewaren als gezien
+        </a>
+      )}
+      {user ? (
+        <button
+          type="button"
+          disabled={!visits.ready || busy}
+          aria-pressed={saved?.status === "wanted"}
+          onClick={async () => {
+            setBusy(true);
+            setMessage("");
+            try {
+              if (saved?.status === "wanted") await visits.remove(saved);
+              else {
+                if (
+                  saved &&
+                  !confirm(
+                    "Verplaatsen naar Te zien? Je eerdere waardering vervalt.",
+                  )
+                )
+                  return;
+                await visits.save(
+                  { item_id: id, category, name },
+                  null,
+                  "wanted",
+                );
+              }
+              setMessage(
+                saved?.status === "wanted"
+                  ? "Verwijderd uit Te zien."
+                  : "Bewaard op Te zien.",
+              );
+            } catch (e) {
+              setMessage((e as Error).message);
+            } finally {
+              setBusy(false);
+            }
+          }}
+        >
+          {saved?.status === "wanted"
+            ? "✓ Hier wil ik nog heen"
+            : "Hier wil ik nog heen"}
+        </button>
+      ) : (
+        <a className="text-button" href={appHref("/account")}>
+          Hier wil ik nog heen
         </a>
       )}
       <button
@@ -233,7 +282,10 @@ export function CatalogActions({
         onCancel={() => setMessage("")}
       >
         <h2 id={"rate-" + id}>Wat vond je van {name}?</h2>
-        <p>Geef 1 tot 5 sterren. Je naam wordt niet getoond. Vanaf drie beoordelingen tellen de sterren samen mee in de volgorde.</p>
+        <p>
+          Geef 1 tot 5 sterren. Je naam wordt niet getoond. Vanaf drie
+          beoordelingen tellen de sterren samen mee in de volgorde.
+        </p>
         <div className="stars" role="group" aria-label="Waardering">
           {[1, 2, 3, 4, 5].map((n) => (
             <button
@@ -319,82 +371,5 @@ export function CatalogActions({
         <p role="status">{message}</p>
       )}
     </div>
-  );
-}
-export function History() {
-  const { user, loading } = useAuth(),
-    visits = useVisits(),
-    [message, setMessage] = useState("");
-  return (
-    <>
-      <header className="page-heading">
-        <p className="eyebrow">Jouw persoonlijke kunstgeheugen</p>
-        <h1>
-          Gezien<span className="accent">.</span>
-        </h1>
-        <p>Je eigen bezoeken en sterren. Alleen de gezamenlijke sterrenverdeling telt mee in het aanbod.</p>
-      </header>
-      {loading ? (
-        <p>Account laden…</p>
-      ) : !user ? (
-        <p>
-          <a href={appHref("/account")}>Log in of maak een account</a> om je
-          bezoeken op al je apparaten te bewaren.
-        </p>
-      ) : visits.error ? (
-        <p role="alert">{visits.error}</p>
-      ) : !visits.ready ? (
-        <p role="status">Bezoeken laden…</p>
-      ) : !visits.rows.length ? (
-        <p>
-          Je hebt nog geen bezoeken bewaard. Kies ‘Ik heb dit gezien’ bij een
-          onderwerp op <a href={appHref("/agenda")}>Ontdek kunst</a>.
-        </p>
-      ) : (
-        <div className="museum-grid">
-          {visits.rows.map((item) => (
-            <article className="museum-card" key={item.category + item.item_id}>
-              <p className="eyebrow">
-                {categories.find((c) => c.id === item.category)?.name}
-              </p>
-              <h2>
-                <a
-                  href={
-                    appHref("/bekijk") +
-                    "?categorie=" +
-                    item.category +
-                    "&id=" +
-                    item.item_id
-                  }
-                >
-                  {item.name}
-                </a>
-              </h2>
-              <p>
-                Bewaard op {new Date(item.seen_at).toLocaleDateString("nl-NL")}
-              </p>
-              <CatalogActions
-                id={item.item_id}
-                name={item.name}
-                category={item.category}
-              />
-              <button
-                onClick={async () => {
-                  if (!confirm("Dit bezoek uit Gezien verwijderen?")) return;
-                  try {
-                    await visits.remove(item);
-                  } catch (e) {
-                    setMessage((e as Error).message);
-                  }
-                }}
-              >
-                Verwijder uit Gezien
-              </button>
-            </article>
-          ))}
-        </div>
-      )}
-      {message && <p role="alert">{message}</p>}
-    </>
   );
 }

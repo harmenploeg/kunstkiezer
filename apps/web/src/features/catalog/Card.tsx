@@ -30,7 +30,13 @@ export function Kind({ item }: { item: CatalogItem }) {
     </span>
   );
 }
-export function Photos({ item }: { item: CatalogItem }) {
+export function Photos({
+  item,
+  thumbnail = false,
+}: {
+  item: CatalogItem;
+  thumbnail?: boolean;
+}) {
   return (
     <div className="museum-photos">
       {(item.photos ?? [])
@@ -38,19 +44,21 @@ export function Photos({ item }: { item: CatalogItem }) {
         .map((p, i) => (
           <figure key={i}>
             <img src={p.url} alt={p.caption || item.name} loading="lazy" />
-            <figcaption>
-              {p.caption}
-              {p.credit && ` · ${p.credit}`}{" "}
-              {safeWebUrl(p.source_url) && (
-                <a
-                  href={p.source_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {p.license || "Bron"}
-                </a>
-              )}
-            </figcaption>
+            {!thumbnail && (
+              <figcaption>
+                {p.caption}
+                {p.credit && ` · ${p.credit}`}{" "}
+                {safeWebUrl(p.source_url) && (
+                  <a
+                    href={p.source_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {p.license || "Bron"}
+                  </a>
+                )}
+              </figcaption>
+            )}
           </figure>
         ))}
     </div>
@@ -88,7 +96,7 @@ export function CatalogCard({
           </time>
         </p>
       )}
-      <Photos item={item} />
+      <Photos item={item} thumbnail />
       <p>{visitorText(item.summary)}</p>
       <p>{[item.street_address, item.city].filter(Boolean).join(", ")}</p>
       {"visit_notes" in item && visitorText(item.visit_notes) && (

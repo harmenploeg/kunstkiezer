@@ -192,7 +192,13 @@ test('Accounts: eigen profiel en bezoeken, conflicten en geen inzage door beheer
  await assert.rejects(db.query('insert into public.kk_profiles(user_id,tags) values($1,$2)',[editor,['ongewenst']]));
  await db.query('select * from public.kk_save_profile($1,true,$2)',[['design'],row.updated_at]);
  await assert.rejects(db.query('select * from public.kk_save_profile($1,true,$2)',[['oude gegevens'],row.updated_at]));
+ await db.query("update public.kk_seen set status='wanted',rating=null where user_id=$1",[visitor]);
+ assert.equal((await db.query<{status:string}>("select status from public.kk_seen")).rows[0]?.status,'wanted');
+ await assert.rejects(db.query("update public.kk_seen set rating=5"));
+ await assert.rejects(db.query("update public.kk_seen set status='invalid'"));
+ await assert.rejects(db.query("update public.kk_seen set user_id=$1",[editor]));
  await role(db,'authenticated',editor);
+ assert.equal((await db.query("update public.kk_seen set status='seen' returning item_id")).rows.length,0);
  assert.equal((await db.query('select * from public.kk_profiles')).rows.length,0);
  assert.equal((await db.query('select * from public.kk_seen')).rows.length,0);
  await role(db,'anon');await assert.rejects(db.query('select * from public.kk_profiles'));await assert.rejects(db.query('select * from public.kk_seen'));

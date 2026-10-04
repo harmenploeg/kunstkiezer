@@ -3,7 +3,7 @@ export const BASE_PATH = "/kunstkiezer";
 export const navigation = [
   { path: "/kunstkeuze", label: "Mijn kunstkeuze" },
   { path: "/agenda", label: "Ontdek kunst" },
-  { path: "/geschiedenis", label: "Gezien" },
+  { path: "/geschiedenis", label: "Gezien/te zien" },
   { path: "/profiel", label: "Mijn profiel" },
 ] as const;
 

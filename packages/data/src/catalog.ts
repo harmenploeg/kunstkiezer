@@ -81,3 +81,32 @@ export async function readCatalog(
     .map((r) => ({ ...r, rating: scores.get(r.category + ":" + r.id) }))
     .sort((a, b) => a.name.localeCompare(b.name, "nl"));
 }
+
+/** Saved history includes past events; availability rules and RLS still apply. */
+export async function readSavedCatalog(
+  c: SupabaseClient,
+  saved: { item_id: string; category: string }[],
+): Promise<CatalogItem[]> {
+  const result: CatalogItem[] = [];
+  for (const category of new Set(saved.map((r) => r.category))) {
+    const ids = saved
+      .filter((r) => r.category === category)
+      .map((r) => r.item_id);
+    for (let offset = 0; offset < ids.length; offset += 100) {
+      let query = c
+        .from(category === "musea" ? "kk_museums" : "kk_discoveries")
+        .select("*")
+        .in("id", ids.slice(offset, offset + 100))
+        .eq("publication_status", "published")
+        .eq("operating_status", "open");
+      query =
+        category === "musea"
+          ? query.eq("is_art_museum", true)
+          : query.eq("category", category);
+      const { data, error } = await query;
+      if (error) throw Error("Kaartgegevens konden niet laden.");
+      result.push(...(data ?? []).map((row) => ({ ...row, category })));
+    }
+  }
+  return result;
+}

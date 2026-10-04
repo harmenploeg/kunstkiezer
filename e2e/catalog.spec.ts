@@ -165,7 +165,7 @@ test("Kaart toont precieze stippen, popup opent onderwerp met vier navigatiekeuz
   await marker.click();
   await expect(page.locator(".leaflet-popup")).toBeVisible();
   await expect(page.locator(".leaflet-popup img")).toHaveAttribute("src", "https://images.example.org/garden.jpg");
-  await expect(page.locator(".map-photo-credit")).toHaveText("Testfotograaf · CC0");
+  await expect(page.locator(".map-photo-credit")).toHaveCount(0);
   await page
     .locator(".leaflet-popup")
     .getByRole("link", { name: "Beeldentuin Eén →" })

@@ -13,8 +13,8 @@ test("Mijn kunstkeuze, categorieën en bezoekgeschiedenis zijn bereikbaar", asyn
   await expect(page.getByRole("heading", { name: "Musea." })).toBeVisible();
   await page.reload();
   await expect(page.getByRole("heading", { name: "Musea." })).toBeVisible();
-  await page.getByRole("link", { name: "Gezien", exact: true }).click();
-  await expect(page.getByRole("heading", { name: "Gezien." })).toBeVisible();
+  await page.getByRole("link", { name: "Gezien/te zien", exact: true }).click();
+  await expect(page.getByRole("heading", { name: "Gezien/te zien." })).toBeVisible();
   expect(await page.evaluate(() => document.body.scrollWidth <= document.documentElement.clientWidth)).toBe(true);
   expect(errors).toEqual([]);
 });
@@ -44,7 +44,7 @@ test('Categorieknoppen geven directe toegang en markeren de huidige optie zonder
   await page.setViewportSize({width:320,height:740});
   await page.goto('/kunstkiezer/');
   const nav=page.getByRole('navigation',{name:'Hoofdnavigatie'});
-  await expect(nav.getByRole('link')).toHaveText(['Mijn kunstkeuze','Ontdek kunst','Gezien','Mijn profiel']);
+  await expect(nav.getByRole('link')).toHaveText(['Mijn kunstkeuze','Ontdek kunst','Gezien/te zien','Mijn profiel']);
   await expect(nav.getByRole('link',{name:'Mijn kunstkeuze'})).toHaveAttribute('aria-current','page');
   await expect(page.getByRole('banner').getByRole('link',{name:'Inloggen',exact:true})).toBeVisible();
   await expect(page.getByRole('link',{name:/Loci Amsterdam/})).toHaveCount(0);

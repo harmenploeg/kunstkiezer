@@ -1,6 +1,6 @@
 import { useAuth, RequireAdmin } from "./features/account/AuthContext.tsx";
 import { useProfileState } from "./features/profile/useProfile.ts";
-import { History } from "./features/visits/Visits.tsx";
+import { History } from "./features/visits/History.tsx";
 const RankingAdmin = lazy(() =>
   import("./features/ranking/RankingAdmin.tsx").then((m) => ({
     default: m.RankingAdmin,

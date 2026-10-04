@@ -4,7 +4,7 @@ const user={id:'00000000-0000-4000-8000-000000000099',email:'visitor@example.tes
 const token=[{alg:'HS256',typ:'JWT'},{sub:user.id,aud:'authenticated',role:'authenticated',exp:4000000000},'test'].map(v=>Buffer.from(typeof v==='string'?v:JSON.stringify(v)).toString('base64url')).join('.');
 function server(){
  let profile:{tags:string[];completed:boolean;updated_at:string}|null=null;let visits:Record<string,unknown>[]=[];let version=0;let failSave=false;let resetUrl='';let signupConfirmed=false;let passwordChanges=0;
- const item={id,name:'Kunst om te delen',city:'Utrecht',province:'Utrecht',street_address:'Teststraat',postal_code:'',country:'NL',website_url:'https://example.test',latitude:null,longitude:null,summary:'Fotografie om bij stil te staan.',operating_status:'open',publication_status:'published',is_art_museum:true,photos:[],tags:['fotografie']};
+ const item={id,name:'Kunst om te delen',city:'Utrecht',province:'Utrecht',street_address:'Teststraat',postal_code:'',country:'NL',website_url:'https://example.test',latitude:52.09,longitude:5.12,summary:'Fotografie om bij stil te staan.',operating_status:'open',publication_status:'published',is_art_museum:true,photos:[],tags:['fotografie']};
  async function setup(page:Page){
   await page.addInitScript(()=>Object.defineProperty(navigator,'share',{value:undefined,configurable:true}));
   await page.route('**/kunstkiezer/api/config',r=>r.fulfill({json:{APP_ENV:'production',PUBLIC_SUPABASE_URL:'https://accounts-test.supabase.co',PUBLIC_SUPABASE_PUBLISHABLE_KEY:'sb_publishable_test'}}));
@@ -21,7 +21,7 @@ function server(){
    if(path.endsWith('/kk_profiles'))return reply(profile);
    if(path.endsWith('/kk_save_profile')){const b=req.postDataJSON();if(b.expected_updated_at!==(profile?.updated_at??null))return reply({code:'40001'},409);profile={tags:b.new_tags,completed:b.is_completed,updated_at:'version-'+(++version)};return reply(profile);}
    if(path.endsWith('/kk_seen')){if(req.method()==='POST'){if(failSave)return reply({message:'Unavailable'},503);visits=[req.postDataJSON()];return reply(null);}if(req.method()==='DELETE'){visits=[];return reply(null);}return reply(visits);}
-   if(path.endsWith('/kk_museums'))return reply(url.searchParams.has('id')?item:[item]);
+   if(path.endsWith('/kk_museums'))return reply(url.searchParams.get('id')?.startsWith('eq.')?item:[item]);
    return reply([]);
   });
  }
@@ -58,4 +58,21 @@ test('Herstellink opent nieuw wachtwoord; een losse reset-parameter omzeilt hera
 
 test('Inloggen kiest de startpagina van het online profiel, account blijft bereikbaar',async({page})=>{
  const mock=server();mock.remoteEdit();await mock.setup(page);await login(page);await expect(page).toHaveURL(/\/agenda$/);await page.goto('/kunstkiezer/account');await expect(page.getByText('Ingelogd als')).toBeVisible();
+});
+
+test('Te zien synchroniseert, krijgt groene kaartstip en verhuist na bezoek naar rood',async({page,browser})=>{
+ const mock=server();await mock.setup(page);await login(page);
+ await page.goto('/kunstkiezer/agenda/musea');
+ await page.getByRole('button',{name:'Hier wil ik nog heen',exact:true}).click();
+ await expect(page.getByRole('button',{name:'✓ Hier wil ik nog heen',exact:true})).toHaveAttribute('aria-pressed','true');
+ expect(mock.visits()[0]?.status).toBe('wanted');expect(mock.visits()[0]?.rating).toBeNull();
+ const second=await browser.newContext();try{const other=await second.newPage();await mock.setup(other);await login(other);await other.goto('/kunstkiezer/geschiedenis');
+ await expect(other.getByRole('region',{name:'Te zien',exact:true}).getByRole('link',{name:'Kunst om te delen'})).toBeVisible();
+ await other.getByRole('button',{name:'Kaart',exact:true}).click();
+ const dot=other.getByRole('button',{name:'Kunst om te delen',exact:true});await expect(dot).toHaveAttribute('fill','#198348');
+ await other.getByRole('button',{name:'Lijst',exact:true}).click();await other.getByRole('button',{name:'✓ Ik heb dit gezien',exact:true}).click();await other.getByRole('button',{name:'Gezien, zonder sterren',exact:true}).click();
+ await expect(other.getByRole('region',{name:'Gezien',exact:true}).getByRole('link',{name:'Kunst om te delen'})).toBeVisible();
+ expect(mock.visits()[0]?.status).toBe('seen');
+ await other.getByRole('button',{name:'Kaart',exact:true}).click();await expect(dot).toHaveAttribute('fill','#db163e');
+ }finally{await second.close();}
 });
