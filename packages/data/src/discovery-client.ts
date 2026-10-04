@@ -2,8 +2,9 @@ import {defaultRanking,type Coordinates,type RankingSettings} from '../../domain
 import {personalizedPage} from './personalized.ts';
 import type {SupabaseClient} from '@supabase/supabase-js';
 import {amsterdamDay,monthAhead,type DiscoveryCategory,type DiscoveryItem,type DiscoveryInput} from './discovery.ts';
-export async function listDiscoveries(c:SupabaseClient,category:DiscoveryCategory,search='',province='',tag='',editor=false,page=0,preferences:string[]=[],origin:Coordinates|null=null,settings:RankingSettings=defaultRanking){
+export async function listDiscoveries(c:SupabaseClient,category:DiscoveryCategory,search='',province='',tag='',editor=false,page=0,preferences:string[]=[],origin:Coordinates|null=null,settings:RankingSettings=defaultRanking,archive=false){
  let q=c.from('kk_discoveries').select('*',{count:'exact'}).eq('category',category).order(category==='evenementen'&&!editor?'starts_on':'name').order('id');
+ if(editor) q=archive?q.eq('publication_status','archived'):q.neq('publication_status','archived');
  if(!editor){q=q.eq('publication_status','published');if(category==='evenementen'){const day=amsterdamDay();q=q.gte('ends_on',day).lte('starts_on',monthAhead(day));}}
  const needle=search.trim().replace(/[\\%_,().]/g,' ').slice(0,120);if(needle)q=q.or(`name.ilike.%${needle}%,city.ilike.%${needle}%,creator.ilike.%${needle}%`);
  if(province)q=q.eq('province',province);if(tag.trim())q=q.contains('tags',[tag.trim().toLowerCase()]);

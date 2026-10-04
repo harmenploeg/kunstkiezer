@@ -243,3 +243,23 @@ test('Verdwenen aanbod is privé en gezamenlijke sterren lekken geen individuele
  await role(db,'anon');assert.equal((await db.query('select * from kk_museums')).rows.length,0);assert.equal((await db.query('select * from kk_rating_totals()')).rows.length,0);
  }finally{await db.close();}
 });
+
+test('Archiveren is alleen voor beheerders, verbergt aanbod en bewaart gegevens; herstel blijft concept',async()=>{
+ const db=await database();try{
+ await role(db,'authenticated',editor);
+ const museum=(await db.query<{id:string;updated_at:Date}>('select * from public.kk_save_museum($1,null,null,$2)',[{...payload,publication_status:'published'},'Bewaren'])).rows[0]!;
+ const discovery=(await db.query<{id:string;updated_at:Date}>("insert into public.kk_discoveries(category,name,city,summary,selection_reason,tags,sources,publication_status,operating_status) values('openbare-kunst','Testbeeld','Utrecht','Een beeld','Opvallend',array['kunst'],'[{\"provider\":\"Test\",\"url\":\"https://example.test\"}]','published','open') returning id,updated_at")).rows[0]!;
+ for(const [table,row] of [['kk_museums',museum],['kk_discoveries',discovery]] as const){
+  await role(db,'authenticated',visitor);
+  assert.equal((await db.query(`update public.${table} set publication_status='archived' where id=$1 returning id`,[row.id])).rows.length,0);
+  await role(db,'authenticated',editor);
+  assert.equal((await db.query(`update public.${table} set publication_status='archived' where id=$1 and updated_at=$2 returning id`,[row.id,row.updated_at])).rows.length,1);
+  assert.equal((await db.query(`update public.${table} set publication_status='draft' where id=$1 and updated_at=$2 returning id`,[row.id,row.updated_at])).rows.length,0);
+  await role(db,'anon');assert.equal((await db.query(`select id from public.${table} where id=$1`,[row.id])).rows.length,0);
+  await role(db,'authenticated',editor);assert.equal((await db.query(`select id from public.${table} where id=$1`,[row.id])).rows.length,1);
+  await db.query(`update public.${table} set publication_status='draft' where id=$1`,[row.id]);
+  await role(db,'anon');assert.equal((await db.query(`select id from public.${table} where id=$1`,[row.id])).rows.length,0);
+ }
+ await role(db,'authenticated',editor);assert.equal((await db.query<{review_notes:string}>('select review_notes from public.kk_museum_editorial where museum_id=$1',[museum.id])).rows[0]?.review_notes,'Bewaren');
+ }finally{await db.close();}
+});

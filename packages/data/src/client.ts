@@ -13,8 +13,9 @@ export function getClient(): Promise<SupabaseClient> {
   return createClient(config.supabaseUrl,config.supabasePublishableKey);
  })().catch(error=>{clientPromise=undefined;throw error;});
 }
-export async function listMuseums(client: SupabaseClient, search: string, province: string, editor=false, page=0, preferences:string[]=[],origin:Coordinates|null=null,settings:RankingSettings=defaultRanking): Promise<{ rows: Museum[]; total: number }> {
+export async function listMuseums(client: SupabaseClient, search: string, province: string, editor=false, page=0, preferences:string[]=[],origin:Coordinates|null=null,settings:RankingSettings=defaultRanking,archive=false): Promise<{ rows: Museum[]; total: number }> {
  let query=client.from('kk_museums').select('*',{count:'exact'}).eq('is_art_museum',true).order('name').order('id');
+ if(editor) query=archive?query.eq('publication_status','archived'):query.neq('publication_status','archived');
  if(!editor) query=query.eq('publication_status','published');
  if(province) query=query.eq('province',province);
  // Escape wildcards and PostgREST filter delimiters; never interpolate raw OR syntax.

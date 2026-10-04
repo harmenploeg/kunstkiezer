@@ -1,3 +1,4 @@
+import { ArchiveSubject } from "../management/ArchiveSubject.tsx";
 import { useAuth } from "../account/AuthContext.tsx";
 import { useEffect, useState } from "react";
 import {
@@ -17,6 +18,8 @@ import { MuseumForm } from "./MuseumForm.tsx";
 const emptyEditorial: Editorial = { review_notes: "", suggested_tags: [] };
 export function MuseumAdmin() {
   const { client } = useAuth();
+  const [archive, setArchive] = useState(false);
+  const [refresh, setRefresh] = useState(0);
   const [rows, setRows] = useState<Museum[]>([]),
     [total, setTotal] = useState(0),
     [page, setPage] = useState(0);
@@ -32,7 +35,7 @@ export function MuseumAdmin() {
     if (!client) return;
     let active = true;
     const timer = setTimeout(() => {
-      listMuseums(client, search, province, true, page)
+      listMuseums(client, search, province, true, page, [], null, undefined, archive)
         .then((r) => {
           if (active) {
             setRows(r.rows);
@@ -47,7 +50,7 @@ export function MuseumAdmin() {
       active = false;
       clearTimeout(timer);
     };
-  }, [client, search, province, page]);
+  }, [client, search, province, page, archive, refresh]);
   async function choose(m: Museum) {
     if (!client) return;
     setMessage("");
@@ -67,7 +70,7 @@ export function MuseumAdmin() {
     if (!client) throw Error("Meld je aan als redacteur.");
     const saved = await saveMuseum(client, m, existing, notes);
     setExisting(saved);
-    const result = await listMuseums(client, search, province, true, page);
+    const result = await listMuseums(client, search, province, true, page, [], null, undefined, archive);
     setRows(result.rows);
     setTotal(result.total);
   }
@@ -92,6 +95,7 @@ export function MuseumAdmin() {
       )}
       <>
         <div className="filters">
+          <label>Toon<select aria-label="Toon" value={archive ? "archive" : "active"} onChange={(e) => {setArchive(e.target.value === "archive"); setPage(0); setSelected(null); setExisting(null);}}><option value="active">Actieve onderwerpen</option><option value="archive">Archief</option></select></label>
           <label>
             Zoek museum
             <input
@@ -150,7 +154,7 @@ export function MuseumAdmin() {
                 <small>
                   {m.publication_status === "published"
                     ? "Gepubliceerd"
-                    : "Concept"}
+                    : m.publication_status === "archived" ? "Archief" : "Concept"}
                 </small>
               </button>
             ))}
@@ -170,6 +174,7 @@ export function MuseumAdmin() {
             </div>
           </section>
           {selected ? (
+            <div>
             <MuseumForm
               key={formKey}
               museum={selected}
@@ -179,6 +184,8 @@ export function MuseumAdmin() {
               canSave={true}
               onSave={save}
             />
+            {existing && <ArchiveSubject key={existing.id + existing.updated_at} table="kk_museums" row={existing} onDone={() => {setSelected(null); setExisting(null); setRefresh(x => x + 1); setMessage(archive ? "Hersteld als concept." : "Onderwerp verwijderd uit het aanbod.");}} />}
+            </div>
           ) : (
             <div className="empty-state">
               <h2>Kies een museum</h2>

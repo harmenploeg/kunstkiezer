@@ -1,3 +1,4 @@
+import { ArchiveSubject } from "../management/ArchiveSubject.tsx";
 import { useAuth } from "../account/AuthContext.tsx";
 import { CoordinateFields } from "../ranking/CoordinateFields.tsx";
 import { useEffect, useRef, useState, type FormEvent } from "react";
@@ -19,6 +20,7 @@ import {
 import { categories } from "../../../../../packages/domain/src/navigation.ts";
 export function DiscoveryAdmin({ category }: { category: DiscoveryCategory }) {
   const { client } = useAuth();
+  const [archive, setArchive] = useState(false);
   const [message, setMessage] = useState("");
   const [rows, setRows] = useState<DiscoveryItem[]>([]),
     [total, setTotal] = useState(0),
@@ -36,7 +38,7 @@ export function DiscoveryAdmin({ category }: { category: DiscoveryCategory }) {
     if (!client) return;
     let active = true;
     const timer = setTimeout(() => {
-      listDiscoveries(client, category, search, province, "", true, page)
+      listDiscoveries(client, category, search, province, "", true, page, [], null, undefined, archive)
         .then((r) => {
           if (active) {
             setRows(r.rows);
@@ -51,7 +53,7 @@ export function DiscoveryAdmin({ category }: { category: DiscoveryCategory }) {
       active = false;
       clearTimeout(timer);
     };
-  }, [client, category, search, province, page, refresh]);
+  }, [client, category, search, province, page, refresh, archive]);
   async function choose(r: DiscoveryItem) {
     const token = ++selection.current;
     setSelected(null);
@@ -97,6 +99,7 @@ export function DiscoveryAdmin({ category }: { category: DiscoveryCategory }) {
       )}
       <>
         <div className="filters">
+          <label>Toon<select aria-label="Toon" value={archive ? "archive" : "active"} onChange={(e) => {selection.current++; setArchive(e.target.value === "archive"); setPage(0); setSelected(null); setExisting(null);}}><option value="active">Actieve onderwerpen</option><option value="archive">Archief</option></select></label>
           <label>
             Zoek op naam, maker of plaats
             <input
@@ -157,7 +160,7 @@ export function DiscoveryAdmin({ category }: { category: DiscoveryCategory }) {
                 <small>
                   {r.publication_status === "published"
                     ? "Gepubliceerd"
-                    : "Concept"}
+                    : r.publication_status === "archived" ? "Archief" : "Concept"}
                   {r.operating_status !== "open"
                     ? " · bezoekstatus controleren"
                     : ""}
@@ -177,6 +180,7 @@ export function DiscoveryAdmin({ category }: { category: DiscoveryCategory }) {
             </div>
           </section>
           {selected ? (
+            <div>
             <DiscoveryForm
               key={key}
               value={selected}
@@ -190,6 +194,8 @@ export function DiscoveryAdmin({ category }: { category: DiscoveryCategory }) {
                 setRefresh((x) => x + 1);
               }}
             />
+            {existing && <ArchiveSubject key={existing.id + existing.updated_at} table="kk_discoveries" row={existing} onDone={() => {selection.current++; setSelected(null); setExisting(null); setRefresh(x => x + 1); setMessage(archive ? "Hersteld als concept." : "Onderwerp verwijderd uit het aanbod.");}} />}
+            </div>
           ) : (
             <div className="empty-state">
               <h2>Kies een vermelding</h2>
