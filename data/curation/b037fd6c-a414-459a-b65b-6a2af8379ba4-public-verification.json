@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-05T07:46:23.295167+00:00",
+  "records": [
+    {
+      "id": "17e28664-5ec5-546c-a57a-ccafbf58e250",
+      "name": "Rien Poortvlietmuseum",
+      "result": "all public fields match"
+    },
+    {
+      "id": "185cb6d0-5f53-5ae7-b674-31a2337ee561",
+      "name": "Europees Keramisch Werkcentrum",
+      "result": "all public fields match"
+    },
+    {
+      "id": "1f405f7c-e499-4d86-a1ba-55e579b9e8cd",
+      "name": "Leef Surrealisme",
+      "result": "all public fields match"
+    }
+  ],
+  "new_photo": {
+    "source_license": "CC0 verified",
+    "http_probe": 403,
+    "limitation": "Directe HTTP-ophaalproef geweigerd; foto niet als ontbrekend aangemerkt."
+  }
+}

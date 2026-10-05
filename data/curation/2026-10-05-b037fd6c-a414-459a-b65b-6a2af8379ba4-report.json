@@ -1,0 +1,168 @@
+{
+  "run_id": "b037fd6c-a414-459a-b65b-6a2af8379ba4",
+  "research_date": "2026-10-05",
+  "prepared_at": "2026-10-05T07:46:01.078841+00:00",
+  "status": "prepared",
+  "scope": "1 nieuwe tentoonstelling, 2 individuele bezoekcontroles afgerond; bronnenronde gedeeltelijk.",
+  "sources_review": "data/curation/b037fd6c-a414-459a-b65b-6a2af8379ba4-source-review.json",
+  "added": [
+    {
+      "id": "1f405f7c-e499-4d86-a1ba-55e579b9e8cd",
+      "inventory_key": "event:rotterdam.wereldmuseum.nl/nl/zien-en-doen/tentoonstellingen/leef-surrealisme:2026-09-18",
+      "category": "evenementen",
+      "name": "Leef Surrealisme",
+      "city": "Rotterdam",
+      "province": "Zuid-Holland",
+      "street_address": "Willemskade 25",
+      "website_url": "https://rotterdam.wereldmuseum.nl/nl/zien-en-doen/tentoonstellingen/leef-surrealisme",
+      "summary": "Ontdek surrealisme vanuit een wereldwijd perspectief. Historische en hedendaagse kunst laat zien hoe verbeelding en verzet samenkomen. Werk van onder anderen Wifredo Lam, Renée Stout en Juul Kraijer verbindt Europese avant-garde met kunstenaars uit onder meer Mexico, Australië, Trinidad en Indonesië.",
+      "creator": "Wifredo Lam, Renée Stout, Juul Kraijer en anderen",
+      "year": "2026–2027",
+      "tags": [
+        "tentoonstelling",
+        "surrealisme",
+        "schilderkunst",
+        "hedendaagse kunst",
+        "moderne kunst",
+        "maker: wifredo lam, renée stout, juul kraijer en anderen"
+      ],
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Wereldmuseum_Rotterdam_2024-12-03.jpg/1280px-Wereldmuseum_Rotterdam_2024-12-03.jpg",
+          "credit": "Andy Li",
+          "caption": "Locatie: Wereldmuseum Rotterdam, 3 december 2024. Foto van het museum, niet van deze tentoonstelling.",
+          "license": "CC0 1.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Wereldmuseum_Rotterdam_2024-12-03.jpg"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://rotterdam.wereldmuseum.nl/nl/zien-en-doen/tentoonstellingen/leef-surrealisme",
+          "provider": "Wereldmuseum Rotterdam · officiële tentoonstelling",
+          "retrieved_at": "2026-10-05T07:35:00Z",
+          "evidence_fields": [
+            "name",
+            "starts_on",
+            "ends_on",
+            "summary",
+            "creator"
+          ]
+        },
+        {
+          "url": "https://rotterdam.wereldmuseum.nl/nl/plan-je-bezoek-in-het-wereldmuseum/adres-en-bereikbaarheid",
+          "provider": "Wereldmuseum Rotterdam · bezoekersinformatie",
+          "retrieved_at": "2026-10-05T07:35:00Z",
+          "evidence_fields": [
+            "street_address",
+            "city",
+            "visit_notes",
+            "operating_status"
+          ]
+        }
+      ],
+      "selection_reason": "Wereldwijde historische en hedendaagse beeldende kunst, gevonden via een Volkskrant-recensie en inhoudelijk en qua looptijd bij de organisator bevestigd.",
+      "visit_notes": "Wereldmuseum Rotterdam, Willemskade 25. Dinsdag–vrijdag 10–17 uur; zaterdag–zondag 11–17 uur. Tijdens landelijke schoolvakanties ook maandag open. Reserveer tickets via de organisator.",
+      "museum_id": null,
+      "starts_on": "2026-09-18",
+      "ends_on": "2027-08-29",
+      "operating_status": "open",
+      "publication_status": "published",
+      "created_at": "2026-10-05 07:36:08.055492+00",
+      "updated_at": "2026-10-05 07:37:27.226094+00",
+      "latitude": 51.908009,
+      "longitude": 4.48067,
+      "coordinate_precision": "address",
+      "coordinate_source": "Officieel bevestigd bezoekadres Willemskade 25; gebouwpunt Commons Category:Wereldmuseum_Rotterdam, niet camerastandpunt."
+    }
+  ],
+  "changed": [
+    {
+      "id": "17e28664-5ec5-546c-a57a-ccafbf58e250",
+      "name": "Rien Poortvlietmuseum",
+      "category": "musea",
+      "checked_at": "2026-10-05T07:46:01.078841+00:00",
+      "primary_sources": [
+        "https://rienpoortvlietmuseum.nl/het-museum/praktische-informatie"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "street_address",
+        "summary",
+        "website_url"
+      ],
+      "conclusion": "Ontdek het tekenplezier van Rien Poortvliet op Tiengemeten. Aquarellen, schilderijen en illustraties tonen zijn scherpe blik op dieren, mensen en natuur. Het museum is van 1 april tot 1 november dinsdag–zondag 11.30–16.30 uur open. Je bereikt het eiland per veerpont vanuit Nieuwendijk; koop het pontkaartje vooraf.",
+      "remaining": [],
+      "resolves_availability": true,
+      "action": "visit_information_updated"
+    },
+    {
+      "id": "185cb6d0-5f53-5ae7-b674-31a2337ee561",
+      "name": "Europees Keramisch Werkcentrum",
+      "category": "musea",
+      "checked_at": "2026-10-05T07:46:01.078841+00:00",
+      "primary_sources": [
+        "https://ekwc.nl/bezoekersinfo/",
+        "https://ekwc.nl/rondleidingen/"
+      ],
+      "verified_fields": [
+        "operating_status",
+        "street_address",
+        "summary",
+        "website_url"
+      ],
+      "conclusion": "Kijk waar keramische ideeën worden uitgeprobeerd. Kunstenaars, ontwerpers en architecten onderzoeken hier de grenzen van klei. Tijdens een geboekte rondleiding van circa 75 minuten bezoek je werkplaatsen, ovens en een kunstenaarsatelier. Individuele bezoekers reserveren minstens 24 uur vooraf via de agenda; er is geen vrije museuminloop en de Museumkaart geldt niet.",
+      "remaining": [],
+      "resolves_availability": true,
+      "action": "visit_information_updated"
+    }
+  ],
+  "decisions": [
+    "Oud persbericht Leef Surrealisme noemt 17 september; actuele openbare programmapagina bevestigt 18 september en is gevolgd.",
+    "Melkweg-post caption 31 december wijkt af van poster en organisator 30 december; juiste bestaande einddatum behouden.",
+    "Wereldmuseum blijft buiten vaste kunstmuseumselectie; tentoonstelling zelfstandig toegevoegd.",
+    "Vorige productieblokkade hersteld door mislukte kwaliteitsjob opnieuw uit te voeren; geen code gewijzigd om test te omzeilen."
+  ],
+  "public_art_candidates": [
+    "Dijk van een Wijf",
+    "Jan Schaefermonument",
+    "(Zoals) Ze is"
+  ],
+  "remaining": {
+    "catalog_audit": 340,
+    "backlog_pending": 592,
+    "backlog_blocked": 1,
+    "sources_incomplete": [
+      "11fountains",
+      "AD (landelijke editie)",
+      "Architectuur.ORG",
+      "Architectuurgids Top 100",
+      "Beeldentuinen · provinciale inventarisatie",
+      "Bezoekmijntuin · tuinen en open dagen",
+      "De Telegraaf",
+      "de Volkskrant",
+      "Gemeentelijke kunstcollecties en monumenteninformatie",
+      "Het Financieele Dagblad",
+      "Het Parool (aanvullend: Amsterdam)",
+      "Historische RDMZ Top 100",
+      "Kunst op Straat · Gemeente Nijmegen",
+      "KunstVensters",
+      "Landart Nederland",
+      "Musea, kunstinstellingen, kunstenaars en terreinbeheerders",
+      "Museumtijdschrift",
+      "Nederlands Dagblad",
+      "Nederlandse architectuur in 250 topstukken",
+      "NRC",
+      "Reformatorisch Dagblad",
+      "Sleutelwerken",
+      "Trouw",
+      "WhichMuseum Kunst & Design",
+      "Wikimedia Commons"
+    ]
+  },
+  "verification": {
+    "previous_release_recovered": "https://github.com/harmenploeg/interactief/actions/runs/37239128629",
+    "current_release": "pending",
+    "database": "3 records individually verified; final public API check pending"
+  },
+  "followup": "Na geverifieerde publicatie en 2 opgeloste dossiers atomair precies één manual vervolgaanvraag; nooit zelf claimen."
+}

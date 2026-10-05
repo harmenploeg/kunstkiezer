@@ -1,13 +1,13 @@
 {
   "method": "docs/selectie-tentoonstellingen.md",
-  "updated_at": "2026-10-04T22:09:47.586614+00:00",
-  "run_id": "89fbda36-9ac4-472f-9244-e5f41b73e666",
+  "updated_at": "2026-10-05T07:46:01.078841+00:00",
+  "run_id": "b037fd6c-a414-459a-b65b-6a2af8379ba4",
   "window_from": "2026-10-05",
   "window_to": "2026-11-05",
   "scope": "Beginpopulatie 301 geselecteerde musea. Prioriteitsgroep is redactioneel en uitbreidbaar; externe organisatoren en ontbrekende musea blijven ontdekkingswerk. Geen landelijke volledigheidsclaim.",
   "museum_count": 301,
   "priority_museum_count": 60,
-  "complete_programs": 4,
+  "complete_programs": 1,
   "partial_programs": 4,
   "museums": [
     {
@@ -206,18 +206,23 @@
       "official_url": "https://www.depont.nl",
       "source_group_id": "official-institutions",
       "priority": "high",
-      "status": "pending",
-      "last_complete_check": null,
+      "status": "complete",
+      "last_complete_check": "2026-10-05T07:46:01.078841+00:00",
       "last_partial_check": null,
       "known_event_ids": [
         "b7bf8bb6-309c-5638-b462-5dd25f52c7bc",
         "1f3182dd-fe22-5fdb-9e81-a567c80ef3b9",
         "7d804d5f-4487-5d1f-8400-17aaae140f29"
       ],
-      "program_pages_read": [],
-      "remaining": [
-        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
-      ]
+      "program_pages_read": [
+        "https://www.depont.nl/nu-te-zien",
+        "https://www.depont.nl/verwacht",
+        "https://www.depont.nl/tentoonstellingen/matthew-monahan",
+        "https://www.depont.nl/tentoonstellingen/barbara-wagner-benjamin-de-burca",
+        "https://www.depont.nl/tentoonstellingen/sigmar-polke-3"
+      ],
+      "remaining": [],
+      "conclusion": "Alle drie actuele tentoonstellingen al aanwezig met 20 september 2026–28 februari 2027. Twee aangekondigde tentoonstellingen starten 21 maart 2027, buiten kalendermaand."
     },
     {
       "museum_id": "309b4c56-a9df-5cd7-824d-5e6830fc832e",

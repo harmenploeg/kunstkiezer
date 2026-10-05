@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T22:09:47.586614+00:00",
+  "updated_at": "2026-10-05T07:46:01.078841+00:00",
   "scope": "Eerste uitbreiding en gerichte zoekronde; geen volledige landelijke inventarisatie.",
   "provinces": [
     {
@@ -117,6 +117,20 @@
         "https://kleinafrika.nl/contact/"
       ],
       "conclusion": "Klein Afrika bestaand record bevestigd; geen dubbel ingevoerd. Groene Velden nadere kandidaatinventarisatie. Overige gemeenten en kleine tuinen blijven open."
+    },
+    {
+      "run_id": "b037fd6c-a414-459a-b65b-6a2af8379ba4",
+      "checked_at": "2026-10-05T07:46:01.078841+00:00",
+      "province": "Friesland",
+      "status": "partial",
+      "sources": [
+        "https://www.bezoekmijntuin.nl/",
+        "https://www.friesland.nl/nl/routes/3857606936/beeldenroute-in-harlingen"
+      ],
+      "conclusion": "Bezoekmijntuin-homepage gelezen; Harlinger beeldenroute uitsluitend zoekaanwijzing. Geen nieuwe tuin gepubliceerd.",
+      "remaining": [
+        "Volledige route en primaire eigenaar/gemeente nog inhoudelijk lezen."
+      ]
     }
   ]
 }

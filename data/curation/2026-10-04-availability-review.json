@@ -2395,11 +2395,34 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ]
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "summary",
+        "website_url"
+      ],
+      "decisions": [
+        {
+          "id": "17e28664-5ec5-546c-a57a-ccafbf58e250",
+          "name": "Rien Poortvlietmuseum",
+          "category": "musea",
+          "checked_at": "2026-10-05T07:46:01.078841+00:00",
+          "primary_sources": [
+            "https://rienpoortvlietmuseum.nl/het-museum/praktische-informatie"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "summary",
+            "website_url"
+          ],
+          "conclusion": "Ontdek het tekenplezier van Rien Poortvliet op Tiengemeten. Aquarellen, schilderijen en illustraties tonen zijn scherpe blik op dieren, mensen en natuur. Het museum is van 1 april tot 1 november dinsdag–zondag 11.30–16.30 uur open. Je bereikt het eiland per veerpont vanuit Nieuwendijk; koop het pontkaartje vooraf.",
+          "remaining": [],
+          "resolves_availability": true,
+          "action": "visit_information_updated"
+        }
+      ],
+      "remaining": []
     },
     {
       "id": "184089b6-a5ea-5a72-a73a-04fcadaa16fd",
@@ -2471,11 +2494,35 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ]
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address",
+        "summary",
+        "website_url"
+      ],
+      "decisions": [
+        {
+          "id": "185cb6d0-5f53-5ae7-b674-31a2337ee561",
+          "name": "Europees Keramisch Werkcentrum",
+          "category": "musea",
+          "checked_at": "2026-10-05T07:46:01.078841+00:00",
+          "primary_sources": [
+            "https://ekwc.nl/bezoekersinfo/",
+            "https://ekwc.nl/rondleidingen/"
+          ],
+          "verified_fields": [
+            "operating_status",
+            "street_address",
+            "summary",
+            "website_url"
+          ],
+          "conclusion": "Kijk waar keramische ideeën worden uitgeprobeerd. Kunstenaars, ontwerpers en architecten onderzoeken hier de grenzen van klei. Tijdens een geboekte rondleiding van circa 75 minuten bezoek je werkplaatsen, ovens en een kunstenaarsatelier. Individuele bezoekers reserveren minstens 24 uur vooraf via de agenda; er is geen vrije museuminloop en de Museumkaart geldt niet.",
+          "remaining": [],
+          "resolves_availability": true,
+          "action": "visit_information_updated"
+        }
+      ],
+      "remaining": []
     },
     {
       "id": "186120ae-4217-5e1e-99a4-cfe625fea09c",
@@ -25772,6 +25819,6 @@
     }
   ],
   "sleutelwerken_api_records_checked": 100,
-  "latest_followup_report": "2026-10-05-review-89fbda36.json",
-  "updated_at": "2026-10-04T22:09:47.586614+00:00"
+  "latest_followup_report": "data/curation/2026-10-05-b037fd6c-a414-459a-b65b-6a2af8379ba4-report.json",
+  "updated_at": "2026-10-05T07:46:01.078841+00:00"
 }

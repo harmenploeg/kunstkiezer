@@ -5714,5 +5714,71 @@
     "coordinate_source": "https://www.singerlaren.nl/nl/theme/tentoonstellingen-dnc9",
     "publication_status": "published",
     "coordinate_precision": "address"
+  },
+  {
+    "id": "1f405f7c-e499-4d86-a1ba-55e579b9e8cd",
+    "inventory_key": "event:rotterdam.wereldmuseum.nl/nl/zien-en-doen/tentoonstellingen/leef-surrealisme:2026-09-18",
+    "category": "evenementen",
+    "name": "Leef Surrealisme",
+    "city": "Rotterdam",
+    "province": "Zuid-Holland",
+    "street_address": "Willemskade 25",
+    "website_url": "https://rotterdam.wereldmuseum.nl/nl/zien-en-doen/tentoonstellingen/leef-surrealisme",
+    "summary": "Ontdek surrealisme vanuit een wereldwijd perspectief. Historische en hedendaagse kunst laat zien hoe verbeelding en verzet samenkomen. Werk van onder anderen Wifredo Lam, Renée Stout en Juul Kraijer verbindt Europese avant-garde met kunstenaars uit onder meer Mexico, Australië, Trinidad en Indonesië.",
+    "creator": "Wifredo Lam, Renée Stout, Juul Kraijer en anderen",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "surrealisme",
+      "schilderkunst",
+      "hedendaagse kunst",
+      "moderne kunst",
+      "maker: wifredo lam, renée stout, juul kraijer en anderen"
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Wereldmuseum_Rotterdam_2024-12-03.jpg/1280px-Wereldmuseum_Rotterdam_2024-12-03.jpg",
+        "credit": "Andy Li",
+        "caption": "Locatie: Wereldmuseum Rotterdam, 3 december 2024. Foto van het museum, niet van deze tentoonstelling.",
+        "license": "CC0 1.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Wereldmuseum_Rotterdam_2024-12-03.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://rotterdam.wereldmuseum.nl/nl/zien-en-doen/tentoonstellingen/leef-surrealisme",
+        "provider": "Wereldmuseum Rotterdam · officiële tentoonstelling",
+        "retrieved_at": "2026-10-05T07:35:00Z",
+        "evidence_fields": [
+          "name",
+          "starts_on",
+          "ends_on",
+          "summary",
+          "creator"
+        ]
+      },
+      {
+        "url": "https://rotterdam.wereldmuseum.nl/nl/plan-je-bezoek-in-het-wereldmuseum/adres-en-bereikbaarheid",
+        "provider": "Wereldmuseum Rotterdam · bezoekersinformatie",
+        "retrieved_at": "2026-10-05T07:35:00Z",
+        "evidence_fields": [
+          "street_address",
+          "city",
+          "visit_notes",
+          "operating_status"
+        ]
+      }
+    ],
+    "selection_reason": "Wereldwijde historische en hedendaagse beeldende kunst, gevonden via een Volkskrant-recensie en inhoudelijk en qua looptijd bij de organisator bevestigd.",
+    "visit_notes": "Wereldmuseum Rotterdam, Willemskade 25. Dinsdag–vrijdag 10–17 uur; zaterdag–zondag 11–17 uur. Tijdens landelijke schoolvakanties ook maandag open. Reserveer tickets via de organisator.",
+    "museum_id": null,
+    "starts_on": "2026-09-18",
+    "ends_on": "2027-08-29",
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 51.908009,
+    "longitude": 4.48067,
+    "coordinate_precision": "address",
+    "coordinate_source": "Officieel bevestigd bezoekadres Willemskade 25; gebouwpunt Commons Category:Wereldmuseum_Rotterdam, niet camerastandpunt."
   }
 ]
