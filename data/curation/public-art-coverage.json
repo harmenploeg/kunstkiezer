@@ -230,9 +230,45 @@
     },
     {
       "province": "Gelderland",
-      "status": "pending",
-      "last_reviewed": null,
-      "municipalities_reviewed": []
+      "status": "partial",
+      "last_reviewed": "2026-10-05",
+      "municipalities_reviewed": [
+        "Arnhem",
+        "Culemborg",
+        "Apeldoorn",
+        "Lochem"
+      ],
+      "run_id": "42273fab-3f11-47c2-a736-27c3ebac6d4f",
+      "commissioners_reviewed": [
+        "Provincie Gelderland",
+        "Gemeente Culemborg",
+        "Dienst Landelijk Gebied"
+      ],
+      "artists_reviewed": [
+        "RAAAF / Atelier de Lyon",
+        "Peter Struycken",
+        "Marinus Boezem",
+        "Shlomo Korèn"
+      ],
+      "evidence": [
+        {
+          "url": "https://landartnederland.com/gelderland/",
+          "conclusion": "Vier getoonde werken inhoudelijk gelezen: Blauwe Golven en Energy reeds aanwezig; Bunker 599 en De Kathedraal als kandidaten."
+        },
+        {
+          "url": "https://www.gelderland.nl/themas/organisatie/over-de-provincie/huis-der-provincie",
+          "conclusion": "Openbare deel ma–do 7.30–18, vr 7.30–17; provinciale kunstcollectie als opdrachtgeversingang."
+        },
+        {
+          "url": "https://monumentenregister.cultureelerfgoed.nl/monumenten/531728",
+          "conclusion": "Culemborg bevestigd; cluster meerdere betonnen werken, geen exact bunkerobjectpunt afgeleid."
+        }
+      ],
+      "limitations": [
+        "Gelderland is gericht onderzocht; geen volledige provinciale of landelijke dekking.",
+        "Bunker 599: exacte route/objectlocatie en jaarconflict (2010/2013) vereisen vervolg.",
+        "De Kathedraal: huidige bezoekroute en seizoenssluiting nog niet exact gekoppeld."
+      ]
     },
     {
       "province": "Groningen",
@@ -373,9 +409,56 @@
           "retrieved_at": "2026-10-04T18:28:40.790683+00:00"
         }
       ]
+    },
+    {
+      "name": "Bunker 599",
+      "category": "openbare-kunst",
+      "status": "pending",
+      "score": {
+        "artistic": 3,
+        "spatial": 3,
+        "public": 3
+      },
+      "score_reason": "Radicale doorsnijding maakt militair erfgoed en inundatielandschap ervaarbaar; maker en publieke opdracht bevestigd.",
+      "sources": [
+        "https://www.raaaf.nl/nl/projects/7_bunker_599",
+        "https://www.hollandsewaterlinies.nl/nl/locaties/319261745/doorgezaagde-bunker",
+        "https://commons.wikimedia.org/wiki/Category:Bunker_599",
+        "https://commons.wikimedia.org/wiki/File:Bunker_599.jpg"
+      ],
+      "remaining": [
+        "Routepin 51.929343,5.155494 versus objectpunt Commons 51.935944,5.153503; niet gelijk aan fotocamerapunt.",
+        "Jaar 2013 op makerspagina versus 2010 op bezoekerspagina."
+      ],
+      "photo_candidate": {
+        "credit": "Lluunnoo",
+        "license": "CC BY-SA 4.0",
+        "date": "2020-03-03"
+      },
+      "checked_at": "2026-10-05T08:28:45.566452+00:00",
+      "run_id": "42273fab-3f11-47c2-a736-27c3ebac6d4f"
+    },
+    {
+      "name": "De Kathedraal — Marinus Boezem",
+      "category": "openbare-kunst",
+      "status": "pending",
+      "score": {
+        "artistic": 3,
+        "spatial": 3,
+        "public": 2
+      },
+      "sources": [
+        "https://landartnederland.com/gelderland/",
+        "https://kroondomeinhetloo.nl/bezoekersgids"
+      ],
+      "remaining": [
+        "Primaire objectbeschrijving, exacte route en huidige seizoensopenstelling verifiëren; geen publicatie op alleen overzichtstekst."
+      ],
+      "checked_at": "2026-10-05T08:28:45.566452+00:00",
+      "run_id": "42273fab-3f11-47c2-a736-27c3ebac6d4f"
     }
   ],
   "note": "Drie gerichte toevoegingen; provinciebrede inventarisatie nog open. Gebruik alleen de actuele ingeschakelde bronnen.",
-  "updated_at": "2026-10-05T07:46:01.078841+00:00",
-  "run_id": "b037fd6c-a414-459a-b65b-6a2af8379ba4"
+  "updated_at": "2026-10-05T08:28:45.566452+00:00",
+  "run_id": "42273fab-3f11-47c2-a736-27c3ebac6d4f"
 }

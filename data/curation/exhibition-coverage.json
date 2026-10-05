@@ -1,13 +1,13 @@
 {
   "method": "docs/selectie-tentoonstellingen.md",
-  "updated_at": "2026-10-05T07:46:01.078841+00:00",
-  "run_id": "b037fd6c-a414-459a-b65b-6a2af8379ba4",
+  "updated_at": "2026-10-05T08:28:45.566452+00:00",
+  "run_id": "42273fab-3f11-47c2-a736-27c3ebac6d4f",
   "window_from": "2026-10-05",
   "window_to": "2026-11-05",
   "scope": "Beginpopulatie 301 geselecteerde musea. Prioriteitsgroep is redactioneel en uitbreidbaar; externe organisatoren en ontbrekende musea blijven ontdekkingswerk. Geen landelijke volledigheidsclaim.",
   "museum_count": 301,
   "priority_museum_count": 60,
-  "complete_programs": 1,
+  "complete_programs": 5,
   "partial_programs": 4,
   "museums": [
     {
@@ -17,17 +17,73 @@
       "official_url": "https://www.rijksmuseum.nl",
       "source_group_id": "official-institutions",
       "priority": "high",
-      "status": "pending",
-      "last_complete_check": null,
-      "last_partial_check": null,
+      "status": "checked",
+      "last_complete_check": "2026-10-05T08:28:45.566452+00:00",
+      "last_partial_check": "2026-10-05T08:28:45.566452+00:00",
       "known_event_ids": [
         "f1d74863-cd61-5c18-9dfc-a54fa1bf8593",
-        "eb9eb168-d4b3-5122-9bca-ef104fabd5b8"
+        "eb9eb168-d4b3-5122-9bca-ef104fabd5b8",
+        "c973ea8b-1335-4932-8bd6-cc02bb8935bb",
+        "1e4b83c9-1088-483d-a6df-bb6f56c2b616"
       ],
-      "program_pages_read": [],
+      "program_pages_read": [
+        "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/nu-te-zien",
+        "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/worn",
+        "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/document-nederland-nieuwe-energie",
+        "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+        "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/willem-de-kooning-at-work",
+        "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/in-de-prentenkabinetten-van-het-rijksmuseum",
+        "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/nieuw-in-de-20ste-eeuw",
+        "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/teken",
+        "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/reizende-tentoonstelling"
+      ],
       "remaining": [
-        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
-      ]
+        "Prentenkabinetten: bevestigde begindatum ontbreekt.",
+        "20ste eeuw: bevestigde begindatum ontbreekt.",
+        "Geloof in Venlo: officiële startdatums 12 en 18 september spreken elkaar tegen; vervolg bij Limburgs Museum."
+      ],
+      "program_decisions": [
+        {
+          "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/nu-te-zien",
+          "conclusion": "Alle acht huidige en verwachte programmalinks bezocht; uitklapteksten gelezen."
+        },
+        {
+          "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/worn",
+          "conclusion": "Nieuwe tentoonstelling; 27 maart 2026–21 maart 2027."
+        },
+        {
+          "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/document-nederland-nieuwe-energie",
+          "conclusion": "Nieuwe tentoonstelling; 9 oktober 2026–17 januari 2027."
+        },
+        {
+          "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+          "conclusion": "Bestaand; 5 juni–25 oktober; vaste Signaal 1 en 2 bevestigd."
+        },
+        {
+          "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/willem-de-kooning-at-work",
+          "conclusion": "Bestaand; 9 oktober 2026–17 januari 2027 bevestigd."
+        },
+        {
+          "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/in-de-prentenkabinetten-van-het-rijksmuseum",
+          "conclusion": "Tijdelijke selectie t/m 29 november; begindatum ontbreekt."
+        },
+        {
+          "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/nieuw-in-de-20ste-eeuw",
+          "conclusion": "Wisselende collectie-opstelling t/m 9 november; begindatum ontbreekt."
+        },
+        {
+          "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/teken",
+          "conclusion": "12 februari–23 mei 2027, buiten kalendermaandvenster."
+        },
+        {
+          "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/reizende-tentoonstelling",
+          "conclusion": "Geloof in Venlo: 12 september volgens Rijks; startconflict met 18 september bij Limburgs Museum."
+        }
+      ],
+      "checked_window": {
+        "from": "2026-10-05",
+        "to": "2026-11-05"
+      }
     },
     {
       "museum_id": "8ca65b0c-71eb-5178-bc9d-6e321af6995c",

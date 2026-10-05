@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T07:46:01.078841+00:00",
+  "updated_at": "2026-10-05T08:28:45.566452+00:00",
   "scope": "Eerste uitbreiding en gerichte zoekronde; geen volledige landelijke inventarisatie.",
   "provinces": [
     {
@@ -130,6 +130,28 @@
       "conclusion": "Bezoekmijntuin-homepage gelezen; Harlinger beeldenroute uitsluitend zoekaanwijzing. Geen nieuwe tuin gepubliceerd.",
       "remaining": [
         "Volledige route en primaire eigenaar/gemeente nog inhoudelijk lezen."
+      ]
+    },
+    {
+      "run_id": "42273fab-3f11-47c2-a736-27c3ebac6d4f",
+      "checked_at": "2026-10-05T08:28:45.566452+00:00",
+      "province": "Gelderland",
+      "search_terms": [
+        "Gelderland beeldentuin galerie tuin officiële website",
+        "site:bezoekmijntuin.nl Gelderland beeldentuin"
+      ],
+      "pages_read": [
+        "https://beeldentuin-gelderland-exposities.nl/",
+        "https://beeldentuin-gelderland-exposities.nl/exposities/"
+      ],
+      "candidates": [
+        {
+          "name": "Beeldentuin AJ & LW Bier",
+          "decision": "Bestaand; geen dubbel. Huidig seizoen tot 25 oktober op afspraak bevestigd; wintertekst oud."
+        }
+      ],
+      "limitations": [
+        "Alleen eigenaarsbron inhoudelijk gelezen; geen volledige provinciale dekking of twee bronsoorten geclaimd."
       ]
     }
   ]

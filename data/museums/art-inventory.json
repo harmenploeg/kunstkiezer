@@ -15110,16 +15110,16 @@
     "name": "Brutus",
     "city": "Rotterdam",
     "province": "Zuid-Holland",
-    "street_address": "Keileweg 10-18",
+    "street_address": "Keileweg 10b",
     "postal_code": "3029 BS",
     "country": "NL",
     "website_url": "https://www.brutus.nl/",
     "latitude": 51.909542,
     "longitude": 4.432031,
-    "summary": "Ontdek kunst met ruimte voor grote gebaren. In de voormalige havenloodsen van Brutus kunnen kunstenaars ambitieuze ideeën uitproberen. Installaties, sculpturen en andere werken maken van de industriële omgeving een plek vol verbeelding.",
+    "summary": "Ontdek grote installaties en sculpturen in de voormalige havenloodsen van Brutus. De hoofdingang ligt aan Keileweg 10b; tentoonstellingen zijn donderdag tot en met zondag van 12 tot 18 uur te bezoeken. Brutus Garden aan Keileweg 18 is alleen op afspraak toegankelijk. De locatie is gedeeltelijk rolstoeltoegankelijk.",
     "operating_status": "open",
     "publication_status": "published",
-    "verification_status": "unreviewed",
+    "verification_status": "verified",
     "suggested_tags": [],
     "tags": [
       "hedendaagse kunst",
@@ -15167,6 +15167,17 @@
           "tags",
           "is_art_museum"
         ]
+      },
+      {
+        "url": "https://brutus.nl/en/visitors+info/",
+        "provider": "Brutus · actuele bezoekersinformatie",
+        "retrieved_at": "2026-10-05T08:23:36.675Z",
+        "evidence_fields": [
+          "street_address",
+          "summary",
+          "operating_status",
+          "coordinate_precision"
+        ]
       }
     ],
     "review_notes": "Landelijke kunstinventaris 3 oktober 2026. Collectie/programma inhoudelijk geselecteerd; openingstijden en het actuele tentoonstellingsaanbod voor bezoek raadplegen.",
@@ -15182,8 +15193,8 @@
       }
     ],
     "audit_reference": "246",
-    "coordinate_source": "Bestaande museumcoördinaten",
-    "coordinate_precision": "exact"
+    "coordinate_source": "Officiële hoofdingang Keileweg 10b; PDOK BAG-adrespunt adr-edb807cf529eac49873df294300e7b4c.",
+    "coordinate_precision": "address"
   },
   {
     "id": "88058f35-5dd4-5412-8fcb-cf10014c8cbb",

@@ -124,7 +124,7 @@
     }
   ],
   "baseline_records": 732,
-  "current_records": 802,
+  "current_records": 805,
   "maker_updates": 54,
   "disappeared_updates": 6,
   "records": [
@@ -3029,8 +3029,13 @@
         }
       ],
       "manually_verified_fields": [
+        "coordinate_precision",
+        "coordinate_source",
         "operating_status",
-        "street_address"
+        "photos",
+        "street_address",
+        "summary",
+        "verification_status"
       ],
       "decisions": [
         {
@@ -3041,10 +3046,33 @@
             "https://www.instagram.com/brutus.rotterdam/p/Ddtu6Tdj1p8/"
           ],
           "conclusion": "Officiële bezoekpagina: donderdag–zondag 12–18 uur, hoofdingang Keileweg 10b; Brutus Garden alleen op afspraak. Eigen gedateerde berichten van 25 september en 3 oktober nodigen na de brandmelding uit voor Death & Money (20 september–20 december). Dit ondersteunt de huidige bezoekstatus open; geen expliciete verklaring over de brandnasleep gevonden."
-        }
+        },
+        "Hoofdingang Keileweg 10b en BAG-adrespunt bevestigd; donderdag–zondag 12–18 uur, tuin op nummer 18 uitsluitend op afspraak. Huidige openstatus ondersteund door actuele bezoekpagina en eerder deze ochtend gelezen eigen berichten na de brandmelding. Bestaande foto/licentie bevestigd."
       ],
-      "remaining": [
-        "Bezoekersingang en afspraakvereiste tuin bij volgende publicatie preciseren; overige dossiervereisten controleren."
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "1d6aa07d-0be3-540c-8792-67321db35073",
+          "name": "Brutus",
+          "category": "musea",
+          "checked_at": "2026-10-05T08:28:45.566452+00:00",
+          "primary_sources": [
+            "https://brutus.nl/en/visitors+info/",
+            "https://commons.wikimedia.org/wiki/File:2024_BRUTUS_art_center_in_Rotterdam_at_the_Keileweg_10-18.jpg"
+          ],
+          "verified_fields": [
+            "street_address",
+            "summary",
+            "coordinate_precision",
+            "coordinate_source",
+            "verification_status",
+            "operating_status",
+            "photos"
+          ],
+          "conclusion": "Hoofdingang Keileweg 10b en BAG-adrespunt bevestigd; donderdag–zondag 12–18 uur, tuin op nummer 18 uitsluitend op afspraak. Huidige openstatus ondersteund door actuele bezoekpagina en eerder deze ochtend gelezen eigen berichten na de brandmelding. Bestaande foto/licentie bevestigd.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -3625,14 +3653,15 @@
       ],
       "manually_verified_fields": [
         "operating_status",
+        "photos",
+        "sources",
         "visit_notes"
       ],
       "decisions": [
-        "Museum bevestigt dertien beelden van Carel Visser 5 juni–25 oktober 2026 en twee blijvende Visser-werken. Tijdelijke expositie niet verward met verdwijnen van de tuin."
+        "Museum bevestigt dertien beelden van Carel Visser 5 juni–25 oktober 2026 en twee blijvende Visser-werken. Tijdelijke expositie niet verward met verdwijnen van de tuin.",
+        "Gratis toegankelijke tuin met dertien beelden van Carel Visser t/m 25 oktober 2026; Signaal 1 en 2 permanent. Passende tuinfoto uit 2018 visueel gecontroleerd en als historisch beeld benoemd; Julien Chatelain, CC BY-SA 2.0."
       ],
-      "remaining": [
-        "Foto met bevestigde hergebruikvoorwaarden ontbreekt."
-      ],
+      "remaining": [],
       "followup_reviews": [
         {
           "id": "24689773-a498-5a33-9388-8750451ec284",
@@ -3647,6 +3676,27 @@
             "visit_notes"
           ],
           "conclusion": "Museum bevestigt dertien beelden van Carel Visser 5 juni–25 oktober 2026 en twee blijvende Visser-werken. Tijdelijke expositie niet verward met verdwijnen van de tuin.",
+          "resolves_availability": true
+        },
+        {
+          "id": "24689773-a498-5a33-9388-8750451ec284",
+          "name": "Rijksmuseum Amsterdam – beeldentuin",
+          "category": "beeldenparken",
+          "checked_at": "2026-10-05T08:28:45.566452+00:00",
+          "primary_sources": [
+            "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+            "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+            "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Garden_(41808103055).jpg"
+          ],
+          "verified_fields": [
+            "photos",
+            "visit_notes",
+            "sources",
+            "operating_status",
+            "photos"
+          ],
+          "conclusion": "Gratis toegankelijke tuin met dertien beelden van Carel Visser t/m 25 oktober 2026; Signaal 1 en 2 permanent. Passende tuinfoto uit 2018 visueel gecontroleerd en als historisch beeld benoemd; Julien Chatelain, CC BY-SA 2.0.",
+          "remaining": [],
           "resolves_availability": true
         }
       ]
@@ -14948,11 +14998,57 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Exact objectpunt of bezoekadres ontbreekt; stadscoördinaat wordt niet op de kaart getoond.",
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "coordinate_precision",
+        "coordinate_source",
+        "creator",
+        "latitude",
+        "longitude",
+        "operating_status",
+        "photos",
+        "sources",
+        "street_address",
+        "summary",
+        "tags",
+        "visit_notes",
+        "website_url"
+      ],
+      "decisions": [
+        "Officiële gebouwpagina bevestigt Pierre Cuypers en 1885. Museumstraat 1 en BAG-adrespunt vervangen stadscoördinaat; binnenbezoek dagelijks 9–17 uur met starttijd. Bestaande foto en CC BY-SA 4.0 bevestigd."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "a10f6af8-5faa-5087-9bd5-107fdf1251f6",
+          "name": "Rijksmuseumgebouw",
+          "category": "architectuur",
+          "checked_at": "2026-10-05T08:28:45.566452+00:00",
+          "primary_sources": [
+            "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
+            "https://nl.wikipedia.org/wiki/Rijksmuseumgebouw",
+            "https://www.rijksmuseum.nl/nl/bezoek/in-het-museum/het-gebouw",
+            "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-05d9f079a1e8e66f30122d9ca3b0acd3",
+            "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg"
+          ],
+          "verified_fields": [
+            "street_address",
+            "latitude",
+            "longitude",
+            "coordinate_precision",
+            "coordinate_source",
+            "website_url",
+            "creator",
+            "summary",
+            "visit_notes",
+            "tags",
+            "sources",
+            "operating_status",
+            "photos"
+          ],
+          "conclusion": "Officiële gebouwpagina bevestigt Pierre Cuypers en 1885. Museumstraat 1 en BAG-adrespunt vervangen stadscoördinaat; binnenbezoek dagelijks 9–17 uur met starttijd. Bestaande foto en CC BY-SA 4.0 bevestigd.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -21235,10 +21331,42 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+      "manually_verified_fields": [
+        "operating_status",
+        "photos",
+        "street_address",
+        "summary",
+        "tags",
+        "website_url"
+      ],
+      "decisions": [
+        "Actueel programma en dagelijkse opening 9–17 uur bevestigd; Museumstraat 1 en BAG-adrespunt passen. Beide bestaande foto's met bron, maker en CC-licentie gecontroleerd. Beschrijving en tags behouden."
+      ],
+      "remaining": [],
+      "followup_reviews": [
+        {
+          "id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
+          "name": "Rijksmuseum Amsterdam",
+          "category": "musea",
+          "checked_at": "2026-10-05T08:28:45.566452+00:00",
+          "primary_sources": [
+            "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/nu-te-zien",
+            "https://www.rijksmuseum.nl/nl/bezoek/in-het-museum/het-gebouw",
+            "https://commons.wikimedia.org/wiki/File:South_facade_of_the_Rijksmuseum_Amsterdam_(DSCF0528).jpg",
+            "https://commons.wikimedia.org/wiki/File:Rijksmuseum_stoa_7213.jpg"
+          ],
+          "verified_fields": [
+            "street_address",
+            "operating_status",
+            "summary",
+            "website_url",
+            "photos",
+            "tags"
+          ],
+          "conclusion": "Actueel programma en dagelijkse opening 9–17 uur bevestigd; Museumstraat 1 en BAG-adrespunt passen. Beide bestaande foto's met bron, maker en CC-licentie gecontroleerd. Beschrijving en tags behouden.",
+          "remaining": [],
+          "resolves_availability": true
+        }
       ]
     },
     {
@@ -25832,6 +25960,6 @@
     }
   ],
   "sleutelwerken_api_records_checked": 100,
-  "latest_followup_report": "data/curation/2026-10-05-b037fd6c-a414-459a-b65b-6a2af8379ba4-report.json",
-  "updated_at": "2026-10-05T07:46:01.078841+00:00"
+  "latest_followup_report": "2026-10-05-42273fab-3f11-47c2-a736-27c3ebac6d4f-report.json",
+  "updated_at": "2026-10-05T08:28:45.566452+00:00"
 }

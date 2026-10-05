@@ -26,7 +26,7 @@
       "published": 66,
       "archived": 2,
       "draft": 2,
-      "with_photos": 11,
+      "with_photos": 12,
       "precise_locations": 53,
       "visible_on_research_date": 61
     },
@@ -36,21 +36,21 @@
       "archived": 5,
       "draft": 0,
       "with_photos": 129,
-      "precise_locations": 146,
+      "precise_locations": 147,
       "visible_on_research_date": 184
     },
     "evenementen": {
-      "total": 108,
-      "published": 108,
+      "total": 110,
+      "published": 110,
       "archived": 0,
       "draft": 0,
-      "with_photos": 97,
-      "precise_locations": 99,
-      "visible_on_research_date": 105
+      "with_photos": 99,
+      "precise_locations": 101,
+      "visible_on_research_date": 107
     }
   },
-  "total": 803,
-  "remaining_records": 340,
+  "total": 805,
+  "remaining_records": 338,
   "remaining": [
     {
       "id": "5402debd-2567-5c85-af4d-31354fd1f113",
@@ -2143,16 +2143,6 @@
       ]
     },
     {
-      "id": "24689773-a498-5a33-9388-8750451ec284",
-      "inventory_key": "garden:Rijksmuseum Amsterdam",
-      "category": "beeldenparken",
-      "name": "Rijksmuseum Amsterdam – beeldentuin",
-      "website_url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
-      "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
-      ]
-    },
-    {
       "id": "81088db8-5449-53c1-84b5-9830f1849f52",
       "inventory_key": "garden:Drents Museum De Buitenplaats",
       "category": "beeldenparken",
@@ -3162,16 +3152,6 @@
       "website_url": "https://architectuurgids.nl/project/list_projects_of_tag/tag_id/15/prj_id/475",
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
-      ]
-    },
-    {
-      "id": "a10f6af8-5faa-5087-9bd5-107fdf1251f6",
-      "inventory_key": "rce100:Amsterdam:Rijksmuseumgebouw",
-      "category": "architectuur",
-      "name": "Rijksmuseumgebouw",
-      "website_url": "https://nl.wikipedia.org/wiki/Rijksmuseumgebouw",
-      "issues": [
-        "Locatie: city; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
       ]
     },
     {

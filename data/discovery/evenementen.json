@@ -5780,5 +5780,117 @@
     "longitude": 4.48067,
     "coordinate_precision": "address",
     "coordinate_source": "Officieel bevestigd bezoekadres Willemskade 25; gebouwpunt Commons Category:Wereldmuseum_Rotterdam, niet camerastandpunt."
+  },
+  {
+    "id": "c973ea8b-1335-4932-8bd6-cc02bb8935bb",
+    "city": "Amsterdam",
+    "name": "WORN – Kleding om te koesteren",
+    "tags": [
+      "tentoonstelling",
+      "mode",
+      "textiel",
+      "toegepaste kunst"
+    ],
+    "year": "2026–2027",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg/1280px-South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg",
+        "credit": "Trougnouf (Benoit Brummer)",
+        "caption": "Locatie: Rijksmuseum Amsterdam, foto uit 2019 van de zuidgevel; niet van deze tentoonstelling.",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:South_facade_of_the_Rijksmuseum_Amsterdam_(DSCF0528).jpg"
+      }
+    ],
+    "creator": "",
+    "ends_on": "2027-03-21",
+    "sources": [
+      {
+        "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/worn",
+        "provider": "Rijksmuseum · officiële tentoonstelling",
+        "retrieved_at": "2026-10-05T08:23:36.675Z",
+        "evidence_fields": [
+          "name",
+          "summary",
+          "starts_on",
+          "ends_on",
+          "creator",
+          "visit_notes"
+        ]
+      }
+    ],
+    "summary": "Vierentwintig gedragen, herstelde en vermaakte kledingstukken tonen hoe mode generaties meegaat. Van zeventiende-eeuwse muiltjes tot een japon van de familie Six: sporen van gebruik maken vakmanschap en persoonlijke geschiedenis zichtbaar. De presentatie in de Special Collections brengt kleding uit 1640 tot 1930 samen.",
+    "category": "evenementen",
+    "latitude": 52.35994229,
+    "province": "Noord-Holland",
+    "longitude": 4.88538628,
+    "museum_id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
+    "starts_on": "2026-03-27",
+    "created_at": "2026-10-05T08:25:48.427866+00:00",
+    "updated_at": "2026-10-05T08:25:48.521454+00:00",
+    "visit_notes": "Rijksmuseum Amsterdam, Museumstraat 1. Dagelijks 9–17 uur; reserveer een starttijd via het museum.",
+    "website_url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/worn",
+    "inventory_key": "event:www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/worn:2026-03-27",
+    "street_address": "Museumstraat 1",
+    "operating_status": "open",
+    "selection_reason": "Zelfstandig aangekondigde tijdelijke modepresentatie binnen het actuele venster; volledig programma bij Rijksmuseum gecontroleerd.",
+    "coordinate_source": "Rijksmuseum-bezoekadres, bevestigd met PDOK BAG adr-05d9f079a1e8e66f30122d9ca3b0acd3.",
+    "publication_status": "published",
+    "coordinate_precision": "address"
+  },
+  {
+    "id": "1e4b83c9-1088-483d-a6df-bb6f56c2b616",
+    "city": "Amsterdam",
+    "name": "Document Nederland: Nieuwe Energie",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "documentaire fotografie",
+      "maker: kadir van lohuizen"
+    ],
+    "year": "2026–2027",
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg/1280px-South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg",
+        "credit": "Trougnouf (Benoit Brummer)",
+        "caption": "Locatie: Rijksmuseum Amsterdam, foto uit 2019 van de zuidgevel; niet van deze tentoonstelling.",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:South_facade_of_the_Rijksmuseum_Amsterdam_(DSCF0528).jpg"
+      }
+    ],
+    "creator": "Kadir van Lohuizen",
+    "ends_on": "2027-01-17",
+    "sources": [
+      {
+        "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/document-nederland-nieuwe-energie",
+        "provider": "Rijksmuseum · officiële tentoonstelling",
+        "retrieved_at": "2026-10-05T08:23:36.675Z",
+        "evidence_fields": [
+          "name",
+          "summary",
+          "starts_on",
+          "ends_on",
+          "creator",
+          "visit_notes"
+        ]
+      }
+    ],
+    "summary": "Kadir van Lohuizen fotografeert hoe de energietransitie de Noordzee en omringende landen verandert. Windparken, waterstofcentrales, stroomkabels en datacenters maken de schaal van onze energievraag zichtbaar. In de Fotogalerij is daarnaast werk te zien van tien jongeren die hetzelfde thema onderzochten voor Document Nederland Junior.",
+    "category": "evenementen",
+    "latitude": 52.35994229,
+    "province": "Noord-Holland",
+    "longitude": 4.88538628,
+    "museum_id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
+    "starts_on": "2026-10-09",
+    "created_at": "2026-10-05T08:25:48.427866+00:00",
+    "updated_at": "2026-10-05T08:25:48.528516+00:00",
+    "visit_notes": "Rijksmuseum Amsterdam, Museumstraat 1. Dagelijks 9–17 uur; reserveer een starttijd via het museum.",
+    "website_url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/document-nederland-nieuwe-energie",
+    "inventory_key": "event:www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/document-nederland-nieuwe-energie:2026-10-09",
+    "street_address": "Museumstraat 1",
+    "operating_status": "open",
+    "selection_reason": "Zelfstandige tijdelijke fotografietentoonstelling van het Rijksmuseum; opent binnen één kalendermaand. Juniorpresentatie als onderdeel vermeld, geen dubbele invoer.",
+    "coordinate_source": "Rijksmuseum-bezoekadres, bevestigd met PDOK BAG adr-05d9f079a1e8e66f30122d9ca3b0acd3.",
+    "publication_status": "published",
+    "coordinate_precision": "address"
   }
 ]

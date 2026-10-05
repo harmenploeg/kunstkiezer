@@ -784,7 +784,15 @@
       "wisselende tentoonstelling"
     ],
     "year": "",
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Rijksmuseum_Garden_%2841808103055%29.jpg/1280px-Rijksmuseum_Garden_%2841808103055%29.jpg",
+        "credit": "Julien Chatelain",
+        "caption": "Rijksmuseumtuin op 30 april 2018; historisch tuinbeeld, niet van de actuele sculptuurtentoonstelling.",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Garden_(41808103055).jpg"
+      }
+    ],
     "creator": "",
     "ends_on": null,
     "sources": [
@@ -792,6 +800,15 @@
         "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
         "provider": "Rijksmuseum · beelden in de tuin",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+        "provider": "Rijksmuseum · actuele tuinpresentatie en vaste beelden",
+        "retrieved_at": "2026-10-05T08:23:36.675Z",
+        "evidence_fields": [
+          "visit_notes",
+          "operating_status"
+        ]
       }
     ],
     "summary": "Rond het Rijksmuseum krijgt beeldhouwkunst een plek tussen hagen, bloemen en architectuur. Tijdelijke sculptuurtentoonstellingen geven de tuin steeds een nieuw accent. Combineer een rondje buiten met kunst binnen, of geniet alleen van de tuin.",
@@ -801,7 +818,7 @@
     "longitude": 4.885386,
     "museum_id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
     "starts_on": null,
-    "visit_notes": "In 2026 is Carel Visser te zien van 5 juni tot en met 25 oktober. Signaal 1 en 2 behoren tot de vaste tuincollectie. Controleer de actuele tuinopenstelling.",
+    "visit_notes": "Gratis toegankelijke museumtuinen. Carel Visser is te zien van 5 juni tot en met 25 oktober 2026; Signaal 1 en 2 behoren sinds 2024 tot de vaste tuincollectie. Controleer de actuele tuinopenstelling bij het Rijksmuseum.",
     "website_url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
     "inventory_key": "garden:Rijksmuseum Amsterdam",
     "street_address": "Museumstraat 1",

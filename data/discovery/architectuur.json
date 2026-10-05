@@ -4160,7 +4160,8 @@
       "architectuur",
       "rijksmonument",
       "historische architectuur",
-      "monumentaal gebouw"
+      "monumentaal gebouw",
+      "maker: pierre cuypers"
     ],
     "year": "1885",
     "photos": [
@@ -4172,7 +4173,7 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg"
       }
     ],
-    "creator": "",
+    "creator": "Pierre Cuypers",
     "ends_on": null,
     "sources": [
       {
@@ -4184,24 +4185,47 @@
         "url": "https://nl.wikipedia.org/wiki/Rijksmuseumgebouw",
         "provider": "Objectinformatie",
         "retrieved_at": "2026-10-03T18:00:00Z"
+      },
+      {
+        "url": "https://www.rijksmuseum.nl/nl/bezoek/in-het-museum/het-gebouw",
+        "provider": "Rijksmuseum · gebouw en bezoek",
+        "retrieved_at": "2026-10-05T08:23:36.675Z",
+        "evidence_fields": [
+          "creator",
+          "year",
+          "summary",
+          "street_address",
+          "visit_notes",
+          "operating_status"
+        ]
+      },
+      {
+        "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-05d9f079a1e8e66f30122d9ca3b0acd3",
+        "provider": "PDOK · officieel bevestigd bezoekadres",
+        "retrieved_at": "2026-10-05T08:23:36.675Z",
+        "evidence_fields": [
+          "latitude",
+          "longitude",
+          "coordinate_precision"
+        ]
       }
     ],
-    "summary": "Ontdek Rijksmuseumgebouw in Amsterdam, opgenomen in de historische Top 100 van de Rijksdienst voor de Monumentenzorg. Bekijk de vormen en details van dit bijzondere erfgoed en de plek die het inneemt in zijn omgeving.",
+    "summary": "Pierre Cuypers combineerde gotische en renaissancevormen in dit museumgebouw, geopend in 1885. Torens, sculpturen en geveldecoraties verbinden architectuur met Nederlandse kunstgeschiedenis. De passage verbindt de stad met het Museumplein; binnen brengen monumentale zalen, de Eregalerij en de bibliotheek Cuypers’ ontwerp tot leven.",
     "category": "architectuur",
-    "latitude": 52.37344272,
+    "latitude": 52.35994229,
     "province": "Noord-Holland",
-    "longitude": 4.90454379,
+    "longitude": 4.88538628,
     "museum_id": null,
     "starts_on": null,
-    "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
-    "website_url": "https://nl.wikipedia.org/wiki/Rijksmuseumgebouw",
+    "visit_notes": "Museumstraat 1. Het museum is dagelijks 9–17 uur open; reserveer een starttijd voor binnenbezoek. De buitengevels zijn vanaf de openbare ruimte te bekijken.",
+    "website_url": "https://www.rijksmuseum.nl/nl/bezoek/in-het-museum/het-gebouw",
     "inventory_key": "rce100:Amsterdam:Rijksmuseumgebouw",
-    "street_address": "",
+    "street_address": "Museumstraat 1",
     "operating_status": "open",
     "selection_reason": "Landelijk erkend monument in de RDMZ-selectie uit 1990. De historische lijst is gebruikt voor cultuurhistorische betekenis, niet als bewijs van publieke binnenopenstelling.",
-    "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-62fe60a4eea50b7c33ba3d9c39a21e6a",
+    "coordinate_source": "Officieel bezoekadres; PDOK BAG-adrespunt adr-05d9f079a1e8e66f30122d9ca3b0acd3.",
     "publication_status": "published",
-    "coordinate_precision": "city"
+    "coordinate_precision": "address"
   },
   {
     "id": "bf71b207-a8ba-573d-9b0c-c32f80708524",

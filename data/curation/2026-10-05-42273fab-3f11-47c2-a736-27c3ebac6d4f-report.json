@@ -1,0 +1,1016 @@
+{
+  "run_id": "42273fab-3f11-47c2-a736-27c3ebac6d4f",
+  "research_date": "2026-10-05",
+  "prepared_at": "2026-10-05T08:28:45.566452+00:00",
+  "status": "awaiting_publication",
+  "scope": "Vervolg op weekronde b037fd6c-a414-459a-b65b-6a2af8379ba4: twee tentoonstellingen toegevoegd, drie records gewijzigd, vier bestaande dossiers inhoudelijk afgerond.",
+  "sources_review": "data/curation/42273fab-3f11-47c2-a736-27c3ebac6d4f-source-review.json",
+  "sources_snapshot": [
+    {
+      "id": "11fountains",
+      "name": "11fountains",
+      "url": "https://11fountains.nl/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047284+00"
+    },
+    {
+      "id": "krant-ad",
+      "name": "AD (landelijke editie)",
+      "url": "https://www.ad.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.432535+00"
+    },
+    {
+      "id": "architectuur-org",
+      "name": "Architectuur.ORG",
+      "url": "https://www.architectuur.org/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047313+00"
+    },
+    {
+      "id": "architectuurgids",
+      "name": "Architectuurgids Top 100",
+      "url": "https://www.architectuurgids.nl/project/list_projects_of_tag/tag_id/15",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.0473+00"
+    },
+    {
+      "id": "beeldentuinen-inventarisatie",
+      "name": "Beeldentuinen · provinciale inventarisatie",
+      "url": "",
+      "notes": "Wekelijks ontbrekende locaties zoeken volgens docs/selectie-beeldentuinen.md en data/curation/garden-coverage.json. Per provincie zoeken op beeldentuin, beeldenpark, sculpturentuin, beeldenbos, galerie/atelier met tuin, museumtuin en beeldenroute. Minimaal twee bronsoorten: regionale VVV/gemeente en eigenaar/kunstenaars-/tuinenroute. Ook kleine tuinen en bezoek op afspraak. Controleer seizoen, ticketbeschikbaarheid en definitieve sluiting apart; bronnen en uitsluitingen per kandidaat bewaren. Alle categorieën beoordelen.",
+      "enabled": true,
+      "updated_at": "2026-10-04 20:03:13.702773+00"
+    },
+    {
+      "id": "bezoekmijntuin",
+      "name": "Bezoekmijntuin · tuinen en open dagen",
+      "url": "https://www.bezoekmijntuin.nl/",
+      "notes": "Wekelijks nieuwe beeldentuinen en open-tuinenroutes zoeken, per provincie en gemeente. Ook atelier- en galerietuinen. Huidig jaar en bezoek op afspraak bij eigenaar verifiëren. Geen gewone siertuin zonder meerdere kunstwerken opnemen. Alle relevante categorieën beoordelen.",
+      "enabled": true,
+      "updated_at": "2026-10-04 20:03:13.703621+00"
+    },
+    {
+      "id": "krant-telegraaf",
+      "name": "De Telegraaf",
+      "url": "https://www.telegraaf.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.432518+00"
+    },
+    {
+      "id": "krant-volkskrant",
+      "name": "de Volkskrant",
+      "url": "https://www.volkskrant.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.432386+00"
+    },
+    {
+      "id": "municipal-collections",
+      "name": "Gemeentelijke kunstcollecties en monumenteninformatie",
+      "url": "",
+      "notes": "Gemeentelijke inventarissen en locatiespecifieke projectpagina’s",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.046458+00"
+    },
+    {
+      "id": "krant-fd",
+      "name": "Het Financieele Dagblad",
+      "url": "https://fd.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.432613+00"
+    },
+    {
+      "id": "krant-parool",
+      "name": "Het Parool (aanvullend: Amsterdam)",
+      "url": "https://www.parool.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.43438+00"
+    },
+    {
+      "id": "rdmz100",
+      "name": "Historische RDMZ Top 100",
+      "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
+      "notes": "Een historisch geselecteerd gebouw is niet vanzelf openbaar toegankelijk of een kunstmuseum.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047923+00"
+    },
+    {
+      "id": "instagram-cathelijneblok",
+      "name": "Instagram · cathelijneblok",
+      "url": "https://www.instagram.com/cathelijneblok/",
+      "notes": "Wekelijks nieuwe posts en reels sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle: laatste 28 dagen. Bewaar bericht-URL en publicatiedatum, beoordeel alle categorieën, verifieer bij primaire bron. Stories alleen indien nog toegankelijk. Eerdere poging 4 oktober 2026 betrof alleen de tekst-ophaaltool; dit was geen browsercontrole. Een mislukte toegang of zoekfragment is geen volledige accountcontrole. Leg per volgende run bereikbare periode en beperkingen vast.\n\nWerkwijze: bezoek dit account in de gewone browser (JavaScript en beschikbare browsersessie), sluit wegklikbare aanmeldpopups en kies zo nodig alleen noodzakelijke cookies. Open afzonderlijke posts/reels; lees bijschrift en datum (ook bij vastgezette posts) en bewaar de permalink. Een fout van de tekst-ophaaltool bewijst geen ontoegankelijkheid. Meld alleen concreet waargenomen browserbeperkingen; vraag om inloggen als dat werkelijk nodig is. Geen sessietokens of wachtwoorden bewaren.",
+      "enabled": true,
+      "updated_at": "2026-10-04 19:13:00.803254+00"
+    },
+    {
+      "id": "instagram-dutchgirlsinmuseums",
+      "name": "Instagram · dutchgirlsinmuseums",
+      "url": "https://www.instagram.com/dutchgirlsinmuseums/",
+      "notes": "Wekelijks nieuwe posts en reels sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle: laatste 28 dagen. Bewaar bericht-URL en publicatiedatum, beoordeel alle categorieën, verifieer bij primaire bron. Stories alleen indien nog toegankelijk. Eerdere poging 4 oktober 2026 betrof alleen de tekst-ophaaltool; dit was geen browsercontrole. Een mislukte toegang of zoekfragment is geen volledige accountcontrole. Leg per volgende run bereikbare periode en beperkingen vast.\n\nWerkwijze: bezoek dit account in de gewone browser (JavaScript en beschikbare browsersessie), sluit wegklikbare aanmeldpopups en kies zo nodig alleen noodzakelijke cookies. Open afzonderlijke posts/reels; lees bijschrift en datum (ook bij vastgezette posts) en bewaar de permalink. Een fout van de tekst-ophaaltool bewijst geen ontoegankelijkheid. Meld alleen concreet waargenomen browserbeperkingen; vraag om inloggen als dat werkelijk nodig is. Geen sessietokens of wachtwoorden bewaren.",
+      "enabled": true,
+      "updated_at": "2026-10-04 19:13:00.805815+00"
+    },
+    {
+      "id": "instagram-kunstmaartje",
+      "name": "Instagram · kunstmaartje",
+      "url": "https://www.instagram.com/kunstmaartje/",
+      "notes": "Wekelijks nieuwe posts en reels sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle: laatste 28 dagen. Bewaar bericht-URL en publicatiedatum, beoordeel alle categorieën, verifieer bij primaire bron. Stories alleen indien nog toegankelijk. Eerdere poging 4 oktober 2026 betrof alleen de tekst-ophaaltool; dit was geen browsercontrole. Een mislukte toegang of zoekfragment is geen volledige accountcontrole. Leg per volgende run bereikbare periode en beperkingen vast.\n\nWerkwijze: bezoek dit account in de gewone browser (JavaScript en beschikbare browsersessie), sluit wegklikbare aanmeldpopups en kies zo nodig alleen noodzakelijke cookies. Open afzonderlijke posts/reels; lees bijschrift en datum (ook bij vastgezette posts) en bewaar de permalink. Een fout van de tekst-ophaaltool bewijst geen ontoegankelijkheid. Meld alleen concreet waargenomen browserbeperkingen; vraag om inloggen als dat werkelijk nodig is. Geen sessietokens of wachtwoorden bewaren.",
+      "enabled": true,
+      "updated_at": "2026-10-04 19:13:00.805545+00"
+    },
+    {
+      "id": "instagram-kunstmeisjes",
+      "name": "Instagram · kunstmeisjes",
+      "url": "https://www.instagram.com/kunstmeisjes/",
+      "notes": "Wekelijks nieuwe posts en reels sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle: laatste 28 dagen. Bewaar bericht-URL en publicatiedatum, beoordeel alle categorieën, verifieer bij primaire bron. Stories alleen indien nog toegankelijk. Eerdere poging 4 oktober 2026 betrof alleen de tekst-ophaaltool; dit was geen browsercontrole. Een mislukte toegang of zoekfragment is geen volledige accountcontrole. Leg per volgende run bereikbare periode en beperkingen vast.\n\nWerkwijze: bezoek dit account in de gewone browser (JavaScript en beschikbare browsersessie), sluit wegklikbare aanmeldpopups en kies zo nodig alleen noodzakelijke cookies. Open afzonderlijke posts/reels; lees bijschrift en datum (ook bij vastgezette posts) en bewaar de permalink. Een fout van de tekst-ophaaltool bewijst geen ontoegankelijkheid. Meld alleen concreet waargenomen browserbeperkingen; vraag om inloggen als dat werkelijk nodig is. Geen sessietokens of wachtwoorden bewaren. Browserproef 4 oktober 2026: profiel, recente berichtlinks met datums en individueel bericht met begin van bijschrift zichtbaar zonder inloggen. Geen volledige 28-dagencontrole uitgevoerd.",
+      "enabled": true,
+      "updated_at": "2026-10-04 19:13:00.805329+00"
+    },
+    {
+      "id": "instagram-lets_talk_about_art",
+      "name": "Instagram · lets_talk_about_art",
+      "url": "https://www.instagram.com/lets_talk_about_art/",
+      "notes": "Wekelijks nieuwe posts en reels sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle: laatste 28 dagen. Bewaar bericht-URL en publicatiedatum, beoordeel alle categorieën, verifieer bij primaire bron. Stories alleen indien nog toegankelijk. Eerdere poging 4 oktober 2026 betrof alleen de tekst-ophaaltool; dit was geen browsercontrole. Een mislukte toegang of zoekfragment is geen volledige accountcontrole. Leg per volgende run bereikbare periode en beperkingen vast.\n\nWerkwijze: bezoek dit account in de gewone browser (JavaScript en beschikbare browsersessie), sluit wegklikbare aanmeldpopups en kies zo nodig alleen noodzakelijke cookies. Open afzonderlijke posts/reels; lees bijschrift en datum (ook bij vastgezette posts) en bewaar de permalink. Een fout van de tekst-ophaaltool bewijst geen ontoegankelijkheid. Meld alleen concreet waargenomen browserbeperkingen; vraag om inloggen als dat werkelijk nodig is. Geen sessietokens of wachtwoorden bewaren.",
+      "enabled": true,
+      "updated_at": "2026-10-04 19:13:00.801454+00"
+    },
+    {
+      "id": "instagram-thetittymag",
+      "name": "Instagram · thetittymag",
+      "url": "https://www.instagram.com/thetittymag/",
+      "notes": "Wekelijks nieuwe posts en reels sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle: laatste 28 dagen. Bewaar bericht-URL en publicatiedatum, beoordeel alle categorieën, verifieer bij primaire bron. Stories alleen indien nog toegankelijk. Eerdere poging 4 oktober 2026 betrof alleen de tekst-ophaaltool; dit was geen browsercontrole. Een mislukte toegang of zoekfragment is geen volledige accountcontrole. Leg per volgende run bereikbare periode en beperkingen vast.\n\nWerkwijze: bezoek dit account in de gewone browser (JavaScript en beschikbare browsersessie), sluit wegklikbare aanmeldpopups en kies zo nodig alleen noodzakelijke cookies. Open afzonderlijke posts/reels; lees bijschrift en datum (ook bij vastgezette posts) en bewaar de permalink. Een fout van de tekst-ophaaltool bewijst geen ontoegankelijkheid. Meld alleen concreet waargenomen browserbeperkingen; vraag om inloggen als dat werkelijk nodig is. Geen sessietokens of wachtwoorden bewaren.",
+      "enabled": true,
+      "updated_at": "2026-10-04 19:13:00.805129+00"
+    },
+    {
+      "id": "kunst-nijmegen",
+      "name": "Kunst op Straat · Gemeente Nijmegen",
+      "url": "https://kos.nijmegen.nl/",
+      "notes": "Wekelijks nieuwe inhoud sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle laatste 28 dagen. Alle categorieën beoordelen. Ook bestaande monumentale werken inventariseren volgens docs/selectie-openbare-kunst.md. Bewaar gelezen URL’s, datums, kandidaten en toegangsbeperkingen per run.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.43648+00"
+    },
+    {
+      "id": "kunstvensters",
+      "name": "KunstVensters",
+      "url": "https://kunstvensters.com/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047971+00"
+    },
+    {
+      "id": "landart-nederland",
+      "name": "Landart Nederland",
+      "url": "https://landartnederland.com/",
+      "notes": "Wekelijks nieuwe inhoud sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle laatste 28 dagen. Alle categorieën beoordelen. Ook bestaande monumentale werken inventariseren volgens docs/selectie-openbare-kunst.md. Bewaar gelezen URL’s, datums, kandidaten en toegangsbeperkingen per run. Toegang 4 oktober 2026: homepage toont browsercontrole; geen volledige inhoudscontrole.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.436396+00"
+    },
+    {
+      "id": "newspapers",
+      "name": "Landelijke kranten · werkwijze",
+      "url": "",
+      "notes": "Vervangen op verzoek van de beheerder op 4 oktober 2026 door afzonderlijke bronnen: NRC, de Volkskrant, Trouw, De Telegraaf, AD, FD, Nederlands Dagblad en Reformatorisch Dagblad. Het Parool aanvullend voor Amsterdam. Elke week alle relevante recensies van de afgelopen 28 dagen. De afzonderlijke bronnen kunnen worden bewerkt of uitgezet. Alleen geraadpleegde volledige artikelen gelden als gelezen; beperkingen apart vastleggen.",
+      "enabled": false,
+      "updated_at": "2026-10-04 18:26:45.452226+00"
+    },
+    {
+      "id": "official-institutions",
+      "name": "Musea, kunstinstellingen, kunstenaars en terreinbeheerders",
+      "url": "",
+      "notes": "Officiële websites en bronlinks van bestaande en nieuwe vermeldingen",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.045553+00"
+    },
+    {
+      "id": "museumkijker",
+      "name": "Museumkijker",
+      "url": "https://www.museumkijker.nl/",
+      "notes": "Wekelijks nieuwe inhoud sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle laatste 28 dagen. Alle categorieën beoordelen. Ook bestaande monumentale werken inventariseren volgens docs/selectie-openbare-kunst.md. Bewaar gelezen URL’s, datums, kandidaten en toegangsbeperkingen per run.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.436409+00"
+    },
+    {
+      "id": "museumtijdschrift",
+      "name": "Museumtijdschrift",
+      "url": "https://museumtijdschrift.nl/",
+      "notes": "",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047982+00"
+    },
+    {
+      "id": "krant-nd",
+      "name": "Nederlands Dagblad",
+      "url": "https://www.nd.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.432633+00"
+    },
+    {
+      "id": "nai250",
+      "name": "Nederlandse architectuur in 250 topstukken",
+      "url": "https://www.nai010.com/product/nederlandse-architectuur-in-250-topstukken/",
+      "notes": "Alleen uitgeversinformatie en gedeeltelijk inkijkexemplaar beoordeeld; volledige lijst niet beschikbaar. Archiefontwerpen zijn niet automatisch bezoekbare locaties.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047941+00"
+    },
+    {
+      "id": "krant-nrc",
+      "name": "NRC",
+      "url": "https://www.nrc.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.426238+00"
+    },
+    {
+      "id": "krant-rd",
+      "name": "Reformatorisch Dagblad",
+      "url": "https://www.rd.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.43436+00"
+    },
+    {
+      "id": "sense-of-place",
+      "name": "Sense of Place",
+      "url": "https://sense-of-place.eu/",
+      "notes": "Wekelijks nieuwe inhoud sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle laatste 28 dagen. Alle categorieën beoordelen. Ook bestaande monumentale werken inventariseren volgens docs/selectie-openbare-kunst.md. Bewaar gelezen URL’s, datums, kandidaten en toegangsbeperkingen per run.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.436421+00"
+    },
+    {
+      "id": "sleutelwerken",
+      "name": "Sleutelwerken",
+      "url": "https://www.sleutelwerken.nl/",
+      "notes": "Onderscheid de officiële honderd Sleutelwerken van overige inzendingen; controleer tijdelijke en verplaatste werken.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.046479+00"
+    },
+    {
+      "id": "stadscuratorium",
+      "name": "Stadscuratorium Amsterdam",
+      "url": "https://stadscuratorium.nl/",
+      "notes": "Wekelijks nieuwe inhoud sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle laatste 28 dagen. Alle categorieën beoordelen. Ook bestaande monumentale werken inventariseren volgens docs/selectie-openbare-kunst.md. Bewaar gelezen URL’s, datums, kandidaten en toegangsbeperkingen per run.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.436434+00"
+    },
+    {
+      "id": "krant-trouw",
+      "name": "Trouw",
+      "url": "https://www.trouw.nl/",
+      "notes": "Wekelijks: alle recensies over beeldende kunst, fotografie, design, architectuur en tentoonstellingen uit de afgelopen 28 dagen (Europe/Amsterdam). Doorzoek cultuur-/kunstsectie en sitezoekfunctie met publicatiedatum; tel unieke artikel-URL’s. Beoordeel vondsten voor alle categorieën en verifieer bij de organisator. Registreer per run periode, gelezen artikelen, nieuwe kandidaten en betaalmuur/toegangsbeperking. Een zoekfragment geldt niet als gelezen recensie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.432422+00"
+    },
+    {
+      "id": "whichmuseum",
+      "name": "WhichMuseum Kunst & Design",
+      "url": "https://whichmuseum.nl/plaats/nederland-1?category%5B%5D=art-design",
+      "notes": "Toets aan de afgesproken kunstselectie; een brede categorie op deze site is geen bewijs dat kunst de hoofdzaak is.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.047959+00"
+    },
+    {
+      "id": "commons",
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/",
+      "notes": "Controleer beeldidentiteit, maker en licentie. Bestandsnaam of cameracoördinaten bewijzen niet de actuele bezoeklocatie.",
+      "enabled": true,
+      "updated_at": "2026-10-04 04:59:26.048035+00"
+    },
+    {
+      "id": "wilma",
+      "name": "Wilma Takes a Break",
+      "url": "https://wilmatakesabreak.nl/",
+      "notes": "Wekelijks nieuwe inhoud sinds de vorige geslaagde controle, met minimaal 7 dagen overlap; eerste controle laatste 28 dagen. Alle categorieën beoordelen. Ook bestaande monumentale werken inventariseren volgens docs/selectie-openbare-kunst.md. Bewaar gelezen URL’s, datums, kandidaten en toegangsbeperkingen per run.",
+      "enabled": true,
+      "updated_at": "2026-10-04 18:26:45.436382+00"
+    }
+  ],
+  "inherited_weekly_run": "b037fd6c-a414-459a-b65b-6a2af8379ba4",
+  "added": [
+    {
+      "id": "c973ea8b-1335-4932-8bd6-cc02bb8935bb",
+      "city": "Amsterdam",
+      "name": "WORN – Kleding om te koesteren",
+      "tags": [
+        "tentoonstelling",
+        "mode",
+        "textiel",
+        "toegepaste kunst"
+      ],
+      "year": "2026–2027",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg/1280px-South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg",
+          "credit": "Trougnouf (Benoit Brummer)",
+          "caption": "Locatie: Rijksmuseum Amsterdam, foto uit 2019 van de zuidgevel; niet van deze tentoonstelling.",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:South_facade_of_the_Rijksmuseum_Amsterdam_(DSCF0528).jpg"
+        }
+      ],
+      "creator": "",
+      "ends_on": "2027-03-21",
+      "sources": [
+        {
+          "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/worn",
+          "provider": "Rijksmuseum · officiële tentoonstelling",
+          "retrieved_at": "2026-10-05T08:23:36.675Z",
+          "evidence_fields": [
+            "name",
+            "summary",
+            "starts_on",
+            "ends_on",
+            "creator",
+            "visit_notes"
+          ]
+        }
+      ],
+      "summary": "Vierentwintig gedragen, herstelde en vermaakte kledingstukken tonen hoe mode generaties meegaat. Van zeventiende-eeuwse muiltjes tot een japon van de familie Six: sporen van gebruik maken vakmanschap en persoonlijke geschiedenis zichtbaar. De presentatie in de Special Collections brengt kleding uit 1640 tot 1930 samen.",
+      "category": "evenementen",
+      "latitude": 52.35994229,
+      "province": "Noord-Holland",
+      "longitude": 4.88538628,
+      "museum_id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
+      "starts_on": "2026-03-27",
+      "created_at": "2026-10-05T08:25:48.427866+00:00",
+      "updated_at": "2026-10-05T08:25:48.521454+00:00",
+      "visit_notes": "Rijksmuseum Amsterdam, Museumstraat 1. Dagelijks 9–17 uur; reserveer een starttijd via het museum.",
+      "website_url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/worn",
+      "inventory_key": "event:www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/worn:2026-03-27",
+      "street_address": "Museumstraat 1",
+      "operating_status": "open",
+      "selection_reason": "Zelfstandig aangekondigde tijdelijke modepresentatie binnen het actuele venster; volledig programma bij Rijksmuseum gecontroleerd.",
+      "coordinate_source": "Rijksmuseum-bezoekadres, bevestigd met PDOK BAG adr-05d9f079a1e8e66f30122d9ca3b0acd3.",
+      "publication_status": "published",
+      "coordinate_precision": "address"
+    },
+    {
+      "id": "1e4b83c9-1088-483d-a6df-bb6f56c2b616",
+      "city": "Amsterdam",
+      "name": "Document Nederland: Nieuwe Energie",
+      "tags": [
+        "tentoonstelling",
+        "fotografie",
+        "documentaire fotografie",
+        "maker: kadir van lohuizen"
+      ],
+      "year": "2026–2027",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg/1280px-South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg",
+          "credit": "Trougnouf (Benoit Brummer)",
+          "caption": "Locatie: Rijksmuseum Amsterdam, foto uit 2019 van de zuidgevel; niet van deze tentoonstelling.",
+          "license": "CC BY 4.0",
+          "source_url": "https://commons.wikimedia.org/wiki/File:South_facade_of_the_Rijksmuseum_Amsterdam_(DSCF0528).jpg"
+        }
+      ],
+      "creator": "Kadir van Lohuizen",
+      "ends_on": "2027-01-17",
+      "sources": [
+        {
+          "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/document-nederland-nieuwe-energie",
+          "provider": "Rijksmuseum · officiële tentoonstelling",
+          "retrieved_at": "2026-10-05T08:23:36.675Z",
+          "evidence_fields": [
+            "name",
+            "summary",
+            "starts_on",
+            "ends_on",
+            "creator",
+            "visit_notes"
+          ]
+        }
+      ],
+      "summary": "Kadir van Lohuizen fotografeert hoe de energietransitie de Noordzee en omringende landen verandert. Windparken, waterstofcentrales, stroomkabels en datacenters maken de schaal van onze energievraag zichtbaar. In de Fotogalerij is daarnaast werk te zien van tien jongeren die hetzelfde thema onderzochten voor Document Nederland Junior.",
+      "category": "evenementen",
+      "latitude": 52.35994229,
+      "province": "Noord-Holland",
+      "longitude": 4.88538628,
+      "museum_id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
+      "starts_on": "2026-10-09",
+      "created_at": "2026-10-05T08:25:48.427866+00:00",
+      "updated_at": "2026-10-05T08:25:48.528516+00:00",
+      "visit_notes": "Rijksmuseum Amsterdam, Museumstraat 1. Dagelijks 9–17 uur; reserveer een starttijd via het museum.",
+      "website_url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/document-nederland-nieuwe-energie",
+      "inventory_key": "event:www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/document-nederland-nieuwe-energie:2026-10-09",
+      "street_address": "Museumstraat 1",
+      "operating_status": "open",
+      "selection_reason": "Zelfstandige tijdelijke fotografietentoonstelling van het Rijksmuseum; opent binnen één kalendermaand. Juniorpresentatie als onderdeel vermeld, geen dubbele invoer.",
+      "coordinate_source": "Rijksmuseum-bezoekadres, bevestigd met PDOK BAG adr-05d9f079a1e8e66f30122d9ca3b0acd3.",
+      "publication_status": "published",
+      "coordinate_precision": "address"
+    }
+  ],
+  "changed": [
+    {
+      "id": "1d6aa07d-0be3-540c-8792-67321db35073",
+      "table": "kk_museums",
+      "name": "Brutus",
+      "expected_updated_at": "2026-10-03T20:39:00.063372+00:00",
+      "before": {
+        "id": "1d6aa07d-0be3-540c-8792-67321db35073",
+        "city": "Rotterdam",
+        "name": "Brutus",
+        "tags": [
+          "hedendaagse kunst",
+          "installaties",
+          "beeldhouwkunst"
+        ],
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/2024_BRUTUS_art_center_in_Rotterdam_at_the_Keileweg_10-18.jpg/1280px-2024_BRUTUS_art_center_in_Rotterdam_at_the_Keileweg_10-18.jpg",
+            "credit": "Marcel Douwe Dekker",
+            "caption": "Brutus — 2024 BRUTUS art center in Rotterdam at the Keileweg 10-18",
+            "license": "CC BY-SA 2.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:2024_BRUTUS_art_center_in_Rotterdam_at_the_Keileweg_10-18.jpg"
+          }
+        ],
+        "country": "NL",
+        "summary": "Ontdek kunst met ruimte voor grote gebaren. In de voormalige havenloodsen van Brutus kunnen kunstenaars ambitieuze ideeën uitproberen. Installaties, sculpturen en andere werken maken van de industriële omgeving een plek vol verbeelding.",
+        "latitude": 51.909542,
+        "province": "Zuid-Holland",
+        "longitude": 4.432031,
+        "created_at": "2026-10-03T15:30:57.707739+00:00",
+        "updated_at": "2026-10-03T20:39:00.063372+00:00",
+        "postal_code": "3029 BS",
+        "verified_at": null,
+        "website_url": "https://www.brutus.nl/",
+        "inventory_key": "museum-nl:brutus",
+        "is_art_museum": true,
+        "street_address": "Keileweg 10-18",
+        "operating_status": "open",
+        "coordinate_source": "Bestaande museumcoördinaten",
+        "publication_status": "published",
+        "verification_status": "unreviewed",
+        "coordinate_precision": "exact"
+      },
+      "after": {
+        "street_address": "Keileweg 10b",
+        "summary": "Ontdek grote installaties en sculpturen in de voormalige havenloodsen van Brutus. De hoofdingang ligt aan Keileweg 10b; tentoonstellingen zijn donderdag tot en met zondag van 12 tot 18 uur te bezoeken. Brutus Garden aan Keileweg 18 is alleen op afspraak toegankelijk. De locatie is gedeeltelijk rolstoeltoegankelijk.",
+        "coordinate_precision": "address",
+        "coordinate_source": "Officiële hoofdingang Keileweg 10b; PDOK BAG-adrespunt adr-edb807cf529eac49873df294300e7b4c.",
+        "verification_status": "verified"
+      },
+      "source": {
+        "url": "https://brutus.nl/en/visitors+info/",
+        "provider": "Brutus · actuele bezoekersinformatie",
+        "retrieved_at": "2026-10-05T08:23:36.675Z",
+        "evidence_fields": [
+          "street_address",
+          "summary",
+          "operating_status",
+          "coordinate_precision"
+        ]
+      }
+    },
+    {
+      "id": "a10f6af8-5faa-5087-9bd5-107fdf1251f6",
+      "table": "kk_discoveries",
+      "name": "Rijksmuseumgebouw",
+      "expected_updated_at": "2026-10-03T22:31:03.578165+00:00",
+      "before": {
+        "id": "a10f6af8-5faa-5087-9bd5-107fdf1251f6",
+        "city": "Amsterdam",
+        "name": "Rijksmuseumgebouw",
+        "tags": [
+          "architectuur",
+          "rijksmonument",
+          "historische architectuur",
+          "monumentaal gebouw"
+        ],
+        "year": "1885",
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg/1280px-Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "credit": "Txllxt TxllxT",
+            "caption": "Rijksmuseumgebouw — Amsterdam - Stadhouderskade - North facade of the Rijksmuseum Amsterdam - Fisheye Image",
+            "license": "CC BY-SA 4.0",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg"
+          }
+        ],
+        "creator": "",
+        "ends_on": null,
+        "sources": [
+          {
+            "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
+            "provider": "Rijksdienst Monumentenzorg · Top 100 (1990)",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://nl.wikipedia.org/wiki/Rijksmuseumgebouw",
+            "provider": "Objectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "summary": "Ontdek Rijksmuseumgebouw in Amsterdam, opgenomen in de historische Top 100 van de Rijksdienst voor de Monumentenzorg. Bekijk de vormen en details van dit bijzondere erfgoed en de plek die het inneemt in zijn omgeving.",
+        "category": "architectuur",
+        "latitude": 52.37344272,
+        "province": "Noord-Holland",
+        "longitude": 4.90454379,
+        "museum_id": null,
+        "starts_on": null,
+        "created_at": "2026-10-03T19:10:45.423594+00:00",
+        "updated_at": "2026-10-03T22:31:03.578165+00:00",
+        "visit_notes": "Bekijk het monument vanaf publiek toegankelijke ruimte. Controleer bij de beheerder of binnenbezoek mogelijk is.",
+        "website_url": "https://nl.wikipedia.org/wiki/Rijksmuseumgebouw",
+        "inventory_key": "rce100:Amsterdam:Rijksmuseumgebouw",
+        "street_address": "",
+        "operating_status": "open",
+        "selection_reason": "Landelijk erkend monument in de RDMZ-selectie uit 1990. De historische lijst is gebruikt voor cultuurhistorische betekenis, niet als bewijs van publieke binnenopenstelling.",
+        "coordinate_source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=wpl-62fe60a4eea50b7c33ba3d9c39a21e6a",
+        "publication_status": "published",
+        "coordinate_precision": "city"
+      },
+      "after": {
+        "street_address": "Museumstraat 1",
+        "latitude": 52.35994229,
+        "longitude": 4.88538628,
+        "coordinate_precision": "address",
+        "coordinate_source": "Officieel bezoekadres; PDOK BAG-adrespunt adr-05d9f079a1e8e66f30122d9ca3b0acd3.",
+        "website_url": "https://www.rijksmuseum.nl/nl/bezoek/in-het-museum/het-gebouw",
+        "creator": "Pierre Cuypers",
+        "summary": "Pierre Cuypers combineerde gotische en renaissancevormen in dit museumgebouw, geopend in 1885. Torens, sculpturen en geveldecoraties verbinden architectuur met Nederlandse kunstgeschiedenis. De passage verbindt de stad met het Museumplein; binnen brengen monumentale zalen, de Eregalerij en de bibliotheek Cuypers’ ontwerp tot leven.",
+        "visit_notes": "Museumstraat 1. Het museum is dagelijks 9–17 uur open; reserveer een starttijd voor binnenbezoek. De buitengevels zijn vanaf de openbare ruimte te bekijken.",
+        "tags": [
+          "architectuur",
+          "rijksmonument",
+          "historische architectuur",
+          "monumentaal gebouw",
+          "maker: pierre cuypers"
+        ],
+        "sources": [
+          {
+            "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
+            "provider": "Rijksdienst Monumentenzorg · Top 100 (1990)",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://nl.wikipedia.org/wiki/Rijksmuseumgebouw",
+            "provider": "Objectinformatie",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://www.rijksmuseum.nl/nl/bezoek/in-het-museum/het-gebouw",
+            "provider": "Rijksmuseum · gebouw en bezoek",
+            "retrieved_at": "2026-10-05T08:23:36.675Z",
+            "evidence_fields": [
+              "creator",
+              "year",
+              "summary",
+              "street_address",
+              "visit_notes",
+              "operating_status"
+            ]
+          },
+          {
+            "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-05d9f079a1e8e66f30122d9ca3b0acd3",
+            "provider": "PDOK · officieel bevestigd bezoekadres",
+            "retrieved_at": "2026-10-05T08:23:36.675Z",
+            "evidence_fields": [
+              "latitude",
+              "longitude",
+              "coordinate_precision"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "24689773-a498-5a33-9388-8750451ec284",
+      "table": "kk_discoveries",
+      "name": "Rijksmuseum Amsterdam – beeldentuin",
+      "expected_updated_at": "2026-10-03T20:39:18.540649+00:00",
+      "before": {
+        "id": "24689773-a498-5a33-9388-8750451ec284",
+        "city": "Amsterdam",
+        "name": "Rijksmuseum Amsterdam – beeldentuin",
+        "tags": [
+          "beeldhouwkunst",
+          "museumtuin",
+          "wisselende tentoonstelling"
+        ],
+        "year": "",
+        "photos": [],
+        "creator": "",
+        "ends_on": null,
+        "sources": [
+          {
+            "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+            "provider": "Rijksmuseum · beelden in de tuin",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          }
+        ],
+        "summary": "Rond het Rijksmuseum krijgt beeldhouwkunst een plek tussen hagen, bloemen en architectuur. Tijdelijke sculptuurtentoonstellingen geven de tuin steeds een nieuw accent. Combineer een rondje buiten met kunst binnen, of geniet alleen van de tuin.",
+        "category": "beeldenparken",
+        "latitude": 52.359942,
+        "province": "Noord-Holland",
+        "longitude": 4.885386,
+        "museum_id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
+        "starts_on": null,
+        "created_at": "2026-10-03T19:10:38.859073+00:00",
+        "updated_at": "2026-10-03T20:39:18.540649+00:00",
+        "visit_notes": "In 2026 is Carel Visser te zien van 5 juni tot en met 25 oktober. Signaal 1 en 2 behoren tot de vaste tuincollectie. Controleer de actuele tuinopenstelling.",
+        "website_url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+        "inventory_key": "garden:Rijksmuseum Amsterdam",
+        "street_address": "Museumstraat 1",
+        "operating_status": "open",
+        "selection_reason": "Samenhangende buitenlocatie met meerdere sculpturen, waar een wandeling en de wisselwerking tussen kunst en omgeving deel uitmaken van de ervaring. Geen enkel los beeld. Verbonden aan een kunstinstelling uit het museumbestand.",
+        "coordinate_source": "Museumlocatie Rijksmuseum Amsterdam",
+        "publication_status": "published",
+        "coordinate_precision": "exact"
+      },
+      "after": {
+        "photos": [
+          {
+            "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Rijksmuseum_Garden_%2841808103055%29.jpg/1280px-Rijksmuseum_Garden_%2841808103055%29.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Garden_(41808103055).jpg",
+            "credit": "Julien Chatelain",
+            "license": "CC BY-SA 2.0",
+            "caption": "Rijksmuseumtuin op 30 april 2018; historisch tuinbeeld, niet van de actuele sculptuurtentoonstelling."
+          }
+        ],
+        "visit_notes": "Gratis toegankelijke museumtuinen. Carel Visser is te zien van 5 juni tot en met 25 oktober 2026; Signaal 1 en 2 behoren sinds 2024 tot de vaste tuincollectie. Controleer de actuele tuinopenstelling bij het Rijksmuseum.",
+        "sources": [
+          {
+            "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+            "provider": "Rijksmuseum · beelden in de tuin",
+            "retrieved_at": "2026-10-03T18:00:00Z"
+          },
+          {
+            "url": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+            "provider": "Rijksmuseum · actuele tuinpresentatie en vaste beelden",
+            "retrieved_at": "2026-10-05T08:23:36.675Z",
+            "evidence_fields": [
+              "visit_notes",
+              "operating_status"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1d6aa07d-0be3-540c-8792-67321db35073",
+      "name": "Brutus",
+      "category": "musea",
+      "checked_at": "2026-10-05T08:28:45.566452+00:00",
+      "primary_sources": [
+        "https://brutus.nl/en/visitors+info/",
+        "https://commons.wikimedia.org/wiki/File:2024_BRUTUS_art_center_in_Rotterdam_at_the_Keileweg_10-18.jpg"
+      ],
+      "verified_fields": [
+        "street_address",
+        "summary",
+        "coordinate_precision",
+        "coordinate_source",
+        "verification_status",
+        "operating_status",
+        "photos"
+      ],
+      "conclusion": "Hoofdingang Keileweg 10b en BAG-adrespunt bevestigd; donderdag–zondag 12–18 uur, tuin op nummer 18 uitsluitend op afspraak. Huidige openstatus ondersteund door actuele bezoekpagina en eerder deze ochtend gelezen eigen berichten na de brandmelding. Bestaande foto/licentie bevestigd.",
+      "remaining": [],
+      "resolves_availability": true
+    },
+    {
+      "id": "a10f6af8-5faa-5087-9bd5-107fdf1251f6",
+      "name": "Rijksmuseumgebouw",
+      "category": "architectuur",
+      "checked_at": "2026-10-05T08:28:45.566452+00:00",
+      "primary_sources": [
+        "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
+        "https://nl.wikipedia.org/wiki/Rijksmuseumgebouw",
+        "https://www.rijksmuseum.nl/nl/bezoek/in-het-museum/het-gebouw",
+        "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-05d9f079a1e8e66f30122d9ca3b0acd3",
+        "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg"
+      ],
+      "verified_fields": [
+        "street_address",
+        "latitude",
+        "longitude",
+        "coordinate_precision",
+        "coordinate_source",
+        "website_url",
+        "creator",
+        "summary",
+        "visit_notes",
+        "tags",
+        "sources",
+        "operating_status",
+        "photos"
+      ],
+      "conclusion": "Officiële gebouwpagina bevestigt Pierre Cuypers en 1885. Museumstraat 1 en BAG-adrespunt vervangen stadscoördinaat; binnenbezoek dagelijks 9–17 uur met starttijd. Bestaande foto en CC BY-SA 4.0 bevestigd.",
+      "remaining": [],
+      "resolves_availability": true
+    },
+    {
+      "id": "24689773-a498-5a33-9388-8750451ec284",
+      "name": "Rijksmuseum Amsterdam – beeldentuin",
+      "category": "beeldenparken",
+      "checked_at": "2026-10-05T08:28:45.566452+00:00",
+      "primary_sources": [
+        "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+        "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/carel-visser",
+        "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Garden_(41808103055).jpg"
+      ],
+      "verified_fields": [
+        "photos",
+        "visit_notes",
+        "sources",
+        "operating_status",
+        "photos"
+      ],
+      "conclusion": "Gratis toegankelijke tuin met dertien beelden van Carel Visser t/m 25 oktober 2026; Signaal 1 en 2 permanent. Passende tuinfoto uit 2018 visueel gecontroleerd en als historisch beeld benoemd; Julien Chatelain, CC BY-SA 2.0.",
+      "remaining": [],
+      "resolves_availability": true
+    },
+    {
+      "id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
+      "name": "Rijksmuseum Amsterdam",
+      "category": "musea",
+      "checked_at": "2026-10-05T08:28:45.566452+00:00",
+      "primary_sources": [
+        "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/nu-te-zien",
+        "https://www.rijksmuseum.nl/nl/bezoek/in-het-museum/het-gebouw",
+        "https://commons.wikimedia.org/wiki/File:South_facade_of_the_Rijksmuseum_Amsterdam_(DSCF0528).jpg",
+        "https://commons.wikimedia.org/wiki/File:Rijksmuseum_stoa_7213.jpg"
+      ],
+      "verified_fields": [
+        "street_address",
+        "operating_status",
+        "summary",
+        "website_url",
+        "photos",
+        "tags"
+      ],
+      "conclusion": "Actueel programma en dagelijkse opening 9–17 uur bevestigd; Museumstraat 1 en BAG-adrespunt passen. Beide bestaande foto's met bron, maker en CC-licentie gecontroleerd. Beschrijving en tags behouden.",
+      "remaining": [],
+      "resolves_availability": true
+    }
+  ],
+  "uncertain": [
+    "Prentenkabinetten: bevestigde begindatum ontbreekt.",
+    "20ste eeuw: bevestigde begindatum ontbreekt.",
+    "Geloof in Venlo: officiële startdatums 12 en 18 september spreken elkaar tegen; vervolg bij Limburgs Museum.",
+    "Gelderland is gericht onderzocht; geen volledige provinciale of landelijke dekking.",
+    "Bunker 599: exacte route/objectlocatie en jaarconflict (2010/2013) vereisen vervolg.",
+    "De Kathedraal: huidige bezoekroute en seizoenssluiting nog niet exact gekoppeld."
+  ],
+  "source_limitations": [
+    {
+      "name": "11fountains",
+      "status": "partial",
+      "limitations": [
+        "Geen gedateerd wijzigingsoverzicht; afzonderlijke elf projectpagina’s niet alle herlezen."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "AD (landelijke editie)",
+      "status": "partial",
+      "limitations": [
+        "Individuele recensies nog niet volledig gelezen; regionale zoekresultaten zijn geen landelijke recensiecontrole. Kandidaten Aftermath/KEG, Material Memories, Het Bomige, Hedendraads, Van Maker tot Majesteit, Portret 2026 en STRP-stopbericht vereisen primaire vervolgcontrole."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "Architectuur.ORG",
+      "status": "partial",
+      "limitations": [
+        "Nieuwe gidsitems hebben gebouwjaar maar geen publicatiedatum; nog niet alle inhoudelijk beoordeeld."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "Architectuurgids Top 100",
+      "status": "partial",
+      "limitations": [
+        "Historische Top 100 gelezen; actuele toevoegingen en alle bezoeklocaties niet volledig herkeurd."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "Beeldentuinen · provinciale inventarisatie",
+      "status": "partial",
+      "limitations": [
+        "Friese beeldenroute Harlingen als zoekaanwijzing; nog geen volledig gelezen primaire route/eigenaarcontrole, geen nieuwe tuin gepubliceerd."
+      ],
+      "checked_this_run": true
+    },
+    {
+      "name": "Bezoekmijntuin · tuinen en open dagen",
+      "status": "partial",
+      "limitations": [
+        "Geen afzonderlijke nieuwe kunsttuin in de gelezen homepage geverifieerd; provinciale zoekronde onvolledig."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "De Telegraaf",
+      "status": "partial",
+      "limitations": [
+        "Sitezoekfunctie tentoonstelling: 18 resultaten tot grens 28 augustus. Matisse geheel gelezen; vier andere pagina’s alleen kop/foto/intro gelezen, geen bewezen volledige inhoud. Premium-label op zichzelf niet als toegangsmuur aangemerkt."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "de Volkskrant",
+      "status": "partial",
+      "limitations": [
+        "Frankenthaler-artikel achter zichtbare betaalmuur. Kunstwerk-van-de-week-artikelen en overige kunstrubrieken niet geheel uitgelezen."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "Gemeentelijke kunstcollecties en monumenteninformatie",
+      "status": "partial",
+      "limitations": [
+        "Gerichte Frieslandronde; geen landelijke gemeentelijke volledigheidsclaim."
+      ],
+      "checked_this_run": true
+    },
+    {
+      "name": "Het Financieele Dagblad",
+      "status": "partial",
+      "limitations": [
+        "Zoekfunctie tentoonstelling, afgelopen maand: zes resultaten bekeken. Eerste artikel achter zichtbare betaalmuur; overige Polke/Kusama/Kander/Van Saene niet volledig gelezen."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "Het Parool (aanvullend: Amsterdam)",
+      "status": "partial",
+      "limitations": [
+        "Tentoonstellingstips achter zichtbare Plus-betaalmuur; sitezoekfunctie leverde geen resultatenweergave. Geen volledige 28-dagencontrole."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "Historische RDMZ Top 100",
+      "status": "partial",
+      "limitations": [
+        "Geen actuele openbare toegankelijkheid afgeleid uit monumentstatus; individuele lijstinhoud niet geheel herlezen."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "Kunst op Straat · Gemeente Nijmegen",
+      "status": "partial",
+      "limitations": [
+        "Catalogus werkt na JavaScript laden, maar geen updatevenster/datumfilter vastgesteld; individuele wijzigingen niet volledig onderzocht."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "Landart Nederland",
+      "status": "partial",
+      "limitations": [
+        "Browsertoegang werkt; eerdere tekstfout geen toegangsmuur. Catalogus zonder wijzigingsdatums; overige provincies niet deze run volledig herlezen."
+      ],
+      "checked_this_run": true
+    },
+    {
+      "name": "Musea, kunstinstellingen, kunstenaars en terreinbeheerders",
+      "status": "partial",
+      "limitations": [
+        "Programmadekking van alle 301 instellingen niet afgerond; afzonderlijke foto- en bezoekconflicten blijven zichtbaar."
+      ],
+      "checked_this_run": true
+    },
+    {
+      "name": "Museumtijdschrift",
+      "status": "partial",
+      "limitations": [
+        "Rubrieken recensies/tips/nieuws niet volledig over 28 dagen uitgelezen."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "Nederlands Dagblad",
+      "status": "partial",
+      "limitations": [
+        "Cultuurindex en drie artikelpagina’s bezocht; registratie/toegang beperkt volledige tekst. Oudere indexpagina’s niet volledig doorlopen."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "Nederlandse architectuur in 250 topstukken",
+      "status": "partial",
+      "limitations": [
+        "Volledige inhoud van het boek ontbreekt; uitgeverssamenvatting is geen controle van 250 objecten."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "NRC",
+      "status": "partial",
+      "limitations": [
+        "Negen tentoonstellingsrecensies geheel gelezen. Aanvullende architectuur/design-recensies buiten de zoekterm nog niet volledig gecontroleerd."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "Reformatorisch Dagblad",
+      "status": "partial",
+      "limitations": [
+        "Zoekfunctie tentoonstelling op datum tot 7 september en grens 4 september gelezen. Kunst/architectuur/design buiten deze zoekterm niet volledig gecontroleerd. Brandbericht Brutus 19 september als aanwijzing, actuele organisatorpagina onderzocht maar nasleep niet duidelijk."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "Sleutelwerken",
+      "status": "partial",
+      "limitations": [
+        "Homepage/uitgelicht geen gedateerd wijzigingenregister; individuele honderd locaties niet herkeurd."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "Trouw",
+      "status": "partial",
+      "limitations": [
+        "Zoekinterface gaf geen resultatenweergave; kunstreeksen niet gevonden/volledig gelezen. Dit is een uitvoeringsbeperking, geen bewijs dat er geen relevante recensies zijn."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "WhichMuseum Kunst & Design",
+      "status": "partial",
+      "limitations": [
+        "Browser toegankelijk; geen volledige inhoudelijke vergelijking van alle 315 musea of gedateerde wijzigingen."
+      ],
+      "checked_this_run": false
+    },
+    {
+      "name": "Wikimedia Commons",
+      "status": "partial",
+      "limitations": [
+        "Gerichte fotoverificatie; geen volledig recentewijzigingenvenster voor Commons."
+      ],
+      "checked_this_run": true
+    }
+  ],
+  "source_coverage_note": "Bestaande weekronde: elf bronnen read, 24 partial; in dit directe vervolg vijf brongroepen gericht verdiept. Oorspronkelijke controletijden en gelezen URLs blijven bewaard; geen tweede volledige weekcontrole geclaimd.",
+  "backlog_counts": {
+    "pending_count": 588,
+    "blocked_count": 1,
+    "resolved_count": 113
+  },
+  "verification": {
+    "database": "Alle vijf mutaties exact teruggelezen; drie optimistische updates zonder conflict en twee inserts. Handmatige auditgeschiedenis voor drie gewijzigde dossiers leeg. Beginvergelijking alle 803 catalogusrecords zonder inhoudelijke afwijking.",
+    "production": "pending",
+    "checks": "npm run check: typecheck, 52 tests geslaagd, build geslaagd. Na bronvolgorde-normalisatie opnieuw gebouwd.",
+    "public_api": {
+      "checked_at": "2026-10-05T08:29:11.617467+00:00",
+      "counts": {
+        "museums": 290,
+        "discoveries": 464
+      },
+      "verified_ids": [
+        "1d6aa07d-0be3-540c-8792-67321db35073",
+        "a10f6af8-5faa-5087-9bd5-107fdf1251f6",
+        "24689773-a498-5a33-9388-8750451ec284",
+        "c973ea8b-1335-4932-8bd6-cc02bb8935bb",
+        "1e4b83c9-1088-483d-a6df-bb6f56c2b616"
+      ]
+    }
+  },
+  "photo_checks": {
+    "head_requests": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/2024_BRUTUS_art_center_in_Rotterdam_at_the_Keileweg_10-18.jpg/1280px-2024_BRUTUS_art_center_in_Rotterdam_at_the_Keileweg_10-18.jpg",
+        "status": "HTTP Error 403: Forbidden",
+        "content_type": null
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg/1280px-South_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg",
+        "status": "HTTP Error 403: Forbidden",
+        "content_type": null
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Rijksmuseum_stoa_7213.jpg/1280px-Rijksmuseum_stoa_7213.jpg",
+        "status": "HTTP Error 403: Forbidden",
+        "content_type": null
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg/1280px-Amsterdam_-_Stadhouderskade_-_North_facade_of_the_Rijksmuseum_Amsterdam_-_Fisheye_Image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "status": "HTTP Error 403: Forbidden",
+        "content_type": null
+      }
+    ],
+    "interpretation": "HEAD gaf 403; browser laadt Commons-fotos wel. Geen ontbrekende foto geconcludeerd op grond van technische HEAD-fout. Tuinfoto visueel gecontroleerd."
+  },
+  "schedule": "Ongewijzigd: maandag 09:00 Europe/Amsterdam; next_due 2026-10-12T07:00:00Z.",
+  "followup": "Pas na geverifieerde publicatie eigen run afronden en atomair één manual vervolg toevoegen.",
+  "catalogue_total": 805,
+  "audit_remaining_records": 338
+}
