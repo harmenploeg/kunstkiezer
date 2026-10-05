@@ -290,7 +290,7 @@
       "updated_at": "2026-10-04 18:26:45.436382+00"
     }
   ],
-  "checked_at": "2026-10-05T07:46:01.078841+00:00",
+  "checked_at": "2026-10-05T07:53:00Z",
   "scope": "Weekronde 5 oktober 2026: werkelijk gelezen pagina’s; onvolledige vensters expliciet partial. Zes openbare Instagramfeeds inhoudelijk gelezen. Geen volledigheidsclaim voor alle 35 bronnen.",
   "sources": [
     {
@@ -806,7 +806,7 @@
           "conclusion": "Creation Myths, bestaand"
         },
         {
-          "url": "https://www.instagram.com/kunstmeisjes/reel/Ddf5HjzAelZ/",
+          "url": "https://www.instagram.com/kunstmeisjes/p/Ddf5HjzAelZ/",
           "published_at": "2026-09-19",
           "read_scope": "caption_and_date",
           "conclusion": "Atelierbezoek Mattijssen, geen openbaar programma bevestigd"
@@ -1110,10 +1110,10 @@
       "source_id": "kunstvensters",
       "name": "KunstVensters",
       "url": "https://kunstvensters.com/",
-      "checked_at": "2026-10-05T07:39:00Z",
+      "checked_at": "2026-10-05T07:53:00Z",
       "window_from": "2026-09-07",
       "window_to": "2026-10-05",
-      "status": "partial",
+      "status": "read",
       "articles": [
         {
           "url": "https://kunstvensters.com/",
@@ -1132,13 +1132,65 @@
           "published_at": "2026-10-01",
           "read_scope": "full",
           "conclusion": "Zeven Nederlandse evenementen al aanwezig; drie Belgische uitgesloten"
+        },
+        {
+          "url": "https://kunstvensters.com/2026/10/04/de-frescos-in-assisi-vertellen-het-verhaal-van-sint-franciscus/",
+          "published_at": "2026-10-04",
+          "read_scope": "full",
+          "conclusion": "Historische fresco’s in Italië; geen Nederlandse toevoeging."
+        },
+        {
+          "url": "https://kunstvensters.com/2026/09/27/wat-er-allemaal-te-zien-is-op-de-nachtwacht-van-rembrandt/",
+          "published_at": "2026-09-27",
+          "read_scope": "full",
+          "conclusion": "Nachtwacht in reeds geselecteerd Rijksmuseum; geen nieuwe vermelding."
+        },
+        {
+          "url": "https://kunstvensters.com/2026/09/24/eva-besnyo-had-haar-tijd-mee/",
+          "published_at": "2026-09-24",
+          "read_scope": "full",
+          "conclusion": "Tentoonstelling Fotomuseum Den Haag al aanwezig."
+        },
+        {
+          "url": "https://kunstvensters.com/2026/09/20/emily-carr-en-de-totempalen-die-bijna-verloren-gingen/",
+          "published_at": "2026-09-20",
+          "read_scope": "full",
+          "conclusion": "Historisch verhaal over Canada en Alaska; geen Nederlands aanbod."
+        },
+        {
+          "url": "https://kunstvensters.com/2026/09/17/wat-er-schuilging-in-het-maanlicht-van-de-17e-eeuw/",
+          "published_at": "2026-09-17",
+          "read_scope": "full",
+          "conclusion": "Dusk till Dawn in Dordrechts Museum al aanwezig."
+        },
+        {
+          "url": "https://kunstvensters.com/2026/09/13/hoe-gentile-bellini-vrede-in-venetie-bestendigde/",
+          "published_at": "2026-09-13",
+          "read_scope": "full",
+          "conclusion": "Historisch verhaal met collecties buiten Nederland; geen toevoeging."
+        },
+        {
+          "url": "https://kunstvensters.com/2026/09/10/is-nederland-klaar-voor-kusama-mania/",
+          "published_at": "2026-09-10",
+          "read_scope": "full",
+          "conclusion": "Tentoonstelling Stedelijk Museum al aanwezig."
+        },
+        {
+          "url": "https://kunstvensters.com/page/2/",
+          "published_at": null,
+          "read_scope": "index",
+          "conclusion": "Chronologisch archief tot voorbij 7 september gelezen; artikelen binnen venster afzonderlijk geopend."
+        },
+        {
+          "url": "https://kunstvensters.com/page/3/",
+          "published_at": null,
+          "read_scope": "index",
+          "conclusion": "Chronologisch archief tot voorbij 7 september gelezen; artikelen binnen venster afzonderlijk geopend."
         }
       ],
-      "candidate_count": 7,
-      "limitations": [
-        "Archiefpagina 2 via teksttool eerst onvolledig en daarna 429; volledige 28-dagenreeks nog niet gelezen."
-      ],
-      "last_successful_content_check": null
+      "candidate_count": 10,
+      "limitations": [],
+      "last_successful_content_check": "2026-10-05T07:53:00Z"
     },
     {
       "source_id": "landart-nederland",
@@ -1266,6 +1318,24 @@
           "published_at": null,
           "read_scope": "full",
           "conclusion": "Alle drie actuele tentoonstellingen al aanwezig met 20 september 2026–28 februari 2027. Twee aangekondigde tentoonstellingen starten 21 maart 2027, buiten kalendermaand."
+        },
+        {
+          "url": "https://brutus.nl/en/visitors+info/",
+          "published_at": null,
+          "read_scope": "full",
+          "conclusion": "Officiële bezoekpagina: donderdag–zondag 12–18 uur, hoofdingang Keileweg 10b; Brutus Garden alleen op afspraak. Eigen gedateerde berichten van 25 september en 3 oktober nodigen na de brandmelding uit voor Death & Money (20 september–20 december). Dit ondersteunt de huidige bezoekstatus open; geen expliciete verklaring over de brandnasleep gevonden."
+        },
+        {
+          "url": "https://www.instagram.com/brutus.rotterdam/p/DeBlQFcidyJ/",
+          "published_at": "2026-10-03",
+          "read_scope": "full",
+          "conclusion": "Officiële bezoekpagina: donderdag–zondag 12–18 uur, hoofdingang Keileweg 10b; Brutus Garden alleen op afspraak. Eigen gedateerde berichten van 25 september en 3 oktober nodigen na de brandmelding uit voor Death & Money (20 september–20 december). Dit ondersteunt de huidige bezoekstatus open; geen expliciete verklaring over de brandnasleep gevonden."
+        },
+        {
+          "url": "https://www.instagram.com/brutus.rotterdam/p/Ddtu6Tdj1p8/",
+          "published_at": "2026-09-25",
+          "read_scope": "full",
+          "conclusion": "Officiële bezoekpagina: donderdag–zondag 12–18 uur, hoofdingang Keileweg 10b; Brutus Garden alleen op afspraak. Eigen gedateerde berichten van 25 september en 3 oktober nodigen na de brandmelding uit voor Death & Money (20 september–20 december). Dit ondersteunt de huidige bezoekstatus open; geen expliciete verklaring over de brandnasleep gevonden."
         }
       ],
       "candidate_count": 1,
@@ -1420,8 +1490,8 @@
         {
           "url": "https://www.nrc.nl/nieuws/2026/09/14/bredaphoto-festival-wil-de-troost-en-veerkracht-bieden-waar-nu-behoefte-aan-is-a4936173",
           "published_at": "2026-09-14",
-          "read_scope": "partial",
-          "conclusion": "Laatste deel niet uitgelezen"
+          "read_scope": "full",
+          "conclusion": "BredaPhoto inclusief slot en vijf deelprojecten gelezen; bestaand festival."
         },
         {
           "url": "https://www.nrc.nl/nieuws/2026/09/13/wat-gebeurt-er-met-je-digitale-sporen-na-je-dood-a4936413",
@@ -1444,7 +1514,7 @@
       ],
       "candidate_count": 9,
       "limitations": [
-        "Cultuurindex en sitezoekfunctie tentoonstelling, filter Recensie/dit jaar/datum aflopend; negen actuele recensies aangetroffen. BredaPhoto niet geheel uitgelezen. Aanvullende architectuur/design-recensies niet volledig uitgesloten; geen volledige krantencontrole."
+        "Negen tentoonstellingsrecensies geheel gelezen. Aanvullende architectuur/design-recensies buiten de zoekterm nog niet volledig gecontroleerd."
       ],
       "last_successful_content_check": null
     },

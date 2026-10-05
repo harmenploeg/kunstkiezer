@@ -20,6 +20,209 @@
   "new_photo": {
     "source_license": "CC0 verified",
     "http_probe": 403,
-    "limitation": "Directe HTTP-ophaalproef geweigerd; foto niet als ontbrekend aangemerkt."
+    "limitation": "Directe HTTP-ophaalproef 403; browserafbeelding werkt.",
+    "browser_verification": "Afbeelding via gewone browser geladen en visueel als Wereldmuseumgebouw gecontroleerd."
+  },
+  "final_catalog_api_check": {
+    "checked_at": "2026-10-05T07:58:10.144768+00:00",
+    "configuration_source": "scripts/sync-loci.mjs public configuration",
+    "database_project": "qrlfywcqkkzmerglmsbj",
+    "categories": {
+      "musea": {
+        "public_records_checked": 290,
+        "correctly_not_public": 11,
+        "fields_compared": [
+          "city",
+          "coordinate_precision",
+          "coordinate_source",
+          "country",
+          "id",
+          "inventory_key",
+          "is_art_museum",
+          "latitude",
+          "longitude",
+          "name",
+          "operating_status",
+          "photos",
+          "postal_code",
+          "province",
+          "publication_status",
+          "street_address",
+          "summary",
+          "tags",
+          "verification_status",
+          "website_url"
+        ]
+      },
+      "openbare-kunst": {
+        "public_records_checked": 112,
+        "correctly_not_public": 19,
+        "fields_compared": [
+          "category",
+          "city",
+          "coordinate_precision",
+          "coordinate_source",
+          "creator",
+          "ends_on",
+          "id",
+          "inventory_key",
+          "latitude",
+          "longitude",
+          "museum_id",
+          "name",
+          "operating_status",
+          "photos",
+          "province",
+          "publication_status",
+          "selection_reason",
+          "starts_on",
+          "street_address",
+          "summary",
+          "tags",
+          "visit_notes",
+          "website_url",
+          "year"
+        ]
+      },
+      "beeldenparken": {
+        "public_records_checked": 61,
+        "correctly_not_public": 9,
+        "fields_compared": [
+          "category",
+          "city",
+          "coordinate_precision",
+          "coordinate_source",
+          "creator",
+          "ends_on",
+          "id",
+          "inventory_key",
+          "latitude",
+          "longitude",
+          "museum_id",
+          "name",
+          "operating_status",
+          "photos",
+          "province",
+          "publication_status",
+          "selection_reason",
+          "starts_on",
+          "street_address",
+          "summary",
+          "tags",
+          "visit_notes",
+          "website_url",
+          "year"
+        ]
+      },
+      "architectuur": {
+        "public_records_checked": 184,
+        "correctly_not_public": 9,
+        "fields_compared": [
+          "category",
+          "city",
+          "coordinate_precision",
+          "coordinate_source",
+          "creator",
+          "ends_on",
+          "id",
+          "inventory_key",
+          "latitude",
+          "longitude",
+          "museum_id",
+          "name",
+          "operating_status",
+          "photos",
+          "province",
+          "publication_status",
+          "selection_reason",
+          "starts_on",
+          "street_address",
+          "summary",
+          "tags",
+          "visit_notes",
+          "website_url",
+          "year"
+        ]
+      },
+      "evenementen": {
+        "public_records_checked": 105,
+        "correctly_not_public": 3,
+        "fields_compared": [
+          "category",
+          "city",
+          "coordinate_precision",
+          "coordinate_source",
+          "created_at",
+          "creator",
+          "ends_on",
+          "id",
+          "inventory_key",
+          "latitude",
+          "longitude",
+          "museum_id",
+          "name",
+          "operating_status",
+          "photos",
+          "province",
+          "publication_status",
+          "selection_reason",
+          "starts_on",
+          "street_address",
+          "summary",
+          "tags",
+          "updated_at",
+          "visit_notes",
+          "website_url",
+          "year"
+        ]
+      }
+    },
+    "mismatches": [],
+    "calendar_exclusions": [
+      {
+        "id": "bc833d7c-8ba2-54d3-bd71-38fa4d995fde",
+        "name": "Richard Price – Vloeibaar meesterschap",
+        "starts_on": "2026-11-06",
+        "ends_on": "2027-04-18",
+        "reason": "Correct uitgesloten door kalenderfilter Europe/Amsterdam, 5 oktober–5 november."
+      },
+      {
+        "id": "0a0aa49c-596d-508b-849f-e71a62077753",
+        "name": "Helen Levitt – City at Play",
+        "starts_on": "2026-05-30",
+        "ends_on": "2026-10-04",
+        "reason": "Correct uitgesloten door kalenderfilter Europe/Amsterdam, 5 oktober–5 november."
+      },
+      {
+        "id": "c37d97a3-fda1-5879-9091-4ea0122d09c0",
+        "name": "Art Noord VIII",
+        "starts_on": "2026-10-01",
+        "ends_on": "2026-10-04",
+        "reason": "Correct uitgesloten door kalenderfilter Europe/Amsterdam, 5 oktober–5 november."
+      }
+    ],
+    "result": "Alle 803 catalogusrecords gecontroleerd: 752 publiek en 51 terecht afgeschermd op status of kalender; alle vergeleken publieke velden gelijk."
+  },
+  "production_verification_method": "Gecontroleerde GitHub Actions-keten test www.loci-amsterdam.nl met bestaande geautoriseerde Cloudflare Access-servicetoegang. Losse anonieme HTTP-ophaalproef vanaf deze runner kreeg 403; die is geen bewijs van een defecte productiepublicatie.",
+  "editorial_conflict_check": {
+    "checked_after": "2026-10-05T07:46:23Z",
+    "changed_records": 0,
+    "result": "Geen tussentijdse wijzigingen in kk_museums of kk_discoveries."
+  },
+  "production": {
+    "verified_at": "2026-10-05T08:08:23.265764+00:00",
+    "workflow": "https://github.com/harmenploeg/interactief/actions/runs/37279770865",
+    "conclusion": "success",
+    "domain": "https://www.loci-amsterdam.nl/kunstkiezer/",
+    "source_commit": "b8e3fce6ed1fbacd7fae3ef43649337abfe2dfdb",
+    "integration_commit": "8325a11549c16895884000327c0e8d952eb1d80f",
+    "checks": [
+      "routes",
+      "assets",
+      "five_catalog_downloads",
+      "database_configuration",
+      "ranking_settings",
+      "Voyager_map_tile"
+    ]
   }
 }

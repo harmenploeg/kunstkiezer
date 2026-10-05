@@ -3028,10 +3028,23 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
+      "manually_verified_fields": [
+        "operating_status",
+        "street_address"
+      ],
+      "decisions": [
+        {
+          "checked_at": "2026-10-05T07:55:34.871345+00:00",
+          "primary_sources": [
+            "https://brutus.nl/en/visitors+info/",
+            "https://www.instagram.com/brutus.rotterdam/p/DeBlQFcidyJ/",
+            "https://www.instagram.com/brutus.rotterdam/p/Ddtu6Tdj1p8/"
+          ],
+          "conclusion": "Officiële bezoekpagina: donderdag–zondag 12–18 uur, hoofdingang Keileweg 10b; Brutus Garden alleen op afspraak. Eigen gedateerde berichten van 25 september en 3 oktober nodigen na de brandmelding uit voor Death & Money (20 september–20 december). Dit ondersteunt de huidige bezoekstatus open; geen expliciete verklaring over de brandnasleep gevonden."
+        }
+      ],
       "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
+        "Bezoekersingang en afspraakvereiste tuin bij volgende publicatie preciseren; overige dossiervereisten controleren."
       ]
     },
     {

@@ -2,7 +2,7 @@
   "run_id": "b037fd6c-a414-459a-b65b-6a2af8379ba4",
   "research_date": "2026-10-05",
   "prepared_at": "2026-10-05T07:46:01.078841+00:00",
-  "status": "prepared",
+  "status": "completed",
   "scope": "1 nieuwe tentoonstelling, 2 individuele bezoekcontroles afgerond; bronnenronde gedeeltelijk.",
   "sources_review": "data/curation/b037fd6c-a414-459a-b65b-6a2af8379ba4-source-review.json",
   "added": [
@@ -120,7 +120,8 @@
     "Oud persbericht Leef Surrealisme noemt 17 september; actuele openbare programmapagina bevestigt 18 september en is gevolgd.",
     "Melkweg-post caption 31 december wijkt af van poster en organisator 30 december; juiste bestaande einddatum behouden.",
     "Wereldmuseum blijft buiten vaste kunstmuseumselectie; tentoonstelling zelfstandig toegevoegd.",
-    "Vorige productieblokkade hersteld door mislukte kwaliteitsjob opnieuw uit te voeren; geen code gewijzigd om test te omzeilen."
+    "Vorige productieblokkade hersteld door mislukte kwaliteitsjob opnieuw uit te voeren; geen code gewijzigd om test te omzeilen.",
+    "Officiële bezoekpagina: donderdag–zondag 12–18 uur, hoofdingang Keileweg 10b; Brutus Garden alleen op afspraak. Eigen gedateerde berichten van 25 september en 3 oktober nodigen na de brandmelding uit voor Death & Money (20 september–20 december). Dit ondersteunt de huidige bezoekstatus open; geen expliciete verklaring over de brandnasleep gevonden. Adresprecisie en afspraakvereiste tuin staan gericht klaar voor de volgende partij."
   ],
   "public_art_candidates": [
     "Dijk van een Wijf",
@@ -145,7 +146,6 @@
       "Het Parool (aanvullend: Amsterdam)",
       "Historische RDMZ Top 100",
       "Kunst op Straat · Gemeente Nijmegen",
-      "KunstVensters",
       "Landart Nederland",
       "Musea, kunstinstellingen, kunstenaars en terreinbeheerders",
       "Museumtijdschrift",
@@ -157,12 +157,46 @@
       "Trouw",
       "WhichMuseum Kunst & Design",
       "Wikimedia Commons"
-    ]
+    ],
+    "public_art_published": 131
   },
   "verification": {
     "previous_release_recovered": "https://github.com/harmenploeg/interactief/actions/runs/37239128629",
-    "current_release": "pending",
-    "database": "3 records individually verified; final public API check pending"
+    "current_release": "https://github.com/harmenploeg/interactief/actions/runs/37279770865",
+    "database": "3 gewijzigde records volledig gelijk via publieke API; alle 803 catalogusrecords op publieke velden en zichtbaarheid vergeleken; geen tussentijdse databasewijzigingen na 07:46:23 UTC.",
+    "source_commit": "b8e3fce6ed1fbacd7fae3ef43649337abfe2dfdb",
+    "integration_commit": "8325a11549c16895884000327c0e8d952eb1d80f",
+    "checks": {
+      "kunstkiezer": "npm run check: 52 tests geslaagd, typen en build geslaagd",
+      "integration": "npm run check:release en 6 Kunstkiezer-paginatests geslaagd",
+      "production_workflow": "https://github.com/harmenploeg/interactief/actions/runs/37279770865",
+      "production_status": "success",
+      "browsers": {
+        "mobile": 168,
+        "older_devices": 3,
+        "desktop_carousel": 3,
+        "accessibility_and_security": 7,
+        "result": "all passed"
+      }
+    },
+    "schedule": {
+      "enabled": true,
+      "weekday": 1,
+      "local_time": "09:00:00",
+      "timezone": "Europe/Amsterdam",
+      "next_due": "2026-10-12T07:00:00Z",
+      "result": "Ongewijzigd"
+    },
+    "production_domain": "https://www.loci-amsterdam.nl/kunstkiezer/",
+    "production_confirmed_at": "2026-10-05T08:06:47Z"
   },
-  "followup": "Na geverifieerde publicatie en 2 opgeloste dossiers atomair precies één manual vervolgaanvraag; nooit zelf claimen."
+  "followup": "Deze partij heeft aantoonbare voortgang. Eigen running run wordt aansluitend atomair voltooid met precies één manual vervolgaanvraag; 592 uitvoerbare dossiers blijven over. Geen tweede run door deze taak geclaimd.",
+  "source_coverage": {
+    "active": 35,
+    "read": 11,
+    "partial": 24,
+    "instagram_accounts_read": 6,
+    "full_coverage": false
+  },
+  "completed_at": "2026-10-05T08:08:23.265764+00:00"
 }
