@@ -15,3 +15,7 @@ enable_signup = true
 enable_confirmations = true
 secure_password_change = true
 double_confirm_changes = true
+
+# The function verifies the bearer token with Auth and checks the current kk_is_editor role.
+[functions.manage-users]
+verify_jwt = false

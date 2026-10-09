@@ -12,7 +12,11 @@ export function Account() {
     [password, setPassword] = useState(""),
     [confirm, setConfirm] = useState(""),
     [current, setCurrent] = useState(""),
-    [message, setMessage] = useState(""),
+    [message, setMessage] = useState(() => {
+      const notice = sessionStorage.getItem("kunstkiezer:account-notice") ?? "";
+      sessionStorage.removeItem("kunstkiezer:account-notice");
+      return notice;
+    }),
     [busy, setBusy] = useState(false);
   const reset = recovery;
   async function run(action: () => Promise<void>) {
@@ -98,10 +102,11 @@ export function Account() {
       setPassword("");
       setConfirm("");
       setCurrent("");
+      // Signing out remounts the account workspace; keep the success notice for that new view.
+      const notice = "Wachtwoord gewijzigd. Log opnieuw in met je nieuwe wachtwoord.";
+      sessionStorage.setItem("kunstkiezer:account-notice", notice);
       await client.auth.signOut({ scope: "global" });
-      setMessage(
-        "Wachtwoord gewijzigd. Log opnieuw in met je nieuwe wachtwoord.",
-      );
+      setMessage(notice);
       history.replaceState(null, "", appHref("/account"));
     });
   }

@@ -76,3 +76,15 @@ test('Te zien synchroniseert, krijgt groene kaartstip en verhuist na bezoek naar
  await other.getByRole('button',{name:'Kaart',exact:true}).click();await expect(dot).toHaveAttribute('fill','#db163e');
  }finally{await second.close();}
 });
+
+test('Uitnodigingslink laat een nieuwe gebruiker een eigen wachtwoord kiezen',async({page})=>{
+ const mock=server();await mock.setup(page);
+ await page.goto('/kunstkiezer/account#access_token='+token+'&refresh_token=test&expires_in=3600&token_type=bearer&type=invite');
+ await expect(page.getByRole('heading',{name:'Kies een nieuw wachtwoord',exact:true})).toBeVisible();
+ await expect(page.getByLabel('Huidig wachtwoord',{exact:true})).toHaveCount(0);
+ await page.getByLabel('Nieuw wachtwoord (minstens 12 tekens)',{exact:true}).fill('Invited-password-12345');
+ await page.getByLabel('Herhaal nieuw wachtwoord',{exact:true}).fill('Invited-password-12345');
+ await page.getByRole('button',{name:'Wachtwoord opslaan',exact:true}).click();
+ await expect.poll(mock.changes).toBe(1);
+ await expect(page.getByRole('status')).toContainText('Log opnieuw in');
+});

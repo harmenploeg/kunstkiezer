@@ -31,6 +31,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setAdmin(!role.error && role.data === true);
   }
   useEffect(() => {
+    const invitation = new URLSearchParams(location.hash.slice(1)).get("type") === "invite";
     let active = true,
       serial = 0;
     let off: (() => void) | undefined;
@@ -66,7 +67,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           }
         }
         const listener = c.auth.onAuthStateChange((event, session) => {
-          if (event === "PASSWORD_RECOVERY") setRecovery(true);
+          if (event === "PASSWORD_RECOVERY" || (invitation && event === "SIGNED_IN" && session)) setRecovery(true);
           if (event === "SIGNED_OUT") {
             setUser(null);
             setAdmin(false);

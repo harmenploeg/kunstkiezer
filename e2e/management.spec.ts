@@ -11,6 +11,12 @@ async function setup(page:Page,editor=true){
  const path=new URL(route.request().url()).pathname;const headers={'access-control-allow-origin':'*','access-control-allow-headers':'*','access-control-allow-methods':'GET,POST,PATCH,OPTIONS'};const reply=(json:unknown,status=200)=>route.fulfill({headers,json,status});
  if(route.request().method()==='OPTIONS')return route.fulfill({status:204,headers});
  if(path==='/auth/v1/user')return reply(user);
+ if(path==='/functions/v1/manage-users'){
+  const input=route.request().postDataJSON();
+  if(input.action==='invite'){members.push({user_id:'new-user',email:input.email,is_admin:false});return reply({invited:true,user_id:'new-user'});}
+  if(input.action==='delete'){members=members.filter(m=>m.user_id!==input.user_id);return reply({deleted:true});}
+ }
+
  if(path.endsWith('/kk_profiles'))return reply(null);
  if(['/kk_museums','/kk_discoveries','/kk_rating_totals'].some(x=>path.endsWith(x)))return reply([]);
  if(path.endsWith('/kk_tags')){if(route.request().method()==='PATCH'){tags=tags.map(t=>({...t,...route.request().postDataJSON(),updated_at:'v2'}));return reply(tags[0]);}return reply(tags);}
@@ -23,6 +29,7 @@ async function setup(page:Page,editor=true){
  if(path.endsWith('/kk_update_schedule')){if(route.request().method()==='PATCH')schedule={...schedule,...route.request().postDataJSON(),updated_at:'v2'};return reply(schedule);}
  if(path==='/auth/v1/token')return reply({access_token:token,refresh_token:'test',token_type:'bearer',expires_in:3600,user});
  if(path==='/auth/v1/user')return reply(user);
+
  if(path.endsWith('/kk_is_editor'))return reply(editor);
  if(path.endsWith('/kk_ranking_settings'))return reply(settings);
  if(path.endsWith('/kk_update_sources')){sourceReads++;return reply(rows);}
@@ -51,4 +58,36 @@ test('Beheer kan extra update aanvragen, weekschema wijzigen en beheerder aanwij
 
 test('Tagbeheer toont vraagkoppelingen en bewaart vraagteksten en beschikbaarheid',async({page})=>{
  await setup(page);const admin=page.getByRole('region',{name:'Tagbeheer',exact:true});await admin.locator('summary').filter({hasText:'fotografie'}).click();await expect(admin.getByText('Gekoppelde antwoorden: Wat zie je graag? → Foto’s')).toBeVisible();await admin.getByLabel('Vraag',{exact:true}).fill('Welke kunst spreekt je aan?');await admin.getByRole('button',{name:'Vragen en tags opslaan'}).click();await expect(admin.getByRole('status')).toHaveText('Opgeslagen.');await page.reload();await expect(admin.getByLabel('Vraag',{exact:true})).toHaveValue('Welke kunst spreekt je aan?');await admin.locator('summary').filter({hasText:'fotografie'}).click();await admin.getByLabel('Beschikbaar als profielkeuze').uncheck();await admin.getByRole('button',{name:'Tag opslaan',exact:true}).click();await expect(admin.locator('summary')).toContainText('uitgeschakeld');
+});
+
+test('Beheerder voegt gebruiker toe, kent rechten toe, trekt rechten in en verwijdert na bevestiging',async({page})=>{
+ await setup(page);
+ const panel=page.getByRole('region',{name:'Gebruikers en beheerders',exact:true});
+ await panel.getByLabel('E-mailadres nieuwe gebruiker').fill('new@example.test');
+ await panel.getByRole('button',{name:'Gebruiker toevoegen',exact:true}).click();
+ await expect(panel.getByRole('status')).toContainText('uitnodiging is verstuurd');
+ let row=panel.getByRole('listitem').filter({hasText:'new@example.test'});
+ await expect(row).toContainText('Gebruiker');
+ page.once('dialog',d=>d.accept());await row.getByRole('button',{name:'Maak beheerder'}).click();
+ await expect(row).toContainText('Beheerder');
+ // Add a second administrator so the last-admin guard does not disable revocation.
+ page.once('dialog',d=>d.accept());await panel.getByRole('listitem').filter({hasText:'visitor@example.test'}).getByRole('button',{name:'Maak beheerder'}).click();
+ page.once('dialog',d=>d.accept());await row.getByRole('button',{name:'Beheer intrekken'}).click();
+ await expect(row.getByRole('button',{name:'Maak beheerder'})).toBeVisible();
+ await page.reload();row=panel.getByRole('listitem').filter({hasText:'new@example.test'});
+ await row.getByRole('button',{name:'Gebruiker verwijderen'}).click();
+ await panel.getByRole('button',{name:'Annuleren',exact:true}).click();await expect(row).toBeVisible();
+ await row.getByRole('button',{name:'Gebruiker verwijderen'}).click();
+ await panel.getByRole('button',{name:'Definitief verwijderen',exact:true}).click();
+ await expect(row).toHaveCount(0);await page.reload();await expect(row).toHaveCount(0);
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+});
+test('Uitnodigingsfout wordt getoond zonder succesbericht of verdwenen invoer',async({page})=>{
+ await setup(page);
+ await page.route('**/functions/v1/manage-users',r=>r.fulfill({status:409,json:{error:'E-mailverzending is niet ingesteld.'},headers:{'access-control-allow-origin':'*'}}));
+ const panel=page.getByRole('region',{name:'Gebruikers en beheerders',exact:true});
+ await panel.getByLabel('E-mailadres nieuwe gebruiker').fill('new@example.test');
+ await panel.getByRole('button',{name:'Gebruiker toevoegen',exact:true}).click();
+ await expect(panel.getByRole('status')).toHaveText('E-mailverzending is niet ingesteld.');
+ await expect(panel.getByLabel('E-mailadres nieuwe gebruiker')).toHaveValue('new@example.test');
 });
