@@ -2,7 +2,7 @@
 let pending: Promise<string> | null = null;
 export function voyagerUrl(): Promise<string> {
   if (!pending)
-    pending = fetch("/api/basemap-config", {
+    pending = fetch("/kunstkiezer/api/basemap-config", {
       headers: { accept: "application/json" },
       credentials: "same-origin",
       cache: "no-store",

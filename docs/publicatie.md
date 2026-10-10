@@ -11,3 +11,5 @@ Productie gebruikt de bestaande gecontroleerde publicatieketen van `harmenploeg/
 5. De productiecontrole vergelijkt `/kunstkiezer/version.json`, pagina’s, alle JS/CSS-assets en de databaseconfiguratie met de gecontroleerde bronrevisie. Pas na een geslaagde productierun is de wijziging live op het echte domein.
 
 De integratie laat de Loci-hoofdapp, toegangsbescherming en onderhoudsstand intact. De publieke Supabase-browserconfiguratie bevat geen beheersleutel. De serviceworker van Loci slaat Kunstkiezer over. Oude browseropslag op de preview wordt niet automatisch naar het productiedomein overgezet.
+
+Sinds 10 oktober 2026 slaat Cloudflare Access uitsluitend `www.loci-amsterdam.nl/kunstkiezer` en onderliggende paden over, met toestemming van de beheerder. Bezoekers krijgen daar geen extra Cloudflare-e-mailcode. Persoonlijke gegevens en beheer blijven beschermd door Supabase-accountrechten. De kaart haalt de browserconfiguratie op via `/kunstkiezer/api/basemap-config`; de Loci-hoofdapp en zijn API-paden blijven afgeschermd. De productiecontrole test Kunstkiezer zonder Access-servicegegevens.

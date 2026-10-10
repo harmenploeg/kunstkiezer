@@ -57,7 +57,7 @@ const discoveries = [
   },
 ];
 async function setup(page: Page) {
-  await page.route('**/api/basemap-config', r=>r.fulfill({json:{key:'test_basemap_key_123456789'}}));
+  await page.route('**/kunstkiezer/api/basemap-config', r=>r.fulfill({json:{key:'test_basemap_key_123456789'}}));
   await page.route('https://*.basemaps.cartocdn.com/**',r=>r.fulfill({contentType:'image/png',body:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Wl6YJkAAAAASUVORK5CYII=','base64')}));
   await page.addInitScript(() =>
     localStorage.setItem(
