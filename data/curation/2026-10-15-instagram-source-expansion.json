@@ -1,0 +1,1364 @@
+{
+  "action": "expand_update_sources_on_explicit_user_request",
+  "checked_at": "2026-10-15T10:17:37.329892+00:00",
+  "scope": "Configuratie-uitbreiding, geen nieuwe catalogusronde en geen claim van inhoudelijke nieuwscontrole.",
+  "before": {
+    "active_sources": 35,
+    "active_instagram": 6
+  },
+  "planned_additions": 67,
+  "museum_accounts": 51,
+  "creator_accounts": 16,
+  "provinces": [
+    "Drenthe",
+    "Flevoland",
+    "Friesland",
+    "Gelderland",
+    "Groningen",
+    "Limburg",
+    "Noord-Brabant",
+    "Noord-Holland",
+    "Overijssel",
+    "Utrecht",
+    "Zeeland",
+    "Zuid-Holland"
+  ],
+  "identity_verification": "Alle 67 profielen geopend in gewone browser: profielnaam en publieke berichtlinks zichtbaar, geen privéprofiel. Alle 51 instellingsaccounts bovendien gekoppeld vanaf officiële museumwebsite. Alleen bronidentiteit geverifieerd; geen volledige 28-dagencontrole.",
+  "candidates": [
+    {
+      "handle": "rijksmuseum",
+      "name": "Rijksmuseum Amsterdam",
+      "kind": "museum",
+      "province": "Noord-Holland",
+      "identity_source": "https://www.rijksmuseum.nl/nl",
+      "url": "https://www.instagram.com/rijksmuseum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "stedelijkmuseum",
+      "name": "Stedelijk Museum Amsterdam",
+      "kind": "museum",
+      "province": "Noord-Holland",
+      "identity_source": "https://www.stedelijk.nl/nl",
+      "url": "https://www.instagram.com/stedelijkmuseum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "huismarseille",
+      "name": "Huis Marseille, Museum voor Fotografie",
+      "kind": "museum",
+      "province": "Noord-Holland",
+      "identity_source": "https://huismarseille.nl/",
+      "url": "https://www.instagram.com/huismarseille/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "franshalsmuseum",
+      "name": "Frans Hals Museum",
+      "kind": "museum",
+      "province": "Noord-Holland",
+      "identity_source": "https://franshalsmuseum.nl/nl",
+      "url": "https://www.instagram.com/franshalsmuseum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "teylersmuseum",
+      "name": "Teylers Museum",
+      "kind": "museum",
+      "province": "Noord-Holland",
+      "identity_source": "https://teylersmuseum.nl/nl",
+      "url": "https://www.instagram.com/teylersmuseum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museumrembrandthuis",
+      "name": "Museum Rembrandthuis",
+      "kind": "museum",
+      "province": "Noord-Holland",
+      "identity_source": "https://www.rembrandthuis.nl/nl/",
+      "url": "https://www.instagram.com/museumrembrandthuis/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museumvoorlinden",
+      "name": "Museum Voorlinden",
+      "kind": "museum",
+      "province": "Zuid-Holland",
+      "identity_source": "https://www.voorlinden.nl/",
+      "url": "https://www.instagram.com/museumvoorlinden/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "kunstmuseum.nl",
+      "name": "Kunstmuseum Den Haag",
+      "kind": "museum",
+      "province": "Zuid-Holland",
+      "identity_source": "https://www.kunstmuseum.nl/nl",
+      "url": "https://www.instagram.com/kunstmuseum.nl/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museumpanoramamesdag",
+      "name": "Museum Panorama Mesdag",
+      "kind": "museum",
+      "province": "Zuid-Holland",
+      "identity_source": "https://panorama-mesdag.nl/",
+      "url": "https://www.instagram.com/museumpanoramamesdag/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "fotomuseumdenhaag",
+      "name": "Fotomuseum Den Haag",
+      "kind": "museum",
+      "province": "Zuid-Holland",
+      "identity_source": "https://www.fotomuseumdenhaag.nl/nl",
+      "url": "https://www.instagram.com/fotomuseumdenhaag/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museumdelakenhal",
+      "name": "Museum De Lakenhal",
+      "kind": "museum",
+      "province": "Zuid-Holland",
+      "identity_source": "https://www.lakenhal.nl/nl",
+      "url": "https://www.instagram.com/museumdelakenhal/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "dordrechtsmuseum",
+      "name": "Dordrechts Museum",
+      "kind": "museum",
+      "province": "Zuid-Holland",
+      "identity_source": "https://www.dordrechtsmuseum.nl",
+      "url": "https://www.instagram.com/dordrechtsmuseum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museum_gouda",
+      "name": "Museum Gouda",
+      "kind": "museum",
+      "province": "Zuid-Holland",
+      "identity_source": "https://www.museumgouda.nl/",
+      "url": "https://www.instagram.com/museum_gouda/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museumbaz",
+      "name": "Museum Beelden aan Zee",
+      "kind": "museum",
+      "province": "Zuid-Holland",
+      "identity_source": "https://www.beeldenaanzee.nl",
+      "url": "https://www.instagram.com/museumbaz/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "kunsthal",
+      "name": "Kunsthal Rotterdam",
+      "kind": "museum",
+      "province": "Zuid-Holland",
+      "identity_source": "https://kunsthal.nl/nl/",
+      "url": "https://www.instagram.com/kunsthal/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "boijmans",
+      "name": "Museum Boijmans Van Beuningen",
+      "kind": "museum",
+      "province": "Zuid-Holland",
+      "identity_source": "https://www.boijmans.nl/",
+      "url": "https://www.instagram.com/boijmans/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "nlfotomuseum",
+      "name": "Nederlands Fotomuseum",
+      "kind": "museum",
+      "province": "Zuid-Holland",
+      "identity_source": "https://nederlandsfotomuseum.nl/",
+      "url": "https://www.instagram.com/nlfotomuseum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "fenix",
+      "name": "FENIX",
+      "kind": "museum",
+      "province": "Zuid-Holland",
+      "identity_source": "https://www.fenix.nl/nl/",
+      "url": "https://www.instagram.com/fenix/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "nieuweinstituut",
+      "name": "Nieuwe Instituut",
+      "kind": "museum",
+      "province": "Zuid-Holland",
+      "identity_source": "https://nieuweinstituut.nl/",
+      "url": "https://www.instagram.com/nieuweinstituut/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "centraalmuseum",
+      "name": "Centraal Museum",
+      "kind": "museum",
+      "province": "Utrecht",
+      "identity_source": "https://www.centraalmuseum.nl",
+      "url": "https://www.instagram.com/centraalmuseum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "kunsthal_kade_amersfoort",
+      "name": "Kunsthal KAdE",
+      "kind": "museum",
+      "province": "Utrecht",
+      "identity_source": "https://www.kunsthalkade.nl/nl/",
+      "url": "https://www.instagram.com/kunsthal_kade_amersfoort/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museumcatharijneconvent",
+      "name": "Museum Catharijneconvent",
+      "kind": "museum",
+      "province": "Utrecht",
+      "identity_source": "https://www.catharijneconvent.nl/",
+      "url": "https://www.instagram.com/museumcatharijneconvent/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "krollermullermuseum",
+      "name": "Kröller-Müller Museum",
+      "kind": "museum",
+      "province": "Gelderland",
+      "identity_source": "https://www.krollermuller.nl/nl",
+      "url": "https://www.instagram.com/krollermullermuseum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museummore",
+      "name": "Museum MORE",
+      "kind": "museum",
+      "province": "Gelderland",
+      "identity_source": "https://www.museummore.nl",
+      "url": "https://www.instagram.com/museummore/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "codaapeldoorn",
+      "name": "CODA",
+      "kind": "museum",
+      "province": "Gelderland",
+      "identity_source": "https://www.coda-apeldoorn.nl/",
+      "url": "https://www.instagram.com/codaapeldoorn/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "valkhofmuseum",
+      "name": "Valkhof Museum",
+      "kind": "museum",
+      "province": "Gelderland",
+      "identity_source": "https://valkhofmuseum.nl/nl",
+      "url": "https://www.instagram.com/valkhofmuseum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "rijksmuseum_twenthe",
+      "name": "Rijksmuseum Twenthe",
+      "kind": "museum",
+      "province": "Overijssel",
+      "identity_source": "https://www.rijksmuseumtwenthe.nl",
+      "url": "https://www.instagram.com/rijksmuseum_twenthe/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "defundatie",
+      "name": "Museum de Fundatie",
+      "kind": "museum",
+      "province": "Overijssel",
+      "identity_source": "https://museumdefundatie.nl/nl",
+      "url": "https://www.instagram.com/defundatie/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "groninger.museum",
+      "name": "Groninger Museum",
+      "kind": "museum",
+      "province": "Groningen",
+      "identity_source": "https://www.groningermuseum.nl",
+      "url": "https://www.instagram.com/groninger.museum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "hetmow",
+      "name": "MOW I Museum Westerwolde",
+      "kind": "museum",
+      "province": "Groningen",
+      "identity_source": "https://www.hetmow.nl",
+      "url": "https://www.instagram.com/hetmow/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "friesmuseum",
+      "name": "Fries Museum",
+      "kind": "museum",
+      "province": "Friesland",
+      "identity_source": "https://www.friesmuseum.nl/",
+      "url": "https://www.instagram.com/friesmuseum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museumbelvedere",
+      "name": "Museum Belvédère",
+      "kind": "museum",
+      "province": "Friesland",
+      "identity_source": "https://www.museumbelvedere.nl/nl/",
+      "url": "https://www.instagram.com/museumbelvedere/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "keramiekmuseum_princessehof",
+      "name": "Keramiekmuseum Princessehof",
+      "kind": "museum",
+      "province": "Friesland",
+      "identity_source": "https://www.princessehof.nl",
+      "url": "https://www.instagram.com/keramiekmuseum_princessehof/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museumdr8888",
+      "name": "Museum Dr8888",
+      "kind": "museum",
+      "province": "Friesland",
+      "identity_source": "https://museumdrachten.nl/",
+      "url": "https://www.instagram.com/museumdr8888/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "drentsmuseumassen",
+      "name": "Drents Museum",
+      "kind": "museum",
+      "province": "Drenthe",
+      "identity_source": "https://drentsmuseum.nl/",
+      "url": "https://www.instagram.com/drentsmuseumassen/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "dmdebuitenplaats",
+      "name": "Drents Museum De Buitenplaats",
+      "kind": "museum",
+      "province": "Drenthe",
+      "identity_source": "https://dmdebuitenplaats.nl/",
+      "url": "https://www.instagram.com/dmdebuitenplaats/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "vanabbemuseum",
+      "name": "Van Abbemuseum",
+      "kind": "museum",
+      "province": "Noord-Brabant",
+      "identity_source": "https://vanabbemuseum.nl:443/nl",
+      "url": "https://www.instagram.com/vanabbemuseum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "de_pont_museum",
+      "name": "De Pont Museum",
+      "kind": "museum",
+      "province": "Noord-Brabant",
+      "identity_source": "https://www.depont.nl",
+      "url": "https://www.instagram.com/de_pont_museum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "hetnoordbrabantsmuseum",
+      "name": "Het Noordbrabants Museum",
+      "kind": "museum",
+      "province": "Noord-Brabant",
+      "identity_source": "https://www.hetnoordbrabantsmuseum.nl/",
+      "url": "https://www.instagram.com/hetnoordbrabantsmuseum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "designmuseumdenbosch",
+      "name": "Design Museum Den Bosch",
+      "kind": "museum",
+      "province": "Noord-Brabant",
+      "identity_source": "https://designmuseum.nl/",
+      "url": "https://www.instagram.com/designmuseumdenbosch/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "stedelijk_museum_breda",
+      "name": "Stedelijk Museum Breda",
+      "kind": "museum",
+      "province": "Noord-Brabant",
+      "identity_source": "https://www.stedelijkmuseumbreda.nl/nl",
+      "url": "https://www.instagram.com/stedelijk_museum_breda/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "vanbommelvandam",
+      "name": "Museum van Bommel van Dam",
+      "kind": "museum",
+      "province": "Limburg",
+      "identity_source": "https://www.vanbommelvandam.nl/",
+      "url": "https://www.instagram.com/vanbommelvandam/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museumw.weert",
+      "name": "Museum W",
+      "kind": "museum",
+      "province": "Limburg",
+      "identity_source": "https://www.museumw.nl",
+      "url": "https://www.instagram.com/museumw.weert/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "zeeuws_museum",
+      "name": "Zeeuws Museum",
+      "kind": "museum",
+      "province": "Zeeland",
+      "identity_source": "https://www.zeeuwsmuseum.nl/nl",
+      "url": "https://www.instagram.com/zeeuws_museum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "vleeshal",
+      "name": "De Vleeshal",
+      "kind": "museum",
+      "province": "Zeeland",
+      "identity_source": "https://www.vleeshal.nl/en",
+      "url": "https://www.instagram.com/vleeshal/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museumnagele",
+      "name": "Museum Nagele",
+      "kind": "museum",
+      "province": "Flevoland",
+      "identity_source": "https://museumnagele.nl/",
+      "url": "https://www.instagram.com/museumnagele/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museumjan_amstelveen",
+      "name": "Museum JAN",
+      "kind": "museum",
+      "province": "Noord-Holland",
+      "identity_source": "https://museumjan.nl/",
+      "url": "https://www.instagram.com/museumjan_amstelveen/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museumkranenburgh",
+      "name": "Museum Kranenburgh",
+      "kind": "museum",
+      "province": "Noord-Holland",
+      "identity_source": "https://kranenburgh.nl/",
+      "url": "https://www.instagram.com/museumkranenburgh/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "museumvandegeest",
+      "name": "Museum van de geest | Outsider Art",
+      "kind": "museum",
+      "province": "Noord-Holland",
+      "identity_source": "https://museumvandegeest.nl/",
+      "url": "https://www.instagram.com/museumvandegeest/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "straatmuseum",
+      "name": "STRAAT Museum",
+      "kind": "museum",
+      "province": "Noord-Holland",
+      "identity_source": "https://www.straatmuseum.com/",
+      "url": "https://www.instagram.com/straatmuseum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "nxtmuseum",
+      "name": "Nxt Museum",
+      "kind": "museum",
+      "province": "Noord-Holland",
+      "identity_source": "https://nxtmuseum.com/",
+      "url": "https://www.instagram.com/nxtmuseum/",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "galeriereporter",
+      "name": "Galeriereporter",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1",
+      "url": "https://www.instagram.com/galeriereporter/",
+      "focus": "kunstbeurzen, galeries en musea",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "artsayssimon",
+      "name": "Art Says Simon",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1",
+      "url": "https://www.instagram.com/artsayssimon/",
+      "focus": "kunstrecensies, tentoonstellingen en beurzen",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "artwaus",
+      "name": "Artwaus",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1",
+      "url": "https://www.instagram.com/artwaus/",
+      "focus": "hedendaagse kunst en levende kunstenaars",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "wikaatje",
+      "name": "Wikaatje · Willemien Kamps",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1",
+      "url": "https://www.instagram.com/wikaatje/",
+      "focus": "kunst- en cultuurfotografie",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "justtakemethere",
+      "name": "Just Take Me There · Charlotte van Beek",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1",
+      "url": "https://www.instagram.com/justtakemethere/",
+      "focus": "kunstgeschiedenis, verzamelen en tentoonstellingen",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "about_artnl",
+      "name": "About Art NL · Jennifer Hensen",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1",
+      "url": "https://www.instagram.com/about_artnl/",
+      "focus": "kunstbeschouwing, musea en kunsteducatie",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "allesiscultuur",
+      "name": "Alles is Cultuur",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1",
+      "url": "https://www.instagram.com/allesiscultuur/",
+      "focus": "kunst, architectuur en culturele uitstapjes",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "curatedartform",
+      "name": "Curated Artform",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1",
+      "url": "https://www.instagram.com/curatedartform/",
+      "focus": "kunstcollecties, tentoonstellingen en kunstbeurzen",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "digitalekunstkrant",
+      "name": "Digitale Kunstkrant",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1",
+      "url": "https://www.instagram.com/digitalekunstkrant/",
+      "focus": "beeldende kunst en tentoonstellingsnieuws",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "jenslookingglass",
+      "name": "Jen’s Looking Glass",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1",
+      "url": "https://www.instagram.com/jenslookingglass/",
+      "focus": "musea, streetart en fotografie",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "lerenvankunst.nl",
+      "name": "Leren van Kunst · Roumayne Schepers",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1",
+      "url": "https://www.instagram.com/lerenvankunst.nl/",
+      "focus": "kunstbeleving en kunsteducatie",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "poweredbyart",
+      "name": "Powered by Art",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1",
+      "url": "https://www.instagram.com/poweredbyart/",
+      "focus": "kunstblogs, musea en galeriebezoek",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "sophie.kugel",
+      "name": "Sophie Kugel",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1",
+      "url": "https://www.instagram.com/sophie.kugel/",
+      "focus": "kunst, architectuur en museumfotografie",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "artstorylover",
+      "name": "Artstorylover · Pelle Samhoud",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://influencers.feedspot.com/dutch_art_instagram_influencers/",
+      "url": "https://www.instagram.com/artstorylover/",
+      "focus": "kunstverhalen en De Kunst Cast",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "kunstfanaatjes",
+      "name": "Kunstfanaatjes",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://www.stayokay.com/nl/blog/slapen-in-een-museumthema",
+      "url": "https://www.instagram.com/kunstfanaatjes/",
+      "focus": "museumtips en kunsteducatie voor families",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    },
+    {
+      "handle": "kunstkieken.nl",
+      "name": "KunstKieken",
+      "kind": "kunst- en cultuurmaker",
+      "province": null,
+      "identity_source": "https://kunstkieken.nl/",
+      "url": "https://www.instagram.com/kunstkieken.nl/",
+      "focus": "kunst- en museumbeleving",
+      "browser_checked_at": "2026-10-15T10:17:37.329892+00:00",
+      "public_profile": true,
+      "visible_post_links": true,
+      "last_successful_content_check": null
+    }
+  ],
+  "excluded": [
+    {
+      "handle": "museumview",
+      "reason": "Profielpagina niet beschikbaar in gewone browser; niet toegevoegd."
+    },
+    {
+      "handle": "agreyladywithanattitude",
+      "reason": "Profielpagina niet beschikbaar in gewone browser; niet toegevoegd."
+    },
+    {
+      "handle": "mydailyshotofculture",
+      "reason": "Profielpagina niet beschikbaar in gewone browser; niet toegevoegd."
+    },
+    {
+      "handle": "culturekitten",
+      "reason": "Profielpagina niet beschikbaar in gewone browser; niet toegevoegd."
+    },
+    {
+      "handle": "daring_initiatives",
+      "reason": "Profielpagina niet beschikbaar in gewone browser; niet toegevoegd."
+    },
+    {
+      "handle": "weliketoarty",
+      "reason": "Profielpagina niet beschikbaar in gewone browser; niet toegevoegd."
+    },
+    {
+      "handle": "cultuur_snuiver",
+      "reason": "Profiel noemt zichzelf Archief 2018–2025 en verwijst naar nieuwsbrief; niet als actieve Instagramnieuwsbron toegevoegd."
+    }
+  ],
+  "source_rows": [
+    {
+      "id": "instagram-rijksmuseum",
+      "name": "Instagram · Rijksmuseum Amsterdam (@rijksmuseum)",
+      "url": "https://www.instagram.com/rijksmuseum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.rijksmuseum.nl/nl. Regio: Noord-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-stedelijkmuseum",
+      "name": "Instagram · Stedelijk Museum Amsterdam (@stedelijkmuseum)",
+      "url": "https://www.instagram.com/stedelijkmuseum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.stedelijk.nl/nl. Regio: Noord-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-huismarseille",
+      "name": "Instagram · Huis Marseille, Museum voor Fotografie (@huismarseille)",
+      "url": "https://www.instagram.com/huismarseille/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://huismarseille.nl/. Regio: Noord-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-franshalsmuseum",
+      "name": "Instagram · Frans Hals Museum (@franshalsmuseum)",
+      "url": "https://www.instagram.com/franshalsmuseum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://franshalsmuseum.nl/nl. Regio: Noord-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-teylersmuseum",
+      "name": "Instagram · Teylers Museum (@teylersmuseum)",
+      "url": "https://www.instagram.com/teylersmuseum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://teylersmuseum.nl/nl. Regio: Noord-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museumrembrandthuis",
+      "name": "Instagram · Museum Rembrandthuis (@museumrembrandthuis)",
+      "url": "https://www.instagram.com/museumrembrandthuis/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.rembrandthuis.nl/nl/. Regio: Noord-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museumvoorlinden",
+      "name": "Instagram · Museum Voorlinden (@museumvoorlinden)",
+      "url": "https://www.instagram.com/museumvoorlinden/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.voorlinden.nl/. Regio: Zuid-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-kunstmuseum.nl",
+      "name": "Instagram · Kunstmuseum Den Haag (@kunstmuseum.nl)",
+      "url": "https://www.instagram.com/kunstmuseum.nl/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.kunstmuseum.nl/nl. Regio: Zuid-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museumpanoramamesdag",
+      "name": "Instagram · Museum Panorama Mesdag (@museumpanoramamesdag)",
+      "url": "https://www.instagram.com/museumpanoramamesdag/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://panorama-mesdag.nl/. Regio: Zuid-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-fotomuseumdenhaag",
+      "name": "Instagram · Fotomuseum Den Haag (@fotomuseumdenhaag)",
+      "url": "https://www.instagram.com/fotomuseumdenhaag/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.fotomuseumdenhaag.nl/nl. Regio: Zuid-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museumdelakenhal",
+      "name": "Instagram · Museum De Lakenhal (@museumdelakenhal)",
+      "url": "https://www.instagram.com/museumdelakenhal/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.lakenhal.nl/nl. Regio: Zuid-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-dordrechtsmuseum",
+      "name": "Instagram · Dordrechts Museum (@dordrechtsmuseum)",
+      "url": "https://www.instagram.com/dordrechtsmuseum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.dordrechtsmuseum.nl. Regio: Zuid-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museum_gouda",
+      "name": "Instagram · Museum Gouda (@museum_gouda)",
+      "url": "https://www.instagram.com/museum_gouda/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.museumgouda.nl/. Regio: Zuid-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museumbaz",
+      "name": "Instagram · Museum Beelden aan Zee (@museumbaz)",
+      "url": "https://www.instagram.com/museumbaz/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.beeldenaanzee.nl. Regio: Zuid-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-kunsthal",
+      "name": "Instagram · Kunsthal Rotterdam (@kunsthal)",
+      "url": "https://www.instagram.com/kunsthal/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://kunsthal.nl/nl/. Regio: Zuid-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-boijmans",
+      "name": "Instagram · Museum Boijmans Van Beuningen (@boijmans)",
+      "url": "https://www.instagram.com/boijmans/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.boijmans.nl/. Regio: Zuid-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-nlfotomuseum",
+      "name": "Instagram · Nederlands Fotomuseum (@nlfotomuseum)",
+      "url": "https://www.instagram.com/nlfotomuseum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://nederlandsfotomuseum.nl/. Regio: Zuid-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-fenix",
+      "name": "Instagram · FENIX (@fenix)",
+      "url": "https://www.instagram.com/fenix/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.fenix.nl/nl/. Regio: Zuid-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-nieuweinstituut",
+      "name": "Instagram · Nieuwe Instituut (@nieuweinstituut)",
+      "url": "https://www.instagram.com/nieuweinstituut/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://nieuweinstituut.nl/. Regio: Zuid-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-centraalmuseum",
+      "name": "Instagram · Centraal Museum (@centraalmuseum)",
+      "url": "https://www.instagram.com/centraalmuseum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.centraalmuseum.nl. Regio: Utrecht. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-kunsthal_kade_amersfoort",
+      "name": "Instagram · Kunsthal KAdE (@kunsthal_kade_amersfoort)",
+      "url": "https://www.instagram.com/kunsthal_kade_amersfoort/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.kunsthalkade.nl/nl/. Regio: Utrecht. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museumcatharijneconvent",
+      "name": "Instagram · Museum Catharijneconvent (@museumcatharijneconvent)",
+      "url": "https://www.instagram.com/museumcatharijneconvent/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.catharijneconvent.nl/. Regio: Utrecht. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-krollermullermuseum",
+      "name": "Instagram · Kröller-Müller Museum (@krollermullermuseum)",
+      "url": "https://www.instagram.com/krollermullermuseum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.krollermuller.nl/nl. Regio: Gelderland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museummore",
+      "name": "Instagram · Museum MORE (@museummore)",
+      "url": "https://www.instagram.com/museummore/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.museummore.nl. Regio: Gelderland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-codaapeldoorn",
+      "name": "Instagram · CODA (@codaapeldoorn)",
+      "url": "https://www.instagram.com/codaapeldoorn/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.coda-apeldoorn.nl/. Regio: Gelderland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-valkhofmuseum",
+      "name": "Instagram · Valkhof Museum (@valkhofmuseum)",
+      "url": "https://www.instagram.com/valkhofmuseum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://valkhofmuseum.nl/nl. Regio: Gelderland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-rijksmuseum_twenthe",
+      "name": "Instagram · Rijksmuseum Twenthe (@rijksmuseum_twenthe)",
+      "url": "https://www.instagram.com/rijksmuseum_twenthe/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.rijksmuseumtwenthe.nl. Regio: Overijssel. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-defundatie",
+      "name": "Instagram · Museum de Fundatie (@defundatie)",
+      "url": "https://www.instagram.com/defundatie/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://museumdefundatie.nl/nl. Regio: Overijssel. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-groninger.museum",
+      "name": "Instagram · Groninger Museum (@groninger.museum)",
+      "url": "https://www.instagram.com/groninger.museum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.groningermuseum.nl. Regio: Groningen. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-hetmow",
+      "name": "Instagram · MOW I Museum Westerwolde (@hetmow)",
+      "url": "https://www.instagram.com/hetmow/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.hetmow.nl. Regio: Groningen. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-friesmuseum",
+      "name": "Instagram · Fries Museum (@friesmuseum)",
+      "url": "https://www.instagram.com/friesmuseum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.friesmuseum.nl/. Regio: Friesland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museumbelvedere",
+      "name": "Instagram · Museum Belvédère (@museumbelvedere)",
+      "url": "https://www.instagram.com/museumbelvedere/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.museumbelvedere.nl/nl/. Regio: Friesland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-keramiekmuseum_princessehof",
+      "name": "Instagram · Keramiekmuseum Princessehof (@keramiekmuseum_princessehof)",
+      "url": "https://www.instagram.com/keramiekmuseum_princessehof/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.princessehof.nl. Regio: Friesland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museumdr8888",
+      "name": "Instagram · Museum Dr8888 (@museumdr8888)",
+      "url": "https://www.instagram.com/museumdr8888/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://museumdrachten.nl/. Regio: Friesland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-drentsmuseumassen",
+      "name": "Instagram · Drents Museum (@drentsmuseumassen)",
+      "url": "https://www.instagram.com/drentsmuseumassen/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://drentsmuseum.nl/. Regio: Drenthe. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-dmdebuitenplaats",
+      "name": "Instagram · Drents Museum De Buitenplaats (@dmdebuitenplaats)",
+      "url": "https://www.instagram.com/dmdebuitenplaats/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://dmdebuitenplaats.nl/. Regio: Drenthe. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-vanabbemuseum",
+      "name": "Instagram · Van Abbemuseum (@vanabbemuseum)",
+      "url": "https://www.instagram.com/vanabbemuseum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://vanabbemuseum.nl:443/nl. Regio: Noord-Brabant. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-de_pont_museum",
+      "name": "Instagram · De Pont Museum (@de_pont_museum)",
+      "url": "https://www.instagram.com/de_pont_museum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.depont.nl. Regio: Noord-Brabant. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-hetnoordbrabantsmuseum",
+      "name": "Instagram · Het Noordbrabants Museum (@hetnoordbrabantsmuseum)",
+      "url": "https://www.instagram.com/hetnoordbrabantsmuseum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.hetnoordbrabantsmuseum.nl/. Regio: Noord-Brabant. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-designmuseumdenbosch",
+      "name": "Instagram · Design Museum Den Bosch (@designmuseumdenbosch)",
+      "url": "https://www.instagram.com/designmuseumdenbosch/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://designmuseum.nl/. Regio: Noord-Brabant. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-stedelijk_museum_breda",
+      "name": "Instagram · Stedelijk Museum Breda (@stedelijk_museum_breda)",
+      "url": "https://www.instagram.com/stedelijk_museum_breda/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.stedelijkmuseumbreda.nl/nl. Regio: Noord-Brabant. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-vanbommelvandam",
+      "name": "Instagram · Museum van Bommel van Dam (@vanbommelvandam)",
+      "url": "https://www.instagram.com/vanbommelvandam/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.vanbommelvandam.nl/. Regio: Limburg. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museumw.weert",
+      "name": "Instagram · Museum W (@museumw.weert)",
+      "url": "https://www.instagram.com/museumw.weert/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.museumw.nl. Regio: Limburg. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-zeeuws_museum",
+      "name": "Instagram · Zeeuws Museum (@zeeuws_museum)",
+      "url": "https://www.instagram.com/zeeuws_museum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.zeeuwsmuseum.nl/nl. Regio: Zeeland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-vleeshal",
+      "name": "Instagram · De Vleeshal (@vleeshal)",
+      "url": "https://www.instagram.com/vleeshal/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.vleeshal.nl/en. Regio: Zeeland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museumnagele",
+      "name": "Instagram · Museum Nagele (@museumnagele)",
+      "url": "https://www.instagram.com/museumnagele/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://museumnagele.nl/. Regio: Flevoland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museumjan_amstelveen",
+      "name": "Instagram · Museum JAN (@museumjan_amstelveen)",
+      "url": "https://www.instagram.com/museumjan_amstelveen/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://museumjan.nl/. Regio: Noord-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museumkranenburgh",
+      "name": "Instagram · Museum Kranenburgh (@museumkranenburgh)",
+      "url": "https://www.instagram.com/museumkranenburgh/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://kranenburgh.nl/. Regio: Noord-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-museumvandegeest",
+      "name": "Instagram · Museum van de geest | Outsider Art (@museumvandegeest)",
+      "url": "https://www.instagram.com/museumvandegeest/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://museumvandegeest.nl/. Regio: Noord-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-straatmuseum",
+      "name": "Instagram · STRAAT Museum (@straatmuseum)",
+      "url": "https://www.instagram.com/straatmuseum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.straatmuseum.com/. Regio: Noord-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-nxtmuseum",
+      "name": "Instagram · Nxt Museum (@nxtmuseum)",
+      "url": "https://www.instagram.com/nxtmuseum/",
+      "notes": "Type: museum. Focus: officieel museumprogramma, collectie, locaties en kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://nxtmuseum.com/. Regio: Noord-Holland. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-galeriereporter",
+      "name": "Instagram · Galeriereporter (@galeriereporter)",
+      "url": "https://www.instagram.com/galeriereporter/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: kunstbeurzen, galeries en musea. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-artsayssimon",
+      "name": "Instagram · Art Says Simon (@artsayssimon)",
+      "url": "https://www.instagram.com/artsayssimon/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: kunstrecensies, tentoonstellingen en beurzen. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-artwaus",
+      "name": "Instagram · Artwaus (@artwaus)",
+      "url": "https://www.instagram.com/artwaus/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: hedendaagse kunst en levende kunstenaars. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-wikaatje",
+      "name": "Instagram · Wikaatje · Willemien Kamps (@wikaatje)",
+      "url": "https://www.instagram.com/wikaatje/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: kunst- en cultuurfotografie. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-justtakemethere",
+      "name": "Instagram · Just Take Me There · Charlotte van Beek (@justtakemethere)",
+      "url": "https://www.instagram.com/justtakemethere/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: kunstgeschiedenis, verzamelen en tentoonstellingen. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-about_artnl",
+      "name": "Instagram · About Art NL · Jennifer Hensen (@about_artnl)",
+      "url": "https://www.instagram.com/about_artnl/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: kunstbeschouwing, musea en kunsteducatie. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-allesiscultuur",
+      "name": "Instagram · Alles is Cultuur (@allesiscultuur)",
+      "url": "https://www.instagram.com/allesiscultuur/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: kunst, architectuur en culturele uitstapjes. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-curatedartform",
+      "name": "Instagram · Curated Artform (@curatedartform)",
+      "url": "https://www.instagram.com/curatedartform/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: kunstcollecties, tentoonstellingen en kunstbeurzen. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-digitalekunstkrant",
+      "name": "Instagram · Digitale Kunstkrant (@digitalekunstkrant)",
+      "url": "https://www.instagram.com/digitalekunstkrant/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: beeldende kunst en tentoonstellingsnieuws. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-jenslookingglass",
+      "name": "Instagram · Jen’s Looking Glass (@jenslookingglass)",
+      "url": "https://www.instagram.com/jenslookingglass/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: musea, streetart en fotografie. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-lerenvankunst.nl",
+      "name": "Instagram · Leren van Kunst · Roumayne Schepers (@lerenvankunst.nl)",
+      "url": "https://www.instagram.com/lerenvankunst.nl/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: kunstbeleving en kunsteducatie. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-poweredbyart",
+      "name": "Instagram · Powered by Art (@poweredbyart)",
+      "url": "https://www.instagram.com/poweredbyart/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: kunstblogs, musea en galeriebezoek. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-sophie.kugel",
+      "name": "Instagram · Sophie Kugel (@sophie.kugel)",
+      "url": "https://www.instagram.com/sophie.kugel/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: kunst, architectuur en museumfotografie. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://florlinckens.wixsite.com/galeriemeisje/kopie-van-cultuurambassadeurs-1. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-artstorylover",
+      "name": "Instagram · Artstorylover · Pelle Samhoud (@artstorylover)",
+      "url": "https://www.instagram.com/artstorylover/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: kunstverhalen en De Kunst Cast. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://influencers.feedspot.com/dutch_art_instagram_influencers/. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-kunstfanaatjes",
+      "name": "Instagram · Kunstfanaatjes (@kunstfanaatjes)",
+      "url": "https://www.instagram.com/kunstfanaatjes/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: museumtips en kunsteducatie voor families. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://www.stayokay.com/nl/blog/slapen-in-een-museumthema. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    },
+    {
+      "id": "instagram-kunstkieken.nl",
+      "name": "Instagram · KunstKieken (@kunstkieken.nl)",
+      "url": "https://www.instagram.com/kunstkieken.nl/",
+      "notes": "Type: kunst- en cultuurmaker. Focus: kunst- en museumbeleving. Identiteitscontrole 15 oktober 2026: openbaar profiel met zichtbare berichtlinks in gewone browser; bronverwijzing: https://kunstkieken.nl/. Profiel vermeldt UNDER CONSTRUCTION; actuele berichtfrequentie en bezoekdata afzonderlijk controleren. Wekelijks nieuwe posts en reels sinds de vorige geslaagde inhoudelijke controle, met minimaal 7 dagen overlap; eerste ronde laatste 28 dagen (Europe/Amsterdam). Open profiel en individuele berichten in de gewone browser met beschikbare sessie; lees volledig bijschrift, permalink en publicatiedatum, ook van vastgezette berichten. Stories alleen zolang bereikbaar. Beoordeel alle vijf categorieën: musea, openbare kunst, beeldenparken, architectuur en evenementen. Verifieer vondsten, exacte looptijd en werkelijke bezoeklocatie bij de officiële organisator; controleer het volledige tentoonstellingsprogramma naast sociale tips. Leg werkelijk gelezen URLs, venster, kandidaten en toegangsbeperkingen per bron vast. Alleen profielidentiteit bevestigd bij toevoeging; eerste inhoudscontrole nog open. Geen credentials bewaren, geen toegangsbeperkingen omzeilen en geen berichten, likes of volgacties uitvoeren.",
+      "enabled": true
+    }
+  ],
+  "verification": {
+    "database": "Alle 67 nieuwe rijen en alle velden teruggelezen en exact vergeleken; alle 36 bestaande bronnen inclusief enabled, notes en updated_at ongewijzigd.",
+    "existing_sources": "Insert-only met controle op id en genormaliseerde URL; verwijderde of uitgeschakelde bronnen niet herstellen.",
+    "schedule": "Bestaande maandagplanning en bestaande wachtrij behouden. Geen nieuwe automatie of update-aanvraag.",
+    "deployment": "Niet nodig: Beheer leest de gewijzigde bronnenlijst rechtstreeks uit Supabase; geen app- of cataloguswijziging.",
+    "verified_at": "2026-10-15T10:19:11.888378+00:00",
+    "queue": "Bestaande vervolgaanvraag 266ceb3d-8ccf-4c03-851a-8bbeca5e139e blijft queued; geen nieuwe aanvraag of lopende run."
+  },
+  "after": {
+    "total_sources": 103,
+    "active_sources": 102,
+    "active_instagram": 73
+  },
+  "added_count": 67
+}
