@@ -795,11 +795,21 @@
         {
           "url": "https://www.instagram.com/haagse.media.awards/p/DdRWYQMFMI9/",
           "publication_date": "2026-09-14"
+        },
+        {
+          "url": "https://www.instagram.com/prescription_skincare/reel/DeTzxNNgL98/",
+          "published_at": "2026-10-10T09:55:20Z",
+          "conclusion": "Samenwerkingsreel over huidverzorging en kunstadvies, geen concrete bezoekpresentatie."
+        },
+        {
+          "url": "https://www.instagram.com/cathelijneblok/reel/DcRYJkIoxy6/",
+          "published_at": "2026-08-20T18:13:53Z",
+          "conclusion": "Eerste oudere reel buiten venster; datum gelezen."
         }
       ],
       "candidate_count": 0,
       "limitations": [
-        "Stories en afzonderlijke Reels-tab nog niet volledig gecontroleerd."
+        "Reeloverzicht aanvullend gecontroleerd; één samenwerkingsreel toegevoegd. Actuele stories/highlights niet volledig inhoudelijk gelezen; daarom partial."
       ],
       "last_successful_content_check": null,
       "conclusion": "Drie vastgezette berichten buiten venster bevestigd. Kandidaten No Need To Pretend, Betzy Akersloot-Berg, Yayoi Kusama en Amsterdam Museum Festival; podcasts/awards niet als tentoonstellingen ingevoerd. Oude Melkwegpost noemt 31 december; nieuwere post en officiële agenda 30 december, laatste leidend."
@@ -882,10 +892,10 @@
       "source_id": "instagram-kunstmeisjes",
       "name": "Instagram · kunstmeisjes",
       "url": "https://www.instagram.com/kunstmeisjes/",
-      "checked_at": "2026-10-15T07:57:44.232688+00:00",
+      "checked_at": "2026-10-15T08:26:43.935045+00:00",
       "window_from": "2026-09-17",
       "window_to": "2026-10-15",
-      "status": "partial",
+      "status": "read",
       "articles": [
         {
           "url": "https://www.instagram.com/kunstmeisjes/p/DebKxHBjPy1/",
@@ -958,13 +968,23 @@
         {
           "url": "https://www.instagram.com/kunstmeisjes/p/DdYOGy4DJyb/",
           "publication_date": "2026-09-17"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmeisjes/p/DegUW1VDOhE/",
+          "published_at": "2026-10-15T06:30:06Z",
+          "conclusion": "Volledig bijschrift individueel gelezen. Eva Besnyö al aanwezig."
+        },
+        {
+          "url": "https://www.instagram.com/reel/DdPBiqDtovs/",
+          "published_at": "2026-09-13T16:48:01Z",
+          "conclusion": "Eerste oudere reel voorbij nieuwsvenster; datumgrens bevestigd."
         }
       ],
       "candidate_count": 0,
       "limitations": [
-        "Stories en afzonderlijke Reels-tab nog niet volledig gecontroleerd."
+        "Actueel profiel en apart reeloverzicht gecontroleerd tot voorbij venster; alle reels binnen venster waren al individueel gelezen. Op het profiel geen afzonderlijke actuele storylink zichtbaar; verlopen stories zijn niet terug te lezen."
       ],
-      "last_successful_content_check": null,
+      "last_successful_content_check": "2026-10-15T08:26:43.935045+00:00",
       "conclusion": "Kandidaten Eva Besnyö, Frankenthaler/Judd, Quickscan 3, Creation Myths, Yves Klein; buitenlandse presentaties, vacatures, boeken en kunstenaarportretten zonder Nederlandse bezoekplek uitgesloten. Datums uit individuele time-elementen, geen rasterdatums."
     },
     {

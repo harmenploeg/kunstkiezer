@@ -80,8 +80,8 @@
   "preserved_existing": true,
   "source_review": "data/curation/9531a87a-e39d-4597-a762-9eaa7144fcb9-source-review.json",
   "source_counts": {
-    "read": 1,
-    "partial": 34,
+    "read": 2,
+    "partial": 33,
     "blocked": 0,
     "not_checked": 0
   },
@@ -101,7 +101,6 @@
     "Instagram · cathelijneblok",
     "Instagram · dutchgirlsinmuseums",
     "Instagram · kunstmaartje",
-    "Instagram · kunstmeisjes",
     "Instagram · lets_talk_about_art",
     "Instagram · thetittymag",
     "Kunst op Straat · Gemeente Nijmegen",
@@ -178,5 +177,17 @@
         "5dc789ea-6c17-595f-8125-9d1dd8fd958f"
       ]
     }
-  }
+  },
+  "candidate_primary_checks": [
+    {
+      "name": "Disco",
+      "url": "https://amsterdam.wereldmuseum.nl/nl/zien-en-doen/tentoonstellingen/disco",
+      "status": "Zoekaanwijzing met officiële data 10-10-2026 t/m 22-08-2027; detail/bezoekcontrole en opname nog open."
+    },
+    {
+      "name": "Queer Amsterdam",
+      "url": "https://www.nieuwekerk.nl/tentoonstellingen/queer-amsterdam-de-roze-stad/",
+      "status": "Officiële zoekaanwijzing bevestigt 09-07-2026 t/m 04-04-2027; inhoudelijke kunstselectie en bezoekcontrole nog open."
+    }
+  ]
 }
