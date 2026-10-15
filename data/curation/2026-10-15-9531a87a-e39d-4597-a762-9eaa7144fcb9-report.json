@@ -80,8 +80,8 @@
   "preserved_existing": true,
   "source_review": "data/curation/9531a87a-e39d-4597-a762-9eaa7144fcb9-source-review.json",
   "source_counts": {
-    "read": 2,
-    "partial": 33,
+    "read": 8,
+    "partial": 27,
     "blocked": 0,
     "not_checked": 0
   },
@@ -99,15 +99,10 @@
     "Het Parool (aanvullend: Amsterdam)",
     "Historische RDMZ Top 100",
     "Instagram · cathelijneblok",
-    "Instagram · dutchgirlsinmuseums",
-    "Instagram · kunstmaartje",
-    "Instagram · lets_talk_about_art",
-    "Instagram · thetittymag",
     "Kunst op Straat · Gemeente Nijmegen",
     "KunstVensters",
     "Landart Nederland",
     "Musea, kunstinstellingen, kunstenaars en terreinbeheerders",
-    "Museumkijker",
     "Museumtijdschrift",
     "Nederlands Dagblad",
     "Nederlandse architectuur in 250 topstukken",
@@ -115,7 +110,6 @@
     "Reformatorisch Dagblad",
     "Sense of Place",
     "Sleutelwerken",
-    "Stadscuratorium Amsterdam",
     "Trouw",
     "WhichMuseum Kunst & Design",
     "Wikimedia Commons"
@@ -156,11 +150,20 @@
       "decision": "Bestaande datum en auditgeschiedenis behouden; conflict niet stilzwijgend overschreven."
     }
   ],
-  "backlog": "Geen individuele bestaande dossiers als opgelost gemarkeerd; geen automatische vervolgaanvraag op basis van alleen bronnenonderzoek.",
+  "backlog": "Foam individueel inhoudelijk afgerond met primaire collectie-, bezoek-, programma- en beeldbronnen. 587 pending en 1 blocked blijven over. Na geverifieerde publicatie volgt atomair één vervolgaanvraag volgens protocol.",
   "verification": {
     "database": "9 nieuwe records teruggelezen; 301 musea en 513 discoveries gesynchroniseerd",
     "local_checks": "npm run check: typecheck, 60 tests en build geslaagd; Loci check:release en 7 pages-tests geslaagd",
-    "production": "Gereed voor gecontroleerde Loci-publicatie; definitieve productiecontrole volgt in afleververslag.",
+    "production": {
+      "status": "verified",
+      "checked_at": "2026-10-15T08:45:01.127744+00:00",
+      "url": "https://www.loci-amsterdam.nl/kunstkiezer/",
+      "kunstkiezer_commit": "fdd4a612940b996314dc2ddb4f84f5f0d508d9f1",
+      "loci_commit": "2d5f1943d7c6f74fde1962c9da5e36b2c8a42210",
+      "workflow": "https://github.com/harmenploeg/interactief/actions/runs/38705397767",
+      "workflow_conclusion": "success",
+      "checks": "Alle routes, JS/CSS-assets, vijf catalogusdownloads, publieke databaseconfiguratie, Voyager-kaarttegel en rangschikkingsgewichten bevestigd."
+    },
     "public_api": {
       "checked_at": "2026-10-15T08:22:53.576Z",
       "status": 200,
@@ -176,6 +179,14 @@
         "9dea50db-fa26-5784-a8c6-dbe49c8371ca",
         "5dc789ea-6c17-595f-8125-9d1dd8fd958f"
       ]
+    },
+    "preservation": "301 geselecteerde musea en alle 504 bestaande discoveries ongewijzigd tussen begin- en eindsnapshot.",
+    "new_record_quality": {
+      "count": 9,
+      "max_summary_words": 33,
+      "invalid_dates": 0,
+      "broken_coordinate_pairs": 0,
+      "open_photo_dossiers": 3
     }
   },
   "candidate_primary_checks": [
@@ -189,5 +200,33 @@
       "url": "https://www.nieuwekerk.nl/tentoonstellingen/queer-amsterdam-de-roze-stad/",
       "status": "Officiële zoekaanwijzing bevestigt 09-07-2026 t/m 04-04-2027; inhoudelijke kunstselectie en bezoekcontrole nog open."
     }
-  ]
+  ],
+  "resolved_existing_dossiers": [
+    {
+      "run_id": "9531a87a-e39d-4597-a762-9eaa7144fcb9",
+      "checked_at": "2026-10-15T08:35:23.476450+00:00",
+      "fields": [
+        "name",
+        "street_address",
+        "postal_code",
+        "website_url",
+        "summary",
+        "tags",
+        "photos",
+        "current_existence",
+        "visit_access",
+        "operating_status",
+        "coordinate_identity"
+      ],
+      "sources": [
+        "https://www.foam.org/collection",
+        "https://www.foam.org/visit",
+        "https://www.foam.org/programme",
+        "https://commons.wikimedia.org/wiki/File:Amsterdam_Keizersgracht_0609_001.JPG"
+      ],
+      "conclusion": "Actief fotografiemuseum aan Keizersgracht 609, 1017 DS Amsterdam. Officiële collectie bevestigt fotografie, conceptueel werk en portret. Officiële bezoekpagina bevestigt open tijdens verduurzaming, kaartbetaling en beperkte rolstoeltoegankelijkheid. Actueel programma afzonderlijk gecontroleerd. Historische gevel Janericloebe april 2011 met CC BY 3.0; Commons vermeldt objectcoördinaten die binnen circa twee meter van bestaande museumcoördinaten liggen, geen camerastandpunt. Cataloguswaarden behouden.",
+      "remaining": []
+    }
+  ],
+  "continuation": "Eén bestaande-dossiervervolg wordt atomair klaargezet bij afronden run; eerstvolgende reguliere uitvoering maandag 19 oktober 01:00 Europe/Amsterdam. Geen extra timer."
 }

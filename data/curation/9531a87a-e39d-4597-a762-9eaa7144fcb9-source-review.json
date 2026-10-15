@@ -805,11 +805,16 @@
           "url": "https://www.instagram.com/cathelijneblok/reel/DcRYJkIoxy6/",
           "published_at": "2026-08-20T18:13:53Z",
           "conclusion": "Eerste oudere reel buiten venster; datum gelezen."
+        },
+        {
+          "url": "https://www.instagram.com/stories/cathelijneblok/4007673071247918442/",
+          "published_at": null,
+          "conclusion": "Actuele story, 22 uur oud op controlemoment: nieuwsbrief/Substack-promotie, geen concrete tentoonstelling. Visueel gelezen; overige storyframes niet volledig."
         }
       ],
       "candidate_count": 0,
       "limitations": [
-        "Reeloverzicht aanvullend gecontroleerd; één samenwerkingsreel toegevoegd. Actuele stories/highlights niet volledig inhoudelijk gelezen; daarom partial."
+        "Reels en recente berichten gelezen; actuele stories gedeeltelijk visueel gelezen, niet alle frames. Verlopen stories niet beschikbaar; status blijft partial."
       ],
       "last_successful_content_check": null,
       "conclusion": "Drie vastgezette berichten buiten venster bevestigd. Kandidaten No Need To Pretend, Betzy Akersloot-Berg, Yayoi Kusama en Amsterdam Museum Festival; podcasts/awards niet als tentoonstellingen ingevoerd. Oude Melkwegpost noemt 31 december; nieuwere post en officiële agenda 30 december, laatste leidend."
@@ -818,10 +823,10 @@
       "source_id": "instagram-dutchgirlsinmuseums",
       "name": "Instagram · dutchgirlsinmuseums",
       "url": "https://www.instagram.com/dutchgirlsinmuseums/",
-      "checked_at": "2026-10-15T07:57:44.232688+00:00",
+      "checked_at": "2026-10-15T08:42:06.798667+00:00",
       "window_from": "2026-09-17",
       "window_to": "2026-10-15",
-      "status": "partial",
+      "status": "read",
       "articles": [
         {
           "url": "https://www.instagram.com/dutchgirlsinmuseums/p/CusLnenowKp/",
@@ -838,23 +843,33 @@
         {
           "url": "https://www.instagram.com/irisnoza/p/DbbOGKqjSWW/",
           "publication_date": "2026-07-30"
+        },
+        {
+          "url": "https://www.instagram.com/dutchgirlsinmuseums/reel/DZnQIh6o8KM/",
+          "published_at": "2026-06-15T16:36:50Z",
+          "conclusion": "Nieuwste niet-vastgezette reel, buiten nieuwsvenster."
+        },
+        {
+          "url": "https://www.instagram.com/dutchgirlsinmuseums/reel/CxYcXRToAg1/",
+          "published_at": "2023-09-19T17:38:36Z",
+          "conclusion": "Vastgezette reel buiten nieuwsvenster; datum individueel gelezen."
         }
       ],
       "candidate_count": 0,
       "limitations": [
-        "Stories en afzonderlijke Reels-tab nog niet volledig gecontroleerd."
+        "Actueel profiel en afzonderlijk reeloverzicht tot voorbij venster gecontroleerd. Alle berichten binnen het venster afzonderlijk gelezen; geen afzonderlijke actuele storylink op het profiel aangetroffen. Verlopen stories zijn niet terug te lezen."
       ],
-      "last_successful_content_check": null,
+      "last_successful_content_check": "2026-10-15T08:42:06.798667+00:00",
       "conclusion": "Vastgezet boekbericht 2023; recentste getoonde bericht augustus. Geen nieuwe post in venster aangetroffen; overlijdensclaim over Kusama niet overgenomen."
     },
     {
       "source_id": "instagram-kunstmaartje",
       "name": "Instagram · kunstmaartje",
       "url": "https://www.instagram.com/kunstmaartje/",
-      "checked_at": "2026-10-15T07:57:44.232688+00:00",
+      "checked_at": "2026-10-15T08:42:06.798667+00:00",
       "window_from": "2026-09-17",
       "window_to": "2026-10-15",
-      "status": "partial",
+      "status": "read",
       "articles": [
         {
           "url": "https://www.instagram.com/kunstmaartje/reel/DeJvydKM7Jf/",
@@ -879,13 +894,18 @@
         {
           "url": "https://www.instagram.com/erfgoedalkmaar/p/Dc3s7N2jXPf/",
           "publication_date": "2026-09-04"
+        },
+        {
+          "url": "https://www.instagram.com/kunstmaartje/reels/",
+          "published_at": null,
+          "conclusion": "Twee nieuwste reels DeMZm78MmYs en DeJvydKM7Jf al gelezen. Eerstvolgende DdEKZD3sA7s al gedateerd op 9 september, buiten venster."
         }
       ],
       "candidate_count": 0,
       "limitations": [
-        "Stories en afzonderlijke Reels-tab nog niet volledig gecontroleerd."
+        "Actueel profiel en afzonderlijk reeloverzicht tot voorbij venster gecontroleerd. Alle berichten binnen het venster afzonderlijk gelezen; geen afzonderlijke actuele storylink op het profiel aangetroffen. Verlopen stories zijn niet terug te lezen."
       ],
-      "last_successful_content_check": null,
+      "last_successful_content_check": "2026-10-15T08:42:06.798667+00:00",
       "conclusion": "Depotwerk, conservering en archeologische vondsten. Geen bevestigde actuele bezoekbare kunstpresentatie. Open Monumentendag buiten venster en afgelopen; niet toegevoegd."
     },
     {
@@ -991,10 +1011,10 @@
       "source_id": "instagram-lets_talk_about_art",
       "name": "Instagram · lets_talk_about_art",
       "url": "https://www.instagram.com/lets_talk_about_art/",
-      "checked_at": "2026-10-15T07:57:44.232688+00:00",
+      "checked_at": "2026-10-15T08:42:06.798667+00:00",
       "window_from": "2026-09-17",
       "window_to": "2026-10-15",
-      "status": "partial",
+      "status": "read",
       "articles": [
         {
           "url": "https://www.instagram.com/lets_talk_about_art/p/Dee2EDPDLaC/",
@@ -1115,23 +1135,28 @@
         {
           "url": "https://www.instagram.com/lets_talk_about_art/p/DdUL9lBjD3N/",
           "publication_date": "2026-09-15"
+        },
+        {
+          "url": "https://www.instagram.com/lets_talk_about_art/reel/CxGT5wUs5gv/",
+          "published_at": "2023-09-12T16:33:35Z",
+          "conclusion": "Nieuwste reel individueel gedateerd, buiten venster. Actueel profielnieuwste Dee2EDPDLaC al gelezen."
         }
       ],
       "candidate_count": 0,
       "limitations": [
-        "Stories en afzonderlijke Reels-tab nog niet volledig gecontroleerd."
+        "Actueel profiel en afzonderlijk reeloverzicht tot voorbij venster gecontroleerd. Alle berichten binnen het venster afzonderlijk gelezen; geen afzonderlijke actuele storylink op het profiel aangetroffen. Verlopen stories zijn niet terug te lezen."
       ],
-      "last_successful_content_check": null,
+      "last_successful_content_check": "2026-10-15T08:42:06.798667+00:00",
       "conclusion": "Dagelijkse posts van 14 oktober terug tot 15 september geopend. Merendeels buitenlandse collecties. Nederlandse collectieaanknopingspunten: Van Gogh Museum, Kröller-Müller Museum en Kunstmuseum Den Haag; geen afzonderlijke nieuwe tijdelijke presentatie. Artistieke achtergrond geen bewijs dat object momenteel opgesteld is."
     },
     {
       "source_id": "instagram-thetittymag",
       "name": "Instagram · thetittymag",
       "url": "https://www.instagram.com/thetittymag/",
-      "checked_at": "2026-10-15T07:57:44.232688+00:00",
+      "checked_at": "2026-10-15T08:42:06.798667+00:00",
       "window_from": "2026-09-17",
       "window_to": "2026-10-15",
-      "status": "partial",
+      "status": "read",
       "articles": [
         {
           "url": "https://www.instagram.com/thetittymag/p/DeeUERAt_Pz/",
@@ -1148,13 +1173,18 @@
         {
           "url": "https://www.instagram.com/thetittymag/p/DdTVWcrN2ot/",
           "publication_date": "2026-09-15"
+        },
+        {
+          "url": "https://www.instagram.com/thetittymag/reel/DcRYJkIoxy6/",
+          "published_at": "2026-08-20T18:13:53Z",
+          "conclusion": "Nieuwste reel is gedeelde eerdere Cathelijne-reel; buiten nieuwsvenster."
         }
       ],
       "candidate_count": 0,
       "limitations": [
-        "Stories en afzonderlijke Reels-tab nog niet volledig gecontroleerd."
+        "Actueel profiel en afzonderlijk reeloverzicht tot voorbij venster gecontroleerd. Alle berichten binnen het venster afzonderlijk gelezen; geen afzonderlijke actuele storylink op het profiel aangetroffen. Verlopen stories zijn niet terug te lezen."
       ],
-      "last_successful_content_check": null,
+      "last_successful_content_check": "2026-10-15T08:42:06.798667+00:00",
       "conclusion": "Drie werkvermeldingen binnen venster: Nina Mrsnik, Darcy Whent, Suzanne Plomp. Geen Nederlandse bezoeklocatie of tijdelijke presentatie aangekondigd."
     },
     {
@@ -1318,6 +1348,11 @@
           "url": "https://www.artez.nl/en/news/artez-alumni-geselecteerd-voor-pop-up-expositie-signal-26",
           "published_at": null,
           "conclusion": "Organisator bevestigt inhoud/data/bezoek; zie recordgebonden bronnen."
+        },
+        {
+          "url": "https://www.foam.org/collection",
+          "published_at": null,
+          "conclusion": "Collectie, samenvatting en tags van Foam inhoudelijk gecontroleerd; bestaand beschikbaarheidsdossier afgerond."
         }
       ],
       "candidate_count": 13,
@@ -1330,10 +1365,10 @@
       "source_id": "museumkijker",
       "name": "Museumkijker",
       "url": "https://www.museumkijker.nl/",
-      "checked_at": "2026-10-15T08:22:11.824234+00:00",
+      "checked_at": "2026-10-15T08:30:31.504754+00:00",
       "window_from": "2026-09-17",
       "window_to": "2026-10-15",
-      "status": "partial",
+      "status": "read",
       "articles": [
         {
           "url": "https://www.museumkijker.nl/mens-als-stip-in-grote-oneindigheid-overzicht-yoyo-kusama-in-stedelijk-museumusama-in/",
@@ -1348,9 +1383,9 @@
       ],
       "candidate_count": 2,
       "limitations": [
-        "Twee relevante artikelen en tijdgrens bekeken; volledige overige categorie-/archiefdekking niet vastgesteld."
+        "Twee volledige nieuwsartikelen in venster gelezen, chronologisch overzicht tot buiten venster gecontroleerd. Bestaande kunstwerken en overige historische collectie zijn hiermee niet volledig bezocht/gecontroleerd."
       ],
-      "last_successful_content_check": null
+      "last_successful_content_check": "2026-10-15T08:30:31.504754+00:00"
     },
     {
       "source_id": "museumtijdschrift",
@@ -1573,10 +1608,10 @@
       "source_id": "stadscuratorium",
       "name": "Stadscuratorium Amsterdam",
       "url": "https://stadscuratorium.nl/",
-      "checked_at": "2026-10-15T08:22:11.824234+00:00",
+      "checked_at": "2026-10-15T08:30:31.504754+00:00",
       "window_from": "2026-09-17",
       "window_to": "2026-10-15",
-      "status": "partial",
+      "status": "read",
       "articles": [
         {
           "url": "https://stadscuratorium.nl/nieuws/",
@@ -1585,20 +1620,20 @@
         },
         {
           "url": "https://stadscuratorium.nl/een-avond-met-journalist-edo-dijksterhuis-over-u-bent-hier/",
-          "published_at": null,
-          "conclusion": "Onderzochte bron; zie beperkingen."
+          "published_at": "2026-10-01",
+          "conclusion": "Lezing en wandeling van 10 oktober zijn afgelopen; geen actuele agenda-opname."
         },
         {
           "url": "https://stadscuratorium.nl/in-geouwehoer-kan-je-niet-wonen/",
-          "published_at": null,
-          "conclusion": "Onderzochte bron; zie beperkingen."
+          "published_at": "2026-09-28",
+          "conclusion": "Jan Schaefer-monument in Gein 3-dorp als kandidaat; maker en exact bezoekpunt nog open."
         }
       ],
       "candidate_count": 1,
       "limitations": [
-        "Nieuws tot grens 12 september bekeken; Jan Schaefer-monument kandidaat, maker en exact bezoekpunt ontbreken. Niet als volledig objectonderzoek gemarkeerd."
+        "Twee volledige nieuwsartikelen in venster gelezen, chronologisch overzicht tot buiten venster gecontroleerd. Bestaande kunstwerken en overige historische collectie zijn hiermee niet volledig bezocht/gecontroleerd."
       ],
-      "last_successful_content_check": null
+      "last_successful_content_check": "2026-10-15T08:30:31.504754+00:00"
     },
     {
       "source_id": "krant-trouw",

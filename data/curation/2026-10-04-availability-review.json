@@ -20906,11 +20906,47 @@
           "readable_text": true
         }
       ],
-      "manually_verified_fields": [],
-      "decisions": [],
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ]
+      "manually_verified_fields": [
+        "name",
+        "street_address",
+        "postal_code",
+        "website_url",
+        "summary",
+        "tags",
+        "photos",
+        "current_existence",
+        "visit_access",
+        "operating_status",
+        "coordinate_identity"
+      ],
+      "decisions": [
+        {
+          "run_id": "9531a87a-e39d-4597-a762-9eaa7144fcb9",
+          "checked_at": "2026-10-15T08:35:23.476450+00:00",
+          "fields": [
+            "name",
+            "street_address",
+            "postal_code",
+            "website_url",
+            "summary",
+            "tags",
+            "photos",
+            "current_existence",
+            "visit_access",
+            "operating_status",
+            "coordinate_identity"
+          ],
+          "sources": [
+            "https://www.foam.org/collection",
+            "https://www.foam.org/visit",
+            "https://www.foam.org/programme",
+            "https://commons.wikimedia.org/wiki/File:Amsterdam_Keizersgracht_0609_001.JPG"
+          ],
+          "conclusion": "Actief fotografiemuseum aan Keizersgracht 609, 1017 DS Amsterdam. Officiële collectie bevestigt fotografie, conceptueel werk en portret. Officiële bezoekpagina bevestigt open tijdens verduurzaming, kaartbetaling en beperkte rolstoeltoegankelijkheid. Actueel programma afzonderlijk gecontroleerd. Historische gevel Janericloebe april 2011 met CC BY 3.0; Commons vermeldt objectcoördinaten die binnen circa twee meter van bestaande museumcoördinaten liggen, geen camerastandpunt. Cataloguswaarden behouden.",
+          "remaining": []
+        }
+      ],
+      "remaining": []
     },
     {
       "id": "de60456d-84e7-5a70-ba25-d0c58b584e2b",
@@ -25960,6 +25996,6 @@
     }
   ],
   "sleutelwerken_api_records_checked": 100,
-  "latest_followup_report": "2026-10-05-42273fab-3f11-47c2-a736-27c3ebac6d4f-report.json",
-  "updated_at": "2026-10-05T08:28:45.566452+00:00"
+  "latest_followup_report": "data/curation/2026-10-15-9531a87a-e39d-4597-a762-9eaa7144fcb9-report.json",
+  "updated_at": "2026-10-15T08:35:23.476450+00:00"
 }

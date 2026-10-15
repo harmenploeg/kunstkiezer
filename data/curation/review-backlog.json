@@ -3,10 +3,10 @@
   "campaign": "individuele-controle-2026-10-04",
   "requested_at": "2026-10-04",
   "active": true,
-  "updated_at": "2026-10-05T08:28:45.566452+00:00",
+  "updated_at": "2026-10-15T08:45:01.127744+00:00",
   "policy": "Alle overgebleven punten inhoudelijk onderzoeken; onoplosbare punten krijgen een concrete externe blokkade met bron en uitgevoerde pogingen. Geen status afronden op basis van HTTP 200.",
-  "last_completed_batch": "b037fd6c-a414-459a-b65b-6a2af8379ba4",
-  "pending_count": 588,
+  "last_completed_batch": "9531a87a-e39d-4597-a762-9eaa7144fcb9",
+  "pending_count": 587,
   "blocked_count": 1,
   "records": [
     {
@@ -6969,11 +6969,36 @@
       "id": "ddccc10b-3920-548c-a5b1-8a7f1c459879",
       "name": "Foam Fotografiemuseum Amsterdam",
       "category": "musea",
-      "status": "pending",
-      "remaining": [
-        "Bronpagina’s technisch gecontroleerd; individuele actuele bestaans- en toegankelijkheidscontrole nog niet volledig afgerond."
-      ],
-      "last_reviewed_at": null
+      "status": "resolved",
+      "remaining": [],
+      "last_reviewed_at": "2026-10-15T08:35:23.476450+00:00",
+      "evidence": [
+        {
+          "run_id": "9531a87a-e39d-4597-a762-9eaa7144fcb9",
+          "checked_at": "2026-10-15T08:35:23.476450+00:00",
+          "fields": [
+            "name",
+            "street_address",
+            "postal_code",
+            "website_url",
+            "summary",
+            "tags",
+            "photos",
+            "current_existence",
+            "visit_access",
+            "operating_status",
+            "coordinate_identity"
+          ],
+          "sources": [
+            "https://www.foam.org/collection",
+            "https://www.foam.org/visit",
+            "https://www.foam.org/programme",
+            "https://commons.wikimedia.org/wiki/File:Amsterdam_Keizersgracht_0609_001.JPG"
+          ],
+          "conclusion": "Actief fotografiemuseum aan Keizersgracht 609, 1017 DS Amsterdam. Officiële collectie bevestigt fotografie, conceptueel werk en portret. Officiële bezoekpagina bevestigt open tijdens verduurzaming, kaartbetaling en beperkte rolstoeltoegankelijkheid. Actueel programma afzonderlijk gecontroleerd. Historische gevel Janericloebe april 2011 met CC BY 3.0; Commons vermeldt objectcoördinaten die binnen circa twee meter van bestaande museumcoördinaten liggen, geen camerastandpunt. Cataloguswaarden behouden.",
+          "remaining": []
+        }
+      ]
     },
     {
       "id": "de60456d-84e7-5a70-ba25-d0c58b584e2b",
@@ -9030,9 +9055,9 @@
       ]
     }
   ],
-  "resolved_count": 113,
+  "resolved_count": 114,
   "initial_count": 660,
-  "last_prepared_batch": "42273fab-3f11-47c2-a736-27c3ebac6d4f",
+  "last_prepared_batch": "9531a87a-e39d-4597-a762-9eaa7144fcb9",
   "last_failed_batch": "89fbda36-9ac4-472f-9244-e5f41b73e666",
   "last_failure": "Productiepublicatie geblokkeerd door WebKit-zoektest in Loci kwaliteitsrun 37239128629. Databasewijzigingen geverifieerd; statische downloads nog niet gepubliceerd. Geen automatische vervolgaanvraag.",
   "last_failure_recovery": {
