@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T08:28:45.566452+00:00",
+  "updated_at": "2026-10-15T08:22:11.824234+00:00",
   "scope": "Eerste uitbreiding en gerichte zoekronde; geen volledige landelijke inventarisatie.",
   "provinces": [
     {
@@ -152,6 +152,21 @@
       ],
       "limitations": [
         "Alleen eigenaarsbron inhoudelijk gelezen; geen volledige provinciale dekking of twee bronsoorten geclaimd."
+      ]
+    },
+    {
+      "run_id": "9531a87a-e39d-4597-a762-9eaa7144fcb9",
+      "checked_at": "2026-10-15T08:22:11.824234+00:00",
+      "province": "Gelderland",
+      "candidate": "TAK Art Space",
+      "status": "partial",
+      "urls": [
+        "https://www.bezoekmijntuin.nl/tuinen/tak-art-space/",
+        "https://www.takartspace.com/",
+        "https://www.takartspace.com/bezoek-pagina/"
+      ],
+      "limitations": [
+        "TAK Art Space als kandidaat: meerdere buitenwerken, Hessenmeer 88 Ermelo/Speuld. Eigenaarsbezoekpagina timeout/onvoldoende inhoud. Actuele toegang, objectpunt en beeldrechten nog open; geen publicatie."
       ]
     }
   ]

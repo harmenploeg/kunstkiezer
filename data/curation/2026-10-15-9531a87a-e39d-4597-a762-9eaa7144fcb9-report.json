@@ -1,0 +1,182 @@
+{
+  "run_id": "9531a87a-e39d-4597-a762-9eaa7144fcb9",
+  "research_date": "2026-10-15",
+  "result": "published_additions_partial_source_coverage",
+  "new_count": 9,
+  "new_records": [
+    {
+      "id": "84e5732e-a3a1-55e9-87f9-1090326e7a23",
+      "name": "Hailun Ma – Hometown",
+      "website_url": "https://www.foam.org/events/hailun-ma",
+      "starts_on": "2026-09-18",
+      "ends_on": "2027-01-20",
+      "street_address": "Keizersgracht 609"
+    },
+    {
+      "id": "367dfe6e-8ad8-5f2b-b96c-efe137815979",
+      "name": "Keerthana Kunnath – Not What You Saw",
+      "website_url": "https://www.foam.org/events/keerthana-kunnath",
+      "starts_on": "2026-09-18",
+      "ends_on": "2026-11-27",
+      "street_address": "Keizersgracht 609"
+    },
+    {
+      "id": "787a9722-5747-5ba2-a79a-f04adb18235a",
+      "name": "Nadav Kander – The edge of things",
+      "website_url": "https://www.foam.org/events/nadav-kander",
+      "starts_on": "2026-09-18",
+      "ends_on": "2027-01-31",
+      "street_address": "Keizersgracht 609"
+    },
+    {
+      "id": "954d51b8-5c90-5bfb-ba61-83b30976692c",
+      "name": "Myriam Boulos – A Collective Diary: Sexual Fantasies",
+      "website_url": "https://www.foam.org/events/myriam-boulos",
+      "starts_on": "2026-10-23",
+      "ends_on": "2027-01-20",
+      "street_address": "Keizersgracht 609"
+    },
+    {
+      "id": "1ba5eb4b-697f-5b2b-ba9f-eb9e2c936a43",
+      "name": "Al Nisa – Foam x Middle East Archive",
+      "website_url": "https://www.foam.org/events/middle-east-archive",
+      "starts_on": "2026-10-01",
+      "ends_on": "2026-12-20",
+      "street_address": "Jan van Schaffelaarplantsoen 2"
+    },
+    {
+      "id": "4e9eb0cc-d0b0-515c-93a3-11a07ae59652",
+      "name": "Yomna El Beyaly – In Her Own Way",
+      "website_url": "https://www.foam.org/events/middle-east-archive",
+      "starts_on": "2026-10-01",
+      "ends_on": "2026-10-29",
+      "street_address": "Mercatorplein"
+    },
+    {
+      "id": "79638d53-f4b6-5447-a3c4-2722121617a0",
+      "name": "Ina van Zyl – Where Are You From",
+      "website_url": "https://schunck.nl/museum/agenda/overzichtstentoonstelling-ina-van-zyl-where-are-you-from",
+      "starts_on": "2026-06-16",
+      "ends_on": "2026-10-25",
+      "street_address": "Bongerd 18"
+    },
+    {
+      "id": "9dea50db-fa26-5784-a8c6-dbe49c8371ca",
+      "name": "Wayward Sanctuaries",
+      "website_url": "https://brakkegrond.nl/agenda/922/wayward-sanctuaries",
+      "starts_on": "2026-09-18",
+      "ends_on": "2026-10-25",
+      "street_address": "Nes 45"
+    },
+    {
+      "id": "5dc789ea-6c17-595f-8125-9d1dd8fd958f",
+      "name": "Kersvers keramiek",
+      "website_url": "https://www.museumgouda.nl/tentoonstelling/kersvers-keramiek-2026/",
+      "starts_on": "2026-06-13",
+      "ends_on": "2026-10-25",
+      "street_address": "Oosthaven 9"
+    }
+  ],
+  "preserved_existing": true,
+  "source_review": "data/curation/9531a87a-e39d-4597-a762-9eaa7144fcb9-source-review.json",
+  "source_counts": {
+    "read": 1,
+    "partial": 34,
+    "blocked": 0,
+    "not_checked": 0
+  },
+  "incomplete_sources": [
+    "11fountains",
+    "AD (landelijke editie)",
+    "Architectuur.ORG",
+    "Architectuurgids Top 100",
+    "Beeldentuinen · provinciale inventarisatie",
+    "Bezoekmijntuin · tuinen en open dagen",
+    "De Telegraaf",
+    "de Volkskrant",
+    "Gemeentelijke kunstcollecties en monumenteninformatie",
+    "Het Financieele Dagblad",
+    "Het Parool (aanvullend: Amsterdam)",
+    "Historische RDMZ Top 100",
+    "Instagram · cathelijneblok",
+    "Instagram · dutchgirlsinmuseums",
+    "Instagram · kunstmaartje",
+    "Instagram · kunstmeisjes",
+    "Instagram · lets_talk_about_art",
+    "Instagram · thetittymag",
+    "Kunst op Straat · Gemeente Nijmegen",
+    "KunstVensters",
+    "Landart Nederland",
+    "Musea, kunstinstellingen, kunstenaars en terreinbeheerders",
+    "Museumkijker",
+    "Museumtijdschrift",
+    "Nederlands Dagblad",
+    "Nederlandse architectuur in 250 topstukken",
+    "NRC",
+    "Reformatorisch Dagblad",
+    "Sense of Place",
+    "Sleutelwerken",
+    "Stadscuratorium Amsterdam",
+    "Trouw",
+    "WhichMuseum Kunst & Design",
+    "Wikimedia Commons"
+  ],
+  "open_issues": [
+    {
+      "name": "Al Nisa – Foam x Middle East Archive",
+      "issues": [
+        "Foto met toegestane hergebruikvoorwaarden en exact objectpunt ontbreken."
+      ]
+    },
+    {
+      "name": "Yomna El Beyaly – In Her Own Way",
+      "issues": [
+        "Foto met toegestane hergebruikvoorwaarden en exact objectpunt ontbreken."
+      ]
+    },
+    {
+      "name": "Wayward Sanctuaries",
+      "issues": [
+        "Foto met toegestane hergebruikvoorwaarden en exact objectpunt ontbreken."
+      ]
+    }
+  ],
+  "candidates_not_published": [
+    "TAK Art Space: actuele toegang en beeldrechten niet afgerond",
+    "Soundings Natuur/Water: makerstoedeling, objectpunt en beeldrechten open",
+    "Jan Schaefer-monument: maker en exact bezoekpunt ontbreken",
+    "Woven Letters – Mina Abouzahra: exacte begindatum ontbreekt",
+    "SIGNAL’26: organisatorische bezoekuren nog te bevestigen",
+    "Disco, ReflAction, Abracadabra en Queer Amsterdam: primaire programmaselectie nog open"
+  ],
+  "conflicts_preserved": [
+    {
+      "name": "Celebrating the Icons of Art",
+      "catalog_end": "2027-03-07",
+      "official_page_end": "2027-02-28",
+      "decision": "Bestaande datum en auditgeschiedenis behouden; conflict niet stilzwijgend overschreven."
+    }
+  ],
+  "backlog": "Geen individuele bestaande dossiers als opgelost gemarkeerd; geen automatische vervolgaanvraag op basis van alleen bronnenonderzoek.",
+  "verification": {
+    "database": "9 nieuwe records teruggelezen; 301 musea en 513 discoveries gesynchroniseerd",
+    "local_checks": "npm run check: typecheck, 60 tests en build geslaagd; Loci check:release en 7 pages-tests geslaagd",
+    "production": "Gereed voor gecontroleerde Loci-publicatie; definitieve productiecontrole volgt in afleververslag.",
+    "public_api": {
+      "checked_at": "2026-10-15T08:22:53.576Z",
+      "status": 200,
+      "count": 9,
+      "ids": [
+        "84e5732e-a3a1-55e9-87f9-1090326e7a23",
+        "367dfe6e-8ad8-5f2b-b96c-efe137815979",
+        "787a9722-5747-5ba2-a79a-f04adb18235a",
+        "954d51b8-5c90-5bfb-ba61-83b30976692c",
+        "1ba5eb4b-697f-5b2b-ba9f-eb9e2c936a43",
+        "4e9eb0cc-d0b0-515c-93a3-11a07ae59652",
+        "79638d53-f4b6-5447-a3c4-2722121617a0",
+        "9dea50db-fa26-5784-a8c6-dbe49c8371ca",
+        "5dc789ea-6c17-595f-8125-9d1dd8fd958f"
+      ]
+    }
+  }
+}

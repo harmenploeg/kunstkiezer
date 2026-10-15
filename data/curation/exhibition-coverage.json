@@ -1,14 +1,14 @@
 {
   "method": "docs/selectie-tentoonstellingen.md",
-  "updated_at": "2026-10-05T08:28:45.566452+00:00",
-  "run_id": "42273fab-3f11-47c2-a736-27c3ebac6d4f",
-  "window_from": "2026-10-05",
-  "window_to": "2026-11-05",
+  "updated_at": "2026-10-15T08:22:11.824234+00:00",
+  "run_id": "9531a87a-e39d-4597-a762-9eaa7144fcb9",
+  "window_from": "2026-10-15",
+  "window_to": "2026-11-15",
   "scope": "Beginpopulatie 301 geselecteerde musea. Prioriteitsgroep is redactioneel en uitbreidbaar; externe organisatoren en ontbrekende musea blijven ontdekkingswerk. Geen landelijke volledigheidsclaim.",
   "museum_count": 301,
   "priority_museum_count": 60,
-  "complete_programs": 5,
-  "partial_programs": 4,
+  "complete_programs": 6,
+  "partial_programs": 5,
   "museums": [
     {
       "museum_id": "e412b226-1773-58c1-8b4b-a69ba3d121d5",
@@ -423,13 +423,69 @@
       "official_url": "https://www.foam.org",
       "source_group_id": "official-institutions",
       "priority": "high",
-      "status": "pending",
-      "last_complete_check": null,
-      "last_partial_check": null,
-      "known_event_ids": [],
-      "program_pages_read": [],
+      "status": "checked",
+      "last_complete_check": "2026-10-15T08:22:11.824234+00:00",
+      "last_partial_check": "2026-10-15T08:22:11.824234+00:00",
+      "known_event_ids": [
+        "84e5732e-a3a1-55e9-87f9-1090326e7a23",
+        "367dfe6e-8ad8-5f2b-b96c-efe137815979",
+        "787a9722-5747-5ba2-a79a-f04adb18235a",
+        "954d51b8-5c90-5bfb-ba61-83b30976692c",
+        "1ba5eb4b-697f-5b2b-ba9f-eb9e2c936a43",
+        "4e9eb0cc-d0b0-515c-93a3-11a07ae59652"
+      ],
+      "program_pages_read": [
+        "https://www.foam.org/events/hailun-ma",
+        "https://www.foam.org/programme",
+        "https://www.foam.org/visit",
+        "https://www.foam.org/events/keerthana-kunnath",
+        "https://www.foam.org/events/nadav-kander",
+        "https://www.foam.org/events/myriam-boulos",
+        "https://www.foam.org/events/middle-east-archive",
+        "https://www.maqam-amsterdam.nl/projecten/foam-fotografiemuseum-bij-maqam",
+        "https://www.maqam-amsterdam.nl/over-maqam"
+      ],
       "remaining": [
         "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+      ],
+      "checked_window_from": "2026-10-15",
+      "checked_window_to": "2026-11-15",
+      "program_decisions": [
+        {
+          "name": "Hailun Ma – Hometown",
+          "decision": "added",
+          "id": "84e5732e-a3a1-55e9-87f9-1090326e7a23"
+        },
+        {
+          "name": "Keerthana Kunnath – Not What You Saw",
+          "decision": "added",
+          "id": "367dfe6e-8ad8-5f2b-b96c-efe137815979"
+        },
+        {
+          "name": "Nadav Kander – The edge of things",
+          "decision": "added",
+          "id": "787a9722-5747-5ba2-a79a-f04adb18235a"
+        },
+        {
+          "name": "Myriam Boulos – A Collective Diary: Sexual Fantasies",
+          "decision": "added",
+          "id": "954d51b8-5c90-5bfb-ba61-83b30976692c"
+        },
+        {
+          "name": "Al Nisa – Foam x Middle East Archive",
+          "decision": "added",
+          "id": "1ba5eb4b-697f-5b2b-ba9f-eb9e2c936a43"
+        },
+        {
+          "name": "Yomna El Beyaly – In Her Own Way",
+          "decision": "added",
+          "id": "4e9eb0cc-d0b0-515c-93a3-11a07ae59652"
+        },
+        {
+          "name": "Rondleidingen, workshops, boekpresentatie en ADE-programma",
+          "decision": "not_separate_exhibition",
+          "reason": "Geen extra zelfstandig kunsttentoonstellingsrecord naast genoemde presentaties."
+        }
       ]
     },
     {
@@ -1074,15 +1130,18 @@
       "priority": "high",
       "status": "partial",
       "last_complete_check": null,
-      "last_partial_check": "2026-10-04",
+      "last_partial_check": "2026-10-15T08:22:11.824234+00:00",
       "known_event_ids": [
-        "a8e7aaa6-6178-5914-8502-3e1dcf659892"
+        "a8e7aaa6-6178-5914-8502-3e1dcf659892",
+        "5dc789ea-6c17-595f-8125-9d1dd8fd958f"
       ],
       "program_pages_read": [
-        "https://www.museumgouda.nl/tentoonstelling/wonder-walls-wandtapijten/"
+        "https://www.museumgouda.nl/tentoonstelling/wonder-walls-wandtapijten/",
+        "https://www.museumgouda.nl/tentoonstelling/kersvers-keramiek-2026/"
       ],
       "remaining": [
-        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole.",
+        "Overige huidige en toekomstige programma’s niet volledig gecontroleerd."
       ]
     },
     {
@@ -1434,13 +1493,18 @@
       "official_url": "https://schunck.nl/",
       "source_group_id": "official-institutions",
       "priority": "normal",
-      "status": "pending",
+      "status": "partial",
       "last_complete_check": null,
-      "last_partial_check": null,
-      "known_event_ids": [],
-      "program_pages_read": [],
+      "last_partial_check": "2026-10-15T08:22:11.824234+00:00",
+      "known_event_ids": [
+        "79638d53-f4b6-5447-a3c4-2722121617a0"
+      ],
+      "program_pages_read": [
+        "https://schunck.nl/museum/agenda/overzichtstentoonstelling-ina-van-zyl-where-are-you-from"
+      ],
       "remaining": [
-        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole."
+        "Volledig huidig en aankomend kunstprogramma inhoudelijk nalopen; reeds bekende evenementrecords bewijzen geen volledige programmacontrole.",
+        "Overige huidige en toekomstige programma’s niet volledig gecontroleerd."
       ]
     },
     {
@@ -5119,5 +5183,7 @@
         "Verspreid evenement; locaties en route expliciet beschreven, geen willekeurig enkel kaartpunt."
       ]
     }
-  ]
+  ],
+  "this_run_complete_programs": 1,
+  "this_run_note": "Foam zes tentoonstellingen op drie locaties. Eerdere checked-datums van andere musea zijn historische controles, geen volledige actuele dekking."
 }

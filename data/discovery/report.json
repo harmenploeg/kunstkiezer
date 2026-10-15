@@ -1,6 +1,6 @@
 {
-  "research_date": "2026-10-05",
-  "agenda_window_end": "2026-11-05",
+  "research_date": "2026-10-15",
+  "agenda_window_end": "2026-11-15",
   "scope": "Gecontroleerde catalogusmomentopname; geen claim dat elk Nederlands kunstaanbod of alle foto- en locatievragen zijn afgerond.",
   "categories": {
     "openbare-kunst": {
@@ -31,17 +31,17 @@
       "visible_on_research_date": 184
     },
     "evenementen": {
-      "total": 110,
-      "published": 110,
+      "total": 119,
+      "published": 119,
       "archived": 0,
       "draft": 0,
-      "with_photos": 99,
-      "precise_locations": 101,
-      "visible_on_research_date": 107
+      "with_photos": 105,
+      "precise_locations": 107,
+      "visible_on_research_date": 112
     }
   },
-  "total": 504,
-  "remaining_records": 338,
+  "total": 513,
+  "remaining_records": 341,
   "remaining": [
     {
       "id": "ec559317-ad1c-58c4-bce2-8118f292d3f2",
@@ -2705,6 +2705,39 @@
       "category": "evenementen",
       "name": "No Need To Pretend",
       "website_url": "https://www.melkweg.nl/nl/agenda/no-need-to-pretend-11-10-2026/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "1ba5eb4b-697f-5b2b-ba9f-eb9e2c936a43",
+      "inventory_key": "event:www.foam.org/events/middle-east-archive:2026-10-01:Jan van Schaffelaarplantsoen 2",
+      "category": "evenementen",
+      "name": "Al Nisa – Foam x Middle East Archive",
+      "website_url": "https://www.foam.org/events/middle-east-archive",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "9dea50db-fa26-5784-a8c6-dbe49c8371ca",
+      "inventory_key": "event:brakkegrond.nl/agenda/922/wayward-sanctuaries:2026-09-18",
+      "category": "evenementen",
+      "name": "Wayward Sanctuaries",
+      "website_url": "https://brakkegrond.nl/agenda/922/wayward-sanctuaries",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "4e9eb0cc-d0b0-515c-93a3-11a07ae59652",
+      "inventory_key": "event:www.foam.org/events/middle-east-archive:2026-10-01:Mercatorplein",
+      "category": "evenementen",
+      "name": "Yomna El Beyaly – In Her Own Way",
+      "website_url": "https://www.foam.org/events/middle-east-archive",
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
         "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"

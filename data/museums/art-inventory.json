@@ -15194,7 +15194,8 @@
     ],
     "audit_reference": "246",
     "coordinate_source": "Officiële hoofdingang Keileweg 10b; PDOK BAG-adrespunt adr-edb807cf529eac49873df294300e7b4c.",
-    "coordinate_precision": "address"
+    "coordinate_precision": "address",
+    "verified_at": "2026-10-05 08:25:48.451096+00"
   },
   {
     "id": "88058f35-5dd4-5412-8fcb-cf10014c8cbb",

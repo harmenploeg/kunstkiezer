@@ -5892,5 +5892,444 @@
     "coordinate_source": "Rijksmuseum-bezoekadres, bevestigd met PDOK BAG adr-05d9f079a1e8e66f30122d9ca3b0acd3.",
     "publication_status": "published",
     "coordinate_precision": "address"
+  },
+  {
+    "id": "1ba5eb4b-697f-5b2b-ba9f-eb9e2c936a43",
+    "inventory_key": "event:www.foam.org/events/middle-east-archive:2026-10-01:Jan van Schaffelaarplantsoen 2",
+    "category": "evenementen",
+    "name": "Al Nisa – Foam x Middle East Archive",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Jan van Schaffelaarplantsoen 2",
+    "website_url": "https://www.foam.org/events/middle-east-archive",
+    "summary": "Een groepstentoonstelling met foto’s van vrouwen uit het Midden-Oosten en Noord-Afrika. Beelden op de ramen van MAQAM verbinden persoonlijke verhalen met het dagelijks leven op straat. Een deel van de presentatie hangt binnen.",
+    "creator": "Groepstentoonstelling van Middle East Archive",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "hedendaagse kunst",
+      "maker: groepstentoonstelling van middle east archive"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.foam.org/events/middle-east-archive",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      },
+      {
+        "url": "https://www.maqam-amsterdam.nl/projecten/foam-fotografiemuseum-bij-maqam",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      },
+      {
+        "url": "https://www.maqam-amsterdam.nl/over-maqam",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      }
+    ],
+    "selection_reason": "Zelfstandig aangekondigde tijdelijke kunstpresentatie; inhoud, locatie en volledige looptijd bevestigd door de organisator.",
+    "visit_notes": "MAQAM: de beelden op de ramen zijn vanaf de straat te zien. Het binnendeel is uitsluitend tijdens andere programma’s en activiteiten toegankelijk. Geen vaste openingstijden; MAQAM is niet rolstoeltoegankelijk.",
+    "museum_id": "ddccc10b-3920-548c-a5b1-8a7f1c459879",
+    "starts_on": "2026-10-01",
+    "ends_on": "2026-12-20",
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": null,
+    "longitude": null,
+    "coordinate_precision": "unknown",
+    "coordinate_source": "Exact objectpunt niet onafhankelijk bevestigd; bezoekadres van organisator."
+  },
+  {
+    "id": "84e5732e-a3a1-55e9-87f9-1090326e7a23",
+    "inventory_key": "event:www.foam.org/events/hailun-ma:2026-09-18",
+    "category": "evenementen",
+    "name": "Hailun Ma – Hometown",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Keizersgracht 609",
+    "website_url": "https://www.foam.org/events/hailun-ma",
+    "summary": "Mode, familie en jeugdcultuur ontmoeten elkaar in Hailun Ma’s fotografie uit Xinjiang. Geënsceneerde en spontane portretten laten zien hoe kleding en alledaagse gebaren persoonlijke en culturele identiteit vormen.",
+    "creator": "Hailun Ma",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "hedendaagse kunst",
+      "maker: hailun ma"
+    ],
+    "photos": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Amsterdam_Keizersgracht_0609_001.JPG",
+        "credit": "Janericloebe",
+        "caption": "Locatie: Foam, gevel in april 2011; niet deze tentoonstelling.",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Keizersgracht_0609_001.JPG"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.foam.org/events/hailun-ma",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      },
+      {
+        "url": "https://www.foam.org/programme",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      },
+      {
+        "url": "https://www.foam.org/visit",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      }
+    ],
+    "selection_reason": "Zelfstandig aangekondigde tijdelijke kunstpresentatie; inhoud, locatie en volledige looptijd bevestigd door de organisator.",
+    "visit_notes": "Foam, Keizersgracht 609. Tijdens de verduurzaming in 2026 blijft het museum open. Het historische gebouw is niet volledig rolstoeltoegankelijk; raadpleeg de actuele bezoekinformatie en tickets.",
+    "museum_id": "ddccc10b-3920-548c-a5b1-8a7f1c459879",
+    "starts_on": "2026-09-18",
+    "ends_on": "2027-01-20",
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 52.363988,
+    "longitude": 4.893263,
+    "coordinate_precision": "exact",
+    "coordinate_source": "Bestaande gecontroleerde museumlocatie; organisator bevestigt dat deze tentoonstelling hier plaatsvindt."
+  },
+  {
+    "id": "79638d53-f4b6-5447-a3c4-2722121617a0",
+    "inventory_key": "event:schunck.nl/museum/agenda/overzichtstentoonstelling-ina-van-zyl-where-are-you-from:2026-06-16",
+    "category": "evenementen",
+    "name": "Ina van Zyl – Where Are You From",
+    "city": "Heerlen",
+    "province": "Limburg",
+    "street_address": "Bongerd 18",
+    "website_url": "https://schunck.nl/museum/agenda/overzichtstentoonstelling-ina-van-zyl-where-are-you-from",
+    "summary": "Ina van Zyl schildert huid, tenen, bloemen en alledaagse voorwerpen op een onverwachte schaal. Het overzicht in SCHUNCK laat zien hoe zij herkenbare details met kleur en uitsnede laat veranderen in raadselachtige beelden.",
+    "creator": "Ina van Zyl",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "schilderkunst",
+      "hedendaagse kunst",
+      "maker: ina van zyl"
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Glaspaleis_front-east.jpg/1280px-Glaspaleis_front-east.jpg",
+        "credit": "DirkvdM at English Wikipedia",
+        "caption": "Locatie: SCHUNCK Glaspaleis, historische foto uit 2005; niet deze tentoonstelling.",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Glaspaleis_front-east.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://schunck.nl/museum/agenda/overzichtstentoonstelling-ina-van-zyl-where-are-you-from",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      }
+    ],
+    "selection_reason": "Zelfstandig aangekondigde tijdelijke kunstpresentatie; inhoud, locatie en volledige looptijd bevestigd door de organisator.",
+    "visit_notes": "SCHUNCK Glaspaleis, Bongerd 18. Raadpleeg de organisator voor actuele museumuren en tickets.",
+    "museum_id": "b733d593-f4cc-55ef-a4ea-0d3eff1bd76c",
+    "starts_on": "2026-06-16",
+    "ends_on": "2026-10-25",
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 50.887944,
+    "longitude": 5.979259,
+    "coordinate_precision": "exact",
+    "coordinate_source": "Bestaande gecontroleerde museumlocatie; organisator bevestigt dat deze tentoonstelling hier plaatsvindt."
+  },
+  {
+    "id": "367dfe6e-8ad8-5f2b-b96c-efe137815979",
+    "inventory_key": "event:www.foam.org/events/keerthana-kunnath:2026-09-18",
+    "category": "evenementen",
+    "name": "Keerthana Kunnath – Not What You Saw",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Keizersgracht 609",
+    "website_url": "https://www.foam.org/events/keerthana-kunnath",
+    "summary": "Keerthana Kunnath fotografeert vrouwelijke bodybuilders in Kerala. Haar kleurrijke portretten verbinden kracht met zachtheid en onderzoeken verwachtingen rond gender, schoonheid en lichamelijkheid.",
+    "creator": "Keerthana Kunnath",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "hedendaagse kunst",
+      "maker: keerthana kunnath"
+    ],
+    "photos": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Amsterdam_Keizersgracht_0609_001.JPG",
+        "credit": "Janericloebe",
+        "caption": "Locatie: Foam, gevel in april 2011; niet deze tentoonstelling.",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Keizersgracht_0609_001.JPG"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.foam.org/events/keerthana-kunnath",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      },
+      {
+        "url": "https://www.foam.org/programme",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      },
+      {
+        "url": "https://www.foam.org/visit",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      }
+    ],
+    "selection_reason": "Zelfstandig aangekondigde tijdelijke kunstpresentatie; inhoud, locatie en volledige looptijd bevestigd door de organisator.",
+    "visit_notes": "Foam, Keizersgracht 609. Tijdens de verduurzaming in 2026 blijft het museum open. Het historische gebouw is niet volledig rolstoeltoegankelijk; raadpleeg de actuele bezoekinformatie en tickets.",
+    "museum_id": "ddccc10b-3920-548c-a5b1-8a7f1c459879",
+    "starts_on": "2026-09-18",
+    "ends_on": "2026-11-27",
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 52.363988,
+    "longitude": 4.893263,
+    "coordinate_precision": "exact",
+    "coordinate_source": "Bestaande gecontroleerde museumlocatie; organisator bevestigt dat deze tentoonstelling hier plaatsvindt."
+  },
+  {
+    "id": "5dc789ea-6c17-595f-8125-9d1dd8fd958f",
+    "inventory_key": "event:www.museumgouda.nl/tentoonstelling/kersvers-keramiek-2026/:2026-06-13",
+    "category": "evenementen",
+    "name": "Kersvers keramiek",
+    "city": "Gouda",
+    "province": "Zuid-Holland",
+    "street_address": "Oosthaven 9",
+    "website_url": "https://www.museumgouda.nl/tentoonstelling/kersvers-keramiek-2026/",
+    "summary": "Een selectie uit het examenwerk van de Nederlandse Keramiekopleiding. De conservator van Museum Gouda en de docenten kozen werk waarin afgestudeerde keramisten hun ontwikkeling in vorm, materiaal en ambacht laten zien.",
+    "creator": "Afgestudeerden Nederlandse Keramiekopleiding",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "keramiek",
+      "ambacht",
+      "maker: afgestudeerden nederlandse keramiekopleiding"
+    ],
+    "photos": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Museum_Gouda%2C_Gouda_750_jaar.jpg/1280px-Museum_Gouda%2C_Gouda_750_jaar.jpg",
+        "credit": "Agaath",
+        "caption": "Locatie: Museum Gouda in 2022, historische aanblik aan Achter de Kerk; de huidige hoofdingang is Oosthaven 9. Niet deze tentoonstelling.",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Museum_Gouda,_Gouda_750_jaar.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.museumgouda.nl/tentoonstelling/kersvers-keramiek-2026/",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      }
+    ],
+    "selection_reason": "Zelfstandig aangekondigde tijdelijke kunstpresentatie; inhoud, locatie en volledige looptijd bevestigd door de organisator.",
+    "visit_notes": "Museum Gouda, hoofdingang Oosthaven 9. Dinsdag tot en met zondag 11.00–17.00 uur, maandag gesloten.",
+    "museum_id": "edcef0f9-0aa9-5898-9e0c-dae509612b17",
+    "starts_on": "2026-06-13",
+    "ends_on": "2026-10-25",
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 52.010027,
+    "longitude": 4.711067,
+    "coordinate_precision": "exact",
+    "coordinate_source": "Bestaande gecontroleerde museumlocatie; organisator bevestigt dat deze tentoonstelling hier plaatsvindt."
+  },
+  {
+    "id": "954d51b8-5c90-5bfb-ba61-83b30976692c",
+    "inventory_key": "event:www.foam.org/events/myriam-boulos:2026-10-23",
+    "category": "evenementen",
+    "name": "Myriam Boulos – A Collective Diary: Sexual Fantasies",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Keizersgracht 609",
+    "website_url": "https://www.foam.org/events/myriam-boulos",
+    "summary": "Myriam Boulos brengt fotografie, persoonlijke observaties en stemmen uit haar omgeving samen. Veel beelden ontstonden in Beiroet en onderzoeken verlangen, intimiteit en de invloed van macht op lichamen en leefruimte.",
+    "creator": "Myriam Boulos",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "hedendaagse kunst",
+      "maker: myriam boulos"
+    ],
+    "photos": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Amsterdam_Keizersgracht_0609_001.JPG",
+        "credit": "Janericloebe",
+        "caption": "Locatie: Foam, gevel in april 2011; niet deze tentoonstelling.",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Keizersgracht_0609_001.JPG"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.foam.org/events/myriam-boulos",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      },
+      {
+        "url": "https://www.foam.org/programme",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      },
+      {
+        "url": "https://www.foam.org/visit",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      }
+    ],
+    "selection_reason": "Zelfstandig aangekondigde tijdelijke kunstpresentatie; inhoud, locatie en volledige looptijd bevestigd door de organisator.",
+    "visit_notes": "Foam, Keizersgracht 609. Tijdens de verduurzaming in 2026 blijft het museum open. Het historische gebouw is niet volledig rolstoeltoegankelijk; raadpleeg de actuele bezoekinformatie en tickets.",
+    "museum_id": "ddccc10b-3920-548c-a5b1-8a7f1c459879",
+    "starts_on": "2026-10-23",
+    "ends_on": "2027-01-20",
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 52.363988,
+    "longitude": 4.893263,
+    "coordinate_precision": "exact",
+    "coordinate_source": "Bestaande gecontroleerde museumlocatie; organisator bevestigt dat deze tentoonstelling hier plaatsvindt."
+  },
+  {
+    "id": "787a9722-5747-5ba2-a79a-f04adb18235a",
+    "inventory_key": "event:www.foam.org/events/nadav-kander:2026-09-18",
+    "category": "evenementen",
+    "name": "Nadav Kander – The edge of things",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Keizersgracht 609",
+    "website_url": "https://www.foam.org/events/nadav-kander",
+    "summary": "Portretten en landschappen verbinden Nadav Kanders fotografische onderzoek naar tijd en menselijke kwetsbaarheid. Beelden van onder meer de Yangtze en de Theems tonen plekken waar schoonheid en onzekerheid naast elkaar bestaan.",
+    "creator": "Nadav Kander",
+    "year": "2026–2027",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "hedendaagse kunst",
+      "maker: nadav kander"
+    ],
+    "photos": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Amsterdam_Keizersgracht_0609_001.JPG",
+        "credit": "Janericloebe",
+        "caption": "Locatie: Foam, gevel in april 2011; niet deze tentoonstelling.",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Amsterdam_Keizersgracht_0609_001.JPG"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.foam.org/events/nadav-kander",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      },
+      {
+        "url": "https://www.foam.org/programme",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      },
+      {
+        "url": "https://www.foam.org/visit",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      }
+    ],
+    "selection_reason": "Zelfstandig aangekondigde tijdelijke kunstpresentatie; inhoud, locatie en volledige looptijd bevestigd door de organisator.",
+    "visit_notes": "Foam, Keizersgracht 609. Tijdens de verduurzaming in 2026 blijft het museum open. Het historische gebouw is niet volledig rolstoeltoegankelijk; raadpleeg de actuele bezoekinformatie en tickets.",
+    "museum_id": "ddccc10b-3920-548c-a5b1-8a7f1c459879",
+    "starts_on": "2026-09-18",
+    "ends_on": "2027-01-31",
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": 52.363988,
+    "longitude": 4.893263,
+    "coordinate_precision": "exact",
+    "coordinate_source": "Bestaande gecontroleerde museumlocatie; organisator bevestigt dat deze tentoonstelling hier plaatsvindt."
+  },
+  {
+    "id": "9dea50db-fa26-5784-a8c6-dbe49c8371ca",
+    "inventory_key": "event:brakkegrond.nl/agenda/922/wayward-sanctuaries:2026-09-18",
+    "category": "evenementen",
+    "name": "Wayward Sanctuaries",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Nes 45",
+    "website_url": "https://brakkegrond.nl/agenda/922/wayward-sanctuaries",
+    "summary": "Vijftien kunstenaars die in België wonen en werken onderzoeken hoe je een thuis en gemeenschap vormt. Hun werk verbindt rituelen, herinnering en spiritualiteit met nieuwe manieren om samen te leven.",
+    "creator": "Groepstentoonstelling met vijftien kunstenaars",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "hedendaagse kunst",
+      "maker: groepstentoonstelling met vijftien kunstenaars"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://brakkegrond.nl/agenda/922/wayward-sanctuaries",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      }
+    ],
+    "selection_reason": "Zelfstandig aangekondigde tijdelijke kunstpresentatie; inhoud, locatie en volledige looptijd bevestigd door de organisator.",
+    "visit_notes": "De Brakke Grond, dagelijks 12.00–17.00 uur; ook te bezoeken voorafgaand aan een voorstelling. Kaarten volgens Pay What You Can via de organisator.",
+    "museum_id": null,
+    "starts_on": "2026-09-18",
+    "ends_on": "2026-10-25",
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": null,
+    "longitude": null,
+    "coordinate_precision": "unknown",
+    "coordinate_source": "Exact objectpunt niet onafhankelijk bevestigd; bezoekadres van organisator."
+  },
+  {
+    "id": "4e9eb0cc-d0b0-515c-93a3-11a07ae59652",
+    "inventory_key": "event:www.foam.org/events/middle-east-archive:2026-10-01:Mercatorplein",
+    "category": "evenementen",
+    "name": "Yomna El Beyaly – In Her Own Way",
+    "city": "Amsterdam",
+    "province": "Noord-Holland",
+    "street_address": "Mercatorplein",
+    "website_url": "https://www.foam.org/events/middle-east-archive",
+    "summary": "Yomna El Beyaly onderzoekt met foto’s uit Caïro hoe vrouwen zichzelf zien en vormgeven. Kleur, licht, beweging en fragmenten van het dagelijks leven komen samen in een tijdelijke buitenpresentatie op het Mercatorplein.",
+    "creator": "Yomna El Beyaly",
+    "year": "2026",
+    "tags": [
+      "tentoonstelling",
+      "fotografie",
+      "hedendaagse kunst",
+      "maker: yomna el beyaly"
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.foam.org/events/middle-east-archive",
+        "provider": "Officiële organisator · inhoud, data en bezoek",
+        "retrieved_at": "2026-10-15T08:18:17.381628+00:00"
+      }
+    ],
+    "selection_reason": "Zelfstandig aangekondigde tijdelijke kunstpresentatie; inhoud, locatie en volledige looptijd bevestigd door de organisator.",
+    "visit_notes": "Buitenpresentatie in de openbare ruimte op het Mercatorplein, vrij te bekijken. Dit is een andere locatie en looptijd dan Al Nisa bij MAQAM.",
+    "museum_id": "ddccc10b-3920-548c-a5b1-8a7f1c459879",
+    "starts_on": "2026-10-01",
+    "ends_on": "2026-10-29",
+    "operating_status": "open",
+    "publication_status": "published",
+    "latitude": null,
+    "longitude": null,
+    "coordinate_precision": "unknown",
+    "coordinate_source": "Exact objectpunt niet onafhankelijk bevestigd; bezoekadres van organisator."
   }
 ]
