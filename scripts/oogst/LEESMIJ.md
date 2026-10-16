@@ -43,6 +43,13 @@ Stap 2 en 3 kosten samen nog geen twee minuten en vragen geen browser. Stap 5 is
 andere kostenklasse: zes instellingen kostten evenveel aanroepen als stap 3 in zijn
 geheel, en leverden één publiceerbare tentoonstelling op.
 
+**Stap 2 is pas uitgeput als `robots.txt` én een sitemap-index zijn gevolgd.** `sitemap.py`
+doet beide; een losse greep naar `/sitemap.xml` niet. Bij het Rembrandthuis geeft
+`/sitemap.xml` HTTP 404, terwijl `robots.txt` naar `/nl/sitemap_index.xml` wijst en die
+index `tentoonstelling-sitemap.xml` bevat, met 40 serverzijdig leesbare detailpagina's.
+Let daarbij op een taalprefix: de index staat onder `/nl/`, niet in de root. Noem stap 2
+dus niet mislukt voordat de index is uitgelezen, want de stappen erna zijn duurder.
+
 **De volgorde binnen de browserstap is omgekeerd aan wat je zou verwachten.** Laat de
 browser het overzicht renderen en er alleen de *links* uit halen — één aanroep per
 instelling — en haal de detailpagina's daarna gewoon serverzijdig op. Detailpagina's
@@ -130,6 +137,12 @@ is het linkprobleem opgelost voor sites waar overzicht én sitemap niets gaven.
 - **Een kandidaat is een tip, geen record.** Op een steekproef van 25 kandidaten met
   volledige looptijd waren achttien bruikbaar en zeven ruis: navigatiekoppen ("Straks te
   zien", "December"), een zaalnaam, een workshop. Datums zijn betrouwbaarder dan titels.
+- **Een cookiemelding die de inhoud afdekt maakt de pagina niet onleesbaar.** Zij dekt het
+  beeld af, niet de DOM. Lees de DOM — `main.innerText`, of de knooppunten die je nodig
+  hebt — in plaats van een schermafdruk te maken; wegklikken is meestal niet nodig. Het
+  Drents Museum stond om deze reden onterecht als onbereikbaar te boek: de
+  tentoonstellingen staan er gewoon, achter de melding. Een schermafdruk is hier het
+  probleem, niet de pagina.
 
 ## Wat niet werkte
 
@@ -140,10 +153,28 @@ is het linkprobleem opgelost voor sites waar overzicht én sitemap niets gaven.
 - **Alleen Mailchimp publiceert archieven.** Van 37 instellingen met MailerLite, Spotler,
   Laposta, YMLP of een eigen formulier had er geen één een openbaar archief. Wat die sites
   "archief" noemen zijn hun eigen afgelopen tentoonstellingen.
-- **Sites waar ook de detailpagina zijn datums in JavaScript zet** (KM21, Drents Museum
-  achter de cookiemelding, Rembrandthuis dat pas bij scrollen laadt). De tekst is wel te
-  lezen, de looptijd niet. Daar is een headless browser nodig die élke detailpagina
-  rendert; dat hoort in de Worker, niet in losse aanroepen.
+- **Van de vier sites met datums in JavaScript vereist alleen KM21 een gerenderde
+  detailpagina.** Op 17 oktober 2026 zijn ze alle vier bezocht; voor drie van de vier was
+  "headless browser nodig die élke detailpagina rendert" te somber. De goedkoopste
+  werkende route per instelling:
+  - **KM21** (`https://www.km21.nl/nl/tentoonstellingen`) — stap 5, werkelijk renderen. De
+    looptijd van *Karimah Ashadu — FLUID* (24.10.2026–11.04.2027) staat niet in de
+    serverzijdige HTML, wel in de gerenderde pagina. De overige links staan onder GEWEEST;
+    KM21 heeft nu één lopende tentoonstelling.
+  - **Drents Museum** — stap 1 plus `detailpaginas.py`. De cookiemelding dekt alleen het
+    beeld af, niet de DOM: `main.innerText` geeft de tentoonstellingen, de detailpagina de
+    looptijd (*Angkor — Het mysterie van Cambodja*, 17-10-2026 t/m 09-05-2027).
+  - **Rembrandthuis** — stap 2, geen browser. `sitemap.py` komt via `robots.txt` en
+    `/nl/sitemap_index.xml` bij `tentoonstelling-sitemap.xml` met 40 detailpagina's die
+    serverzijdig titel, volledige looptijd en beschrijving bevatten. Deze stap was hier
+    niet toegepast; `/sitemap.xml` alleen geeft HTTP 404.
+  - **Museum Arnhem** — stap 4, geen browser. `api-eindpunt.py` vindt
+    `https://www.museumarnhem.nl/nl/tentoonstellingen.json` (Kirby) met alle negen
+    tentoonstellingen: titel, ondertitel, locatie, status en looptijd.
+
+  Zonder looptijd mag een evenement niet gepubliceerd worden, en voor KM21 is renderen
+  daarvoor de enige route. Zet de browser dus in voor de enkele site die hem echt nodig
+  heeft, niet als algemene oplossing voor JavaScript.
 
 ## De bestanden
 

@@ -94,11 +94,14 @@ instelling deze trechter af en stop bij de eerste stap die de looptijd geeft:
 | 4 | Machineleesbaar eindpunt achter de pagina | 19 van 61 met een agenda-eindpunt |
 | 5 | Browser, alléén om de links te renderen; details weer serverzijdig | 2 van 6 geprobeerd |
 
-Stap 2 en 3 kosten samen nog geen twee minuten en vragen geen browser. Stap 5 is een
-andere kostenklasse: zes instellingen kostten evenveel aanroepen als stap 3 in zijn
-geheel. Laat de browser daarom nooit titels en datums van het overzicht plukken, maar
-alleen de links naar de afzonderlijke tentoonstellingen; detailpagina's blijken veel vaker
-serverzijdig leesbaar dan overzichten.
+Stap 2 en 3 kosten samen nog geen twee minuten en vragen geen browser. Stap 2 is pas
+uitgeput als `robots.txt` én een sitemap-index zijn gevolgd: bij het Rembrandthuis geeft
+`/sitemap.xml` HTTP 404, terwijl `robots.txt` naar `/nl/sitemap_index.xml` wijst en die
+index `tentoonstelling-sitemap.xml` bevat met 40 detailpagina's. Die ene stap scheelt daar
+de hele browser. Stap 5 is een andere kostenklasse: zes instellingen kostten evenveel
+aanroepen als stap 3 in zijn geheel. Laat de browser daarom nooit titels en datums van het
+overzicht plukken, maar alleen de links naar de afzonderlijke tentoonstellingen;
+detailpagina's blijken veel vaker serverzijdig leesbaar dan overzichten.
 
 Beproefde eindpunten voor stap 4: de URL met `.json` erachter (Kirby — Museum Arnhem biedt
 zo zijn hele programma aan, met status en looptijd), eigen WordPress-posttypes via
@@ -173,8 +176,28 @@ bron uit te zetten.
 - **MailerLite, Spotler, Laposta en YMLP publiceren geen archief.** Van 37 instellingen met
   een andere dienst dan Mailchimp had er geen één een openbaar nieuwsbriefarchief; wat die
   sites "archief" noemen zijn hun eigen afgelopen tentoonstellingen.
-- **Sites waar ook de detailpagina zijn datums in JavaScript zet** (KM21, het Drents Museum
-  achter de cookiemelding, het Rembrandthuis dat pas bij scrollen laadt) blijven open. De
-  tekst is wel te lezen, de looptijd niet, en zonder looptijd mag een evenement niet
-  gepubliceerd worden. Daarvoor is een headless browser nodig die élke detailpagina
-  rendert; dat hoort in de Worker, niet in losse aanroepen.
+- **Van de vier sites met datums in JavaScript vereist alleen KM21 een gerenderde
+  detailpagina.** Op 17 oktober 2026 zijn ze alle vier bezocht. Dat corrigeert de conclusie
+  van 16 oktober dat hier een headless browser nodig is die élke detailpagina rendert; voor
+  drie van de vier is dat te somber. De goedkoopste werkende route per instelling:
+  - **KM21** (`https://www.km21.nl/nl/tentoonstellingen`) — stap 5, werkelijk renderen. De
+    looptijd van *Karimah Ashadu — FLUID* (24.10.2026–11.04.2027) staat niet in de
+    serverzijdige HTML, wel in de gerenderde pagina. De overige links op het overzicht
+    staan onder GEWEEST; KM21 heeft nu één lopende tentoonstelling.
+  - **Drents Museum** — stap 1 plus de detailpagina's. De cookiemelding dekt alleen het
+    beeld af, niet de DOM: met `main.innerText` zijn de tentoonstellingen gewoon te lezen,
+    en de detailpagina geeft de looptijd (*Angkor — Het mysterie van Cambodja*, 17-10-2026
+    t/m 09-05-2027). Een schermafdruk is hier het probleem, niet de pagina.
+  - **Rembrandthuis** — stap 2, geen browser.
+    `https://www.rembrandthuis.nl/nl/tentoonstelling-sitemap.xml` geeft 40 detailpagina's
+    die serverzijdig titel, volledige looptijd en beschrijving bevatten. Die sitemap staat
+    achter `robots.txt` → `/nl/sitemap_index.xml`; `/sitemap.xml` zelf geeft HTTP 404, dus
+    stap 2 leek hier mislukt terwijl zij alleen niet was uitgeput.
+  - **Museum Arnhem** — stap 4, geen browser.
+    `https://www.museumarnhem.nl/nl/tentoonstellingen.json` (Kirby) geeft alle negen
+    tentoonstellingen met titel, ondertitel, locatie, status en looptijd — precies het
+    voorbeeld dat hierboven al bij stap 4 staat.
+
+  Wat hiervan overblijft: zonder looptijd mag een evenement niet gepubliceerd worden, en
+  voor KM21 is renderen daarvoor de enige route. Richt een headless browser dus in voor de
+  enkele site die hem echt nodig heeft, niet als algemene oplossing voor JavaScript.
