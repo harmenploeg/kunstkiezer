@@ -67,7 +67,9 @@ test('Laatste updaterondes staat apart, toont de laatste drie en noemt per verha
  const mock=await setup(page);
  const paneel=page.getByRole('region',{name:'Laatste updaterondes',exact:true});
  await expect(paneel.getByRole('heading',{level:2,name:'Laatste updaterondes',exact:true})).toBeVisible();
- expect(mock.runsQuery()).toContain('limit=3');
+ // Wachten tot het paneel de rondes echt heeft opgevraagd: op de trage projecten
+ // (iphone) was de vraag soms nog niet gedaan op het moment van de controle.
+ await expect.poll(()=>mock.runsQuery()).toContain('limit=3');
  const ronde=paneel.locator('.update-runs li').first();
  await expect(ronde).toContainText('3 records: 2 toegevoegd, 1 afgewezen.');
  await expect(ronde.locator('.update-round-counts')).toHaveText('1 toegevoegd · 1 bijgewerkt · 1 afgewezen');
