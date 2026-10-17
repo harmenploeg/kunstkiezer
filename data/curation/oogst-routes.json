@@ -1,0 +1,101 @@
+{
+ "bijgewerkt": "2026-10-17",
+ "toelichting": "Per host de goedkoopste route die werkte; zie scripts/oogst/route.py.",
+ "routes": {
+  "escherinhetpaleis.nl:443": {
+   "stap": 3,
+   "gelukt": "2026-10-17"
+  },
+  "fotomuseumaanhetvrijthof.nl": {
+   "sitemaps": [
+    "https://fotomuseumaanhetvrijthof.nl/sitemap.xml"
+   ],
+   "stap": 3,
+   "gelukt": "2026-10-17"
+  },
+  "greylightprojects.org": {
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://greylightprojects.org/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-17"
+  },
+  "nieuwevide.com": {
+   "sitemaps": [
+    "https://nieuwevide.com/expositie-sitemap.xml"
+   ],
+   "stap": 3,
+   "gelukt": "2026-10-17",
+   "eindpunt": {
+    "soort": "posttype:expositie",
+    "url": "https://nieuwevide.com/wp-json/wp/v2/expositie"
+   }
+  },
+  "sous-terre.nl": {
+   "eindpunt": {
+    "soort": "posttype:product",
+    "url": "https://sous-terre.nl/wp-json/wp/v2/product"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-17"
+  },
+  "tetem.nl": {
+   "eindpunt": {
+    "soort": "posttype:sponsoren",
+    "url": "https://tetem.nl/wp-json/wp/v2/sponsoren"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-17"
+  },
+  "tiendschuur.net": {
+   "sitemaps": [
+    "https://tiendschuur.net/wp-sitemap-posts-page-1.xml"
+   ],
+   "stap": 3,
+   "gelukt": "2026-10-17",
+   "waarom_eindpunt": "gaf geen datums meer",
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://tiendschuur.net/wp-json/wp/v2/pages?per_page=20"
+   }
+  },
+  "www.bureau-europa.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-17"
+  },
+  "www.catharijneconvent.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-17"
+  },
+  "www.friesmuseum.nl": {
+   "sitemaps": [
+    "https://www.friesmuseum.nl/sitemap.xml"
+   ],
+   "stap": 3,
+   "gelukt": "2026-10-17"
+  },
+  "www.kunstpuntgroningen.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-17"
+  },
+  "www.museumijsselstein.nl": {
+   "sitemaps": [
+    "https://www.museumijsselstein.nl/mi_exhibition-sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-17"
+  },
+  "www.slotzeist.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-17"
+  },
+  "www.zeeuwsmuseum.nl": {
+   "sitemaps": [
+    "https://www.zeeuwsmuseum.nl/sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-17"
+  }
+ }
+}
