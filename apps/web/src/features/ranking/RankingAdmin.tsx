@@ -84,11 +84,15 @@ export function RankingAdmin() {
         {[
           ["volgorde", "Volgorde en waarderingen"],
           ["tags", "Tagbeheer"],
-          ["updates", "Bronnen en updates"],
-          ["gebruikers", "Gebruikers"],
+          ["bronnen", "Bronnen voor de update"],
+          ["updates", "Updates uitvoeren en plannen"],
+          ["rondes", "Laatste updaterondes"],
+          ["gebruikers", "Gebruikers en beheerders"],
         ].map(([id, label]) => (
+          // Geen <h2> in de kaart: dan staat elk kopje twee keer in de koppenlijst
+          // van een schermlezer, naast het echte kopje van het onderdeel zelf.
           <a className="category-card" key={id} href={"#" + id}>
-            <h2>{label}</h2>
+            <span className="category-card-label">{label}</span>
           </a>
         ))}
       </nav>
@@ -256,13 +260,14 @@ export function RankingAdmin() {
           <div id="tags">
             <TagAdmin />
           </div>
-          <section id="updates">
+          <div id="bronnen" className="management-section">
             <SourceAdmin client={client} />
-            <UpdateAdmin />
-          </section>
-          <section id="gebruikers">
+          </div>
+          {/* UpdateAdmin levert zelf twee delen: #updates en #rondes. */}
+          <UpdateAdmin />
+          <div id="gebruikers">
             <UserAdmin />
-          </section>
+          </div>
         </>
       )}
     </>
