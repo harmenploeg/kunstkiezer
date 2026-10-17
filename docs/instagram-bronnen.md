@@ -5,7 +5,33 @@ titel en een instelling, zelden een volledige looptijd. De looptijd haal je daar
 eigen website van de instelling, volgens de werkwijze in `scripts/oogst/LEESMIJ.md`. Zonder
 begin- én einddatum mag er niets gepubliceerd worden.
 
-Er zijn twee routes, in deze volgorde.
+## 0. Eerst: wélke accounts
+
+Niet alle 227. `scripts/oogst/instagram.py` scheidt elke ronde opnieuw de accounts die iets
+toevoegen van de accounts waarvan de instelling een eigen website heeft die we toch al
+oogsten. Op 17 oktober 2026 was dat **31 om 196**.
+
+```sh
+python3 scripts/oogst/instagram.py           # de 31 die je wekelijks leest
+python3 scripts/oogst/instagram.py --alles   # ook wie is overgeslagen, met de gevonden instelling
+```
+
+Die 196 vallen niet af omdat ze onbelangrijk zijn, maar omdat Instagram daar de slechtste
+van twee bronnen is: een bijschrift geeft een titel, de detailpagina van de instelling
+geeft de volledige looptijd — en die hebben we nodig. Wat overblijft zijn recensenten en
+kunstbloggers (About Art NL, Kunstmeisjes, Artstorylover, Leren van Kunst), een tijdschrift
+(Digitale Kunstkrant) en een handvol zalen zonder bruikbare site (EYE, Historisch Centrum
+Leeuwarden, Musea Zutphen, Máximapark, Galerie Harwi).
+
+De koppeling is streng: een account valt alleen af bij een **exacte** naamtreffer met een
+instelling die een `website_url` heeft. Alle 196 treffers van 17 oktober stonden op 1,00;
+bij twijfel blijft een account in de wekelijkse lijst. De lijst wordt elke ronde opnieuw
+berekend, dus een instelling die haar website verliest komt vanzelf terug.
+
+Eén gevolg dat je eerlijk moet melden: dit is **geen volledige Instagramdekking**. Noem in
+de runsamenvatting hoeveel accounts op deze grond zijn overgeslagen.
+
+En daarna: er zijn twee routes om zo'n account te lezen, in deze volgorde.
 
 ## 1. De Graph API, met `business_discovery` (de vaste route)
 
@@ -91,4 +117,8 @@ In de rondes van 15 tot en met 17 oktober 2026 kwam er geen enkel record rechtst
 Instagram: wel tips, maar alles wat een Nederlandse tentoonstelling noemde was al bekend of
 moest alsnog op de eigen website worden bevestigd. Dat is geen reden om het kanaal te laten
 vallen — makers en kleine ruimtes kondigen daar wél als eerste aan — maar het is wel de
-reden om er de goedkoopste route voor te gebruiken en de dekking niet te overdrijven.
+reden om het tot die 31 terug te brengen en de dekking niet te overdrijven.
+
+Dertig à vijfendertig accounts per week blijven ook ruim onder de grens waar de anonieme
+route op stukliep (rond de honderd profielen). Zolang de lijst zo kort is, is de Graph API
+een verbetering en geen voorwaarde: zonder token draait de ronde gewoon door.
