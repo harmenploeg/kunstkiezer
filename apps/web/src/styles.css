@@ -159,6 +159,15 @@ dialog::backdrop {background:rgb(0 0 0 / .45)}
 .member-list,.update-runs {padding:0;list-style:none}
 .member-list li {display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1rem;padding:1rem 0;border-bottom:1px solid #ddd;overflow-wrap:anywhere}
 .update-runs li {border-bottom:1px solid #ddd;padding-block:1rem}
+/* Het verslag per ronde: wat is veranderd, en op grond van welke bron. Staat in een
+   geneste lijst, dus de scheidingslijn van .update-runs li hoort hier niet. */
+.update-changes {margin-top:.5rem}
+.update-changes summary {cursor:pointer;font-weight:600}
+.update-changes ul {margin:.5rem 0 0;padding-left:1.1rem;display:grid;gap:.45rem;list-style:disc}
+.update-changes li {border-bottom:0;padding-block:0;overflow-wrap:anywhere}
+/* De bron is hier de kern van de notitie, dus de link moet er ook uitzien als een link;
+   de regel a{text-decoration:none} hierboven maakt hem anders onzichtbaar. */
+.update-changes a {text-decoration:underline;text-underline-offset:2px}
 @media(max-width:600px){.main-nav{flex-wrap:wrap}.stars button{font-size:1.7rem}.catalog-actions{align-items:stretch}.catalog-actions>button{flex:1}}
 
 /* Shared catalogue presentation across categories, detail and tag results. */

@@ -1,7 +1,11 @@
 import {test,expect,type Page} from '@playwright/test';
 async function setup(page:Page,editor=true){
  let tags=[{label:'fotografie',dimension:'onderwerp',description:'Foto’s',enabled:true,updated_at:'v1'}];let questions={questions:[{title:'Wat zie je graag?',description:'Kies kunst.',options:[{label:'Foto’s',tags:['fotografie']}]}],updated_at:'v1'};
- let schedule={enabled:true,weekday:1,local_time:'09:00',next_due:'2026-10-05T07:00:00Z',updated_at:'v1'};let runs:unknown[]=[];let members=[{user_id:'member-1',email:'visitor@example.test',is_admin:false}];
+ let schedule={enabled:true,weekday:1,local_time:'09:00',next_due:'2026-10-05T07:00:00Z',updated_at:'v1'};
+ let runs:unknown[]=[{id:'run-0',status:'completed',reason:'scheduled',requested_at:'2026-09-28T07:00:00Z',started_at:'2026-09-28T07:01:00Z',finished_at:'2026-09-28T07:40:00Z',summary:'3 records: 2 toegevoegd, 1 afgewezen.'}];
+ const changes=[{id:'c1',run_id:'run-0',change:'added',record_table:'kk_discoveries',record_name:'Angkor — Het mysterie van Cambodja',fields:[],source_id:'official-institutions',source_url:'https://drentsmuseum.nl/tentoonstellingen/angkor',note:'looptijd op de detailpagina'},
+  {id:'c2',run_id:'run-0',change:'updated',record_table:'kk_discoveries',record_name:'Ruud Kuijer',fields:['ends_on'],source_id:'nieuwsbrief-kroller-muller',source_url:'https://krollermuller.nl/ruud-kuijer',note:'verlengd tot 6 december'},
+  {id:'c3',run_id:'run-0',change:'rejected',record_table:'kk_discoveries',record_name:'Opbouwweek',fields:[],source_id:null,source_url:'https://huismarseille.nl/agenda',note:'sluitingsbericht, geen looptijd'}];let members=[{user_id:'member-1',email:'visitor@example.test',is_admin:false}];
  let rows=[{id:'source-1',name:'Museumbron',url:'https://example.test',notes:'Ook beeldenpark en architectuur.',enabled:true,updated_at:'2026-10-04T00:00:00Z'}];let revision=0,conflict=false,sourceReads=0;
  const settings={distance_weight:70,tag_weight:30,distance_scale_km:30,updated_at:'2026-10-04T00:00:00Z'};
  const user={id:'00000000-0000-4000-8000-000000000001',email:'editor@example.test',aud:'authenticated',app_metadata:{provider:'email'},user_metadata:{},created_at:'2026-10-04T00:00:00Z'};
@@ -23,9 +27,10 @@ async function setup(page:Page,editor=true){
  if(path.endsWith('/kk_preference_questions')){if(route.request().method()==='PATCH'){const b=route.request().postDataJSON();questions={...b,updated_at:'v2'};return reply({updated_at:'v2'});}return reply(questions);}
  if(path.endsWith('/kk_seen'))return reply([]);
  if(path.endsWith('/kk_update_runs'))return reply(runs);
+ if(path.endsWith('/kk_update_changes'))return reply(changes);
  if(path.endsWith('/kk_list_members'))return reply(members);
  if(path.endsWith('/kk_set_admin')){const b=route.request().postDataJSON();members=members.map(m=>m.user_id===b.member_id?{...m,is_admin:b.allowed}:m);return reply(null);}
- if(path.endsWith('/kk_request_update')){runs=[{id:'run-1',status:'queued',reason:'manual',requested_at:'2026-10-04T07:00:00Z',started_at:null,finished_at:null,summary:''}];return reply('run-1');}
+ if(path.endsWith('/kk_request_update')){runs=[{id:'run-1',status:'queued',reason:'manual',requested_at:new Date().toISOString(),started_at:null,finished_at:null,summary:''},...runs];return reply('run-1');}
  if(path.endsWith('/kk_update_schedule')){if(route.request().method()==='PATCH')schedule={...schedule,...route.request().postDataJSON(),updated_at:'v2'};return reply(schedule);}
  if(path==='/auth/v1/token')return reply({access_token:token,refresh_token:'test',token_type:'bearer',expires_in:3600,user});
  if(path==='/auth/v1/user')return reply(user);
@@ -52,8 +57,36 @@ test('Beheer groepeert ranking en bronnen; toevoegen, uitschakelen, herladen, co
 test('Account zonder redactierechten ziet geen bronnen of instellingenformulier',async({page})=>{const mock=await setup(page,false);await expect(page.getByText('Deze pagina is alleen beschikbaar voor beheerders.')).toBeVisible();await expect(page.getByRole('button',{name:'Bron toevoegen'})).toHaveCount(0);expect(mock.reads()).toBe(0);});
 test('Beheer kan extra update aanvragen, weekschema wijzigen en beheerder aanwijzen',async({page})=>{
  await setup(page);await page.getByRole('button',{name:'Nu updaten',exact:true}).click();await expect(page.getByText('In de wachtrij',{exact:true})).toBeVisible();await expect(page.getByRole('button',{name:'Update aangevraagd of bezig',exact:true})).toBeDisabled();
+ await expect(page.getByText('net aangevraagd')).toBeVisible();
  await page.getByLabel('Dag',{exact:true}).selectOption('3');await page.getByLabel('Tijd (Nederland)',{exact:true}).fill('14:30');await page.getByRole('button',{name:'Updateschema opslaan',exact:true}).click();await expect(page.getByText('Updateschema opgeslagen.',{exact:true})).toBeVisible();await page.reload();await expect(page.getByLabel('Dag',{exact:true})).toHaveValue('3');await expect(page.getByLabel('Tijd (Nederland)',{exact:true})).toHaveValue('14:30');
  page.once('dialog',d=>d.accept());await page.getByRole('button',{name:'Maak beheerder',exact:true}).click();await expect(page.getByRole('button',{name:'Beheer intrekken',exact:true})).toBeVisible();
+});
+
+test('Beheer leest per ronde wat er is veranderd en op grond van welke bron',async({page})=>{
+ await setup(page);
+ const ronde=page.locator('.update-runs li').first();
+ await expect(ronde).toContainText('3 records: 2 toegevoegd, 1 afgewezen.');
+ const verslag=ronde.locator('details.update-changes');
+ await expect(verslag.locator('summary')).toHaveText('Wat is er veranderd: 1× toegevoegd, 1× bijgewerkt, 1× afgewezen');
+ await verslag.locator('summary').click();
+ await expect(verslag.getByText('Angkor — Het mysterie van Cambodja')).toBeVisible();
+ await expect(verslag.getByRole('link',{name:'drentsmuseum.nl'})).toHaveAttribute('href','https://drentsmuseum.nl/tentoonstellingen/angkor');
+ await expect(verslag.getByRole('listitem').filter({hasText:'Ruud Kuijer'})).toContainText('ends_on');
+ await expect(verslag.getByRole('listitem').filter({hasText:'Ruud Kuijer'})).toContainText('verlengd tot 6 december');
+ await expect(verslag.getByRole('listitem').filter({hasText:'Opbouwweek'})).toContainText('Afgewezen');
+ await expect(verslag.getByRole('link',{name:'drentsmuseum.nl'})).toHaveCSS('text-decoration-line','underline');
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+});
+
+test('Een onleesbaar updateverslag beweert niet dat er niets is veranderd',async({page})=>{
+ await setup(page);
+ await page.route('**/kk_update_changes*',r=>r.fulfill({status:500,headers:{'access-control-allow-origin':'*'},json:{message:'kapot'}}));
+ await page.reload();
+ const ronde=page.locator('.update-runs li').first();
+ await expect(ronde).toContainText('Het updateverslag kon niet worden geladen.');
+ await expect(ronde).not.toContainText('geen wijzigingen vastgelegd');
+ await expect(ronde).toContainText('3 records: 2 toegevoegd, 1 afgewezen.');
+ await expect(page.getByRole('button',{name:'Updateschema opslaan',exact:true})).toBeVisible();
 });
 
 test('Tagbeheer toont vraagkoppelingen en bewaart vraagteksten en beschikbaarheid',async({page})=>{

@@ -16,14 +16,56 @@ interface Run {
   finished_at: string | null;
   summary: string;
 }
+interface Change {
+  id: string;
+  run_id: string;
+  change: string;
+  record_table: string;
+  record_name: string;
+  fields: string[];
+  source_id: string | null;
+  source_url: string;
+  note: string;
+}
 const date = (value: string | null) =>
   value
     ? new Date(value).toLocaleString("nl-NL", { timeZone: "Europe/Amsterdam" })
     : "—";
+const CHANGE_LABEL: Record<string, string> = {
+  added: "Toegevoegd",
+  updated: "Bijgewerkt",
+  archived: "Gearchiveerd",
+  rejected: "Afgewezen",
+};
+const sourceName = (c: Change) => {
+  if (!c.source_url) return (c.source_id ?? "bron onbekend");
+  try {
+    return new URL(c.source_url).host.replace(/^www\./, "");
+  } catch {
+    return c.source_url;
+  }
+};
+const counted = (changes: Change[]) =>
+  Object.entries(
+    changes.reduce<Record<string, number>>(
+      (acc, c) => ({ ...acc, [c.change]: (acc[c.change] ?? 0) + 1 }),
+      {},
+    ),
+  )
+    .map(([k, n]) => `${n}× ${(CHANGE_LABEL[k] ?? k).toLowerCase()}`)
+    .join(", ");
+const waiting = (since: string) => {
+  const minutes = Math.floor((Date.now() - new Date(since).getTime()) / 60000);
+  if (minutes < 1) return "net aangevraagd";
+  if (minutes < 60) return `${minutes} minuten in de wachtrij`;
+  return `${Math.floor(minutes / 60)} uur in de wachtrij`;
+};
 export function UpdateAdmin() {
   const { client } = useAuth(),
     [schedule, setSchedule] = useState<Schedule | null>(null),
     [runs, setRuns] = useState<Run[]>([]),
+    [changes, setChanges] = useState<Record<string, Change[]>>({}),
+    [reportFailed, setReportFailed] = useState(false),
     [message, setMessage] = useState(""),
     [busy, setBusy] = useState(false),
     [dirty, setDirty] = useState(false);
@@ -41,6 +83,24 @@ export function UpdateAdmin() {
       throw Error("Updategegevens konden niet worden geladen.");
     if (refreshForm) setSchedule(s.data);
     setRuns(r.data);
+    const ids = (r.data as Run[]).map((run) => run.id);
+    if (!ids.length) return setChanges({});
+    const c = await client
+      .from("kk_update_changes")
+      .select("*")
+      .in("run_id", ids)
+      .order("created_at");
+    if (c.error) {
+      setReportFailed(true);
+      return setChanges({});
+    }
+    setReportFailed(false);
+    setChanges(
+      (c.data as Change[]).reduce<Record<string, Change[]>>((acc, change) => {
+        (acc[change.run_id] ??= []).push(change);
+        return acc;
+      }, {}),
+    );
   }
   useEffect(() => {
     let active = true;
@@ -201,8 +261,44 @@ export function UpdateAdmin() {
               <p>
                 Aangevraagd: {date(r.requested_at)} · gestart:{" "}
                 {date(r.started_at)} · afgerond: {date(r.finished_at)}
+                {r.status === "queued" && ` · ${waiting(r.requested_at)}`}
               </p>
               {r.summary && <p>{r.summary}</p>}
+              {changes[r.id]?.length ? (
+                <details className="update-changes">
+                  <summary>
+                    Wat is er veranderd: {counted(changes[r.id]!)}
+                  </summary>
+                  <ul>
+                    {changes[r.id]!.map((c) => (
+                      <li key={c.id}>
+                        <strong>{CHANGE_LABEL[c.change] ?? c.change}</strong>{" "}
+                        {c.record_name}
+                        {c.fields.length > 0 && ` · ${c.fields.join(", ")}`} ·
+                        bron:{" "}
+                        {c.source_url ? (
+                          <a
+                            href={c.source_url}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            {sourceName(c)}
+                          </a>
+                        ) : (
+                          sourceName(c)
+                        )}
+                        {c.note && <span> — {c.note}</span>}
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              ) : reportFailed ? (
+                <p>Het updateverslag kon niet worden geladen.</p>
+              ) : (
+                r.status === "completed" && (
+                  <p>Deze ronde heeft geen wijzigingen vastgelegd.</p>
+                )
+              )}
             </li>
           ))}
         </ol>

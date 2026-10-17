@@ -16,3 +16,6 @@ supabase/imports/
 
 # Generated from the four curated discovery inventories
 supabase/discovery-imports/
+
+# Schermafdrukken van de browsertests
+work/
