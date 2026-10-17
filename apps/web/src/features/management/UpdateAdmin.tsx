@@ -27,9 +27,30 @@ interface Change {
   source_url: string;
   note: string;
 }
+// Alleen de laatste rondes zijn nog interessant; ouder dan dat leest niemand terug.
+const ZICHTBARE_RONDES = 3;
 const date = (value: string | null) =>
   value
     ? new Date(value).toLocaleString("nl-NL", { timeZone: "Europe/Amsterdam" })
+    : "—";
+const dayTime = (value: string | null) =>
+  value
+    ? new Date(value).toLocaleString("nl-NL", {
+        timeZone: "Europe/Amsterdam",
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+        hour: "2-digit",
+        minute: "2-digit",
+      })
+    : "onbekende datum";
+const clock = (value: string | null) =>
+  value
+    ? new Date(value).toLocaleTimeString("nl-NL", {
+        timeZone: "Europe/Amsterdam",
+        hour: "2-digit",
+        minute: "2-digit",
+      })
     : "—";
 const CHANGE_LABEL: Record<string, string> = {
   added: "Toegevoegd",
@@ -37,34 +58,58 @@ const CHANGE_LABEL: Record<string, string> = {
   archived: "Gearchiveerd",
   rejected: "Afgewezen",
 };
-const sourceName = (c: Change) => {
-  if (!c.source_url) return (c.source_id ?? "bron onbekend");
+// Toegevoegd eerst: dat is waar de beheerder naar zoekt.
+const CHANGE_ORDER = ["added", "updated", "archived", "rejected"];
+const STATUS_LABEL: Record<string, string> = {
+  queued: "In de wachtrij",
+  running: "Bezig",
+  completed: "Afgerond",
+  failed: "Mislukt / onderbroken",
+};
+const host = (url: string) => {
   try {
-    return new URL(c.source_url).host.replace(/^www\./, "");
+    return new URL(url).host.replace(/^www\./, "");
   } catch {
-    return c.source_url;
+    return url;
   }
 };
+// De naam van de bron zegt meer dan het webadres; die staat in kk_update_sources.
+const sourceLabel = (c: Change, names: Record<string, string>) =>
+  (c.source_id && names[c.source_id]) ||
+  (c.source_url ? host(c.source_url) : (c.source_id ?? "bron onbekend"));
+const sorted = (changes: Change[]) =>
+  [...changes].sort(
+    (a, b) =>
+      CHANGE_ORDER.indexOf(a.change) - CHANGE_ORDER.indexOf(b.change) ||
+      a.record_name.localeCompare(b.record_name, "nl"),
+  );
 const counted = (changes: Change[]) =>
-  Object.entries(
-    changes.reduce<Record<string, number>>(
-      (acc, c) => ({ ...acc, [c.change]: (acc[c.change] ?? 0) + 1 }),
-      {},
-    ),
-  )
-    .map(([k, n]) => `${n}× ${(CHANGE_LABEL[k] ?? k).toLowerCase()}`)
-    .join(", ");
+  CHANGE_ORDER.filter((k) => changes.some((c) => c.change === k))
+    .map(
+      (k) =>
+        `${changes.filter((c) => c.change === k).length} ${(CHANGE_LABEL[k] ?? k).toLowerCase()}`,
+    )
+    .join(" · ");
 const waiting = (since: string) => {
   const minutes = Math.floor((Date.now() - new Date(since).getTime()) / 60000);
   if (minutes < 1) return "net aangevraagd";
   if (minutes < 60) return `${minutes} minuten in de wachtrij`;
   return `${Math.floor(minutes / 60)} uur in de wachtrij`;
 };
+const took = (run: Run) => {
+  if (!run.started_at || !run.finished_at) return "";
+  const minutes = Math.round(
+    (new Date(run.finished_at).getTime() - new Date(run.started_at).getTime()) /
+      60000,
+  );
+  return minutes < 1 ? " in minder dan een minuut" : ` in ${minutes} minuten`;
+};
 export function UpdateAdmin() {
   const { client } = useAuth(),
     [schedule, setSchedule] = useState<Schedule | null>(null),
     [runs, setRuns] = useState<Run[]>([]),
     [changes, setChanges] = useState<Record<string, Change[]>>({}),
+    [sourceNames, setSourceNames] = useState<Record<string, string>>({}),
     [reportFailed, setReportFailed] = useState(false),
     [message, setMessage] = useState(""),
     [busy, setBusy] = useState(false),
@@ -77,7 +122,7 @@ export function UpdateAdmin() {
         .from("kk_update_runs")
         .select("*")
         .order("requested_at", { ascending: false })
-        .limit(10),
+        .limit(ZICHTBARE_RONDES),
     ]);
     if (s.error || r.error)
       throw Error("Updategegevens konden niet worden geladen.");
@@ -85,11 +130,24 @@ export function UpdateAdmin() {
     setRuns(r.data);
     const ids = (r.data as Run[]).map((run) => run.id);
     if (!ids.length) return setChanges({});
-    const c = await client
-      .from("kk_update_changes")
-      .select("*")
-      .in("run_id", ids)
-      .order("created_at");
+    const [c, bronnen] = await Promise.all([
+      client
+        .from("kk_update_changes")
+        .select("*")
+        .in("run_id", ids)
+        .order("created_at"),
+      client.from("kk_update_sources").select("id,name"),
+    ]);
+    // Zonder de namen van de bronnen blijft het verslag leesbaar; dan staat het webadres er.
+    if (!bronnen.error)
+      setSourceNames(
+        Object.fromEntries(
+          (bronnen.data as { id: string; name: string }[]).map((b) => [
+            b.id,
+            b.name,
+          ]),
+        ),
+      );
     if (c.error) {
       setReportFailed(true);
       return setChanges({});
@@ -149,167 +207,210 @@ export function UpdateAdmin() {
     (r) => r.status === "queued" || r.status === "running",
   );
   return (
-    <section className="account-panel">
-      <h2>Updates uitvoeren en plannen</h2>
-      <p>
-        De updater haalt actieve bronnen op voor alle categorieën. Codex
-        controleert iedere vijf minuten of er werk klaarstaat. De Codex-app en
-        deze computer moeten daarvoor beschikbaar zijn; een aanvraag blijft
-        anders wachten.
-      </p>
-      <button
-        className="primary-button"
-        disabled={busy || active || !schedule}
-        onClick={async () => {
-          if (!client) return;
-          setBusy(true);
-          try {
-            const r = await client.rpc("kk_request_update");
-            if (r.error) throw Error(r.error.message);
-            await load(!dirty);
-            setMessage(
-              "Extra updateronde aangevraagd. De voortgang verschijnt hieronder.",
-            );
-          } catch (e) {
-            setMessage((e as Error).message);
-          } finally {
-            setBusy(false);
-          }
-        }}
+    <>
+      <section
+        id="updates"
+        className="account-panel"
+        aria-labelledby="updates-title"
       >
-        {active ? "Update aangevraagd of bezig" : "Nu updaten"}
-      </button>
-      {schedule && (
-        <form className="ranking-form" onSubmit={save}>
-          <h3>Automatische update</h3>
-          <label className="source-checkbox">
-            <input
-              type="checkbox"
-              checked={schedule.enabled}
-              onChange={(e) => {
-                setDirty(true);
-                setSchedule({ ...schedule, enabled: e.target.checked });
-              }}
-            />
-            Wekelijks automatisch actualiseren
-          </label>
-          <div className="form-grid">
-            <label>
-              Dag
-              <select
-                aria-label="Dag"
-                value={schedule.weekday}
-                onChange={(e) => {
-                  setDirty(true);
-                  setSchedule({ ...schedule, weekday: Number(e.target.value) });
-                }}
-              >
-                {[
-                  "Zondag",
-                  "Maandag",
-                  "Dinsdag",
-                  "Woensdag",
-                  "Donderdag",
-                  "Vrijdag",
-                  "Zaterdag",
-                ].map((d, i) => (
-                  <option key={d} value={i}>
-                    {d}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <label>
-              Tijd (Nederland)
+        <h2 id="updates-title">Updates uitvoeren en plannen</h2>
+        <p>
+          De updater haalt actieve bronnen op voor alle categorieën. Codex
+          controleert iedere vijf minuten of er werk klaarstaat. De Codex-app en
+          deze computer moeten daarvoor beschikbaar zijn; een aanvraag blijft
+          anders wachten.
+        </p>
+        <button
+          className="primary-button"
+          disabled={busy || active || !schedule}
+          onClick={async () => {
+            if (!client) return;
+            setBusy(true);
+            try {
+              const r = await client.rpc("kk_request_update");
+              if (r.error) throw Error(r.error.message);
+              await load(!dirty);
+              setMessage(
+                "Extra updateronde aangevraagd. De voortgang verschijnt onder Laatste updaterondes.",
+              );
+            } catch (e) {
+              setMessage((e as Error).message);
+            } finally {
+              setBusy(false);
+            }
+          }}
+        >
+          {active ? "Update aangevraagd of bezig" : "Nu updaten"}
+        </button>
+        {schedule && (
+          <form className="ranking-form" onSubmit={save}>
+            <h3>Automatische update</h3>
+            <label className="source-checkbox">
               <input
-                type="time"
-                required
-                value={schedule.local_time.slice(0, 5)}
+                type="checkbox"
+                checked={schedule.enabled}
                 onChange={(e) => {
                   setDirty(true);
-                  setSchedule({ ...schedule, local_time: e.target.value });
+                  setSchedule({ ...schedule, enabled: e.target.checked });
                 }}
               />
+              Wekelijks automatisch actualiseren
             </label>
-          </div>
-          <p>
-            Volgende geplande update:{" "}
-            {schedule.enabled
-              ? date(schedule.next_due)
-              : "automatische updates staan uit"}
-            . Zomer- en wintertijd worden meegenomen.
+            <div className="form-grid">
+              <label>
+                Dag
+                <select
+                  aria-label="Dag"
+                  value={schedule.weekday}
+                  onChange={(e) => {
+                    setDirty(true);
+                    setSchedule({
+                      ...schedule,
+                      weekday: Number(e.target.value),
+                    });
+                  }}
+                >
+                  {[
+                    "Zondag",
+                    "Maandag",
+                    "Dinsdag",
+                    "Woensdag",
+                    "Donderdag",
+                    "Vrijdag",
+                    "Zaterdag",
+                  ].map((d, i) => (
+                    <option key={d} value={i}>
+                      {d}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label>
+                Tijd (Nederland)
+                <input
+                  type="time"
+                  required
+                  value={schedule.local_time.slice(0, 5)}
+                  onChange={(e) => {
+                    setDirty(true);
+                    setSchedule({ ...schedule, local_time: e.target.value });
+                  }}
+                />
+              </label>
+            </div>
+            <p>
+              Volgende geplande update:{" "}
+              {schedule.enabled
+                ? date(schedule.next_due)
+                : "automatische updates staan uit"}
+              . Zomer- en wintertijd worden meegenomen.
+            </p>
+            <button disabled={busy || !dirty}>Updateschema opslaan</button>
+          </form>
+        )}
+        {message && (
+          <p role="status" className="notice">
+            {message}
           </p>
-          <button disabled={busy || !dirty}>Updateschema opslaan</button>
-        </form>
-      )}
-      <h3>Laatste updaterondes</h3>
-      {runs.length ? (
-        <ol className="update-runs">
-          {runs.map((r) => (
-            <li key={r.id}>
-              <strong>
-                {
-                  {
-                    queued: "In de wachtrij",
-                    running: "Bezig",
-                    completed: "Afgerond",
-                    failed: "Mislukt / onderbroken",
-                  }[r.status]
-                }
-              </strong>{" "}
-              · {r.reason === "manual" ? "Extra ronde" : "Gepland"}
-              <p>
-                Aangevraagd: {date(r.requested_at)} · gestart:{" "}
-                {date(r.started_at)} · afgerond: {date(r.finished_at)}
-                {r.status === "queued" && ` · ${waiting(r.requested_at)}`}
-              </p>
-              {r.summary && <p>{r.summary}</p>}
-              {changes[r.id]?.length ? (
-                <details className="update-changes">
-                  <summary>
-                    Wat is er veranderd: {counted(changes[r.id]!)}
-                  </summary>
-                  <ul>
-                    {changes[r.id]!.map((c) => (
-                      <li key={c.id}>
-                        <strong>{CHANGE_LABEL[c.change] ?? c.change}</strong>{" "}
-                        {c.record_name}
-                        {c.fields.length > 0 && ` · ${c.fields.join(", ")}`} ·
-                        bron:{" "}
-                        {c.source_url ? (
-                          <a
-                            href={c.source_url}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            {sourceName(c)}
-                          </a>
-                        ) : (
-                          sourceName(c)
-                        )}
-                        {c.note && <span> — {c.note}</span>}
-                      </li>
-                    ))}
-                  </ul>
-                </details>
-              ) : reportFailed ? (
-                <p>Het updateverslag kon niet worden geladen.</p>
-              ) : (
-                r.status === "completed" && (
-                  <p>Deze ronde heeft geen wijzigingen vastgelegd.</p>
-                )
-              )}
-            </li>
-          ))}
-        </ol>
-      ) : (
-        <p>Nog geen updaterondes geregistreerd in dit overzicht.</p>
-      )}
-      {message && (
-        <p role="status" className="notice">
-          {message}
+        )}
+      </section>
+      <section
+        id="rondes"
+        className="account-panel"
+        aria-labelledby="rondes-title"
+      >
+        <h2 id="rondes-title">Laatste updaterondes</h2>
+        <p>
+          De {ZICHTBARE_RONDES} meest recente rondes. Per ronde staat welke
+          verhalen zijn toegevoegd of bijgewerkt, en uit welke bron dat komt.
         </p>
-      )}
-    </section>
+        {runs.length ? (
+          <ol className="update-runs">
+            {runs.map((r) => {
+              const rows = changes[r.id] ?? [];
+              return (
+                <li key={r.id} className="update-round">
+                  <h3>
+                    {dayTime(r.requested_at)}
+                    <span className="update-round-kind">
+                      {r.reason === "manual"
+                        ? "Extra ronde"
+                        : "Geplande ronde"}
+                    </span>
+                  </h3>
+                  <p className="update-round-state">
+                    <strong>{STATUS_LABEL[r.status] ?? r.status}</strong>
+                    {r.status === "queued" && ` · ${waiting(r.requested_at)}`}
+                    {r.status === "running" &&
+                      r.started_at &&
+                      ` · gestart om ${clock(r.started_at)}`}
+                    {r.finished_at &&
+                      ` · klaar om ${clock(r.finished_at)}${took(r)}`}
+                  </p>
+                  {r.summary && (
+                    <p className="update-round-summary">{r.summary}</p>
+                  )}
+                  {rows.length ? (
+                    <>
+                      <p className="update-round-counts">{counted(rows)}</p>
+                      <div className="table-scroll">
+                        <table className="update-change-table">
+                          <thead>
+                            <tr>
+                              <th>Wat</th>
+                              <th>Verhaal</th>
+                              <th>Bron</th>
+                              <th>Toelichting</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {sorted(rows).map((c) => (
+                              <tr key={c.id}>
+                                <td>
+                                  {CHANGE_LABEL[c.change] ?? c.change}
+                                  {c.fields.length > 0 && (
+                                    <span className="update-change-fields">
+                                      {" · "}
+                                      {c.fields.join(", ")}
+                                    </span>
+                                  )}
+                                </td>
+                                <td>{c.record_name}</td>
+                                <td>
+                                  {c.source_url ? (
+                                    <a
+                                      href={c.source_url}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      {sourceLabel(c, sourceNames)}
+                                    </a>
+                                  ) : (
+                                    sourceLabel(c, sourceNames)
+                                  )}
+                                </td>
+                                <td>{c.note || "—"}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    </>
+                  ) : reportFailed ? (
+                    <p>Het updateverslag kon niet worden geladen.</p>
+                  ) : (
+                    r.status === "completed" && (
+                      <p>Deze ronde heeft geen wijzigingen vastgelegd.</p>
+                    )
+                  )}
+                </li>
+              );
+            })}
+          </ol>
+        ) : (
+          <p>Nog geen updaterondes geregistreerd in dit overzicht.</p>
+        )}
+      </section>
+    </>
   );
 }

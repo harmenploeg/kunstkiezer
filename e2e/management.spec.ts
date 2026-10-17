@@ -6,7 +6,8 @@ async function setup(page:Page,editor=true){
  const changes=[{id:'c1',run_id:'run-0',change:'added',record_table:'kk_discoveries',record_name:'Angkor — Het mysterie van Cambodja',fields:[],source_id:'official-institutions',source_url:'https://drentsmuseum.nl/tentoonstellingen/angkor',note:'looptijd op de detailpagina'},
   {id:'c2',run_id:'run-0',change:'updated',record_table:'kk_discoveries',record_name:'Ruud Kuijer',fields:['ends_on'],source_id:'nieuwsbrief-kroller-muller',source_url:'https://krollermuller.nl/ruud-kuijer',note:'verlengd tot 6 december'},
   {id:'c3',run_id:'run-0',change:'rejected',record_table:'kk_discoveries',record_name:'Opbouwweek',fields:[],source_id:null,source_url:'https://huismarseille.nl/agenda',note:'sluitingsbericht, geen looptijd'}];let members=[{user_id:'member-1',email:'visitor@example.test',is_admin:false}];
- let rows=[{id:'source-1',name:'Museumbron',url:'https://example.test',notes:'Ook beeldenpark en architectuur.',enabled:true,updated_at:'2026-10-04T00:00:00Z'}];let revision=0,conflict=false,sourceReads=0;
+ let rows=[{id:'source-1',name:'Museumbron',url:'https://example.test',notes:'Ook beeldenpark en architectuur.',enabled:true,updated_at:'2026-10-04T00:00:00Z'},
+  {id:'official-institutions',name:'Musea en kunstinstellingen',url:'https://example.test/musea',notes:'Eigen programmapagina.',enabled:true,updated_at:'2026-10-04T00:00:00Z'}];let revision=0,conflict=false,sourceReads=0,runsQuery='';
  const settings={distance_weight:70,tag_weight:30,distance_scale_km:30,updated_at:'2026-10-04T00:00:00Z'};
  const user={id:'00000000-0000-4000-8000-000000000001',email:'editor@example.test',aud:'authenticated',app_metadata:{provider:'email'},user_metadata:{},created_at:'2026-10-04T00:00:00Z'};
  const token=[{alg:'HS256',typ:'JWT'},{sub:user.id,aud:'authenticated',role:'authenticated',exp:4000000000},'test'].map(v=>Buffer.from(typeof v==='string'?v:JSON.stringify(v)).toString('base64url')).join('.');
@@ -26,7 +27,7 @@ async function setup(page:Page,editor=true){
  if(path.endsWith('/kk_tags')){if(route.request().method()==='PATCH'){tags=tags.map(t=>({...t,...route.request().postDataJSON(),updated_at:'v2'}));return reply(tags[0]);}return reply(tags);}
  if(path.endsWith('/kk_preference_questions')){if(route.request().method()==='PATCH'){const b=route.request().postDataJSON();questions={...b,updated_at:'v2'};return reply({updated_at:'v2'});}return reply(questions);}
  if(path.endsWith('/kk_seen'))return reply([]);
- if(path.endsWith('/kk_update_runs'))return reply(runs);
+ if(path.endsWith('/kk_update_runs')){runsQuery=route.request().url();return reply(runs);}
  if(path.endsWith('/kk_update_changes'))return reply(changes);
  if(path.endsWith('/kk_list_members'))return reply(members);
  if(path.endsWith('/kk_set_admin')){const b=route.request().postDataJSON();members=members.map(m=>m.user_id===b.member_id?{...m,is_admin:b.allowed}:m);return reply(null);}
@@ -43,14 +44,14 @@ async function setup(page:Page,editor=true){
  return reply({});
  });
  await page.goto('/kunstkiezer/account');await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');await page.locator('form').getByRole('button',{name:'Inloggen'}).click();await expect(page).toHaveURL(/\/kunstkiezer\/(agenda)?$/);await page.goto('/kunstkiezer/beheer/instellingen');
- return {rows:()=>rows,conflict:(v:boolean)=>{conflict=v;},reads:()=>sourceReads};
+ return {rows:()=>rows,conflict:(v:boolean)=>{conflict=v;},reads:()=>sourceReads,runsQuery:()=>runsQuery};
 }
 test('Beheer groepeert ranking en bronnen; toevoegen, uitschakelen, herladen, conflicten en verwijderen',async({page})=>{
  const mock=await setup(page);await expect(page.locator('#volgorde').getByRole('heading',{name:'Volgorde en waarderingen',exact:true})).toBeVisible();await expect(page.getByRole('button',{name:/Museumbron/})).toBeVisible();
  await page.getByRole('button',{name:'Bron toevoegen',exact:true}).click();await page.getByLabel('Naam van de bron').fill('Gemeentelijke kunst');await page.getByLabel('Webadres').fill('https://example.test/kunst');await page.getByLabel('Zoekinstructie en aandachtspunten').fill('Opmerkelijke beelden en ensembles.');await page.getByRole('button',{name:'Bron opslaan',exact:true}).click();await expect(page.getByRole('status').filter({hasText:'Bron opgeslagen'})).toBeVisible();
  await page.reload();await page.getByRole('button',{name:/Gemeentelijke kunst/}).click();await expect(page.getByLabel('Webadres')).toHaveValue('https://example.test/kunst');await page.getByLabel('Meenemen in de update').uncheck();await page.getByRole('button',{name:'Bron opslaan',exact:true}).click();await expect(page.getByRole('button',{name:/Gemeentelijke kunst/})).toContainText('Uitgeschakeld');
  await page.getByRole('button',{name:/Gemeentelijke kunst/}).click();mock.conflict(true);await page.getByLabel('Naam van de bron').fill('Niet overschrijven');await page.getByRole('button',{name:'Bron opslaan',exact:true}).click();await expect(page.getByRole('alert')).toContainText('ondertussen gewijzigd');expect(mock.rows().find(r=>r.id==='new-source')?.name).toBe('Gemeentelijke kunst');mock.conflict(false);page.once('dialog',d=>d.accept());await page.getByRole('button',{name:'Bronnen opnieuw laden'}).click();
- await page.getByRole('button',{name:/Gemeentelijke kunst/}).click();await page.getByRole('button',{name:'Bron verwijderen',exact:true}).click();await page.getByRole('button',{name:'Definitief verwijderen'}).click();await expect(page.getByRole('button',{name:/Gemeentelijke kunst/})).toHaveCount(0);await page.reload();await expect(page.getByRole('button',{name:/Museumbron/})).toBeVisible();expect(mock.rows()).toHaveLength(1);
+ await page.getByRole('button',{name:/Gemeentelijke kunst/}).click();await page.getByRole('button',{name:'Bron verwijderen',exact:true}).click();await page.getByRole('button',{name:'Definitief verwijderen'}).click();await expect(page.getByRole('button',{name:/Gemeentelijke kunst/})).toHaveCount(0);await page.reload();await expect(page.getByRole('button',{name:/Museumbron/})).toBeVisible();expect(mock.rows()).toHaveLength(2);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
  await page.screenshot({path:`work/management-${test.info().project.name}.png`,fullPage:true});
 });
@@ -62,20 +63,32 @@ test('Beheer kan extra update aanvragen, weekschema wijzigen en beheerder aanwij
  page.once('dialog',d=>d.accept());await page.getByRole('button',{name:'Maak beheerder',exact:true}).click();await expect(page.getByRole('button',{name:'Beheer intrekken',exact:true})).toBeVisible();
 });
 
-test('Beheer leest per ronde wat er is veranderd en op grond van welke bron',async({page})=>{
- await setup(page);
- const ronde=page.locator('.update-runs li').first();
+test('Laatste updaterondes staat apart, toont de laatste drie en noemt per verhaal de bron',async({page})=>{
+ const mock=await setup(page);
+ const paneel=page.getByRole('region',{name:'Laatste updaterondes',exact:true});
+ await expect(paneel.getByRole('heading',{level:2,name:'Laatste updaterondes',exact:true})).toBeVisible();
+ expect(mock.runsQuery()).toContain('limit=3');
+ const ronde=paneel.locator('.update-runs li').first();
  await expect(ronde).toContainText('3 records: 2 toegevoegd, 1 afgewezen.');
- const verslag=ronde.locator('details.update-changes');
- await expect(verslag.locator('summary')).toHaveText('Wat is er veranderd: 1× toegevoegd, 1× bijgewerkt, 1× afgewezen');
- await verslag.locator('summary').click();
- await expect(verslag.getByText('Angkor — Het mysterie van Cambodja')).toBeVisible();
- await expect(verslag.getByRole('link',{name:'drentsmuseum.nl'})).toHaveAttribute('href','https://drentsmuseum.nl/tentoonstellingen/angkor');
- await expect(verslag.getByRole('listitem').filter({hasText:'Ruud Kuijer'})).toContainText('ends_on');
- await expect(verslag.getByRole('listitem').filter({hasText:'Ruud Kuijer'})).toContainText('verlengd tot 6 december');
- await expect(verslag.getByRole('listitem').filter({hasText:'Opbouwweek'})).toContainText('Afgewezen');
- await expect(verslag.getByRole('link',{name:'drentsmuseum.nl'})).toHaveCSS('text-decoration-line','underline');
+ await expect(ronde.locator('.update-round-counts')).toHaveText('1 toegevoegd · 1 bijgewerkt · 1 afgewezen');
+ await expect(ronde.locator('tbody tr td:first-child')).toHaveText(['Toegevoegd','Bijgewerkt · ends_on','Afgewezen']);
+ const rij=(naam:string)=>ronde.locator('tbody tr').filter({hasText:naam});
+ await expect(rij('Angkor — Het mysterie van Cambodja')).toContainText('Toegevoegd');
+ await expect(rij('Angkor — Het mysterie van Cambodja').getByRole('link',{name:'Musea en kunstinstellingen'})).toHaveAttribute('href','https://drentsmuseum.nl/tentoonstellingen/angkor');
+ await expect(rij('Angkor — Het mysterie van Cambodja')).toContainText('looptijd op de detailpagina');
+ await expect(rij('Ruud Kuijer')).toContainText('verlengd tot 6 december');
+ await expect(rij('Ruud Kuijer').getByRole('link',{name:'krollermuller.nl'})).toBeVisible();
+ await expect(rij('Opbouwweek')).toContainText('Afgewezen');
+ await expect(ronde.getByRole('link',{name:'Musea en kunstinstellingen'})).toHaveCSS('text-decoration-line','underline');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+});
+
+test('Beheer heeft aparte kopjes voor tags, bronnen, rondes en gebruikers',async({page})=>{
+ await setup(page);
+ for(const [anker,naam] of [['tags','Tagbeheer'],['bronnen','Bronnen voor de update'],['updates','Updates uitvoeren en plannen'],['rondes','Laatste updaterondes'],['gebruikers','Gebruikers en beheerders']] as const){
+  await expect(page.getByRole('navigation',{name:'Beheeronderdelen'}).getByRole('link',{name:naam,exact:true})).toHaveAttribute('href','#'+anker);
+  await expect(page.locator('#'+anker).getByRole('heading',{level:2,name:naam,exact:true})).toBeVisible();
+ }
 });
 
 test('Een onleesbaar updateverslag beweert niet dat er niets is veranderd',async({page})=>{

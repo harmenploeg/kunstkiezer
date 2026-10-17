@@ -30,7 +30,8 @@ h1 { font-size: clamp(2.3rem, 6vw, 4rem); line-height: 1.12; font-weight: 350; l
 .category-grid { margin-bottom: 40px; }
 .category-card { padding: 27px; border: 1px solid var(--border); border-radius: var(--radius-l); }
 .category-card:hover { background: var(--accent-tint); border-color: var(--accent); }
-.category-card h2 { font-weight: 450; font-size: 22px; line-height: 1.3; }
+.category-card h2, .category-card-label { font-weight: 450; font-size: 22px; line-height: 1.3; }
+.category-card-label { display: block; }
 .category-card p { font-size: 14px; color: var(--muted); }
 .category-dot { display: grid; place-items: center; width: 40px; height: 40px; background: var(--accent-tint); border-radius: 50%; font-size: 12px; color: var(--accent-deep); font-weight: 600; }
 .category-link { font-size: 13px; display: flex; justify-content: space-between; margin-top: 26px; }
@@ -159,15 +160,20 @@ dialog::backdrop {background:rgb(0 0 0 / .45)}
 .member-list,.update-runs {padding:0;list-style:none}
 .member-list li {display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1rem;padding:1rem 0;border-bottom:1px solid #ddd;overflow-wrap:anywhere}
 .update-runs li {border-bottom:1px solid #ddd;padding-block:1rem}
-/* Het verslag per ronde: wat is veranderd, en op grond van welke bron. Staat in een
-   geneste lijst, dus de scheidingslijn van .update-runs li hoort hier niet. */
-.update-changes {margin-top:.5rem}
-.update-changes summary {cursor:pointer;font-weight:600}
-.update-changes ul {margin:.5rem 0 0;padding-left:1.1rem;display:grid;gap:.45rem;list-style:disc}
-.update-changes li {border-bottom:0;padding-block:0;overflow-wrap:anywhere}
+/* Het verslag per ronde: wat is veranderd, en op grond van welke bron. De ronde zelf
+   is de kop, de tabel eronder noemt elk verhaal met zijn bron. */
+.update-round h3 {margin:0 0 .35rem;display:flex;flex-wrap:wrap;gap:.6rem;align-items:baseline}
+.update-round-kind {padding:.2rem .6rem;border-radius:2rem;font-size:.8rem;font-weight:700;background:#f1f1f1;color:#444}
+.update-round-state,.update-round-summary,.update-round-counts {margin:.2rem 0}
+.update-round-summary {overflow-wrap:anywhere}
+.update-round-counts {font-weight:600}
+.update-change-table {width:100%;border-collapse:collapse;margin-top:.5rem}
+.update-change-table th,.update-change-table td {text-align:left;padding:.45rem .6rem;border-bottom:1px solid #ddd;vertical-align:top;overflow-wrap:anywhere}
+.update-change-table th {font-size:.85rem;text-transform:uppercase;letter-spacing:.03em;color:#555}
+.update-change-fields {color:#555}
 /* De bron is hier de kern van de notitie, dus de link moet er ook uitzien als een link;
    de regel a{text-decoration:none} hierboven maakt hem anders onzichtbaar. */
-.update-changes a {text-decoration:underline;text-underline-offset:2px}
+.update-change-table a {text-decoration:underline;text-underline-offset:2px}
 @media(max-width:600px){.main-nav{flex-wrap:wrap}.stars button{font-size:1.7rem}.catalog-actions{align-items:stretch}.catalog-actions>button{flex:1}}
 
 /* Shared catalogue presentation across categories, detail and tag results. */
