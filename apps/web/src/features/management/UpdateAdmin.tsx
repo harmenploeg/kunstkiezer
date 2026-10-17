@@ -215,10 +215,11 @@ export function UpdateAdmin() {
       >
         <h2 id="updates-title">Updates uitvoeren en plannen</h2>
         <p>
-          De updater haalt actieve bronnen op voor alle categorieën. Codex
-          controleert iedere vijf minuten of er werk klaarstaat. De Codex-app en
-          deze computer moeten daarvoor beschikbaar zijn; een aanvraag blijft
-          anders wachten.
+          De updater haalt actieve bronnen op voor alle categorieën. De
+          wekelijkse ronde wordt maandagochtend opgepakt door de geplande taak
+          “Kunstkiezer · wekelijkse actualisatie” in Claude Code; een extra
+          aanvraag blijft in de wachtrij tot een runner hem claimt. Deze
+          computer moet daarvoor aanstaan.
         </p>
         <button
           className="primary-button"
