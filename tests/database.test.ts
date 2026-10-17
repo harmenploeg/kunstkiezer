@@ -234,6 +234,41 @@ test('Updates: alleen beheer kan aanvragen, deduplicatie, alleen vertrouwde runn
  }finally{await db.close();}
 });
 
+test('Updateverslag: alleen de runner schrijft, alleen beheer leest, en elke wijziging noemt haar bron',async()=>{
+ const db=await database();try{
+ await role(db,'authenticated',editor);
+ const run=(await db.query<{id:string}>('select public.kk_request_update() id')).rows[0]!.id;
+ const noteer=(p:unknown,id=run)=>db.query('select public.kk_record_update_change($1,$2) id',[id,JSON.stringify(p)]);
+ // beheer vraagt een ronde aan, maar schrijft niets in de uitslag
+ await assert.rejects(db.query('select * from public.kk_claim_update()'),/permission denied/i);
+ await assert.rejects(db.query('select * from public.kk_finish_update($1,true,$2)',[run,'notitie']),/permission denied/i);
+ await assert.rejects(noteer({change:'added'}),/permission denied/i);
+ await db.exec('reset role;set role service_role;');
+ assert.equal((await db.query('select * from public.kk_claim_update()')).rows.length,1);
+ assert.equal((await db.query('select * from public.kk_claim_update()')).rows.length,0);
+ await noteer({change:'added',record_table:'kk_discoveries',record_id:'11111111-1111-4111-8111-111111111111',record_name:'Angkor',source_url:'https://drentsmuseum.nl/tentoonstellingen/angkor',note:'looptijd op de detailpagina'});
+ await noteer({change:'updated',record_table:'kk_discoveries',record_id:'22222222-2222-4222-8222-222222222222',record_name:'Ruud Kuijer',fields:['ends_on'],source_url:'https://krollermuller.nl/ruud-kuijer'});
+ await noteer({change:'rejected',record_table:'kk_discoveries',record_name:'Opbouwweek',source_url:'https://huismarseille.nl/agenda'});
+ // zonder bron is een wijziging niet na te lezen; alleen een afwijzing heeft geen record
+ await assert.rejects(noteer({change:'added',record_table:'kk_discoveries',record_name:'Zonder bron'}),/violates check/i);
+ await assert.rejects(noteer({change:'added',record_table:'kk_discoveries',record_name:'Zonder record',source_url:'https://x.test'}),/violates check/i);
+ await assert.rejects(noteer({change:'verzonnen',record_table:'kk_discoveries',record_id:'33333333-3333-4333-8333-333333333333',record_name:'X',source_url:'https://x.test'}),/violates check/i);
+ const af=(await db.query<{status:string;summary:string}>('select * from public.kk_finish_update($1,true,$2)',[run,'3 records: 1 toegevoegd, 1 bijgewerkt, 1 afgewezen.'])).rows[0]!;
+ assert.equal(af.status,'completed');assert.equal(af.summary,'3 records: 1 toegevoegd, 1 bijgewerkt, 1 afgewezen.');
+ await assert.rejects(db.query('select * from public.kk_finish_update($1,true,$2)',[run,'nog eens']),/niet op running/i);
+ await assert.rejects(noteer({change:'added',record_table:'kk_discoveries',record_id:'44444444-4444-4444-8444-444444444444',record_name:'Te laat',source_url:'https://x.test'}),/niet op running/i);
+ await role(db,'authenticated',editor);
+ const zicht=(await db.query<{change:string;source_url:string}>('select * from public.kk_update_changes order by created_at')).rows;
+ assert.deepEqual(zicht.map(r=>r.change),['added','updated','rejected']);
+ assert.ok(zicht.every(r=>r.source_url.startsWith('https://')));
+ await assert.rejects(db.query("insert into public.kk_update_changes(run_id,change,record_table,record_name,source_url) values($1,'added','kk_discoveries','Stiekem','https://x.test')",[run]));
+ await role(db,'authenticated',visitor);assert.equal((await db.query('select * from public.kk_update_changes')).rows.length,0);
+ await role(db,'anon');await assert.rejects(db.query('select * from public.kk_update_changes'));
+ await db.exec('reset role');await db.query('delete from public.kk_update_runs where id=$1',[run]);
+ assert.equal((await db.query('select * from public.kk_update_changes')).rows.length,0);
+ }finally{await db.close();}
+});
+
 test('Verdwenen aanbod is privé en gezamenlijke sterren lekken geen individuele stemmen',async()=>{
  const db=await database();try{
  await role(db,'authenticated',editor);

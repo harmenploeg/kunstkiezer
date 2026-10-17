@@ -17,6 +17,9 @@ supabase/imports/
 # Generated from the four curated discovery inventories
 supabase/discovery-imports/
 
+# Schermafdrukken van de browsertests
+work/
+
 # tussenbestanden van een oogstronde (momentopnamen van externe sites)
 oogst-werk/
 scripts/oogst/__pycache__/
