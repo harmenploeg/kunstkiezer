@@ -1,15 +1,8 @@
 """Na de trechter: scheid nieuwe vondsten van wat al in de catalogus staat."""
-import json, re, unicodedata, datetime, difflib
+import json, datetime
 from werkmap import pad
 
-def norm(s):
-    s = unicodedata.normalize('NFKD', (s or '').lower())
-    s = ''.join(c for c in s if not unicodedata.combining(c))
-    s = re.sub(r'\b(de|het|een|the|a|an)\b', ' ', s)
-    return re.sub(r'[^a-z0-9 ]', ' ', s).strip()
-
-def kern(s):
-    return ' '.join(norm(s).split())
+from titels import DREMPEL, beste_treffer, kern
 
 cat = json.load(open(pad('catalogus.json')))
 bekend = [(kern(r['name']), r) for r in cat]
@@ -23,19 +16,11 @@ for inst in oogst:
         k = kern(v['titel'])
         if len(k) < 4:
             continue
-        beste, score = None, 0.0
-        for bk, br in bekend:
-            bevat = bool(k and bk) and (k in bk or bk in k) and min(len(k), len(bk)) > 8
-            m = difflib.SequenceMatcher(None, k, bk)
-            if not bevat and (m.real_quick_ratio() <= score or m.quick_ratio() <= score):
-                continue  # bovengrenzen van difflib: deze titel kan de beste niet verslaan
-            r = max(m.ratio(), 0.9) if bevat else m.ratio()
-            if r > score:
-                beste, score = br, r
+        beste, score = beste_treffer(k, bekend)
         rij = {'instelling': inst['naam'], 'categorie': inst['categorie'], 'titel': v['titel'],
                'start': v['start'], 'eind': v['eind'], 'bron': inst['programma'], 'methode': v['methode'],
                'gelijkenis': round(score, 2), 'lijkt_op': beste['name'] if beste else None}
-        if score >= 0.82:
+        if score >= DREMPEL:
             al_bekend += 1
             continue
         try:

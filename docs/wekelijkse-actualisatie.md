@@ -103,6 +103,19 @@ aanroepen als stap 3 in zijn geheel. Laat de browser daarom nooit titels en datu
 overzicht plukken, maar alleen de links naar de afzonderlijke tentoonstellingen;
 detailpagina's blijken veel vaker serverzijdig leesbaar dan overzichten.
 
+**De lijsten tussen de stappen komen uit `scripts/oogst/maak-lijsten.py`, niet uit
+handwerk.** Zes tussenbestanden werden door de stappen gelezen maar door geen enkel script
+geschreven, dus stelde de beheerder ze elke ronde zelf samen. Dat liet instellingen
+wegvallen: op 16 oktober 2026 gaf `oogst.json` 159 instellingen zonder vondst terwijl
+`js-paginas.json` er 132 bevatte, en de 27 die ontbraken waren 21 beeldenparken, 4
+architectuurlocaties en 2 musea — die kregen stap 2 tot 4 dus nooit, terwijl stap 3 van dit
+protocol zegt dat de bronsoort geen categoriefilter is. Museum Belvédère en Mediamatic
+vielen zonder reden uit de lijst voor stap 3. Het script filtert niets op categorie en
+meldt met naam en reden wat niet mee kan. De bezoeklocatie zoekt het op naam en pas daarna
+op host, want één webadres kan meer zalen dragen (Museum de Fundatie: Zwolle én Heino);
+beslist de naam het niet, dan geeft het geen adres en leest `bezoekadres.py` de zaal uit de
+aankondiging zelf.
+
 **Stap 0: begin bij wat vorige ronde werkte.** `scripts/oogst/route.py` bewaart per
 instelling de programmapagina, de sitemaps die URL's gaven en het eindpunt in
 `data/curation/oogst-routes.json`; staat een route daar, dan slaat de trechter het zoeken

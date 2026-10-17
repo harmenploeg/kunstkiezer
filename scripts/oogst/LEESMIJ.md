@@ -17,12 +17,35 @@ tussenbestanden horen niet in versiebeheer: het zijn momentopnamen van externe s
 
 ```sh
 export KK_OOGST_WERKMAP=/pad/naar/ronde-2026-10-23
-# instellingen.json: gepubliceerde, open instellingen met webadres, ontdubbeld op host
-python3 scripts/oogst/vind-programmapagina.py      # -> programmapaginas.json
-python3 scripts/oogst/oogst-overzichtspagina.py    # -> oogst.json
-python3 scripts/oogst/ontdubbel.py                 # -> kandidaten.json
-python3 scripts/oogst/filter-ruis.py               # -> kandidaten-schoon.json
+python3 scripts/oogst/maak-lijsten.py instellingen   # -> instellingen.json  (database)
+python3 scripts/oogst/maak-lijsten.py catalogus      # -> catalogus.json     (database)
+python3 scripts/oogst/vind-programmapagina.py        # -> programmapaginas.json
+python3 scripts/oogst/oogst-overzichtspagina.py      # -> oogst.json
+python3 scripts/oogst/ontdubbel.py                   # -> kandidaten.json
+python3 scripts/oogst/filter-ruis.py                 # -> kandidaten-schoon.json
+
+python3 scripts/oogst/maak-lijsten.py js-paginas     # -> js-paginas.json      (stap 2 in)
+python3 scripts/oogst/sitemap.py                     # -> sitemap-urls.json
+python3 scripts/oogst/detailpaginas.py               # -> sitemap-details.json
+python3 scripts/oogst/maak-lijsten.py zonder-sitemap # -> zonder-sitemap.json  (stap 3 in)
+python3 scripts/oogst/links-serverzijdig.py          # -> server-links.json
+python3 scripts/oogst/maak-lijsten.py browser-nodig  # -> browser-nodig.json   (stap 4 in)
+python3 scripts/oogst/api-eindpunt.py                # -> api-endpoints.json
+python3 scripts/oogst/agenda-eindpunt.py             # -> ical-endpoints.json
+python3 scripts/oogst/maak-lijsten.py restlijst      # -> restlijst.json
+python3 scripts/oogst/detail-per-kandidaat.py        # -> rest-detail.json
 ```
+
+**De lijsten tussen de stappen zijn geen handwerk meer.** Zes bestanden werden gelezen
+maar door geen enkel script geschreven, dus stelde de beheerder ze elke ronde zelf samen —
+en dat liet instellingen wegvallen. Op 16 oktober 2026 gaf `oogst.json` 159 instellingen
+zonder vondst, terwijl `js-paginas.json` er 132 bevatte: **21 beeldenparken en 4
+architectuurlocaties kregen stap 2 tot 4 nooit**, en Museum Belvédère en Mediamatic vielen
+zonder reden uit `zonder-sitemap.json`. Het protocol zegt uitdrukkelijk dat de bronsoort
+geen categoriefilter is. `maak-lijsten.py` bouwt die zes lijsten nu, meldt met naam en
+reden wat niet mee kan, en filtert niets op categorie. Gecontroleerd tegen de ronde van
+16 oktober: `browser-nodig` exact gelijk (61), `js-paginas` 159 in plaats van 132 met de
+131 gezamenlijke records veld voor veld identiek, `zonder-sitemap` 97 in plaats van 95.
 
 Twee dingen staan naast die tussenbestanden:
 
@@ -37,8 +60,20 @@ Twee dingen staan naast die tussenbestanden:
   deterministisch: 16 en 17 oktober 2026 gaven bij 264 van de 264 instellingen dezelfde
   programmapagina, elke ronde ten koste van 332 opgehaalde homepages.
 
-Alleen Python uit de standaardbibliotheek; geen sleutels, geen installatie. De scripts
-halen uitsluitend openbare pagina's op en omzeilen geen login-, betaal- of botmuur.
+Alleen Python uit de standaardbibliotheek, geen installatie. De scripts halen uitsluitend
+openbare pagina's op en omzeilen geen login-, betaal- of botmuur. Eén uitzondering op
+"geen sleutels": `maak-lijsten.py instellingen` en `maak-lijsten.py catalogus` lezen de
+database en gebruiken daarvoor de secret key uit `~/.config/kunstkiezer/service-role`
+(of `KK_SERVICE_ROLE`). Die staat alleen in de verzoekkoppen, nooit in een bestand of in
+de uitvoer. De andere veertien stappen hebben geen sleutel nodig.
+
+**Een host is geen zaal.** De bezoeklocatie bij `js-paginas` komt op **naam** uit de
+database en pas daarna op host. Museum de Fundatie heeft twee zalen onder hetzelfde
+webadres (Blijmarkt in Zwolle, Kasteel het Nijenhuis in Heino), en utrechtslandschap.nl en
+architectuurgids.nl dragen er tientallen; matchen op host hing bij de eerste poging het
+verkeerde adres aan vier instellingen. Beslist de naam het niet en heeft de host meer dan
+één locatie, dan geeft `maak-lijsten.py` géén adres en zegt het dat — `bezoekadres.py`
+leest de zaal dan uit de aankondiging zelf.
 
 ## De trechter, in deze volgorde
 
@@ -215,6 +250,8 @@ is het linkprobleem opgelost voor sites waar overzicht én sitemap niets gaven.
 | `werkmap.py` | Waar de tussenbestanden staan; `arg(n, standaard)` om een stap over een tweede lijst te draaien |
 | `haal.py` | Haalt elke pagina op en bewaart hem in `<werkmap>/cache/`; `samenvatting()` zegt hoeveel aanroepen dat uitspaarde |
 | `route.py` | Onthoudt per instelling de route die werkte, in `data/curation/oogst-routes.json` |
+| `maak-lijsten.py` | Bouwt de zes tussenlijsten; meldt met naam en reden wat niet mee kan |
+| `titels.py` | Wanneer twee titels dezelfde tentoonstelling zijn; één maat voor `ontdubbel.py` en de restlijst |
 | `extract.py` | Titel en looptijd uit een pagina: eerst JSON-LD `Event`, anders datumbereiken gekoppeld aan de kop erboven |
 | `vind-programmapagina.py` | Kiest op de homepage de link die het meest op een tentoonstellingsoverzicht lijkt |
 | `oogst-overzichtspagina.py` | Haalt elke programmapagina op en past de extractor toe |
