@@ -1,4 +1,5 @@
-"""Stap 21: lees de volledige tekst van elke nieuwsbrief en haal er tentoonstellingen uit.
+"""Nieuwsbrieven, stap 4 van 4: lees de volledige tekst van elke nieuwsbrief en haal er
+tentoonstellingen uit.
 
 Een Mailchimp-campagnepagina begint met een lange taalkiezer die eindigt op "Tiếng Việt";
 alles daarvoor is sjabloon. Daarna volgt de echte inhoud, vaak met meerdere

@@ -1,13 +1,14 @@
-"""Stap 1: vind per instelling de pagina met het tentoonstellingsprogramma.
+"""Trechterstap 1, eerste helft: vind per instelling de pagina met het
+tentoonstellingsprogramma.
 
 Leest de homepage en kiest de link die het meest op een agenda- of
 tentoonstellingsoverzicht lijkt. Valt terug op een aantal gangbare paden.
 """
-import json,re,urllib.request,urllib.parse,ssl,concurrent.futures as cf,time
+import json,re,urllib.parse,concurrent.futures as cf,time
 from werkmap import pad
 
-UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
-ctx=ssl.create_default_context(); ctx.check_hostname=False; ctx.verify_mode=ssl.CERT_NONE
+import haal
+import route
 
 # hoe sterker het woord, hoe hoger de score
 WOORDEN=[('tentoonstelling',10),('tentoonstellingen',10),('exhibition',9),('exhibitions',9),
@@ -17,9 +18,7 @@ WOORDEN=[('tentoonstelling',10),('tentoonstellingen',10),('exhibition',9),('exhi
 NEGATIEF=['archief','archive','afgelopen','past','verleden','vacature','nieuwsbrief','shop','winkel','pers']
 
 def ophalen(url,timeout=15):
-    req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept-Language':'nl,en;q=0.8'})
-    with urllib.request.urlopen(req,timeout=timeout,context=ctx) as r:
-        return r.status,r.read(900_000).decode('utf-8','replace'),r.url
+    return haal.tekst(url,timeout=timeout,limiet=900_000)
 
 def kies(basis,html):
     gevonden={}
@@ -38,6 +37,13 @@ def kies(basis,html):
 
 def werk(t):
     r={'naam':t['name'],'host':t['host'],'start':t['website_url'],'categorie':t['category']}
+    # Deze keuze is deterministisch: op 16 en 17 oktober 2026 gaf zij bij 264 van de 264
+    # instellingen dezelfde URL. Is zij al bekend, dan hoeft de homepage er niet voor op.
+    onthouden=route.van(t['host'])
+    if onthouden.get('programma'):
+        r.update(programma=onthouden['programma'],score=onthouden.get('score',5),
+                 linktekst=onthouden.get('linktekst',''),via='onthouden')
+        return r
     try:
         code,html,eind=ophalen(t['website_url'])
         r['http']=code
@@ -52,6 +58,9 @@ def werk(t):
                 except Exception: continue
     except Exception as e:
         r['fout']=f'{type(e).__name__}: {str(e)[:70]}'
+    if r.get('programma'):
+        route.onthoud(t['host'],programma=r['programma'],score=r.get('score'),
+                      linktekst=r.get('linktekst'),via=r.get('via'))
     return r
 
 if __name__=='__main__':
@@ -62,5 +71,10 @@ if __name__=='__main__':
             uit.append(r)
             if i%80==0: print(f'  {i}/{len(doelen)}  {time.time()-t0:.0f}s',flush=True)
     json.dump(uit,open(pad('programmapaginas.json'),'w'),ensure_ascii=False,indent=1)
+    route.bewaar()
     met=sum(1 for r in uit if r.get('programma'))
+    onthouden=sum(1 for r in uit if r.get('via')=='onthouden')
     print(f'klaar in {time.time()-t0:.0f}s | {met}/{len(uit)} instellingen met een programmapagina')
+    print(f'  uit het routegeheugen : {onthouden} (geen homepage opgehaald)')
+    print(f'  netwerk               : {haal.samenvatting()}')
+    print(f'  geheugen              : {route.samenvatting()}')

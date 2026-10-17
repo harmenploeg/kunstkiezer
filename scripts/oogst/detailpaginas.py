@@ -1,10 +1,10 @@
-"""Stap 14: haal elke gevonden detailpagina op en lees titel, looptijd en inleiding."""
-import json, re, html, urllib.request, ssl, concurrent.futures as cf, time
+"""Trechterstap 2 en 3, tweede helft: haal elke gevonden detailpagina op en lees titel,
+looptijd en inleiding."""
+import json, re, html, concurrent.futures as cf, time
 from werkmap import pad, arg
 
 import extract as ex
-UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
-ctx = ssl.create_default_context(); ctx.check_hostname = False; ctx.verify_mode = ssl.CERT_NONE
+import haal as net
 
 
 def werk(taak):
@@ -14,9 +14,7 @@ def werk(taak):
     r = {'instelling': inst.get('museum'), 'url': url}
     r.update({k: inst.get(k) for k in ('museum_id', 'city', 'province', 'adres', 'lat', 'lon', 'precisie')})
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept-Language': 'nl'})
-        with urllib.request.urlopen(req, timeout=18, context=ctx) as resp:
-            h = resp.read(700_000).decode('utf-8', 'replace')
+        h = net.tekst(url, timeout=18, limiet=700_000, taal='nl')[1]
         k = re.findall(r'<h1[^>]*>(.*?)</h1>', h, re.S | re.I)
         r['h1'] = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', k[0]))).strip()[:110] if k else ''
         v = ex.extraheer(h)
@@ -44,7 +42,7 @@ if __name__ == '__main__':
     json.dump(uit, open(arg(2, 'sitemap-details.json'), 'w'), ensure_ascii=False, indent=1)
     met = [r for r in uit if r['vondsten']]
     volledig = [r for r in met if r['vondsten'][0]['start']]
-    print(f'klaar in {time.time()-t0:.0f}s')
+    print(f'klaar in {time.time()-t0:.0f}s | {net.samenvatting()}')
     print(f'pagina\'s met een looptijd      : {len(met)}/{len(uit)}')
     print(f'   waarvan met begin en eind   : {len(volledig)}')
     import collections

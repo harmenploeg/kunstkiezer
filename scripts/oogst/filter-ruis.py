@@ -1,4 +1,4 @@
-"""Stap 5: haal navigatiekoppen en niet-beeldende evenementen uit de kandidaten."""
+"""Na de trechter: haal navigatiekoppen en niet-beeldende evenementen uit de kandidaten."""
 import json, re, collections
 from werkmap import pad
 

@@ -11,7 +11,7 @@ De afzonderlijke achtergrondtaak **kunstkiezer-wekelijks-actualiseren** controle
 5. Publiceer geselecteerde, onderbouwde toevoegingen. Verwerk tussentijdse redactiewijzigingen met een conflictcontrole per record op `updated_at`; werk alleen de bedoelde velden bij. Archiveer aantoonbare dubbelen na samenvoegen van bronnen, zonder de auditgeschiedenis te wissen. Onzekerheid niet oplossen door een ongefundeerde status 'open' of een willekeurige foto/coördinaat.
 6. Gebruik herkenbare tags uit de bibliotheek die aansluiten bij de voorkeurvragen. Voeg ontbrekende relevante tags toe met de juiste dimensie. Laat bestaande beheerdersinstellingen voor afstand en smaak intact.
 7. Controleer na elke mutatie de opgeslagen gegevens, aantallen en publieke API. Controleer 80 woorden, complete bron- en fotometadata, coördinatenparen, Nederlandse locatie, dubbele records en agendadatums. De kalenderfilter is dynamisch in Europe/Amsterdam: einddatum ≥ vandaag, begindatum ≤ vandaag plus één kalendermaand.
-8. Vernieuw de vijf versiebeheerbestanden, het wijzigingsverslag en `data/curation/latest-report.json`. Verwijder opgeloste punten uit de lijst en benoem blokkades concreet. Bewaar de eerdere foto-kandidaten voor vervolgonderzoek, maar publiceer ze niet als hun hergebruikvoorwaarden nog onbekend zijn.
+8. Vernieuw de vijf versiebeheerbestanden, het wijzigingsverslag en `data/curation/latest-report.json`. Heeft de oogstlaag gedraaid, commit dan ook `data/curation/oogst-routes.json`: dat is het geheugen van de trechter, en zonder dat bestand doet de volgende ronde de hele ontdekking opnieuw. Verwijder opgeloste punten uit de lijst en benoem blokkades concreet. Bewaar de eerdere foto-kandidaten voor vervolgonderzoek, maar publiceer ze niet als hun hergebruikvoorwaarden nog onbekend zijn.
 9. Voer `npm run check` uit; bij gewijzigde gebruikersstromen ook relevante browsertests. Publiceer gewijzigde downloadbestanden of applicatiecode via de bestaande gecontroleerde Loci-keten. Gebruik de echte productiecontrole op **https://www.loci-amsterdam.nl/kunstkiezer/**. Alleen een preview-deployment is onvoldoende. Databasewijzigingen zijn zelfstandig live en moeten ook via de publieke API worden geverifieerd.
 10. Rapporteer concrete wijzigingen en resterende onzekerheden, plus de werkelijk gecontroleerde productiestatus. Geen automatische e-mails of berichten aan derden.
 
@@ -103,6 +103,19 @@ aanroepen als stap 3 in zijn geheel. Laat de browser daarom nooit titels en datu
 overzicht plukken, maar alleen de links naar de afzonderlijke tentoonstellingen;
 detailpagina's blijken veel vaker serverzijdig leesbaar dan overzichten.
 
+**Stap 0: begin bij wat vorige ronde werkte.** `scripts/oogst/route.py` bewaart per
+instelling de programmapagina, de sitemaps die URL's gaven en het eindpunt in
+`data/curation/oogst-routes.json`; staat een route daar, dan slaat de trechter het zoeken
+over. Dat is geen gemak maar een meting: de rondes van 16 en 17 oktober 2026 vonden bij
+264 van de 264 instellingen exact dezelfde programmapagina, met hetzelfde aandeel
+homepage-link (244) en gegokt pad (20), en haalden daarvoor elke ronde 332 homepages op.
+Werkt een onthouden route niet meer, dan zet het script hem op `gebroken` met de reden en
+zoekt opnieuw; benoem die gevallen in het runverslag. Commit dit bestand na de ronde,
+anders begint de volgende ronde weer van voren af aan. Binnen één ronde haalt
+`scripts/oogst/haal.py` elke URL één keer op: de stappen grepen eerder telkens opnieuw
+naar dezelfde overzichtspagina, en bij de kandidaten was 48 procent van die aanroepen
+dubbel (118 kandidaten op 61 pagina's, de agenda van Kunstpunt Groningen zeventien keer).
+
 Beproefde eindpunten voor stap 4: de URL met `.json` erachter (Kirby — Museum Arnhem biedt
 zo zijn hele programma aan, met status en looptijd), eigen WordPress-posttypes via
 `/wp-json/wp/v2/types` (De Wieger `expo`, Shimmer `exhibition`, Museum Slager
@@ -184,9 +197,10 @@ bron uit te zetten.
     looptijd van *Karimah Ashadu — FLUID* (24.10.2026–11.04.2027) staat niet in de
     serverzijdige HTML, wel in de gerenderde pagina. De overige links op het overzicht
     staan onder GEWEEST; KM21 heeft nu één lopende tentoonstelling.
-  - **Drents Museum** — stap 1 plus de detailpagina's. De cookiemelding dekt alleen het
-    beeld af, niet de DOM: met `main.innerText` zijn de tentoonstellingen gewoon te lezen,
-    en de detailpagina geeft de looptijd (*Angkor — Het mysterie van Cambodja*, 17-10-2026
+  - **Drents Museum** — stap 2, geen browser: de sitemap geeft 40 detailpagina's. Valt die
+    weg, dan stap 1 plus de detailpagina's — de cookiemelding dekt alleen het beeld af,
+    niet de DOM, dus met `main.innerText` zijn de tentoonstellingen gewoon te lezen en
+    geeft de detailpagina de looptijd (*Angkor — Het mysterie van Cambodja*, 17-10-2026
     t/m 09-05-2027). Een schermafdruk is hier het probleem, niet de pagina.
   - **Rembrandthuis** — stap 2, geen browser.
     `https://www.rembrandthuis.nl/nl/tentoonstelling-sitemap.xml` geeft 40 detailpagina's

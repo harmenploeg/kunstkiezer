@@ -1,4 +1,4 @@
-"""Stap 9: haal uit een detailpagina de werkelijke bezoeklocatie.
+"""Bij het publiceren: haal uit een detailpagina de werkelijke bezoeklocatie.
 
 Kunstpunt Groningen is een stedelijke agenda: de presentaties staan elders. Zonder
 eigen adres mag een record niet op het adres van de agenda worden gezet.

@@ -1,10 +1,12 @@
-"""Stap 17: zoek agenda-eindpunten die wel een echte looptijd geven.
+"""Trechterstap 4, agenda-eindpunten: zoek eindpunten die wel een echte looptijd geven.
 
 Beproefd: de API van de WordPress-plugin The Events Calendar, losse iCal-feeds en de
 eigen posttypes die een site via /wp-json/wp/v2/types aankondigt.
 """
 import json, re, urllib.request, urllib.parse, ssl, concurrent.futures as cf, time
 from werkmap import pad
+
+import route
 
 UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
 ctx = ssl.create_default_context(); ctx.check_hostname = False; ctx.verify_mode = ssl.CERT_NONE
@@ -18,10 +20,43 @@ def haal(u, t=12):
         return r.status, (r.headers.get('content-type') or ''), r.read(500_000).decode('utf-8', 'replace')
 
 
+def bevestig(soort, url):
+    """Geeft het onthouden eindpunt nog steeds events? Eén aanroep, alle drie de soorten."""
+    probeer = url + ('?per_page=15' if '/wp-json/' in url and '?' not in url else '')
+    try:
+        c, s, b = haal(probeer)
+    except Exception:
+        return None
+    if c != 200:
+        return None
+    if 'BEGIN:VCALENDAR' in b[:400]:
+        n = b.count('BEGIN:VEVENT')
+        return {'soort': soort, 'url': url, 'aantal': n} if n else None
+    if b.lstrip().startswith(('{', '[')):
+        try:
+            d = json.loads(b)
+        except ValueError:
+            return None
+        n = len(d.get('events', d) if isinstance(d, dict) else d)
+        return {'soort': soort, 'url': url, 'aantal': n} if n else None
+    return None
+
+
 def werk(r):
     p = urllib.parse.urlparse(r['programma'])
     basis = f'{p.scheme}://{p.netloc}'
+    host = route.host_van(r['programma'])
     uit = {'museum': r['museum'], 'basis': basis, 'treffers': []}
+
+    # 0. wat vorige ronde werkte: één aanroep in plaats van acht plus de posttypes
+    onthouden = route.van(host).get('eindpunt') or {}
+    if onthouden.get('url') and onthouden.get('soort') != 'json':
+        t = bevestig(onthouden['soort'], onthouden['url'])
+        if t:
+            uit['treffers'].append(t)
+            uit['via'] = 'onthouden'
+            return uit
+        route.vergeet_veld(host, 'eindpunt', 'gaf geen events meer')
 
     # 1. The Events Calendar
     for u in (basis + '/wp-json/tribe/events/v1/events?per_page=15',
@@ -64,6 +99,9 @@ def werk(r):
                     pass
     except Exception:
         pass
+    if uit['treffers']:
+        beste = max(uit['treffers'], key=lambda t: t['aantal'])
+        route.onthoud(host, eindpunt={'soort': beste['soort'], 'url': beste['url']}, stap=4)
     return uit
 
 
@@ -75,6 +113,7 @@ if __name__ == '__main__':
             alles.append(r)
             if i % 20 == 0: print(f'  {i}/{len(doel)}  {time.time()-t0:.0f}s', flush=True)
     json.dump(alles, open(pad('ical-endpoints.json'), 'w'), ensure_ascii=False, indent=1)
+    route.bewaar()
     raak = [r for r in alles if r['treffers']]
     print(f'klaar in {time.time()-t0:.0f}s')
     print(f'instellingen met een agenda-eindpunt: {len(raak)}/{len(alles)}')

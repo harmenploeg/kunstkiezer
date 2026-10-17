@@ -1,11 +1,11 @@
-"""Stap 22: zoek voor elke openstaande kandidaat de eigen detailpagina en lees daar de looptijd."""
-import json, re, urllib.request, urllib.parse, ssl, unicodedata, difflib, html
+"""Na de trechter: zoek voor elke openstaande kandidaat de eigen detailpagina en lees daar
+de looptijd."""
+import json, re, urllib.parse, unicodedata, difflib, html
 import concurrent.futures as cf, time
 from werkmap import pad
 
 import extract as ex
-UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
-ctx = ssl.create_default_context(); ctx.check_hostname = False; ctx.verify_mode = ssl.CERT_NONE
+import haal as net
 
 
 def norm(s):
@@ -15,9 +15,10 @@ def norm(s):
 
 
 def haal(u, t=18):
-    req = urllib.request.Request(u, headers={'User-Agent': UA, 'Accept-Language': 'nl,en;q=0.8'})
-    with urllib.request.urlopen(req, timeout=t, context=ctx) as r:
-        return r.read(900_000).decode('utf-8', 'replace'), r.url
+    # Meerdere kandidaten delen dezelfde overzichtspagina (17 oktober 2026: 118
+    # kandidaten op 61 pagina's). De cache van de ronde haalt die maar een keer op.
+    _, inhoud, eind = net.tekst(u, timeout=t, limiet=900_000)
+    return inhoud, eind
 
 
 def kies_link(h, basis, titel):
@@ -67,6 +68,6 @@ if __name__ == '__main__':
     json.dump(uit, open(pad('rest-detail.json'), 'w'), ensure_ascii=False, indent=1)
     met = [r for r in uit if r.get('alinea')]
     bev = [r for r in uit if any(d['start'] == r['start'] and d['eind'] == r['eind'] for d in r.get('detaildatums') or [])]
-    print(f'klaar in {time.time()-t0:.0f}s')
+    print(f'klaar in {time.time()-t0:.0f}s | {net.samenvatting()}')
     print('detailpagina met tekst :', len(met))
     print('datums bevestigd       :', len(bev))

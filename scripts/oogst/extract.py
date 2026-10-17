@@ -1,4 +1,4 @@
-"""Stap 2: haal tentoonstellingen met looptijd uit een programmapagina.
+"""Gereedschap van stap 1 tot 3: haal tentoonstellingen met looptijd uit een programmapagina.
 
 Eerst gestructureerde data (JSON-LD Event). Lukt dat niet, dan datumbereiken in
 de tekst, gekoppeld aan de dichtstbijzijnde kop erboven. De tekst wordt in een

@@ -24,12 +24,31 @@ python3 scripts/oogst/ontdubbel.py                 # -> kandidaten.json
 python3 scripts/oogst/filter-ruis.py               # -> kandidaten-schoon.json
 ```
 
+Twee dingen staan naast die tussenbestanden:
+
+- **`haal.py`** haalt alles op en bewaart elk antwoord in `<werkmap>/cache/`. Binnen één
+  ronde komt dezelfde URL dus één keer van het net; een nieuwe ronde (nieuwe werkmap)
+  begint met verse pagina's. Elke stap sluit af met een regel `n opgehaald, m uit de
+  cache`. De cache is weggooibaar: hij hoort bij de werkmap.
+- **`route.py`** onthoudt in `data/curation/oogst-routes.json` wat bij een instelling
+  werkte: de programmapagina, de sitemaps die URL's gaven, het eindpunt, de stap die het
+  deed. Dit bestand hoort **wél** in versiebeheer — commit het na een ronde. Zonder dat
+  bestand doet de volgende ronde de hele ontdekking opnieuw, en die ontdekking is
+  deterministisch: 16 en 17 oktober 2026 gaven bij 264 van de 264 instellingen dezelfde
+  programmapagina, elke ronde ten koste van 332 opgehaalde homepages.
+
 Alleen Python uit de standaardbibliotheek; geen sleutels, geen installatie. De scripts
 halen uitsluitend openbare pagina's op en omzeilen geen login-, betaal- of botmuur.
 
 ## De trechter, in deze volgorde
 
 Stop bij de eerste stap die de looptijd geeft. De aantallen zijn gemeten, niet geschat.
+
+**Stap 0 is het geheugen.** Staat de route van een instelling in
+`data/curation/oogst-routes.json`, dan slaat de trechter het zoeken over en gaat direct
+naar de pagina, de sitemap of het eindpunt dat vorige ronde werkte. Werkt die niet meer,
+dan zet het script de route op `gebroken` met de reden erbij en zoekt opnieuw — zodat het
+verslag van de ronde laat zien wat er bij die instelling veranderde.
 
 | Stap | Script | Levert op |
 | --- | --- | --- |
@@ -49,6 +68,15 @@ doet beide; een losse greep naar `/sitemap.xml` niet. Bij het Rembrandthuis geef
 index `tentoonstelling-sitemap.xml` bevat, met 40 serverzijdig leesbare detailpagina's.
 Let daarbij op een taalprefix: de index staat onder `/nl/`, niet in de root. Noem stap 2
 dus niet mislukt voordat de index is uitgelezen, want de stappen erna zijn duurder.
+
+**Anderstalige sitemaps aten dat budget op.** Het Rembrandthuis noemt in `robots.txt` zes
+taalindexen (`/nl/`, `/en/`, `/fr/`, `/de/`, `/es/`, `/it/`). Die vulden de wachtrij van
+acht documenten, zodat `tentoonstelling-sitemap.xml` er nooit aan toe kwam en stap 2 hier
+"niets gaf". `sitemap.py` laat nu alleen de eigen taal door (`TAAL`, een heel padsegment,
+zodat `/de-pont/` niet als Duits leest) en zet een tentoonstellingssitemap vóór de post-
+en pagina-sitemaps. Gemeten op zes instellingen, 17 oktober 2026: 22 documenten in plaats
+van 32, en 159 kandidaat-URL's in plaats van 83. Het Rembrandthuis ging van 3 naar 39 en
+het Drents Museum van 0 naar 40.
 
 **De volgorde binnen de browserstap is omgekeerd aan wat je zou verwachten.** Laat de
 browser het overzicht renderen en er alleen de *links* uit halen — één aanroep per
@@ -161,13 +189,17 @@ is het linkprobleem opgelost voor sites waar overzicht én sitemap niets gaven.
     looptijd van *Karimah Ashadu — FLUID* (24.10.2026–11.04.2027) staat niet in de
     serverzijdige HTML, wel in de gerenderde pagina. De overige links staan onder GEWEEST;
     KM21 heeft nu één lopende tentoonstelling.
-  - **Drents Museum** — stap 1 plus `detailpaginas.py`. De cookiemelding dekt alleen het
-    beeld af, niet de DOM: `main.innerText` geeft de tentoonstellingen, de detailpagina de
-    looptijd (*Angkor — Het mysterie van Cambodja*, 17-10-2026 t/m 09-05-2027).
+  - **Drents Museum** — stap 2, geen browser. Sinds het taalfilter geeft `sitemap.py` hier
+    40 detailpagina's (`sitemaps-1-section-exhibitions-1-sitemap.xml`) in drie documenten.
+    Lukt dat niet, dan is stap 1 plus `detailpaginas.py` de volgende route: de
+    cookiemelding dekt alleen het beeld af, niet de DOM, dus `main.innerText` geeft de
+    tentoonstellingen en de detailpagina de looptijd (*Angkor — Het mysterie van Cambodja*,
+    17-10-2026 t/m 09-05-2027).
   - **Rembrandthuis** — stap 2, geen browser. `sitemap.py` komt via `robots.txt` en
     `/nl/sitemap_index.xml` bij `tentoonstelling-sitemap.xml` met 40 detailpagina's die
     serverzijdig titel, volledige looptijd en beschrijving bevatten. Deze stap was hier
-    niet toegepast; `/sitemap.xml` alleen geeft HTTP 404.
+    niet toegepast; `/sitemap.xml` alleen geeft HTTP 404, en de zes taalindexen hielden de
+    wachtrij bezet tot het taalfilter er was.
   - **Museum Arnhem** — stap 4, geen browser. `api-eindpunt.py` vindt
     `https://www.museumarnhem.nl/nl/tentoonstellingen.json` (Kirby) met alle negen
     tentoonstellingen: titel, ondertitel, locatie, status en looptijd.
@@ -181,6 +213,8 @@ is het linkprobleem opgelost voor sites waar overzicht én sitemap niets gaven.
 | Script | Doet |
 | --- | --- |
 | `werkmap.py` | Waar de tussenbestanden staan; `arg(n, standaard)` om een stap over een tweede lijst te draaien |
+| `haal.py` | Haalt elke pagina op en bewaart hem in `<werkmap>/cache/`; `samenvatting()` zegt hoeveel aanroepen dat uitspaarde |
+| `route.py` | Onthoudt per instelling de route die werkte, in `data/curation/oogst-routes.json` |
 | `extract.py` | Titel en looptijd uit een pagina: eerst JSON-LD `Event`, anders datumbereiken gekoppeld aan de kop erboven |
 | `vind-programmapagina.py` | Kiest op de homepage de link die het meest op een tentoonstellingsoverzicht lijkt |
 | `oogst-overzichtspagina.py` | Haalt elke programmapagina op en past de extractor toe |

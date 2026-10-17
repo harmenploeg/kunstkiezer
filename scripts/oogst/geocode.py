@@ -1,4 +1,4 @@
-"""Stap 10: zoek coordinaten bij een adres via Nominatim (OpenStreetMap).
+"""Bij het publiceren: zoek coordinaten bij een adres via Nominatim (OpenStreetMap).
 
 Beleefd gebruik: een eigen User-Agent en hoogstens een verzoek per seconde.
 """

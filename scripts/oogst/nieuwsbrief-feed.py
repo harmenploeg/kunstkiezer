@@ -1,4 +1,5 @@
-"""Stap 20: lees de nieuwsbrieven van een instelling via de RSS van haar Mailchimp-archief.
+"""Nieuwsbrieven, stap 3 van 4: lees de nieuwsbrieven van een instelling via de RSS van haar
+Mailchimp-archief.
 
 Mailchimp biedt elk openbaar campagnearchief ook als feed aan:
 https://<dc>.campaign-archive.com/feed?u=<u>&id=<id>

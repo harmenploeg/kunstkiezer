@@ -1,4 +1,4 @@
-"""Stap 4: scheid nieuwe vondsten van wat al in de catalogus staat."""
+"""Na de trechter: scheid nieuwe vondsten van wat al in de catalogus staat."""
 import json, re, unicodedata, datetime, difflib
 from werkmap import pad
 
@@ -13,9 +13,6 @@ def kern(s):
 
 cat = json.load(open(pad('catalogus.json')))
 bekend = [(kern(r['name']), r) for r in cat]
-bekende_eind = {}
-for k, r in bekend:
-    bekende_eind.setdefault(r['ends_on'], []).append(k)
 
 oogst = json.load(open(pad('oogst.json')))
 vandaag = datetime.date.today(); grens = vandaag + datetime.timedelta(days=31)
@@ -28,9 +25,11 @@ for inst in oogst:
             continue
         beste, score = None, 0.0
         for bk, br in bekend:
-            r = difflib.SequenceMatcher(None, k, bk).ratio()
-            if k and bk and (k in bk or bk in k) and min(len(k), len(bk)) > 8:
-                r = max(r, 0.9)
+            bevat = bool(k and bk) and (k in bk or bk in k) and min(len(k), len(bk)) > 8
+            m = difflib.SequenceMatcher(None, k, bk)
+            if not bevat and (m.real_quick_ratio() <= score or m.quick_ratio() <= score):
+                continue  # bovengrenzen van difflib: deze titel kan de beste niet verslaan
+            r = max(m.ratio(), 0.9) if bevat else m.ratio()
             if r > score:
                 beste, score = br, r
         rij = {'instelling': inst['naam'], 'categorie': inst['categorie'], 'titel': v['titel'],

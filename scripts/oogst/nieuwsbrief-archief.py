@@ -1,4 +1,5 @@
-"""Stap 19: leid uit een Mailchimp-aanmeldformulier het openbare campagnearchief af.
+"""Nieuwsbrieven, stap 2 van 4: leid uit een Mailchimp-aanmeldformulier het openbare
+campagnearchief af.
 
 Een formulier post naar https://<naam>.us7.list-manage.com/subscribe/post?u=<u>&id=<id>.
 Met diezelfde u en id is het archief te benaderen op https://us7.campaign-archive.com/home/.

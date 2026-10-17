@@ -1,4 +1,5 @@
-"""Stap 18: spoor op welke nieuwsbriefdienst een instelling gebruikt en of het archief openbaar is.
+"""Nieuwsbrieven, stap 1 van 4: spoor op welke nieuwsbriefdienst een instelling gebruikt en
+of het archief openbaar is.
 
 Een openbaar campagnearchief is goud: dan lees je de nieuwsbrieven zonder je ergens voor
 aan te melden. Een aanmeldformulier is alleen een aanwijzing; aanmelden blijft een keuze
