@@ -36,6 +36,7 @@ import urllib.parse
 import urllib.request
 
 import extract as ex
+from instagram import selectie
 from werkmap import pad
 
 API = 'https://graph.facebook.com/v21.0'
@@ -77,24 +78,26 @@ def geheim(bestand, omgeving):
         return ''
 
 
-def bronnen():
-    """De ingeschakelde Instagramaccounts uit kk_update_sources."""
+def bronnen(alles=False):
+    """De accounts die nog iets toevoegen; met `alles` ook de rest.
+
+    `instagram-selectie.py` legt uit waarom bijna tweehonderd accounts afvallen: hun
+    instelling heeft een eigen website die we al oogsten, en die geeft de looptijd waar
+    een bijschrift alleen een titel geeft.
+    """
     sleutel = geheim('service-role', 'KK_SERVICE_ROLE')
     if not sleutel:
         raise SystemExit('Geen secret key in ~/.config/kunstkiezer/service-role; zonder die '
                          'sleutel is de bronnenlijst niet te lezen.')
-    u = ('https://qrlfywcqkkzmerglmsbj.supabase.co/rest/v1/kk_update_sources'
-         '?select=id,name,url,enabled&order=id')
-    req = urllib.request.Request(u, headers={'apikey': sleutel, 'Authorization': 'Bearer ' + sleutel})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        rijen = json.load(r)
+    uniek, gedekt = selectie(sleutel)
+    rijen = uniek + gedekt if alles else uniek
     uit = []
     for rij in rijen:
-        if not rij['enabled']:
-            continue
         m = re.search(r'instagram\.com/([A-Za-z0-9_.]+)', rij.get('url') or '')
         if m:
-            uit.append({'id': rij['id'], 'naam': rij['name'], 'account': m.group(1)})
+            uit.append({'id': rij['id'], 'naam': rij['naam'], 'account': m.group(1)})
+    print(f'accounts die iets toevoegen: {len(uniek)} | overgeslagen omdat hun eigen '
+          f'website wordt geoogst: {len(gedekt)}')
     return uit
 
 
@@ -169,7 +172,7 @@ if __name__ == '__main__':
 
     token = geheim('instagram-token', 'INSTAGRAM_TOKEN')
     eigen = geheim('instagram-account', 'INSTAGRAM_ACCOUNT_ID')
-    accounts = bronnen()
+    accounts = bronnen('--alles' in sys.argv)
     aan_de_beurt, gezien = volgorde(accounts)
     aan_de_beurt = aan_de_beurt[:partij]
     print(f'Instagramaccounts in de bronnenpool: {len(accounts)} | deze partij: {len(aan_de_beurt)}')
