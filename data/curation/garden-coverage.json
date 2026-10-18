@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T08:22:11.824234+00:00",
+  "updated_at": "2026-10-18T23:22:55.496657+00:00",
   "scope": "Eerste uitbreiding en gerichte zoekronde; geen volledige landelijke inventarisatie.",
   "provinces": [
     {
@@ -167,6 +167,36 @@
       ],
       "limitations": [
         "TAK Art Space als kandidaat: meerdere buitenwerken, Hessenmeer 88 Ermelo/Speuld. Eigenaarsbezoekpagina timeout/onvoldoende inhoud. Actuele toegang, objectpunt en beeldrechten nog open; geen publicatie."
+      ]
+    },
+    {
+      "run_id": "d7be4182-4e23-4fc8-b351-a3f9dbf671a0",
+      "checked_at": "2026-10-18T23:22:55.496657+00:00",
+      "status": "partial",
+      "queries": [
+        "site:drenthe.nl beeldentuin atelier tuin kunst",
+        "site:bezoekmijntuin.nl Drenthe beeldentuin"
+      ],
+      "urls_read": [
+        "https://www.drenthe.nl/locaties/1222620384/arte-povera-artgarden",
+        "https://www.bezoekmijntuin.nl/tuinen/beeldentuin-de-juffer/"
+      ],
+      "candidates": [
+        {
+          "name": "Arte Povera - Artgarden",
+          "source_url": "https://www.drenthe.nl/locaties/1222620384/arte-povera-artgarden",
+          "status": "pending",
+          "reason": "Nieuwe beeldentuin-kandidaat, uitsluitend op invitatie en afspraak volgens regionale bron. Eigenaar, exacte bezoekvoorwaarden en fotorechten nog te verifiëren."
+        },
+        {
+          "name": "Beeldentuin de Juffer",
+          "source_url": "https://www.bezoekmijntuin.nl/tuinen/beeldentuin-de-juffer/",
+          "status": "pending",
+          "reason": "Meer dan vijftig kunstwerken, Harfsen (Gelderland, niet Drenthe). Gepubliceerde afspraakperiode eindigde 30 september 2026. Geen gewone actuele toegang aangenomen."
+        }
+      ],
+      "limitations": [
+        "Geen volledige provinciecontrole: regionale bron en route gelezen, primaire eigenaarverificatie nog open."
       ]
     }
   ]

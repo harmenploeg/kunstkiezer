@@ -1,9 +1,9 @@
 {
   "method": "docs/selectie-tentoonstellingen.md",
-  "updated_at": "2026-10-15T08:22:11.824234+00:00",
-  "run_id": "9531a87a-e39d-4597-a762-9eaa7144fcb9",
-  "window_from": "2026-10-15",
-  "window_to": "2026-11-15",
+  "updated_at": "2026-10-18T23:22:55.496657+00:00",
+  "run_id": "d7be4182-4e23-4fc8-b351-a3f9dbf671a0",
+  "window_from": "2026-10-19",
+  "window_to": "2026-11-19",
   "scope": "Beginpopulatie 301 geselecteerde musea. Prioriteitsgroep is redactioneel en uitbreidbaar; externe organisatoren en ontbrekende musea blijven ontdekkingswerk. Geen landelijke volledigheidsclaim.",
   "museum_count": 301,
   "priority_museum_count": 60,
@@ -5184,6 +5184,24 @@
       ]
     }
   ],
-  "this_run_complete_programs": 1,
-  "this_run_note": "Foam zes tentoonstellingen op drie locaties. Eerdere checked-datums van andere musea zijn historische controles, geen volledige actuele dekking."
+  "this_run_complete_programs": 0,
+  "this_run_note": "Oogsttrechter over 337 instellingshosts. Vier nieuwe tentoonstellingen primair geverifieerd; geen volledige landelijke programmacontrole.",
+  "research_rounds": [
+    {
+      "run_id": "d7be4182-4e23-4fc8-b351-a3f9dbf671a0",
+      "status": "partial",
+      "new_events": [
+        "acfb02e6-0fd4-59d9-8b9d-bc452a3d8432",
+        "e536b025-d353-55a9-99ec-e0c1b7730148",
+        "b4d8883a-e10b-5d96-9469-298035c1e168",
+        "31315197-8e19-5062-88ca-4e20a780c727"
+      ],
+      "sources": [
+        "https://www.bureau-europa.nl/heterotopias-2/",
+        "https://www.museumgouda.nl/tentoonstelling/mina_abouzahra/",
+        "https://www.datbolwerck.nl/agenda/witte-wieven-isabel-cavenecia",
+        "https://www.datbolwerck.nl/agenda/dat-bolwerck-x-bij-de-bieb-verlangen-voeden-door-de-vervulling-ervan---groeien-in-eenzaamheid-werk-van-melanie-bosboom"
+      ]
+    }
+  ]
 }

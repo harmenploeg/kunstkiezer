@@ -1,6 +1,6 @@
 {
-  "research_date": "2026-10-15",
-  "agenda_window_end": "2026-11-15",
+  "research_date": "2026-10-19",
+  "agenda_window_end": "2026-11-19",
   "scope": "Gecontroleerde catalogusmomentopname; geen claim dat elk Nederlands kunstaanbod of alle foto- en locatievragen zijn afgerond.",
   "categories": {
     "musea": {
@@ -9,7 +9,7 @@
       "archived": 0,
       "draft": 0,
       "with_photos": 227,
-      "precise_locations": 296,
+      "precise_locations": 297,
       "visible_on_research_date": 290
     },
     "openbare-kunst": {
@@ -40,17 +40,17 @@
       "visible_on_research_date": 184
     },
     "evenementen": {
-      "total": 119,
-      "published": 119,
+      "total": 301,
+      "published": 301,
       "archived": 0,
       "draft": 0,
-      "with_photos": 105,
-      "precise_locations": 107,
-      "visible_on_research_date": 112
+      "with_photos": 109,
+      "precise_locations": 288,
+      "visible_on_research_date": 278
     }
   },
-  "total": 814,
-  "remaining_records": 341,
+  "total": 996,
+  "remaining_records": 519,
   "remaining": [
     {
       "id": "5402debd-2567-5c85-af4d-31354fd1f113",
@@ -301,8 +301,7 @@
       "name": "Ruurd Wiersma Museum",
       "website_url": "https://www.museum.frl/musea/ruurd-wiersma/",
       "issues": [
-        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
-        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]
     },
     {
@@ -3580,6 +3579,1787 @@
       "issues": [
         "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
         "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "8a0a018b-9a78-46f2-9855-66a7c8bab509",
+      "inventory_key": "event:textielmuseum.nl/tentoonstellingen/Hella-Jongerius-Slimme-handen:2026-10-30",
+      "category": "evenementen",
+      "name": "Hella Jongerius — Slimme handen",
+      "website_url": "https://textielmuseum.nl/tentoonstellingen/Hella-Jongerius-Slimme-handen",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "14b3e997-a281-483a-b5ad-6c46228fee15",
+      "inventory_key": "event:museumarnhem.nl/nl/tentoonstellingen/art-award-arnhem-2026:2026-10-16",
+      "category": "evenementen",
+      "name": "Art Award Arnhem 2026",
+      "website_url": "https://www.museumarnhem.nl/nl/tentoonstellingen/art-award-arnhem-2026",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "d31fc721-6beb-4b24-94ce-0bca15f896b4",
+      "inventory_key": "event:museumarnhem.nl/nl/tentoonstellingen/maak-kleur-bekennen:2026-11-07",
+      "category": "evenementen",
+      "name": "Kleur bekennen — De kunst van vrijetijdsmakers",
+      "website_url": "https://www.museumarnhem.nl/nl/tentoonstellingen/maak-kleur-bekennen",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "9ce4ae30-1547-4c82-bab9-fb0d7997608c",
+      "inventory_key": "event:museumbelvedere.nl/nl/nu_te_zien/kabinetten:2026-10-17",
+      "category": "evenementen",
+      "name": "Wisselwerkingen — Relaties & Contrasten III",
+      "website_url": "https://www.museumbelvedere.nl/nl/nu_te_zien/kabinetten/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "cebe6cb0-7d57-4d91-9f1f-5328e9a096f3",
+      "inventory_key": "event:oudekerk.nl/nu-te-zien/tentoonstellingen/mire-lee/45360:2026-11-13",
+      "category": "evenementen",
+      "name": "Mire Lee",
+      "website_url": "https://www.oudekerk.nl/nu-te-zien/tentoonstellingen/mire-lee/45360",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "8db1e637-2090-4963-adfe-9882e3a1743f",
+      "inventory_key": "event:bonnefanten.nl/nl/tentoonstellingen/cooking-from-the-fridge:2026-11-11",
+      "category": "evenementen",
+      "name": "Cooking from the Fridge",
+      "website_url": "https://www.bonnefanten.nl/nl/tentoonstellingen/cooking-from-the-fridge",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "ae4bb849-6afa-4863-bc5b-aea29ed79ad8",
+      "inventory_key": "event:mediamatic.net/nl/page/393742/the-body-of-umami:2026-09-10",
+      "category": "evenementen",
+      "name": "The Body of Umami",
+      "website_url": "https://www.mediamatic.net/nl/page/393742/the-body-of-umami",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "917a4193-b2f4-48e8-bbe1-de027a128f8d",
+      "inventory_key": "event:mediamatic.net/nl/page/393652/vocal-fold-tension-mismatch:2026-08-20",
+      "category": "evenementen",
+      "name": "vocal fold tension mismatch",
+      "website_url": "https://www.mediamatic.net/nl/page/393652/vocal-fold-tension-mismatch",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5a85769c-ae94-4126-9cfd-0c7e8019436a",
+      "inventory_key": "event:mediamatic.net/nl/are-you-a-feeder:2026-09-25",
+      "category": "evenementen",
+      "name": "Are you a feeder?",
+      "website_url": "https://www.mediamatic.net/nl/are-you-a-feeder",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "d12a4228-5f0e-473c-a351-28c59c39a1d7",
+      "inventory_key": "event:mediamatic.net/nl/page/393051/simple-adult-forms:2026-02-20",
+      "category": "evenementen",
+      "name": "Simple Adult Forms",
+      "website_url": "https://www.mediamatic.net/nl/page/393051/simple-adult-forms",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "9fd2ae27-986a-4d23-8a0b-0d0d4a5dbc3b",
+      "inventory_key": "event:mediamatic.net/nl/page/392837/soft-sabotage:2025-12-19",
+      "category": "evenementen",
+      "name": "Soft Sabotage",
+      "website_url": "https://www.mediamatic.net/nl/page/392837/soft-sabotage",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "dc638767-be34-4838-938d-df3945987fc0",
+      "inventory_key": "event:beeldenaanzee.nl/tentoonstellingen/chafes-giacometti:2026-06-27",
+      "category": "evenementen",
+      "name": "Rui Chafes X Alberto Giacometti. Gris, Vide, Cris III",
+      "website_url": "https://www.beeldenaanzee.nl/tentoonstellingen/chafes-giacometti",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "398f093b-d661-4251-bdba-62e29398f777",
+      "inventory_key": "event:mediamatic.net/nl/page/392845/future-affair:2025-12-17",
+      "category": "evenementen",
+      "name": "Future Affair",
+      "website_url": "https://www.mediamatic.net/nl/page/392845/future-affair",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "7398cfab-648e-4daa-8873-80745d2dc08e",
+      "inventory_key": "event:stedelijkmuseumvianen.nl/zien-doen/maluku-belanda:2026-07-25",
+      "category": "evenementen",
+      "name": "Maluku/Belanda",
+      "website_url": "https://stedelijkmuseumvianen.nl/zien-doen/maluku-belanda/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5a869326-e6da-4e4b-ad01-6849646b338e",
+      "inventory_key": "event:museumvalkenburg.nl/agenda/licht-op-kunst-limburgse-kunstenaars-in-museum-valkenburg-2010-2026:2026-07-26",
+      "category": "evenementen",
+      "name": "Licht op kunst. Limburgse kunstenaars 2010-2026",
+      "website_url": "https://www.museumvalkenburg.nl/agenda/licht-op-kunst-limburgse-kunstenaars-in-museum-valkenburg-2010-2026/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "edf06e27-651c-4695-b2d9-7f26ecf8f3c2",
+      "inventory_key": "event:stedelijk.nl/nl/tentoonstellingen/post-no-bills-7:2026-08-20",
+      "category": "evenementen",
+      "name": "Post/No/Bills #7 — Kexin Hao, Anatomy of Obstruction",
+      "website_url": "https://www.stedelijk.nl/nl/tentoonstellingen/post-no-bills-7",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5656870c-5eb2-441f-8ee6-5af657ad221a",
+      "inventory_key": "event:museumw.nl/franciscus-800-jaar-springlevend.html:2026-08-28",
+      "category": "evenementen",
+      "name": "Franciscus — 800 jaar springlevend",
+      "website_url": "https://www.museumw.nl/franciscus-800-jaar-springlevend.html",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "f9e7ae19-38b9-4319-9e5e-5b0164f9f3d0",
+      "inventory_key": "event:nationaalglasmuseum.nl/agenda/2026/kunst-bij-de-bank:2026-09-05",
+      "category": "evenementen",
+      "name": "Kunst bij de bank",
+      "website_url": "https://www.nationaalglasmuseum.nl/agenda/2026/kunst-bij-de-bank/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "90537f30-e0dc-40c6-bfea-d6d3a8ce30f6",
+      "inventory_key": "event:museumvalkenburg.nl/agenda/museum-valkenburg-75-jaar-geschiedenis-en-kunst:2026-09-13",
+      "category": "evenementen",
+      "name": "Museum Valkenburg — 75 jaar",
+      "website_url": "https://www.museumvalkenburg.nl/agenda/museum-valkenburg-75-jaar-geschiedenis-en-kunst/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e70fddd3-93e2-4bb4-8f3d-abf0d2f5340b",
+      "inventory_key": "event:stroom.nl/stroom-algemeen/activiteiten/universal-language-concrete-composure:2026-09-25",
+      "category": "evenementen",
+      "name": "Universal Language: Concrete Composure",
+      "website_url": "https://www.stroom.nl/stroom-algemeen/activiteiten/universal-language-concrete-composure",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "b6cfcde4-5c6d-4d47-8a8a-eac376797943",
+      "inventory_key": "event:moya.museum/exhibitions/55-boundless:2026-10-02",
+      "category": "evenementen",
+      "name": "Boundless",
+      "website_url": "https://www.moya.museum/exhibitions/55-boundless/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "79ad4087-4be3-40e2-b739-348128105462",
+      "inventory_key": "event:vanbommelvandam.nl/tentoonstellingen/material-memories:2026-10-03",
+      "category": "evenementen",
+      "name": "Material Memories — Marie-Claire Messouma Manlanbien",
+      "website_url": "https://www.vanbommelvandam.nl/tentoonstellingen/material-memories/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "1382762f-bcd9-4b92-9346-a432c0ec0d3b",
+      "inventory_key": "event:hetdepot.nl/tentoonstellingen/keramiek:2026-10-04",
+      "category": "evenementen",
+      "name": "Keramiek",
+      "website_url": "https://www.hetdepot.nl/tentoonstellingen/keramiek",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "88dd47e4-bbb3-451f-b345-a5ebdb764d99",
+      "inventory_key": "event:dekopermolenvaals.nl/event/expositie-slavko-dujic-261018:2026-10-18",
+      "category": "evenementen",
+      "name": "In de voetsporen — Slavko Dujić",
+      "website_url": "https://dekopermolenvaals.nl/event/expositie-slavko-dujic-261018/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "f5f8ca0d-c7af-46c6-8924-14d44939f3c5",
+      "inventory_key": "event:stedelijkmuseumschiedam.nl/tentoonstelling/van-het-land-naar-de-keuken-en-de-tafel:2026-10-10",
+      "category": "evenementen",
+      "name": "Broodnodig",
+      "website_url": "https://stedelijkmuseumschiedam.nl/tentoonstelling/van-het-land-naar-de-keuken-en-de-tafel/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "a2a6da37-8c68-460b-bde7-9fc8be6bcb75",
+      "inventory_key": "event:stedelijkmuseumschiedam.nl/tentoonstelling/mijn-eten-mijn-thuis:2026-10-10",
+      "category": "evenementen",
+      "name": "Mijn eten, mijn thuis",
+      "website_url": "https://stedelijkmuseumschiedam.nl/tentoonstelling/mijn-eten-mijn-thuis/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e0e4ed7b-856f-4177-b21c-df575b1e49b7",
+      "inventory_key": "event:gorcumsmuseum.nl/tentoonstelling/op-het-eerste-gezicht-portretkunst-uit-heden-en-verleden:2026-10-10",
+      "category": "evenementen",
+      "name": "Op het eerste gezicht — Portretkunst uit heden en verleden",
+      "website_url": "https://www.gorcumsmuseum.nl/tentoonstelling/op-het-eerste-gezicht-portretkunst-uit-heden-en-verleden/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "a5e5258e-fd21-424c-b4a0-ab28f4a52e80",
+      "inventory_key": "event:radius-cca.org/nl/exhibitions/zorg-voor-verlies:2026-10-17",
+      "category": "evenementen",
+      "name": "Zorg voor verlies — Rouw voorbij de mens",
+      "website_url": "https://radius-cca.org/nl/exhibitions/zorg-voor-verlies",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "f958b556-43b6-4bc9-bf2b-8d8a59917469",
+      "inventory_key": "event:sous-terre.nl/exposities:2026-09-20",
+      "category": "evenementen",
+      "name": "Highlight-kunstenaars 2026",
+      "website_url": "https://sous-terre.nl/exposities/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "bdfd5c7b-261f-4f17-bccc-81460b7b2389",
+      "inventory_key": "event:zandvoortsmuseum.nl/tentoonstelling/sculpture-now-marianne-lammersen:2026-06-06",
+      "category": "evenementen",
+      "name": "Sculpture Now! — Marianne Lammersen",
+      "website_url": "https://zandvoortsmuseum.nl/tentoonstelling/sculpture-now-marianne-lammersen/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "ae8b7fdc-f5e1-4f1c-a01b-d528da8014b1",
+      "inventory_key": "event:panorama-mesdag.nl/zien-en-doen/tentoonstellingen/mixed-mesdag-rarri-jackson:2026-09-11",
+      "category": "evenementen",
+      "name": "Mixed Mesdag: Rarri Jackson",
+      "website_url": "https://panorama-mesdag.nl/zien-en-doen/tentoonstellingen/mixed-mesdag-rarri-jackson/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "9a67a1b3-8289-47ef-9d7b-fb17ed4cb414",
+      "inventory_key": "event:fenix.nl/nl/tentoonstellingen/willem-de-kooning-op-de-kade:2026-10-09",
+      "category": "evenementen",
+      "name": "Willem de Kooning op de kade",
+      "website_url": "https://fenix.nl/nl/tentoonstellingen/willem-de-kooning-op-de-kade/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "1ce55f12-33c2-4a3e-9ade-5a7be8bb2779",
+      "inventory_key": "event:www.museumijsselstein.nl/tentoonstellingen/druktemakers-2026:2026-06-27",
+      "category": "evenementen",
+      "name": "Druktemakers 2026",
+      "website_url": "https://www.museumijsselstein.nl/tentoonstellingen/druktemakers-2026/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "ae4f1ec8-ec04-4c96-91bc-ce560db0806a",
+      "inventory_key": "event:kunstenlab.nl/tentoonstellingen/walking-and-closing-ones-eyes:2026-10-10",
+      "category": "evenementen",
+      "name": "Walking and closing one's eyes — Stephan Blumenschein",
+      "website_url": "https://kunstenlab.nl/tentoonstellingen/walking-and-closing-ones-eyes/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "2c87ca2f-2d63-482f-8af3-a9af3fc75772",
+      "inventory_key": "event:kunstenlab.nl/tentoonstellingen/youre-a-lucky-fellow-mr-smith:2026-10-10",
+      "category": "evenementen",
+      "name": "You're a Lucky Fellow, Mr. Smith",
+      "website_url": "https://kunstenlab.nl/tentoonstellingen/youre-a-lucky-fellow-mr-smith/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "bc3cb84c-ad58-435c-8e32-ca2d3b6ec78c",
+      "inventory_key": "event:schoenenkwartier.nl/head-over-heels:2026-10-15",
+      "category": "evenementen",
+      "name": "Head over Heels — stapelgek op hakken",
+      "website_url": "https://schoenenkwartier.nl/head-over-heels/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "05a161d3-ac2c-4822-8a85-d29b36bc7764",
+      "inventory_key": "event:museumpaultetarvanelven.nl/NL/tentoonstellingen/van-de-laar.html:2026-11-01",
+      "category": "evenementen",
+      "name": "Sentiment in verf gevangen — Jan Hendrik van de Laar",
+      "website_url": "https://www.museumpaultetarvanelven.nl/NL/tentoonstellingen/van-de-laar.html",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "6071e8c3-1c46-4f80-835a-673b98a44040",
+      "inventory_key": "event:ikonenmuseumkampen.nl/actueel/exposities/expositie:2026-10-13",
+      "category": "evenementen",
+      "name": "Pelgrimage — Over reizende heiligen, ikonen en gelovigen",
+      "website_url": "https://www.ikonenmuseumkampen.nl/actueel/exposities/expositie",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "26487642-8097-4423-9bc7-f76c4de05de2",
+      "inventory_key": "event:kunstpodium-t.com/agenda/highlight-1-le-d%C3%A9luge-nous-tient:2026-10-15",
+      "category": "evenementen",
+      "name": "Season Highlights — Le déluge nous tient",
+      "website_url": "https://kunstpodium-t.com/agenda/highlight-1-le-d%C3%A9luge-nous-tient",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5b1811b2-a3be-43ef-acc6-69d202ffc464",
+      "inventory_key": "event:kunstpodium-t.com/agenda/highlight-2-the-floor-is-lava-and-there-are-gaps-in-between:2026-10-15",
+      "category": "evenementen",
+      "name": "Season Highlights — The Floor is Lava, and there are gaps in between",
+      "website_url": "https://kunstpodium-t.com/agenda/highlight-2-the-floor-is-lava-and-there-are-gaps-in-between",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "afd99ca4-f77c-4e07-afef-5820ddda8b44",
+      "inventory_key": "event:historischcentrumleeuwarden.nl/publiek/exposities/wisselexposities:2026-05-30",
+      "category": "evenementen",
+      "name": "Nooit gebouwd Leeuwarden",
+      "website_url": "https://historischcentrumleeuwarden.nl/publiek/exposities/wisselexposities",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "b350d580-dd73-48a9-8ea7-51ea2c02f8d0",
+      "inventory_key": "event:w139.nl/event/the-nature-of-remembering:2026-09-04",
+      "category": "evenementen",
+      "name": "The Nature of Remembering",
+      "website_url": "https://w139.nl/event/the-nature-of-remembering",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "f5ce260d-93d4-4311-89b4-da74be4a50f9",
+      "inventory_key": "event:marishuis.nl/activiteit/expositie-verwondering-van-cor-litjens:2026-09-19",
+      "category": "evenementen",
+      "name": "Verwondering — Cor Litjens",
+      "website_url": "https://www.marishuis.nl/activiteit/expositie-verwondering-van-cor-litjens",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "f2914c9b-ed9a-46fa-93ec-4a2b8b9e257d",
+      "inventory_key": "event:brutus.nl/nl/programma/nu+te+zien/death+money:2026-09-20",
+      "category": "evenementen",
+      "name": "DEATH & MONEY — Santiago Sierra",
+      "website_url": "https://brutus.nl/nl/programma/nu+te+zien/death+money",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "8c5d618f-f89e-47bd-bf3f-d553cedf0bec",
+      "inventory_key": "event:hetschip.nl/tentoonstelling/tentoonstelling-bright-new-world:2026-11-06",
+      "category": "evenementen",
+      "name": "Bright New World. De kracht van verbeelding",
+      "website_url": "https://www.hetschip.nl/tentoonstelling/tentoonstelling-bright-new-world",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "c370c754-f83c-4229-8a2a-b50fb4edd769",
+      "inventory_key": "event:noorderlicht.com/zien-en-doen/thinking-hands:2026-09-12",
+      "category": "evenementen",
+      "name": "Thinking Hands",
+      "website_url": "https://noorderlicht.com/zien-en-doen/thinking-hands",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e87ea137-8033-4419-9a1b-50d0334791dd",
+      "inventory_key": "event:museumrijswijk.nl/tentoonstelling.php:2026-09-20",
+      "category": "evenementen",
+      "name": "Papier Biënnale 2026 — Familielijnen",
+      "website_url": "https://museumrijswijk.nl/tentoonstelling.php?urlkey=papier-biennale-2026--familielijnen-3",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "99938dc6-4f20-477d-bba5-b514e776fdd9",
+      "inventory_key": "event:museumkrona.nl/tentoonstelling/de-camino-de-reis-van-je-leven:2026-04-25",
+      "category": "evenementen",
+      "name": "De Camino. De reis van je leven",
+      "website_url": "https://museumkrona.nl/tentoonstelling/de-camino-de-reis-van-je-leven/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "a03eea18-f2df-49b2-a04e-382484e1f6ff",
+      "inventory_key": "event:acec.nl/agenda/the-big-draw-2026:2026-09-05",
+      "category": "evenementen",
+      "name": "The Big Draw 2026",
+      "website_url": "https://acec.nl/agenda/the-big-draw-2026/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "cc6af606-57ed-4d39-8d7d-8851b1bc4f2d",
+      "inventory_key": "event:acec.nl/agenda/wreathed-chamber-fedrik-vaessen:2026-10-17",
+      "category": "evenementen",
+      "name": "Wreathed Chamber – Fedrik Vaessen",
+      "website_url": "https://acec.nl/agenda/wreathed-chamber-fedrik-vaessen/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5d3df566-e4a7-479d-9639-ba60777100d5",
+      "inventory_key": "event:acec.nl/agenda/you-look-twoderful-threenight:2026-11-28",
+      "category": "evenementen",
+      "name": "You Look Twoderful Threenight",
+      "website_url": "https://acec.nl/agenda/you-look-twoderful-threenight/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5eef0d2b-f662-425e-8cb2-4a4ef082a107",
+      "inventory_key": "event:purmerendsmuseum.nl/Lotti-van-der-Gaag-in-Beeld--sculpturen,-schilderijen-en-werken-op-papier:2026-11-06",
+      "category": "evenementen",
+      "name": "Lotti van der Gaag in beeld",
+      "website_url": "https://www.purmerendsmuseum.nl/Lotti-van-der-Gaag-in-Beeld--sculpturen,-schilderijen-en-werken-op-papier",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "a6fdfe55-a08e-4aa3-896a-a72d5ad9d9dd",
+      "inventory_key": "event:kunsthal.nl/nl/tentoonstellingen/jip-van-den-toorn-nu-je-er-toch-bent:2026-11-07",
+      "category": "evenementen",
+      "name": "Jip van den Toorn. Nu je er toch bent",
+      "website_url": "https://kunsthal.nl/nl/tentoonstellingen/jip-van-den-toorn-nu-je-er-toch-bent/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "58580af0-993e-482a-bd71-fdd2ad092147",
+      "inventory_key": "event:catharijneconvent.nl/tentoonstellingen/huis-van-sinterklaas:2026-11-14",
+      "category": "evenementen",
+      "name": "Huis van Sinterklaas",
+      "website_url": "https://www.catharijneconvent.nl/tentoonstellingen/huis-van-sinterklaas/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "63088bfc-805f-475c-8924-d750df6fc98c",
+      "inventory_key": "event:acec.nl/agenda/even-hier:2026-10-17",
+      "category": "evenementen",
+      "name": "Even Hier – BirdEyes X Jasper Zijlstra",
+      "website_url": "https://acec.nl/agenda/even-hier/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "6309aeda-e315-4977-afdc-092b59f879f3",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/herman-de-vries-natural-relations:2026-09-19",
+      "category": "evenementen",
+      "name": "herman de vries — natural-relations",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/herman-de-vries-natural-relations/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "a0524ff2-6d20-48f6-adf6-3a425973094e",
+      "inventory_key": "event:dewieger.nl/tentoonstelling/de-judaskus-kunst-liefde-en-verraad:2026-05-16",
+      "category": "evenementen",
+      "name": "De Judaskus — kunst, liefde en verraad",
+      "website_url": "https://dewieger.nl/tentoonstelling/de-judaskus-kunst-liefde-en-verraad",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "fffa7a43-7ca5-4f67-9abb-bc808632c875",
+      "inventory_key": "event:dewieger.nl/tentoonstelling/in-de-ateliers-rene-ziedses-des-plantes:2026-10-03",
+      "category": "evenementen",
+      "name": "In De Ateliers: René Ziedses Des Plantes — Het Bomige",
+      "website_url": "https://dewieger.nl/tentoonstelling/in-de-ateliers-rene-ziedses-des-plantes",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "13aaf85e-2ad1-454a-a7b1-be1452685ed7",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/before-it-had-a-name:2026-10-01",
+      "category": "evenementen",
+      "name": "Before it had a name",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/before-it-had-a-name/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "da6062d3-25cd-4992-a63d-8d12b8dcf3a8",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/de-stadsgalerie-groningen-brengt-schilderkunst-van-formaat-in-martiniplaza:2026-10-01",
+      "category": "evenementen",
+      "name": "Schilderkunst van formaat in Martiniplaza",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/de-stadsgalerie-groningen-brengt-schilderkunst-van-formaat-in-martiniplaza/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e51d256e-1b4a-4753-bcfa-56aa7963ea60",
+      "inventory_key": "event:sign2.nl/websign/events/ubiquitousssssssssssssssssugar:2026-10-17",
+      "category": "evenementen",
+      "name": "UBIQUITOUSSSSSSSSSSSSSSSSSUGAR",
+      "website_url": "https://sign2.nl/websign/events/ubiquitousssssssssssssssssugar",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "06728216-2534-4320-8a27-2cd18c9e3e53",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/hybride-fotografie:2026-10-03",
+      "category": "evenementen",
+      "name": "Hybride Fotografie",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/hybride-fotografie/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "d038184d-f4bf-41ac-882c-948f701e3192",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/monniken-en-langemannen:2026-10-03",
+      "category": "evenementen",
+      "name": "Monniken en Langemannen — Karin Twisk",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/monniken-en-langemannen/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "1de229ea-a056-4025-9523-21a4d3c9caa9",
+      "inventory_key": "event:dewieger.nl/tentoonstelling/brabant-modern-in-het-spoor-van-sluijters-en-andere-vernieuwers:2026-05-16",
+      "category": "evenementen",
+      "name": "Brabant Modern — In het spoor van Sluijters en andere vernieuwers",
+      "website_url": "https://dewieger.nl/tentoonstelling/brabant-modern-in-het-spoor-van-sluijters-en-andere-vernieuwers",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "2fa398be-d0b6-434b-b710-e2e429d43e77",
+      "inventory_key": "event:nieuwekerk.nl/en/exhibitions/world-press-photo-exhibition-2026:2026-04-24",
+      "category": "evenementen",
+      "name": "World Press Photo Exhibition 2026",
+      "website_url": "https://www.nieuwekerk.nl/en/exhibitions/world-press-photo-exhibition-2026/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "7897e1e0-0ff4-4d5d-ba4d-a746610004f7",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/walters-showcase-hanneke-woudenberg:2026-10-05",
+      "category": "evenementen",
+      "name": "Walter's Showcase — Hanneke Woudenberg",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/walters-showcase-hanneke-woudenberg/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "fec55bf3-e1fe-4381-97a8-c7c36f51aee0",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/het-witte-vlag-project:2026-10-10",
+      "category": "evenementen",
+      "name": "Het Witte Vlag Project",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/het-witte-vlag-project/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "8779352f-7b8e-4063-8401-dc964e6eee17",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/schatten-in-drenthe-museum-van-papierknipkunst:2026-10-01",
+      "category": "evenementen",
+      "name": "Schatten in Drenthe",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/schatten-in-drenthe-museum-van-papierknipkunst/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "51202298-ebf5-4a1f-92a4-07cfa0a06fac",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/the-wall-9-met-indira-de-boer:2026-10-12",
+      "category": "evenementen",
+      "name": "The Wall #9 — Indira de Boer",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/the-wall-9-met-indira-de-boer/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "fc4902ea-c78a-468b-b3e5-d8e6dfb6ad21",
+      "inventory_key": "event:museumarnhem.nl/nl/tentoonstellingen/de-wereld-uitvergroot:2026-10-10",
+      "category": "evenementen",
+      "name": "De wereld uitvergroot — Installatiekunst van Museum Arnhem",
+      "website_url": "https://www.museumarnhem.nl/nl/tentoonstellingen/de-wereld-uitvergroot",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "9f37c6e4-a804-42b7-a05f-c8226e05b88d",
+      "inventory_key": "event:museumarnhem.nl/nl/tentoonstellingen/sarah-maple:2026-10-03",
+      "category": "evenementen",
+      "name": "Sarah Maple — Dubbelleven",
+      "website_url": "https://www.museumarnhem.nl/nl/tentoonstellingen/sarah-maple",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "2842802b-2116-4aa7-838c-a6f1175c0669",
+      "inventory_key": "event:museumarnhem.nl/nl/tentoonstellingen/henk-mual:2026-09-19",
+      "category": "evenementen",
+      "name": "Henk Mual — Kunstenaar in drie werelden",
+      "website_url": "https://www.museumarnhem.nl/nl/tentoonstellingen/henk-mual",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "1ab5d7d3-335c-42b8-a53a-6d9d7478240a",
+      "inventory_key": "event:ataleofatub.org/spangen-in-earlier-times:2026-09-12",
+      "category": "evenementen",
+      "name": "Spangen in Earlier Times — Tinus en Bep de Does",
+      "website_url": "https://www.ataleofatub.org/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "f6a582ac-dcaf-447b-99c2-94443022dce8",
+      "inventory_key": "event:designmuseum.nl/cosplay:2026-10-03",
+      "category": "evenementen",
+      "name": "Cosplay — de tentoonstelling",
+      "website_url": "https://designmuseum.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5210d88e-e871-4013-92da-2ab8de016f59",
+      "inventory_key": "event:dmdebuitenplaats.nl/dora-hitz:2026-10-10",
+      "category": "evenementen",
+      "name": "Dora Hitz — Een stem voor vrouwen in de kunst",
+      "website_url": "https://dmdebuitenplaats.nl/dora-hitz",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "ef55e397-e091-4703-81b2-cc675fa64b6b",
+      "inventory_key": "event:textielmuseum.nl/tentoonstellingen/rode-draden-oude-en-nieuwe-verhalen-in-kunst-en-design:2026-06-12",
+      "category": "evenementen",
+      "name": "Rode draden — Oude en nieuwe verhalen in kunst en design",
+      "website_url": "https://textielmuseum.nl/tentoonstellingen/rode-draden-oude-en-nieuwe-verhalen-in-kunst-en-design",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "3ecf9f38-73a7-46ad-ac16-b18fbcbad0ca",
+      "inventory_key": "event:textielmuseum.nl/tentoonstellingen/bindweefsel-vier-mee:2026-09-25",
+      "category": "evenementen",
+      "name": "Bindweefsel, vier mee!",
+      "website_url": "https://textielmuseum.nl/tentoonstellingen/bindweefsel-vier-mee",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "fe390e80-614c-4b55-b64f-1caf10d9d53c",
+      "inventory_key": "event:38cc.nl/your-own-personal-jesus:2026-10-30",
+      "category": "evenementen",
+      "name": "Your own personal Jesus",
+      "website_url": "https://www.38cc.nl/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "91867397-8a1c-4152-b665-369cadb185f5",
+      "inventory_key": "event:textielmuseum.nl/tentoonstellingen/project-space-met-marcos-kueh-en-miranda-devita-kistler:2026-10-02",
+      "category": "evenementen",
+      "name": "Project Space: Marcos Kueh en Miranda Devita Kistler",
+      "website_url": "https://textielmuseum.nl/tentoonstellingen/project-space-met-marcos-kueh-en-miranda-devita-kistler",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "1fdb9eef-1d45-444c-b0b8-9b97aa3f9771",
+      "inventory_key": "event:nieuwekerk.nl/en/exhibitions/queer-amsterdam-the-pink-city:2026-07-09",
+      "category": "evenementen",
+      "name": "Queer Amsterdam, the Pink City",
+      "website_url": "https://www.nieuwekerk.nl/en/exhibitions/queer-amsterdam-the-pink-city/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "ccfde512-5df8-4dac-bd42-1dcf548d2cd4",
+      "inventory_key": "event:zeeuwsmuseum.nl/nl/tentoonstellingen/hebben-hebben-hebben:2026-04-04",
+      "category": "evenementen",
+      "name": "Hebben, hebben, hebben",
+      "website_url": "https://www.zeeuwsmuseum.nl/nl/tentoonstellingen/hebben-hebben-hebben",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "c5326195-4fb4-4361-aa25-89f69e5d3d28",
+      "inventory_key": "event:stedelijk.nl/nl/tentoonstellingen/kho-liang-ie:2026-05-14",
+      "category": "evenementen",
+      "name": "Kho Liang Ie. Mid-Century Modernist",
+      "website_url": "https://www.stedelijk.nl/nl/tentoonstellingen/kho-liang-ie",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "d9e3f645-b20a-49e9-a50c-544efb44d648",
+      "inventory_key": "event:kranenburgh.nl/tentoonstelling/alles-verandert-niets-vergaat:2026-05-24",
+      "category": "evenementen",
+      "name": "Alles verandert, niets vergaat — Iris Le Rütte",
+      "website_url": "https://kranenburgh.nl/tentoonstelling/alles-verandert-niets-vergaat/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "a8820b51-ab31-4085-9092-013f697654d5",
+      "inventory_key": "event:kranenburgh.nl/tentoonstelling/bernard-essers:2026-05-24",
+      "category": "evenementen",
+      "name": "Dromen in het duin — Bernard Essers",
+      "website_url": "https://kranenburgh.nl/tentoonstelling/bernard-essers/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "0f255d97-ce2a-4ceb-98ce-2fb09b2bd7db",
+      "inventory_key": "event:nederlandsfotomuseum.nl/nu-te-zien/good-food:2026-06-12",
+      "category": "evenementen",
+      "name": "Good Food",
+      "website_url": "https://nederlandsfotomuseum.nl/nu-te-zien/good-food/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "25fa96aa-3396-41ce-82f5-936adc119fec",
+      "inventory_key": "event:hetdepot.nl/tentoonstellingen/lia-van-vugt:2026-06-21",
+      "category": "evenementen",
+      "name": "Lia van Vugt",
+      "website_url": "https://www.hetdepot.nl/tentoonstellingen/lia-van-vugt",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "6b55a082-055a-4ad3-8b5c-1347919f99ce",
+      "inventory_key": "event:museumjancunen.nl/tentoonstellingen/zeep:2026-06-21",
+      "category": "evenementen",
+      "name": "Zeep, een tentoonstelling die lekker ruikt",
+      "website_url": "https://www.museumjancunen.nl/tentoonstellingen/zeep/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "4d31be3c-a7b1-4019-893b-0015c77e3a5c",
+      "inventory_key": "event:beeldenaanzee.nl/tentoonstellingen/femmy-otten:2026-06-27",
+      "category": "evenementen",
+      "name": "Femmy Otten — Birthland",
+      "website_url": "https://www.beeldenaanzee.nl/tentoonstellingen/femmy-otten",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "2e2321a9-b4d9-455c-b89b-d01ef2a4e172",
+      "inventory_key": "event:vanbommelvandam.nl/tentoonstellingen/seeing-sounds:2026-07-04",
+      "category": "evenementen",
+      "name": "Seeing Sounds",
+      "website_url": "https://www.vanbommelvandam.nl/tentoonstellingen/seeing-sounds/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "ec92883c-5d0a-4d87-ad3c-6944f43417e8",
+      "inventory_key": "event:laliquemuseum.nl/nl/nu-te-zien/tentoonstelling-magnificent-jewels:2026-07-05",
+      "category": "evenementen",
+      "name": "MAGNIFICENT JEWELS! Art nouveau en art deco sieraden",
+      "website_url": "https://www.laliquemuseum.nl/nl/nu-te-zien/tentoonstelling-magnificent-jewels/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "ff4990ce-f5fc-4511-b573-161fb7ca2b81",
+      "inventory_key": "event:coda-apeldoorn.nl/agenda/601/01-11-2026/craft-now:2026-11-01",
+      "category": "evenementen",
+      "name": "Craft Now!",
+      "website_url": "https://www.coda-apeldoorn.nl/agenda/601/01-11-2026/craft-now",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "cbf7f8d5-7c14-4614-a02a-93d29991cca6",
+      "inventory_key": "event:artphy.nl/agricola-narco-geneticus:2026-05-02",
+      "category": "evenementen",
+      "name": "Over de boer van de toekomst",
+      "website_url": "https://www.artphy.nl/agricola-narco-geneticus/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "3b210515-0baf-46e9-8a5b-1f6a752cf278",
+      "inventory_key": "event:bigartgarden.nl/exhibitions/21-najaarsexpositie-open-vanaf-8-september/overview:2026-09-08",
+      "category": "evenementen",
+      "name": "Najaarsexpositie BIG Art & Garden",
+      "website_url": "https://bigartgarden.nl/exhibitions/21-najaarsexpositie-open-vanaf-8-september/overview/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "0ecd5639-7f79-4e3d-8966-d0286ff03b31",
+      "inventory_key": "event:kranenburgh.nl/tentoonstelling/lisa-konno-paul-kooiker:2026-05-24",
+      "category": "evenementen",
+      "name": "Lisa Konno / Paul Kooiker",
+      "website_url": "https://kranenburgh.nl/tentoonstelling/lisa-konno-paul-kooiker/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "926aeb9a-12c2-48d0-9e0e-75a2a98951b5",
+      "inventory_key": "event:garagerotterdam.nl/tentoonstellingen/an-eye-dreads-the-sun:2026-09-12",
+      "category": "evenementen",
+      "name": "An Eye Dreads the Sun",
+      "website_url": "https://www.garagerotterdam.nl/tentoonstellingen/an-eye-dreads-the-sun/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5aee9732-ac23-4201-97aa-fa9e4037ba67",
+      "inventory_key": "event:friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/redbad:2026-09-05",
+      "category": "evenementen",
+      "name": "REDBAD: de legendarische koning",
+      "website_url": "https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/redbad",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "883063f6-61fb-4158-b1ae-244e2b945394",
+      "inventory_key": "event:friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/de-poptaschat:2026-08-01",
+      "category": "evenementen",
+      "name": "De Poptaschat — Fries zilver op wereldschaal",
+      "website_url": "https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/de-poptaschat",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "664c358d-6a32-44c4-a640-9d5e13ec71bd",
+      "inventory_key": "event:vleeshal.nl/archive/the-unburied-sounds-of-a-troubled-horizon-en:2026-10-04",
+      "category": "evenementen",
+      "name": "The Unburied Sounds of a Troubled Horizon",
+      "website_url": "https://www.vleeshal.nl/archive/the-unburied-sounds-of-a-troubled-horizon-en",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "7fed7142-6783-4d24-b159-54b6f55283b1",
+      "inventory_key": "event:fotomuseumdenhaag.nl/nl/tentoonstellingen/layers:2026-06-12",
+      "category": "evenementen",
+      "name": "Layers",
+      "website_url": "https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen/layers",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "f1bdb3e9-aa05-46be-bdf2-4adf6dfbe530",
+      "inventory_key": "event:framerframed.nl/exposities/expositie-bonds-per-stitch:2026-10-07",
+      "category": "evenementen",
+      "name": "Bonds Per Stitch",
+      "website_url": "https://framerframed.nl/exposities/expositie-bonds-per-stitch/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "16039ef6-92db-49de-a033-32e33b694da7",
+      "inventory_key": "event:framerframed.nl/exposities/life-after-love:2026-10-30",
+      "category": "evenementen",
+      "name": "Life After Love – In Search of the Militant Image",
+      "website_url": "https://framerframed.nl/exposities/life-after-love/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "52810f74-b000-4958-98f0-5315932680a8",
+      "inventory_key": "event:gorcumsmuseum.nl/tentoonstelling/doe-zolder:2026-10-10",
+      "category": "evenementen",
+      "name": "Doe zolder",
+      "website_url": "https://www.gorcumsmuseum.nl/tentoonstelling/doe-zolder/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "9824103f-e73a-4d69-a977-86e0f972093d",
+      "inventory_key": "event:gorcumsmuseum.nl/tentoonstelling/geworteld-in-gorcum:2026-02-12",
+      "category": "evenementen",
+      "name": "Geworteld in Gorcum",
+      "website_url": "https://www.gorcumsmuseum.nl/tentoonstelling/geworteld-in-gorcum/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "1216e175-8b7f-4106-bda6-1d0bf3957469",
+      "inventory_key": "event:hartmuseum.nl/tentoonstellingen/het-land-van-hagelslag:2026-05-22",
+      "category": "evenementen",
+      "name": "Het Land van Hagelslag. Samen bouwen aan een nieuwe wereld",
+      "website_url": "https://www.hartmuseum.nl/tentoonstellingen/het-land-van-hagelslag/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "ef1ff219-3d80-4927-95a0-cf00cfd0ad13",
+      "inventory_key": "event:nieuweinstituut.nl/projects/another-island:2025-12-04",
+      "category": "evenementen",
+      "name": "Another Island",
+      "website_url": "https://nieuweinstituut.nl/projects/another-island",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "224417ec-5a72-4b70-8959-f159ceed1d5b",
+      "inventory_key": "event:nieuweinstituut.nl/projects/nieuw-binnen-2:2026-06-18",
+      "category": "evenementen",
+      "name": "Nieuw binnen #2. Work in Progress",
+      "website_url": "https://nieuweinstituut.nl/projects/nieuw-binnen-2",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "28f451f2-be0c-45e1-95e8-d5cfeafe859d",
+      "inventory_key": "event:nieuweinstituut.nl/projects/sidelined:2026-07-09",
+      "category": "evenementen",
+      "name": "SIDELINED. Ruimte voor anders samenzijn",
+      "website_url": "https://nieuweinstituut.nl/projects/sidelined",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "ff7dca6c-09b4-411f-83e5-d1fa6b5534b1",
+      "inventory_key": "event:katwijksmuseum.nl/exposities:2026-10-16",
+      "category": "evenementen",
+      "name": "Sehnsucht naar Ahrenshoop",
+      "website_url": "https://www.katwijksmuseum.nl/exposities/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "32872b62-cec7-451c-bb07-40444446fbcf",
+      "inventory_key": "event:tiendschuur.net/exposities/nu/new-genration:2026-03-29",
+      "category": "evenementen",
+      "name": "New Generation",
+      "website_url": "https://tiendschuur.net/exposities/nu/new-genration/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5c01afb5-9a44-4b48-8608-effc671daa6b",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/de-weg-van-kunstenaar-josje-hamel:2026-09-14",
+      "category": "evenementen",
+      "name": "De weg van kunstenaar Josje Hamel",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/de-weg-van-kunstenaar-josje-hamel/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "9a0c1561-7578-463d-8a52-bd7bd8f6696a",
+      "inventory_key": "event:kunsthal.nl/nl/tentoonstellingen/benedikte-bjerre:2026-05-30",
+      "category": "evenementen",
+      "name": "Benedikte Bjerre. When the wind blows",
+      "website_url": "https://kunsthal.nl/nl/tentoonstellingen/benedikte-bjerre/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "39093be7-c6be-4290-80ff-63ccdd19e453",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/the-elephant-in-the-room-expositie-julius-t-chase-ft-ted-trager:2026-10-01",
+      "category": "evenementen",
+      "name": "‘The Elephant in the Room’ – Julius T. Chase ft. Ted Träger",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/the-elephant-in-the-room-expositie-julius-t-chase-ft-ted-trager/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "760a2730-ef5d-429d-a808-09dae29240b2",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/binnenkort-in-de-kunstuitleen-harry-markusse:2026-10-01",
+      "category": "evenementen",
+      "name": "Nu in de Kunstuitleen: Harry Markusse",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/binnenkort-in-de-kunstuitleen-harry-markusse/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "03e62242-b825-491f-9c8a-504224572f65",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/unremarkable-spaces:2026-10-02",
+      "category": "evenementen",
+      "name": "Unremarkable Spaces",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/unremarkable-spaces/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "640f2e6e-6998-4b29-901f-e047b7970c4e",
+      "inventory_key": "event:kunsthuiswaterland.nl/event/marli-turion-en-abe-wientjens:2026-10-24",
+      "category": "evenementen",
+      "name": "The space between us – Marli Turion en Abe Wientjens",
+      "website_url": "https://kunsthuiswaterland.nl/event/marli-turion-en-abe-wientjens/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "c6c44be6-22b8-4d6e-aa76-0159eae036e1",
+      "inventory_key": "event:landhuisoudamelisweerd.nl/vloeiende-vormen-4-juli-t-m-25-oktober-2026:2026-07-04",
+      "category": "evenementen",
+      "name": "Vloeiende Vormen",
+      "website_url": "https://landhuisoudamelisweerd.nl/vloeiende-vormen-4-juli-t-m-25-oktober-2026/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "24eac10c-deb6-4203-9cf3-cd64a1765faf",
+      "inventory_key": "event:beeldenaanzee.nl/tentoonstellingen/jakob-grosse-ophoff:2026-10-31",
+      "category": "evenementen",
+      "name": "Jakob Grosse-Ophoff",
+      "website_url": "https://www.beeldenaanzee.nl/tentoonstellingen/jakob-grosse-ophoff",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "842a08f9-a0ee-4d78-a6a4-0ea0864bf5d1",
+      "inventory_key": "event:beeldenaanzee.nl/tentoonstellingen/reclining-figures:2026-06-27",
+      "category": "evenementen",
+      "name": "Reclining Figures",
+      "website_url": "https://www.beeldenaanzee.nl/tentoonstellingen/reclining-figures",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "fb413fc4-657a-44cb-9567-e4a5ce9ad879",
+      "inventory_key": "event:museazutphen.nl/tentoonstellingen/thijs-buit:2026-09-04",
+      "category": "evenementen",
+      "name": "Landschappen van herinnering",
+      "website_url": "https://museazutphen.nl/tentoonstellingen/thijs-buit/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e8ddfdd1-d47a-478e-ad30-87d313959f19",
+      "inventory_key": "event:fotomuseumhilversum.nl/tentoonstellingen/world-press-photo-2026:2026-10-30",
+      "category": "evenementen",
+      "name": "World Press Photo 2026",
+      "website_url": "https://fotomuseumhilversum.nl/tentoonstellingen/world-press-photo-2026",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "1a817ecb-b02a-4740-b6de-daf45609fa31",
+      "inventory_key": "event:museumrijswijk.nl/tentoonstelling-schrijftafel-235:2026-09-26",
+      "category": "evenementen",
+      "name": "Schrijftafel",
+      "website_url": "https://www.museumrijswijk.nl/tentoonstelling-schrijftafel-235",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "96f0e8db-8915-410b-9d10-3683df4cd1f6",
+      "inventory_key": "event:musiom.art/exposities-nu:2026-09-18",
+      "category": "evenementen",
+      "name": "Kleurrijke dimensies",
+      "website_url": "https://musiom.art/exposities-nu/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "afbe250e-e81e-47b5-9328-b2cf3ab3030a",
+      "inventory_key": "event:maximapark.nl/activiteit/dubbele-expositie-bij-castellum-hoge-woerd:2026-10-09",
+      "category": "evenementen",
+      "name": "Dubbele expositie bij Castellum Hoge Woerd",
+      "website_url": "https://maximapark.nl/activiteit/dubbele-expositie-bij-castellum-hoge-woerd/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "40011b79-93d1-49d5-8e18-ffb01a493b94",
+      "inventory_key": "event:purmerendsmuseum.nl/Onno-Theelens-Vreemde-Snuiters:2026-04-17",
+      "category": "evenementen",
+      "name": "Onno Theelen's Vreemde Snuiters",
+      "website_url": "https://www.purmerendsmuseum.nl/Onno-Theelens-Vreemde-Snuiters",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "25d68f30-15d4-4963-95f7-e3d38deb0229",
+      "inventory_key": "event:purmerendsmuseum.nl/Wil-van-Blokland--Monumentale-verstilling:2026-08-28",
+      "category": "evenementen",
+      "name": "Wil van Blokland – Monumentale verstilling",
+      "website_url": "https://www.purmerendsmuseum.nl/Wil-van-Blokland--Monumentale-verstilling",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "948e0abd-8a5b-44a1-bd63-9834ae026c99",
+      "inventory_key": "event:rijksmuseumtwenthe.nl/zien-en-doen/democratie-nu:2026-09-17",
+      "category": "evenementen",
+      "name": "Democratie NU?",
+      "website_url": "https://www.rijksmuseumtwenthe.nl/zien-en-doen/democratie-nu",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "45046029-729d-4d6c-99be-9964f07b2826",
+      "inventory_key": "event:nederlandsfotomuseum.nl/nu-te-zien/dag-nederland:2026-12-11",
+      "category": "evenementen",
+      "name": "Dag Nederland — Marwan Magroun",
+      "website_url": "https://nederlandsfotomuseum.nl/nu-te-zien/dag-nederland/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "3a9a5ac5-c12a-4064-9859-857d775dd1dc",
+      "inventory_key": "event:stedelijkmuseumalkmaar.nl/tentoonstelling/huisraad-inderjeet-sandhu:2026-06-26",
+      "category": "evenementen",
+      "name": "HuisRAAD – Inderjeet Sandhu",
+      "website_url": "https://stedelijkmuseumalkmaar.nl/tentoonstelling/huisraad-inderjeet-sandhu/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "79a2f5d0-46ed-43c2-8e92-13eacf992b2b",
+      "inventory_key": "event:stedelijkmuseumschiedam.nl/tentoonstelling/de-nul-installaties-van-armando:2026-11-14",
+      "category": "evenementen",
+      "name": "Armando radicaal. De Nul-jaren in een nieuw licht",
+      "website_url": "https://stedelijkmuseumschiedam.nl/tentoonstelling/de-nul-installaties-van-armando/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "1b27fec6-68b8-4ef1-8e23-6b254d06e9d1",
+      "inventory_key": "event:stedelijkmuseumschiedam.nl/tentoonstelling/susanne-khalil-yusef:2026-11-14",
+      "category": "evenementen",
+      "name": "Susanne Khalil Yusef. I remember the key",
+      "website_url": "https://stedelijkmuseumschiedam.nl/tentoonstelling/susanne-khalil-yusef/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "199a295d-3a4e-4ea0-bfaa-5ed5ae7b5fad",
+      "inventory_key": "event:vanabbehuis.com/nl/tentoonstellingen/oot:2026-10-18",
+      "category": "evenementen",
+      "name": "OOT",
+      "website_url": "https://vanabbehuis.com/nl/tentoonstellingen/oot/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "244fa7cc-c0a2-4f7a-af0e-3a6fc69675f6",
+      "inventory_key": "event:hetnoordbrabantsmuseum.nl/bezoek/tentoonstellingen/de-kinderen-van-sluijters:2026-10-03",
+      "category": "evenementen",
+      "name": "De kinderen van Sluijters",
+      "website_url": "https://www.hetnoordbrabantsmuseum.nl/bezoek/tentoonstellingen/de-kinderen-van-sluijters/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "f62ca86e-41f5-4afd-9845-3de20fc3ca78",
+      "inventory_key": "event:slotzeist.nl/agenda/het-portret-2026:2026-10-09",
+      "category": "evenementen",
+      "name": "HET PORTRET. 10 jaar Nederlandse Portretprijs",
+      "website_url": "https://www.slotzeist.nl/agenda/het-portret-2026",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "200aec3d-d8a5-46ee-b7d1-6825215b67b3",
+      "inventory_key": "event:km21.nl/nl/tentoonstellingen/karimah-ashadu:2026-10-24",
+      "category": "evenementen",
+      "name": "Karimah Ashadu — FLUID",
+      "website_url": "https://www.km21.nl/nl/tentoonstellingen/karimah-ashadu",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5124d0db-4571-4f9c-81e0-1d241771f6b2",
+      "inventory_key": "event:drentsmuseum.nl/tentoonstellingen/angkor-het-mysterie-van-cambodja:2026-10-17",
+      "category": "evenementen",
+      "name": "Angkor — Het mysterie van Cambodja",
+      "website_url": "https://drentsmuseum.nl/tentoonstellingen/angkor-het-mysterie-van-cambodja",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "eaa17ef6-2e09-47ba-ab9a-5b66fe7124cb",
+      "inventory_key": "event:www.zeeuwsmuseum.nl/nl/tentoonstellingen/darn-too:2026-02-14",
+      "category": "evenementen",
+      "name": "DARN too",
+      "website_url": "https://www.zeeuwsmuseum.nl/nl/tentoonstellingen/darn-too",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "ae103b35-88e6-4e41-9889-d7f6353c4f6e",
+      "inventory_key": "event:rembrandthuis.nl/nl/tentoonstelling/rembrandt-open-studio-3:2026-11-13",
+      "category": "evenementen",
+      "name": "Rembrandt Open Studio",
+      "website_url": "https://www.rembrandthuis.nl/nl/tentoonstelling/rembrandt-open-studio-3/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "f151b5a6-78b1-4a88-acdc-82c64538befa",
+      "inventory_key": "event:rembrandthuis.nl/nl/tentoonstelling/rembrandts-vakmanschap:2027-01-22",
+      "category": "evenementen",
+      "name": "Rembrandts Vakmanschap",
+      "website_url": "https://www.rembrandthuis.nl/nl/tentoonstelling/rembrandts-vakmanschap/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "354d760d-7d44-44b5-9810-257893a22a67",
+      "inventory_key": "event:museumarnhem.nl/nl/tentoonstellingen/hoe-hoort-het-eigenlijk-niet:2026-10-17",
+      "category": "evenementen",
+      "name": "Hoe hoort het eigenlijk (niet)? — Van strenge regels naar meer vrijheid",
+      "website_url": "https://www.museumarnhem.nl/nl/tentoonstellingen/hoe-hoort-het-eigenlijk-niet",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "26fb7c9e-c496-4faf-808e-ef1dc4782725",
+      "inventory_key": "event:museumarnhem.nl/nl/tentoonstellingen/ruudt-peters:2026-11-21",
+      "category": "evenementen",
+      "name": "BEZIELING — Ruudt Peters",
+      "website_url": "https://www.museumarnhem.nl/nl/tentoonstellingen/ruudt-peters",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "a40d9b72-db7b-4030-8e60-5a87a1365ba0",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/beyond-reality:2026-09-23",
+      "category": "evenementen",
+      "name": "Beyond Reality",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/beyond-reality/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "a7151f6f-b0ac-49cd-8961-c9d6e94c8238",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/de-kunsthof-presenteert-een-duo-expositie-van-jochem-hamstra-en-dolf-verlinden:2026-10-17",
+      "category": "evenementen",
+      "name": "Jochem Hamstra en Dolf Verlinden — duo-expositie",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/de-kunsthof-presenteert-een-duo-expositie-van-jochem-hamstra-en-dolf-verlinden/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "d8f38d21-9b27-4b2a-9a83-3a19d7f73139",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/manifestatie-jong-x:2026-09-18",
+      "category": "evenementen",
+      "name": "Manifestatie Jong X",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/manifestatie-jong-x/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e5be443b-42b1-4a44-866f-4d4550772210",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/otto-krol-gevels-daken-en-luchten:2026-10-11",
+      "category": "evenementen",
+      "name": "Otto Krol — Gevels, daken en luchten",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/otto-krol-gevels-daken-en-luchten/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "2aa5d822-2010-433a-b2df-c1a6e872826b",
+      "inventory_key": "event:www.artphy.nl/agricola-narco-geneticus:2026-05-02",
+      "category": "evenementen",
+      "name": "Agricola Narco Geneticus",
+      "website_url": "https://www.artphy.nl/agricola-narco-geneticus/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "018db47c-52ef-4216-a3b6-0e22b7870dc4",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/katja-heitmann-motus-mori-perpetuum:2026-10-15",
+      "category": "evenementen",
+      "name": "Katja Heitmann — Motus mori: PERPETUUM",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/katja-heitmann-motus-mori-perpetuum/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "99b2e05a-c61b-4c41-8b77-07d717e48c7c",
+      "inventory_key": "event:www.museum.frl/activiteiten/koffer-vol-verhalen-friese-dienstmeisjes-vertellen:2026-09-05",
+      "category": "evenementen",
+      "name": "Koffer vol verhalen: Friese dienstmeisjes vertellen",
+      "website_url": "https://www.museum.frl/activiteiten/koffer-vol-verhalen-friese-dienstmeisjes-vertellen/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt",
+        "Locatie: unknown; exacte bezoekplek bevestigen of verspreid/historisch karakter toelichten"
+      ]
+    },
+    {
+      "id": "54208d85-a6d2-4bd8-9ba2-ec41a6791373",
+      "inventory_key": "event:escherinhetpaleis.nl/zien-en-doen/tentoonstellingen/escher-and-islamic-art:2026-06-10",
+      "category": "evenementen",
+      "name": "Escher & Islamic Art: 20 Perspectives",
+      "website_url": "https://escherinhetpaleis.nl/zien-en-doen/tentoonstellingen/escher-and-islamic-art",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "ff7cf55a-acd6-41a1-8da4-ab71737f0c9b",
+      "inventory_key": "event:www.catharijneconvent.nl/tentoonstellingen/zininkerst:2026-12-12",
+      "category": "evenementen",
+      "name": "De mooiste kerststal van Nederland",
+      "website_url": "https://www.catharijneconvent.nl/tentoonstellingen/zininkerst",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "9c06c11f-204c-415b-9349-6d497f1e2975",
+      "inventory_key": "event:nieuwevide.com/expositie/what-we-see-is-what-we-get-rosalie-apituley:2026-10-10",
+      "category": "evenementen",
+      "name": "What we see is what we get — Rosalie Apituley",
+      "website_url": "https://nieuwevide.com/expositie/what-we-see-is-what-we-get-rosalie-apituley",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "b481d1b9-8fd9-4c9d-9139-ae5188cd985e",
+      "inventory_key": "event:www.slotzeist.nl/agenda/artfully-dressed-carla-van-de-puttelaar:2026-12-15",
+      "category": "evenementen",
+      "name": "Artfully Dressed — Carla van de Puttelaar",
+      "website_url": "https://www.slotzeist.nl/agenda/artfully-dressed-carla-van-de-puttelaar",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "5dc9871c-fb81-4098-a958-33123b64a467",
+      "inventory_key": "event:tiendschuur.net/exposities/verwacht:2026-12-20",
+      "category": "evenementen",
+      "name": "Jac. Bongaerts — meesterkeramist uit Tegelen",
+      "website_url": "https://tiendschuur.net/exposities/verwacht",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "114da538-86f9-4fe0-a47d-199b4209fd0f",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/chroma-kleur-als-onderzoek:2026-10-11",
+      "category": "evenementen",
+      "name": "CHROMA — kleur als onderzoek",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/chroma-kleur-als-onderzoek",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "9b9ef41a-7f66-498b-9db7-55c8d946e5d4",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/approp:2026-10-01",
+      "category": "evenementen",
+      "name": "APPROP. — ax710 en Jurjen Galema",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/approp",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "08677a09-9e38-41ad-b82f-a6e67161f24a",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/friday-16-oct-1700-2000-opening-exhibition-the-hunter-the-prey-and-acceptable-fictions-with-paintings-of-taco-yutong-huo:2026-10-16",
+      "category": "evenementen",
+      "name": "The Hunter, the Prey and Acceptable Fictions — Taco Yutong Huo",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/friday-16-oct-1700-2000-opening-exhibition-the-hunter-the-prey-and-acceptable-fictions-with-paintings-of-taco-yutong-huo",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "7f2cfbdb-940a-4098-b08e-01fc16812ecd",
+      "inventory_key": "event:franshalsmuseum.nl/nl/zien-en-doen/hals-rembrandt:2026-11-06",
+      "category": "evenementen",
+      "name": "Hals-Rembrandt",
+      "website_url": "https://franshalsmuseum.nl/nl/zien-en-doen/hals-rembrandt",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "3402a3c7-be50-40cf-866f-01312010049b",
+      "inventory_key": "event:www.helmantel.nl/exposities:2026-04-29",
+      "category": "evenementen",
+      "name": "De keuzes van Helmantel",
+      "website_url": "https://www.helmantel.nl/exposities",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "670315a2-ecc3-4ecd-88b5-1f95a2b0142a",
+      "inventory_key": "event:franshalsmuseum.nl/nl/zien-en-doen/oesters-en-citroenen:2027-03-25",
+      "category": "evenementen",
+      "name": "Oesters & citroenen",
+      "website_url": "https://franshalsmuseum.nl/nl/zien-en-doen/oesters-en-citroenen",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "3ffadae8-1a1b-452c-91f9-27e11e348ec0",
+      "inventory_key": "event:www.rijksmuseumtwenthe.nl/zien-en-doen/democratie-nu:2026-09-17",
+      "category": "evenementen",
+      "name": "Democratie NU?",
+      "website_url": "https://www.rijksmuseumtwenthe.nl/zien-en-doen/democratie-nu",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "237af19f-7491-4b9d-9584-128cb7921b05",
+      "inventory_key": "event:www.storyworld.nl/nl/storyworld-spotlight/loeki-de-leeuw:2026-06-27",
+      "category": "evenementen",
+      "name": "Loeki de Leeuw",
+      "website_url": "https://www.storyworld.nl/nl/storyworld-spotlight/loeki-de-leeuw",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "a2f84073-b5b6-4c88-992a-e6c845ffd74d",
+      "inventory_key": "event:greylightprojects.org/expositie-perceiving-in-the-dark:2026-10-17",
+      "category": "evenementen",
+      "name": "Perceiving in the Dark",
+      "website_url": "https://greylightprojects.org/expositie-perceiving-in-the-dark/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e72eed9b-1d59-4e05-8ac1-d46b471705be",
+      "inventory_key": "event:acec.nl/agenda/reshuffled-scenes:2026-11-28",
+      "category": "evenementen",
+      "name": "Reshuffled Scenes",
+      "website_url": "https://acec.nl/agenda/reshuffled-scenes/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "d3dcf414-3814-4e20-8baa-9062298d9023",
+      "inventory_key": "event:stedelijk.nl/nl/tentoonstellingen/adam-pendleton:2026-10-10",
+      "category": "evenementen",
+      "name": "Adam Pendleton — Some Wild Kind of Language",
+      "website_url": "https://www.stedelijk.nl/nl/tentoonstellingen/adam-pendleton",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e692d47d-e12e-48b8-8339-5a1906532973",
+      "inventory_key": "event:mondriaanhuis.nl/nl/tentoonstellingen/perpetual-motion:2026-10-10",
+      "category": "evenementen",
+      "name": "Perpetual Motion — Udo Prinsen",
+      "website_url": "https://www.mondriaanhuis.nl/nl/tentoonstellingen/perpetual-motion/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "a542deac-7d61-4feb-9838-68dcfeb42c26",
+      "inventory_key": "event:www.museumijsselstein.nl/tentoonstellingen/onder-water:2026-11-07",
+      "category": "evenementen",
+      "name": "Onder Water",
+      "website_url": "https://www.museumijsselstein.nl/tentoonstellingen/onder-water/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "c9d561e8-b5a1-4948-91f3-353f86b4f0de",
+      "inventory_key": "event:www.museumijsselstein.nl/tentoonstellingen/takkenmuseum-van-maarten-bel:2026-08-29",
+      "category": "evenementen",
+      "name": "Takkenmuseum van Maarten Bel",
+      "website_url": "https://www.museumijsselstein.nl/tentoonstellingen/takkenmuseum-van-maarten-bel/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "8c54f96f-009c-4b47-819e-b3e79a754827",
+      "inventory_key": "event:museumjancunen.nl/tentoonstellingen/licht-donker:2026-11-15",
+      "category": "evenementen",
+      "name": "Licht en donker",
+      "website_url": "https://www.museumjancunen.nl/tentoonstellingen/licht-donker/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "4b841f22-4fcb-44bf-9fe7-a0b6f7a0eea4",
+      "inventory_key": "event:kunsthalkade.nl/nl/tentoonstellingen/vivian-suter-in-de-elleboogkerk:2026-09-26",
+      "category": "evenementen",
+      "name": "Vivian Suter | In de Elleboogkerk",
+      "website_url": "https://www.kunsthalkade.nl/nl/tentoonstellingen/vivian-suter-in-de-elleboogkerk/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "7f072384-6e21-4872-88d6-7f5fee0bb833",
+      "inventory_key": "event:kunsthal.nl/nl/tentoonstellingen/kunsthal-insideout-sabine-marcelis:2026-02-17",
+      "category": "evenementen",
+      "name": "Kunsthal Inside/Out: Sabine Marcelis. Continuum",
+      "website_url": "https://kunsthal.nl/nl/tentoonstellingen/kunsthal-insideout-sabine-marcelis/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "cac847b6-df30-4ddd-be6e-0a3c157c909f",
+      "inventory_key": "event:tetem.nl/event/in-search-of-ghost-affects:2026-10-21",
+      "category": "evenementen",
+      "name": "In Search of Ghost Affects",
+      "website_url": "https://tetem.nl/event/in-search-of-ghost-affects/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "db12d180-19a5-4eba-af7e-7a8da738ff3f",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/pink-pillow:2026-09-26",
+      "category": "evenementen",
+      "name": "PINK PILLOW — Mariëlle Gebben",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/pink-pillow/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e0e59132-c8e6-4b9f-a25b-a9092051c003",
+      "inventory_key": "event:marres.org/program/rubyfruit-jungle:2026-10-09",
+      "category": "evenementen",
+      "name": "Rubyfruit Jungle — Celina Eceiza",
+      "website_url": "https://marres.org/program/rubyfruit-jungle/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "84c6e4b7-a6ea-46a2-8700-5e655f84cadc",
+      "inventory_key": "event:www.rijksmuseumtwenthe.nl/zien-en-doen/aki-alumni-gideon-van-gameren:2026-10-09",
+      "category": "evenementen",
+      "name": "AKI Alumni: Gideon van Gameren",
+      "website_url": "https://www.rijksmuseumtwenthe.nl/zien-en-doen/aki-alumni-gideon-van-gameren",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "8b02eb36-e963-4488-8dde-3242f8b6c9b8",
+      "inventory_key": "event:caesuur.nu/you-were-here:2026-11-14",
+      "category": "evenementen",
+      "name": "You Were Here (Archives from the Margins) — Ton Kruse",
+      "website_url": "https://www.tonkruse.nl/programma-rsol.html",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "465afe6d-180c-4554-a4b7-6fa6849edd3e",
+      "inventory_key": "event:kunstpuntgroningen.nl/agenda/veld-collectief-lanceert-bieten-hotline-om-van-de-vrachtwagen-gevallen-suikerbieten-te-redden:2026-10-17",
+      "category": "evenementen",
+      "name": "VELD Collectief: BIETEN-HOTLINE",
+      "website_url": "https://www.kunstpuntgroningen.nl/agenda/veld-collectief-lanceert-bieten-hotline-om-van-de-vrachtwagen-gevallen-suikerbieten-te-redden/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "e3b777b9-3b38-415d-aced-f2ec9c0a018f",
+      "inventory_key": "event:rijksmuseumtwenthe.nl/zien-en-doen/edwina-van-heek:2026-03-08",
+      "category": "evenementen",
+      "name": "Edwina van Heek. Stille kracht achter Rijksmuseum Twenthe",
+      "website_url": "https://www.rijksmuseumtwenthe.nl/zien-en-doen/edwina-van-heek",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "d0c90f39-5ef8-4ac3-b79f-7ffa13d876f7",
+      "inventory_key": "event:villamondriaan.nl/tentoonstellingen/7599:2026-10-11",
+      "category": "evenementen",
+      "name": "Elizabeth Nijhuis-Wiggers – toegewijd, kordaat & vastberaden",
+      "website_url": "https://villamondriaan.nl/tentoonstellingen/7599/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
+      ]
+    },
+    {
+      "id": "f2991908-ada7-4342-88f2-604540e2c91f",
+      "inventory_key": "event:rembrandthuis.nl/nl/tentoonstelling/the-poor-mans-rembrandt-project-2026:2026-10-26",
+      "category": "evenementen",
+      "name": "The Poor Man’s Rembrandt Project",
+      "website_url": "https://www.rembrandthuis.nl/nl/tentoonstelling/the-poor-mans-rembrandt-project-2026/",
+      "issues": [
+        "Foto met bevestigde maker, bron en hergebruikvoorwaarden ontbreekt"
       ]
     }
   ]

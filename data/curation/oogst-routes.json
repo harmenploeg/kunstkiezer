@@ -1,101 +1,2837 @@
 {
- "bijgewerkt": "2026-10-17",
+ "bijgewerkt": "2026-10-19",
  "toelichting": "Per host de goedkoopste route die werkte; zie scripts/oogst/route.py.",
  "routes": {
+  "033rietveldpaviljoen.nl": {
+   "programma": "https://033rietveldpaviljoen.nl/exposities/",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "1646.nl": {
+   "programma": "https://www.1646.nl/program-type/exhibition/",
+   "score": 9,
+   "linktekst": "exhibition",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "38cc.nl": {
+   "programma": "https://www.38cc.nl/zwervende-tentoonstelling",
+   "score": 10,
+   "linktekst": "zwervende tentoonstelling",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "a-tub.org": {
+   "programma": "https://a-tub.org/en/exhibitions",
+   "score": 9,
+   "linktekst": "exhibitions",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "acec.nl": {
+   "programma": "https://acec.nl/agenda/",
+   "score": 8,
+   "linktekst": "events en exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "achterdewestduinen.nl": {
+   "programma": "https://www.achterdewestduinen.nl/speciale-expositie/",
+   "score": 8,
+   "linktekst": "speciale expositie",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "anningahof.nl": {
+   "programma": "https://www.anningahof.nl/beelden-2025/",
+   "score": 10,
+   "linktekst": "tentoonstelling",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "antonpieckmuseum.nl": {
+   "programma": "https://www.antonpieckmuseum.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "arcam.nl": {
+   "programma": "https://arcam.nl/events/evening-drawings-pero-puljiz-2/",
+   "score": 10,
+   "linktekst": "evening drawings, een tentoonstelling met tekeningen van arc",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "architectuurhaarlem.nl": {
+   "programma": "https://www.architectuurhaarlem.nl/exposities",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "arti.nl": {
+   "programma": "https://arti.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "artphy.nl": {
+   "programma": "https://www.artphy.nl/agricola-narco-geneticus/",
+   "score": 9,
+   "linktekst": "nu te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "atlasvanstolk.nl": {
+   "programma": "https://www.atlasvanstolk.nl/agenda/",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "bakonline.org": {
+   "programma": "https://www.bakonline.org/en/basecamp/agenda",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "beautifuldistress.org": {
+   "programma": "https://www.beautifuldistress.org/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "beeldenaanzee.nl": {
+   "programma": "https://www.beeldenaanzee.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "bekijk alle tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "beeldentuin-dezanderij.nl": {
+   "programma": "http://www.beeldentuin-dezanderij.nl/expositie/",
+   "score": 8,
+   "linktekst": "lees meer",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "beeldentuin-gelderland-exposities.nl": {
+   "programma": "https://beeldentuin-gelderland-exposities.nl/",
+   "score": 8,
+   "linktekst": "",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "beeldentuincuijk.nl": {
+   "programma": "https://www.beeldentuincuijk.nl/de-beeldentuin/vaste-exposanten",
+   "score": 8,
+   "linktekst": "vaste expositie",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "beeldentuindehavixhorst.nl": {
+   "programma": "https://www.beeldentuindehavixhorst.nl/wisselexpositie/",
+   "score": 10,
+   "linktekst": "wisseltentoonstelling",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "bewaerschole.nl": {
+   "programma": "https://www.bewaerschole.nl/huidig-programma/",
+   "score": 10,
+   "linktekst": "bekijk tentoonstelling",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "bigartgarden.nl": {
+   "programma": "https://bigartgarden.nl/exhibitions/",
+   "score": 9,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "boijmans.nl": {
+   "programma": "https://www.boijmans.nl/nieuws/marisol-een-nieuwe-tentoonstelling-in-opbouw",
+   "score": 10,
+   "linktekst": "marisol: een nieuwe tentoonstelling in opbouw wij werken har",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "bonnefanten.nl": {
+   "programma": "https://www.bonnefanten.nl/en/exhibitions/cooking-from-the-fridge",
+   "score": 9,
+   "linktekst": "",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "borduurmuseum.nl": {
+   "programma": "https://borduurmuseum.nl/agenda/",
+   "score": 5,
+   "linktekst": "/agenda",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "posttype:um_form",
+    "url": "https://borduurmuseum.nl/wp-json/wp/v2/um_form"
+   },
+   "stap": 4
+  },
+  "boterhal.com": {
+   "programma": "https://boterhal.com/project/waterritme/",
+   "score": 8,
+   "linktekst": "waterritme expositie 6 september t/m 4 oktober 2026 de hoorn",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 3
+  },
+  "brutus.nl": {
+   "programma": "https://brutus.nl/en/programme/on+view/death+money/",
+   "score": 9,
+   "linktekst": "exhibition until 20 dec '26",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 3
+  },
+  "bureau-europa.nl": {
+   "programma": "https://www.bureau-europa.nl/agenda/",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "cacaofabriek.nl": {
+   "programma": "https://cacaofabriek.nl/agenda",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://cacaofabriek.nl/sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "campis.nl": {
+   "programma": "https://www.campis.nl/wp/nu-te-zien/",
+   "score": 9,
+   "linktekst": "",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "catharijneconvent.nl": {
+   "programma": "https://www.catharijneconvent.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "cbkzuidoost.nl": {
+   "programma": "https://www.cbkzuidoost.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "centraalmuseum.nl": {
+   "programma": "https://www.centraalmuseum.nl/programma",
+   "score": 10,
+   "linktekst": "alle tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "chabotmuseum.nl": {
+   "programma": "https://chabotmuseum.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "cobra-museum.nl": {
+   "programma": "https://cobra-museum.nl/te-doen/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "coda-apeldoorn.nl": {
+   "programma": "https://www.coda-apeldoorn.nl/agenda/582/01-11-2026/craft-now",
+   "score": 10,
+   "linktekst": "1 nov. 2026 t/m 11 apr. 2027 | tentoonstelling craft now!",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "concordia.nl": {
+   "programma": "https://www.concordia.nl/nl/film/nu-te-zien",
+   "score": 9,
+   "linktekst": "nu te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "cultuurhuisbergeijk.nl": {
+   "programma": "https://cultuurhuisbergeijk.nl/ontdek/nu-te-zien",
+   "score": 9,
+   "linktekst": "nu te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 3
+  },
+  "datbolwerck.nl": {
+   "programma": "https://www.datbolwerck.nl/agenda/dat-bolwerck-x-bij-de-bieb-verlangen-voeden-door-de-vervulling-ervan---groeien-in-eenzaamheid-werk-van-melanie-bosboom",
+   "score": 10,
+   "linktekst": "11 juli 2026 / 10 januari 2027 dat bolwerck x bij de bieb | ",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "dedageraad.nl": {
+   "programma": "https://www.hetschip.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "defabriekeindhoven.nl": {
+   "programma": "https://www.defabriekeindhoven.nl/nl/agenda",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "dekopermolenvaals.nl": {
+   "programma": "https://dekopermolenvaals.nl/agenda/",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "dekuip.com": {
+   "programma": "https://www.dekuip.com/nl/agenda",
+   "score": 5,
+   "linktekst": "/agenda",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "demesdagcollectie.nl": {
+   "programma": "https://www.demesdagcollectie.nl/nl/bezoek/zien-en-doen/tentoonstelling-whistler-verliefd-op-nederland",
+   "score": 10,
+   "linktekst": "ontdek meer",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "deoostkerk.nl": {
+   "programma": "https://deoostkerk.nl/exposities",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "depont.nl": {
+   "programma": "https://www.depont.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "designmuseum.nl": {
+   "programma": "https://designmuseum.nl/tentoonstellingen/design/",
+   "score": 10,
+   "linktekst": "design!",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "designmuseumdedel.nl": {
+   "programma": "https://designmuseumdedel.nl/tentoonstelling/usa-250/",
+   "score": 10,
+   "linktekst": "usa at 250: het verborgen verhaal achter een wereldmacht",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://designmuseumdedel.nl/tentoonstelling-sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "dewieger.nl": {
+   "programma": "https://dewieger.nl/tentoonstelling/topvrouwen/",
+   "score": 10,
+   "linktekst": "",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "posttype:expo",
+    "url": "https://dewieger.nl/wp-json/wp/v2/expo"
+   },
+   "stap": 4
+  },
+  "diagoonwoningdelft.nl": {
+   "programma": "https://www.diagoonwoningdelft.nl/tentoonstellingen",
+   "score": 5,
+   "linktekst": "/tentoonstellingen",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "dmdebuitenplaats.nl": {
+   "programma": "https://dmdebuitenplaats.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://dmdebuitenplaats.nl/sitemaps-2-section-exhibitions-5-sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "dordrechtsmuseum.nl": {
+   "programma": "https://www.dordrechtsmuseum.nl/vorige-tentoonstellingen/",
+   "score": 10,
+   "linktekst": "kijk terug",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "drentsmuseum.nl": {
+   "programma": "https://drentsmuseum.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://drentsmuseum.nl/sitemaps-1-section-exhibitions-1-sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "dudokarchitectuurcentrum.nl": {
+   "programma": "https://www.dudokarchitectuurcentrum.nl/activiteiten/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "eenzeevanstaal.nl": {
+   "programma": "https://eenzeevanstaal.nl/zomerprogramma/",
+   "score": 6,
+   "linktekst": "zomerprogramma",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://eenzeevanstaal.nl/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4
+  },
+  "eicas.nl": {
+   "programma": "https://www.eicas.nl/informeel-readymade",
+   "score": 10,
+   "linktekst": "tentoonstelling informeel & readmade",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "elleboogkerk.nl": {
+   "programma": "https://www.elleboogkerk.nl/activiteiten/",
+   "score": 4,
+   "linktekst": "activiteiten",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "escherinhetpaleis.nl": {
+   "programma": "https://escherinhetpaleis.nl:443/zien-en-doen/tentoonstellingen",
+   "score": 10,
+   "linktekst": "",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
   "escherinhetpaleis.nl:443": {
-   "stap": 3,
-   "gelukt": "2026-10-17"
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "extrapool.nl": {
+   "programma": "https://extrapool.nl/?page_id=140",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://extrapool.nl/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4
+  },
+  "eyefilm.nl": {
+   "programma": "https://www.eyefilm.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "fabrique-lumieres.com": {
+   "programma": "https://www.fabrique-lumieres.com/nl/programma",
+   "score": 6,
+   "linktekst": "programma",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "factor-ij.amsterdam": {
+   "programma": "https://www.factor-ij.amsterdam/agenda/",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "fenix.nl": {
+   "programma": "https://www.fenix.nl/nl/te-zien-en-doen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen en programma",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
   },
   "fotomuseumaanhetvrijthof.nl": {
    "sitemaps": [
     "https://fotomuseumaanhetvrijthof.nl/sitemap.xml"
    ],
-   "stap": 3,
-   "gelukt": "2026-10-17"
+   "stap": 1,
+   "gelukt": "2026-10-19",
+   "programma": "https://fotomuseumaanhetvrijthof.nl/tentoonstelling/achterdevoordeur",
+   "score": 10,
+   "linktekst": "13 oktober - 6 november 2026 in heerlen 'achter de voordeur'",
+   "via": "homepage-link"
+  },
+  "fotomuseumdenhaag.nl": {
+   "programma": "https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "fotomuseumhilversum.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "framerframed.nl": {
+   "programma": "https://framerframed.nl/exposities/",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "franshalsmuseum.nl": {
+   "programma": "https://franshalsmuseum.nl/nl/nieuws/hals-rembrandt",
+   "score": 10,
+   "linktekst": "20 april 2026 frans hals museum presenteert eerste tentoonst",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "fransjeversloot.nl": {
+   "programma": "https://www.fransjeversloot.nl/",
+   "score": 5,
+   "linktekst": "/tentoonstellingen",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "friesmuseum.nl": {
+   "programma": "https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/redbad",
+   "score": 10,
+   "linktekst": "redbad: de legendarische koning 5 september 2026 t/m 7 febru",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "galerie-dnk.nl": {
+   "programma": "https://galerie-dnk.nl/expositie/",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://galerie-dnk.nl/exposities-sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "galleryvandun.com": {
+   "programma": "https://www.galleryvandun.com/exposities-events",
+   "score": 8,
+   "linktekst": "exposities &#038; events",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "garagerotterdam.nl": {
+   "programma": "https://www.garagerotterdam.nl/activiteiten",
+   "score": 4,
+   "linktekst": "activiteiten overzicht",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "gem-online.nl": {
+   "programma": "https://www.km21.nl/nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "giardinobeeldentuin.nl": {
+   "programma": "https://www.giardinobeeldentuin.nl/exposities-giardino",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "gorcumsmuseum.nl": {
+   "programma": "https://www.gorcumsmuseum.nl/tentoonstelling/doe-zolder/",
+   "score": 10,
+   "linktekst": "doe zolder",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
   },
   "greylightprojects.org": {
    "eindpunt": {
     "soort": "json",
     "url": "https://greylightprojects.org/wp-json/wp/v2/pages?per_page=20"
    },
+   "stap": 1,
+   "gelukt": "2026-10-19",
+   "programma": "https://greylightprojects.org/description_tag/exhibition/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link"
+  },
+  "groningermuseum.nl": {
+   "programma": "https://www.groningermuseum.nl/programma",
+   "score": 6,
+   "linktekst": "programma",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "hartmuseum.nl": {
+   "programma": "https://www.hartmuseum.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "hartvanlaren.nl": {
+   "programma": "https://hartvanlaren.nl/agenda-brinkhuis-laren/",
+   "score": 5,
+   "linktekst": "/agenda",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "ical",
+    "url": "https://hartvanlaren.nl/?ical=1"
+   },
+   "stap": 4
+  },
+  "hazart.nl": {
+   "programma": "https://www.hazart.nl/recente-exposities",
+   "score": 8,
+   "linktekst": "recente exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "heiligenbeeldenmuseum.nl": {
+   "programma": "https://www.heiligenbeeldenmuseum.nl/museum/thematentoonstelling",
+   "score": 10,
+   "linktekst": "thematentoonstelling",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "helmantel.nl": {
+   "programma": "https://www.helmantel.nl/exposities",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "hetdepot.nl": {
+   "programma": "https://www.hetdepot.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "hetmow.nl": {
+   "programma": "https://www.hetmow.nl/expositie/geworteld",
+   "score": 10,
+   "linktekst": "thematentoonstelling",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "hetnoordbrabantsmuseum.nl": {
+   "programma": "https://www.hetnoordbrabantsmuseum.nl/bezoek/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "hetschip.nl": {
+   "programma": "https://www.hetschip.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "hildokrop.nl": {
+   "programma": "https://www.hildokropmuseum.nl/museum/exposities",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "historischcentrumleeuwarden.nl": {
+   "programma": "https://historischcentrumleeuwarden.nl/publiek/exposities",
+   "score": 8,
+   "linktekst": "exposities hcl",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 3
+  },
+  "hofjevanaerden.nl": {
+   "programma": "https://www.hofjevanaerden.nl/hofje-activiteiten",
+   "score": 4,
+   "linktekst": "activiteiten",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "hotelmariakapel.nl": {
+   "programma": "https://www.hotelmariakapel.nl/nl/programma",
+   "score": 6,
+   "linktekst": "map: programma",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "huisbergh.nl": {
+   "programma": "https://www.huisbergh.nl/agenda",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "huismarseille.nl": {
+   "programma": "https://huismarseille.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "huissonneveld.nl": {
+   "programma": "https://nieuweinstituut.nl/pages/now-on-display",
+   "score": 9,
+   "linktekst": "nu te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "huizefrankendael.nl": {
+   "programma": "https://huizefrankendael.nl/nl/kunst/tentoonstellingen/",
+   "score": 5,
+   "linktekst": "/tentoonstellingen",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19",
+   "stap": 3
+  },
+  "ikonenmuseumkampen.nl": {
+   "programma": "https://www.ikonenmuseumkampen.nl/actueel/activiteiten-en-nieuws/bericht/nieuwe-tentoonstellingen-geopend",
+   "score": 10,
+   "linktekst": "nieuwe tentoonstellingen geopend",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "jankruismuseum.nl": {
+   "programma": "https://jankruismuseum.nl/de-portrettengalerij-van-jan-kruis-nu-te-zien-in-dit-museum/",
+   "score": 9,
+   "linktekst": "de portrettengalerij van jan kruis, nu te zien in dit museum",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "posttype:salient_g_sections",
+    "url": "https://jankruismuseum.nl/wp-json/wp/v2/salient_g_sections"
+   },
+   "stap": 4
+  },
+  "jopiehuismanmuseum.nl": {
+   "programma": "https://www.jopiehuismanmuseum.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "jvdtogt.nl": {
+   "programma": "https://museumjan.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "kasteelwijlre.nl": {
+   "programma": "https://kasteelwijlre.nl/nl/heden/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 3
+  },
+  "katwijksmuseum.nl": {
+   "programma": "https://www.katwijksmuseum.nl/exposities/",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "keramischmuseumgoedewaagen.nl": {
+   "programma": "https://www.museumgoedewaagen.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "keukenhof.nl": {
+   "programma": "https://www.keukenhof.nl/bezoek/zien-doen/orchideeenshow",
+   "score": 10,
+   "linktekst": "evenement orchideeënshow een kleurrijke tentoonstelling in h",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "kleinafrika.nl": {
+   "programma": "https://kleinafrika.nl/wp-content/uploads/2015/06/klein-afrika_galerie-beeldentuin_content-beeld-expositie-s.jpg",
+   "score": 8,
+   "linktekst": "",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://kleinafrika.nl/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4
+  },
+  "kloosterterapel.nl": {
+   "programma": "https://kloosterterapel.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "alle tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "koppelkerk.nl": {
+   "programma": "https://koppelkerk.nl/kalender/expositie/",
+   "score": 8,
+   "linktekst": "expositie",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "kranenburgh.nl": {
+   "programma": "https://kranenburgh.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "krollermuller.nl": {
+   "programma": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruimtereis",
+   "score": 10,
+   "linktekst": "tentoonstelling ruimtereis 25 maart 2026 - 29 november 2026 ",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "kunstenlab.nl": {
+   "programma": "https://kunstenlab.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "kunstfort.nl": {
+   "programma": "https://www.kunstfort.nl/nl/tentoonstellingen/",
+   "score": 5,
+   "linktekst": "/tentoonstellingen",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "kunsthal.nl": {
+   "programma": "https://kunsthal.nl/nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "kunsthalkade.nl": {
+   "programma": "https://www.kunsthalkade.nl/nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "kunsthuissyb.nl": {
+   "programma": "https://kunsthuissyb.nl/en/exhibitions",
+   "score": 9,
+   "linktekst": "exhibitions",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 3
+  },
+  "kunsthuiswaterland.nl": {
+   "programma": "https://kunsthuiswaterland.nl/event/marli-turion-en-abe-wientjens/",
+   "score": 10,
+   "linktekst": "lees meer over de tentoonstelling",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "kunstinopenbareruimte-utrecht.nl": {
+   "programma": "https://www.kunstinopenbareruimte-utrecht.nl/tentoonstellingen",
+   "score": 5,
+   "linktekst": "/tentoonstellingen",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "kunstinstituutmelly.nl": {
+   "programma": "https://www.kunstinstituutmelly.nl/nl/exhibitions/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "kunstlinie.nl": {
+   "programma": "https://kunstlinie.nl/programma/flevolands-philharmonisch-orkest-5/",
+   "score": 10,
+   "linktekst": "za 24 okt &#8217;26 20:30 klassieke muziek theater flevoland",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 3
+  },
+  "kunstmuseum.nl": {
+   "programma": "https://www.kunstmuseum.nl/nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "kunstpodium-t.com": {
+   "programma": "https://kunstpodium-t.com/agenda/season-highlights-25-26",
+   "score": 8,
+   "linktekst": "do 15 okt. t/m do 15 okt. expositie season highlights openin",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://kunstpodium-t.com/sitemaps-1-section-agendaEvents-2-sitemap.xml",
+    "https://kunstpodium-t.com/sitemaps-1-section-agendaSearch-2-sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "kunstpuntgroningen.nl": {
+   "programma": "https://www.kunstpuntgroningen.nl/agenda/",
+   "score": 5,
+   "linktekst": "/agenda",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "kunstroutemiddelburg.nl": {
+   "programma": "https://www.kunstroutemiddelburg.nl/agenda-menu",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "lakenhal.nl": {
+   "programma": "https://www.lakenhal.nl/nl/verhaal/tuin-der-lusten",
+   "score": 10,
+   "linktekst": "tentoonstelling tuin der lusten - de zeventiende eeuw in blo",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "laliquemuseum.nl": {
+   "programma": "https://www.laliquemuseum.nl/nl/nu-te-zien/tentoonstelling-magnificent-jewels/",
+   "score": 10,
+   "linktekst": "magnificent jewels!",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "landartdelft.nl": {
+   "programma": "https://www.landartdelft.nl/agenda/",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "landhuisoudamelisweerd.nl": {
+   "programma": "https://landhuisoudamelisweerd.nl/vloeiende-vormen-4-juli-t-m-25-oktober-2026/",
+   "score": 10,
+   "linktekst": "glaskunsttentoonstelling vloeiende vormen in landhuis oud am",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "lustwarande.org": {
+   "programma": "https://www.lustwarande.org/programma",
+   "score": 6,
+   "linktekst": "programma",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "maelwaelvanlymborch.nl": {
+   "programma": "https://maelwaelvanlymborch.nl/exposities/",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "posttype:beeldbank",
+    "url": "https://maelwaelvanlymborch.nl/wp-json/wp/v2/beeldbank"
+   },
+   "stap": 4
+  },
+  "marishuis.nl": {
+   "programma": "https://www.marishuis.nl/activiteit/laatste-week-expositie-harrie-gerritz/",
+   "score": 8,
+   "linktekst": "laatste week expositie harrie gerritz!",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "marres.org": {
+   "programma": "https://marres.org/programma/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "mauritshuis.nl": {
+   "programma": "https://www.mauritshuis.nl/agenda",
+   "score": 5,
+   "linktekst": "/agenda",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "maximapark.nl": {
+   "programma": "https://maximapark.nl/agenda/",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "mediamatic.net": {
+   "programma": "https://www.mediamatic.net/nl/exhibitions-to-see",
+   "score": 9,
+   "linktekst": "nu te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "mocomuseum.com": {
+   "programma": "https://www.mocomuseum.com/exhibitions/london/",
+   "score": 9,
+   "linktekst": "exhibitions",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "mondriaanhuis.nl": {
+   "programma": "https://www.mondriaanhuis.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "moretwickel.nl": {
+   "programma": "https://www.moretwickel.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "moya.museum": {
+   "programma": "https://www.moya.museum/exhibitions/",
+   "score": 10,
+   "linktekst": "pages tentoonstellingen collectie",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "mu.nl": {
+   "programma": "https://www.mu.nl/tentoonstellingen",
+   "score": 5,
+   "linktekst": "/tentoonstellingen",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "murals-inc.com": {
+   "programma": "https://murals-inc.com/exhibition",
+   "score": 9,
+   "linktekst": "exhibitions",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://murals-inc.com/sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "museazutphen.nl": {
+   "programma": "https://museazutphen.nl/tentoonstellingen/thijs-buit/",
+   "score": 10,
+   "linktekst": "tekeningen en schilderijen van thijs buit (1934) landschappe",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "museum.frl": {
+   "programma": "https://www.museum.frl/activiteiten/",
+   "score": 4,
+   "linktekst": "activiteiten",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museumarnhem.nl": {
+   "programma": "https://www.museumarnhem.nl/nl/tentoonstellingen",
+   "score": 5,
+   "linktekst": "/tentoonstellingen",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "museumbelvedere.nl": {
+   "programma": "https://www.museumbelvedere.nl/nl/nu_te_zien/",
+   "score": 9,
+   "linktekst": "nu te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museumbos.nl": {
+   "programma": "https://www.museumbos.nl/tentoonstellingen",
+   "score": 5,
+   "linktekst": "/tentoonstellingen",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "museumbredius.nl": {
+   "programma": "https://museumbredius.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "posttype:collectie",
+    "url": "https://museumbredius.nl/wp-json/wp/v2/collectie"
+   },
+   "stap": 4
+  },
+  "museumdefundatie.nl": {
+   "programma": "https://museumdefundatie.nl/nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://museumdefundatie.nl/sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "museumgouda.nl": {
+   "programma": "https://www.museumgouda.nl/tentoonstelling/mina_abouzahra/",
+   "score": 10,
+   "linktekst": "woven letters, mina abouzahra t/m 29 maart 2027 vanaf septem",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museumhelmond.nl": {
+   "programma": "https://museumhelmond.nl/tentoonstellingen/kasteel/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://museumhelmond.nl/tentoonstellingen-sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "museumhilversum.nl": {
+   "programma": "https://fotomuseumhilversum.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museumijsselstein.nl": {
+   "programma": "https://www.museumijsselstein.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "te zien bij mij",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museumjan.nl": {
+   "sitemaps": [
+    "https://museumjan.nl/sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "museumjancunen.nl": {
+   "programma": "https://www.museumjancunen.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museumjanheestershuis.nl": {
+   "programma": "https://www.kunstcollectiemeierijstad.nl/Zien_en_doen/Geweest",
+   "score": 8,
+   "linktekst": "bekijk de vorige exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museumkerk.nl": {
+   "programma": "https://www.museumkerk.nl/exposities.html",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museumkrona.nl": {
+   "programma": "https://www.museumkrona.nl/nl/nu-te-zien/tentoonstellingen/kerst2026",
+   "score": 10,
+   "linktekst": "verwacht kerst 2026 licht in donkere dagen • vanaf 21 novemb",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museumlandvanvalkenburg.nl": {
+   "programma": "https://www.museumvalkenburg.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museumlunteren.nl": {
+   "programma": "https://museumlunteren.nl/nu-te-zien/",
+   "score": 9,
+   "linktekst": "nu te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://museumlunteren.nl/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4
+  },
+  "museummaassluis.nl": {
+   "programma": "https://museummaassluis.nl/te-zien-en-te-doen/",
+   "score": 7,
+   "linktekst": "te zien en te doen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://museummaassluis.nl/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4
+  },
+  "museummohlmann.nl": {
+   "programma": "https://www.museummohlmann.nl/exposities/27e-onafhankelijke-realistententoonstelling/",
+   "score": 10,
+   "linktekst": "27e onafhankelijke realistententoonstelling",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museummore-kasteelruurlo.nl": {
+   "programma": "https://www.moreruurlo.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museummore.nl": {
+   "programma": "https://www.moregorssel.nl/tentoonstellingen",
+   "score": 5,
+   "linktekst": "/tentoonstellingen",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "museumnagele.nl": {
+   "programma": "https://museumnagele.nl/portfolio/permanente-expositie",
+   "score": 8,
+   "linktekst": "permanente expositie",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museumnoordwijk.nl": {
+   "programma": "https://museumnoordwijk.nl/tentoonstellingen",
+   "score": 5,
+   "linktekst": "/tentoonstellingen",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "museumofcomicart.nl": {
+   "programma": "https://www.museumofcomicart.nl/tentoonstellingen/jan-van-haasteren-the-missing-pieces-of-a-comic-artist",
+   "score": 10,
+   "linktekst": "meer info",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museumoudeslot.nl": {
+   "programma": "https://museumoudeslot.nl/activiteiten/exposities/",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://museumoudeslot.nl/post-sitemap1.xml"
+   ],
+   "stap": 2
+  },
+  "museumrijswijk.nl": {
+   "programma": "https://www.museumrijswijk.nl/tentoonstelling-schrijftafel-235",
+   "score": 10,
+   "linktekst": "schrijftafel",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museumslager.com": {
+   "programma": "https://museumslager.nl/museum-slager-opent-de-deuren-van-een-bijzondere-bossche-societeit-voor-de-tentoonstelling-bossche-heeren/",
+   "score": 10,
+   "linktekst": "",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "museumslager.nl": {
+   "eindpunt": {
+    "soort": "posttype:mec-events",
+    "url": "https://museumslager.nl/wp-json/wp/v2/mec-events"
+   },
    "stap": 4,
-   "gelukt": "2026-10-17"
+   "gelukt": "2026-10-19"
+  },
+  "museumvandegeest.nl": {
+   "programma": "https://museumvandegeest.nl/tentoonstellingen/outsider-art/",
+   "score": 10,
+   "linktekst": "nu te zien outsider art! 150 jaar outsiderkunst in nederland",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://museumvandegeest.nl/agenda-sitemap.xml",
+    "https://museumvandegeest.nl/tentoonstellingen-sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "museumveluwezoom.nl": {
+   "programma": "https://museumveluwezoom.nl/waar-te-zien/",
+   "score": 7,
+   "linktekst": "waar te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "posttype:product",
+    "url": "https://museumveluwezoom.nl/wp-json/wp/v2/product"
+   },
+   "stap": 4
+  },
+  "museumw.nl": {
+   "programma": "https://www.museumw.nl/wat-is-er-te-zien",
+   "score": 7,
+   "linktekst": "wat is er te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "musiom.art": {
+   "programma": "https://musiom.art/exposities-nu/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "mutekmuseum.nl": {
+   "programma": "https://mutekmuseum.nl/collectie/",
+   "score": 10,
+   "linktekst": "tentoonstellingen / excursies",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "posttype:sp_post_carousel",
+    "url": "https://mutekmuseum.nl/wp-json/wp/v2/sp_post_carousel"
+   },
+   "stap": 4
+  },
+  "nationaalglasmuseum.nl": {
+   "programma": "https://www.nationaalglasmuseum.nl/home/agenda/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "nederlandsfotomuseum.nl": {
+   "programma": "https://nederlandsfotomuseum.nl/nu-te-zien/",
+   "score": 9,
+   "linktekst": "te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "nederlandstegelmuseum.nl": {
+   "programma": "https://nederlandstegelmuseum.nl/zien-en-doen/tijdelijke-tentoonstellingen",
+   "score": 10,
+   "linktekst": "tijdelijke tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "nestruimte.nl": {
+   "programma": "https://www.nestruimte.nl/exhibitions",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "nicjonk.nl": {
+   "programma": "https://www.nicjonk.nl/agenda/exposities",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "nieuweinstituut.nl": {
+   "programma": "https://nieuweinstituut.nl/pages/now-on-display",
+   "score": 10,
+   "linktekst": "alle lopende tentoonstellingen .css-onkibi{width:1em;height:",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "nieuwekerk.nl": {
+   "programma": "https://www.nieuwekerk.nl/en/exhibitions",
+   "score": 9,
+   "linktekst": "exhibitions",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
   },
   "nieuwevide.com": {
    "sitemaps": [
     "https://nieuwevide.com/expositie-sitemap.xml"
    ],
-   "stap": 3,
-   "gelukt": "2026-10-17",
+   "stap": 1,
+   "gelukt": "2026-10-19",
    "eindpunt": {
     "soort": "posttype:expositie",
     "url": "https://nieuwevide.com/wp-json/wp/v2/expositie"
    }
+  },
+  "nieuwevide.nl": {
+   "programma": "https://nieuwevide.com/homepage/exposities/",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "noord-veluws-museum.nl": {
+   "programma": "https://www.noord-veluws-museum.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "bekijk",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "noorderlicht.com": {
+   "programma": "https://noorderlicht.com/zien-en-doen",
+   "score": 5,
+   "linktekst": "/agenda",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "np3.nu": {
+   "programma": "https://www.np3.nu/agenda/",
+   "score": 5,
+   "linktekst": "/agenda",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "nxtmuseum.com": {
+   "programma": "https://nxtmuseum.com/exhibition/pioneers-of-media-art",
+   "score": 9,
+   "linktekst": "current exhibition",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://nxtmuseum.com/sitemap.xml",
+    "https://nxtmuseum.com/nl/sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "odapark.nl": {
+   "programma": "https://www.odapark.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "naar de tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "omstand.nl": {
+   "programma": "https://www.omstand.nl/projects/omstand-tentoonstellingen/",
+   "score": 10,
+   "linktekst": "alle exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "opsolder.nl": {
+   "programma": "https://opsolder.nl/agenda/",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "orelio-art.com": {
+   "programma": "https://orelio-art.com/?page_id=1984",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "oscam.nl": {
+   "programma": "https://linktr.ee/exhibitions",
+   "score": 5,
+   "linktekst": "/exhibitions",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "oudekerk.nl": {
+   "programma": "https://www.oudekerk.nl/nu-te-zien/tentoonstellingen/mire-lee/45360",
+   "score": 10,
+   "linktekst": "13 nov 2026 - 7 mrt 2027 - mire lee lees meer",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "pakt.nu": {
+   "programma": "https://www.pakt.nu/currently-seated-screening-info/",
+   "score": 3,
+   "linktekst": "currently seated &#8211; screening info read more",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "panorama-mesdag.nl": {
+   "programma": "https://panorama-mesdag.nl/museum/nieuws/",
+   "score": 10,
+   "linktekst": "het laatste nieuws acties, nieuwe tentoonstellingen of beric",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://panorama-mesdag.nl/sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "panoramawalcheren.nl": {
+   "programma": "https://panoramawalcheren.nl/nl/nieuws/wisselexposities/",
+   "score": 8,
+   "linktekst": "28 mei 2025 wisselexpositie tot eind juni exposeert peter va",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://panoramawalcheren.nl/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4
+  },
+  "papierknipmuseum.nl": {
+   "programma": "https://www.papierknipmuseum.nl/blanco-pagina",
+   "score": 8,
+   "linktekst": "expositie",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "park013.nl": {
+   "programma": "https://www.park013.nl/nl/tentoonstellingen-en-activiteiten",
+   "score": 10,
+   "linktekst": "tentoonstellingen & activiteiten",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "pictura-groningen.nl": {
+   "programma": "https://www.pictura-groningen.nl/event/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "plaatsmaken.nl": {
+   "programma": "https://plaatsmaken.nl/nl-nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "platformpost.nl": {
+   "programma": "https://www.platformpost.nl/programma",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "pluckelkedag.nl": {
+   "programma": "https://www.pluckelkedag.nl/agenda/",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "princessehof.nl": {
+   "programma": "https://www.princessehof.nl/te-zien-en-te-doen/tentoonstellingen/koffie",
+   "score": 10,
+   "linktekst": "koffie? vanaf 10 oktober te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "projectdenollen.nl": {
+   "programma": "https://projectdenollen.nl/nu-te-zien/",
+   "score": 9,
+   "linktekst": "collectie",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "posttype:popup_theme",
+    "url": "https://projectdenollen.nl/wp-json/wp/v2/popup-themes"
+   },
+   "stap": 4
+  },
+  "projectspaceontheinside.org": {
+   "programma": "https://www.projectspaceontheinside.org/",
+   "score": 9,
+   "linktekst": "exhibitions",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "purmerendsmuseum.nl": {
+   "programma": "https://www.purmerendsmuseum.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "radius-cca.org": {
+   "programma": "https://www.radius-cca.org/en/exhibitions",
+   "score": 9,
+   "linktekst": "exhibitions",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "rembrandthuis.nl": {
+   "programma": "https://www.rembrandthuis.nl/nl/te-doen/tentoonstellingen-en-activiteiten/",
+   "score": 10,
+   "linktekst": "tentoonstellingen en activiteiten",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "ribrib.nl": {
+   "programma": "https://www.ribrib.nl/exhibition-fotodok",
+   "score": 9,
+   "linktekst": "",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "rienpoortvlietmuseum.nl": {
+   "programma": "https://rienpoortvlietmuseum.nl/tentoonstelling",
+   "score": 10,
+   "linktekst": "tentoonstelling",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 3
+  },
+  "rijksmuseum.nl": {
+   "programma": "https://www.rijksmuseum.nl/nl/zien-en-doen/tentoonstellingen/willem-de-kooning-at-work",
+   "score": 10,
+   "linktekst": "willem de kooning at work t/m 17 januari 2027 nu te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "rijksmuseumtwenthe.nl": {
+   "programma": "https://www.rijksmuseumtwenthe.nl/zien-en-doen",
+   "score": 10,
+   "linktekst": "alle tentoonstellingen en activiteiten",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "roodkapje.org": {
+   "programma": "https://roodkapje.org/agenda/",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 3
+  },
+  "rozenstraat.com": {
+   "programma": "https://www.rozenstraat.com/nl/activiteiten/",
+   "score": 4,
+   "linktekst": "activiteiten",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "ruine-ravesteyn.nl": {
+   "programma": "https://www.ruine-ravesteyn.nl/agenda.html",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "schoenenkwartier.nl": {
+   "programma": "https://schoenenkwartier.nl/te-zien/tentoonstelling/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "schunck.nl": {
+   "programma": "https://schunck.nl/agenda",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://schunck.nl/__sitemap__/default_agenda.xml"
+   ],
+   "stap": 2
+  },
+  "sculptureinternationalrotterdam.nl": {
+   "programma": "https://www.sculptureinternationalrotterdam.nl/ensemble-van-willem-de-kooning-tijdelijk-te-zien-bij-museum-fenix/",
+   "score": 7,
+   "linktekst": "ensemble van willem de kooning tijdelijk te zien bij museum ",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "shimmershimmer.org": {
+   "programma": "https://shimmershimmer.org/exhibition/ageless-ageless-unfinished-is-not-the-same-as-abandoned/",
+   "score": 9,
+   "linktekst": "",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://shimmershimmer.org/wp-sitemap-posts-exhibition-1.xml"
+   ],
+   "stap": 2
+  },
+  "sieboldhuis.org": {
+   "programma": "https://www.sieboldhuis.org/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "sign2.nl": {
+   "programma": "https://sign2.nl/websign/evenementen/",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "ical",
+    "url": "https://sign2.nl/events/?ical=1"
+   },
+   "stap": 4
+  },
+  "sinthubertuskunstcentrum.nl": {
+   "programma": "https://sinthubertuskunstcentrum.nl/exposities/",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://sinthubertuskunstcentrum.nl/sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "slotzeist.nl": {
+   "programma": "https://www.slotzeist.nl/cultuur/exposities",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
   },
   "sous-terre.nl": {
    "eindpunt": {
     "soort": "posttype:product",
     "url": "https://sous-terre.nl/wp-json/wp/v2/product"
    },
-   "stap": 4,
-   "gelukt": "2026-10-17"
+   "stap": 1,
+   "gelukt": "2026-10-19",
+   "programma": "https://sous-terre.nl/exposities/",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link"
+  },
+  "stadskasteelzaltbommel.nl": {
+   "programma": "https://stadskasteelzaltbommel.nl/exposities/",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 3
+  },
+  "stadsmuseumwoerden.nl": {
+   "programma": "https://www.stadsmuseumwoerden.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "stedelijk.nl": {
+   "programma": "https://www.stedelijk.nl/nl/nu-te-zien",
+   "score": 10,
+   "linktekst": "nu te zien: tentoonstellingen &amp; events",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "stedelijkmuseumalkmaar.nl": {
+   "programma": "https://stedelijkmuseumalkmaar.nl/nu-te-zien/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "stedelijkmuseummeppel.nl": {
+   "programma": "https://stedelijkmuseummeppel.nl/zien-en-doen/nu-te-zien/",
+   "score": 9,
+   "linktekst": "nu te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://stedelijkmuseummeppel.nl/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4
+  },
+  "stedelijkmuseumschiedam.nl": {
+   "programma": "https://stedelijkmuseumschiedam.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "stedelijkmuseumvianen.nl": {
+   "programma": "https://stedelijkmuseumvianen.nl/altijd-te-zien/",
+   "score": 7,
+   "linktekst": "te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "steendrukmuseum.nl": {
+   "programma": "https://steendrukmuseum.nl/nieuws/unieke-cobra-expositie-geopend-revolutie-in-woord-en-beeld/",
+   "score": 10,
+   "linktekst": "26 09 unieke cobra-expositie geopend: ‘revolutie in woord en",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://steendrukmuseum.nl/page-sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "storyworld.nl": {
+   "programma": "https://www.storyworld.nl/nl/storyworld-spotlight/loeki-de-leeuw",
+   "score": 9,
+   "linktekst": "nu te zien | asjemenou!",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "straatmuseum.com": {
+   "programma": "https://www.straatmuseum.com/tentoonstellingen/art-is-not-a-crime",
+   "score": 10,
+   "linktekst": "nu te zien: art is not a crime",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "stroom.nl": {
+   "programma": "https://www.stroom.nl/stroom-algemeen/activiteiten/universal-language-concrete-composure",
+   "score": 10,
+   "linktekst": "tentoonstelling universal language: concrete composure lees ",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "tentrotterdam.nl": {
+   "programma": "https://tentrotterdam.nl/in/next-up-post-opera/",
+   "score": 10,
+   "linktekst": "19 april - 30 juni 2019 witte de withstraat 50 post-opera ga",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://tentrotterdam.nl/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4
+  },
+  "tetar.nl": {
+   "programma": "https://www.museumpaultetarvanelven.nl/NL/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstelling",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
   },
   "tetem.nl": {
    "eindpunt": {
     "soort": "posttype:sponsoren",
     "url": "https://tetem.nl/wp-json/wp/v2/sponsoren"
    },
-   "stap": 4,
-   "gelukt": "2026-10-17"
+   "stap": 1,
+   "gelukt": "2026-10-19",
+   "programma": "https://tetem.nl/event/leafde/",
+   "score": 10,
+   "linktekst": "leafde café conceptstore tentoonstellingen doorlopend in de ",
+   "via": "homepage-link"
+  },
+  "textielmuseum.nl": {
+   "programma": "https://textielmuseum.nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "bezoek de tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://textielmuseum.nl/sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "thebalconythehague.com": {
+   "score": 3,
+   "linktekst": "",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "gebroken": "2026-10-19",
+   "waarom": "HTTPError: HTTP Error 404: Not Found"
+  },
+  "thijnhof.nl": {
+   "programma": "https://www.thijnhof.nl/nu-te-zien/jan-v-d-brink/",
+   "score": 9,
+   "linktekst": "jan van den brink",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
   },
   "tiendschuur.net": {
    "sitemaps": [
     "https://tiendschuur.net/wp-sitemap-posts-page-1.xml"
    ],
-   "stap": 3,
-   "gelukt": "2026-10-17",
+   "stap": 1,
+   "gelukt": "2026-10-19",
    "waarom_eindpunt": "gaf geen datums meer",
    "eindpunt": {
     "soort": "json",
     "url": "https://tiendschuur.net/wp-json/wp/v2/pages?per_page=20"
-   }
+   },
+   "programma": "https://tiendschuur.net/exposities/nu/",
+   "score": 9,
+   "linktekst": "nu te zien",
+   "via": "homepage-link"
+  },
+  "tonkruse.nl": {
+   "programma": "https://www.tonkruse.nl/programma-rsol.html",
+   "score": 6,
+   "linktekst": "programma / programme r.s.o.l.",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "tonschulten.nl": {
+   "programma": "https://tonschulten.nl/collections/kalenders",
+   "score": 4,
+   "linktekst": "kalenders",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://tonschulten.nl/collections/kalenders.json"
+   },
+   "stap": 4
+  },
+  "tonsmitshuis.nl": {
+   "programma": "https://tonsmitshuis.nl/huidige-exposities/",
+   "score": 8,
+   "linktekst": "huidige expositie[s]",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "posttype:portfolio",
+    "url": "https://tonsmitshuis.nl/wp-json/wp/v2/portfolio"
+   },
+   "stap": 4
+  },
+  "utrechtslandschap.nl": {
+   "programma": "https://www.utrechtslandschap.nl/activiteiten-kaart?activityType=activiteiten&location=52.1326%2C+5.2913&view=agenda",
+   "score": 6,
+   "linktekst": "activiteiten kalender",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "v2.nl": {
+   "programma": "https://v2.nl/topics/exhibitions/",
+   "score": 5,
+   "linktekst": "/exhibitions",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "vanabbehuis.com": {
+   "programma": "https://vanabbehuis.com/nl/tentoonstellingen/oot/",
+   "score": 10,
+   "linktekst": "",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "vanabbemuseum.nl": {
+   "programma": "https://vanabbemuseum.nl:443/zien-en-doen/tentoonstellingen",
+   "score": 10,
+   "linktekst": "bekijk alles",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "vanabbemuseum.nl:443": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "vanbommelvandam.nl": {
+   "programma": "https://www.vanbommelvandam.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "vangogh-drenthe.nl": {
+   "programma": "https://www.vangogh-drenthe.nl/exposities/",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "vangoghbrabant.com": {
+   "programma": "https://www.vangoghsites.com/nl/samenwerken/programmas",
+   "score": 6,
+   "linktekst": "programma&#039;s",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "vangoghhuis.com": {
+   "programma": "https://www.vangoghhuis.com/exposities/",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "vangoghmuseum.nl": {
+   "programma": "https://www.vangoghmuseum.nl/nl/bezoek/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "veradehaas.nl": {
+   "programma": "https://www.veradehaas.nl/blog/agenda-exposities-2022",
+   "score": 8,
+   "linktekst": "",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "verhildersum.nl": {
+   "programma": "https://www.verhildersum.nl/nl/exposities/",
+   "score": 8,
+   "linktekst": "exposities",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "vermeerdelft.nl": {
+   "programma": "https://www.vermeerdelft.nl/tentoonstellingen/vaste-tentoonstelling",
+   "score": 10,
+   "linktekst": "vaste tentoonstelling",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "verweymuseumhaarlem.nl": {
+   "programma": "https://verweymuseumhaarlem.nl/activiteiten/",
+   "score": 4,
+   "linktekst": "activiteiten",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://verweymuseumhaarlem.nl/page-sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "vhdg.nl": {
+   "programma": "https://www.vhdg.nl/programma/",
+   "score": 6,
+   "linktekst": "nu &#038; straks",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "vijversburg.nl": {
+   "programma": "https://vijversburg.nl/kalender",
+   "score": 4,
+   "linktekst": "kalender",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "villamondriaan.nl": {
+   "programma": "https://villamondriaan.nl/tentoonstellingen/",
+   "score": 10,
+   "linktekst": "zien &amp; doen in het museum",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 1
+  },
+  "villazebra.nl": {
+   "programma": "https://www.villazebra.nl/te-doen/",
+   "score": 5,
+   "linktekst": "/agenda",
+   "via": "gegokt-pad",
+   "gelukt": "2026-10-19"
+  },
+  "visitzuidlimburg.nl": {
+   "programma": "https://www.visitzuidlimburg.nl/agenda/",
+   "score": 6,
+   "linktekst": "uitagenda &#10230;",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "vleeshal.nl": {
+   "programma": "https://www.vleeshal.nl/agenda",
+   "score": 6,
+   "linktekst": "agenda",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "voermanstadsmuseumhattem.nl": {
+   "programma": "https://voermanstadsmuseumhattem.nl/nieuws/opening-nieuwe-tentoonstelling/",
+   "score": 10,
+   "linktekst": "",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://voermanstadsmuseumhattem.nl/wp-sitemap-posts-page-1.xml"
+   ],
+   "stap": 2
+  },
+  "voorlinden.nl": {
+   "programma": "https://www.voorlinden.nl/tentoonstelling/icons/",
+   "score": 10,
+   "linktekst": "meer info",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "vredespaleis.nl": {
+   "programma": "https://www.vredespaleis.nl/event-calendar/",
+   "score": 4,
+   "linktekst": "kalender",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "w139.nl": {
+   "programma": "https://w139.nl/tag/tentoonstelling/",
+   "score": 10,
+   "linktekst": "tentoonstelling",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "stap": 3
+  },
+  "westdenhaag.nl": {
+   "programma": "https://www.westdenhaag.nl/exhibitions",
+   "score": 9,
+   "linktekst": "projects",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "www.1646.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.achterdewestduinen.nl": {
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://www.achterdewestduinen.nl/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
+  },
+  "www.anningahof.nl": {
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://www.anningahof.nl/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
+  },
+  "www.antonpieckmuseum.nl": {
+   "sitemaps": [
+    "https://www.antonpieckmuseum.nl/page-sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.architectuurhaarlem.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.artphy.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.atlasvanstolk.nl": {
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://www.atlasvanstolk.nl/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
+  },
+  "www.bakonline.org": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.beeldenaanzee.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.beeldentuin-dezanderij.nl": {
+   "eindpunt": {
+    "soort": "posttype:envira",
+    "url": "http://www.beeldentuin-dezanderij.nl/wp-json/wp/v2/envira-gallery"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
+  },
+  "www.beeldentuindehavixhorst.nl": {
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://www.beeldentuindehavixhorst.nl/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
+  },
+  "www.bonnefanten.nl": {
+   "sitemaps": [
+    "https://www.bonnefanten.nl/sitemap1.xml.gz",
+    "https://www.bonnefanten.nl/sitemap2.xml.gz",
+    "https://www.bonnefanten.nl/sitemap3.xml.gz"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
   },
   "www.bureau-europa.nl": {
-   "stap": 3,
-   "gelukt": "2026-10-17"
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.campis.nl": {
+   "sitemaps": [
+    "https://www.campis.nl/agenda-sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
   },
   "www.catharijneconvent.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.cbkzuidoost.nl": {
+   "sitemaps": [
+    "https://www.cbkzuidoost.nl/agenda-sitemap.xml",
+    "https://www.cbkzuidoost.nl/exhibitions-sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.centraalmuseum.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.coda-apeldoorn.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.concordia.nl": {
+   "sitemaps": [
+    "https://www.concordia.nl/sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.datbolwerck.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.defabriekeindhoven.nl": {
    "stap": 3,
-   "gelukt": "2026-10-17"
+   "gelukt": "2026-10-19"
+  },
+  "www.dekuip.com": {
+   "sitemaps": [
+    "https://www.dekuip.com/sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.depont.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.dudokarchitectuurcentrum.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.elleboogkerk.nl": {
+   "eindpunt": {
+    "soort": "posttype:tentoonstelling",
+    "url": "https://www.elleboogkerk.nl/wp-json/wp/v2/tentoonstelling"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
+  },
+  "www.eyefilm.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.factor-ij.amsterdam": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.fenix.nl": {
+   "sitemaps": [
+    "https://fenix.nl/sitemap.xml",
+    "https://www.fenix.nl/sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.fotomuseumdenhaag.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.fransjeversloot.nl": {
+   "eindpunt": {
+    "soort": "posttype:product",
+    "url": "https://www.fransjeversloot.nl/wp-json/wp/v2/product"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
   },
   "www.friesmuseum.nl": {
    "sitemaps": [
     "https://www.friesmuseum.nl/sitemap.xml"
    ],
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.galleryvandun.com": {
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://www.galleryvandun.com/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
+  },
+  "www.garagerotterdam.nl": {
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://www.garagerotterdam.nl/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
+  },
+  "www.gorcumsmuseum.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.groningermuseum.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.hartmuseum.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.heiligenbeeldenmuseum.nl": {
    "stap": 3,
-   "gelukt": "2026-10-17"
+   "gelukt": "2026-10-19"
+  },
+  "www.helmantel.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.hetdepot.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.hetmow.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.hetnoordbrabantsmuseum.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.hetschip.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.hildokropmuseum.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.huisbergh.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.ikonenmuseumkampen.nl": {
+   "sitemaps": [
+    "https://www.ikonenmuseumkampen.nl/sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.jopiehuismanmuseum.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.katwijksmuseum.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.keukenhof.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.km21.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.krollermuller.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.kunstcollectiemeierijstad.nl": {
+   "sitemaps": [
+    "https://www.kunstcollectiemeierijstad.nl/sitemap.xml?offset=0"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.kunstfort.nl": {
+   "sitemaps": [
+    "https://www.kunstfort.nl/nl/wp-sitemap-posts-exhibitions-1.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.kunsthalkade.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.kunstinstituutmelly.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.kunstmuseum.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
   },
   "www.kunstpuntgroningen.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.laliquemuseum.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.lustwarande.org": {
+   "sitemaps": [
+    "https://www.lustwarande.org/sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.marishuis.nl": {
    "stap": 3,
-   "gelukt": "2026-10-17"
+   "gelukt": "2026-10-19"
+  },
+  "www.mauritshuis.nl": {
+   "sitemaps": [
+    "https://www.mauritshuis.nl/sitemap/nl-nl.xml",
+    "https://www.mauritshuis.nl/sitemap/en-us.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.mediamatic.net": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.mocomuseum.com": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.mondriaanhuis.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.moregorssel.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.moreruurlo.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.moretwickel.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.moya.museum": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.museum.frl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.museumarnhem.nl": {
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://www.museumarnhem.nl/nl/tentoonstellingen.json"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
+  },
+  "www.museumbelvedere.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.museumgoedewaagen.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.museumgouda.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
   },
   "www.museumijsselstein.nl": {
    "sitemaps": [
     "https://www.museumijsselstein.nl/mi_exhibition-sitemap.xml"
    ],
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.museumjancunen.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.museumkrona.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.museummohlmann.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.museumofcomicart.nl": {
+   "sitemaps": [
+    "https://www.museumofcomicart.nl/sitemap.xml",
+    "https://www.museumofcomicart.nl/sitemap-index.xml",
+    "https://www.museumofcomicart.nl/wp-sitemap.xml"
+   ],
    "stap": 2,
-   "gelukt": "2026-10-17"
+   "gelukt": "2026-10-19"
+  },
+  "www.museumpaultetarvanelven.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.museumrijswijk.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.museumvalkenburg.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.museumw.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.nationaalglasmuseum.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.nestruimte.nl": {
+   "sitemaps": [
+    "https://nestruimte.nl/__sitemap__/nl-NL.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.nicjonk.nl": {
+   "sitemaps": [
+    "https://www.nicjonk.nl/sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.nieuwekerk.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.np3.nu": {
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://www.np3.nu/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
+  },
+  "www.odapark.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.omstand.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.oudekerk.nl": {
+   "sitemaps": [
+    "https://www.oudekerk.nl/sitemap/exhibition_1.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.pakt.nu": {
+   "eindpunt": {
+    "soort": "posttype:publication",
+    "url": "https://www.pakt.nu/wp-json/wp/v2/publication"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
+  },
+  "www.pictura-groningen.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.platformpost.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.pluckelkedag.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.princessehof.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.purmerendsmuseum.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.radius-cca.org": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.rembrandthuis.nl": {
+   "sitemaps": [
+    "https://www.rembrandthuis.nl/nl/tentoonstelling-sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.rijksmuseum.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.rijksmuseumtwenthe.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.rozenstraat.com": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.ruine-ravesteyn.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.sculptureinternationalrotterdam.nl": {
+   "eindpunt": {
+    "soort": "posttype:publicatie",
+    "url": "https://www.sculptureinternationalrotterdam.nl/wp-json/wp/v2/publicatie"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
+  },
+  "www.sieboldhuis.org": {
+   "sitemaps": [
+    "https://www.sieboldhuis.org/sitemaps-1-section-tentoonstellingen-1-sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
   },
   "www.slotzeist.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.stadsmuseumwoerden.nl": {
    "stap": 3,
-   "gelukt": "2026-10-17"
+   "gelukt": "2026-10-19"
+  },
+  "www.stedelijk.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.storyworld.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.straatmuseum.com": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.stroom.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.thijnhof.nl": {
+   "sitemaps": [
+    "https://www.thijnhof.nl/sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.tonkruse.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.utrechtslandschap.nl": {
+   "eindpunt": {
+    "soort": "posttype:ul_activity",
+    "url": "https://www.utrechtslandschap.nl/wp-json/wp/v2/activiteiten"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
+  },
+  "www.vanbommelvandam.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.vangoghhuis.com": {
+   "sitemaps": [
+    "https://www.vangoghhuis.com/page-sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.vangoghmuseum.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.vermeerdelft.nl": {
+   "sitemaps": [
+    "https://www.vermeerdelft.nl/sitemap_pages.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.vhdg.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.villazebra.nl": {
+   "eindpunt": {
+    "soort": "json",
+    "url": "https://www.villazebra.nl/wp-json/wp/v2/pages?per_page=20"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
+  },
+  "www.visitzuidlimburg.nl": {
+   "sitemaps": [
+    "https://www.visitzuidlimburg.nl/sitemap.xml"
+   ],
+   "stap": 2,
+   "gelukt": "2026-10-19"
+  },
+  "www.vleeshal.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.voorlinden.nl": {
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "www.vredespaleis.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.westdenhaag.nl": {
+   "stap": 3,
+   "gelukt": "2026-10-19"
+  },
+  "www.zandverhalen.nl": {
+   "eindpunt": {
+    "soort": "posttype:elementor_snippet",
+    "url": "https://www.zandverhalen.nl/wp-json/wp/v2/elementor_snippet"
+   },
+   "stap": 4,
+   "gelukt": "2026-10-19"
   },
   "www.zeeuwsmuseum.nl": {
    "sitemaps": [
     "https://www.zeeuwsmuseum.nl/sitemap.xml"
    ],
-   "stap": 2,
-   "gelukt": "2026-10-17"
+   "stap": 1,
+   "gelukt": "2026-10-19"
+  },
+  "zandverhalen.nl": {
+   "programma": "https://www.zandverhalen.nl/kerstexpositie/",
+   "score": 8,
+   "linktekst": "kerstexpositie",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "zandvoortsmuseum.nl": {
+   "programma": "https://zandvoortsmuseum.nl/wp-content/uploads/2026/03/ZandvoortsMuseum-tentoonstellingen-Activiteiten.webp",
+   "score": 10,
+   "linktekst": "",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://zandvoortsmuseum.nl/tentoonstelling-sitemap.xml"
+   ],
+   "stap": 2
+  },
+  "zeeuwsmuseum.nl": {
+   "programma": "https://www.zeeuwsmuseum.nl/nl/tentoonstellingen",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19"
+  },
+  "zilvermuseum.com": {
+   "programma": "https://zilvermuseum.com/exposities/",
+   "score": 8,
+   "linktekst": "te zien",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "eindpunt": {
+    "soort": "posttype:astra-portfolio",
+    "url": "https://zilvermuseum.com/wp-json/wp/v2/astra-portfolio"
+   },
+   "stap": 4
+  },
+  "zone2source.net": {
+   "programma": "https://zone2source.net/tentoonstellingen/?when=now",
+   "score": 10,
+   "linktekst": "tentoonstellingen",
+   "via": "homepage-link",
+   "gelukt": "2026-10-19",
+   "sitemaps": [
+    "https://zone2source.net/wp-sitemap-posts-tentoonstelling-1.xml"
+   ],
+   "stap": 2
   }
  }
 }

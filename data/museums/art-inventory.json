@@ -2856,7 +2856,7 @@
     "suggested_tags": [],
     "tags": [
       "architectuur",
-      "De Stijl",
+      "de stijl",
       "design",
       "museumwoning"
     ],
@@ -4833,7 +4833,7 @@
     "verification_status": "unreviewed",
     "suggested_tags": [],
     "tags": [
-      "Japanse kunst",
+      "japanse kunst",
       "prentkunst",
       "toegepaste kunst"
     ],
@@ -7789,7 +7789,7 @@
     "verification_status": "unreviewed",
     "suggested_tags": [],
     "tags": [
-      "De Stijl",
+      "de stijl",
       "Dada",
       "expressionisme",
       "moderne kunst"
@@ -11503,7 +11503,7 @@
     "suggested_tags": [],
     "tags": [
       "kunstenaarsmuseum",
-      "De Stijl",
+      "de stijl",
       "Piet Mondriaan"
     ],
     "sources": [
@@ -14507,7 +14507,7 @@
     "verification_status": "unreviewed",
     "summary": "Ervaar de kleuren van De Stijl op de schaal van een woonhuis. Het Van Doesburg-Rinsemahuis laat zien hoe kleurvlakken een ruimte veranderen. Architectuur en schilderkunst komen hier samen in het dagelijks wonen.",
     "tags": [
-      "De Stijl",
+      "de stijl",
       "architectuur",
       "design",
       "museumwoning"
@@ -15195,7 +15195,7 @@
     "audit_reference": "246",
     "coordinate_source": "Officiële hoofdingang Keileweg 10b; PDOK BAG-adrespunt adr-edb807cf529eac49873df294300e7b4c.",
     "coordinate_precision": "address",
-    "verified_at": "2026-10-05 08:25:48.451096+00"
+    "verified_at": "2026-10-05T08:25:48.451096+00:00"
   },
   {
     "id": "88058f35-5dd4-5412-8fcb-cf10014c8cbb",
@@ -15458,12 +15458,12 @@
     "name": "Ruurd Wiersma Museum",
     "city": "Birdaard",
     "province": "Friesland",
-    "street_address": "Mounewei 6-7",
+    "street_address": "Mounewei 7",
     "postal_code": "9111 HB",
     "website_url": "https://www.museum.frl/musea/ruurd-wiersma/",
     "country": "NL",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 53.2955787,
+    "longitude": 5.8799447,
     "is_art_museum": true,
     "operating_status": "open",
     "publication_status": "published",
@@ -15505,8 +15505,8 @@
     ],
     "review_notes": "Landelijke kunstinventaris 3 oktober 2026. Collectie/programma inhoudelijk geselecteerd; openingstijden en het actuele tentoonstellingsaanbod voor bezoek raadplegen. FOTO ONTBREEKT: nog een passende foto met aantoonbaar hergebruikrecht toevoegen.",
     "audit_reference": "254",
-    "coordinate_source": "",
-    "coordinate_precision": "unknown"
+    "coordinate_source": "Bezoekadres Mounewei 7, 9111 HB Burdaard op de eigen contactpagina; punt via Nominatim (OpenStreetMap), OSM-object Ruurd Wiersma Hus",
+    "coordinate_precision": "address"
   },
   {
     "inventory_key": "wikipedia:Noord-Brabant:andreasschotelmuseum:esbeek",
