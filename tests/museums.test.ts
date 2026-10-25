@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {blankMuseum,validateMuseum,safeWebUrl,type InventoryMuseum} from '../packages/data/src/museums.ts';
-import {onRequestGet} from '../functions/kunstkiezer/api/config.ts';
+import {onRequestGet} from '../functions/api/config.ts';
 test('Publicatie staat los van bezoekstatus; kunstselectie en veilige links blijven vereist',()=>{
  assert.equal(validateMuseum({...blankMuseum,name:'Museum',publication_status:'published',operating_status:'closed'}).length,0);
  assert.ok(validateMuseum({...blankMuseum,name:'Museum',is_art_museum:false,publication_status:'published'}).length>0);

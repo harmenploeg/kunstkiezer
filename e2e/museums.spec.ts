@@ -1,14 +1,14 @@
 import {test,expect} from '@playwright/test';
 
 test('Gast ziet geen redactiefuncties, ook niet via een directe link',async({page})=>{
- await page.goto('/kunstkiezer/beheer/musea');await expect(page.getByRole('link',{name:'Inloggen',exact:true})).toHaveCount(2);await expect(page.getByRole('heading',{name:'Musea beheren.'})).toHaveCount(0);await expect(page.getByRole('button',{name:'Opslaan in Supabase'})).toHaveCount(0);
+ await page.goto('/beheer/musea');await expect(page.getByRole('link',{name:'Inloggen',exact:true})).toHaveCount(2);await expect(page.getByRole('heading',{name:'Musea beheren.'})).toHaveCount(0);await expect(page.getByRole('button',{name:'Opslaan in Supabase'})).toHaveCount(0);
 });
 
 test('Editor meldt aan en slaat museum plus notities via één Supabase-transactie op',async({page})=>{
  const id='00000000-0000-4000-8000-000000000010';
  let museum={id,inventory_key:null,name:'Testmuseum',city:'Utrecht',province:'Utrecht',street_address:'Teststraat 1',postal_code:'',country:'NL',website_url:'https://example.test',latitude:null,longitude:null,summary:'',operating_status:'unknown',publication_status:'draft',verification_status:'unreviewed',tags:[],updated_at:'2026-10-03T10:00:00.000000+00:00'};
  let savedPayload:Record<string,unknown>|null=null;
- await page.route('**/kunstkiezer/api/config',route=>route.fulfill({json:{APP_ENV:'production',PUBLIC_SUPABASE_URL:'https://museum-test.supabase.co',PUBLIC_SUPABASE_PUBLISHABLE_KEY:'sb_publishable_test'}}));
+ await page.route('**/api/config',route=>route.fulfill({json:{APP_ENV:'production',PUBLIC_SUPABASE_URL:'https://museum-test.supabase.co',PUBLIC_SUPABASE_PUBLISHABLE_KEY:'sb_publishable_test'}}));
  const user={id:'00000000-0000-4000-8000-000000000001',email:'editor@example.test',aud:'authenticated',app_metadata:{provider:'email',providers:['email']},user_metadata:{},created_at:'2026-10-03T00:00:00Z'};
  const token=[{alg:'HS256',typ:'JWT'},{sub:user.id,aud:'authenticated',role:'authenticated',exp:4000000000},'test'].map(v=>Buffer.from(typeof v==='string'?v:JSON.stringify(v)).toString('base64url')).join('.');
  await page.route('https://museum-test.supabase.co/**',async route=>{
@@ -34,10 +34,10 @@ test('Editor meldt aan en slaat museum plus notities via één Supabase-transact
   }
   await reply({});
  });
- await page.goto('/kunstkiezer/account');
+ await page.goto('/account');
  await page.getByLabel('E-mail',{exact:true}).fill('editor@example.test');
  await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');
- await page.locator('form').getByRole('button',{name:'Inloggen',exact:true}).click();await expect(page).toHaveURL(/\/kunstkiezer\/(agenda)?$/);await page.goto('/kunstkiezer/beheer/musea');
+ await page.locator('form').getByRole('button',{name:'Inloggen',exact:true}).click();await expect(page).toHaveURL(/\/(agenda)?$/);await page.goto('/beheer/musea');
  await page.getByRole('button',{name:/Testmuseum Utrecht/}).click();
  await page.getByLabel('Publicatie',{exact:true}).selectOption('published');
  await page.getByLabel('Plaats',{exact:true}).fill('');

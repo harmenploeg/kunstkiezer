@@ -4,8 +4,10 @@ enabled = true
 schemas = ["public"]
 [auth]
 enabled = true
-site_url = "https://www.loci-amsterdam.nl/kunstkiezer/account"
-additional_redirect_urls = ["https://www.loci-amsterdam.nl/kunstkiezer/account", "https://www.loci-amsterdam.nl/kunstkiezer/account?reset=1"]
+site_url = "https://kunstkiezer.loci-amsterdam.nl/account"
+# De oude adressen onder www.loci-amsterdam.nl/kunstkiezer verwijzen door; ze blijven
+# toegestaan zodat mails van vóór de verhuizing blijven werken.
+additional_redirect_urls = ["https://kunstkiezer.loci-amsterdam.nl/account", "https://kunstkiezer.loci-amsterdam.nl/account?reset=1", "https://www.loci-amsterdam.nl/kunstkiezer/account", "https://www.loci-amsterdam.nl/kunstkiezer/account?reset=1"]
 minimum_password_length = 12
 enable_signup = true
 # Keep this configuration aligned with the hosted Auth dashboard.

@@ -18,10 +18,10 @@
     "production": {
       "name": "kunstkiezer",
       "workers_dev": false,
-      "routes": [
-        { "pattern": "loci-amsterdam.nl/kunstkiezer", "zone_name": "loci-amsterdam.nl" },
-        { "pattern": "loci-amsterdam.nl/kunstkiezer/*", "zone_name": "loci-amsterdam.nl" }
-      ]
+      // Productie draait als Pages-project loci-kunstkiezer op
+      // kunstkiezer.loci-amsterdam.nl, gepubliceerd vanuit harmenploeg/interactief.
+      // Deze Worker heeft daarom geen routes.
+      "routes": []
     }
   }
 }

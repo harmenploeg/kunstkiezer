@@ -1,6 +1,6 @@
 import { BASE_PATH, isPagePath } from "../../../packages/domain/src/navigation.ts";
 import api from "./index.ts";
-import { onRequestGet } from "../../../functions/kunstkiezer/api/config.ts";
+import { onRequestGet } from "../../../functions/api/config.ts";
 
 interface Bindings { PUBLIC_SUPABASE_URL?: string; PUBLIC_SUPABASE_PUBLISHABLE_KEY?: string; ASSETS: { fetch(request: Request): Promise<Response> } }
 
@@ -28,9 +28,9 @@ export default {
     }
     const normalizedPath = relativePath.replace(/\/$/, "") || "/";
     const isPage = isPagePath(normalizedPath);
-    if (!isPage && !relativePath.startsWith("/assets/") && !["/inventory.json","/art-inventory.json","/inventory.csv","/inventory-report.json","/openbare-kunst.json","/beeldenparken.json","/architectuur.json","/evenementen.json"].includes(relativePath)) return error(404, "not_found");
+    if (!isPage && !relativePath.startsWith("/assets/") && !["/version.json","/inventory.json","/art-inventory.json","/inventory.csv","/inventory-report.json","/openbare-kunst.json","/beeldenparken.json","/architectuur.json","/evenementen.json"].includes(relativePath)) return error(404, "not_found");
     // Assets serveert index.html via '/'; '/index.html' geeft een canonieke
-    // redirect naar de domeinroot en zou daardoor het app-prefix verliezen.
+    // redirect naar de domeinroot.
     url.pathname = isPage ? "/" : relativePath;
     const response = await env.ASSETS.fetch(new Request(url, request));
     const headers = new Headers(response.headers);

@@ -78,7 +78,7 @@ export function MuseumAdmin() {
     count = total;
   return (
     <>
-      <a className="back-link" href="/kunstkiezer/beheer">
+      <a className="back-link" href="/beheer">
         ← Alle verzamelingen
       </a>
       <header className="page-heading">

@@ -11,7 +11,7 @@ interface Administrator {
   } };
 }
 interface Dependencies { caller(token: string): Caller; administrator(): Administrator }
-const origins = new Set(['https://www.loci-amsterdam.nl', 'https://loci-amsterdam.nl', 'https://kunstkiezer.pages.dev']);
+const origins = new Set(['https://www.loci-amsterdam.nl', 'https://loci-amsterdam.nl', 'https://kunstkiezer.pages.dev', 'https://kunstkiezer.loci-amsterdam.nl']);
 /** Authorization comes from the current database role, never from user metadata. */
 export async function manageUsers(req: Request, deps: Dependencies): Promise<Response> {
   const origin = req.headers.get('origin') ?? '';
@@ -38,7 +38,7 @@ export async function manageUsers(req: Request, deps: Dependencies): Promise<Res
       const members = await caller.rpc('kk_list_members');
       if (members.error || !Array.isArray(members.data)) return reply({ error: 'Gebruikers konden niet worden gecontroleerd. Probeer opnieuw.' }, 503);
       if ((members.data as Member[]).some(member => member.email?.toLowerCase() === email)) return reply({ error: 'Dit account bestaat al. Pas de rechten aan in de gebruikerslijst.' }, 409);
-      const result = await deps.administrator().auth.admin.inviteUserByEmail(email, { redirectTo: 'https://www.loci-amsterdam.nl/kunstkiezer/account' });
+      const result = await deps.administrator().auth.admin.inviteUserByEmail(email, { redirectTo: 'https://kunstkiezer.loci-amsterdam.nl/account' });
       if (result.error || !result.data.user) return reply({ error: 'Uitnodigen is niet gelukt. Controleer of het account al bestaat en of e-mailverzending in Supabase is ingesteld; probeer daarna opnieuw.' }, 409);
       // New accounts start without editorial privileges. Assign rights separately after creation.
       return reply({ invited: true, user_id: result.data.user.id });

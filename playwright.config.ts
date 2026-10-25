@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   webServer: {
     command: "npx wrangler dev --config workers/api/wrangler.jsonc --env staging --local --ip 127.0.0.1 --port 8790",
-    url: "http://127.0.0.1:8790/kunstkiezer/api/health",
+    url: "http://127.0.0.1:8790/api/health",
     reuseExistingServer: false,
     timeout: 60000,
     env: { XDG_CONFIG_HOME: "/tmp/kunstkiezer-wrangler-config", WRANGLER_LOG_PATH: "/tmp/kunstkiezer-e2e-wrangler.log", WRANGLER_SEND_METRICS: "false" },

@@ -81,7 +81,7 @@ export function DiscoveryAdmin({ category }: { category: DiscoveryCategory }) {
     count = total;
   return (
     <>
-      <a className="back-link" href="/kunstkiezer/beheer">
+      <a className="back-link" href="/beheer">
         ← Alle verzamelingen
       </a>
       <header className="page-heading">
@@ -142,7 +142,7 @@ export function DiscoveryAdmin({ category }: { category: DiscoveryCategory }) {
           {count} vermeldingen · pagina {page + 1} van{" "}
           {Math.max(1, Math.ceil(count / 30))}
         </p>
-        <a href={`/kunstkiezer/${category}.json`} download>
+        <a href={`/${category}.json`} download>
           Download onderzoeksbestand
         </a>
         <div className="admin-layout">

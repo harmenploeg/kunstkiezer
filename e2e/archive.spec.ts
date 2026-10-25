@@ -7,7 +7,7 @@ for(const museum of [true,false])test(`Beheer kan ${museum?'museum':'onderwerp'}
  let writes=0,conflict=true;
  const user={id:'00000000-0000-4000-8000-000000000001',email:'editor@example.test',aud:'authenticated',app_metadata:{provider:'email'},user_metadata:{},created_at:'2026-10-03T00:00:00Z'};
  const token=[{alg:'HS256',typ:'JWT'},{sub:user.id,aud:'authenticated',role:'authenticated',exp:4000000000},'test'].map(v=>Buffer.from(typeof v==='string'?v:JSON.stringify(v)).toString('base64url')).join('.');
- await page.route('**/kunstkiezer/api/config',r=>r.fulfill({json:{APP_ENV:'production',PUBLIC_SUPABASE_URL:'https://archive-test.supabase.co',PUBLIC_SUPABASE_PUBLISHABLE_KEY:'sb_publishable_test'}}));
+ await page.route('**/api/config',r=>r.fulfill({json:{APP_ENV:'production',PUBLIC_SUPABASE_URL:'https://archive-test.supabase.co',PUBLIC_SUPABASE_PUBLISHABLE_KEY:'sb_publishable_test'}}));
  await page.route('https://archive-test.supabase.co/**',async route=>{
   const req=route.request(),url=new URL(req.url()),path=url.pathname;
   const headers={'access-control-allow-origin':'*','access-control-allow-headers':'*','access-control-allow-methods':'GET,POST,PATCH,OPTIONS'};
@@ -30,8 +30,8 @@ for(const museum of [true,false])test(`Beheer kan ${museum?'museum':'onderwerp'}
   if(path.endsWith('/kk_profiles'))return reply(null);
   return reply([]);
  });
- await page.goto('/kunstkiezer/account');await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');await page.locator('form').getByRole('button',{name:'Inloggen',exact:true}).click();await expect(page).toHaveURL(/\/kunstkiezer\/(agenda)?$/);
- await page.goto(`/kunstkiezer/beheer/${museum?'musea':'openbare-kunst'}`);await page.getByRole('button',{name:/Archieftest Utrecht/}).click();
+ await page.goto('/account');await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');await page.locator('form').getByRole('button',{name:'Inloggen',exact:true}).click();await expect(page).toHaveURL(/\/(agenda)?$/);
+ await page.goto(`/beheer/${museum?'musea':'openbare-kunst'}`);await page.getByRole('button',{name:/Archieftest Utrecht/}).click();
  await page.getByRole('button',{name:'Onderwerp verwijderen',exact:true}).click();await page.getByRole('button',{name:'Annuleren',exact:true}).click();expect(writes).toBe(0);
  await page.getByRole('button',{name:'Onderwerp verwijderen',exact:true}).click();await page.getByRole('button',{name:'Ja, verwijderen',exact:true}).click();await expect(page.getByRole('alert')).toContainText('ondertussen gewijzigd');
  conflict=false;await page.getByRole('button',{name:'Ja, verwijderen',exact:true}).click();await expect(page.getByText('Onderwerp verwijderd uit het aanbod.')).toBeVisible();await expect(page.getByRole('button',{name:/Archieftest Utrecht/})).toHaveCount(0);

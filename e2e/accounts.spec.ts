@@ -7,7 +7,7 @@ function server(){
  const item={id,name:'Kunst om te delen',city:'Utrecht',province:'Utrecht',street_address:'Teststraat',postal_code:'',country:'NL',website_url:'https://example.test',latitude:52.09,longitude:5.12,summary:'Fotografie om bij stil te staan.',operating_status:'open',publication_status:'published',is_art_museum:true,photos:[],tags:['fotografie']};
  async function setup(page:Page){
   await page.addInitScript(()=>Object.defineProperty(navigator,'share',{value:undefined,configurable:true}));
-  await page.route('**/kunstkiezer/api/config',r=>r.fulfill({json:{APP_ENV:'production',PUBLIC_SUPABASE_URL:'https://accounts-test.supabase.co',PUBLIC_SUPABASE_PUBLISHABLE_KEY:'sb_publishable_test'}}));
+  await page.route('**/api/config',r=>r.fulfill({json:{APP_ENV:'production',PUBLIC_SUPABASE_URL:'https://accounts-test.supabase.co',PUBLIC_SUPABASE_PUBLISHABLE_KEY:'sb_publishable_test'}}));
   await page.route('https://accounts-test.supabase.co/**',async route=>{
    const req=route.request(),url=new URL(req.url()),path=url.pathname;const headers={'access-control-allow-origin':'*','access-control-allow-headers':'*','access-control-allow-methods':'GET,POST,PATCH,DELETE,PUT,OPTIONS','content-range':'0-0/1'};const reply=(json:unknown,status=200)=>route.fulfill({json,status,headers});
    if(req.method()==='OPTIONS')return route.fulfill({status:204,headers});
@@ -27,46 +27,46 @@ function server(){
  }
  return {setup,profile:()=>profile,visits:()=>visits,fail:(v:boolean)=>{failSave=v;},remoteEdit:()=>{profile={tags:['design'],completed:true,updated_at:'remote-'+(++version)};},reset:()=>resetUrl,signup:()=>signupConfirmed,changes:()=>passwordChanges};
 }
-async function login(page:Page){await page.goto('/kunstkiezer/account');await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password-123');await page.locator('form').getByRole('button',{name:'Inloggen',exact:true}).click();await expect(page).toHaveURL(/\/kunstkiezer\/(agenda)?$/);await expect(page.getByRole('heading',{level:1})).toContainText(/Mijn kunstkeuze|Ontdek kunst/);}
+async function login(page:Page){await page.goto('/account');await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password-123');await page.locator('form').getByRole('button',{name:'Inloggen',exact:true}).click();await expect(page).toHaveURL(/\/(agenda)?$/);await expect(page.getByRole('heading',{level:1})).toContainText(/Mijn kunstkeuze|Ontdek kunst/);}
 test('Profiel en sterren synchroniseren tussen twee apparaten; delen opent hetzelfde onderwerp',async({page,browser})=>{
  const mock=server();await mock.setup(page);await login(page);await expect(page.getByRole('link',{name:'Beheer',exact:true})).toHaveCount(0);
- await page.goto('/kunstkiezer/profiel');await page.getByLabel('Zoek een extra tag').fill('fotografie');await page.getByRole('button',{name:'fotografie +',exact:true}).click();await page.getByRole('button',{name:'Profiel opslaan',exact:true}).click();await expect(page.getByText('Je profiel is opgeslagen.',{exact:false})).toBeVisible();expect(mock.profile()?.tags).toEqual(['fotografie']);
- const second=await browser.newContext();try{const other=await second.newPage();await mock.setup(other);await login(other);await other.goto('/kunstkiezer/profiel');await expect(other.getByRole('button',{name:'Verwijder tag fotografie',exact:true})).toBeVisible();
- await page.goto('/kunstkiezer/agenda/musea');await page.getByRole('button',{name:'✓ Ik heb dit gezien',exact:true}).click();await page.getByRole('button',{name:'4 sterren',exact:true}).click();mock.fail(true);await page.getByRole('button',{name:'Bewaar waardering',exact:true}).click();await expect(page.getByRole('dialog')).toBeVisible();await expect(page.getByRole('alert')).toContainText('kon niet worden opgeslagen');mock.fail(false);await page.getByRole('button',{name:'Bewaar waardering',exact:true}).click();await expect(page.getByRole('button',{name:'✓ Gezien · 4 ★',exact:true})).toBeVisible();
- await other.goto('/kunstkiezer/geschiedenis');await expect(other.getByRole('link',{name:'Kunst om te delen',exact:true})).toBeVisible();await expect(other.getByRole('button',{name:'✓ Gezien · 4 ★',exact:true})).toBeVisible();
+ await page.goto('/profiel');await page.getByLabel('Zoek een extra tag').fill('fotografie');await page.getByRole('button',{name:'fotografie +',exact:true}).click();await page.getByRole('button',{name:'Profiel opslaan',exact:true}).click();await expect(page.getByText('Je profiel is opgeslagen.',{exact:false})).toBeVisible();expect(mock.profile()?.tags).toEqual(['fotografie']);
+ const second=await browser.newContext();try{const other=await second.newPage();await mock.setup(other);await login(other);await other.goto('/profiel');await expect(other.getByRole('button',{name:'Verwijder tag fotografie',exact:true})).toBeVisible();
+ await page.goto('/agenda/musea');await page.getByRole('button',{name:'✓ Ik heb dit gezien',exact:true}).click();await page.getByRole('button',{name:'4 sterren',exact:true}).click();mock.fail(true);await page.getByRole('button',{name:'Bewaar waardering',exact:true}).click();await expect(page.getByRole('dialog')).toBeVisible();await expect(page.getByRole('alert')).toContainText('kon niet worden opgeslagen');mock.fail(false);await page.getByRole('button',{name:'Bewaar waardering',exact:true}).click();await expect(page.getByRole('button',{name:'✓ Gezien · 4 ★',exact:true})).toBeVisible();
+ await other.goto('/geschiedenis');await expect(other.getByRole('link',{name:'Kunst om te delen',exact:true})).toBeVisible();await expect(other.getByRole('button',{name:'✓ Gezien · 4 ★',exact:true})).toBeVisible();
  await page.getByRole('button',{name:'Deel Kunst om te delen',exact:true}).click();const shared=await page.getByLabel('Link naar dit onderwerp').inputValue();expect(shared).toContain('/bekijk?categorie=musea&id='+id);await expect(page.getByRole('link',{name:'WhatsApp ↗'})).toHaveAttribute('href',/^https:\/\/wa.me\//);await page.getByRole('button',{name:'Sluiten',exact:true}).click();await other.goto(shared);await expect(other.getByRole('heading',{name:'Kunst om te delen',exact:true})).toBeVisible();
- await other.goto('/kunstkiezer/account');await other.getByRole('button',{name:'Uitloggen op alle apparaten'}).click();await other.goto('/kunstkiezer/geschiedenis');await expect(other.getByText('Kunst om te delen',{exact:true})).toHaveCount(0);
+ await other.goto('/account');await other.getByRole('button',{name:'Uitloggen op alle apparaten'}).click();await other.goto('/geschiedenis');await expect(other.getByText('Kunst om te delen',{exact:true})).toHaveCount(0);
  await page.screenshot({path:`work/accounts-${test.info().project.name}.png`,fullPage:true});
  }finally{await second.close();}
 });
 test('Online profiel overschrijft geen gelijktijdige wijziging; geen beheer via directe URL',async({page})=>{
- const mock=server();await mock.setup(page);await login(page);await page.goto('/kunstkiezer/profiel');await page.getByLabel('Zoek een extra tag').fill('fotografie');await page.getByRole('button',{name:'fotografie +',exact:true}).click();mock.remoteEdit();await page.getByRole('button',{name:'Profiel opslaan'}).click();await expect(page.getByRole('status')).toContainText('ander apparaat gewijzigd');expect(mock.profile()?.tags).toEqual(['design']);
- await page.goto('/kunstkiezer/beheer/instellingen');await expect(page.getByText('Deze pagina is alleen beschikbaar voor beheerders.')).toBeVisible();await expect(page.getByRole('button',{name:'Nu updaten',exact:true})).toHaveCount(0);
+ const mock=server();await mock.setup(page);await login(page);await page.goto('/profiel');await page.getByLabel('Zoek een extra tag').fill('fotografie');await page.getByRole('button',{name:'fotografie +',exact:true}).click();mock.remoteEdit();await page.getByRole('button',{name:'Profiel opslaan'}).click();await expect(page.getByRole('status')).toContainText('ander apparaat gewijzigd');expect(mock.profile()?.tags).toEqual(['design']);
+ await page.goto('/beheer/instellingen');await expect(page.getByText('Deze pagina is alleen beschikbaar voor beheerders.')).toBeVisible();await expect(page.getByRole('button',{name:'Nu updaten',exact:true})).toHaveCount(0);
 });
 test('Registratie vraagt bevestiging en wachtwoordherstel gebruikt het accountadres',async({page})=>{
- const mock=server();await mock.setup(page);await page.goto('/kunstkiezer/account');await page.getByRole('button',{name:'Account maken',exact:true}).click();await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('New-test-password-123');await page.getByLabel('Herhaal wachtwoord',{exact:true}).fill('New-test-password-123');await page.locator('form').getByRole('button',{name:'Account maken',exact:true}).click();await expect(page.getByRole('status')).toContainText('bevestig je e-mailadres');expect(mock.signup()).toBe(true);
- await page.getByRole('button',{name:'Wachtwoord vergeten',exact:true}).click();await page.getByRole('button',{name:'Resetlink aanvragen',exact:true}).click();await expect(page.getByRole('status')).toContainText('Als dit e-mailadres een account heeft');expect(mock.reset()).toBe('http://127.0.0.1:8790/kunstkiezer/account?reset=1');
- await login(page);await page.goto('/kunstkiezer/account');await page.getByLabel('Huidig wachtwoord',{exact:true}).fill('Test-password-123');await page.getByLabel('Nieuw wachtwoord (minstens 12 tekens)',{exact:true}).fill('New-password-12345');await page.getByLabel('Herhaal nieuw wachtwoord',{exact:true}).fill('New-password-12345');await page.getByRole('button',{name:'Wachtwoord opslaan',exact:true}).click();await expect.poll(mock.changes).toBe(1);
+ const mock=server();await mock.setup(page);await page.goto('/account');await page.getByRole('button',{name:'Account maken',exact:true}).click();await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('New-test-password-123');await page.getByLabel('Herhaal wachtwoord',{exact:true}).fill('New-test-password-123');await page.locator('form').getByRole('button',{name:'Account maken',exact:true}).click();await expect(page.getByRole('status')).toContainText('bevestig je e-mailadres');expect(mock.signup()).toBe(true);
+ await page.getByRole('button',{name:'Wachtwoord vergeten',exact:true}).click();await page.getByRole('button',{name:'Resetlink aanvragen',exact:true}).click();await expect(page.getByRole('status')).toContainText('Als dit e-mailadres een account heeft');expect(mock.reset()).toBe('http://127.0.0.1:8790/account?reset=1');
+ await login(page);await page.goto('/account');await page.getByLabel('Huidig wachtwoord',{exact:true}).fill('Test-password-123');await page.getByLabel('Nieuw wachtwoord (minstens 12 tekens)',{exact:true}).fill('New-password-12345');await page.getByLabel('Herhaal nieuw wachtwoord',{exact:true}).fill('New-password-12345');await page.getByRole('button',{name:'Wachtwoord opslaan',exact:true}).click();await expect.poll(mock.changes).toBe(1);
 });
 test('Herstellink opent nieuw wachtwoord; een losse reset-parameter omzeilt herauthenticatie niet',async({page})=>{
  const mock=server();await mock.setup(page);
- await page.goto('/kunstkiezer/account?reset=1#access_token='+token+'&refresh_token=test&expires_in=3600&token_type=bearer&type=recovery');
+ await page.goto('/account?reset=1#access_token='+token+'&refresh_token=test&expires_in=3600&token_type=bearer&type=recovery');
  await expect(page.getByRole('heading',{name:'Kies een nieuw wachtwoord',exact:true})).toBeVisible();
  await expect(page.getByLabel('Huidig wachtwoord',{exact:true})).toHaveCount(0);
  await page.reload();await expect(page.getByLabel('Huidig wachtwoord',{exact:true})).toBeVisible();
 });
 
 test('Inloggen kiest de startpagina van het online profiel, account blijft bereikbaar',async({page})=>{
- const mock=server();mock.remoteEdit();await mock.setup(page);await login(page);await expect(page).toHaveURL(/\/agenda$/);await page.goto('/kunstkiezer/account');await expect(page.getByText('Ingelogd als')).toBeVisible();
+ const mock=server();mock.remoteEdit();await mock.setup(page);await login(page);await expect(page).toHaveURL(/\/agenda$/);await page.goto('/account');await expect(page.getByText('Ingelogd als')).toBeVisible();
 });
 
 test('Te zien synchroniseert, krijgt groene kaartstip en verhuist na bezoek naar rood',async({page,browser})=>{
  const mock=server();await mock.setup(page);await login(page);
- await page.goto('/kunstkiezer/agenda/musea');
+ await page.goto('/agenda/musea');
  await page.getByRole('button',{name:'Hier wil ik nog heen',exact:true}).click();
  await expect(page.getByRole('button',{name:'✓ Hier wil ik nog heen',exact:true})).toHaveAttribute('aria-pressed','true');
  expect(mock.visits()[0]?.status).toBe('wanted');expect(mock.visits()[0]?.rating).toBeNull();
- const second=await browser.newContext();try{const other=await second.newPage();await mock.setup(other);await login(other);await other.goto('/kunstkiezer/geschiedenis');
+ const second=await browser.newContext();try{const other=await second.newPage();await mock.setup(other);await login(other);await other.goto('/geschiedenis');
  await expect(other.getByRole('region',{name:'Te zien',exact:true}).getByRole('link',{name:'Kunst om te delen'})).toBeVisible();
  await other.getByRole('button',{name:'Kaart',exact:true}).click();
  const dot=other.getByRole('button',{name:'Kunst om te delen',exact:true});await expect(dot).toHaveAttribute('fill','#198348');
@@ -79,7 +79,7 @@ test('Te zien synchroniseert, krijgt groene kaartstip en verhuist na bezoek naar
 
 test('Uitnodigingslink laat een nieuwe gebruiker een eigen wachtwoord kiezen',async({page})=>{
  const mock=server();await mock.setup(page);
- await page.goto('/kunstkiezer/account#access_token='+token+'&refresh_token=test&expires_in=3600&token_type=bearer&type=invite');
+ await page.goto('/account#access_token='+token+'&refresh_token=test&expires_in=3600&token_type=bearer&type=invite');
  await expect(page.getByRole('heading',{name:'Kies een nieuw wachtwoord',exact:true})).toBeVisible();
  await expect(page.getByLabel('Huidig wachtwoord',{exact:true})).toHaveCount(0);
  await page.getByLabel('Nieuw wachtwoord (minstens 12 tekens)',{exact:true}).fill('Invited-password-12345');
