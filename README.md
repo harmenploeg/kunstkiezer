@@ -4,10 +4,10 @@ Kunst ontdekken in Nederland, afgestemd op smaak en afstand. De vijf verzameling
 
 ## Gebruik
 
-- [Productie](https://kunstkiezer.loci-amsterdam.nl/)
-- [Mijn account](https://kunstkiezer.loci-amsterdam.nl/account)
-- [Redactie](https://kunstkiezer.loci-amsterdam.nl/beheer) — alleen zichtbaar en bereikbaar voor beheerders
-- [Beheerinstellingen](https://kunstkiezer.loci-amsterdam.nl/beheer/instellingen) — afstand/smaak, bronnen, updateschema, extra update en gebruikersrechten
+- [Productie](https://loci-kunstkiezer.pages.dev/)
+- [Mijn account](https://loci-kunstkiezer.pages.dev/account)
+- [Redactie](https://loci-kunstkiezer.pages.dev/beheer) — alleen zichtbaar en bereikbaar voor beheerders
+- [Beheerinstellingen](https://loci-kunstkiezer.pages.dev/beheer/instellingen) — afstand/smaak, bronnen, updateschema, extra update en gebruikersrechten
 
 `kunstkiezer.pages.dev` is uitsluitend een preview. De echte productie wordt gepubliceerd via [harmenploeg/interactief](https://github.com/harmenploeg/interactief). Zie [publicatieprotocol](docs/publicatie.md).
 

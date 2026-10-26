@@ -26,6 +26,7 @@ const allowedOrigins = new Set([
   "https://loci-amsterdam.nl",
   "https://kunstkiezer.pages.dev",
   "https://kunstkiezer.loci-amsterdam.nl",
+  "https://loci-kunstkiezer.pages.dev",
 ]);
 /** Service-role operations always follow both token and password verification. */
 export async function deleteAccount(
