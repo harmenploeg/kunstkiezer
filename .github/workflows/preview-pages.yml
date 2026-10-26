@@ -19,7 +19,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check
-      - run: npx playwright install --with-deps chromium
+      # De browsertests draaien ook in Safari en op de iPhone, dus WebKit moet erbij.
+      - run: npx playwright install --with-deps chromium webkit
       - run: npx playwright test --reporter=list
       - name: Verpak Pages-preview
         run: |
