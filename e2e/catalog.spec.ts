@@ -57,7 +57,7 @@ const discoveries = [
   },
 ];
 async function setup(page: Page) {
-  await page.route('**/kunstkiezer/api/basemap-config', r=>r.fulfill({json:{key:'test_basemap_key_123456789'}}));
+  await page.route('**/api/basemap-config', r=>r.fulfill({json:{key:'test_basemap_key_123456789'}}));
   await page.route('https://*.basemaps.cartocdn.com/**',r=>r.fulfill({contentType:'image/png',body:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Wl6YJkAAAAASUVORK5CYII=','base64')}));
   await page.addInitScript(() =>
     localStorage.setItem(
@@ -65,7 +65,7 @@ async function setup(page: Page) {
       JSON.stringify({ version: 1, completed: true, tags: ["beeldhouwkunst"] }),
     ),
   );
-  await page.route("**/kunstkiezer/api/config", (r) =>
+  await page.route("**/api/config", (r) =>
     r.fulfill({
       json: {
         APP_ENV: "production",
@@ -124,7 +124,7 @@ test("Tags zoeken over alle categorieën, waardering sorteert, interne tekst bli
   page,
 }) => {
   await setup(page);
-  await page.goto("/kunstkiezer/agenda/musea");
+  await page.goto("/agenda/musea");
   await page.getByRole("link", { name: "beeldhouwkunst", exact: true }).click();
   await expect(page).toHaveURL(/tag=beeldhouwkunst/);
   await expect(page.locator(".museum-card")).toHaveCount(3);
@@ -147,7 +147,7 @@ test("Kaart toont precieze stippen, popup opent onderwerp met vier navigatiekeuz
 }) => {
   await setup(page);
   await page.route("https://images.example.org/**", route => route.fulfill({contentType:"image/svg+xml",body:'<svg xmlns="http://www.w3.org/2000/svg" width="220" height="120"><rect width="220" height="120" fill="green"/></svg>'}));
-  await page.goto("/kunstkiezer/agenda?tag=beeldhouwkunst");
+  await page.goto("/agenda?tag=beeldhouwkunst");
   await page.getByRole("button", { name: "Kaart", exact: true }).click();
   await expect(page.getByText(/2 locaties op de kaart/)).toBeVisible();
   await expect(page.getByRole("region", { name: "Kaart met kunstlocaties" })).toBeInViewport();
@@ -196,7 +196,7 @@ test("Dubbelklik op stip opent het onderwerp rechtstreeks", async ({
   page,
 }) => {
   await setup(page);
-  await page.goto("/kunstkiezer/agenda/musea");
+  await page.goto("/agenda/musea");
   await page.getByRole("button", { name: "Kaart", exact: true }).click();
   await page
     .getByRole("button", { name: "Museum Eén", exact: true })
@@ -210,7 +210,7 @@ test("Onbereikbare achtergrondkaart geeft herstelknop en behoudt stippen", async
  await setup(page);
  let failTiles=true;
  await page.route('https://*.basemaps.cartocdn.com/**',r=>failTiles?r.abort():r.fallback());
- await page.goto('/kunstkiezer/agenda/musea');
+ await page.goto('/agenda/musea');
  await page.getByRole('button',{name:'Kaart',exact:true}).click();
  await expect(page.getByRole('button',{name:'Kaart opnieuw laden',exact:true})).toBeVisible();
  await expect(page.getByRole('button',{name:'Museum Eén',exact:true})).toBeVisible();
@@ -225,7 +225,7 @@ test('Toegestane locatie centreert Voyager met circa 25 km tot de dichtstbijzijn
  await context.setGeolocation({latitude:52.37,longitude:4.9});
  await context.grantPermissions(['geolocation']);
  await page.addInitScript(()=>localStorage.setItem('kunstkiezer.distance.enabled','false'));
- await page.goto('/kunstkiezer/agenda/musea');
+ await page.goto('/agenda/musea');
  await page.getByRole('button',{name:'Kaart',exact:true}).click();
  const map=page.getByRole('region',{name:'Kaart met kunstlocaties'});
  await expect(map).toBeInViewport();

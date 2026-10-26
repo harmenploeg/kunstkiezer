@@ -72,7 +72,7 @@ export function RankingAdmin() {
     prior = value.rating_prior ?? 5;
   return (
     <>
-      <a href="/kunstkiezer/beheer">← Alle verzamelingen</a>
+      <a href="/beheer">← Alle verzamelingen</a>
       <header className="page-heading">
         <p className="eyebrow">Redactie</p>
         <h1>

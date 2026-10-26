@@ -6,7 +6,7 @@ import type { Museum, MuseumInput, MuseumSource, Editorial } from './museums.ts'
 let clientPromise: Promise<SupabaseClient> | undefined;
 export function getClient(): Promise<SupabaseClient> {
  return clientPromise ??= (async()=>{
-  const response=await fetch('/kunstkiezer/api/config', {cache:'no-store'});
+  const response=await fetch('/api/config', {cache:'no-store'});
   if(!response.ok) throw new Error('De museumdatabase is nog niet aangesloten.');
   const values=await response.json() as Record<string,string>;
   const config=readPublicConfiguration(values);

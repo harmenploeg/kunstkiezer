@@ -23,9 +23,9 @@ jobs:
       - run: npx playwright test --reporter=list
       - name: Verpak Pages-preview
         run: |
-          mkdir -p pages-preview/kunstkiezer pages-preview/functions
-          cp -R apps/web/dist/. pages-preview/kunstkiezer/
-          cp -R functions/kunstkiezer pages-preview/functions/
+          mkdir -p pages-preview/site pages-preview/functions
+          cp -R apps/web/dist/. pages-preview/site/
+          cp -R functions/. pages-preview/functions/
       - name: Maak previewproject indien nodig
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -55,4 +55,4 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-        run: ../node_modules/.bin/wrangler pages deploy . --project-name kunstkiezer --branch main
+        run: ../node_modules/.bin/wrangler pages deploy site --project-name kunstkiezer --branch main

@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 test("Mijn kunstkeuze, categorieën en bezoekgeschiedenis zijn bereikbaar", async ({ page }, testInfo) => {
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
-  await page.goto("/kunstkiezer/");
+  await page.goto("/");
   await expect(page.getByRole("heading", { name: "Mijn kunstkeuze." })).toBeVisible();
   await expect(page.getByRole("group", {name:/Welke kunst trekt je aandacht/})).toBeVisible();
   await page.screenshot({ path: `/tmp/kunstkiezer-${testInfo.project.name}.png`, fullPage: true });
@@ -19,17 +19,16 @@ test("Mijn kunstkeuze, categorieën en bezoekgeschiedenis zijn bereikbaar", asyn
   expect(errors).toEqual([]);
 });
 
-test("routebegrenzing, redirect en health werken in de echte Worker-runtime", async ({ request }) => {
-  expect((await request.get("/")).status()).toBe(404);
-  const redirect = await request.get("/kunstkiezer?source=test", { maxRedirects: 0 });
-  expect(redirect.status()).toBe(308);
-  expect(redirect.headers().location).toBe("http://127.0.0.1:8790/kunstkiezer/?source=test");
-  expect(await (await request.get("/kunstkiezer/api/health")).json()).toEqual({ status: "ok", service: "kunstkiezer-api" });
-  expect((await request.get("/kunstkiezer/unknown")).status()).toBe(404);
+test("routebegrenzing en health werken aan de wortel in de echte Worker-runtime", async ({ request }) => {
+  const home = await request.get("/?source=test", { maxRedirects: 0 });
+  expect(home.status()).toBe(200);
+  expect(home.headers()["cache-control"]).toBe("no-store");
+  expect(await (await request.get("/api/health")).json()).toEqual({ status: "ok", service: "kunstkiezer-api" });
+  for (const path of ["/unknown", "/app.js", "/kunstkiezer/agenda"]) expect((await request.get(path)).status()).toBe(404);
 });
 
 test('Categorieknoppen geven directe toegang en markeren de huidige optie zonder horizontale overflow',async({page})=>{
- await page.goto('/kunstkiezer/agenda/musea');
+ await page.goto('/agenda/musea');
  const nav=page.getByRole('navigation',{name:'Kies een categorie'});
  await expect(nav.getByRole('link')).toHaveCount(5);
  await expect(nav.getByRole('link',{name:'Musea',exact:true})).toHaveAttribute('aria-current','page');
@@ -42,7 +41,7 @@ test('Categorieknoppen geven directe toegang en markeren de huidige optie zonder
 
  test('Vier vaste hoofdkeuzes naast elkaar en inloggen bovenaan, ook op smal scherm',async({page})=>{
   await page.setViewportSize({width:320,height:740});
-  await page.goto('/kunstkiezer/');
+  await page.goto('/');
   const nav=page.getByRole('navigation',{name:'Hoofdnavigatie'});
   await expect(nav.getByRole('link')).toHaveText(['Mijn kunstkeuze','Ontdek kunst','Gezien/te zien','Mijn profiel']);
   await expect(nav.getByRole('link',{name:'Mijn kunstkeuze'})).toHaveAttribute('aria-current','page');
@@ -56,7 +55,7 @@ test('Categorieknoppen geven directe toegang en markeren de huidige optie zonder
  });
 
 test('Ontdek-kop volgt de hoogte van Musea en onboarding heeft geen lege beeldruimte', async ({page}) => {
- await page.goto('/kunstkiezer/');
+ await page.goto('/');
  const intro=page.locator('.art-heading');
  await expect(intro).toBeVisible();
  expect((await intro.boundingBox())!.height).toBeLessThan(350);
@@ -72,7 +71,7 @@ test('Ontdek-kop volgt de hoogte van Musea en onboarding heeft geen lege beeldru
 });
 
 test('Wisselen tussen hoofdkeuzes behoudt hetzelfde appvenster en ondersteunt terug', async ({page}) => {
- await page.goto('/kunstkiezer/agenda');
+ await page.goto('/agenda');
  await expect(page.getByRole('heading',{name:'Ontdek kunst.'})).toBeVisible();
  await page.evaluate(() => document.documentElement.dataset.navigationIdentity = 'same-document');
  for (const [label,heading] of [['Mijn kunstkeuze','Mijn kunstkeuze.'],['Gezien/te zien','Gezien/te zien.'],['Ontdek kunst','Ontdek kunst.']] as const) {

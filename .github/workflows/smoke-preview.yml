@@ -22,19 +22,19 @@ jobs:
                   except urllib.error.HTTPError as error:
                       if attempt == 5: raise SystemExit(f'Live controle mislukt: {path} HTTP {error.code}')
                       time.sleep(5)
-          for path in ['/kunstkiezer/', '/kunstkiezer/agenda/musea', '/kunstkiezer/geschiedenis', '/kunstkiezer/beheer/musea']:
+          for path in ['/', '/agenda/musea', '/geschiedenis', '/beheer/musea']:
               status, html = fetch(path)
               assert status == 200 and 'Mijn kunstkeuze' in html and 'id="root"' in html
-              for asset in re.findall(r'(?:src|href)="(/kunstkiezer/assets/[^"]+)"', html):
+              for asset in re.findall(r'(?:src|href)="(/assets/[^"]+)"', html):
                   assert fetch(asset)[0] == 200
               print('Pagina en assets bereikbaar:', path)
-          assert json.loads(fetch('/kunstkiezer/api/health')[1]) == {'status': 'ok', 'service': 'kunstkiezer-api'}
+          assert json.loads(fetch('/api/health')[1]) == {'status': 'ok', 'service': 'kunstkiezer-api'}
           try:
-              urllib.request.urlopen(urllib.request.Request(base + '/kunstkiezer/onbekend', headers={'User-Agent': 'Mozilla/5.0 Kunstkiezer-verificatie'}), timeout=30)
+              urllib.request.urlopen(urllib.request.Request(base + '/onbekend', headers={'User-Agent': 'Mozilla/5.0 Kunstkiezer-verificatie'}), timeout=30)
               raise SystemExit('Onbekende route geeft geen 404.')
           except urllib.error.HTTPError as error:
               assert error.code == 404
-          inventory = json.loads(fetch('/kunstkiezer/inventory.json')[1])
+          inventory = json.loads(fetch('/inventory.json')[1])
           assert len(inventory) == 1496
           assert all(m['publication_status'] == 'draft' for m in inventory)
           assert any(m['name'] == 'Rijksmuseum Amsterdam' and m['street_address'] == 'Museumstraat 1' for m in inventory)

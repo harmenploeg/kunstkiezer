@@ -1,4 +1,7 @@
-export const BASE_PATH = "/kunstkiezer";
+// Sinds systeemaudit stap 1.3 (oktober 2026) draait de Kunstkiezer op een eigen subdomein,
+// kunstkiezer.loci-amsterdam.nl, en dus aan de wortel. Daarvoor stond hij onder
+// www.loci-amsterdam.nl/kunstkiezer, dat nu doorverwijst.
+export const BASE_PATH = "";
 
 export const navigation = [
   { path: "/kunstkeuze", label: "Mijn kunstkeuze" },

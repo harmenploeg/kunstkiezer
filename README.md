@@ -4,10 +4,10 @@ Kunst ontdekken in Nederland, afgestemd op smaak en afstand. De vijf verzameling
 
 ## Gebruik
 
-- [Productie op Loci](https://www.loci-amsterdam.nl/kunstkiezer/)
-- [Mijn account](https://www.loci-amsterdam.nl/kunstkiezer/account)
-- [Redactie](https://www.loci-amsterdam.nl/kunstkiezer/beheer) — alleen zichtbaar en bereikbaar voor beheerders
-- [Beheerinstellingen](https://www.loci-amsterdam.nl/kunstkiezer/beheer/instellingen) — afstand/smaak, bronnen, updateschema, extra update en gebruikersrechten
+- [Productie](https://kunstkiezer.loci-amsterdam.nl/)
+- [Mijn account](https://kunstkiezer.loci-amsterdam.nl/account)
+- [Redactie](https://kunstkiezer.loci-amsterdam.nl/beheer) — alleen zichtbaar en bereikbaar voor beheerders
+- [Beheerinstellingen](https://kunstkiezer.loci-amsterdam.nl/beheer/instellingen) — afstand/smaak, bronnen, updateschema, extra update en gebruikersrechten
 
 `kunstkiezer.pages.dev` is uitsluitend een preview. De echte productie wordt gepubliceerd via [harmenploeg/interactief](https://github.com/harmenploeg/interactief). Zie [publicatieprotocol](docs/publicatie.md).
 
@@ -26,7 +26,7 @@ Kunst ontdekken in Nederland, afgestemd op smaak en afstand. De vijf verzameling
 | Database, toegangspolicies en migraties | `supabase/migrations` |
 | Serverfunctie voor accountverwijdering | `supabase/functions/delete-account` |
 | Onderzoeksbestanden, bronverantwoording en open punten | `data`, met `data/curation/latest-report.json` |
-| Webroutes en configuratie | `functions/kunstkiezer`, `workers/api` |
+| Webroutes en configuratie | `functions`, `workers/api` |
 
 Gebruik gedeelde componenten voor categorie-overstijgende functies. Nieuwe categorieën vragen ook expliciete selectiecriteria, domeinconfiguratie, routes en databasevalidatie. Voeg geen tweede account- of rollenimplementatie toe.
 

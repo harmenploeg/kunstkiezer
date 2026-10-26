@@ -11,7 +11,7 @@ async function setup(page:Page,editor=true){
  const settings={distance_weight:70,tag_weight:30,distance_scale_km:30,updated_at:'2026-10-04T00:00:00Z'};
  const user={id:'00000000-0000-4000-8000-000000000001',email:'editor@example.test',aud:'authenticated',app_metadata:{provider:'email'},user_metadata:{},created_at:'2026-10-04T00:00:00Z'};
  const token=[{alg:'HS256',typ:'JWT'},{sub:user.id,aud:'authenticated',role:'authenticated',exp:4000000000},'test'].map(v=>Buffer.from(typeof v==='string'?v:JSON.stringify(v)).toString('base64url')).join('.');
- await page.route('**/kunstkiezer/api/config',r=>r.fulfill({json:{APP_ENV:'production',PUBLIC_SUPABASE_URL:'https://management-test.supabase.co',PUBLIC_SUPABASE_PUBLISHABLE_KEY:'sb_publishable_test'}}));
+ await page.route('**/api/config',r=>r.fulfill({json:{APP_ENV:'production',PUBLIC_SUPABASE_URL:'https://management-test.supabase.co',PUBLIC_SUPABASE_PUBLISHABLE_KEY:'sb_publishable_test'}}));
  await page.route('https://management-test.supabase.co/**',async route=>{
  const path=new URL(route.request().url()).pathname;const headers={'access-control-allow-origin':'*','access-control-allow-headers':'*','access-control-allow-methods':'GET,POST,PATCH,OPTIONS'};const reply=(json:unknown,status=200)=>route.fulfill({headers,json,status});
  if(route.request().method()==='OPTIONS')return route.fulfill({status:204,headers});
@@ -43,7 +43,7 @@ async function setup(page:Page,editor=true){
  if(path.endsWith('/kk_delete_update_source')){const input=route.request().postDataJSON();expect(input.expected_updated_at).toBe(rows.find(r=>r.id===input.source_id)?.updated_at);rows=rows.filter(r=>r.id!==input.source_id);return reply(null);}
  return reply({});
  });
- await page.goto('/kunstkiezer/account');await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');await page.locator('form').getByRole('button',{name:'Inloggen'}).click();await expect(page).toHaveURL(/\/kunstkiezer\/(agenda)?$/);await page.goto('/kunstkiezer/beheer/instellingen');
+ await page.goto('/account');await page.getByLabel('E-mail',{exact:true}).fill(user.email);await page.getByLabel('Wachtwoord',{exact:true}).fill('Test-password');await page.locator('form').getByRole('button',{name:'Inloggen'}).click();await expect(page).toHaveURL(/\/(agenda)?$/);await page.goto('/beheer/instellingen');
  return {rows:()=>rows,conflict:(v:boolean)=>{conflict=v;},reads:()=>sourceReads,runsQuery:()=>runsQuery};
 }
 test('Beheer groepeert ranking en bronnen; toevoegen, uitschakelen, herladen, conflicten en verwijderen',async({page})=>{
