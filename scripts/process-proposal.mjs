@@ -20,7 +20,7 @@ async function main(){
  if(command==='apply'){console.log(JSON.stringify(await applyProposal({file,sql}),null,2));return;}
  const directory=option('--release-dir')||path.join(path.dirname(path.resolve(file)),'release-'+review.digest.slice(0,12));
  if(command==='install-release'){const checkout=option('--checkout');if(!checkout)throw new Error('--checkout is vereist');console.log(JSON.stringify(await installRelease(directory,checkout)));return;}
- if(command==='stage'){console.log(JSON.stringify(await stagePublication({file,sql,directory}),null,2));return;}
+ if(command==='stage'){console.log(JSON.stringify(await stagePublication({file,sql,directory,baselineDirectory:option('--baseline-checkout')}),null,2));return;}
  const deployment={run_id:option('--workflow-run'),source_commit:option('--source-commit'),integration_commit:option('--integration-commit')};
  console.log(JSON.stringify(await verifyPublication({file,sql,releaseDirectory:directory,deployment}),null,2));
 }

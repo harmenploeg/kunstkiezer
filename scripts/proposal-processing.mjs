@@ -131,7 +131,7 @@ export async function applyProposal({file,sql,fetcher=fetch,store=atomicJson}={}
   verified_at:new Date().toISOString(),records:verified};
  await store(receiptFile,receipt);return receipt;
 }
-export async function stagePublication({file,sql,directory}={}){
+export async function stagePublication({file,sql,directory,baselineDirectory=null}={}){
  const review=await loadReview(file),receipt=await json(file+'.receipt.json',null);
  if(receipt?.digest!==review.digest||!['database_verified','verification_blocked','publication_pending','verified'].includes(receipt.status))throw new Error('database_verification_required');
  await rowsAfter(sql,review.artifact,review.bundle);
@@ -141,6 +141,26 @@ export async function stagePublication({file,sql,directory}={}){
   ${CATEGORIES.map(c=>q(c+'.json')+`,(select coalesce(jsonb_agg(to_jsonb(d) order by d.name,d.id),'[]'::jsonb) from public.kk_discoveries d where publication_status='published' and category=${q(c)})`).join(',')}
  ) as snapshot`))[0]?.snapshot;
  if(!snapshot)throw new Error('publication_snapshot_failed');
+ if(baselineDirectory){
+  // Publish a scoped correction, preserving the versioned editorial representation.
+  // Current database visibility still controls which records may be exported.
+  for(const name of ['art-inventory.json',...CATEGORIES.map(c=>c+'.json')]){
+   const source=name==='art-inventory.json'?'data/museums/'+name:'data/discovery/'+name;
+   const baseline=JSON.parse(await readFile(path.join(baselineDirectory,source),'utf8'));
+   if(!Array.isArray(baseline))throw new Error('invalid_baseline');
+   const publicIds=new Set(snapshot[name].map(r=>r.id));
+   snapshot[name]=baseline.filter(r=>r.publication_status==='published'&&publicIds.has(r.id));
+   for(const change of review.artifact.changes){
+    const target=change.table==='kk_museums'?'art-inventory.json':receipt.records.find(r=>r.row.id===change.record_id)?.row.category+'.json';
+    if(target!==name)continue;
+    const row=snapshot[name].find(r=>r.id===change.record_id);
+    if(!row)throw new Error('changed_record_missing_from_baseline');
+    if(!same(row[change.field],change.before)&&!same(row[change.field],change.after))throw new Error('baseline_value_conflict');
+    row[change.field]=change.after;
+   }
+  }
+ }
+
  for(const item of receipt.records||[]){if(item.row.publication_status!=='published')continue;
   const name=item.table==='kk_museums'?'art-inventory.json':item.row.category+'.json',row=snapshot[name]?.find(r=>r.id===item.row.id);
   if(!row||item.fields.some(field=>!same(row[field],item.row[field])))throw new Error('publication_snapshot_conflict');
