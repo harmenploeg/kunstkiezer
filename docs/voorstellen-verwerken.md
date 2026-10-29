@@ -118,3 +118,5 @@ De weekautomatisering blijft uit. Goedkeuring van een concreet voorstel is nog
 steeds een redactionele stap. Nieuwe kandidaten vereisen complete gegevens en
 selectiecontrole vóór toevoeging. Er wordt niet beweerd dat een beperkte
 bronsteekproef volledige weekdekking oplevert.
+
+Voor een gerichte correctie: geef bij `stage` de optie `--baseline-checkout /pad/naar/actuele/schone/broncheckout` mee. Dat behoudt de bestaande exportredactie en wijzigt uitsluitend goedgekeurde velden; records die in de actuele database niet meer publiek staan vallen uit de downloads. Zonder deze optie wordt een volledige actuele publieke database-export gemaakt, die afzonderlijk redactioneel moet worden gecontroleerd.

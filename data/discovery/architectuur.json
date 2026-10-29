@@ -585,50 +585,6 @@
     "coordinate_precision": "exact"
   },
   {
-    "id": "961cfc04-3fe1-5cfa-b554-c02bdb5ca7ba",
-    "city": "Huis ter Heide",
-    "name": "Villa Van 't Hoff (voor 2024: Villa Henny)",
-    "tags": [
-      "architectuur",
-      "rijksmonument",
-      "historische architectuur",
-      "monumentaal gebouw",
-      "maker: robert van 't hoff"
-    ],
-    "year": "1919",
-    "photos": [],
-    "creator": "Robert van 't Hoff",
-    "ends_on": null,
-    "sources": [
-      {
-        "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
-        "provider": "Rijksdienst Monumentenzorg · Top 100 (1990)",
-        "retrieved_at": "2026-10-03T18:00:00Z"
-      },
-      {
-        "url": "https://nl.wikipedia.org/wiki/Villa_Van_'t_Hoff",
-        "provider": "Wikipedia · objectbeschrijving en bronverwijzingen",
-        "retrieved_at": "2026-10-04T00:00:00Z"
-      }
-    ],
-    "summary": "Robert van 't Hoff ontwierp deze villa in 1914. De groepering van de volumes en de verwantschap met Frank Lloyd Wright maken het huis een vroeg modern experiment in de Nederlandse woningbouw.",
-    "category": "architectuur",
-    "latitude": 52.1094638888889,
-    "province": "Utrecht",
-    "longitude": 5.24090555555556,
-    "museum_id": null,
-    "starts_on": null,
-    "visit_notes": "Samengevoegd met Woonhuis Henny (Huis ter Heide) (architectuurgids:602). Bronnen en selectie blijven bij dat gepubliceerde record beschikbaar.",
-    "website_url": "https://nl.wikipedia.org/wiki/Villa_Van_'t_Hoff",
-    "inventory_key": "rce100:Huis ter Heide:Villa Van 't Hoff (voor 2024: Villa Henny)",
-    "street_address": "Amersfoortseweg  11A",
-    "operating_status": "open",
-    "selection_reason": "Landelijk erkend monument in de RDMZ-selectie uit 1990. De historische lijst is gebruikt voor cultuurhistorische betekenis, niet als bewijs van publieke binnenopenstelling.",
-    "coordinate_source": "https://nl.wikipedia.org/wiki/Villa_Van_'t_Hoff",
-    "publication_status": "archived",
-    "coordinate_precision": "exact"
-  },
-  {
     "id": "7c6653f5-d171-559b-9211-4dd4a8c9389d",
     "city": "IJsselstein",
     "name": "Hervormde Kerk",
@@ -6086,49 +6042,6 @@
     "coordinate_precision": "exact"
   },
   {
-    "id": "571e6f7e-8cb3-59fd-9a91-156ed02a8e73",
-    "city": "'s-Gravenhage",
-    "name": "Papaverhof",
-    "tags": [
-      "architectuur",
-      "rijksmonument",
-      "historische architectuur",
-      "monumentaal gebouw"
-    ],
-    "year": "1921",
-    "photos": [],
-    "creator": "",
-    "ends_on": null,
-    "sources": [
-      {
-        "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
-        "provider": "Rijksdienst Monumentenzorg · Top 100 (1990)",
-        "retrieved_at": "2026-10-03T18:00:00Z"
-      },
-      {
-        "url": "https://nl.wikipedia.org/wiki/Papaverhof",
-        "provider": "Wikipedia · objectbeschrijving en bronverwijzingen",
-        "retrieved_at": "2026-10-04T00:00:00Z"
-      }
-    ],
-    "summary": "Jan Wils groepeerde woningen rond een hof met een heldere ruimtelijke ordening. Papaverhof verbindt het wonen met de vernieuwing van De Stijl. Loop langs de randen en let op de verspringende volumes.",
-    "category": "architectuur",
-    "latitude": 52.0752777777778,
-    "province": "Zuid-Holland",
-    "longitude": 4.26083333333333,
-    "museum_id": null,
-    "starts_on": null,
-    "visit_notes": "Samengevoegd met Papaverhof (architectuurgids:782). Bronnen en selectie blijven bij dat gepubliceerde record beschikbaar.",
-    "website_url": "https://nl.wikipedia.org/wiki/Papaverhof",
-    "inventory_key": "rce100:'s-Gravenhage:Papaverhof",
-    "street_address": "",
-    "operating_status": "open",
-    "selection_reason": "Landelijk erkend monument in de RDMZ-selectie uit 1990. De historische lijst is gebruikt voor cultuurhistorische betekenis, niet als bewijs van publieke binnenopenstelling.",
-    "coordinate_source": "https://nl.wikipedia.org/wiki/Papaverhof",
-    "publication_status": "archived",
-    "coordinate_precision": "exact"
-  },
-  {
     "id": "86b506f9-2e33-51ba-bb9b-536294c444b4",
     "city": "'s-Gravenhage",
     "name": "Mauritshuis",
@@ -6521,58 +6434,6 @@
     "selection_reason": "Landelijk erkend monument in de RDMZ-selectie uit 1990. De historische lijst is gebruikt voor cultuurhistorische betekenis, niet als bewijs van publieke binnenopenstelling.",
     "coordinate_source": "https://nl.wikipedia.org/wiki/Sint-Janskathedraal_('s-Hertogenbosch)",
     "publication_status": "published",
-    "coordinate_precision": "exact"
-  },
-  {
-    "id": "c9809180-c92e-59d2-8cf7-954c64b6ac05",
-    "city": "Hoenderloo",
-    "name": "Jachthuis Sint-Hubertus",
-    "tags": [
-      "architectuur",
-      "rijksmonument",
-      "historische architectuur",
-      "monumentaal gebouw",
-      "maker: hendrik petrus berlage 1914-1919 henry van de velde 1919-1920"
-    ],
-    "year": "1920",
-    "photos": [
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Jachtslot_St._Hubertus.jpg/1280px-Jachtslot_St._Hubertus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "credit": "P.J.L Laurens",
-        "caption": "Jachthuis Sint-Hubertus — Jachtslot St. Hubertus",
-        "license": "CC BY 3.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Jachtslot_St._Hubertus.jpg"
-      }
-    ],
-    "creator": "Hendrik Petrus Berlage 1914-1919 Henry van de Velde 1919-1920",
-    "ends_on": null,
-    "sources": [
-      {
-        "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
-        "provider": "Rijksdienst Monumentenzorg · Top 100 (1990)",
-        "retrieved_at": "2026-10-03T18:00:00Z"
-      },
-      {
-        "url": "https://nl.wikipedia.org/wiki/Jachthuis_Sint-Hubertus",
-        "provider": "Wikipedia · objectbeschrijving en bronverwijzingen",
-        "retrieved_at": "2026-10-04T00:00:00Z"
-      }
-    ],
-    "summary": "Berlage ontwierp voor de Kröller-Müllers een buitenhuis waarin architectuur en inrichting samenhangen. Jachthuis Sint-Hubertus ligt in het Veluwse landschap. De herkenbare toren geeft het ensemble een uitgesproken silhouet.",
-    "category": "architectuur",
-    "latitude": 52.1215361111111,
-    "province": "Gelderland",
-    "longitude": 5.83283611111111,
-    "museum_id": null,
-    "starts_on": null,
-    "visit_notes": "Samengevoegd met Jachtslot St.-Hubertus (architectuurgids:585). Bronnen en selectie blijven bij dat gepubliceerde record beschikbaar.",
-    "website_url": "https://nl.wikipedia.org/wiki/Jachthuis_Sint-Hubertus",
-    "inventory_key": "rce100:Hoenderloo:Jachthuis Sint-Hubertus",
-    "street_address": "Apeldoornseweg 258, 7351 TA Hoenderloo",
-    "operating_status": "open",
-    "selection_reason": "Landelijk erkend monument in de RDMZ-selectie uit 1990. De historische lijst is gebruikt voor cultuurhistorische betekenis, niet als bewijs van publieke binnenopenstelling.",
-    "coordinate_source": "https://nl.wikipedia.org/wiki/Jachthuis_Sint-Hubertus",
-    "publication_status": "archived",
     "coordinate_precision": "exact"
   },
   {
@@ -7688,57 +7549,6 @@
     "coordinate_precision": "exact"
   },
   {
-    "id": "22a8ebda-e2c1-5cd1-96de-2356889d918c",
-    "city": "Rotterdam",
-    "name": "Justus van Effencomplex",
-    "tags": [
-      "architectuur",
-      "rijksmonument",
-      "historische architectuur",
-      "monumentaal gebouw"
-    ],
-    "year": "1921",
-    "photos": [
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Rotterdam_spangen_vaneffenstraat.jpg/1280px-Rotterdam_spangen_vaneffenstraat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "credit": "Wikifrits",
-        "caption": "Justus van Effencomplex — Rotterdam spangen vaneffenstraat",
-        "license": "Public domain",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Rotterdam_spangen_vaneffenstraat.jpg"
-      }
-    ],
-    "creator": "",
-    "ends_on": null,
-    "sources": [
-      {
-        "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
-        "provider": "Rijksdienst Monumentenzorg · Top 100 (1990)",
-        "retrieved_at": "2026-10-03T18:00:00Z"
-      },
-      {
-        "url": "https://nl.wikipedia.org/wiki/Justus_van_Effencomplex",
-        "provider": "Wikipedia · objectbeschrijving en bronverwijzingen",
-        "retrieved_at": "2026-10-04T00:00:00Z"
-      }
-    ],
-    "summary": "Michiel Brinkman onderzocht in Spangen een nieuwe manier van collectief wonen. Het Justus van Effencomplex groepeert woningen rond gedeelde ruimte. Het ontwerp werd een belangrijk voorbeeld voor de Nederlandse volkshuisvesting.",
-    "category": "architectuur",
-    "latitude": 51.9155555555556,
-    "province": "Zuid-Holland",
-    "longitude": 4.43083333333333,
-    "museum_id": null,
-    "starts_on": null,
-    "visit_notes": "Samengevoegd met Woningbouw Justus van Effenblok (architectuurgids:252). Bronnen en selectie blijven bij dat gepubliceerde record beschikbaar.",
-    "website_url": "https://nl.wikipedia.org/wiki/Justus_van_Effencomplex",
-    "inventory_key": "rce100:Rotterdam:Justus van Effencomplex",
-    "street_address": "",
-    "operating_status": "open",
-    "selection_reason": "Landelijk erkend monument in de RDMZ-selectie uit 1990. De historische lijst is gebruikt voor cultuurhistorische betekenis, niet als bewijs van publieke binnenopenstelling.",
-    "coordinate_source": "https://nl.wikipedia.org/wiki/Justus_van_Effencomplex",
-    "publication_status": "archived",
-    "coordinate_precision": "exact"
-  },
-  {
     "id": "ea8bc3cb-9341-534c-970e-18e8f81d538e",
     "city": "Rotterdam",
     "name": "Witte Huis",
@@ -7788,58 +7598,6 @@
     "selection_reason": "Landelijk erkend monument in de RDMZ-selectie uit 1990. De historische lijst is gebruikt voor cultuurhistorische betekenis, niet als bewijs van publieke binnenopenstelling.",
     "coordinate_source": "https://nl.wikipedia.org/wiki/Witte_Huis_(Rotterdam)",
     "publication_status": "published",
-    "coordinate_precision": "exact"
-  },
-  {
-    "id": "f3a5e0bf-3013-53a4-9f64-42eedef91d12",
-    "city": "Rotterdam",
-    "name": "Kiefhoek",
-    "tags": [
-      "architectuur",
-      "rijksmonument",
-      "historische architectuur",
-      "monumentaal gebouw",
-      "maker: j.j.p. oud"
-    ],
-    "year": "1929",
-    "photos": [
-      {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Achtergevels_-_Rotterdam_-_20192220_-_RCE.jpg/1280px-Achtergevels_-_Rotterdam_-_20192220_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "credit": "Gerard Dukker",
-        "caption": "Kiefhoek — historische opname — Achtergevels - Rotterdam - 20192220 - RCE",
-        "license": "CC BY-SA 4.0",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Achtergevels_-_Rotterdam_-_20192220_-_RCE.jpg"
-      }
-    ],
-    "creator": "J.J.P. Oud",
-    "ends_on": null,
-    "sources": [
-      {
-        "url": "https://nl.wikipedia.org/wiki/Top_100_van_de_Rijksdienst_voor_de_Monumentenzorg",
-        "provider": "Rijksdienst Monumentenzorg · Top 100 (1990)",
-        "retrieved_at": "2026-10-03T18:00:00Z"
-      },
-      {
-        "url": "https://nl.wikipedia.org/wiki/Kiefhoek",
-        "provider": "Wikipedia · objectbeschrijving en bronverwijzingen",
-        "retrieved_at": "2026-10-04T00:00:00Z"
-      }
-    ],
-    "summary": "J.J.P. Oud gaf een Rotterdamse woonwijk een heldere moderne ordening. De Kiefhoek verbindt eenvoudige woningen met zorgvuldig ontworpen hoeken, gevels en voorzieningen. Het dagelijkse wonen staat centraal in het ontwerp.",
-    "category": "architectuur",
-    "latitude": 51.8933333333333,
-    "province": "Zuid-Holland",
-    "longitude": 4.50611111111111,
-    "museum_id": null,
-    "starts_on": null,
-    "visit_notes": "Samengevoegd met Woningbouw Kiefhoek (architectuurgids:284). Bronnen en selectie blijven bij dat gepubliceerde record beschikbaar.",
-    "website_url": "https://nl.wikipedia.org/wiki/Kiefhoek",
-    "inventory_key": "rce100:Rotterdam:Kiefhoek",
-    "street_address": "",
-    "operating_status": "open",
-    "selection_reason": "Landelijk erkend monument in de RDMZ-selectie uit 1990. De historische lijst is gebruikt voor cultuurhistorische betekenis, niet als bewijs van publieke binnenopenstelling.",
-    "coordinate_source": "https://nl.wikipedia.org/wiki/Kiefhoek",
-    "publication_status": "archived",
     "coordinate_precision": "exact"
   },
   {

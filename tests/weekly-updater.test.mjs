@@ -64,7 +64,7 @@ test('mislukt model wordt maximaal eenmaal herhaald; geen oneindige vervolgcyclu
  const opts={dir,sql,model,fetcher};
  assert.equal((await tick({...opts,now:Date.parse('2026-10-29T10:00:00Z')})).status,'continued');
  assert.equal((await tick({...opts,now:Date.parse('2026-10-29T11:00:00Z')})).status,'failed');assert.equal(modelCalls,2);
- const state=JSON.parse(await readFile(path.join(dir,'weekly-state.json'),'utf8'));assert.equal(state.history.a,undefined);
+ const state=JSON.parse(await readFile(path.join(dir,'weekly-state.json'),'utf8'));assert.equal(state.history.a?.last_successful_content_check,undefined);assert.ok(state.history.a?.last_attempted_at);
 }));
 test('daglimiet blokkeert vóór een databaseclaim; geen ongewenste AI-start',()=>fixture(async dir=>{
  await atomicJson(path.join(dir,'usage.json'),{'2026-10-29':{tokens:360000,batches:3}});

@@ -164,3 +164,14 @@ test('primaire recordwebsite mag bewijs leveren, andere host wordt geweigerd',()
  assert.equal(inspectProposal(artifact,bundle).changes,1);
  bundle.records[0].website_url='https://unrelated.test/';assert.throws(()=>inspectProposal(artifact,bundle),/evidence_outside_source/);
 });
+test('gerichte export behoudt versiebeheerredactie en past uitsluitend goedgekeurd veld toe',()=>fixture(async f=>{
+ await f.approve();await applyProposal({file:f.file,sql:f.sql,fetcher:fetchEvidence});
+ const {mkdir}=await import('node:fs/promises');const baseline=path.join(f.dir,'baseline');
+ await mkdir(path.join(baseline,'data/museums'),{recursive:true});await mkdir(path.join(baseline,'data/discovery'),{recursive:true});
+ await atomicJson(path.join(baseline,'data/museums/art-inventory.json'),[]);
+ for(const category of CATEGORIES)await atomicJson(path.join(baseline,'data/discovery',category+'.json'),category==='openbare-kunst'?[{...baseRecord(),category,publication_status:'published',review_notes:'Bewaar deze redactie'}]:[]);
+ const out=path.join(f.dir,'release');await stagePublication({file:f.file,sql:f.sql,directory:out,baselineDirectory:baseline});
+ const rows=JSON.parse(await readFile(path.join(out,'openbare-kunst.json'),'utf8'));assert.equal(rows.length,1);assert.equal(rows[0].review_notes,'Bewaar deze redactie');assert.equal(rows[0].visit_notes,'Onderhoud op woensdag.');assert.equal(rows[0].summary,'Een fontein.');
+ const records=JSON.parse(await readFile(path.join(baseline,'data/discovery/openbare-kunst.json'),'utf8'));records[0].visit_notes='Nieuwe lokale redactie';await atomicJson(path.join(baseline,'data/discovery/openbare-kunst.json'),records);
+ await assert.rejects(stagePublication({file:f.file,sql:f.sql,directory:out,baselineDirectory:baseline}),/baseline_value_conflict/);
+}));
