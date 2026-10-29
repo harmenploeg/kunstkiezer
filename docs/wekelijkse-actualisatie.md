@@ -1,3 +1,11 @@
+> **Uitvoering vanaf de begrensde runner (29 oktober 2026):**
+> Gebruik [updater-batches.md](updater-batches.md) als leidend uitvoeringsprotocol.
+> De onderstaande inhoudelijke selectie- en publicatieregels blijven gelden, maar
+> de historische instructies voor AI-polling, volledige rondes in één sessie en
+> automatisch dossiervervolg gelden niet voor de nieuwe runner. Gewone code
+> controleert de wachtrij; iedere AI-sessie behandelt één begrensde partij.
+> Het actuele weekschema staat uitsluitend in `kk_update_schedule`.
+
 # Wekelijkse actualisatie Kunstkiezer
 
 De afzonderlijke achtergrondtaak **kunstkiezer-wekelijks-actualiseren** controleert iedere vijf minuten de serverwachtrij. De beheerder bepaalt de werkelijke weekdag en tijd in `public.kk_update_schedule` via Beheer. Beginwaarde: maandag **09.00 Europe/Amsterdam**. `Nu updaten` voegt een extra aanvraag toe. Een ongewijzigde controle blijft stil; meld een afgeronde wijziging, fout of benodigde actie. De achtergrondtaak vereist dat de uitvoeromgeving en benodigde verbindingen beschikbaar zijn; de instelling alleen is geen bewijs van een geslaagde toekomstige run.

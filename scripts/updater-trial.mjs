@@ -1,0 +1,12 @@
+import path from 'node:path';
+import {ROOT,PROJECT,managementToken,readiness} from './updater-readiness.mjs';
+import {database,settings,tick} from './weekly-updater.mjs';
+const report=await readiness();
+if(!report.readyForLiveTrial)throw new Error('Proef geblokkeerd: '+report.blockers.join(', '));
+const sql=database(await managementToken(),PROJECT);
+const active=await sql("select id from public.kk_update_runs where status in ('queued','running')");
+if(active.length)throw new Error('Er is al een actieve update; proef niet gestart');
+const config=settings({maxSources:1,maxInstagram:1,maxMinutes:5,maxBatchTokens:30000,maxToolCalls:15});
+const started=Date.now();
+const result=await tick({sql,config,lane:'trial',stateName:'proposal-trial',trialSourceId:'11fountains',dir:path.join(ROOT,'.local-updater')});
+console.log(JSON.stringify({...result,elapsedSeconds:Math.round((Date.now()-started)/1000),automaticFollowup:false},null,2));

@@ -1,0 +1,16 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "low",
+  "maxSources": 4,
+  "maxInstagram": 1,
+  "maxMinutes": 20,
+  "maxInputChars": 16000,
+  "maxPageBytes": 262144,
+  "maxBatchTokens": 120000,
+  "maxDailyTokens": 360000,
+  "maxBatchesPerDay": 3,
+  "maxToolCalls": 30,
+  "maxAttempts": 2,
+  "cooldownMinutes": 30,
+  "weeklySourceLimit": 8
+}

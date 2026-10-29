@@ -23,3 +23,5 @@ work/
 # tussenbestanden van een oogstronde (momentopnamen van externe sites)
 oogst-werk/
 scripts/oogst/__pycache__/
+
+.local-updater/
