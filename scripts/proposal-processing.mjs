@@ -174,6 +174,15 @@ export async function stagePublication({file,sql,directory,baselineDirectory=nul
  const manifest={digest:review.digest,run_id:review.runId,status:'awaiting_controlled_deployment',production:PRODUCTION,files,created_at:new Date().toISOString()};
  await atomicJson(path.join(directory,'manifest.json'),manifest);return manifest;
 }
+export function publiclyVisible(row,table,now=Date.now()){
+ if(row.publication_status!=='published'||row.operating_status!=='open')return false;
+ if(table==='kk_museums')return row.is_art_museum===true;
+ if(row.category!=='evenementen')return true;
+ const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Amsterdam',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(now));
+ const [y,m,d]=today.split('-').map(Number),last=new Date(Date.UTC(y,m+1,0)).getUTCDate();
+ const limit=new Date(Date.UTC(y,m,Math.min(d,last))).toISOString().slice(0,10);
+ return Boolean(row.starts_on&&row.ends_on&&row.ends_on>=today&&row.starts_on<=limit);
+}
 async function verifyPublicationInternal({file,sql,releaseDirectory,fetcher=fetch,deployment=null,verifyDeployment=verifyControlledDeployment}={}){
  const review=await loadReview(file),receipt=await json(file+'.receipt.json',null);
  if(receipt?.digest!==review.digest||!receipt.catalog_changed)throw new Error('database_verification_required');
@@ -193,7 +202,7 @@ async function verifyPublicationInternal({file,sql,releaseDirectory,fetcher=fetc
   const select=['id',...item.fields].join(',');
   const r=await fetcher(`${SUPABASE}/rest/v1/${item.table}?id=eq.${encodeURIComponent(item.row.id)}&select=${select}`,{cache:'no-store',headers:{apikey:config.PUBLIC_SUPABASE_PUBLISHABLE_KEY},redirect:'error',signal:AbortSignal.timeout(15000)});
   if(!r.ok)throw new Error('public_api_unavailable');const rows=await r.json();
-  if(item.row.publication_status==='published'){
+  if(publiclyVisible(item.row,item.table)){
    if(rows.length!==1||item.fields.some(f=>!same(rows[0][f],item.row[f])))throw new Error('public_api_mismatch');
   }else if(rows.length!==0)throw new Error('private_record_exposed');
  }
@@ -209,7 +218,7 @@ async function verifyPublicationInternal({file,sql,releaseDirectory,fetcher=fetc
  // Refuse success if an editor changed the requested values while the external checks ran.
  await rowsAfter(sql,review.artifact,review.bundle);
  await sql(`update public.kk_update_runs set status='completed',finished_at=now(),summary=${q('proposal:'+review.digest+' verified; database, public API'+(publicRecords.length?', controlled production and five downloads':' (private record remains private)'))} where id=${q(review.runId)}::uuid and summary like ${q('proposal:'+review.digest+'%')}`);
- const result={...receipt,status:'verified',published:publicRecords.length>0,verified_at:new Date().toISOString(),deployment};
+ const result={...receipt,status:'verified',last_error:null,published:publicRecords.length>0,verified_at:new Date().toISOString(),deployment};
  await atomicJson(file+'.receipt.json',result);return result;
 }
 

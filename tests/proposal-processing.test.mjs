@@ -175,3 +175,11 @@ test('gerichte export behoudt versiebeheerredactie en past uitsluitend goedgekeu
  const records=JSON.parse(await readFile(path.join(baseline,'data/discovery/openbare-kunst.json'),'utf8'));records[0].visit_notes='Nieuwe lokale redactie';await atomicJson(path.join(baseline,'data/discovery/openbare-kunst.json'),records);
  await assert.rejects(stagePublication({file:f.file,sql:f.sql,directory:out,baselineDirectory:baseline}),/baseline_value_conflict/);
 }));
+test('publieke verificatie volgt RLS voor sluiting, kunstmuseum en Amsterdamse agenda',async()=>{
+ const {publiclyVisible}=await import('../scripts/proposal-processing.mjs');const now=Date.parse('2026-10-29T23:30:00Z');
+ const row={publication_status:'published',operating_status:'open',is_art_museum:true};
+ assert.equal(publiclyVisible(row,'kk_museums',now),true);assert.equal(publiclyVisible({...row,operating_status:'temporarily_closed'},'kk_museums',now),false);assert.equal(publiclyVisible({...row,is_art_museum:false},'kk_museums',now),false);
+ assert.equal(publiclyVisible({...row,category:'evenementen',starts_on:'2026-10-01',ends_on:'2026-10-29'},'kk_discoveries',now),false);
+ assert.equal(publiclyVisible({...row,category:'evenementen',starts_on:'2026-11-30',ends_on:'2026-12-01'},'kk_discoveries',now),true);
+ assert.equal(publiclyVisible({...row,category:'evenementen',starts_on:'2026-12-01',ends_on:'2026-12-02'},'kk_discoveries',now),false);
+});
