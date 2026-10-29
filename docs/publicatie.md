@@ -1,6 +1,6 @@
 # Publiceren naar Loci
 
-Het productiedomein is voorlopig **https://loci-kunstkiezer.pages.dev/**, een eigen Cloudflare Pages-project (`loci-kunstkiezer`). Het subdomein **https://kunstkiezer.loci-amsterdam.nl/** staat al aan het project gekoppeld en volgt zodra de DNS-regel bij Soverin er is (`kunstkiezer` → CNAME → `loci-kunstkiezer.pages.dev`). Tot systeemaudit stap 1.3 (oktober 2026) stond de Kunstkiezer onder `www.loci-amsterdam.nl/kunstkiezer/`. Dat pad verwijst nu met een 301 door naar hetzelfde pad op het eigen domein. De workflow `preview-pages.yml` publiceert alleen `kunstkiezer.pages.dev`; een succesvolle preview-deployment bevestigt geen productiepublicatie.
+Het productiedomein is voorlopig **https://loci-kunstkiezer.pages.dev/**, een eigen Cloudflare Pages-project (`loci-kunstkiezer`). Het subdomein **https://kunstkiezer.loci-amsterdam.nl/** staat al aan het project gekoppeld en volgt zodra de DNS-regel bij Soverin er is (`kunstkiezer` → CNAME → `loci-kunstkiezer.pages.dev`). Tot systeemaudit stap 1.3 (oktober 2026) stond de Kunstkiezer onder `www.loci-amsterdam.nl/kunstkiezer/`. Dat pad verwijst nu met een 301 door naar hetzelfde pad op het eigen domein. Deze repo publiceert zelf niets. Het oude previewproject `kunstkiezer.pages.dev` wordt sinds 26 oktober 2026 niet meer bijgewerkt; de workflows die ernaar publiceerden zijn op 29 oktober verwijderd, samen met hun Cloudflare-sleutel.
 
 Productie gebruikt de gecontroleerde publicatieketen van `harmenploeg/interactief`:
 
