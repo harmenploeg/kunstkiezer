@@ -51,3 +51,15 @@ test('proces onderschept toolpoging en geeft geen credentials door',()=>fixture(
  try{const out=await inferProposal('test',{executable:bin,seconds:2});assert.equal(out.reason,'unexpected_tool');const env=JSON.parse(await readFile(capture,'utf8'));assert.equal(env.key,false);assert.equal(env.token,false);assert.ok(!env.cwd.includes('/work/kunstkiezer'));}
  finally{if(old===undefined)delete process.env.OPENAI_API_KEY;else process.env.OPENAI_API_KEY=old;}
 }));
+test('onleesbare pagina start geen AI en krijgt geen fictieve tokenkosten',()=>fixture(async dir=>{
+ const sql=async()=>[{id:'source1',url:'https://example.test/',enabled:true}];let charged;
+ const reviewer=createProposalReviewer({sql,fetcher:async()=>new Response('',{status:403}),infer:()=>assert.fail('Geen AI bij ontbrekende brontekst')});
+ const out=await reviewer('Bronnenpartij:\n'+JSON.stringify([{source_id:'source1',result_file:path.join(dir,'result.json')}]),{maxBatchTokens:120000},dir,async n=>charged=n);
+ assert.equal(charged,0);assert.equal(out.ai_calls,0);assert.equal(out.usage_estimated,false);assert.equal(out.reason,'no_readable_source_text');
+}));
+test('ontbrekende AI-gebruiksmeting behoudt volledige reservering ook naast gemeten resultaat',()=>fixture(async dir=>{
+ const sql=async q=>q.includes('kk_update_sources')?[{id:'source1',url:'https://example.test/',enabled:true}]:[];let charged,calls=0;
+ const reviewer=createProposalReviewer({sql,fetcher:async()=>new Response('Informatie op de bronpagina.',{headers:{'content-type':'text/html'}}),infer:async()=>++calls===1?{ok:true,tokens:1000,value:{summary:'Geen wijziging.',changes:[],candidates:[]}}:{ok:false,tokens:0,reason:'review_failed'}});
+ const items=[1,2].map(i=>({source_id:'source'+i,result_file:path.join(dir,i+'.json')}));const out=await reviewer('Bronnenpartij:\n'+JSON.stringify(items),{maxBatchTokens:120000},dir,async n=>charged=n);
+ assert.equal(charged,120000);assert.equal(out.ai_calls,2);assert.equal(out.usage_estimated,true);
+}));

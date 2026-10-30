@@ -122,13 +122,16 @@ export async function inferProposal(prompt,{executable=process.env.KUNSTKIEZER_C
 export function createProposalReviewer({sql,fetcher=fetch,infer=inferProposal}={}){
  return async function review(_legacyPrompt,config,resultDir,onUsage){
   const items=JSON.parse(_legacyPrompt.split('Bronnenpartij:\n')[1]);
-  let tokens=0,cached=0,failures=0,lastFailure=null;const artifacts=[],proposedSources=[];
+  let tokens=0,cached=0,failures=0,lastFailure=null,aiCalls=0,unmeasured=false;const artifacts=[],proposedSources=[];
   for(const item of items){
    try{
     const bundle=await prepareBundle(sql,item,fetcher);
     const bundleFile=path.join(resultDir,String(item.source_id).replace(/[^a-zA-Z0-9_-]/g,'_')+'-input.json');
     await atomicJson(bundleFile,bundle);
-    const output=await infer(reviewPrompt(bundle));tokens+=output.tokens||0;cached+=output.cached_input_tokens||0;
+    const prompt=reviewPrompt(bundle);aiCalls++;
+    let output;try{output=await infer(prompt);}catch(e){unmeasured=true;throw e;}
+    if(!Number.isFinite(output.tokens)||output.tokens<=0)unmeasured=true;
+    tokens+=output.tokens||0;cached+=output.cached_input_tokens||0;
     if(!output.ok){lastFailure=output.reason;throw new Error(output.reason);}
     const proposal=validateProposal(output.value,bundle),proposalFile=bundleFile.replace('-input.json','-proposal.json');
     await atomicJson(proposalFile,{...proposal,source_id:item.source_id,usage:output,bundle_file:bundleFile});artifacts.push(proposalFile);proposedSources.push(item.source_id);
@@ -138,7 +141,7 @@ export function createProposalReviewer({sql,fetcher=fetch,infer=inferProposal}={
    }
   }
   // Missing measurements reserve the whole budget; no invisible retry.
-  await onUsage(tokens||config.maxBatchTokens);
-  return {ok:failures===0,reason:lastFailure,tokens,cached_input_tokens:cached,proposals:artifacts,proposed_sources:proposedSources,proposal_only:true};
+  await onUsage(unmeasured?Math.max(tokens,config.maxBatchTokens):tokens);
+  return {ok:failures===0,reason:lastFailure,tokens,cached_input_tokens:cached,ai_calls:aiCalls,usage_estimated:unmeasured,proposals:artifacts,proposed_sources:proposedSources,proposal_only:true};
  };
 }
