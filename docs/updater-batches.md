@@ -156,3 +156,5 @@ nieuwe HTML-lezer kunnen zonder AI plaatsvinden; een geslaagde tekstcontrole is
 nog geen inhoudelijke goedkeuring of publicatie.
 
 Bij bronnen zonder gekoppelde catalogusrecords controleert gewone code eerst of de gelezen tekst kunst, musea, architectuur of tentoonstellingen noemt. Algemeen nieuws zonder die aanwijzing en korte menu-overblijfselen leveren geen AI-aanroep op. Dit eenvoudige filter kan relevante onderwerpen missen; de dekking blijft expliciet gedeeltelijk.
+
+De limiet van drie partijen per dag telt AI-partijen. Een partij die aantoonbaar nul AI-aanroepen deed, geeft zowel de tokenreservering als de partijreservering vrij. Op 30 oktober zijn twee oude foutboekingen met uitsluitend `no_readable_source_text`-checkpoints, zonder AI-invoer of voorstellen, eenmalig gecorrigeerd. Het bewijs, de oorspronkelijke stand en de gecorrigeerde stand staan lokaal in `budget-reconciliation-2026-10-30.json`. Onbekend AI-verbruik is gereserveerd gebleven.

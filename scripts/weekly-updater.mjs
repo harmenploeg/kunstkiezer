@@ -250,6 +250,8 @@ export async function tick({sql,config=DEFAULTS,dir=path.join(ROOT,'.local-updat
         state.usage[chargedDay].tokens+=Math.max(0,used)-config.maxBatchTokens;await save();
       });}catch{outcome={ok:false,reason:'model_start_failed'};}
       state.lastModelOutcome=outcome;
+      // This cap counts AI parties; failed collection without any AI call consumes none.
+      if(outcome.ai_calls===0)state.usage[chargedDay].batches--;
       if(outcome.circuit_error)state.nextAttemptAt=new Date(now+5*3600000).toISOString();
       for(const item of batch){const source=selected.find(s=>s.id===item.source_id),old=state.sources[source.id];
         const previousAttempts=old?.attempts||1;
