@@ -19,7 +19,7 @@ test('kleine partij respecteert uitschakelingen, Instagramlimiet en eerlijke her
 });
 test('dagbudget reserveert ruimte voor hele volgende partij en cooldown',()=>{
  const state=fresh();state.nextAttemptAt='2099-01-01T00:00:00Z';assert.equal(due(state,DEFAULTS),false);
- state.nextAttemptAt=null;state.usage['2026-10-29']={batches:3,tokens:0};
+ state.nextAttemptAt=null;state.usage['2026-10-29']={batches:6,tokens:0};
  assert.equal(due(state,DEFAULTS,Date.parse('2026-10-29T12:00:00Z')),false);
 });
 test('mechanische oogst gebruikt validators; 304 is geen inhoudelijk gelezen bron',async()=>{
@@ -67,7 +67,7 @@ test('mislukt model wordt maximaal eenmaal herhaald; geen oneindige vervolgcyclu
  const state=JSON.parse(await readFile(path.join(dir,'weekly-state.json'),'utf8'));assert.equal(state.history.a?.last_successful_content_check,undefined);assert.ok(state.history.a?.last_attempted_at);
 }));
 test('daglimiet blokkeert vóór een databaseclaim; geen ongewenste AI-start',()=>fixture(async dir=>{
- await atomicJson(path.join(dir,'usage.json'),{'2026-10-29':{tokens:360000,batches:3}});
+ await atomicJson(path.join(dir,'usage.json'),{'2026-10-29':{tokens:720000,batches:6}});
  assert.equal((await tick({dir,now:Date.parse('2026-10-29T10:00:00Z'),sql:()=>assert.fail()})).status,'budget_or_cooldown');
 }));
 test('weekronde leest geen dossiers; expliciete dossierpartij verschuift weekplanning niet',()=>fixture(async dir=>{
@@ -81,7 +81,7 @@ test('weekronde leest geen dossiers; expliciete dossierpartij verschuift weekpla
 
 test('capaciteit maakt zichtbaar dat volledige brondekking langer dan een week duurt',()=>{
  const sources=Array.from({length:227},(_,i)=>source(String(i),{name:'Instagram '+i}));
- assert.equal(capacity(sources).minimumDays,76);
+ assert.equal(capacity(sources).minimumDays,38);
 });
 test('crashherstel importeert afgerond broncheckpoint zonder opnieuw AI te starten',()=>fixture(async dir=>{
  const s=source('a'),file=path.join(dir,'saved.json');
@@ -115,7 +115,7 @@ test('zestien bronnen behouden één vervolg bij daglimiet en hervatten dezelfde
  const sql=async q=>(await db.exec(q)).at(-1)?.rows||[],seen=[];
  const model=async(prompt,c,d,charge)=>{const batch=JSON.parse(prompt.split('Bronnenpartij:\n')[1]);assert.equal(batch.length,4);
  for(const item of batch){seen.push(item.source_id);await atomicJson(item.result_file,{source_id:item.source_id,status:'read',summary:'klaar',urls:['https://example.test/proof'],window_complete:true,catalog_changed:false,publication_verified:false});}await charge(1000);return {ok:true,ai_calls:4};};
- const opts={dir,sql,model,config:settings(),fetcher:async()=>new Response('',{status:403})};let cycle;
+ const opts={dir,sql,model,config:settings({maxBatchesPerDay:3,maxDailyTokens:360000}),fetcher:async()=>new Response('',{status:403})};let cycle;
  for(const hour of [10,11,12]){
   assert.equal((await tick({...opts,now:Date.parse(`2026-11-02T${hour}:00:00Z`)})).status,'continued');
   assert.equal((await db.query("select * from public.kk_update_runs where status='queued'")).rows.length,1);
