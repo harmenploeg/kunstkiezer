@@ -20,7 +20,7 @@
     "inventory:imports": "node scripts/generate-museum-imports.mjs",
     "pretest": "node scripts/generate-museum-imports.mjs && node scripts/generate-discovery-imports.mjs",
     "inventory:discovery": "node scripts/generate-discovery-imports.mjs",
-    "test:updater": "node --test tests/source-reader.test.mjs tests/weekly-updater.test.mjs tests/updater-readiness.test.mjs tests/proposal-reviewer.test.mjs tests/proposal-processing.test.mjs",
+    "test:updater": "node --test tests/automatic-publication.test.mjs tests/source-reader.test.mjs tests/weekly-updater.test.mjs tests/updater-readiness.test.mjs tests/proposal-reviewer.test.mjs tests/proposal-processing.test.mjs",
     "updater:status": "node scripts/weekly-updater.mjs status",
     "updater:tick": "node scripts/weekly-updater.mjs tick",
     "updater:backlog": "node scripts/weekly-updater.mjs backlog-tick",

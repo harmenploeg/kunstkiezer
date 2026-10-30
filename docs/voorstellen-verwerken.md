@@ -1,3 +1,5 @@
+> **Automatische opvolging vanaf 30 oktober 2026:** op verzoek van de beheerder verwerkt de lokale runner voortaan ondersteunde feitelijke correcties automatisch volgens `primary-facts-v1`. Zie [automatische-publicatie.md](automatische-publicatie.md). De onderstaande handmatige route blijft beschikbaar voor vrije tekst, kandidaten en uitzonderingen. Alle conflict-, audit-, CI- en productiecontroles blijven verplicht.
+
 # Voorstellen gecontroleerd verwerken
 
 Deze route verwerkt bestaande recordwijzigingen uit de voorstelbeoordelaar. De AI
@@ -114,8 +116,7 @@ oude successtatus niet stilzwijgend laten staan als productie inmiddels afwijkt.
 
 ## Bewust buiten deze stap
 
-De weekautomatisering blijft uit. Goedkeuring van een concreet voorstel is nog
-steeds een redactionele stap. Nieuwe kandidaten vereisen complete gegevens en
+De weekautomatisering staat aan. Ondersteunde feitelijke correcties hebben voorafgaande beheerderautorisatie volgens `primary-facts-v1`; overige wijzigingen vereisen nog redactionele beoordeling. Nieuwe kandidaten vereisen complete gegevens en
 selectiecontrole vóór toevoeging. Er wordt niet beweerd dat een beperkte
 bronsteekproef volledige weekdekking oplevert.
 

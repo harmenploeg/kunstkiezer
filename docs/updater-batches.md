@@ -1,3 +1,5 @@
+> **Automatische opvolging vanaf 30 oktober 2026:** bronbeoordelingen schrijven uitsluitend voorstellen. Een afzonderlijke gewone publicatierunner verwerkt ondersteunde feitelijke correcties na de verzamelronde automatisch via de bestaande gecontroleerde keten. Zie [automatische-publicatie.md](automatische-publicatie.md). AI krijgt geen schrijfrechten; nieuwe kandidaten en vrije tekst blijven ter beoordeling.
+
 # Begrensde Kunstkiezer-updater — voorstelroute
 
 De liveproef van 29 oktober 2026 toonde aan dat een zelfstandige onderzoeksagent

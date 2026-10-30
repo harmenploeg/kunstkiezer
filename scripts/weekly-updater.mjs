@@ -118,7 +118,7 @@ export function database(token,project) {
       body:JSON.stringify({query}),signal:AbortSignal.timeout(30000)});
     if(!r.ok){
       const detail=await r.text();
-      const known=['record_version_conflict','original_value_conflict','source_changed_or_disabled','another_update_is_active','proposal_run_identity_mismatch'].find(code=>detail.includes(code));
+      const known=['record_version_conflict','record_website_conflict','original_value_conflict','source_changed_or_disabled','another_update_is_active','proposal_run_identity_mismatch'].find(code=>detail.includes(code));
       throw new Error(known||`Databaseverbinding mislukt (${r.status}); geen inhoud gelogd`);
     }
     return r.json();
