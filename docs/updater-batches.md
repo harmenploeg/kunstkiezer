@@ -122,3 +122,37 @@ bestanden voor beoordeling. De computer moet aan staan en de gebruiker aangemeld
 Een verlopen Supabase-token moet via de Sleutelhanger worden vernieuwd; de runner stopt
 dan vóór een AI-start. Er worden geen afzonderlijk betaalde OpenAI-API-aanroepen gebruikt.
 De invoer en looptijd zijn begrensd; een harde totale Codex-tokenlimiet is niet beschikbaar.
+
+## Betrouwbaarder bronnenonderzoek (30 oktober 2026)
+
+De voorstelroute haalt een pagina eenmaal op; de oude dubbele mechanische oogst
+is voor deze route vervallen. Een bronpakket bevat maximaal de hoofdpagina en twee
+vervolgpagina's. Per pagina geldt dezelfde grens van 128 KiB gelezen HTML en 4.000
+bytes tekst; de AI-invoer blijft maximaal 12.000 bytes. Grotere HTML mag een
+bruikbare gelezen passage opleveren, maar wordt expliciet als afgebroken gemarkeerd.
+Hoofdinhoud krijgt voorrang op menu's, scripts en voetteksten.
+
+Maximaal drie HTTPS-redirects binnen dezelfde bronhost (met of zonder www) zijn
+toegestaan. Andere hosts, poorten, credentials, HTTP en cookiepoorten worden niet
+gevolgd. De uiteindelijke URL gaat mee als bewijs. Bron-, netwerk-, toegangs- en
+Codex-fouten krijgen afzonderlijke foutcodes; ruwe Codex-foutteksten worden niet
+bewaard. De CLI-stream wordt volledig uitgelezen, inclusief een laatste event zonder
+newline, zodat eindresultaten en gebruiksmetingen niet bij procesafsluiting wegvallen.
+
+Kunst- en instellingsbronnen krijgen voorrang op algemene kranten en Wikipedia/Commons.
+Binnen die groepen roteert de selectie zoals eerder. Permanent geblokkeerde bronnen
+worden in dezelfde ronde niet opnieuw geprobeerd en wachten zeven dagen; tijdelijke
+bronproblemen wachten na de ronde één dag. Een gewijzigde bronconfiguratie maakt de
+blokkade ongeldig. Uitgestelde bronnen blijven zichtbaar; dit is geen volledige dekking.
+
+Een Codex-gebruiks-, aanmeldings-, configuratie- of beschikbaarheidsfout stopt verdere
+AI-starts binnen de partij. Overige bronnen uit die partij worden expliciet uitgesteld.
+De runner wacht vervolgens vijf uur vóór een vervolg. Dagbudget, partijgrootte,
+looptijd en model zijn ongewijzigd. Een vijfuurspauze garandeert niet dat een
+accountlimiet daarna is hersteld. De gebruikersmelding vermeldt per bron de foutcode.
+
+De eerder mislukte ronde wordt niet automatisch opnieuw gestart. Controles van de
+nieuwe HTML-lezer kunnen zonder AI plaatsvinden; een geslaagde tekstcontrole is
+nog geen inhoudelijke goedkeuring of publicatie.
+
+Bij bronnen zonder gekoppelde catalogusrecords controleert gewone code eerst of de gelezen tekst kunst, musea, architectuur of tentoonstellingen noemt. Algemeen nieuws zonder die aanwijzing en korte menu-overblijfselen leveren geen AI-aanroep op. Dit eenvoudige filter kan relevante onderwerpen missen; de dekking blijft expliciet gedeeltelijk.

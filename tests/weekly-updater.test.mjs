@@ -137,3 +137,16 @@ test('weeksteekproef is begrensd, sluit onleesbare bronnen uit en roteert oudste
  const history=Object.fromEntries(first.map(id=>[id,{last_proposed_at:'2026-10-29T12:00:00Z'}]));
  assert.deepEqual(weeklyTargets(sources,{history},DEFAULTS).slice(0,4),['08','09','10','11']);
 });
+test('kunstbronnen krijgen voorrang en vastgelopen bronnen wachten tot cooldown of bronwijziging',async()=>{
+ const {weeklyTargets}=await import('../scripts/weekly-updater.mjs');const sources=[source('krant-ad'),source('commons',{url:'https://commons.wikimedia.org/'}),source('museum')];
+ assert.equal(weeklyTargets(sources,fresh(),settings({weeklySourceLimit:1}))[0],'museum');
+ await fixture(async dir=>{
+  const sql=async q=>q.includes('kk_update_sources')?[source('museum')]:q.includes('claim_update')?[{id:'00000000-0000-4000-8000-000000000001'}]:[];let fetches=0;
+  const out=await tick({dir,sql,fetcher:async()=>{fetches++;return new Response(null,{status:403});},now:Date.parse('2026-10-30T10:00:00Z')});
+  assert.equal(out.status,'failed');assert.equal(fetches,1,'standaard voorstelroute doet geen dubbele harvest');
+  const state=JSON.parse(await readFile(path.join(dir,'weekly-state.json')));assert.equal(state.sources.museum.retryable,false);assert.equal(selectSources([source('museum')],state).length,0);assert.equal(state.usage['2026-10-30'].tokens,0);
+  assert.deepEqual(weeklyTargets([source('museum')],state,DEFAULTS,Date.parse('2026-11-02T10:00:00Z')),[]);
+  assert.deepEqual(weeklyTargets([source('museum',{updated_at:'changed'})],state,DEFAULTS,Date.parse('2026-11-02T10:00:00Z')),['museum']);
+  assert.deepEqual(weeklyTargets([source('museum')],state,DEFAULTS,Date.parse('2026-11-07T10:00:00Z')),['museum']);
+ });
+});

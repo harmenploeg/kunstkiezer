@@ -3,7 +3,8 @@ import {mkdtemp,readFile,rm,writeFile} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import {tmpdir} from 'node:os';
 import path from 'node:path';
-import {atomicJson,textFromHtml} from './weekly-updater.mjs';
+import {atomicJson} from './weekly-updater.mjs';
+import {allowedSourceUrl as allowedUrl,readSourcePage} from './source-reader.mjs';
 
 export const REVIEW_LIMITS=Object.freeze({inputBytes:12000,outputBytes:5000,seconds:45,pages:3,pageBytes:131072,records:6});
 const quote=s=>"'"+String(s).replaceAll("'","''")+"'";
@@ -20,21 +21,8 @@ export function reviewPrompt(bundle){
  if(Buffer.byteLength(prompt)>REVIEW_LIMITS.inputBytes)throw new Error('input_limit');
  return prompt;
 }
-function allowedUrl(value,base){
- try{const u=new URL(value,base),b=new URL(base);return u.protocol==='https:'&&u.hostname.replace(/^www\./,'')===b.hostname.replace(/^www\./,'')&&!u.username&&!u.password?u:null;}catch{return null;}
-}
 export async function fetchPage(url,fetcher=fetch){
- try{
-  const r=await fetcher(url,{redirect:'error',signal:AbortSignal.timeout(10000),headers:{'User-Agent':'Kunstkiezer-ProposalReview/2.0'}});
-  if(!r.ok||!r.headers.get('content-type')?.includes('text/html'))return null;
-  const reader=r.body.getReader(),parts=[];let bytes=0;
-  try{while(true){const {done,value}=await reader.read();if(done)break;bytes+=value.length;if(bytes>REVIEW_LIMITS.pageBytes){await reader.cancel();return null;}parts.push(Buffer.from(value));}}
-  finally{reader.releaseLock();}
-  const html=Buffer.concat(parts).toString('utf8');
-  const links=[...html.matchAll(/<a\b[^>]*href=["']([^"']+)["']/gi)].map(m=>allowedUrl(m[1],url)).filter(Boolean)
-   .filter(u=>/faq|agenda|programma|nieuws|blog|tentoon|expos/i.test(u.pathname)).map(u=>u.href.split('#')[0]);
-  return {url,text:clip(textFromHtml(html),4000),links:[...new Set(links)].slice(0,8),fetched_at:new Date().toISOString()};
- }catch{return null;}
+ const result=await readSourcePage(url,fetcher);return result.page||null;
 }
 export async function prepareBundle(sql,item,fetcher=fetch){
  const source=(await sql(`select id,name,url,notes,enabled,updated_at from public.kk_update_sources where id=${quote(item.source_id)}`))[0];
@@ -49,14 +37,18 @@ export async function prepareBundle(sql,item,fetcher=fetch){
  union all
  select 'kk_discoveries',id,name,website_url,summary,visit_notes,starts_on::text,ends_on::text,operating_status,updated_at from public.kk_discoveries where website_url ilike ${pattern} or sources::text ilike ${pattern}
  ) relevant order by name,id limit ${REVIEW_LIMITS.records+1}`);
- const first=await fetchPage(base.href,fetcher),pages=[];
- if(first){pages.push(first);for(const u of first.links){if(pages.length>=REVIEW_LIMITS.pages)break;const p=await fetchPage(u,fetcher);if(p)pages.push(p);}}
- if(!pages.length)throw new Error('no_readable_source_text');
+ const first=await readSourcePage(base.href,fetcher),pages=[],collectionErrors=[];
+ if(!first.page)throw new Error(first.status);
+ pages.push(first.page);
+ for(const u of first.page.links.slice(0,REVIEW_LIMITS.pages-1)){
+  const result=await readSourcePage(u,fetcher);if(result.page&&!pages.some(p=>p.url===result.page.url))pages.push(result.page);else if(!result.page)collectionErrors.push({url:u,reason:result.status});
+ }
+ if(!records.length&&!pages.some(p=>/kunst|museum|tentoonstelling|expositie|architectuur|beeldhouw|beeldentuin|sculptu|art\b|exhibition/i.test(p.text)))throw new Error('no_art_content');
  const bundle={source:{id:source.id,name:source.name,url:source.url,updated_at:source.updated_at,notes:clip(source.notes,500)},
   window_from:item.window_from,window_to:item.window_to,coverage:'partial',records_truncated:records.length>REVIEW_LIMITS.records,
-  records:records.slice(0,REVIEW_LIMITS.records),pages:pages.map(({url,text,fetched_at})=>({url,text,fetched_at}))};
+  collection_errors:collectionErrors,records:records.slice(0,REVIEW_LIMITS.records),pages:pages.map(({url,text,fetched_at,html_truncated,text_truncated})=>({url,text,fetched_at,html_truncated,text_truncated}))};
  // Explicitly record every truncation; never silently remove records to fit.
- bundle.text_truncated=false;
+ bundle.text_truncated=pages.some(p=>p.html_truncated||p.text_truncated);
  for(const n of [2200,1500,900,400,100]){
   for(const p of bundle.pages)p.text=clip(p.text,n);
   try{reviewPrompt(bundle);return bundle;}catch(e){if(e.message!=='input_limit')throw e;bundle.text_truncated=true;}
@@ -86,6 +78,18 @@ export function reviewerArgs(cwd,schemaFile){
  for(const f of ['plugins','apps','shell_tool','unified_exec','code_mode_host','computer_use','browser_use','browser_use_external','view_image','multi_agent','sleep_tool','image_generation','hooks','skill_search','memories'])args.push('--disable',f);
  args.push('--enable','skip_host_skill_discovery','-');return args;
 }
+export function classifyReviewError(message){
+ const text=String(message||'');
+ if(/rate.?limit|usage.?limit|quota|too many requests|429|limit_reached/i.test(text))return 'rate_limited';
+ if(/unauthori[sz]ed|401|not logged in|authentication|login required|token.*expired/i.test(text))return 'authentication_required';
+ if(/invalid.*schema|schema.*invalid/i.test(text))return 'schema_rejected';
+ if(/unexpected argument|unrecognized.*(?:option|feature)|unknown.*(?:option|feature)|invalid.*config/i.test(text))return 'cli_incompatible';
+ if(/503|overloaded|temporarily unavailable|server_error/i.test(text))return 'provider_unavailable';
+ if(/ENOTFOUND|ECONNRESET|ECONNREFUSED|network|connection|fetch failed/i.test(text))return 'network_error';
+ return 'review_failed';
+}
+const circuitErrors=new Set(['rate_limited','authentication_required','schema_rejected','cli_incompatible','cli_unavailable','provider_unavailable']);
+const permanentErrors=new Set(['access_blocked','consent_required','external_redirect','redirect_loop','redirect_limit','invalid_redirect','unsupported_url','unsupported_content','insufficient_text','no_art_content','truncated_before_content','http_error','source_disabled_or_missing','source_requires_separate_collection','unverified_evidence','invalid_proposal','invalid_record_change']);
 export async function inferProposal(prompt,{executable=process.env.KUNSTKIEZER_CODEX_BIN||'codex',seconds=REVIEW_LIMITS.seconds}={}){
  if(Buffer.byteLength(prompt)>REVIEW_LIMITS.inputBytes)throw new Error('input_limit');
  const dir=await mkdtemp(path.join(tmpdir(),'kunstkiezer-review-'));
@@ -95,26 +99,33 @@ export async function inferProposal(prompt,{executable=process.env.KUNSTKIEZER_C
   const child=spawn(executable,reviewerArgs(dir,schemaFile),{env,stdio:['pipe','pipe','pipe'],detached:true});
   // Independent deadline enforcement also survives a crashed parent runner.
   if(child.pid){const watcher=spawn(process.execPath,[fileURLToPath(new URL('./weekly-updater.mjs',import.meta.url)),'watchdog',String(child.pid),String(process.pid),String(Date.now()+seconds*1000)],{env:{PATH:process.env.PATH},stdio:'ignore',detached:true});watcher.on('error',()=>{});watcher.unref();}
-  let buffer='',final='',tokens=0,cached=0,reason=null,stderr='';
+  let buffer='',final='',tokens=0,cached=0,reason=null,stderr='',streamError=null,usageMeasured=false,eventBytes=0;
   const stop=r=>{reason??=r;try{process.kill(-child.pid,'SIGKILL');}catch{}};
   const timer=setTimeout(()=>stop('time_limit'),seconds*1000);
   const abort=()=>stop('interrupted');process.once('SIGTERM',abort);process.once('SIGINT',abort);
-  child.stdout.on('data',chunk=>{
-   buffer+=chunk.toString();if(buffer.length>65536){stop('event_output_limit');return;}
-   let n;while((n=buffer.indexOf('\n'))>=0){const line=buffer.slice(0,n);buffer=buffer.slice(n+1);let e;try{e=JSON.parse(line);}catch{continue;}
-    if(e.type==='item.started'||e.type==='item.completed'){
-     if(['command_execution','mcp_tool_call','web_search','file_change','collab_tool_call'].includes(e.item?.type))stop('unexpected_tool');
-     if(e.item?.type==='agent_message'&&e.item.text){if(Buffer.byteLength(e.item.text)>REVIEW_LIMITS.outputBytes)stop('output_limit');else final=e.item.text;}
-    }
-    if(e.type==='turn.completed'&&e.usage){tokens+=(e.usage.input_tokens||0)+(e.usage.output_tokens||0);cached+=e.usage.cached_input_tokens||0;}
+  const event=line=>{let e;try{e=JSON.parse(line);}catch{return;}
+   if(e.type==='error'||e.type==='turn.failed'){
+    streamError=classifyReviewError(e.error?.message||e.error?.code||e.message||'');
+    if(e.type==='turn.failed')reason??=streamError;
    }
+   if(e.type==='item.started'||e.type==='item.completed'){
+    if(['command_execution','mcp_tool_call','web_search','file_change','collab_tool_call'].includes(e.item?.type))stop('unexpected_tool');
+    if(e.item?.type==='agent_message'&&e.item.text){if(Buffer.byteLength(e.item.text)>REVIEW_LIMITS.outputBytes)stop('output_limit');else final=e.item.text;}
+   }
+   if(e.type==='turn.completed'&&e.usage){usageMeasured=true;tokens+=(e.usage.input_tokens||0)+(e.usage.output_tokens||0);cached+=e.usage.cached_input_tokens||0;}
+  };
+  child.stdout.setEncoding('utf8');
+  child.stdout.on('data',chunk=>{
+   eventBytes+=Buffer.byteLength(chunk);if(eventBytes>262144){stop('event_output_limit');return;}
+   buffer+=chunk.toString();if(Buffer.byteLength(buffer)>65536&&!buffer.includes('\n')){stop('event_output_limit');return;}
+   let n;while((n=buffer.indexOf('\n'))>=0){event(buffer.slice(0,n));buffer=buffer.slice(n+1);}
   });
   // Used only for a non-sensitive error classification; never write raw command logs.
   child.stderr.on('data',c=>{stderr=(stderr+c.toString()).slice(-2000);});child.stdin.on('error',()=>{});child.stdin.end(prompt);
-  let code;try{code=await new Promise((resolve,reject)=>{child.once('exit',resolve);child.once('error',reject);});}
+  let code,exitSignal=null;try{code=await new Promise(resolve=>{child.once('close',(exit,signal)=>{exitSignal=signal;resolve(exit);});child.once('error',()=>{reason='cli_unavailable';resolve(null);});});if(buffer.trim())event(buffer);}
   finally{clearTimeout(timer);process.removeListener('SIGTERM',abort);process.removeListener('SIGINT',abort);}
-  const measured={tokens,cached_input_tokens:cached,input_bytes:Buffer.byteLength(prompt)};
-  if(reason||code!==0||!final)return {ok:false,reason:reason||(/invalid.*schema/i.test(stderr)?'schema_rejected':'review_failed'),...measured};
+  const measured={tokens,cached_input_tokens:cached,input_bytes:Buffer.byteLength(prompt),usage_measured:usageMeasured,exit_code:code,exit_signal:exitSignal};
+  if(reason||code!==0||!final)return {ok:false,reason:reason||streamError||classifyReviewError(stderr),...measured};
   let value;try{value=JSON.parse(final);}catch{return {ok:false,reason:'invalid_json',...measured};}
   return {ok:true,value,...measured};
  }finally{await rm(dir,{recursive:true,force:true});}
@@ -123,25 +134,30 @@ export function createProposalReviewer({sql,fetcher=fetch,infer=inferProposal}={
  return async function review(_legacyPrompt,config,resultDir,onUsage){
   const items=JSON.parse(_legacyPrompt.split('Bronnenpartij:\n')[1]);
   let tokens=0,cached=0,failures=0,lastFailure=null,aiCalls=0,unmeasured=false;const artifacts=[],proposedSources=[];
+  let circuit=null;
   for(const item of items){
+   let diagnostic=null;
    try{
+    if(circuit)throw new Error('deferred_'+circuit);
     const bundle=await prepareBundle(sql,item,fetcher);
     const bundleFile=path.join(resultDir,String(item.source_id).replace(/[^a-zA-Z0-9_-]/g,'_')+'-input.json');
     await atomicJson(bundleFile,bundle);
     const prompt=reviewPrompt(bundle);aiCalls++;
     let output;try{output=await infer(prompt);}catch(e){unmeasured=true;throw e;}
-    if(!Number.isFinite(output.tokens)||output.tokens<=0)unmeasured=true;
+    if(output.usage_measured===false||!Number.isFinite(output.tokens)||output.tokens<=0)unmeasured=true;
+    diagnostic={reason:output.reason||null,exit_code:output.exit_code??null,usage_measured:output.usage_measured??false};
     tokens+=output.tokens||0;cached+=output.cached_input_tokens||0;
     if(!output.ok){lastFailure=output.reason;throw new Error(output.reason);}
     const proposal=validateProposal(output.value,bundle),proposalFile=bundleFile.replace('-input.json','-proposal.json');
     await atomicJson(proposalFile,{...proposal,source_id:item.source_id,usage:output,bundle_file:bundleFile});artifacts.push(proposalFile);proposedSources.push(item.source_id);
     await atomicJson(item.result_file,{source_id:item.source_id,proposal_file:proposalFile,status:'partial',summary:clip(`Voorstel gereed voor redactie; geen publicatie. ${proposal.summary} Voorstel: ${proposalFile}`,1900),urls:bundle.pages.map(p=>p.url),window_complete:false,catalog_changed:false,publication_verified:false});
    }catch(e){failures++;lastFailure=e.message;
-    await atomicJson(item.result_file,{source_id:item.source_id,status:'partial',summary:'Geen geldig voorstel: '+e.message,urls:[],window_complete:false,catalog_changed:false,publication_verified:false});
+    if(circuitErrors.has(e.message))circuit=e.message;
+    await atomicJson(item.result_file,{source_id:item.source_id,status:circuit||permanentErrors.has(e.message)?'blocked':'partial',summary:'Geen geldig voorstel: '+e.message,error_code:e.message,retryable:!circuit&&!permanentErrors.has(e.message),diagnostic,urls:[],window_complete:false,catalog_changed:false,publication_verified:false});
    }
   }
   // Missing measurements reserve the whole budget; no invisible retry.
   await onUsage(unmeasured?Math.max(tokens,config.maxBatchTokens):tokens);
-  return {ok:failures===0,reason:lastFailure,tokens,cached_input_tokens:cached,ai_calls:aiCalls,usage_estimated:unmeasured,proposals:artifacts,proposed_sources:proposedSources,proposal_only:true};
+  return {ok:failures===0,reason:lastFailure,tokens,cached_input_tokens:cached,ai_calls:aiCalls,usage_estimated:unmeasured,circuit_error:circuit,proposals:artifacts,proposed_sources:proposedSources,proposal_only:true};
  };
 }

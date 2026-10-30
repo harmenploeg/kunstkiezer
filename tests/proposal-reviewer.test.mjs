@@ -55,11 +55,38 @@ test('onleesbare pagina start geen AI en krijgt geen fictieve tokenkosten',()=>f
  const sql=async()=>[{id:'source1',url:'https://example.test/',enabled:true}];let charged;
  const reviewer=createProposalReviewer({sql,fetcher:async()=>new Response('',{status:403}),infer:()=>assert.fail('Geen AI bij ontbrekende brontekst')});
  const out=await reviewer('Bronnenpartij:\n'+JSON.stringify([{source_id:'source1',result_file:path.join(dir,'result.json')}]),{maxBatchTokens:120000},dir,async n=>charged=n);
- assert.equal(charged,0);assert.equal(out.ai_calls,0);assert.equal(out.usage_estimated,false);assert.equal(out.reason,'no_readable_source_text');
+ assert.equal(charged,0);assert.equal(out.ai_calls,0);assert.equal(out.usage_estimated,false);assert.equal(out.reason,'access_blocked');
 }));
 test('ontbrekende AI-gebruiksmeting behoudt volledige reservering ook naast gemeten resultaat',()=>fixture(async dir=>{
  const sql=async q=>q.includes('kk_update_sources')?[{id:'source1',url:'https://example.test/',enabled:true}]:[];let charged,calls=0;
- const reviewer=createProposalReviewer({sql,fetcher:async()=>new Response('Informatie op de bronpagina.',{headers:{'content-type':'text/html'}}),infer:async()=>++calls===1?{ok:true,tokens:1000,value:{summary:'Geen wijziging.',changes:[],candidates:[]}}:{ok:false,tokens:0,reason:'review_failed'}});
+ const reviewer=createProposalReviewer({sql,fetcher:async()=>new Response('Informatie over het museum op de bronpagina.',{headers:{'content-type':'text/html'}}),infer:async()=>++calls===1?{ok:true,tokens:1000,value:{summary:'Geen wijziging.',changes:[],candidates:[]}}:{ok:false,tokens:0,reason:'review_failed'}});
  const items=[1,2].map(i=>({source_id:'source'+i,result_file:path.join(dir,i+'.json')}));const out=await reviewer('Bronnenpartij:\n'+JSON.stringify(items),{maxBatchTokens:120000},dir,async n=>charged=n);
  assert.equal(charged,120000);assert.equal(out.ai_calls,2);assert.equal(out.usage_estimated,true);
+}));
+test('bronnenverzameling probeert hoogstens twee vervolgpagina’s en bewaart ophaalbeperkingen',async()=>{
+ const sql=async q=>q.includes('kk_update_sources')?[{id:'source1',url:'https://example.test/',enabled:true}]:[];let calls=0;
+ const b=await prepareBundle(sql,{source_id:'source1'},async()=>{calls++;return calls===1?new Response('<main>Er zijn nieuwe tentoonstellingen en actuele bezoekregels.</main>'+Array.from({length:8},(_,i)=>`<a href="/agenda/${i}">Agenda</a>`).join(''),{headers:{'content-type':'text/html'}}):new Response(null,{status:403});});
+ assert.equal(calls,3);assert.equal(b.pages.length,1);assert.equal(b.collection_errors.length,2);assert.equal(b.collection_errors[0].reason,'access_blocked');
+});
+test('Codex-fouten worden uit JSON-events geclassificeerd; geen onnodige volgende AI-start',()=>fixture(async dir=>{
+ const bin=path.join(dir,'fake-codex');await writeFile(bin,`#!${process.execPath}\nprocess.stdout.write(JSON.stringify({type:'turn.failed',error:{message:'Usage limit reached; secret must not be logged'}}));process.exitCode=1;`);await chmod(bin,0o700);
+ const failure=await inferProposal('test',{executable:bin,seconds:2});assert.equal(failure.reason,'rate_limited');assert.equal(failure.exit_code,1);assert.equal(failure.usage_measured,false);assert.ok(!JSON.stringify(failure).includes('secret'));
+ const sql=async q=>q.includes('kk_update_sources')?[{id:'source1',url:'https://example.test/',enabled:true}]:[];let calls=0;
+ const reviewer=createProposalReviewer({sql,fetcher:async()=>new Response('Actuele bezoekinformatie en tentoonstellingen in het museum.',{headers:{'content-type':'text/html'}}),infer:async()=>{calls++;return failure;}});
+ const items=[1,2,3,4].map(i=>({source_id:'source'+i,result_file:path.join(dir,i+'.json')}));const out=await reviewer('Bronnenpartij:\n'+JSON.stringify(items),{maxBatchTokens:120000},dir,async()=>{});
+ assert.equal(calls,1);assert.equal(out.circuit_error,'rate_limited');assert.equal(out.ai_calls,1);const deferred=JSON.parse(await readFile(items[1].result_file));assert.equal(deferred.retryable,false);assert.equal(deferred.error_code,'deferred_rate_limited');
+}));
+test('volledig laatste JSON-event zonder newline wordt verwerkt vóór procesafsluiting',()=>fixture(async dir=>{
+ const bin=path.join(dir,'fake-codex');await writeFile(bin,`#!${process.execPath}\nprocess.stdout.write(JSON.stringify({type:'item.completed',item:{type:'agent_message',text:JSON.stringify({summary:'Geen wijziging.',changes:[],candidates:[]})}})+'\\n'+JSON.stringify({type:'turn.completed',usage:{input_tokens:123,output_tokens:4}}));`);await chmod(bin,0o700);
+ const output=await inferProposal('test',{executable:bin,seconds:2});assert.equal(output.ok,true);assert.equal(output.tokens,127);assert.equal(output.usage_measured,true);
+}));
+test('algemeen nieuws zonder kunstinhoud of gekoppelde catalogusrecords start geen AI',()=>fixture(async dir=>{
+ const sql=async q=>q.includes('kk_update_sources')?[{id:'krant1',url:'https://example.test/',enabled:true}]:[];
+ const reviewer=createProposalReviewer({sql,fetcher:async()=>new Response('<main>De gasprijs stijgt en de productie in de industrie loopt terug.</main>',{headers:{'content-type':'text/html'}}),infer:()=>assert.fail('Geen AI voor niet-relevante nieuwsinhoud')});let charged;
+ const result=await reviewer('Bronnenpartij:\n'+JSON.stringify([{source_id:'krant1',result_file:path.join(dir,'result.json')}]),{maxBatchTokens:120000},dir,async n=>charged=n);
+ assert.equal(result.reason,'no_art_content');assert.equal(result.ai_calls,0);assert.equal(charged,0);
+}));
+test('gesplitste UTF-8 in CLI-output blijft intact voor letterlijke bewijsvergelijking',()=>fixture(async dir=>{
+ const bin=path.join(dir,'fake-codex');await writeFile(bin,`#!${process.execPath}\nconst text=JSON.stringify({type:'item.completed',item:{type:'agent_message',text:JSON.stringify({summary:'Museumbezoek kost € 12.',changes:[],candidates:[]})}});const bytes=Buffer.from(text);const i=bytes.indexOf(Buffer.from('€'))+1;process.stdout.write(bytes.subarray(0,i));setTimeout(()=>process.stdout.write(bytes.subarray(i)),20);`);await chmod(bin,0o700);
+ const result=await inferProposal('test',{executable:bin,seconds:2});assert.equal(result.ok,true);assert.equal(result.value.summary,'Museumbezoek kost € 12.');
 }));
