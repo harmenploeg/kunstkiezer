@@ -110,9 +110,9 @@ De schrijver, goedkeuring, audit, hervatting en productiecontrole zijn nu uitgew
 in [voorstellen-verwerken.md](voorstellen-verwerken.md). De beoordelaar blijft
 alleen voorstellen maken; verwerken vereist het expliciet goedgekeurde voorstel.
 
-## Actieve weeksteekproef (29 oktober 2026)
+## Actieve weeksteekproef (bijgewerkt 30 oktober 2026)
 
-De weekronde behandelt maximaal acht actieve HTTPS-webbronnen, in partijen van vier.
+De weekronde behandelt maximaal zestien actieve HTTPS-webbronnen, in partijen van vier.
 Instagram en RSS/Mailchimp worden niet automatisch door deze tekstbeoordelaar gelezen.
 De selectie roteert op de oudste voorstelcontrole; niet geselecteerde bronnen staan
 expliciet als uitgesteld in het rapport. Dit is geen volledige wekelijkse brondekking.
@@ -158,3 +158,5 @@ nog geen inhoudelijke goedkeuring of publicatie.
 Bij bronnen zonder gekoppelde catalogusrecords controleert gewone code eerst of de gelezen tekst kunst, musea, architectuur of tentoonstellingen noemt. Algemeen nieuws zonder die aanwijzing en korte menu-overblijfselen leveren geen AI-aanroep op. Dit eenvoudige filter kan relevante onderwerpen missen; de dekking blijft expliciet gedeeltelijk.
 
 De limiet van drie partijen per dag telt AI-partijen. Een partij die aantoonbaar nul AI-aanroepen deed, geeft zowel de tokenreservering als de partijreservering vrij. Op 30 oktober zijn twee oude foutboekingen met uitsluitend `no_readable_source_text`-checkpoints, zonder AI-invoer of voorstellen, eenmalig gecorrigeerd. Het bewijs, de oorspronkelijke stand en de gecorrigeerde stand staan lokaal in `budget-reconciliation-2026-10-30.json`. Onbekend AI-verbruik is gereserveerd gebleven.
+
+Vanaf 30 oktober is alleen `weeklySourceLimit` verhoogd van 8 naar 16. De partijgrootte blijft vier bronnen, met maximaal drie AI-partijen en 360.000 gereserveerde/gemeten tokens per dag. Een ronde van zestien bronnen kan daardoor over meerdere dagen lopen. Bij een bereikt dagbudget blijft precies één vervolg in de wachtrij; de runner hervat de bestaande selectie na de daggrens in Europe/Amsterdam. Context, looptijd, pauzes en publicatiegoedkeuring blijven ongewijzigd. Een reeds gestarte ronde houdt zijn oorspronkelijke selectie.

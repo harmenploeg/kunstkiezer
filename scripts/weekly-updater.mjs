@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 
 export const DEFAULTS = Object.freeze({model:'gpt-6.1-sol', reasoningEffort:'low',
-  weeklySourceLimit:8, maxSources:4, maxInstagram:1, maxMinutes:20, maxInputChars:16000,
+  weeklySourceLimit:16, maxSources:4, maxInstagram:1, maxMinutes:20, maxInputChars:16000,
   maxPageBytes:262144, maxBatchTokens:120000, maxDailyTokens:360000,
   maxBatchesPerDay:3, maxToolCalls:30, maxAttempts:2, cooldownMinutes:30});
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');

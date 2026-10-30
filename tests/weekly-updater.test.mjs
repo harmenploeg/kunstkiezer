@@ -102,24 +102,30 @@ test('procesbewaker beëindigt een nagebootst AI-proces bij toolgrens; geen echt
  }finally{if(oldBin===undefined)delete process.env.KUNSTKIEZER_CODEX_BIN;else process.env.KUNSTKIEZER_CODEX_BIN=oldBin;if(oldToken===undefined)delete process.env.SUPABASE_ACCESS_TOKEN;else process.env.SUPABASE_ACCESS_TOKEN=oldToken;}
 }));
 
-test('echte PostgreSQL-transacties voltooien partijen met precies één vervolg',()=>fixture(async dir=>{
+test('zestien bronnen behouden één vervolg bij daglimiet en hervatten dezelfde ronde op de volgende dag',()=>fixture(async dir=>{
  const {PGlite}=await import('@electric-sql/pglite');const db=new PGlite();
  try{
  await db.exec(`create schema kunstkiezer_private;
  create table public.kk_update_runs(id uuid primary key default gen_random_uuid(),reason text,status text default 'queued',started_at timestamptz,finished_at timestamptz,summary text default '');
  create unique index one_active on public.kk_update_runs((true)) where status in ('queued','running');
  create table public.kk_update_sources(id text,name text,url text,notes text,enabled boolean,updated_at timestamptz);
- insert into public.kk_update_sources values ('a','a','https://example.test/a','',true,now()),('b','b','https://example.test/b','',true,now());
  insert into public.kk_update_runs(reason) values('scheduled');
  create function kunstkiezer_private.claim_update() returns setof public.kk_update_runs language sql as $$update public.kk_update_runs set status='running',started_at=now() where id=(select id from public.kk_update_runs where status='queued' limit 1) returning *$$;`);
- const sql=async q=>(await db.exec(q)).at(-1)?.rows||[];
- const model=async(prompt,c,d,charge)=>{const batch=JSON.parse(prompt.split('Bronnenpartij:\n')[1]);
- await atomicJson(batch[0].result_file,{source_id:batch[0].source_id,status:'read',summary:'klaar',urls:['https://example.test/proof'],window_complete:true,catalog_changed:false,publication_verified:false});await charge(100);return {ok:true};};
- const opts={dir,sql,model,config:settings({maxSources:1}),fetcher:async()=>new Response('',{status:403})};
- assert.equal((await tick({...opts,now:Date.parse('2026-10-29T10:00:00Z')})).status,'continued');
+ for(let i=0;i<16;i++)await db.query("insert into kk_update_sources values ($1,$1,$2,'',true,now())",[String(i).padStart(2,'0'),'https://example.test/'+i]);
+ const sql=async q=>(await db.exec(q)).at(-1)?.rows||[],seen=[];
+ const model=async(prompt,c,d,charge)=>{const batch=JSON.parse(prompt.split('Bronnenpartij:\n')[1]);assert.equal(batch.length,4);
+ for(const item of batch){seen.push(item.source_id);await atomicJson(item.result_file,{source_id:item.source_id,status:'read',summary:'klaar',urls:['https://example.test/proof'],window_complete:true,catalog_changed:false,publication_verified:false});}await charge(1000);return {ok:true,ai_calls:4};};
+ const opts={dir,sql,model,config:settings(),fetcher:async()=>new Response('',{status:403})};let cycle;
+ for(const hour of [10,11,12]){
+  assert.equal((await tick({...opts,now:Date.parse(`2026-11-02T${hour}:00:00Z`)})).status,'continued');
+  assert.equal((await db.query("select * from public.kk_update_runs where status='queued'")).rows.length,1);
+  const state=JSON.parse(await readFile(path.join(dir,'weekly-state.json')));cycle??=state.cycle;assert.equal(state.cycle,cycle);assert.equal(state.weeklyTargets.length,16);
+ }
+ assert.equal((await tick({...opts,now:Date.parse('2026-11-02T13:00:00Z')})).status,'budget_or_cooldown');assert.equal(seen.length,12);
  assert.equal((await db.query("select * from public.kk_update_runs where status='queued'")).rows.length,1);
- assert.equal((await tick({...opts,now:Date.parse('2026-10-29T11:00:00Z')})).status,'completed');
- assert.equal((await db.query("select * from public.kk_update_runs where status='completed'")).rows.length,2);
+ assert.equal((await tick({...opts,now:Date.parse('2026-11-03T01:00:00Z')})).status,'completed');
+ const state=JSON.parse(await readFile(path.join(dir,'weekly-state.json')));assert.equal(state.cycle,cycle);assert.equal(state.finished,true);assert.equal(new Set(seen).size,16);assert.equal(seen.length,16);assert.equal(state.usage['2026-11-02'].batches,3);assert.equal(state.usage['2026-11-03'].batches,1);
+ assert.equal((await db.query("select * from public.kk_update_runs where status='completed'")).rows.length,4);
  assert.equal((await db.query("select * from public.kk_update_runs where status in ('queued','running')")).rows.length,0);
  }finally{await db.close();}
 }));
@@ -131,11 +137,11 @@ test('liveproef behandelt één bron en maakt bij een onvolledige bron geen verv
 }));
 test('weeksteekproef is begrensd, sluit onleesbare bronnen uit en roteert oudste eerst',async()=>{
  const {weeklyTargets}=await import('../scripts/weekly-updater.mjs');
- const sources=Array.from({length:12},(_,i)=>({id:String(i).padStart(2,'0'),enabled:true,url:'https://example.test/'+i}));
+ const sources=Array.from({length:20},(_,i)=>({id:String(i).padStart(2,'0'),enabled:true,url:'https://example.test/'+i}));
  sources.push({id:'ig',enabled:true,url:'https://www.instagram.com/test/'},{id:'rss',enabled:true,url:'https://example.test/feed/'},{id:'mail',enabled:true,url:'https://us1.campaign-archive.com/feed?x=1'});
- const first=weeklyTargets(sources,{history:{}},DEFAULTS);assert.equal(first.length,8);assert.deepEqual(first,sources.slice(0,8).map(s=>s.id));
+ const first=weeklyTargets(sources,{history:{}},DEFAULTS);assert.equal(first.length,16);assert.deepEqual(first,sources.slice(0,16).map(s=>s.id));
  const history=Object.fromEntries(first.map(id=>[id,{last_proposed_at:'2026-10-29T12:00:00Z'}]));
- assert.deepEqual(weeklyTargets(sources,{history},DEFAULTS).slice(0,4),['08','09','10','11']);
+ assert.deepEqual(weeklyTargets(sources,{history},DEFAULTS).slice(0,4),['16','17','18','19']);
 });
 test('kunstbronnen krijgen voorrang en vastgelopen bronnen wachten tot cooldown of bronwijziging',async()=>{
  const {weeklyTargets}=await import('../scripts/weekly-updater.mjs');const sources=[source('krant-ad'),source('commons',{url:'https://commons.wikimedia.org/'}),source('museum')];

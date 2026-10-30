@@ -12,5 +12,5 @@
   "maxToolCalls": 30,
   "maxAttempts": 2,
   "cooldownMinutes": 30,
-  "weeklySourceLimit": 8
+  "weeklySourceLimit": 16
 }
