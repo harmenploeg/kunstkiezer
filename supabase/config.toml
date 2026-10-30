@@ -4,9 +4,9 @@ enabled = true
 schemas = ["public"]
 [auth]
 enabled = true
-# Voorlopig op loci-kunstkiezer.pages.dev; kunstkiezer.loci-amsterdam.nl volgt zodra de
-# DNS-regel bij Soverin er is. Beide staan al als toegestane redirect.
-site_url = "https://loci-kunstkiezer.pages.dev/account"
+# Sinds 30 oktober 2026 op het eigen subdomein. loci-kunstkiezer.pages.dev blijft
+# bereikbaar en blijft als redirect toegestaan.
+site_url = "https://kunstkiezer.loci-amsterdam.nl/account"
 # De oude adressen onder www.loci-amsterdam.nl/kunstkiezer verwijzen door; ze blijven
 # toegestaan zodat mails van vóór de verhuizing blijven werken.
 additional_redirect_urls = ["https://loci-kunstkiezer.pages.dev/account", "https://loci-kunstkiezer.pages.dev/account?reset=1", "https://kunstkiezer.loci-amsterdam.nl/account", "https://kunstkiezer.loci-amsterdam.nl/account?reset=1", "https://www.loci-amsterdam.nl/kunstkiezer/account", "https://www.loci-amsterdam.nl/kunstkiezer/account?reset=1"]

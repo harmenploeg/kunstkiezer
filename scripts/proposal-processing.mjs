@@ -6,7 +6,7 @@ import path from 'node:path';
 import {validateProposal,fetchPage} from './proposal-reviewer.mjs';
 import {atomicJson,json} from './weekly-updater.mjs';
 
-export const PRODUCTION='https://loci-kunstkiezer.pages.dev';
+export const PRODUCTION='https://kunstkiezer.loci-amsterdam.nl';
 export const SUPABASE='https://qrlfywcqkkzmerglmsbj.supabase.co';
 export const CATEGORIES=['openbare-kunst','beeldenparken','architectuur','evenementen'];
 const q=s=>"'"+String(s).replaceAll("'","''")+"'";

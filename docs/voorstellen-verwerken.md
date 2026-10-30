@@ -104,7 +104,7 @@ Daarna vergelijkt zij de daadwerkelijke productieconfiguratie, publieke Supabase
 gecontroleerde pakket. De broncode moet van `harmenploeg/kunstkiezer` zijn. Voor
 conceptrecords moet de publieke API juist géén rij teruggeven; daarvoor is geen
 statische publicatie nodig. De actuele productie is
-**https://loci-kunstkiezer.pages.dev/**; het oude Loci-pad verwijst daarnaartoe.
+**https://kunstkiezer.loci-amsterdam.nl/**; het oude Loci-pad verwijst daarnaartoe.
 
 Pas nadat alle controles slagen wordt de run `completed` en de receipt `verified`.
 Bij openbare wijzigingen wordt dan `published=true`. Een mislukking blijft als
