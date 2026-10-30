@@ -1,5 +1,6 @@
 > **Actualisatie 29 oktober 2026:** het oude pad op `www.loci-amsterdam.nl` verwijst
-> met HTTP 301 naar **https://loci-kunstkiezer.pages.dev/**. De huidige publieke
+> met HTTP 301 naar **https://kunstkiezer.loci-amsterdam.nl/** (sinds 30 oktober;
+> daarvoor naar loci-kunstkiezer.pages.dev). De huidige publieke
 > configuratie staat daar op `/api/config`. Een controle van alleen het oude pad
 > of een andere preview is geen bewijs van productie. Voor voorstelwijzigingen
 > geldt tevens [voorstellen-verwerken.md](voorstellen-verwerken.md): controleer de
@@ -9,7 +10,7 @@
 
 # Publiceren naar Loci
 
-Het productiedomein is voorlopig **https://loci-kunstkiezer.pages.dev/**, een eigen Cloudflare Pages-project (`loci-kunstkiezer`). Het subdomein **https://kunstkiezer.loci-amsterdam.nl/** staat al aan het project gekoppeld en volgt zodra de DNS-regel bij Soverin er is (`kunstkiezer` → CNAME → `loci-kunstkiezer.pages.dev`). Tot systeemaudit stap 1.3 (oktober 2026) stond de Kunstkiezer onder `www.loci-amsterdam.nl/kunstkiezer/`. Dat pad verwijst nu met een 301 door naar hetzelfde pad op het eigen domein. Deze repo publiceert zelf niets. Het oude previewproject `kunstkiezer.pages.dev` wordt sinds 26 oktober 2026 niet meer bijgewerkt; de workflows die ernaar publiceerden zijn op 29 oktober verwijderd, samen met hun Cloudflare-sleutel.
+Het productiedomein is **https://kunstkiezer.loci-amsterdam.nl/**, een eigen Cloudflare Pages-project (`loci-kunstkiezer`). De DNS-regel staat sinds 30 oktober 2026 bij Soverin, beheerd via MIJNfreedom (`kunstkiezer` → CNAME → `loci-kunstkiezer.pages.dev`). Het project blijft ook bereikbaar als https://loci-kunstkiezer.pages.dev/. Tot systeemaudit stap 1.3 (oktober 2026) stond de Kunstkiezer onder `www.loci-amsterdam.nl/kunstkiezer/`. Dat pad verwijst nu met een 301 door naar hetzelfde pad op het eigen domein. Deze repo publiceert zelf niets. Het oude previewproject `kunstkiezer.pages.dev` wordt sinds 26 oktober 2026 niet meer bijgewerkt; de workflows die ernaar publiceerden zijn op 29 oktober verwijderd, samen met hun Cloudflare-sleutel.
 
 Productie gebruikt de gecontroleerde publicatieketen van `harmenploeg/interactief`:
 
@@ -21,4 +22,4 @@ Productie gebruikt de gecontroleerde publicatieketen van `harmenploeg/interactie
 
 Op het eigen domein draait de Kunstkiezer los van Loci: geen Cloudflare Access, geen Loci-onderhoudsstand en geen Loci-serviceworker. Persoonlijke gegevens en beheer blijven beschermd door Supabase-accountrechten. De publieke Supabase-browserconfiguratie bevat geen beheersleutel. De kaart haalt zijn sleutel op via `/api/basemap-config`; die staat als geheim `LOCI_CARTO_BASEMAP_KEY` op het Pages-project. Browseropslag gaat niet mee naar een ander domein: wie ingelogd was onder `www.loci-amsterdam.nl/kunstkiezer`, logt op het nieuwe adres één keer opnieuw in, en bij de latere overstap naar het subdomein nog één keer.
 
-In Supabase (project `qrlfywcqkkzmerglmsbj`) staat `https://loci-kunstkiezer.pages.dev/account` als *Site URL*. Zowel `loci-kunstkiezer.pages.dev` als het subdomein staan als toegestane redirect, en de functies `delete-account` en `manage-users` laten beide als herkomst toe. De oude adressen blijven tijdens de overgang toegestaan.
+In Supabase (project `qrlfywcqkkzmerglmsbj`) staat `https://kunstkiezer.loci-amsterdam.nl/account` als *Site URL* (tot de overstap was dat `https://loci-kunstkiezer.pages.dev/account`). Zowel `loci-kunstkiezer.pages.dev` als het subdomein staan als toegestane redirect, en de functies `delete-account` en `manage-users` laten beide als herkomst toe. De oude adressen blijven tijdens de overgang toegestaan.

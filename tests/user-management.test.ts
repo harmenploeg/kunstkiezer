@@ -23,7 +23,7 @@ function setup({ authenticated = true, editor = true, roleError = false, revokeE
       return { auth: { admin: {
         inviteUserByEmail: async (email: string, options: { redirectTo: string }) => {
           calls.push('invite'); assert.equal(email, 'new@example.test');
-          assert.equal(options.redirectTo, 'https://loci-kunstkiezer.pages.dev/account');
+          assert.equal(options.redirectTo, 'https://kunstkiezer.loci-amsterdam.nl/account');
           return { data: { user: inviteError ? null : { id: other } }, error: inviteError ? { message: 'SMTP' } : null };
         },
         deleteUser: async (id: string) => { calls.push('delete'); assert.equal(id, other); return { error: deleteError ? { message: 'database' } : null }; },
