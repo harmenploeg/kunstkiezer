@@ -10,6 +10,21 @@ export function extractSourceText(html){
 }
 const clip=(text,n)=>{const bytes=Buffer.from(text);let end=Math.min(bytes.length,n);while(end>0){try{return new TextDecoder('utf-8',{fatal:true}).decode(bytes.subarray(0,end));}catch{end--;}}return '';};
 const consent=u=>/consent|privacy-gate|myprivacy|cookie-consent/i.test(u.hostname+' '+u.pathname);
+// Rank useful detail pages before generic menus, archives and FAQs.
+export function rankSourceLinks(links,base){
+ const score=value=>{const u=new URL(value),p=u.pathname.toLowerCase();let n=0;
+  if(/tentoon|expos|exhibition/.test(p))n+=50;
+  if(/opening|openingstijd|bezoek|visit|gesloten|closure/.test(p))n+=35;
+  if(/agenda|programma|nieuws|blog/.test(p))n+=15;
+  n+=Math.min(12,p.split('/').filter(Boolean).length*3);
+  if(/faq|privacy|cookie|contact|archief|archive/.test(p))n-=80;
+  if(/\/(?:19|20)\d{2}(?:\/|$)/.test(p)&&!p.includes('/'+new Date().getFullYear()))n-=30;
+  return n;
+ };
+ return [...new Set(links.map(v=>allowedSourceUrl(v,base)).filter(Boolean).map(u=>{u.hash='';return u.href;}))]
+  .filter(v=>v!==base&&!/\.(?:pdf|jpg|png|zip)(?:[?#]|$)/i.test(v))
+  .sort((a,b)=>score(b)-score(a)||a.localeCompare(b));
+}
 export async function readSourcePage(value,fetcher=fetch){
  const initial=allowedSourceUrl(value,value);if(!initial)return {status:'unsupported_url'};
  let url=initial;const visited=new Set(),signal=AbortSignal.timeout(SOURCE_LIMITS.timeoutMs);
@@ -35,9 +50,11 @@ export async function readSourcePage(value,fetcher=fetch){
    const html=Buffer.concat(parts).toString('utf8'),text=extractSourceText(html);
    if(/<title[^>]*>[^<]*(?:just a moment|access denied|captcha|consent|privacy settings)/i.test(html)||text.length<600&&/verify (?:that )?you are human|enable javascript and cookies|toegang geweigerd/i.test(text))return {status:'access_blocked'};
    if(text.length<20||truncated&&text.length<50)return {status:truncated?'truncated_before_content':'insufficient_text'};
-   const links=[...html.matchAll(/<a\b[^>]*href=["']([^"']+)["']/gi)].map(m=>allowedSourceUrl(m[1].replaceAll('&amp;','&'),url.href)).filter(Boolean)
-    .filter(u=>/faq|agenda|programma|nieuws|blog|tentoon|expos|bezoek|opening|visit|exhibition/i.test(u.pathname)).map(u=>{u.hash='';return u.href;});
-   return {status:'ok',page:{url:url.href,text:clip(text,SOURCE_LIMITS.textBytes),links:[...new Set(links)].filter(u=>u!==url.href).slice(0,SOURCE_LIMITS.links),fetched_at:new Date().toISOString(),html_truncated:truncated,text_truncated:Buffer.byteLength(text)>SOURCE_LIMITS.textBytes,redirects:hop}};
+   const links=[...html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a\s*>/gi)]
+    .filter(m=>/agenda|programma|nieuws|blog|tentoon|expos|bezoek|opening|visit|exhibition|museum|kunst|gesloten/i.test(m[1]+' '+extractSourceText(m[2])))
+    .map(m=>m[1].replaceAll('&amp;','&'));
+
+   return {status:'ok',page:{url:url.href,text:clip(text,SOURCE_LIMITS.textBytes),links:rankSourceLinks(links,url.href).slice(0,SOURCE_LIMITS.links),fetched_at:new Date().toISOString(),html_truncated:truncated,text_truncated:Buffer.byteLength(text)>SOURCE_LIMITS.textBytes,redirects:hop}};
   }
  }catch(e){return {status:signal.aborted||e.name==='TimeoutError'||e.name==='AbortError'?'source_timeout':'network_error'};}
 }

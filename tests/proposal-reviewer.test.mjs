@@ -90,3 +90,18 @@ test('gesplitste UTF-8 in CLI-output blijft intact voor letterlijke bewijsvergel
  const bin=path.join(dir,'fake-codex');await writeFile(bin,`#!${process.execPath}\nconst text=JSON.stringify({type:'item.completed',item:{type:'agent_message',text:JSON.stringify({summary:'Museumbezoek kost € 12.',changes:[],candidates:[]})}});const bytes=Buffer.from(text);const i=bytes.indexOf(Buffer.from('€'))+1;process.stdout.write(bytes.subarray(0,i));setTimeout(()=>process.stdout.write(bytes.subarray(i)),20);`);await chmod(bin,0o700);
  const result=await inferProposal('test',{executable:bin,seconds:2});assert.equal(result.ok,true);assert.equal(result.value.summary,'Museumbezoek kost € 12.');
 }));
+test('overzicht leidt binnen drie pagina’s naar detail en koppelt genoemde records op andere host',async()=>{
+ const {PGlite}=await import('@electric-sql/pglite');const db=new PGlite();
+ try{
+ await db.exec(`create table kk_update_sources(id text,name text,url text,notes text,enabled boolean,updated_at text);
+ insert into kk_update_sources values('s','Kunstbron','https://example.test/','',true,'now');
+ create table kk_museums(id text,name text,website_url text,summary text,operating_status text,updated_at text);
+ insert into kk_museums values('m','Museum Krona','https://museum.test/','Bestaande redactie','open','version1');
+ insert into kk_museums values('wrong','Museum','https://another.test/','Niet uniek','open','version2');
+ create table kk_discoveries(id text,name text,website_url text,summary text,visit_notes text,starts_on date,ends_on date,operating_status text,updated_at text,sources jsonb);`);
+ const seen=[];const sql=async q=>(await db.query(q)).rows;
+ const b=await prepareBundle(sql,{source_id:'s'},async u=>{seen.push(u);const body=u.endsWith('/tentoonstellingen/detail')?'<main>Museum Krona is tijdelijk gesloten wegens onderhoud. Heropening volgt later.</main>':u.endsWith('/tentoonstellingen')?'<main>Bekijk de actuele tentoonstellingen en bezoekinformatie.</main><a href="/tentoonstellingen/detail">Tentoonstelling detail</a>':'<main>Welkom bij deze kunstbron met actuele tentoonstellingen.</main><a href="/faq">FAQ</a><a href="/tentoonstellingen">Tentoonstellingen</a>';return new Response(body,{headers:{'content-type':'text/html'}});});
+ assert.deepEqual(seen,['https://example.test/','https://example.test/tentoonstellingen','https://example.test/tentoonstellingen/detail']);
+ assert.deepEqual(b.records.map(r=>r.id),['m']);assert.equal(b.records[0].updated_at,'version1');assert.ok(Buffer.byteLength(reviewPrompt(b))<=REVIEW_LIMITS.inputBytes);
+ }finally{await db.close();}
+});

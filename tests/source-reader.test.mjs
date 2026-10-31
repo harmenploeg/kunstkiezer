@@ -34,3 +34,8 @@ test('HTTP- en netwerkproblemen blijven te onderscheiden zonder ruwe inhoud te l
 test('korte menu-overblijfselen uit afgebroken pagina worden niet als bruikbare bron aangeboden',async()=>{
  const result=await readSourcePage('https://example.test/',async()=>html('<main>Wikimedia Commons Jump to content<script>'+('x'.repeat(SOURCE_LIMITS.bytes))));assert.equal(result.status,'truncated_before_content');
 });
+test('tentoonstellingsdetails gaan vóór FAQ en oude archieven; linktekst telt mee',async()=>{
+ const result=await readSourcePage('https://example.test/',async()=>html('<main>Actuele tentoonstellingen en bezoekinformatie van het museum.</main><a href="/faq">FAQ</a><a href="/nieuwsarchief/2015/10">Nieuws</a><a href="/tentoonstellingen">Tentoonstellingen</a><a href="/tentoonstellingen/nieuwe-kunst">Nieuwe kunst</a><a href="/item/42">Tentoonstelling schilderkunst</a><a href="https://foreign.test/exhibition">Tentoonstelling</a>'));
+ assert.equal(result.page.links[0],'https://example.test/tentoonstellingen/nieuwe-kunst');
+ assert.ok(result.page.links.includes('https://example.test/item/42'));assert.ok(!result.page.links.some(u=>u.includes('foreign.test')));
+});
