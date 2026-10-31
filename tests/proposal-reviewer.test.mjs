@@ -96,7 +96,7 @@ test('overzicht leidt binnen drie pagina’s naar detail en koppelt genoemde rec
  await db.exec(`create table kk_update_sources(id text,name text,url text,notes text,enabled boolean,updated_at text);
  insert into kk_update_sources values('s','Kunstbron','https://example.test/','',true,'now');
  create table kk_museums(id text,name text,website_url text,summary text,operating_status text,updated_at text);
- insert into kk_museums values('m','Museum Krona','https://museum.test/','Bestaande redactie','open','version1');
+ insert into kk_museums values('m','Het Museum Krona','https://museum.test/','Bestaande redactie','open','version1');
  insert into kk_museums values('wrong','Museum','https://another.test/','Niet uniek','open','version2');
  create table kk_discoveries(id text,name text,website_url text,summary text,visit_notes text,starts_on date,ends_on date,operating_status text,updated_at text,sources jsonb);`);
  const seen=[];const sql=async q=>(await db.query(q)).rows;

@@ -18,6 +18,9 @@ export function rankSourceLinks(links,base){
   if(/agenda|programma|nieuws|blog/.test(p))n+=15;
   n+=Math.min(12,p.split('/').filter(Boolean).length*3);
   if(/faq|privacy|cookie|contact|archief|archive/.test(p))n-=80;
+  if(/\/(?:category|categorie|tag)(?:\/|$)/.test(p))n-=35;
+  if(/\/page\/\d+|^\/(?:de|en|fr)(?:\/|$)/.test(p))n-=70;
+  if(/\/(?:artikel|artikelen|article|expositie|tentoonstelling)\/[^/]+/.test(p))n+=35;
   if(/\/(?:19|20)\d{2}(?:\/|$)/.test(p)&&!p.includes('/'+new Date().getFullYear()))n-=30;
   return n;
  };
@@ -50,8 +53,9 @@ export async function readSourcePage(value,fetcher=fetch){
    const html=Buffer.concat(parts).toString('utf8'),text=extractSourceText(html);
    if(/<title[^>]*>[^<]*(?:just a moment|access denied|captcha|consent|privacy settings)/i.test(html)||text.length<600&&/verify (?:that )?you are human|enable javascript and cookies|toegang geweigerd/i.test(text))return {status:'access_blocked'};
    if(text.length<20||truncated&&text.length<50)return {status:truncated?'truncated_before_content':'insufficient_text'};
-   const links=[...html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a\s*>/gi)]
-    .filter(m=>/agenda|programma|nieuws|blog|tentoon|expos|bezoek|opening|visit|exhibition|museum|kunst|gesloten/i.test(m[1]+' '+extractSourceText(m[2])))
+   const linkHtml=html;
+   const links=[...linkHtml.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a\s*>/gi)]
+    .filter(m=>/agenda|programma|nieuws|blog|tentoon|expos|bezoek|opening|visit|exhibition|museum|kunst|gesloten/i.test(m[1]+' '+extractSourceText(m[2]))||/artikel|article/i.test(m[1])&&extractSourceText(m[2]).length>=12)
     .map(m=>m[1].replaceAll('&amp;','&'));
 
    return {status:'ok',page:{url:url.href,text:clip(text,SOURCE_LIMITS.textBytes),links:rankSourceLinks(links,url.href).slice(0,SOURCE_LIMITS.links),fetched_at:new Date().toISOString(),html_truncated:truncated,text_truncated:Buffer.byteLength(text)>SOURCE_LIMITS.textBytes,redirects:hop}};

@@ -45,7 +45,8 @@ export async function prepareBundle(sql,item,fetcher=fetch){
  // Match names actually mentioned on the collected detail pages as well as hosts.
  // A name match is context for comparison, never proof of a change or primary evidence.
  const mentioned=quote(pages.map(p=>p.text).join(' ').normalize('NFC').toLowerCase());
- const nameMatch=`length(trim(name))>=8 and lower(trim(name)) not in ('tentoonstelling','kunstmuseum','beeldentuin','exhibition','museum voor moderne kunst') and position(lower(trim(name)) in ${mentioned})>0`;
+ const matchName="regexp_replace(lower(trim(name)), '^(het|de|the) +', '')";
+ const nameMatch=`length(${matchName})>=8 and lower(trim(name)) not in ('tentoonstelling','kunstmuseum','beeldentuin','exhibition','museum voor moderne kunst') and position(${matchName} in ${mentioned})>0`;
  const records=await sql(`select * from (
  select 'kk_museums' as record_table,id,name,website_url,summary,null::text as visit_notes,null::text as starts_on,null::text as ends_on,operating_status,updated_at from public.kk_museums where website_url ilike ${pattern} or (${nameMatch})
  union all

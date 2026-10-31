@@ -39,3 +39,7 @@ test('tentoonstellingsdetails gaan vóór FAQ en oude archieven; linktekst telt 
  assert.equal(result.page.links[0],'https://example.test/tentoonstellingen/nieuwe-kunst');
  assert.ok(result.page.links.includes('https://example.test/item/42'));assert.ok(!result.page.links.some(u=>u.includes('foreign.test')));
 });
+test('paginering en taalduplicaten verdringen geen inhoudelijk artikel',async()=>{
+ const r=await readSourcePage('https://example.test/',async()=>html('<main>Actuele kunst en tentoonstellingen in het museum.<a href="/category/exposities/page/2/">Meer exposities</a><a href="/de/tentoonstellingen/">Tentoonstellingen Duits</a><a href="/artikelen/kleurrijke-wereld/">Een kleurrijke wereld van schilderkunst</a></main>'));
+ assert.equal(r.page.links[0],'https://example.test/artikelen/kleurrijke-wereld/');
+});
