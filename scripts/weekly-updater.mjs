@@ -201,11 +201,14 @@ export async function tick({sql,config=DEFAULTS,dir=path.join(ROOT,'.local-updat
       }
       delete state.inflight;await save();
     }
-    const own=state.run?await sql(`select * from public.kk_update_runs where id=${sqlString(state.run)}::uuid and status='running' and started_at>now()-interval '4 hours'`):[];
-    // A previously failed owned run needs a NEW queue request, never reopening its expired lease.
-    // Charged attempts and the shared daily budget still cap this recovery.
+    // Recover a claim whose database response or local checkpoint write was lost.
+    // Only an exact continuation marker of this cycle can be adopted.
+    const continuation=state.cycle?` or summary in (${sqlString('Kunstkiezer batch '+state.cycle)},${sqlString('Herstel bronnenpartij '+state.cycle)})`:'';
+    const own=state.run?await sql(`select * from public.kk_update_runs where (id=${sqlString(state.run)}::uuid${continuation}) and status='running' and started_at>now()-interval '4 hours'`):[];
+    // A terminal previous batch may have lost its continuation. Recreate one only
+    // for a persisted unfinished cycle, under the same database queue lock.
     if(lane==='weekly'&&!own.length&&state.run&&!state.finished&&selectSources(sources,state,config).length){
-      await sql(`insert into public.kk_update_runs(reason,summary) select 'manual',${sqlString('Herstel bronnenpartij '+state.cycle)} where exists(select 1 from public.kk_update_runs where id=${sqlString(state.run)}::uuid and status='failed') and not exists(select 1 from public.kk_update_runs where status in ('queued','running')) on conflict do nothing`);
+      await sql(`begin; select pg_advisory_xact_lock(7483922); insert into public.kk_update_runs(reason,summary) select 'manual',${sqlString('Herstel bronnenpartij '+state.cycle)} where exists(select 1 from public.kk_update_runs where id=${sqlString(state.run)}::uuid and status in ('failed','completed')) and not exists(select 1 from public.kk_update_runs where status in ('queued','running')) on conflict do nothing; commit;`);
     }
     const claimed=own.length?own:lane==='weekly'?await sql('select * from kunstkiezer_private.claim_update()'):
       await sql("insert into public.kk_update_runs(reason,status,started_at,summary) select 'manual','running',now(),'Afzonderlijke begrensde proef/dossierpartij' where not exists(select 1 from public.kk_update_runs where status in ('queued','running')) on conflict do nothing returning *");

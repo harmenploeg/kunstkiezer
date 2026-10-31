@@ -102,7 +102,7 @@ test('procesbewaker beëindigt een nagebootst AI-proces bij toolgrens; geen echt
  }finally{if(oldBin===undefined)delete process.env.KUNSTKIEZER_CODEX_BIN;else process.env.KUNSTKIEZER_CODEX_BIN=oldBin;if(oldToken===undefined)delete process.env.SUPABASE_ACCESS_TOKEN;else process.env.SUPABASE_ACCESS_TOKEN=oldToken;}
 }));
 
-test('zestien bronnen behouden één vervolg bij daglimiet en hervatten dezelfde ronde op de volgende dag',()=>fixture(async dir=>{
+test('zestien bronnen herstellen verdwenen vervolg en verloren claim en hervatten na daglimiet',()=>fixture(async dir=>{
  const {PGlite}=await import('@electric-sql/pglite');const db=new PGlite();
  try{
  await db.exec(`create schema kunstkiezer_private;
@@ -120,6 +120,9 @@ test('zestien bronnen behouden één vervolg bij daglimiet en hervatten dezelfde
   assert.equal((await tick({...opts,now:Date.parse(`2026-11-02T${hour}:00:00Z`)})).status,'continued');
   assert.equal((await db.query("select * from public.kk_update_runs where status='queued'")).rows.length,1);
   const state=JSON.parse(await readFile(path.join(dir,'weekly-state.json')));cycle??=state.cycle;assert.equal(state.cycle,cycle);assert.equal(state.weeklyTargets.length,16);
+  // Lost continuation after completed batch, then lost claim response before checkpoint.
+  if(hour===10)await db.exec("delete from public.kk_update_runs where status='queued'");
+  if(hour===11)await db.exec("select * from kunstkiezer_private.claim_update()");
  }
  assert.equal((await tick({...opts,now:Date.parse('2026-11-02T13:00:00Z')})).status,'budget_or_cooldown');assert.equal(seen.length,12);
  assert.equal((await db.query("select * from public.kk_update_runs where status='queued'")).rows.length,1);
