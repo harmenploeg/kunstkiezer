@@ -105,3 +105,38 @@ test('overzicht leidt binnen drie pagina’s naar detail en koppelt genoemde rec
  assert.deepEqual(b.records.map(r=>r.id),['m']);assert.equal(b.records[0].updated_at,'version1');assert.ok(Buffer.byteLength(reviewPrompt(b))<=REVIEW_LIMITS.inputBytes);
  }finally{await db.close();}
 });
+test('weekrunner hergebruikt alleen een recente lege beoordeling van dezelfde invoer',()=>fixture(async dir=>{
+ let note='',version='v1',body='Actuele informatie over kunst in het museum.',now=Date.parse('2026-10-29'),calls=0;
+ let candidates=[];
+ const sql=async q=>q.includes('kk_update_sources')?
+  [{id:'source1',url:'https://example.test/',enabled:true,notes:note}]:[{...record,updated_at:version}];
+ const reviewer=createProposalReviewer({
+  sql,cacheDir:path.join(dir,'cache'),clock:()=>now,
+  fetcher:async()=>new Response(body,{headers:{'content-type':'text/html'}}),
+  infer:async()=>{calls++;return {ok:true,tokens:123,value:{summary:'Beoordeeld.',changes:[],candidates}};}
+ });
+ const run=async (windowFrom='2026-10-01')=>{
+  const item={source_id:'source1',result_file:path.join(dir,'result.json'),window_from:windowFrom,window_to:new Date(now).toISOString()};
+  let usage;
+  const out=await reviewer('Bronnenpartij:\n'+JSON.stringify([item]),{maxBatchTokens:1000},dir,async n=>{usage=n;});
+  return {calls:out.ai_calls,reused:out.reused_reviews,usage};
+ };
+ const inferred={calls:1,reused:0,usage:123};
+ assert.deepEqual(await run(),inferred);
+ now+=7*86400000;
+ assert.deepEqual(await run('2026-10-08'),{calls:0,reused:1,usage:0});
+ assert.deepEqual(await run('2026-09-30'),inferred);
+ body+=' Met actuele informatie over een nieuw programma.';
+ assert.deepEqual(await run(),inferred);
+ version='v2';
+ assert.deepEqual(await run(),inferred);
+ note='Controleer het programma';
+ assert.deepEqual(await run(),inferred);
+ now+=28*86400000;
+ assert.deepEqual(await run(),inferred);
+ body='Nieuwe tentoonstelling met glaskunst in het museum.';
+ candidates=[{name:'Glaskunst',evidence_url:'https://example.test/',evidence_quote:body}];
+ assert.deepEqual(await run(),inferred);
+ assert.deepEqual(await run(),inferred);
+ assert.equal(calls,8);
+}));
