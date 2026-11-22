@@ -1,12 +1,15 @@
 import {spawn} from 'node:child_process';
+import {createHash} from 'node:crypto';
 import {mkdtemp,readFile,rm,writeFile} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import {tmpdir} from 'node:os';
 import path from 'node:path';
-import {atomicJson} from './weekly-updater.mjs';
+import {atomicJson,json} from './weekly-updater.mjs';
 import {allowedSourceUrl as allowedUrl,readSourcePage,rankSourceLinks} from './source-reader.mjs';
 
 export const REVIEW_LIMITS=Object.freeze({inputBytes:12000,outputBytes:5000,seconds:45,pages:3,pageBytes:131072,records:6});
+const REVIEW_REUSE_MS=28*86400000;
+const fingerprint=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const quote=s=>"'"+String(s).replaceAll("'","''")+"'";
 const clip=(s,n)=>{s=String(s||'');while(Buffer.byteLength(s)>n)s=s.slice(0,Math.max(0,s.length-128));return s;};
 const schema={type:'object',additionalProperties:false,required:['summary','changes','candidates'],properties:{
@@ -58,6 +61,13 @@ export async function prepareBundle(sql,item,fetcher=fetch){
   collection_errors:collectionErrors,records:records.slice(0,REVIEW_LIMITS.records),pages:pages.map(({url,text,fetched_at,html_truncated,text_truncated})=>({url,text,fetched_at,html_truncated,text_truncated}))};
  // Explicitly record every truncation; never silently remove records to fit.
  bundle.text_truncated=pages.some(p=>p.html_truncated||p.text_truncated);
+ // Include the extracted text and links before prompt clipping. A partial fetch
+ // cannot establish that the same set of pages was reviewed.
+ const reuseKey=collectionErrors.length||pages.some(p=>p.html_truncated)?null:fingerprint({
+  instructions,schema,source:bundle.source,records,limits:REVIEW_LIMITS,
+  pages:pages.map(({fetched_at,...content})=>content)
+ });
+ Object.defineProperty(bundle,'reuseKey',{value:reuseKey});
  for(const n of [2200,1500,900,400,100]){
   for(const p of bundle.pages){const text=clip(p.text,n);if(text!==p.text){p.text_truncated=true;bundle.text_truncated=true;}p.text=text;}
   try{reviewPrompt(bundle);return bundle;}catch(e){if(e.message!=='input_limit')throw e;bundle.text_truncated=true;}
@@ -139,25 +149,41 @@ export async function inferProposal(prompt,{executable=process.env.KUNSTKIEZER_C
   return {ok:true,value,...measured};
  }finally{await rm(dir,{recursive:true,force:true});}
 }
-export function createProposalReviewer({sql,fetcher=fetch,infer=inferProposal}={}){
+export function createProposalReviewer({sql,fetcher=fetch,infer=inferProposal,cacheDir=null,clock=Date.now}={}){
  return async function review(_legacyPrompt,config,resultDir,onUsage){
   const items=JSON.parse(_legacyPrompt.split('Bronnenpartij:\n')[1]);
-  let tokens=0,cached=0,failures=0,lastFailure=null,aiCalls=0,unmeasured=false;const artifacts=[],proposedSources=[];
+  let tokens=0,cached=0,failures=0,lastFailure=null,aiCalls=0,reused=0,unmeasured=false;const artifacts=[],proposedSources=[];
   let circuit=null;
   for(const item of items){
    let diagnostic=null;
    try{
-    if(circuit)throw new Error('deferred_'+circuit);
+    if(circuit&&!cacheDir)throw new Error('deferred_'+circuit);
     const bundle=await prepareBundle(sql,item,fetcher);
+    const cacheFile=cacheDir&&bundle.reuseKey?path.join(cacheDir,fingerprint(item.source_id)+'.json'):null;
+    const previous=cacheFile?await json(cacheFile,null):null;
+    const now=clock(), age=now-Date.parse(previous?.reviewed_at);
+    const reuse=previous?.key===bundle.reuseKey&&bundle.reuseKey&&age>=0&&age<REVIEW_REUSE_MS&&
+     Date.parse(bundle.window_from)>=Date.parse(previous.window_from)&&Date.parse(bundle.window_to)>=Date.parse(previous.window_to);
+    if(!reuse&&circuit)throw new Error('deferred_'+circuit);
     const bundleFile=path.join(resultDir,String(item.source_id).replace(/[^a-zA-Z0-9_-]/g,'_')+'-input.json');
     await atomicJson(bundleFile,bundle);
-    const prompt=reviewPrompt(bundle);aiCalls++;
-    let output;try{output=await infer(prompt);}catch(e){unmeasured=true;throw e;}
-    if(output.usage_measured===false||!Number.isFinite(output.tokens)||output.tokens<=0)unmeasured=true;
+    let output;
+    if(reuse){
+     reused++;
+     output={ok:true,tokens:0,reused:true,value:{summary:'De opgehaalde bronfragmenten en catalogusgegevens zijn gelijk aan de vorige beoordeling zonder voorstellen.',changes:[],candidates:[]}};
+    }else{
+     aiCalls++;
+     try{output=await infer(reviewPrompt(bundle));}catch(e){unmeasured=true;throw e;}
+     if(output.usage_measured===false||!Number.isFinite(output.tokens)||output.tokens<=0)unmeasured=true;
+    }
     diagnostic={reason:output.reason||null,exit_code:output.exit_code??null,usage_measured:output.usage_measured??false};
     tokens+=output.tokens||0;cached+=output.cached_input_tokens||0;
     if(!output.ok){lastFailure=output.reason;throw new Error(output.reason);}
     const proposal=validateProposal(output.value,bundle),proposalFile=bundleFile.replace('-input.json','-proposal.json');
+    if(cacheFile&&!reuse){
+     if(proposal.changes.length||proposal.candidates.length)await rm(cacheFile,{force:true});
+     else await atomicJson(cacheFile,{key:bundle.reuseKey,reviewed_at:new Date(now).toISOString(),window_from:bundle.window_from,window_to:bundle.window_to});
+    }
     await atomicJson(proposalFile,{...proposal,source_id:item.source_id,usage:output,bundle_file:bundleFile});artifacts.push(proposalFile);proposedSources.push(item.source_id);
     await atomicJson(item.result_file,{source_id:item.source_id,proposal_file:proposalFile,status:'partial',summary:clip(`Voorstel gereed voor redactie; geen publicatie. ${proposal.summary} Voorstel: ${proposalFile}`,1900),urls:bundle.pages.map(p=>p.url),window_complete:false,catalog_changed:false,publication_verified:false});
    }catch(e){failures++;lastFailure=e.message;
@@ -167,6 +193,6 @@ export function createProposalReviewer({sql,fetcher=fetch,infer=inferProposal}={
   }
   // Missing measurements reserve the whole budget; no invisible retry.
   await onUsage(unmeasured?Math.max(tokens,config.maxBatchTokens):tokens);
-  return {ok:failures===0,reason:lastFailure,tokens,cached_input_tokens:cached,ai_calls:aiCalls,usage_estimated:unmeasured,circuit_error:circuit,proposals:artifacts,proposed_sources:proposedSources,proposal_only:true};
+  return {ok:failures===0,reason:lastFailure,tokens,cached_input_tokens:cached,ai_calls:aiCalls,reused_reviews:reused,usage_estimated:unmeasured,circuit_error:circuit,proposals:artifacts,proposed_sources:proposedSources,proposal_only:true};
  };
 }

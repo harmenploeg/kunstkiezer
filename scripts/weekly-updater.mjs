@@ -248,7 +248,7 @@ export async function tick({sql,config=DEFAULTS,dir=path.join(ROOT,'.local-updat
       // Reserve before starting: a process crash cannot reset or bypass the daily cap.
       await save();
       let outcome;
-      try{if(model===null){const {createProposalReviewer}=await import('./proposal-reviewer.mjs');model=createProposalReviewer({sql,fetcher});}
+      try{if(model===null){const {createProposalReviewer}=await import('./proposal-reviewer.mjs');model=createProposalReviewer({sql,fetcher,cacheDir:lane==='weekly'?path.join(dir,'review-cache'):null});}
       outcome=await model((lane==='backlog'?'Dit is UITSLUITEND een afzonderlijke dossierpartij: onderzoek de opgegeven bestaande dossiers en geen nieuwsbronnen. Gebruik hetzelfde checkpointformaat; read betekent dat de beschreven dossierpunten volledig zijn gecontroleerd.\n':'')+batchPrompt(batch,config,resultDir),config,resultDir,async used=>{
         state.usage[chargedDay].tokens+=Math.max(0,used)-config.maxBatchTokens;await save();
       });}catch{outcome={ok:false,reason:'model_start_failed'};}
@@ -275,7 +275,9 @@ export async function tick({sql,config=DEFAULTS,dir=path.join(ROOT,'.local-updat
     const incomplete=sources.filter(s=>s.enabled&&state.sources[s.id]?.status!=='read');
     state.finished=!pending;
     const proposalComplete=sources.some(s=>s.enabled)&&sources.filter(s=>s.enabled).every(s=>Boolean(state.sources[s.id]?.proposal_file));
-    const summary=(proposalComplete?'Voorstellen opgeslagen voor redactie; geen catalogusmutaties of publicatie. ':'')+`Bronnenpartij ${state.cycle}: ${batch.length} behandeld; ${incomplete.length} bronnen nog niet volledig gecontroleerd. `+
+    const reuseCount=batch.length?state.lastModelOutcome?.reused_reviews:0;
+    const reuseSummary=reuseCount?`Eerdere beoordeling hergebruikt voor ${reuseCount} van ${batch.length} bronnen. `:'';
+    const summary=(proposalComplete?'Voorstellen opgeslagen voor redactie; geen catalogusmutaties of publicatie. ':'')+`Bronnenpartij ${state.cycle}: ${batch.length} behandeld; ${incomplete.length} bronnen nog niet volledig gecontroleerd. `+reuseSummary+
       (pending?(lane==='weekly'?'Vervolg begrensd ingepland.':'Dossiervervolg via expliciete backlog-tick.'):'Ronde afgesloten; beperkingen in lokaal verslag.');
     await atomicJson(path.join(dir,'reports',batchId+'.json'),{cycle:state.cycle,run:run.id,summary,config,lane,modelOutcome:state.lastModelOutcome,snapshot:sources,sources:state.sources,
       deferred:sourcePool.filter(s=>s.enabled&&!sources.some(target=>target.id===s.id)).map(s=>({id:s.id,name:s.name,status:'outside_weekly_sample'})),

@@ -19,7 +19,18 @@ drie pagina's op de host van de bron op, met een begrensde omvang en wachttijd.
 Doorverwijzingen worden niet automatisch gevolgd. Instagram en bronnen zonder
 bruikbare HTML krijgen een expliciete beperking, geen verzonnen controle-uitkomst.
 
-Daarna start één nieuwe Codex-sessie per geselecteerde bron, via de bestaande
+De wekelijkse runner vergelijkt opgehaalde fragmenten, links, broninstellingen
+en relevante catalogusgegevens met de laatste geldige beoordeling zonder
+wijzigingen of kandidaten. Bij dezelfde gegevens en een minstens even recent
+venster mag hij dat resultaat maximaal 28 dagen hergebruiken. De bron wordt
+opnieuw opgehaald. Een mislukte deelpagina of afgebroken HTML-overdracht
+verhindert hergebruik. Het lokale partijrapport telt hergebruik afzonderlijk
+in `reused_reviews`. Het overzicht in Beheer vermeldt hoeveel bronnen zijn
+overgeslagen door hergebruik. Een hergebruikte beoordeling kost nul Codex-aanroepen.
+Dekking blijft gedeeltelijk. Voorstellen met wijzigingen of kandidaten gaan
+via de gebruikelijke beoordeling en verwerking.
+
+Voor elke resterende bron start één nieuwe Codex-sessie via de bestaande
 ChatGPT-aanmelding. Er wordt geen apart betaalde OpenAI API gebruikt; API-sleutels
 worden niet aan het kindproces meegegeven. De sessie start in een tijdelijke lege
 werkmap met alleen-lezenrechten. Gebruikersconfiguratie, projectdocumenten,
